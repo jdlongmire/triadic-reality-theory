@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Longmire
+    given-names: James D.
+    orcid: "https://orcid.org/0009-0009-1383-7698"
+    email: jdlongmire@outlook.com
+version: "0.9"
+date-released: "2026-06"
+url: "https://github.com/jdlongmire/triadic-reality-theory"
+abstract: >
+  Triadic Reality Theory proposes that actualized physical reality is constituted
+  by three co-requiring primitives: finite logical constraint, infinite
+  informational potential, and actualizing action. It is offered as a candidate
+  foundational ontology and research program, not a completed physical theory.

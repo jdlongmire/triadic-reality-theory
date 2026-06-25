@@ -1,0 +1,26 @@
+graph TD
+  ACT-001["ACT-001<br/>bridge/verified"]
+  EXT-001["EXT-001<br/>imported/imported"]
+  LOG-001["LOG-001<br/>primitive/axiomatized"]
+  LOG-002["LOG-002<br/>primitive/prose_only"]
+  ONT-001["ONT-001<br/>primitive/prose_only"]
+  ONT-002["ONT-002<br/>primitive/prose_only"]
+  ONT-003["ONT-003<br/>primitive/axiomatized"]
+  OPN-001["OPN-001<br/>open/open"]
+  OPN-002["OPN-002<br/>open/open"]
+  PRD-001["PRD-001<br/>prediction/open"]
+  PRD-002["PRD-002<br/>prediction/open"]
+  PRD-003["PRD-003<br/>prediction/prose_only"]
+  ACT-001 --> ONT-003
+  ACT-001 --> LOG-001
+  EXT-001 --> LOG-001
+  LOG-001 --> ONT-003
+  LOG-002 --> LOG-001
+  ONT-002 --> ONT-001
+  ONT-003 --> ONT-001
+  OPN-001 --> ONT-002
+  OPN-002 --> OPN-001
+  PRD-001 --> OPN-001
+  PRD-002 --> OPN-001
+  PRD-002 --> OPN-002
+  PRD-003 --> ONT-002

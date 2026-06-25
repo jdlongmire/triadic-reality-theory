@@ -1,0 +1,21 @@
+id: ACT-001
+name: Actualization Preserves Admissibility
+statement: |
+  Actualizing action A maps admissible structure to actual structure; every
+  actual structure is L₃-admissible (the gate between representable and actual is L₃).
+tier: 1
+role: bridge
+proof_status: verified
+epistemic_status: established
+formal_artifacts:
+  lean:
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_admissible, status: proven }
+depends_on:
+  - { claim_id: ONT-003, dependency_type: formal }
+  - { claim_id: LOG-001, dependency_type: formal }
+source_documents:
+  - { doc: TRT-v0.9, section: "3.3, 3.4" }
+risk_if_false: "If A could actualize inadmissible structure, the gate fails and L₃ would not govern χ."
+notes: |
+  First verified theorem in the TRT Lean core. Holds by construction in the present
+  model; deriving it from a dynamics is belt work.

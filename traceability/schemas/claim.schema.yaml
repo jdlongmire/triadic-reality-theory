@@ -1,0 +1,100 @@
+# TRT Claim Schema
+# Version: 1.0.0
+# Purpose: structure for every claim file. Adapted from the LRT traceability schema,
+# with a `tier` binding to the falsifiability ladder and a `computation` artifact type
+# (TRT predictions are partly numerical, not only proof-theoretic).
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://triadic-reality-theory/claim.schema.yaml"
+
+type: object
+required: [id, name, statement, tier, role, proof_status, epistemic_status]
+
+properties:
+  id:
+    type: string
+    pattern: "^(ONT|LOG|ACT|QM|PHY|INT|PRD|OPN|EXT)-[0-9]{3}$"
+    description: |
+      Unique identifier with semantic prefix:
+        ONT - ontological primitives        LOG - logical constraints
+        ACT - actualization/constitution     QM  - quantum reconstruction
+        PHY - dynamics/temporal/gravity      INT - interpretive consequences
+        PRD - empirical predictions          OPN - open problems
+        EXT - imported external theorems
+
+  name: { type: string, maxLength: 100 }
+  statement: { type: string, description: "Precise statement of the claim" }
+
+  tier:
+    type: integer
+    enum: [0, 1, 2, 3]
+    description: "Falsifiability tier: 0 strategy, 1 hard core, 2 belt, 3 prediction"
+
+  role:
+    type: string
+    enum: [primitive, bridge, derived, imported, prediction, open]
+    description: "Grounding role (Lakatos): primitive/bridge = hard core; derived/imported = belt; prediction = severe test; open = frontier"
+
+  proof_status:
+    type: string
+    enum: [verified, axiomatized, imported, prose_only, open]
+    description: "Formalization status (verified = Lean-proven theorem or reproduced computation)"
+
+  epistemic_status:
+    type: string
+    enum: [established, argued, conjectured, open]
+    description: "Confidence (maps to HIGH/MEDIUM/LOW/UNCERTAIN in prose)"
+
+  depends_on:
+    type: array
+    items:
+      type: object
+      required: [claim_id]
+      properties:
+        claim_id: { type: string, pattern: "^(ONT|LOG|ACT|QM|PHY|INT|PRD|OPN|EXT)-[0-9]{3}$" }
+        dependency_type: { type: string, enum: [logical, formal, interpretive, empirical] }
+    description: "Immediate dependencies only. The graph MUST be acyclic (circularity discipline)."
+
+  formal_artifacts:
+    type: object
+    properties:
+      lean:
+        type: array
+        items:
+          type: object
+          required: [file, symbol]
+          properties:
+            file: { type: string, description: "Path relative to formalization/" }
+            symbol: { type: string }
+            status: { type: string, enum: [proven, axiom, sorry] }
+      computation:
+        type: array
+        items:
+          type: object
+          required: [notebook]
+          properties:
+            notebook: { type: string, description: "Path to the computational artifact" }
+            result: { type: string }
+            status: { type: string, enum: [reproduces, contradicts, pending] }
+    description: "Links to Lean and/or computational implementation"
+
+  source_documents:
+    type: array
+    items:
+      type: object
+      properties:
+        doc: { type: string, description: "e.g. TRT-v0.9, LRT-MASTER" }
+        section: { type: string }
+    description: "Where this claim appears in prose"
+
+  external_citations: { type: array, items: { type: string } }
+
+  risk_if_false:
+    type: string
+    description: "What breaks downstream if this claim fails (the failure condition)"
+
+  falsifies:
+    type: string
+    description: "For predictions — what evidence would refute this (Popperian)"
+
+  notes: { type: string }

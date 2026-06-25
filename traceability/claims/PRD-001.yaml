@@ -1,0 +1,22 @@
+id: PRD-001
+name: Co-Admissibility Conjecture (incompatible channels)
+statement: |
+  Under incompatible decoherence channels, the co-admissible set is fixed by the
+  channel constraint structure alone (no chosen entanglement witness), matching
+  einselection where it is witness-independent and differing computably where it is not.
+tier: 3
+role: prediction
+proof_status: open
+epistemic_status: conjectured
+depends_on:
+  - { claim_id: OPN-001, dependency_type: formal }
+source_documents:
+  - { doc: TRT-v0.9, section: "13.1, 13.2" }
+external_citations: ["Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851"]
+risk_if_false: "If false, TRT's measurement account is re-description of decoherence, not new physics."
+falsifies: |
+  Refuted if the formalized criterion (a) reproduces the witness-dependence it was
+  meant to eliminate, (b) contradicts the analytic critical coupling at which
+  Fock-state optimality ends in the cavity-field case, or (c) yields no definite
+  prediction (showing interpretation, not physics).
+notes: Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.

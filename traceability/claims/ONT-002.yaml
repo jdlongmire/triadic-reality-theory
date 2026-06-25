@@ -1,0 +1,18 @@
+id: ONT-002
+name: Three Co-Requiring Primitives
+statement: |
+  L₃ (finite logical constraint), I∞ (infinite informational potential), and A
+  (actualizing action) are mutually co-requiring constituents of actualized
+  reality; each is characterizable on its own terms, none obtains in isolation.
+tier: 1
+role: primitive
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - { claim_id: ONT-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "3, 9.1, 9.2" }
+risk_if_false: |
+  If the three reduce to fewer (or the co-requirement is definitional, hence
+  circular), the economy claim and the synthetic-necessity argument collapse.
+notes: Co-requirement is metaphysical, not definitional — dependency graph acyclic (paper §9.2).

@@ -1,0 +1,19 @@
+id: LOG-001
+name: L₃ as Admissibility Constraint
+statement: |
+  The finite laws {Identity, Non-Contradiction, Excluded Middle} are not
+  conventions but admissibility constraints marking the boundary between coherent
+  actuality and incoherent pseudo-state.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: established
+formal_artifacts:
+  lean:
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: L3Admissible, status: axiom }
+depends_on:
+  - { claim_id: ONT-003, dependency_type: formal }
+source_documents:
+  - { doc: TRT-v0.9, section: "3.1, 7.1" }
+external_citations: ["Aristotle, Metaphysics Γ"]
+risk_if_false: "If L₃ is merely conventional, the hard core loses its transcendental warrant."

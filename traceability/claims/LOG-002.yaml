@@ -1,0 +1,17 @@
+id: LOG-002
+name: Denial of L₃ is Self-Refuting
+statement: |
+  L₃ is immune by necessity, not convention: its denial deploys identity and
+  non-contradiction to be stated at all (demonstration by refutation, not derivation).
+tier: 1
+role: primitive
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - { claim_id: LOG-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "7.1" }
+external_citations: ["Aristotle, Metaphysics Γ"]
+risk_if_false: |
+  This is what makes TRT's hard core stronger than an orthodox Lakatosian core.
+  If the transcendental argument fails, immunity falls back to mere convention.

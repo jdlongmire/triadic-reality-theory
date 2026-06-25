@@ -1,0 +1,23 @@
+id: PRD-002
+name: Gravity Linearity Test (GR vs modified gravity)
+statement: |
+  Whether co-admissibility is linear or quadratic in the holonomy deficit decides
+  GR (linear, no higher-curvature corrections) vs Bianconi-class modified gravity
+  (quadratic). The two differ observationally at high curvature.
+tier: 3
+role: prediction
+proof_status: open
+epistemic_status: conjectured
+depends_on:
+  - { claim_id: OPN-001, dependency_type: formal }
+  - { claim_id: OPN-002, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "10.1, 13.4" }
+external_citations: ["Regge (1961)", "Lovelock (1971)", "Bianconi (2025)"]
+risk_if_false: "If the criterion underdetermines gravity, the gravity programme is interpretive, not derivational."
+falsifies: |
+  Refuted if the formalized global-co-admissibility criterion is compatible with
+  multiple non-equivalent gravitational structures equally well, cannot distinguish
+  Einstein gravity from the broader generally-covariant class, or cannot recover the
+  black-hole area law (with coefficient) in the appropriate limit.
+notes: Confidence that GR is recoverable conditional on linearity is MEDIUM (Regge existence proof); that linearity holds is UNCERTAIN.

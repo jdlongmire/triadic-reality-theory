@@ -1,0 +1,19 @@
+id: OPN-002
+name: Actualization-Resolution Keystone
+statement: |
+  Characterize how A resolves unsatisfiable/unresolved admissible structure:
+  obstruction-registering (linear → GR, projective measurement-free) or best-fit
+  projective (quadratic → modified gravity, projective measurement).
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: OPN-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "6.6.2" }
+  - { doc: ROADMAP, section: "Tier 3 / 3.1" }
+risk_if_false: |
+  Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with
+  an imposed norm, the linear/GR route closes.
+notes: The structural parallel between the gravity fork and measurement emerged from the relational-graph computation (MEDIUM).

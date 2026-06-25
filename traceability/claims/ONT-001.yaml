@@ -1,0 +1,20 @@
+id: ONT-001
+name: Central Identity χ ≡ A(I∞ | L₃)
+statement: |
+  Actual reality χ is infinite informational potential constrained by finite
+  logic through actualizing action: χ ≡ A(I∞ | L₃).
+tier: 1
+role: primitive
+proof_status: prose_only
+epistemic_status: argued
+formal_artifacts:
+  lean:
+    - file: TrtFormalization/Core/Primitives.lean
+      symbol: Chi
+      status: axiom
+source_documents:
+  - { doc: TRT-v0.9, section: "4, 5" }
+risk_if_false: |
+  The central identity is the programme's hard core. Its failure is not a belt
+  adjustment but abandonment of TRT as such.
+notes: Stated narratively in the paper; encoded as the carrier Chi in the Lean core.

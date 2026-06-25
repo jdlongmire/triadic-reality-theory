@@ -1,0 +1,361 @@
+{
+  "ACT-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-003",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "established",
+    "formal_artifacts": {
+      "lean": [
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "proven",
+          "symbol": "actual_is_admissible"
+        }
+      ]
+    },
+    "id": "ACT-001",
+    "name": "Actualization Preserves Admissibility",
+    "notes": "First verified theorem in the TRT Lean core. Holds by construction in the present\nmodel; deriving it from a dynamics is belt work.\n",
+    "proof_status": "verified",
+    "risk_if_false": "If A could actualize inadmissible structure, the gate fails and L\u2083 would not govern \u03c7.",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "3.3, 3.4"
+      }
+    ],
+    "statement": "Actualizing action A maps admissible structure to actual structure; every\nactual structure is L\u2083-admissible (the gate between representable and actual is L\u2083).\n",
+    "tier": 1
+  },
+  "EXT-001": {
+    "depends_on": [
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "established",
+    "external_citations": [
+      "Gleason (1957)",
+      "Stone (1932)",
+      "jdlongmire/logic-realism-theory"
+    ],
+    "id": "EXT-001",
+    "name": "LRT Formal Core (imported)",
+    "notes": "PLANNED import (stage 2) \u2014 see formalization/lrt/README.md. Status flips to verified\nonce vendored and lake-built green under v4.28.0 / Mathlib v4.28.0.\n",
+    "proof_status": "imported",
+    "risk_if_false": "If the imported proofs do not build under the matched toolchain, the L\u2083 formal backbone is unavailable.",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "LRT-MASTER",
+        "section": "formalization/"
+      }
+    ],
+    "statement": "The verified Lean derivation chain of Logic Realism Theory (X \u2192 \u2026 \u2192 Schr\u00f6dinger;\nBorn rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's\nL\u2083 constituent and is imported as a sub-project.\n",
+    "tier": 1
+  },
+  "LOG-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-003",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "established",
+    "external_citations": [
+      "Aristotle, Metaphysics \u0393"
+    ],
+    "formal_artifacts": {
+      "lean": [
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "L3Admissible"
+        }
+      ]
+    },
+    "id": "LOG-001",
+    "name": "L\u2083 as Admissibility Constraint",
+    "proof_status": "axiomatized",
+    "risk_if_false": "If L\u2083 is merely conventional, the hard core loses its transcendental warrant.",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "3.1, 7.1"
+      }
+    ],
+    "statement": "The finite laws {Identity, Non-Contradiction, Excluded Middle} are not\nconventions but admissibility constraints marking the boundary between coherent\nactuality and incoherent pseudo-state.\n",
+    "tier": 1
+  },
+  "LOG-002": {
+    "depends_on": [
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Aristotle, Metaphysics \u0393"
+    ],
+    "id": "LOG-002",
+    "name": "Denial of L\u2083 is Self-Refuting",
+    "proof_status": "prose_only",
+    "risk_if_false": "This is what makes TRT's hard core stronger than an orthodox Lakatosian core.\nIf the transcendental argument fails, immunity falls back to mere convention.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "7.1"
+      }
+    ],
+    "statement": "L\u2083 is immune by necessity, not convention: its denial deploys identity and\nnon-contradiction to be stated at all (demonstration by refutation, not derivation).\n",
+    "tier": 1
+  },
+  "ONT-001": {
+    "epistemic_status": "argued",
+    "formal_artifacts": {
+      "lean": [
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "Chi"
+        }
+      ]
+    },
+    "id": "ONT-001",
+    "name": "Central Identity \u03c7 \u2261 A(I\u221e | L\u2083)",
+    "notes": "Stated narratively in the paper; encoded as the carrier Chi in the Lean core.",
+    "proof_status": "prose_only",
+    "risk_if_false": "The central identity is the programme's hard core. Its failure is not a belt\nadjustment but abandonment of TRT as such.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "4, 5"
+      }
+    ],
+    "statement": "Actual reality \u03c7 is infinite informational potential constrained by finite\nlogic through actualizing action: \u03c7 \u2261 A(I\u221e | L\u2083).\n",
+    "tier": 1
+  },
+  "ONT-002": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "ONT-002",
+    "name": "Three Co-Requiring Primitives",
+    "notes": "Co-requirement is metaphysical, not definitional \u2014 dependency graph acyclic (paper \u00a79.2).",
+    "proof_status": "prose_only",
+    "risk_if_false": "If the three reduce to fewer (or the co-requirement is definitional, hence\ncircular), the economy claim and the synthetic-necessity argument collapse.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "3, 9.1, 9.2"
+      }
+    ],
+    "statement": "L\u2083 (finite logical constraint), I\u221e (infinite informational potential), and A\n(actualizing action) are mutually co-requiring constituents of actualized\nreality; each is characterizable on its own terms, none obtains in isolation.\n",
+    "tier": 1
+  },
+  "ONT-003": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "established",
+    "formal_artifacts": {
+      "lean": [
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "Representable"
+        },
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "Admissible"
+        },
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "Actual"
+        },
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "OutcomeActual"
+        }
+      ]
+    },
+    "id": "ONT-003",
+    "name": "Four-Tier Engine",
+    "proof_status": "axiomatized",
+    "risk_if_false": "The four-tier distinction is the load-bearing engine (dialetheism, superposition,\nPBR, measurement, black holes). Without it those treatments fail jointly.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "3.4, 6.5"
+      }
+    ],
+    "statement": "Informational structure is stratified: representable (well-formed, incl.\ncontradiction) \u2283 admissible (survives L\u2083) \u2283 actual (A-realized) with\noutcome-actual reserved for determinate measurement results.\n",
+    "tier": 1
+  },
+  "OPN-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-001",
+    "name": "Formalize Co-Admissibility (Task 0.1)",
+    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.",
+    "proof_status": "open",
+    "risk_if_false": "The gating task. If no formalization avoids a free measure, or every one reduces\nto the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose\ndiscriminating content and the programme collapses to re-description.\n",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "6.6, 13.1"
+      },
+      {
+        "doc": "ROADMAP",
+        "section": "Tier 0 / 0.1"
+      }
+    ],
+    "statement": "Define co-admissibility as a criterion C(constraints) \u2192 admissible set that is\nwell-defined, computable, and measure-independent (no free entanglement measure).\n",
+    "tier": 2
+  },
+  "OPN-002": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-002",
+    "name": "Actualization-Resolution Keystone",
+    "notes": "The structural parallel between the gravity fork and measurement emerged from the relational-graph computation (MEDIUM).",
+    "proof_status": "open",
+    "risk_if_false": "Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with\nan imposed norm, the linear/GR route closes.\n",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "6.6.2"
+      },
+      {
+        "doc": "ROADMAP",
+        "section": "Tier 3 / 3.1"
+      }
+    ],
+    "statement": "Characterize how A resolves unsatisfiable/unresolved admissible structure:\nobstruction-registering (linear \u2192 GR, projective measurement-free) or best-fit\nprojective (quadratic \u2192 modified gravity, projective measurement).\n",
+    "tier": 2
+  },
+  "PRD-001": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851"
+    ],
+    "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics).\n",
+    "id": "PRD-001",
+    "name": "Co-Admissibility Conjecture (incompatible channels)",
+    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.",
+    "proof_status": "open",
+    "risk_if_false": "If false, TRT's measurement account is re-description of decoherence, not new physics.",
+    "role": "prediction",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "13.1, 13.2"
+      }
+    ],
+    "statement": "Under incompatible decoherence channels, the co-admissible set is fixed by the\nchannel constraint structure alone (no chosen entanglement witness), matching\neinselection where it is witness-independent and differing computably where it is not.\n",
+    "tier": 3
+  },
+  "PRD-002": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Regge (1961)",
+      "Lovelock (1971)",
+      "Bianconi (2025)"
+    ],
+    "falsifies": "Refuted if the formalized global-co-admissibility criterion is compatible with\nmultiple non-equivalent gravitational structures equally well, cannot distinguish\nEinstein gravity from the broader generally-covariant class, or cannot recover the\nblack-hole area law (with coefficient) in the appropriate limit.\n",
+    "id": "PRD-002",
+    "name": "Gravity Linearity Test (GR vs modified gravity)",
+    "notes": "Confidence that GR is recoverable conditional on linearity is MEDIUM (Regge existence proof); that linearity holds is UNCERTAIN.",
+    "proof_status": "open",
+    "risk_if_false": "If the criterion underdetermines gravity, the gravity programme is interpretive, not derivational.",
+    "role": "prediction",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "10.1, 13.4"
+      }
+    ],
+    "statement": "Whether co-admissibility is linear or quadratic in the holonomy deficit decides\nGR (linear, no higher-curvature corrections) vs Bianconi-class modified gravity\n(quadratic). The two differ observationally at high curvature.\n",
+    "tier": 3
+  },
+  "PRD-003": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Wigner (1960)"
+    ],
+    "falsifies": "A retrodiction, not a forward test \u2014 it does not discriminate TRT from rivals that\nalso predict the fit. Its weight is bounded; the discriminating burden stays with\nPRD-001 and PRD-002.\n",
+    "id": "PRD-003",
+    "name": "Effectiveness of Mathematics (retrodiction)",
+    "notes": "MEDIUM. Companion \u00a73.4.2 (discipline of foundations) is MEDIUM and admits competing readings.",
+    "proof_status": "prose_only",
+    "risk_if_false": "Weakens a retrodictive support; does not threaten the hard core.",
+    "role": "prediction",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "9.5, 3.4.2"
+      }
+    ],
+    "statement": "The (Wigner) effectiveness of mathematics in physics is a structural expectation\nof TRT, not an anomaly: mathematics is what L\u2083 operating on I\u221e generates.\n",
+    "tier": 3
+  }
+}

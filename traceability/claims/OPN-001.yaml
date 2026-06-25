@@ -1,0 +1,19 @@
+id: OPN-001
+name: Formalize Co-Admissibility (Task 0.1)
+statement: |
+  Define co-admissibility as a criterion C(constraints) → admissible set that is
+  well-defined, computable, and measure-independent (no free entanglement measure).
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: ONT-002, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "6.6, 13.1" }
+  - { doc: ROADMAP, section: "Tier 0 / 0.1" }
+risk_if_false: |
+  The gating task. If no formalization avoids a free measure, or every one reduces
+  to the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose
+  discriminating content and the programme collapses to re-description.
+notes: Root of the dependency graph. May be a computational rather than a Lean-proof object.

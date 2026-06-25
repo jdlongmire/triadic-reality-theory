@@ -1,0 +1,23 @@
+id: ONT-003
+name: Four-Tier Engine
+statement: |
+  Informational structure is stratified: representable (well-formed, incl.
+  contradiction) ⊃ admissible (survives L₃) ⊃ actual (A-realized) with
+  outcome-actual reserved for determinate measurement results.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: established
+formal_artifacts:
+  lean:
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Representable, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Admissible, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Actual, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: OutcomeActual, status: axiom }
+depends_on:
+  - { claim_id: ONT-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "3.4, 6.5" }
+risk_if_false: |
+  The four-tier distinction is the load-bearing engine (dialetheism, superposition,
+  PBR, measurement, black holes). Without it those treatments fail jointly.

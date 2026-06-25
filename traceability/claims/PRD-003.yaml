@@ -1,0 +1,20 @@
+id: PRD-003
+name: Effectiveness of Mathematics (retrodiction)
+statement: |
+  The (Wigner) effectiveness of mathematics in physics is a structural expectation
+  of TRT, not an anomaly: mathematics is what L₃ operating on I∞ generates.
+tier: 3
+role: prediction
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - { claim_id: ONT-002, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "9.5, 3.4.2" }
+external_citations: ["Wigner (1960)"]
+risk_if_false: "Weakens a retrodictive support; does not threaten the hard core."
+falsifies: |
+  A retrodiction, not a forward test — it does not discriminate TRT from rivals that
+  also predict the fit. Its weight is bounded; the discriminating burden stays with
+  PRD-001 and PRD-002.
+notes: MEDIUM. Companion §3.4.2 (discipline of foundations) is MEDIUM and admits competing readings.

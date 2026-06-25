@@ -1,0 +1,19 @@
+id: EXT-001
+name: LRT Formal Core (imported)
+statement: |
+  The verified Lean derivation chain of Logic Realism Theory (X → … → Schrödinger;
+  Born rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's
+  L₃ constituent and is imported as a sub-project.
+tier: 1
+role: imported
+proof_status: imported
+epistemic_status: established
+depends_on:
+  - { claim_id: LOG-001, dependency_type: formal }
+source_documents:
+  - { doc: LRT-MASTER, section: "formalization/" }
+external_citations: ["Gleason (1957)", "Stone (1932)", "jdlongmire/logic-realism-theory"]
+risk_if_false: "If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable."
+notes: |
+  PLANNED import (stage 2) — see formalization/lrt/README.md. Status flips to verified
+  once vendored and lake-built green under v4.28.0 / Mathlib v4.28.0.

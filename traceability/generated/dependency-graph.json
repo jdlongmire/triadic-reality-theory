@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    "ACT-001",
+    "EXT-001",
+    "LOG-001",
+    "LOG-002",
+    "ONT-001",
+    "ONT-002",
+    "ONT-003",
+    "OPN-001",
+    "OPN-002",
+    "PRD-001",
+    "PRD-002",
+    "PRD-003"
+  ],
+  "edges": [
+    {
+      "from": "ACT-001",
+      "to": "ONT-003",
+      "type": "formal"
+    },
+    {
+      "from": "ACT-001",
+      "to": "LOG-001",
+      "type": "formal"
+    },
+    {
+      "from": "EXT-001",
+      "to": "LOG-001",
+      "type": "formal"
+    },
+    {
+      "from": "LOG-001",
+      "to": "ONT-003",
+      "type": "formal"
+    },
+    {
+      "from": "LOG-002",
+      "to": "LOG-001",
+      "type": "logical"
+    },
+    {
+      "from": "ONT-002",
+      "to": "ONT-001",
+      "type": "logical"
+    },
+    {
+      "from": "ONT-003",
+      "to": "ONT-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-001",
+      "to": "ONT-002",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-002",
+      "to": "OPN-001",
+      "type": "logical"
+    },
+    {
+      "from": "PRD-001",
+      "to": "OPN-001",
+      "type": "formal"
+    },
+    {
+      "from": "PRD-002",
+      "to": "OPN-001",
+      "type": "formal"
+    },
+    {
+      "from": "PRD-002",
+      "to": "OPN-002",
+      "type": "logical"
+    },
+    {
+      "from": "PRD-003",
+      "to": "ONT-002",
+      "type": "logical"
+    }
+  ]
+}
