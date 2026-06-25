@@ -5,7 +5,11 @@ Internal SOP for taking a TRT paper from repo source to a citable Zenodo DOI. Re
 ## Prerequisites (already in place)
 
 - **Tool:** `/media/jdlongmire/Macro-Drive-1TB/GitHub_Repos/ologos-repos/zenodo-publisher/zenodo_publisher.py` — creates a draft deposition, uploads files, applies metadata, `--publish` only when explicit, `--sandbox` supported.
-- **Token:** `ZENODO_ACCESS_TOKEN` lives in `~/.thinxai-credentials` (production, publish-capable: `deposit:write` + `deposit:actions`). Pass it via an `--env` file or export it; **never commit it.**
+- **Token:** the production token (publish-capable: `deposit:write` + `deposit:actions`) lives in `~/.thinxai-credentials` under the name **`ZENODO_ACCESS_TOKEN_PROD`**. The publisher reads **`ZENODO_ACCESS_TOKEN`**, so map it at run time (see below). **Never** commit it, echo it, or pass the whole credentials file to the tool (it holds every thinx secret, not just Zenodo).
+
+  ```bash
+  export ZENODO_ACCESS_TOKEN="$(grep '^ZENODO_ACCESS_TOKEN_PROD=' ~/.thinxai-credentials | cut -d= -f2-)"
+  ```
 - **PDF build:** `pandoc` + `xelatex` are installed; the deposited artifact is a built PDF (single-source rule below).
 
 ## Single-source rule
@@ -42,19 +46,20 @@ Corrections after publishing are a **new version** of the same record (the conce
 PUB=/media/jdlongmire/Macro-Drive-1TB/GitHub_Repos/ologos-repos/zenodo-publisher
 PAPER=1-hypothesis/paper          # the paper folder
 
+# 0. Map the token into the name the publisher expects (value stays out of argv/logs):
+export ZENODO_ACCESS_TOKEN="$(grep '^ZENODO_ACCESS_TOKEN_PROD=' ~/.thinxai-credentials | cut -d= -f2-)"
+
 # 1. Build the PDF from the canonical markdown (public copy once it exists)
 ./0-program-methods/ops/build-paper.sh "$PAPER/TRT-v1.0-public.md" "$PAPER/TRT-v1.0.pdf"
 
 # 2. Fill $PAPER/metadata.json (title, description/abstract, version, keywords).
 
 # 3. DRAFT deposit (review before publishing — never publish blind):
-python "$PUB/zenodo_publisher.py" "$PAPER/TRT-v1.0.pdf" \
-  --metadata "$PAPER/metadata.json" --env ~/.thinxai-credentials
+python "$PUB/zenodo_publisher.py" "$PAPER/TRT-v1.0.pdf" --metadata "$PAPER/metadata.json"
 #    -> review the draft on zenodo.org
 
 # 4. PUBLISH only after JD approves the draft:
-python "$PUB/zenodo_publisher.py" "$PAPER/TRT-v1.0.pdf" \
-  --metadata "$PAPER/metadata.json" --env ~/.thinxai-credentials --publish
+python "$PUB/zenodo_publisher.py" "$PAPER/TRT-v1.0.pdf" --metadata "$PAPER/metadata.json" --publish
 
 # 5. Write back the minted DOI into $PAPER/RECORD.md.
 # 6. Update CITATION.cff with the DOI; add a references entry; note in 3-prediction/appraisal.md.
