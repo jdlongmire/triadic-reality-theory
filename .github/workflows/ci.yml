@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  traceability:
+    name: Traceability (schema + acyclic graph + fresh reports)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Validate claims + check dependency graph is acyclic
+        run: python3 traceability/scripts/build.py
+      - name: Generated reports must be fresh (no stale commits)
+        run: |
+          if ! git diff --quiet traceability/generated; then
+            echo "::error::traceability/generated is stale — run build.py and commit the result"
+            git diff --stat traceability/generated
+            exit 1
+          fi
+
+  lean-core:
+    name: Lean core typecheck (Mathlib-free)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan + Lean (pinned by lean-toolchain)
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o elan-init.sh
+          bash elan-init.sh -y --default-toolchain "$(cat formalization/lean-toolchain)"
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Typecheck Core/Primitives.lean (no Mathlib, must have 0 sorry)
+        working-directory: formalization
+        run: lean TrtFormalization/Core/Primitives.lean
