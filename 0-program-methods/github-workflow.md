@@ -6,9 +6,9 @@ How the programme uses GitHub's tools as its operating spine. The principle: tre
 
 | GitHub tool | Programme use |
 |---|---|
-| **Issues** | One per open task / conjecture / review. An issue states a *target*, a *prerequisite*, and a *failure condition* — an issue without a failure condition is not a research task but a hope. Labelled by tier (`tier:0–3`), by `role` (hard-core/belt/prediction), and by status. |
-| **Milestones** | The [ROADMAP](ROADMAP.md) tiers (0.1, 1.1, 2.x, 3.1, 4.x). A milestone closes when its conjecture is *resolved* — confirmation **or** recorded refutation both count. |
-| **Projects (board)** | Kanban over belt work: `Backlog → Formalizing → Computing → Under review → Resolved`. The board is the live view of the positive heuristic. |
+| **Issues** | One per open task / conjecture / review. An issue states a *target*, a *prerequisite*, and a *failure condition* — an issue without a failure condition is not a research task but a hope. Labelled by tier (`tier:1–3`), by PI (`pi-N`), and by commitment (`committed`/`stretch`). |
+| **Milestones** | **Program Increments** (the temporal box, e.g. `PI-1`). A PI closes when its objectives are *resolved* — confirmation **or** recorded refutation both count. (Tiers are *labels*, not milestones — they are structural, not temporal.) See [pi-planning/](pi-planning/). |
+| **Projects (board)** | Kanban over the PI's work: `Backlog → Formalizing → Computing → Under review → Resolved`. The board is the live view of the positive heuristic. |
 | **Pull requests** | Every belt change is a PR, reviewed against the [progressive-vs-degenerating criterion](METHODOLOGY.md). A PR that inflates a confidence label, removes a failure condition, or presents interpretation as derivation is declined regardless of technical quality. |
 | **Discussions** | Open conceptual debate before it hardens into an issue or a claim. |
 | **Actions (CI)** | The devops gate — see below. |
