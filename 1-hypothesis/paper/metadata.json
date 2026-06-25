@@ -1,0 +1,38 @@
+{
+  "_comment": "Zenodo deposit metadata for the TRT position paper. NOT deposit-ready until: refs verified (issue #1), public copy cut (status note stripped), version bumped to 1.0. See 0-program-methods/ops/zenodo-publishing.md.",
+  "metadata": {
+    "title": "Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "Triadic Reality Theory proposes that actualized physical reality is constituted by three co-requiring primitives: finite logical constraint, infinite informational potential, and actualizing action, denoted L3, I-infinity, and A, with actual reality given by the identity chi = A(I-infinity | L3). It is offered as a candidate foundational ontology and research programme, not a completed physical theory: two physics-facing conjectures (co-admissibility in decoherence; gravity as global co-admissibility) are stated with explicit failure conditions, and the effectiveness of mathematics is recovered as a retrodiction. The work is structured as a Lakatosian research programme with a transcendentally-warranted hard core, under Popperian demarcation.",
+    "creators": [
+      {
+        "name": "Longmire, James D.",
+        "orcid": "0009-0009-1383-7698"
+      }
+    ],
+    "keywords": [
+      "foundations of physics",
+      "quantum foundations",
+      "philosophy of physics",
+      "logic and ontology",
+      "information",
+      "decoherence",
+      "measurement problem",
+      "quantum gravity",
+      "research programme"
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "0.9",
+    "language": "eng",
+    "notes": "Prepared as an AI-enabled research programme; the repository carries full claim-to-proof traceability and a stated Popper/Lakatos methodology. Working-draft version 0.9 is NOT for deposit; first deposit is at v1.0 after reference verification and removal of the working-draft status note.",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/jdlongmire/triadic-reality-theory",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ]
+  }
+}
