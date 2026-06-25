@@ -2,7 +2,7 @@
 
 > **Tier:** 1-hypothesis. **Lakatos role:** the **hard core** of the research programme — the commitments held immune from refutation by the *negative heuristic*. Refutation is not aimed here; it is directed at the [protective belt](../2-theory/). This file enumerates *what is in the core*, so that the negative heuristic can be applied without ambiguity.
 >
-> See [`../0-strategy/METHODOLOGY.md`](../0-strategy/METHODOLOGY.md) for why the core is immune (by *necessity*, not merely convention) and how the belt/heuristic/appraisal apparatus surrounds it. The narrative statement of the core is the position paper, [`paper/TRT-v0.9.md`](paper/TRT-v0.9.md).
+> See [`../0-program-methods/METHODOLOGY.md`](../0-program-methods/METHODOLOGY.md) for why the core is immune (by *necessity*, not merely convention) and how the belt/heuristic/appraisal apparatus surrounds it. The narrative statement of the core is the position paper, [`paper/TRT-v0.9.md`](paper/TRT-v0.9.md).
 
 ## The immune commitments
 

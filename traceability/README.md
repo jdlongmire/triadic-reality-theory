@@ -1,6 +1,6 @@
 # Traceability
 
-Full claim ↔ proof ↔ prose traceability — a first-class goal of the programme. This layer is the [Popper/Lakatos methodology](../0-strategy/METHODOLOGY.md) rendered machine-checkable.
+Full claim ↔ proof ↔ prose traceability — a first-class goal of the programme. This layer is the [Popper/Lakatos methodology](../0-program-methods/METHODOLOGY.md) rendered machine-checkable.
 
 ## How it works
 

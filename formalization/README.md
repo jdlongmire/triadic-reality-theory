@@ -1,6 +1,6 @@
 # TRT Lean 4 Formalization
 
-Lean 4 formalization of Triadic Reality Theory. The module namespaces mirror the [falsifiability tiers](../0-strategy/METHODOLOGY.md): `Core ⇄ 1-hypothesis`, `Belt ⇄ 2-theory`, `Prediction ⇄ 3-prediction`.
+Lean 4 formalization of Triadic Reality Theory. The module namespaces mirror the [falsifiability tiers](../0-program-methods/METHODOLOGY.md): `Core ⇄ 1-hypothesis`, `Belt ⇄ 2-theory`, `Prediction ⇄ 3-prediction`.
 
 ## Status (2026-06)
 

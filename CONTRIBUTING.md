@@ -2,7 +2,7 @@
 
 TRT is a foundational-ontology research programme with a defined path toward physics-level results. It is led by an independent researcher and is genuinely open to falsification. **The project's credibility rests on maintaining honest confidence labels and stated failure conditions. Contributions are evaluated first against whether they preserve that discipline.**
 
-The governing standard is the [Popper/Lakatos methodology](0-strategy/METHODOLOGY.md): a contribution is accepted if it is a **progressive problemshift** and declined if it is a **degenerating** one.
+The governing standard is the [Popper/Lakatos methodology](0-program-methods/METHODOLOGY.md): a contribution is accepted if it is a **progressive problemshift** and declined if it is a **degenerating** one.
 
 ## What counts as progressive (welcome)
 

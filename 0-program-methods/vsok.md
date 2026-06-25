@@ -1,6 +1,6 @@
 # VSOK — Vision · Strategy · Objectives · Key Results
 
-The strategic frame for the programme. VSOK is the Tier-0 structured artifact (Ologos VWM process: VSOK / WBS / MBSE); here it sits *above* the falsifiability ladder ([0-strategy](.) governs tiers 1–3, it is not on the ladder). The Objectives and Key Results are the [ROADMAP](ROADMAP.md) tiers recast as OKRs.
+The strategic frame for the programme. VSOK is the Tier-0 structured artifact (Ologos VWM process: VSOK / WBS / MBSE); here it sits *above* the falsifiability ladder ([0-program-methods](.) governs tiers 1–3, it is not on the ladder). The Objectives and Key Results are the [ROADMAP](ROADMAP.md) tiers recast as OKRs.
 
 ---
 

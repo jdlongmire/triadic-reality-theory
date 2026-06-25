@@ -1,6 +1,6 @@
 # Open Problems (consolidated)
 
-Mirrors paper §12. Each is a belt-construction or residue the program tracks. Confidence and failure conditions are maintained per the [methodology](../0-strategy/METHODOLOGY.md).
+Mirrors paper §12. Each is a belt-construction or residue the program tracks. Confidence and failure conditions are maintained per the [methodology](../0-program-methods/METHODOLOGY.md).
 
 | # | Problem | Tier task | Confidence |
 |---|---|---|---|
@@ -10,6 +10,6 @@ Mirrors paper §12. Each is a belt-construction or residue the program tracks. C
 | 4 | **Testability** — generate a discriminating prediction that survives contact with data | [co-adm conjecture](../3-prediction/co-admissibility-conjecture.md), [gravity test](../3-prediction/gravity-linearity-test.md) | LOW |
 | 5 | **Dimensional analysis** — relate ontological action *A*, physical action *S*, energy, time; the *S → A* inference (paper §8.5) | [0.2](00-foundational/actualization-measure.md) | LOW |
 | 6 | **Equivocation** — define logic/information/action before use, across disciplines | (cross-cutting) | — |
-| 7 | **Theology/metaphysics boundary** — keep formal/physical/metaphysical claims distinct; the one explicit posit (actuality ≠ possibility, §9.3) stated openly | [METHODOLOGY](../0-strategy/METHODOLOGY.md) | — |
+| 7 | **Theology/metaphysics boundary** — keep formal/physical/metaphysical claims distinct; the one explicit posit (actuality ≠ possibility, §9.3) stated openly | [METHODOLOGY](../0-program-methods/METHODOLOGY.md) | — |
 
 **The keystone** ([actualization-resolution.md](00-foundational/actualization-resolution.md)) is the shared root of problems 3 and 4's gravity arm: whether *A* registers obstruction (linear → GR) or best-fit projects (quadratic → modified gravity).

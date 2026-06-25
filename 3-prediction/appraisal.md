@@ -4,9 +4,9 @@
 
 ## Current verdict (TRT v0.9)
 
-**Unappraised.** TRT is a research programme in the literal Lakatosian sense — an articulated hard core, an articulated positive heuristic (the [ROADMAP](../0-strategy/ROADMAP.md)), and *named* potential novel facts — but **no corroborated novel fact yet.** By the programme's own standard it is not yet doing physics; it is positioned to.
+**Unappraised.** TRT is a research programme in the literal Lakatosian sense — an articulated hard core, an articulated positive heuristic (the [ROADMAP](../0-program-methods/ROADMAP.md)), and *named* potential novel facts — but **no corroborated novel fact yet.** By the programme's own standard it is not yet doing physics; it is positioned to.
 
-This is not a deficiency to hide. It is the honest status, and naming it correctly is the discipline that the [methodology](../0-strategy/METHODOLOGY.md) exists to protect.
+This is not a deficiency to hide. It is the honest status, and naming it correctly is the discipline that the [methodology](../0-program-methods/METHODOLOGY.md) exists to protect.
 
 ## What would move the needle to *progressive*
 

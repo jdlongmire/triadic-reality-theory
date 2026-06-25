@@ -23,7 +23,7 @@ The baselines form a **falsifiability gradient** — each tier is more exposed t
 
 | Tier | Lakatos/Popper role | Holds |
 |---|---|---|
-| **[0-strategy](.)** | The frame that *governs* the ladder (not on it) | VSOK (vision/strategy/OKRs), this methodology, the ROADMAP (= the **positive heuristic**) |
+| **[0-program-methods](.)** | The frame that *governs* the ladder (not on it) | VSOK (vision/strategy/OKRs), this methodology, the ROADMAP (= the **positive heuristic**) |
 | **[1-hypothesis](../1-hypothesis/)** | **Hard core** + negative heuristic | The ontology, primitives, four-tier engine, χ≡A(I∞\|L₃), the position paper |
 | **[2-theory](../2-theory/)** | **Protective belt** + execution of the positive heuristic | The adjustable formal work: co-admissibility criterion, Born-rule derivation, gravity reduction |
 | **[3-prediction](../3-prediction/)** | **Popperian severe test** + progressive/degenerating appraisal | The risky claims that *forbid* something; their test protocols; the [appraisal log](../3-prediction/appraisal.md) |

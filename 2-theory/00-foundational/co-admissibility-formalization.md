@@ -1,6 +1,6 @@
 # Co-Admissibility Formalization (Task 0.1)
 
-> **Tier:** 2-theory (protective belt). **Lakatos role:** the gating belt-construction — the single highest-leverage task. Nothing discriminating is reachable without it (it is the root of the [dependency graph](../../0-strategy/ROADMAP.md)). **Status:** OPEN. **Confidence a formalization exists:** UNCERTAIN — this is the make-or-break task.
+> **Tier:** 2-theory (protective belt). **Lakatos role:** the gating belt-construction — the single highest-leverage task. Nothing discriminating is reachable without it (it is the root of the [dependency graph](../../0-program-methods/ROADMAP.md)). **Status:** OPEN. **Confidence a formalization exists:** UNCERTAIN — this is the make-or-break task.
 
 ## Target
 

@@ -10,11 +10,11 @@ $$\chi \equiv \mathsf{A}(I_\infty \mid L_3), \qquad \delta\mathcal{S}[\chi] = 0$
 
 ## How this repository is structured
 
-The layout is a **[Lakatosian research programme](0-strategy/METHODOLOGY.md)** governed by a **Popperian** standard. The tiers form a *falsifiability gradient* — each more exposed to refutation than the one above — and the programme's work is to push claims *down* the ladder toward falsifiability.
+The layout is a **[Lakatosian research programme](0-program-methods/METHODOLOGY.md)** governed by a **Popperian** standard. The tiers form a *falsifiability gradient* — each more exposed to refutation than the one above — and the programme's work is to push claims *down* the ladder toward falsifiability.
 
 | Tier | Role | Contents |
 |---|---|---|
-| **[0-strategy/](0-strategy/)** | Strategy + methodology (governs the ladder) | [VSOK](0-strategy/vsok.md) · [METHODOLOGY](0-strategy/METHODOLOGY.md) (Popper/Lakatos) · [ROADMAP](0-strategy/ROADMAP.md) (the positive heuristic) |
+| **[0-program-methods/](0-program-methods/)** | How the programme is run (governs the ladder) | [VSOK](0-program-methods/vsok.md) · [METHODOLOGY](0-program-methods/METHODOLOGY.md) (Popper/Lakatos) · [ROADMAP](0-program-methods/ROADMAP.md) (positive heuristic) · [GitHub workflow](0-program-methods/github-workflow.md) (agile-devops) · [research practices](0-program-methods/research-practices.md) |
 | **[1-hypothesis/](1-hypothesis/)** | **Hard core** — immune by necessity | [hard-core.md](1-hypothesis/hard-core.md) · [the position paper](1-hypothesis/paper/TRT-v0.9.md) |
 | **[2-theory/](2-theory/)** | **Protective belt** — formalization work | co-admissibility · Born rule · gravity reduction · [open problems](2-theory/open-problems.md) |
 | **[3-prediction/](3-prediction/)** | **Severe tests** — falsifiable claims | [co-admissibility conjecture](3-prediction/co-admissibility-conjecture.md) · [gravity test](3-prediction/gravity-linearity-test.md) · [appraisal](3-prediction/appraisal.md) |
@@ -27,7 +27,7 @@ Physical reality is neither brute material substance, nor abstract law, nor info
 
 ## What is and is not claimed
 
-TRT is a candidate foundational ontology and research program, not a completed physical theory. It has two physics-facing conjectures (co-admissibility in decoherence; gravity as global co-admissibility), both currently **LOW/UNCERTAIN**. It offers one **MEDIUM**-confidence retrodiction (the effectiveness of mathematics). The variational and gravitational machinery are targets, not derivations. See the paper's §12–§13 and the [ROADMAP](0-strategy/ROADMAP.md).
+TRT is a candidate foundational ontology and research program, not a completed physical theory. It has two physics-facing conjectures (co-admissibility in decoherence; gravity as global co-admissibility), both currently **LOW/UNCERTAIN**. It offers one **MEDIUM**-confidence retrodiction (the effectiveness of mathematics). The variational and gravitational machinery are targets, not derivations. See the paper's §12–§13 and the [ROADMAP](0-program-methods/ROADMAP.md).
 
 ## Current frontier
 
