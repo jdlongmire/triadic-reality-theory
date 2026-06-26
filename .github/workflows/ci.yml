@@ -39,3 +39,20 @@ jobs:
       - name: Typecheck Core/Primitives.lean (no Mathlib, must have 0 sorry)
         working-directory: formalization
         run: lean TrtFormalization/Core/Primitives.lean
+
+  math-lint:
+    name: GitHub-safe LaTeX (no \operatorname in committed math)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject \operatorname in markdown math
+        run: |
+          # Exclude the vendored LRT sub-project and backtick-wrapped documentation
+          # mentions (e.g. the rule in research-practices.md). Real math lines have no backtick.
+          HITS=$(grep -rn '\\operatorname' --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true)
+          if [ -n "$HITS" ]; then
+            echo "::error::\\operatorname found in math — use \\mathrm (see issue #7 / 0-program-methods/research-practices.md)"
+            echo "$HITS"
+            exit 1
+          fi
+          echo "OK — no \\operatorname in committed math"
