@@ -33,3 +33,12 @@ A review that forces a confidence label down, exposes a circularity, or compels 
 ## 8. Honest status at all times
 
 The [appraisal log](../3-prediction/appraisal.md) records, standingly, whether the programme is progressive, degenerating, or (currently) unappraised. The status is never rounded up.
+
+## 9. GitHub-safe LaTeX
+
+Math must render on the publishing surface (GitHub) and in strict KaTeX viewers, not only in a local engine. Rules:
+
+- **Operator names:** use `\mathrm{Name}`, not `\operatorname{Name}` — the latter is rejected by GitHub/strict-KaTeX math ("macros are not allowed: operatorname"); `\mathrm` renders identically and is universal. (See [issue #7](https://github.com/jdlongmire/triadic-reality-theory/issues/7).)
+- **Absolute values / norms in inline math inside tables:** use `\lvert … \rvert`, not bare `|` — kramdown reads `|` as a table delimiter. (Bare `|` is fine in `$$` display blocks, e.g. kets `|\psi\rangle`.)
+- **No definition macros** (`\def`, `\newcommand`, `\gdef`, `\let`), `\href`, `\label`, or `\tag` in committed math — GitHub's renderer blocks them.
+- Sanity check: `grep -rn '\\operatorname' --include="*.md" .` should return nothing.
