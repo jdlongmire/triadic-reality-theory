@@ -43,3 +43,15 @@ notes: |
   epistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).
   Decisive next test: does gamma_dot differ from einselection where einselection is itself
   witness-dependent? See co-admissibility-formalization.md Attempt 3.
+  2026-06-26 (Attempt 4, the re-description test — the door CLOSES): gamma_dot lives at the
+  short-time level where ALL Renyi witnesses agree (witness-independent, proven: d/dt tr
+  rho^a|0 = (a/2) gamma_dot) and there it reproduces the analytic standard-einselection g*
+  to <0.06%; the witness-dependence lives at finite time where gamma_dot (the exact T->0
+  boundary limit) is silent. So gamma_dot predicts NOTHING NEW. Falsifier (a) FIRES via its
+  'predicts nothing new' limb (NOT the 'reproduces witness-dependence' limb — gamma_dot is
+  witness-INDEPENDENT). RECOMMENDATION (JD's call): epistemic_status -> refuted-by-re-
+  description (the enum [established,argued,conjectured,open] has no such value — needs a
+  schema addition or an explicit annotation; held 'conjectured' pending JD). The decoherence
+  descendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),
+  which is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node
+  red-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.

@@ -35,6 +35,18 @@ formal_artifacts:
         an independent Red-Team REFUTED the first version's "no discrimination" conclusion
         (it used the wrong Fock-vs-coherent comparison); this is the corrected result.
       status: reproduces
+    - notebook: "3-prediction/co-admissibility-conjecture/code/coadmissibility_redescription.py"
+      result: |
+        Reproduces (deterministic). The re-description test (closes Attempt 3's open door).
+        (1) For pure states d/dt tr rho^alpha|0 = (alpha/2) gamma_dot for ALL alpha -> the
+        short-time predictability sieve is WITNESS-INDEPENDENT and equals gamma_dot.
+        (2) gamma_dot reproduces the analytic standard-einselection critical coupling g* to
+        <0.06% (n0=2,3,4); the witness-dependence lives at FINITE time, where gamma_dot
+        (the exact T->0 boundary limit) is silent. VERDICT: gamma_dot predicts nothing new
+        -> RE-DESCRIPTION; PRD-001 falsifier (a) fires via its 'predicts nothing new' limb
+        (NOT the 'reproduces witness-dependence' limb -- gamma_dot is witness-independent).
+        Root-node red-team: correctness HIGH, scope SURVIVES with wording fixes (applied).
+      status: reproduces
 risk_if_false: |
   The gating task. If no formalization avoids a free measure, or every one reduces
   to the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose
@@ -76,3 +88,14 @@ notes: |
   PRD-001 (a) (re-description), not (b)/(c). proof_status stays prose_only; refuted DECLINED
   (the re-description horn is not yet closed). NEW open sub-question: does gamma_dot differ
   from einselection where einselection is itself witness-dependent? (the only door ajar).
+  Attempt 4 (2026-06-26, the re-description test; see formal_artifacts coadmissibility_
+  redescription.py): that door is now CLOSED for the gamma_dot form. gamma_dot lives at the
+  short-time level where all Renyi witnesses agree (witness-independent) and there it equals
+  standard einselection (g* match <0.06%); the witness-dependence lives at finite time where
+  gamma_dot is silent (it is the exact T->0 boundary limit). So gamma_dot predicts NOTHING
+  new -> RE-DESCRIPTION. PRD-001 falsifier (a) fires via the 'predicts nothing new' limb only.
+  DECOHERENCE instantiation of OPN-001 = resolved-to-re-description; OPN-001's surviving
+  discriminating value rests on the GRAVITY side (OPN-002 keystone / PRD-002). OPN-001 stays
+  open/prose_only at the root (the broader measure-free design space is not impossibility-
+  proved); JD's call on any status move. Recommended next: pivot discriminating effort to
+  PRD-002 (caveat: it shares OPN-001 + the free-measure hazard, so this lowers its prior).
