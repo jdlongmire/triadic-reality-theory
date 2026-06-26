@@ -1,0 +1,14 @@
+id: OPN-006
+name: Avoid Equivocation (define terms before use)
+statement: |
+  Logic, information, and action carry different meanings across disciplines. TRT
+  must fix its terms before deploying them. Standing methodological discipline, not
+  a one-time resolvable result.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+source_documents:
+  - { doc: TRT-v0.9, section: "12 (challenge 5)" }
+risk_if_false: "Equivocation silently smuggles unearned content across the formal/physical/metaphysical boundary."
+notes: Standing discipline (cross-cutting), tracked for visibility rather than closure.

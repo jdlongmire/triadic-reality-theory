@@ -28,6 +28,25 @@ Every push and PR runs, and must pass:
 
 The CI gate is what makes the methodology *structural* rather than aspirational: you cannot merge a change that breaks traceability or smuggles a circularity.
 
+## Open-problem tracking
+
+Open problems have one source of truth and two derived surfaces:
+
+1. **Canonical registry — `OPN-*` traceability claims** ([`../traceability/claims/`](../traceability/claims/)). Every open problem *exists* as a claim — versioned, citeable, Lean-linkable, audited. The claim's fields (`tier`, `role`, `epistemic_status`, `depends_on`, `risk_if_false`) carry the metadata.
+2. **Registry view (generated)** — `build.py` emits [`../traceability/generated/open-problems.md`](../traceability/generated/open-problems.md) from the `OPN-*` claims. Never hand-edited; can't drift.
+3. **Active subset (GitHub Issues)** — open an issue **only** for a problem currently being worked (e.g. in the running PI), not one-per-claim-forever. An open `open-problem` issue therefore *means* "in active play."
+
+**Issue ↔ claim convention.** An open-problem issue body carries `Tracks: OPN-id`, and its labels **project** the claim's fields:
+
+| Facet | Labels |
+|---|---|
+| Tier | `tier:1` · `tier:2` · `tier:3` |
+| Kind | `open-problem` |
+| Confidence | `conf:established` · `conf:argued` · `conf:conjectured` · `conf:open` |
+| Salience | `gating` · `critical-path` |
+
+Reconciliation is convention now (the `Tracks:` line); a `build.py` issue↔claim audit can be added later. Resolving a problem closes its issue and flips the claim's `proof_status`/`epistemic_status` (or adds a `verdict`), which the regenerated registry view reflects.
+
 ## Branch discipline
 
 `main` is always green. Belt work happens on `feat/<task>` branches → PR → review against the methodology → merge. Paper edits on `paper/<topic>`. No force-push to `main`.

@@ -7,8 +7,14 @@
     "ONT-001",
     "ONT-002",
     "ONT-003",
+    "ONT-004",
     "OPN-001",
     "OPN-002",
+    "OPN-003",
+    "OPN-004",
+    "OPN-005",
+    "OPN-006",
+    "OPN-007",
     "PRD-001",
     "PRD-002",
     "PRD-003"
@@ -50,6 +56,11 @@
       "type": "logical"
     },
     {
+      "from": "ONT-004",
+      "to": "ONT-002",
+      "type": "logical"
+    },
+    {
       "from": "OPN-001",
       "to": "ONT-002",
       "type": "logical"
@@ -58,6 +69,31 @@
       "from": "OPN-002",
       "to": "OPN-001",
       "type": "logical"
+    },
+    {
+      "from": "OPN-003",
+      "to": "OPN-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-004",
+      "to": "OPN-002",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-004",
+      "to": "OPN-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-005",
+      "to": "OPN-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-007",
+      "to": "ONT-004",
+      "type": "interpretive"
     },
     {
       "from": "PRD-001",

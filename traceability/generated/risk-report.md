@@ -21,8 +21,14 @@
 | ONT-001 | 1 | The central identity is the programme's hard core. Its failure is not a belt adjustment but abandonment of TRT as such. |
 | ONT-002 | 1 | If the three reduce to fewer (or the co-requirement is definitional, hence circular), the economy claim and the synthetic-necessity argument collapse. |
 | ONT-003 | 1 | The four-tier distinction is the load-bearing engine (dialetheism, superposition, PBR, measurement, black holes). Without it those treatments fail jointly. |
+| ONT-004 | 1 | If the necessity is merely analytic (true by definition of "actualized reality"), the economy claim is stipulation, not a substantive feature of the actual. |
 | OPN-001 | 2 | The gating task. If no formalization avoids a free measure, or every one reduces to the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose discriminating content and the programme collapses to re-description. |
 | OPN-002 | 2 | Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with an imposed norm, the linear/GR route closes. |
+| OPN-003 | 2 | If no known physics is recovered in any limit, TRT remains ontology, not physics. |
+| OPN-004 | 2 | If the measure must be assumed, TRT inherits the measurement problem's hard core unchanged (as conceded). |
+| OPN-005 | 2 | Without the S→A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical. |
+| OPN-006 | 2 | Equivocation silently smuggles unearned content across the formal/physical/metaphysical boundary. |
+| OPN-007 | 2 | An unannounced metaphysical posit operating as if it were physics would breach the methodology. |
 | PRD-001 | 3 | If false, TRT's measurement account is re-description of decoherence, not new physics. |
 | PRD-002 | 3 | If the criterion underdetermines gravity, the gravity programme is interpretive, not derivational. |
 | PRD-003 | 3 | Weakens a retrodictive support; does not threaten the hard core. |

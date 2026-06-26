@@ -1,0 +1,17 @@
+id: OPN-004
+name: Derivation of the Born Measure
+statement: |
+  Derive the Born rule's form from constraints on actualizing action A across the
+  admissible→actual boundary, rather than assuming it; and address the hard residue
+  (why one admissible branch actualizes rather than another on a given occasion).
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: OPN-002, dependency_type: logical }
+  - { claim_id: OPN-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "6.6.2, 12 (challenge 3)" }
+  - { doc: ROADMAP, section: "Tier 2 / 2.2" }
+risk_if_false: "If the measure must be assumed, TRT inherits the measurement problem's hard core unchanged (as conceded)."

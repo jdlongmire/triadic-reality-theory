@@ -217,6 +217,29 @@
     "statement": "Informational structure is stratified: representable (well-formed, incl.\ncontradiction) \u2283 admissible (survives L\u2083) \u2283 actual (A-realized) with\noutcome-actual reserved for determinate measurement results.\n",
     "tier": 1
   },
+  "ONT-004": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "ONT-004",
+    "name": "Synthetic Necessity of the Triad",
+    "notes": "Carries the load-bearing metaphysical posit (actuality != possibility), stated openly per the methodology.",
+    "proof_status": "prose_only",
+    "risk_if_false": "If the necessity is merely analytic (true by definition of \"actualized reality\"),\nthe economy claim is stipulation, not a substantive feature of the actual.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "9.3, 9.6"
+      }
+    ],
+    "statement": "Given that something is actually real, it necessarily exhibits all three\nconstituents; the necessity is synthetic, not analytic \u2014 the three come apart\nunder analysis into three distinct failure modes (determinacy, differentiation,\nactuality). Rests on one explicit posit: actuality is a genuine status distinct\nfrom possibility.\n",
+    "tier": 1
+  },
   "OPN-001": {
     "depends_on": [
       {
@@ -269,6 +292,128 @@
       }
     ],
     "statement": "Characterize how A resolves unsatisfiable/unresolved admissible structure:\nobstruction-registering (linear \u2192 GR, projective measurement-free) or best-fit\nprojective (quadratic \u2192 modified gravity, projective measurement).\n",
+    "tier": 2
+  },
+  "OPN-003": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-003",
+    "name": "Derivation / Recovery of Known Physics",
+    "proof_status": "open",
+    "risk_if_false": "If no known physics is recovered in any limit, TRT remains ontology, not physics.",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "12 (challenge 2)"
+      },
+      {
+        "doc": "ROADMAP",
+        "section": "Tier 4 / 4.1"
+      }
+    ],
+    "statement": "Reconstruct the familiar structures \u2014 Hilbert space, probability, the Born rule,\ngauge symmetry, relativistic spacetime, field equations, conservation laws \u2014 from\nthe triadic foundation, in appropriate limits.\n",
+    "tier": 2
+  },
+  "OPN-004": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-004",
+    "name": "Derivation of the Born Measure",
+    "proof_status": "open",
+    "risk_if_false": "If the measure must be assumed, TRT inherits the measurement problem's hard core unchanged (as conceded).",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "6.6.2, 12 (challenge 3)"
+      },
+      {
+        "doc": "ROADMAP",
+        "section": "Tier 2 / 2.2"
+      }
+    ],
+    "statement": "Derive the Born rule's form from constraints on actualizing action A across the\nadmissible\u2192actual boundary, rather than assuming it; and address the hard residue\n(why one admissible branch actualizes rather than another on a given occasion).\n",
+    "tier": 2
+  },
+  "OPN-005": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-005",
+    "name": "Dimensional Analysis (ontological A vs physical S)",
+    "proof_status": "open",
+    "risk_if_false": "Without the S\u2192A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical.",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "3.3, 8.5, 12 (challenge 4/5)"
+      },
+      {
+        "doc": "ROADMAP",
+        "section": "Tier 0 / 0.2"
+      }
+    ],
+    "statement": "Develop the relation between ontological action A, the physical action functional\nS, energy, and time; justify the inference from the prominence of S in physics to\nthe ontological role of A (the S\u2192A bridge).\n",
+    "tier": 2
+  },
+  "OPN-006": {
+    "epistemic_status": "open",
+    "id": "OPN-006",
+    "name": "Avoid Equivocation (define terms before use)",
+    "notes": "Standing discipline (cross-cutting), tracked for visibility rather than closure.",
+    "proof_status": "open",
+    "risk_if_false": "Equivocation silently smuggles unearned content across the formal/physical/metaphysical boundary.",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "12 (challenge 5)"
+      }
+    ],
+    "statement": "Logic, information, and action carry different meanings across disciplines. TRT\nmust fix its terms before deploying them. Standing methodological discipline, not\na one-time resolvable result.\n",
+    "tier": 2
+  },
+  "OPN-007": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-004",
+        "dependency_type": "interpretive"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-007",
+    "name": "Theology / Metaphysics Boundary Discipline",
+    "notes": "Standing discipline (cross-cutting), tracked for visibility rather than closure.",
+    "proof_status": "open",
+    "risk_if_false": "An unannounced metaphysical posit operating as if it were physics would breach the methodology.",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-v0.9",
+        "section": "9.3, 12 (challenge 6)"
+      }
+    ],
+    "statement": "Keep formal, physical, and metaphysical claims distinct; state the one explicit\nposit (actuality is a genuine status distinct from possibility, \u00a79.3) openly.\nDisclosure is the standard, not the absence of metaphysical commitment.\n",
     "tier": 2
   },
   "PRD-001": {

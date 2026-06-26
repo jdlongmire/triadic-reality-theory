@@ -1,0 +1,20 @@
+id: ONT-004
+name: Synthetic Necessity of the Triad
+statement: |
+  Given that something is actually real, it necessarily exhibits all three
+  constituents; the necessity is synthetic, not analytic — the three come apart
+  under analysis into three distinct failure modes (determinacy, differentiation,
+  actuality). Rests on one explicit posit: actuality is a genuine status distinct
+  from possibility.
+tier: 1
+role: primitive
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - { claim_id: ONT-002, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "9.3, 9.6" }
+risk_if_false: |
+  If the necessity is merely analytic (true by definition of "actualized reality"),
+  the economy claim is stipulation, not a substantive feature of the actual.
+notes: Carries the load-bearing metaphysical posit (actuality != possibility), stated openly per the methodology.

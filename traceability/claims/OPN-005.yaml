@@ -1,0 +1,16 @@
+id: OPN-005
+name: Dimensional Analysis (ontological A vs physical S)
+statement: |
+  Develop the relation between ontological action A, the physical action functional
+  S, energy, and time; justify the inference from the prominence of S in physics to
+  the ontological role of A (the S→A bridge).
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: OPN-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "3.3, 8.5, 12 (challenge 4/5)" }
+  - { doc: ROADMAP, section: "Tier 0 / 0.2" }
+risk_if_false: "Without the S→A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical."

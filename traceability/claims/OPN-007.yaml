@@ -1,0 +1,16 @@
+id: OPN-007
+name: Theology / Metaphysics Boundary Discipline
+statement: |
+  Keep formal, physical, and metaphysical claims distinct; state the one explicit
+  posit (actuality is a genuine status distinct from possibility, §9.3) openly.
+  Disclosure is the standard, not the absence of metaphysical commitment.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: ONT-004, dependency_type: interpretive }
+source_documents:
+  - { doc: TRT-v0.9, section: "9.3, 12 (challenge 6)" }
+risk_if_false: "An unannounced metaphysical posit operating as if it were physics would breach the methodology."
+notes: Standing discipline (cross-cutting), tracked for visibility rather than closure.

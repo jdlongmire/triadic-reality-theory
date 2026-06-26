@@ -1,0 +1,16 @@
+id: OPN-003
+name: Derivation / Recovery of Known Physics
+statement: |
+  Reconstruct the familiar structures — Hilbert space, probability, the Born rule,
+  gauge symmetry, relativistic spacetime, field equations, conservation laws — from
+  the triadic foundation, in appropriate limits.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: OPN-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-v0.9, section: "12 (challenge 2)" }
+  - { doc: ROADMAP, section: "Tier 4 / 4.1" }
+risk_if_false: "If no known physics is recovered in any limit, TRT remains ontology, not physics."

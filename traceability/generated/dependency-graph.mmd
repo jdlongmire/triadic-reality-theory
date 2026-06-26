@@ -6,8 +6,14 @@ graph TD
   ONT-001["ONT-001<br/>primitive/prose_only"]
   ONT-002["ONT-002<br/>primitive/prose_only"]
   ONT-003["ONT-003<br/>primitive/axiomatized"]
+  ONT-004["ONT-004<br/>primitive/prose_only"]
   OPN-001["OPN-001<br/>open/open"]
   OPN-002["OPN-002<br/>open/open"]
+  OPN-003["OPN-003<br/>open/open"]
+  OPN-004["OPN-004<br/>open/open"]
+  OPN-005["OPN-005<br/>open/open"]
+  OPN-006["OPN-006<br/>open/open"]
+  OPN-007["OPN-007<br/>open/open"]
   PRD-001["PRD-001<br/>prediction/open"]
   PRD-002["PRD-002<br/>prediction/open"]
   PRD-003["PRD-003<br/>prediction/prose_only"]
@@ -18,8 +24,14 @@ graph TD
   LOG-002 --> LOG-001
   ONT-002 --> ONT-001
   ONT-003 --> ONT-001
+  ONT-004 --> ONT-002
   OPN-001 --> ONT-002
   OPN-002 --> OPN-001
+  OPN-003 --> OPN-001
+  OPN-004 --> OPN-002
+  OPN-004 --> OPN-001
+  OPN-005 --> OPN-001
+  OPN-007 --> ONT-004
   PRD-001 --> OPN-001
   PRD-002 --> OPN-001
   PRD-002 --> OPN-002
