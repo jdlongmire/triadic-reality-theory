@@ -25,10 +25,20 @@ Every profile carries: **Role**, **Mandate** (one line), **Scope** (in / out), *
 
 ## Current profiles
 
-- **QA-Agent** — repository & code-development hygiene gate.
-- **Peer-Review-Agent** — adversarial scientific/philosophical review.
+- [**QA-Agent**](qa-agent.md) — repository & code-development hygiene gate (the *machinery*).
+- [**Peer-Review-Agent**](peer-review-agent.md) — adversarial scientific/philosophical review (the *content*).
+- [**Formalization-Agent**](formalization-agent.md) — turns a prose claim into Lean/computational form and wires it through traceability (the *generative* counterpart to QA; aimed at critical-path Task 0.1).
+- [**Red-Team-Reviewer**](red-team-reviewer.md) — peer-review specialization that *attacks the root node*: tries to show co-admissibility needs a free measure or collapses to einselection.
 
-## Proposed (not yet built — see the program lead)
+## Invocation triggers (when to dispatch which)
 
-- **Formalization-Agent** — turns a prose claim into Lean/computational form and wires it through traceability (the generative counterpart to QA's checking; aimed at the critical-path Task 0.1).
-- **Red-Team-Reviewer** — a peer-review specialization that *attacks the root node*: tries to show co-admissibility needs a free measure or collapses to einselection.
+An AI-aide working the programme should reach for a profile when its trigger fires — spawn a subagent loaded with that profile (or adopt it inline for a quick pass). Natural-language phrasings map to the same dispatch.
+
+| Trigger | Profile | NL phrasings |
+|---|---|---|
+| Before any commit/PR of code, scripts, Lean, or traceability; at session-wrap; reviewing a diff for hygiene | **QA-Agent** | "QA this", "hygiene check", "run QA" |
+| Evaluating a claim/section/conjecture's content; before accepting a contribution as progressive; on receiving an external review | **Peer-Review-Agent** | "peer-review X", "review this claim", "progressive or degenerating?" |
+| Working a formalization task (Task 0.1, an `OPN-*` claim, belt/prediction Lean, a computational test) | **Formalization-Agent** | "formalize OPN-N", "Lean this claim", "work Task 0.1" |
+| Before accepting any conjecture as resolved/confirmed; on Formalization-Agent output; before an appraisal moves toward *progressive* | **Red-Team-Reviewer** | "red-team the co-admissibility conjecture", "try to break this" |
+
+**Chaining:** a formalization pass is *produced* by Formalization-Agent → checked by QA-Agent (build/hygiene) → attacked by Red-Team-Reviewer (validity) → general Peer-Review for label calibration. Nothing is accepted on a single role's say-so, and all recommend while a human decides.
