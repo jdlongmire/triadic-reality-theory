@@ -248,9 +248,18 @@
       }
     ],
     "epistemic_status": "open",
+    "formal_artifacts": {
+      "computation": [
+        {
+          "notebook": "3-prediction/co-admissibility-conjecture/code/coadmissibility_commutant.py",
+          "result": "Reproduces (deterministic, no fitted params) on the verified Feller et al. 2020\nmodel, Eqs.(3)-(4). All three tested measure-free criteria are non-discriminating:\n(i) commutant {a,a\u2020,N,H}' = C\u00b7Id (dim 1, N=8..64) -> no DFS; (ii) Fock/coherent\npointer states lie in the complement (residual sqrt(2n+1)); (iii) [D_n,D_a]=0 to\nmachine precision (reproduces paper Eq.17) -> pairwise-commuting set is the whole\nspace. NEGATIVE result for the tested criteria (not a proof no measure-free\ncriterion can discriminate). Red-Team verified correctness HIGH; scope MEDIUM-HIGH.\n",
+          "status": "reproduces"
+        }
+      ]
+    },
     "id": "OPN-001",
     "name": "Formalize Co-Admissibility (Task 0.1)",
-    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.\nAttempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)\nexists (dissipative port of the flatness=kernel result) but degenerates to a single\nsteady state in the incompatible-channel regime; re-inflating to the pointer family\nreintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial \u2014 and even\nthen the DFS likely targets the protected, not the decohering, sector. A weaker\npairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status\nadvanced open->prose_only (a written construction now exists); epistemic stays OPEN\n(the central measure-independence-where-it-discriminates question is unresolved \u2014 both\nRed-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the\ntwo-part commutant + pointer-location computation over the Feller cavity model. The\nnorm the relaxation needs is the same L2-residual as the gravity quadratic horn \u2014 ties\nto OPN-002.\n",
+    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.\nAttempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)\nexists (dissipative port of the flatness=kernel result) but degenerates to a single\nsteady state in the incompatible-channel regime; re-inflating to the pointer family\nreintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial \u2014 and even\nthen the DFS likely targets the protected, not the decohering, sector. A weaker\npairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status\nadvanced open->prose_only (a written construction now exists); epistemic stays OPEN\n(the central measure-independence-where-it-discriminates question is unresolved \u2014 both\nRed-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the\ntwo-part commutant + pointer-location computation over the Feller cavity model. The\nnorm the relaxation needs is the same L2-residual as the gravity quadratic horn \u2014 ties\nto OPN-002.\nAttempt 2 (2026-06-26, computation; see formal_artifacts): the decisive computation ran.\nAll three tested measure-free objects are NON-DISCRIMINATING on the real model \u2014\ncommutant trivial (no DFS), pointer states in the complement, pairwise-commuting set =\nwhole space (reproduces Feller Eq.17). Structural diagnosis: the tested objects are\nalgebraic/rate-independent but the pointer family is rate-governed (kappa_n/kappa_a~1),\nso they cannot track it; a surviving criterion would have to be rate-dependent and\ngenerator-derived. SCOPE: recorded NEGATIVE for the TESTED criteria (the risk_if_false\noutcome) \u2014 progressive resolution, NOT a proof no measure-free criterion can discriminate\n(Red-Team checked the natural rate-dependent candidate, Liouvillian slow modes, which\nalso fails). Labels held: proof_status prose_only, epistemic open; positive move declined.\nJD holds the final label call. Open sub-question: does any rate-dependent measure-free\nobject discriminate?\n",
     "proof_status": "prose_only",
     "risk_if_false": "The gating task. If no formalization avoids a free measure, or every one reduces\nto the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose\ndiscriminating content and the programme collapses to re-description.\n",
     "role": "open",
@@ -265,7 +274,7 @@
       },
       {
         "doc": "TRT-co-admissibility-formalization",
-        "section": "Attempt 1 (C0)"
+        "section": "Attempt 1 (C0); Attempt 2 (computation)"
       }
     ],
     "statement": "Define co-admissibility as a criterion C(constraints) \u2192 admissible set that is\nwell-defined, computable, and measure-independent (no free entanglement measure).\n",
@@ -434,7 +443,7 @@
     "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE\n(2026-06-26): (d) if the commutant {L_n,L_\u03b1,L_n^dag,L_\u03b1^dag,H}' is trivial across\nthe critical coupling, the measure-free kernel criterion degenerates to a unique\nsteady state and a witness is forced \u2014 refuting (a) without the full optimization;\nand if the commutant is nontrivial but the einselected pointer states lie in its\northogonal (decohering) complement rather than inside it, the measure-free object\nis disjoint from the predicted structure \u2014 also refuting.\n",
     "id": "PRD-001",
     "name": "Co-Admissibility Conjecture (incompatible channels)",
-    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n",
+    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) is now COMPUTED on the\nverified Feller model \u2014 the commutant {a,a\u2020,N,H}' IS trivial across the coupling (no DFS)\nAND the einselected pointer states lie in its complement. Both horns of (d) fire: the\ntested measure-free criteria are non-discriminating, so the conjecture's discriminating\ncontent is materially undermined FOR THOSE CRITERIA. Not marked refuted: the measure-free\ndesign space is not exhausted (rate-dependent criteria largely untested; the one checked\n\u2014 Liouvillian slow modes \u2014 also failed). epistemic_status held at 'conjectured'; the\nrefutation strength and any label move are JD's call. See co-admissibility-formalization.md\nAttempt 2.\n",
     "proof_status": "open",
     "risk_if_false": "If false, TRT's measurement account is re-description of decoherence, not new physics.",
     "role": "prediction",

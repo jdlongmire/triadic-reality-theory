@@ -1,0 +1,95 @@
+{
+  "model": "Feller-CoeuretCauquil-Roussel-2020 arXiv:2001.10851 Eq.(3)-(4)",
+  "params": {
+    "omega_c": 1.0,
+    "kappa_a": 1.0,
+    "kappa_n": 1.0
+  },
+  "convergence_in_N": [
+    {
+      "N": 8,
+      "kappa_a": 1.0,
+      "kappa_n": 1.0,
+      "commutant_dim": 1,
+      "commutant_smallest_nonzero_sv": 0.9602335338916203,
+      "fock_residual": {
+        "1": 1.7320508075688774,
+        "2": 2.23606797749979,
+        "3": 2.6457513110645907
+      },
+      "coherent_residual": 2.4219901054049253,
+      "norm[Da,Dn]": 1.202350520183443e-13,
+      "norm[UH+Da,Dn]": 1.202350520183443e-13,
+      "norm[UH,Dn]": 0.0,
+      "norm[UH,Da]": 5.261754417004174e-14
+    },
+    {
+      "N": 12,
+      "kappa_a": 1.0,
+      "kappa_n": 1.0,
+      "commutant_dim": 1,
+      "commutant_smallest_nonzero_sv": 0.7829772693125288,
+      "fock_residual": {
+        "1": 1.7320508075688774,
+        "2": 2.23606797749979,
+        "3": 2.6457513110645907
+      },
+      "coherent_residual": 2.8065277588372637,
+      "norm[Da,Dn]": 6.603281016394996e-13,
+      "norm[UH+Da,Dn]": 6.603281016394996e-13,
+      "norm[UH,Dn]": 0.0,
+      "norm[UH,Da]": 1.368302923393648e-13
+    },
+    {
+      "N": 16,
+      "kappa_a": 1.0,
+      "kappa_n": 1.0,
+      "commutant_dim": 1,
+      "commutant_smallest_nonzero_sv": 0.677761765556505,
+      "fock_residual": {
+        "1": 1.7320508075688774,
+        "2": 2.23606797749979,
+        "3": 2.6457513110645907
+      },
+      "coherent_residual": 2.8281718884271037,
+      "norm[Da,Dn]": 1.5469614806403699e-12,
+      "norm[UH+Da,Dn]": 1.5469614806403699e-12,
+      "norm[UH,Dn]": 0.0,
+      "norm[UH,Da]": 2.4644290468610824e-13
+    },
+    {
+      "N": 20,
+      "kappa_a": 1.0,
+      "kappa_n": 1.0,
+      "commutant_dim": 1,
+      "commutant_smallest_nonzero_sv": 0.6060778383938958,
+      "fock_residual": {
+        "1": 1.7320508075688774,
+        "2": 2.23606797749979,
+        "3": 2.6457513110645907
+      },
+      "coherent_residual": 2.828426188257908,
+      "norm[Da,Dn]": 4.881051213338962e-12,
+      "norm[UH+Da,Dn]": 4.881051213338962e-12,
+      "norm[UH,Dn]": 0.0,
+      "norm[UH,Da]": 7.389973374843741e-13
+    }
+  ],
+  "rate_check_ratio5": {
+    "N": 16,
+    "kappa_a": 1.0,
+    "kappa_n": 5.0,
+    "commutant_dim": 1,
+    "commutant_smallest_nonzero_sv": 0.677761765556505,
+    "fock_residual": {
+      "1": 1.7320508075688774,
+      "2": 2.23606797749979,
+      "3": 2.6457513110645907
+    },
+    "coherent_residual": 2.8281718884271037,
+    "norm[Da,Dn]": 9.287139284186954e-12,
+    "norm[UH+Da,Dn]": 9.287139284186954e-12,
+    "norm[UH,Dn]": 0.0,
+    "norm[UH,Da]": 2.4644290468610824e-13
+  }
+}
