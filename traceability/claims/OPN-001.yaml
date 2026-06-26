@@ -18,12 +18,22 @@ formal_artifacts:
     - notebook: "3-prediction/co-admissibility-conjecture/code/coadmissibility_commutant.py"
       result: |
         Reproduces (deterministic, no fitted params) on the verified Feller et al. 2020
-        model, Eqs.(3)-(4). All three tested measure-free criteria are non-discriminating:
+        model, Eqs.(3)-(4). The rate-INDEPENDENT measure-free criteria are non-discriminating:
         (i) commutant {a,a†,N,H}' = C·Id (dim 1, N=8..64) -> no DFS; (ii) Fock/coherent
         pointer states lie in the complement (residual sqrt(2n+1)); (iii) [D_n,D_a]=0 to
         machine precision (reproduces paper Eq.17) -> pairwise-commuting set is the whole
-        space. NEGATIVE result for the tested criteria (not a proof no measure-free
-        criterion can discriminate). Red-Team verified correctness HIGH; scope MEDIUM-HIGH.
+        space. This is the witness-free horn of the Attempt-3 dichotomy. Red-Team HIGH.
+      status: reproduces
+    - notebook: "3-prediction/co-admissibility-conjecture/code/coadmissibility_ratedep.py"
+      result: |
+        Reproduces (deterministic). Rate-DEPENDENT objects (sub-question a). DICHOTOMY:
+        witness-free generator spectrum -> no pointer prediction (all non-stationary modes
+        traceless; steady state = vacuum); BUT the initial purity-rate gamma_dot, via
+        Feller's energy-shell Fock-stability criterion, REPRODUCES the analytic critical
+        coupling g* = n0+1/2+sqrt(n0(n0+1)) to <0.2% (n0=2..6, independently verified).
+        It matches einselection by ADOPTING the purity witness -> re-description. NOTE:
+        an independent Red-Team REFUTED the first version's "no discrimination" conclusion
+        (it used the wrong Fock-vs-coherent comparison); this is the corrected result.
       status: reproduces
 risk_if_false: |
   The gating task. If no formalization avoids a free measure, or every one reduces
@@ -55,3 +65,14 @@ notes: |
   also fails). Labels held: proof_status prose_only, epistemic open; positive move declined.
   JD holds the final label call. Open sub-question: does any rate-dependent measure-free
   object discriminate?
+  Attempt 3 (2026-06-26, sub-question (a); see formal_artifacts coadmissibility_ratedep.py):
+  CORRECTED after an independent Red-Team REFUTED the first-pass "no" conclusion. Result is
+  a DICHOTOMY: witness-free measure-free objects (Attempt 2 + generator spectrum) are
+  non-discriminating; the purity-rate gamma_dot, via Feller's energy-shell Fock-stability
+  criterion, REPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) (<0.2%,
+  verified) -- but by adopting the purity witness, i.e. re-description of standard
+  einselection. So the conjecture's witness-INDEPENDENT-with-novel-content target is unmet:
+  witness-free is empty, witness-fixed is einselection re-described. Live falsifier is now
+  PRD-001 (a) (re-description), not (b)/(c). proof_status stays prose_only; refuted DECLINED
+  (the re-description horn is not yet closed). NEW open sub-question: does gamma_dot differ
+  from einselection where einselection is itself witness-dependent? (the only door ajar).

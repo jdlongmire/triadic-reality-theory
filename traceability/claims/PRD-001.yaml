@@ -29,12 +29,17 @@ notes: |
   Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.
   Decisive test = the two-part commutant + pointer-location computation (see OPN-001
   Attempt 1).
-  2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) is now COMPUTED on the
-  verified Feller model — the commutant {a,a†,N,H}' IS trivial across the coupling (no DFS)
-  AND the einselected pointer states lie in its complement. Both horns of (d) fire: the
-  tested measure-free criteria are non-discriminating, so the conjecture's discriminating
-  content is materially undermined FOR THOSE CRITERIA. Not marked refuted: the measure-free
-  design space is not exhausted (rate-dependent criteria largely untested; the one checked
-  — Liouvillian slow modes — also failed). epistemic_status held at 'conjectured'; the
-  refutation strength and any label move are JD's call. See co-admissibility-formalization.md
-  Attempt 2.
+  2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) COMPUTED for the
+  rate-INDEPENDENT objects — commutant {a,a†,N,H}' trivial (no DFS) AND pointer states in
+  its complement; pairwise-commuting set = whole space. Those objects are non-discriminating.
+  2026-06-26 (computation, OPN-001 Attempt 3; SUPERSEDES the over-read of Attempt 2): an
+  independent Red-Team refuted a first-pass "no measure-free criterion discriminates"
+  conclusion. Corrected picture is a DICHOTOMY: witness-free objects are non-discriminating,
+  but the purity-rate gamma_dot (via Feller's energy-shell Fock-stability criterion)
+  REPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) to <0.2% — by adopting
+  the purity witness. So the live falsifier is (a) RE-DESCRIPTION ("reproduces the witness-
+  dependence it was meant to eliminate / predicts nothing new"), NOT (b)/(c): the criterion
+  does make a definite, correct prediction, but only by re-describing standard einselection.
+  epistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).
+  Decisive next test: does gamma_dot differ from einselection where einselection is itself
+  witness-dependent? See co-admissibility-formalization.md Attempt 3.

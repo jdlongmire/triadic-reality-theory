@@ -12,6 +12,12 @@ A foundational ontology earns the status of physics when it generates a claim th
 
 Such a place exists. When a system couples to two or more incompatible decoherence channels — non-commuting environmental couplings that select complementary observables — the preferred basis is not fixed by decoherence alone. The selection of pointer states in this regime is an open optimization problem, solved numerically against a chosen entanglement witness, and the answer depends in general on which witness is chosen. A representative case is a cavity field coupled simultaneously to a number-basis channel and a coherent-state-basis channel, where the einselected states interpolate between Fock and coherent states as the relative coupling varies, with Fock states remaining optimal up to a critical coupling obtainable analytically (Feller, Coeuret Cauquil and Roussel, 2020).
 
+The analytic critical coupling (Feller et al., Eqs. 39–40) is the value at which the Fock state `|n₀⟩` ceases to be a local maximum of the purity-variation and becomes a saddle:
+
+> `(κ_n/κ_a)_crit = n₀ + ½ + √(n₀(n₀+1))   ( ≈ 2n₀ + 1 )`,
+
+an **energy-dependent** threshold (it scales with the photon number `n₀`). This exact value is the target any co-admissibility criterion must reproduce or contradict; the [formalization work](../2-theory/00-foundational/co-admissibility-formalization.md) (Attempt 3) finds that the purity-rate criterion `γ̇` reproduces it — but does so by *adopting* the purity witness, which raises the re-description question (§13.2 falsifier (a)).
+
 This regime is the natural test of the co-admissibility criterion, because here TRT's criterion and standard einselection are not guaranteed to agree, and the standard answer is measure-dependent where TRT's is meant to be measure-independent.
 
 > **Co-Admissibility Conjecture.** In the presence of incompatible decoherence channels, the set of co-admissible structures selected by the logical-compatibility criterion of LRM is determined by the constraint structure of the channels alone, without reference to a chosen entanglement witness, and coincides with the einselected set in the regimes where einselection is witness-independent while differing from it, in a specified and computable way, in the regimes where einselection is witness-dependent.

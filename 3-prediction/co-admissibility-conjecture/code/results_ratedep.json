@@ -1,0 +1,54 @@
+{
+  "model": "Feller et al. 2020 arXiv:2001.10851",
+  "N": 20,
+  "analytic_g_star": "n0 + 1/2 + sqrt(n0(n0+1))  (Eq. 39-40)",
+  "generator_spectrum": {
+    "0.5": {
+      "max_trace_over_norm": 2.2204460492503136e-16,
+      "n_nonstationary": 399,
+      "steady_state_<N>": 0.0
+    },
+    "1.0": {
+      "max_trace_over_norm": 2.2204460492503136e-16,
+      "n_nonstationary": 399,
+      "steady_state_<N>": 0.0
+    },
+    "2.0": {
+      "max_trace_over_norm": 2.2204460492503136e-16,
+      "n_nonstationary": 399,
+      "steady_state_<N>": 0.0
+    }
+  },
+  "fock_vs_coherent_control": {
+    "2": 1.0000000000099167,
+    "4": 1.0000006208101972,
+    "6": 1.000161449332524
+  },
+  "energy_shell_stability": {
+    "2": {
+      "analytic": 4.949489742783178,
+      "numeric": 4.95162635529608,
+      "rel_err": 0.0004316833903974146
+    },
+    "3": {
+      "analytic": 6.964101615137754,
+      "numeric": 6.967889908256881,
+      "rel_err": 0.0005439744174455867
+    },
+    "4": {
+      "analytic": 8.97213595499958,
+      "numeric": 8.980400333611342,
+      "rel_err": 0.0009211160701546978
+    },
+    "5": {
+      "analytic": 10.977225575051662,
+      "numeric": 10.982485404503754,
+      "rel_err": 0.00047915836439088805
+    },
+    "6": {
+      "analytic": 12.98074069840786,
+      "numeric": 13.002919099249375,
+      "rel_err": 0.0017085620425524076
+    }
+  }
+}
