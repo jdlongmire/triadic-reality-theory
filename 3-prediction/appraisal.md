@@ -31,3 +31,4 @@ A *theoretically* progressive step (a formalized criterion that predicts a novel
 |---|---|---|
 | 2026-06 | v0.9 position paper + program stood up; two conjectures named, neither formalized | Unappraised (baseline) |
 | 2026-06-26 | External review (GPT) — [`reviews/2026-06-gpt/`](../reviews/2026-06-gpt/). Confirms unappraised status; co-admissibility is the gating root; decoherence test is the better near-term credibility path | No change (confirming, not refuting) |
+| 2026-06-26 | Agent-roster pass on Task 0.1 ([`reviews/2026-06-redteam-coadmissibility/`](../reviews/2026-06-redteam-coadmissibility/)). Measure-free criterion C0 (= Lindbladian kernel) constructed but degenerates in the discriminating regime; reduces to one open commutant computation; OPN-001 → prose_only, stays open | Progressive *theoretical* step (sharper falsifier). Still **Unappraised** — no corroborated novel fact |

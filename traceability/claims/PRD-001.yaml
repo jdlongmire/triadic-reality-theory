@@ -18,5 +18,14 @@ falsifies: |
   Refuted if the formalized criterion (a) reproduces the witness-dependence it was
   meant to eliminate, (b) contradicts the analytic critical coupling at which
   Fock-state optimality ends in the cavity-field case, or (c) yields no definite
-  prediction (showing interpretation, not physics).
-notes: Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.
+  prediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE
+  (2026-06-26): (d) if the commutant {L_n,L_α,L_n^dag,L_α^dag,H}' is trivial across
+  the critical coupling, the measure-free kernel criterion degenerates to a unique
+  steady state and a witness is forced — refuting (a) without the full optimization;
+  and if the commutant is nontrivial but the einselected pointer states lie in its
+  orthogonal (decohering) complement rather than inside it, the measure-free object
+  is disjoint from the predicted structure — also refuting.
+notes: |
+  Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.
+  Decisive test = the two-part commutant + pointer-location computation (see OPN-001
+  Attempt 1).

@@ -5,15 +5,29 @@ statement: |
   well-defined, computable, and measure-independent (no free entanglement measure).
 tier: 2
 role: open
-proof_status: open
+proof_status: prose_only
 epistemic_status: open
 depends_on:
   - { claim_id: ONT-002, dependency_type: logical }
 source_documents:
   - { doc: TRT-v0.9, section: "6.6, 13.1" }
   - { doc: ROADMAP, section: "Tier 0 / 0.1" }
+  - { doc: TRT-co-admissibility-formalization, section: "Attempt 1 (C0)" }
 risk_if_false: |
   The gating task. If no formalization avoids a free measure, or every one reduces
   to the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose
   discriminating content and the programme collapses to re-description.
-notes: Root of the dependency graph. May be a computational rather than a Lean-proof object.
+notes: |
+  Root of the dependency graph. May be a computational rather than a Lean-proof object.
+  Attempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)
+  exists (dissipative port of the flatness=kernel result) but degenerates to a single
+  steady state in the incompatible-channel regime; re-inflating to the pointer family
+  reintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial — and even
+  then the DFS likely targets the protected, not the decohering, sector. A weaker
+  pairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status
+  advanced open->prose_only (a written construction now exists); epistemic stays OPEN
+  (the central measure-independence-where-it-discriminates question is unresolved — both
+  Red-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the
+  two-part commutant + pointer-location computation over the Feller cavity model. The
+  norm the relaxation needs is the same L2-residual as the gravity quadratic horn — ties
+  to OPN-002.

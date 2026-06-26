@@ -250,8 +250,8 @@
     "epistemic_status": "open",
     "id": "OPN-001",
     "name": "Formalize Co-Admissibility (Task 0.1)",
-    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.",
-    "proof_status": "open",
+    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.\nAttempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)\nexists (dissipative port of the flatness=kernel result) but degenerates to a single\nsteady state in the incompatible-channel regime; re-inflating to the pointer family\nreintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial \u2014 and even\nthen the DFS likely targets the protected, not the decohering, sector. A weaker\npairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status\nadvanced open->prose_only (a written construction now exists); epistemic stays OPEN\n(the central measure-independence-where-it-discriminates question is unresolved \u2014 both\nRed-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the\ntwo-part commutant + pointer-location computation over the Feller cavity model. The\nnorm the relaxation needs is the same L2-residual as the gravity quadratic horn \u2014 ties\nto OPN-002.\n",
+    "proof_status": "prose_only",
     "risk_if_false": "The gating task. If no formalization avoids a free measure, or every one reduces\nto the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose\ndiscriminating content and the programme collapses to re-description.\n",
     "role": "open",
     "source_documents": [
@@ -262,6 +262,10 @@
       {
         "doc": "ROADMAP",
         "section": "Tier 0 / 0.1"
+      },
+      {
+        "doc": "TRT-co-admissibility-formalization",
+        "section": "Attempt 1 (C0)"
       }
     ],
     "statement": "Define co-admissibility as a criterion C(constraints) \u2192 admissible set that is\nwell-defined, computable, and measure-independent (no free entanglement measure).\n",
@@ -427,10 +431,10 @@
     "external_citations": [
       "Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851"
     ],
-    "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics).\n",
+    "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE\n(2026-06-26): (d) if the commutant {L_n,L_\u03b1,L_n^dag,L_\u03b1^dag,H}' is trivial across\nthe critical coupling, the measure-free kernel criterion degenerates to a unique\nsteady state and a witness is forced \u2014 refuting (a) without the full optimization;\nand if the commutant is nontrivial but the einselected pointer states lie in its\northogonal (decohering) complement rather than inside it, the measure-free object\nis disjoint from the predicted structure \u2014 also refuting.\n",
     "id": "PRD-001",
     "name": "Co-Admissibility Conjecture (incompatible channels)",
-    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.",
+    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n",
     "proof_status": "open",
     "risk_if_false": "If false, TRT's measurement account is re-description of decoherence, not new physics.",
     "role": "prediction",

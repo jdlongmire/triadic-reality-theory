@@ -22,8 +22,8 @@
 
 - **axiomatized**: 2
 - **imported**: 1
-- **open**: 9
-- **prose_only**: 5
+- **open**: 8
+- **prose_only**: 6
 - **verified**: 1
 
 ## By epistemic status
@@ -45,7 +45,7 @@
 | ONT-002 | 1 | primitive | prose_only | argued | Three Co-Requiring Primitives |
 | ONT-003 | 1 | primitive | axiomatized | established | Four-Tier Engine |
 | ONT-004 | 1 | primitive | prose_only | argued | Synthetic Necessity of the Triad |
-| OPN-001 | 2 | open | open | open | Formalize Co-Admissibility (Task 0.1) |
+| OPN-001 | 2 | open | prose_only | open | Formalize Co-Admissibility (Task 0.1) |
 | OPN-002 | 2 | open | open | open | Actualization-Resolution Keystone |
 | OPN-003 | 2 | open | open | open | Derivation / Recovery of Known Physics |
 | OPN-004 | 2 | open | open | open | Derivation of the Born Measure |
