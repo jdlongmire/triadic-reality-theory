@@ -50,3 +50,12 @@ Reconciliation is convention now (the `Tracks:` line); a `build.py` issue↔clai
 ## Branch discipline
 
 `main` is always green. Belt work happens on `feat/<task>` branches → PR → review against the methodology → merge. Paper edits on `paper/<topic>`. No force-push to `main`.
+
+## Session lifecycle
+
+A research session is bracketed by two scripts (mirrors thinx's session-start/wrap), so transitions carry repo housekeeping and hygiene rather than leaving loose ends:
+
+- **`python3 0-program-methods/ops/research-start.py`** — read-only orientation briefing: VCS state, CI status, traceability health (claims / verified / acyclic), the active PI and its open issues, the open-problem registry + active subset, the appraisal verdict, figure/reference residuals, and the last session journal's carry-forward. Run it first thing.
+- **`python3 0-program-methods/ops/research-wrap.py`** — end-of-session **gate** (nonzero exit on any FAIL): working tree clean, traceability passes + generated reports fresh, Lean core typechecks, GitHub-safe LaTeX (no `\operatorname`), no build artifacts tracked; surfaces figure/reference residuals and reminds to append a session journal. **Don't claim a session done while it FAILs.**
+
+After a green wrap: append a [session journal](sessions/) entry and update memory / the [appraisal](../3-prediction/appraisal.md) as needed.
