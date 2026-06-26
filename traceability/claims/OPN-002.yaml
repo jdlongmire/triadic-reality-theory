@@ -16,4 +16,20 @@ source_documents:
 risk_if_false: |
   Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with
   an imposed norm, the linear/GR route closes.
-notes: The structural parallel between the gravity fork and measurement emerged from the relational-graph computation (MEDIUM).
+notes: |
+  The structural parallel between the gravity fork and measurement emerged from the
+  relational-graph computation (MEDIUM).
+  2026-06-26 (cross-sector exploration; 2-theory/03-gravity/cross-sector-keystone.md):
+  examined whether the quantum-sector result (the discriminating einselection criterion
+  uses the Hilbert metric) constrains A toward the projective/quadratic horn. A first-pass
+  "leans modified gravity" reading was REFUTED by red-team: the metric-using object
+  (gamma_dot) is STAGE-1 (co-admissibility; verdict = re-description), not the STAGE-2
+  projective Born selection, which born-rule.md §6.6.2 itself leaves underived (the open
+  keystone). Corrected result: a CONDITIONAL only — IF the sectors share a value space
+  (not just A) AND projective Born is fundamental to A (not a stage-2 overlay), THEN exact
+  GR + projective measurement + the unification cannot all hold. Both premises unproven;
+  the all-three-consistent escape (A obstruction-registering + Born as overlay + shared A)
+  is TRT's own position. NET: OPN-002 stays OPEN, no confidence move; the fork is neither
+  decided nor moved. The cross-sector view prices the UNIFICATION; it does not favor
+  modified gravity. Highest-leverage next question: is projective Born fundamental to A or
+  an overlay? (= the stage-2 keystone itself).
