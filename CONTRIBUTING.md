@@ -24,6 +24,10 @@ In rough order of current need:
 - **Distinguish interpretation from derivation.** A re-description of known physics in TRT's terms is *interpretation*, not result. Do not present the former as the latter — that is the canonical degenerating move.
 - **Traceability.** New claims get a `traceability/claims/` entry conforming to the [schema](traceability/schemas/claim.schema.yaml).
 
+## AI-aide profiles
+
+If you work with an AI assistant, load the matching role brief from [`0-program-methods/agents/`](0-program-methods/agents/) — **QA-Agent** (repo/code hygiene) for code and build work, **Peer-Review-Agent** (adversarial content review) for evaluating claims. They are harness-agnostic and bound to this repo's methodology.
+
 ## What will be declined (degenerating)
 
 Contributions that inflate confidence, remove failure conditions, present interpretation as derivation, or treat the metaphysical commitments as established physics will be declined **regardless of technical quality**. The discipline is the asset.
