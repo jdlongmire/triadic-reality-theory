@@ -692,7 +692,7 @@ Ryu, S. and Takayanagi, T. (2006) 'Holographic derivation of entanglement entrop
 
 Shannon, C.E. (1948) 'A mathematical theory of communication', *The Bell System Technical Journal*, 27, pp. 379-423 and 623-656.
 
-Wheeler, J.A. (1989) 'Information, physics, quantum: The search for links', in Zurek, W.H. (ed.) *Complexity, Entropy, and the Physics of Information*. Redwood City, CA: Addison-Wesley.
+Wheeler, J.A. (1990) 'Information, physics, quantum: The search for links', in Zurek, W.H. (ed.) *Complexity, Entropy, and the Physics of Information*, pp. 309-336. Redwood City, CA: Addison-Wesley.
 
 Wigner, E.P. (1960) 'The unreasonable effectiveness of mathematics in the natural sciences', *Communications on Pure and Applied Mathematics*, 13(1), pp. 1-14.
 
