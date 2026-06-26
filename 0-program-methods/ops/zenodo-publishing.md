@@ -37,6 +37,7 @@ A paper is deposited **only** when:
 1. **References verified** — the carried-forward citations are checked against primaries ([issue #1](https://github.com/jdlongmire/triadic-reality-theory/issues/1); [`references/verification-status.md`](../../references/verification-status.md)). No deposit on unverified citations.
 2. **Public copy cut** — the working-draft status note is stripped (the note itself says it must be removed from any circulation draft; **a Zenodo deposit is circulation**). Deposit the stripped public version, not the working master.
 3. **Version set** — the Zenodo `version` tracks the paper version. **TRT v0.9 is a working draft and is NOT deposited.** First deposit is at **v1.0** readiness (or a deliberately-labelled preprint, JD's call).
+4. **Figures resolved** — every figure built and inserted; **zero `[FIGURE-PLACEHOLDER]` markers** in the public copy. Check: `grep -rn '\[FIGURE-PLACEHOLDER\]' <paper>` returns nothing. (See [`figures.md`](figures.md).)
 
 Corrections after publishing are a **new version** of the same record (the concept DOI preserves lineage) — never delete a published version.
 

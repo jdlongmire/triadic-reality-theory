@@ -165,6 +165,11 @@ Only structures that have passed the filter are available for actualization. A c
 
 The architecture therefore places logical paradox precisely. A contradiction is real at the level of representation and excluded at the gate between the representable and the actual. It never actualizes, not because it cannot be written, but because *L₃* governs what *A* can actualize. The difference between a contradiction and the Mandelbrot set, on this account, is smaller than it first appears. Both are tier-one or tier-two structures that do not, of themselves, actualize. The Mandelbrot set is admissible and unactualized; a true contradiction is representable, inadmissible, and therefore actualizable under no condition whatever.
 
+> **Figure 1. The four-tier engine.** The filtration from the representable to the outcome-actual: *L₃* gates the representable down to the admissible (excluding contradiction-encoding structures), actualizing action *A* realizes the actual (χ) from the admissible, and measurement resolves the outcome-actual within the actual.
+>
+> **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig01-four-tier-engine.svg`
+> *Spec:* three nested regions (largest = *representable / I∞*, middle = *admissible = I∞ | L₃*, inner = *actual = χ*), drawn as a filtration. Mark the *L₃* gate on the representable→admissible boundary with excluded contradiction-tokens (e.g. Liar, Russell's set, *P ∧ ¬P*) outside the admissible region. Draw *A* as the arrow admissible→actual. Show *outcome-actual* as a highlighted subset of the actual labelled "measurement outcome." Place the Mandelbrot set as an *admissible-but-unactualized* token inside admissible yet outside actual. Print-safe, monochrome.
+
 #### 3.4.1 The Location of Dialetheism
 
 This locates the dialetheist's claim rather than denying it. Dialetheism holds that some contradictions are true, on the strength of semantic and set-theoretic paradoxes: the Liar, Russell's set, the boundaries of vague predicates. TRT grants that these are genuine contradictory structures. It observes where they live. Every such case is a structure of the first tier, the representable, where self-reference and unrestricted comprehension generate contradiction. None has ever been exhibited as a structure of the third tier, an actualized physical state instantiating *P ∧ ¬P* in the same respect.
@@ -190,6 +195,11 @@ TRT denotes actual reality by the Greek letter chi: *χ*. This symbol is appropr
 $$\boxed{\chi \equiv \mathsf{A}(I_\infty \mid L_3)}$$
 
 In prose: *χ* is actual reality, infinite informational potential constrained by finite logic through actualizing action.
+
+> **Figure 2. χ as convergence.** The three co-requiring primitives — finite logical constraint *L₃*, infinite informational potential *I∞*, and actualizing action *A* — converge to constitute actual reality *χ*, the form the χ glyph itself suggests.
+>
+> **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig02-chi-convergence.svg`
+> *Spec:* three labelled inflows (*L₃*, *I∞*, *A*) meeting at a central node *χ*, laid out to echo the crossing of the Greek letter χ. Annotate each leg with its role (*L₃* = admissibility / form; *I∞* = content; *A* = actualization), and label the convergence with the identity χ ≡ A(I∞ | L₃). Convey co-requirement (none alone yields χ). Print-safe, monochrome.
 
 Several derivative uses follow: *χ_actual* (actualized reality in general); *χ_t* (a reality-state at relational ordering index *t*); *χ_phys* (physical reality); *χ_obs* (observed reality); *χ_adm* (a logically admissible candidate reality-state).
 
@@ -296,6 +306,11 @@ $$|\psi\rangle \rightarrow \chi_{\text{obs}}$$
 
 The Born rule is the law of that crossing. It assigns to each admissible branch the probability with which actualizing action realizes it. The rule is the bridge between the mathematical layer, where *|ψ⟩* lives and evolves, and the actual layer, where determinate outcomes obtain. The Logical Resolution Model, LRM, developed in §6.6 and named in §7, is the model of this crossing.
 
+> **Figure 3. The actualization boundary.** A quantum state *|ψ⟩* is admissible (ontic) structure standing at the boundary of actuality; measurement is actualizing action *A* crossing that boundary, governed in probability by the Born rule, to yield a determinate outcome-actual *χ_obs*.
+>
+> **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig03-actualization-boundary.svg`
+> *Spec:* a vertical boundary line dividing "admissible (I_adm)" on the left from "actual (χ)" on the right. On the left, *|ψ⟩* shown as a superposition fan of co-admissible branches (e.g. pointer states). An arrow labelled *A* / measurement crosses the boundary; annotate the arrow with the Born rule (branch probabilities). On the right, a single determinate *χ_obs* (outcome-actual). Make clear the state is real on the left (not ignorance) — psi-ontic. Print-safe, monochrome.
+
 Once the crossing is made, the outcome is a structure of the actual tier, and there the law of excluded middle holds without exception. The measured system is determinately *P* or determinately not-*P*. No proposition over the actual outcome is both affirmed and denied. The law governs propositions over the actual, and the actual is exactly what measurement produces.
 
 #### 6.5.3 Excluded Middle and the Quantum State
@@ -352,6 +367,11 @@ TRT provides the broader ontology within which Logic Realism Theory, hereafter L
 The hierarchy is:
 
 $$\text{TRT} \rightarrow \text{LRT} \rightarrow \text{LRM} \rightarrow \text{testable predictions}$$
+
+> **Figure 4. The layer hierarchy.** From ontology to test: TRT (what actualized reality must be) → LRT (how *L₃* governs physical admissibility) → LRM (how an unresolved description resolves into a determinate outcome) → discriminating predictions. Each layer has a distinct task; none duplicates another.
+>
+> **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig04-layer-hierarchy.svg`
+> *Spec:* four stacked layers (TRT, LRT, LRM, Predictions) with a downward arrow, each annotated with its one-line task (ontology / constraint program / measurement model / discriminating output). Show increasing concreteness and falsifiability top→bottom. Optionally map the layers to the repo tiers (1-hypothesis / 2-theory / 3-prediction). Print-safe, monochrome.
 
 TRT asks what actualized reality must be. LRT asks how finite logical constraint governs physical admissibility. LRM, the Logical Resolution Model, asks how an unresolved quantum description resolves into a determinate observed state. Predictions are the discriminating outputs of that resolution model.
 
@@ -558,6 +578,11 @@ The foregoing supports a positioning claim at moderate confidence and a derivati
 *Derivation conjecture, confidence LOW, components UNCERTAIN.* The global co-admissibility of the relational structure of *χ*, once formalized, may force the constraint structure of general relativity rather than merely the broader genus of theories possessing global constraints. The target is the recovery of the divergence-free Einstein tensor and the field-equation form from a precise statement of global *L₃*-consistency on relational structure, or the connection of that statement to an information-geometric entropic action in an appropriate limit, including recovery of the black-hole area law with its coefficient. The conjecture fails if global consistency is compatible with non-Einstein constraint structures equally well, in which case the criterion underdetermines gravity and remains interpretive rather than derivational.
 
 This is not yet a prediction. It becomes one only when global co-admissibility is formalized into a criterion that computes a definite gravitational structure.
+
+> **Figure 5. The gravity reduction chain.** The gravity conjecture reduces, through a chain of sharpenings, to a single decidable question: whether the co-admissibility measure is linear or quadratic in the holonomy deficit — linear yielding General Relativity, quadratic yielding higher-curvature modified gravity.
+>
+> **[FIGURE-PLACEHOLDER]** — *type:* process diagram · *tool:* D2 · *asset:* `figures/fig05-gravity-reduction-chain.svg`
+> *Spec:* a top-down reduction flow: global *L₃*-co-admissibility on relational structure → (Lovelock) reduce to a divergence-free second-order metric object → (holonomy identification) curvature as loop-consistency deficit → the **linearity crux** as a fork node, branching to **linear → Einstein-Hilbert / GR (Regge)** and **quadratic → Bianconi-class modified gravity**. Annotate the fork as the keystone question about *A* (obstruction-registering vs best-fit projective) and note the branches differ observationally at high curvature. Print-safe, monochrome; the fork node emphasized.
 
 ---
 
