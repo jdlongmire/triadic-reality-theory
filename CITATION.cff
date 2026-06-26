@@ -15,3 +15,15 @@ abstract: >
   by three co-requiring primitives: finite logical constraint, infinite
   informational potential, and actualizing action. It is offered as a candidate
   foundational ontology and research program, not a completed physical theory.
+# Top-level `type` is constrained by CFF 1.2 to software/dataset; the repository
+# carries Lean + Python artifacts, so `software` is retained. The scholarly object
+# to cite is the position paper, given as preferred-citation below.
+preferred-citation:
+  type: article
+  title: "Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality"
+  authors:
+    - family-names: Longmire
+      given-names: James D.
+      orcid: "https://orcid.org/0009-0009-1383-7698"
+  year: 2026
+  notes: "Position paper / preprint, v0.9. See 1-hypothesis/paper/TRT-v0.9.md."

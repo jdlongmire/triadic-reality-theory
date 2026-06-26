@@ -30,3 +30,4 @@ A *theoretically* progressive step (a formalized criterion that predicts a novel
 | Date | Event | Effect on appraisal |
 |---|---|---|
 | 2026-06 | v0.9 position paper + program stood up; two conjectures named, neither formalized | Unappraised (baseline) |
+| 2026-06-26 | External review (GPT) — [`reviews/2026-06-gpt/`](../reviews/2026-06-gpt/). Confirms unappraised status; co-admissibility is the gating root; decoherence test is the better near-term credibility path | No change (confirming, not refuting) |
