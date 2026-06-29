@@ -19,6 +19,15 @@ No downstream work may build on an unverified citation. This file tracks the ver
 | **Regge (1961)** | *Il Nuovo Cimento* (Series 10) 19(3), 558-571; DOI 10.1007/BF02733251 | Springer / ADS |
 | **Wigner (1960)** | *Comm. Pure Appl. Math.* 13(1), 1-14; DOI 10.1002/cpa.3160130102 | Wiley / ADS |
 
+## Verified — primary/authoritative source confirmed (2026-06-29, red-team dispatch)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **Abramsky & Brandenburger (2011)** | *The Sheaf-Theoretic Structure of Non-Locality and Contextuality*, *New J. Phys.* 13(11), 113036; arXiv:1102.0264 | IOP / arXiv |
+| **Abramsky, Mansfield & Barbosa (2011/12)** | *The Cohomology of Non-Locality and Contextuality*, EPTCS 95, 1-14 (QPL 2011); arXiv:1111.3620 | EPTCS / arXiv — *cohomological H¹ measure (the support-level obstruction is in the 2011 NJP paper; cite both)* |
+
+Used by [`../2-theory/00-foundational/actualization-resolution-sheaf-probe.md`](../2-theory/00-foundational/actualization-resolution-sheaf-probe.md) (OPN-002 sub-route). The contextuality-as-obstruction-to-a-global-section framing and the possibilistic (Boolean) vs probabilistic (ℝ≥0) semiring layering were verified against the primary during the 2026-06-29 red-team ([`../reviews/2026-06-redteam-sheaf/`](../reviews/2026-06-redteam-sheaf/)).
+
 ## ⚠️ Correction required
 
 - **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.

@@ -46,3 +46,18 @@ notes: |
   corner. CORRECTION logged: an interim "use ZX as the probe" suggestion was withdrawn —
   ZX carries the inner product (quadratic horn only); sheaf cohomology can carry the
   metric-free obstruction. No confidence move; OPN-002 stays OPEN.
+  2026-06-29 (red-team of the sheaf probe; reviews/2026-06-redteam-sheaf/): attacked on 5
+  vectors. PRIMARY VERIFIED (A-B 2011 obstruction-to-global-section + possibilistic/probabilistic
+  semiring layering — both accurate; logged in verification-status.md; cite the cohomology sequel
+  Abramsky-Mansfield-Barbosa). Static mapping (co-admissibility-failure = no-global-section)
+  SURVIVES — faithful, already rigorous via relational-graph-test §1. DISCRIMINATING CLAIM DOES
+  NOT SURVIVE: OPN-002 is about the deficit's MAGNITUDE functional (|δ| vs δ²/3); the
+  possibilistic/metric-free layer is magnitude-free, so the property that keeps horn (a) honest
+  cannot separate the horns, and the layer that can (probabilistic) IS horn (b) by definition —
+  the γ̇/PRD-001 re-description pattern recurring (UNCERTAIN→REFUTED, MED-HIGH). The sheaf also
+  models the OBSTRUCTION, not A's RESOLUTION ACT (register-vs-project sits on top of the sheaf,
+  not within it; REFUTED, HIGH). DISPOSITION APPLIED: RE-SCOPED, not killed — thesis demoted from
+  "distinguishes the horns natively" to "candidate sharper falsifier"; success criterion sharpened
+  (discriminator only if the possibilistic layer alone carries a torsion/higher-H^n feature
+  differing by resolution mode; else record NEGATIVE → informative negative toward horn b).
+  No confidence move; OPN-002 stays OPEN.

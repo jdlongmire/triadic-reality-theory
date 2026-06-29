@@ -1,6 +1,8 @@
 # Sub-route: Sheaf-Cohomological Probe of the Keystone (OPN-002)
 
 > **Tier:** 2-theory (protective belt). **Parent:** [`actualization-resolution.md`](actualization-resolution.md) (OPN-002, the keystone). **Lakatos role:** a candidate *formal vehicle* for sub-route 1 ("define *A*'s resolution operation; if projective, determine the norm and whether it is forced or imposed"). **Confidence this resolves OPN-002:** LOW. **Confidence this is the right corner of category theory to try:** MEDIUM. The deliverable sought is a *sharper falsifier*, not a result.
+>
+> **Red-team verdict (2026-06-29, [`../../reviews/2026-06-redteam-sheaf/`](../../reviews/2026-06-redteam-sheaf/)): the discriminating claim does NOT survive; re-scoped to "candidate sharper falsifier."** The static mapping and the primary sourcing survive (see below); what was refuted is the thesis that the obstruction-class distinction "distinguishes the two horns natively." The structural reason: OPN-002 is a question about the deficit's *magnitude functional* ($\lvert\delta\rvert$ linear vs $\delta^2/3$ quadratic); the possibilistic/metric-free layer is *magnitude-free by construction*, so the very property that keeps horn (a) honest renders it unable to separate the horns — and the layer that can (probabilistic) **is** horn (b) by this doc's own definition. That is the γ̇/PRD-001 re-description pattern recurring. Read the thesis table below as the *original* (over-)claim, now demoted by the red-team finding recorded after it.
 
 ## Origin
 
@@ -46,5 +48,15 @@ A prior session-level suggestion to use **ZX-calculus** as the keystone probe is
 ## Status and priority
 
 - **Priority:** BELOW the live commutant/gravity work (Task 0.1, OPN-001; the gravity descendant PRD-002). This is an *optional* formal vehicle for sub-route 1 of the keystone, not a new critical path. It does not gate, and is not gated by, the active work beyond its shared dependence on OPN-001.
-- **Failure condition:** if the possibilistic obstruction is non-discriminating on the test structure (trivializes, or only discriminates once a measure is reintroduced), record NEGATIVE for the sheaf vehicle and the keystone fork stays open by other means.
-- **First concrete step before any build:** verify Abramsky-Brandenburger (2011) against the primary, and confirm the possibilistic-layer obstruction is well-defined on the Feller relational structure. Cheap; do it first.
+- **Failure condition (sharpened by the red-team):** the probe is a *discriminator* only if the **possibilistic layer alone — no measure** — carries a structural feature that differs between obstruction-registering and best-fit *A* (e.g. a torsion class, or a higher $H^n$ present for one resolution mode and absent for the other). Absent that feature, the possibilistic obstruction is magnitude-free and therefore *cannot* separate $\lvert\delta\rvert$ from $\delta^2/3$; if discriminating content appears only once a measure is reintroduced, that **is** horn (b). Either way, record NEGATIVE for the sheaf vehicle as a discriminator; its honest residual value is then an *informative negative* pressuring toward horn (b).
+- **First concrete step (revised):** ~~verify Abramsky-Brandenburger (2011)~~ — DONE by the red-team (verified against primary; logged in [verification-status](../../references/verification-status.md)). The remaining cheap step is the decisive one: compute the **Boolean-semiring** (possibilistic) global-section obstruction on the Feller cavity sub-context poset and test whether it carries any feature (torsion / higher $H^n$) that differs under the two resolution modes. If it is merely present/absent (binary), the probe is confirmed non-discriminating and the NEGATIVE is recorded.
+- **Two bookkeeping items from the red-team:** the cohomological $H^1$ *measure* (as opposed to the support-level obstruction) lives in the sequel — Abramsky, Mansfield & Barbosa (2011/12), *The Cohomology of Non-Locality and Contextuality* — cite both papers, not the 2011 sheaf paper alone.
+
+## What survives (red-team-confirmed)
+
+Two parts of the construction are *not* refuted and remain usable:
+
+1. **The static mapping is faithful and already rigorous.** "Co-admissibility failure = no global section = nonzero obstruction" is sound — [`../03-gravity/relational-graph-test.md`](../03-gravity/relational-graph-test.md) §1 already proves joint *L₃*-satisfiability = flatness of the connection. This is a genuine sheaf-flavored fact, not analogy.
+2. **The primary sourcing is sound.** A-B (2011) is accurately attributed (contextuality = obstruction to a global section of a presheaf over contexts) and the possibilistic (Boolean) vs probabilistic (ℝ≥0) semiring layering is real, standard, and genuinely measure-free at the Boolean layer.
+
+What does **not** survive is the bridge between them: the sheaf models *the obstruction* (a static invariant), not *A's resolution act* (the verb OPN-002 asks about). The register-vs-project choice sits on top of the sheaf, not within it. That is why the construction can be faithful *and* non-discriminating at the same time.
