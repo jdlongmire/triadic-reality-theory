@@ -63,6 +63,28 @@
     "statement": "The verified Lean derivation chain of Logic Realism Theory (X \u2192 \u2026 \u2192 Schr\u00f6dinger;\nBorn rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's\nL\u2083 constituent and is imported as a sub-project.\n",
     "tier": 1
   },
+  "EXT-002": {
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Bombelli, Lee, Meyer & Sorkin (1987), Phys. Rev. Lett. 59, 521",
+      "Surya (2019), Living Rev. Relativ. 22, 5 (arXiv:1903.11544)",
+      "Bombelli, Henson & Sorkin (arXiv:gr-qc/0605006)"
+    ],
+    "id": "EXT-002",
+    "name": "CST Number-Volume Kinematic Substrate (imported)",
+    "notes": "Added 2026-07-22 per red-team vector 10(b) (reviews/2026-07-redteam-adce/): the\nCST substrate was load-bearing for OPN-008 but invisible to the dependency graph.\nEpistemic status \"argued\": the dictionary is a standard, widely-used postulate of\na respected quantum-gravity programme, not an established physical fact. Import is\nby citation, not formalization (no Lean artifact; contrast EXT-001).\n",
+    "proof_status": "imported",
+    "risk_if_false": "If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson\nsprinkling proves inconsistent with Lorentz invariance or with continuum recovery),\nADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-\u039b rival\nloses its fluctuation magnitude; the comparison in adce.md \u00a711 becomes moot.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "ADCE-v3",
+        "section": "2-theory/04-cosmology/adce.md \u00a72.1, \u00a79"
+      }
+    ],
+    "statement": "Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds\nto causal-element count at Planckian density (\"Order + Number = Geometry\"),\nimplemented by Poisson sprinkling, whose random form is forced by Lorentz\ninvariance (element count in 4-volume V\u2084: \u27e8N\u27e9 = \u03c1_c V\u2084, \u03b4N ~ \u221aN).\n",
+    "tier": 2
+  },
   "LOG-001": {
     "depends_on": [
       {
@@ -300,7 +322,7 @@
     "epistemic_status": "open",
     "id": "OPN-002",
     "name": "Actualization-Resolution Keystone",
-    "notes": "The structural parallel between the gravity fork and measurement emerged from the\nrelational-graph computation (MEDIUM).\n2026-06-26 (cross-sector exploration; 2-theory/03-gravity/cross-sector-keystone.md):\nexamined whether the quantum-sector result (the discriminating einselection criterion\nuses the Hilbert metric) constrains A toward the projective/quadratic horn. A first-pass\n\"leans modified gravity\" reading was REFUTED by red-team: the metric-using object\n(gamma_dot) is STAGE-1 (co-admissibility; verdict = re-description), not the STAGE-2\nprojective Born selection, which born-rule.md \u00a76.6.2 itself leaves underived (the open\nkeystone). Corrected result: a CONDITIONAL only \u2014 IF the sectors share a value space\n(not just A) AND projective Born is fundamental to A (not a stage-2 overlay), THEN exact\nGR + projective measurement + the unification cannot all hold. Both premises unproven;\nthe all-three-consistent escape (A obstruction-registering + Born as overlay + shared A)\nis TRT's own position. NET: OPN-002 stays OPEN, no confidence move; the fork is neither\ndecided nor moved. The cross-sector view prices the UNIFICATION; it does not favor\nmodified gravity. Highest-leverage next question: is projective Born fundamental to A or\nan overlay? (= the stage-2 keystone itself).\n",
+    "notes": "The structural parallel between the gravity fork and measurement emerged from the\nrelational-graph computation (MEDIUM).\n2026-06-26 (cross-sector exploration; 2-theory/03-gravity/cross-sector-keystone.md):\nexamined whether the quantum-sector result (the discriminating einselection criterion\nuses the Hilbert metric) constrains A toward the projective/quadratic horn. A first-pass\n\"leans modified gravity\" reading was REFUTED by red-team: the metric-using object\n(gamma_dot) is STAGE-1 (co-admissibility; verdict = re-description), not the STAGE-2\nprojective Born selection, which born-rule.md \u00a76.6.2 itself leaves underived (the open\nkeystone). Corrected result: a CONDITIONAL only \u2014 IF the sectors share a value space\n(not just A) AND projective Born is fundamental to A (not a stage-2 overlay), THEN exact\nGR + projective measurement + the unification cannot all hold. Both premises unproven;\nthe all-three-consistent escape (A obstruction-registering + Born as overlay + shared A)\nis TRT's own position. NET: OPN-002 stays OPEN, no confidence move; the fork is neither\ndecided nor moved. The cross-sector view prices the UNIFICATION; it does not favor\nmodified gravity. Highest-leverage next question: is projective Born fundamental to A or\nan overlay? (= the stage-2 keystone itself).\n2026-06-29 (Grok proposal triage; reviews/2026-06-grok/): a categorical recast of TRT\nwas DECLINED as a program (re-skins v0.9 hard core; its idempotent-monad decoherence\ncenterpiece is the PRD-001 re-description route; ZX/dagger-compact bakes in the inner\nproduct and tilts to the quadratic horn). One graft EXTRACTED for sub-route 1: a\nSHEAF-COHOMOLOGICAL probe (2-theory/00-foundational/actualization-resolution-sheaf-probe.md).\nThesis: horn (a) obstruction-registering = the cohomological obstruction class to a global\nsection (metric-free, possibilistic layer); horn (b) best-fit projective = nearest-section\nprojection under an imposed norm (probabilistic layer). Precedent: Abramsky-Brandenburger\n(2011) sheaf-theoretic contextuality (verify primary first). Priority: OPTIONAL, below the\nlive commutant/gravity work; LOW confidence it resolves OPN-002; MEDIUM it is the right CT\ncorner. CORRECTION logged: an interim \"use ZX as the probe\" suggestion was withdrawn \u2014\nZX carries the inner product (quadratic horn only); sheaf cohomology can carry the\nmetric-free obstruction. No confidence move; OPN-002 stays OPEN.\n2026-06-29 (red-team of the sheaf probe; reviews/2026-06-redteam-sheaf/): attacked on 5\nvectors. PRIMARY VERIFIED (A-B 2011 obstruction-to-global-section + possibilistic/probabilistic\nsemiring layering \u2014 both accurate; logged in verification-status.md; cite the cohomology sequel\nAbramsky-Mansfield-Barbosa). Static mapping (co-admissibility-failure = no-global-section)\nSURVIVES \u2014 faithful, already rigorous via relational-graph-test \u00a71. DISCRIMINATING CLAIM DOES\nNOT SURVIVE: OPN-002 is about the deficit's MAGNITUDE functional (|\u03b4| vs \u03b4\u00b2/3); the\npossibilistic/metric-free layer is magnitude-free, so the property that keeps horn (a) honest\ncannot separate the horns, and the layer that can (probabilistic) IS horn (b) by definition \u2014\nthe \u03b3\u0307/PRD-001 re-description pattern recurring (UNCERTAIN\u2192REFUTED, MED-HIGH). The sheaf also\nmodels the OBSTRUCTION, not A's RESOLUTION ACT (register-vs-project sits on top of the sheaf,\nnot within it; REFUTED, HIGH). DISPOSITION APPLIED: RE-SCOPED, not killed \u2014 thesis demoted from\n\"distinguishes the horns natively\" to \"candidate sharper falsifier\"; success criterion sharpened\n(discriminator only if the possibilistic layer alone carries a torsion/higher-H^n feature\ndiffering by resolution mode; else record NEGATIVE \u2192 informative negative toward horn b).\nNo confidence move; OPN-002 stays OPEN.\n",
     "proof_status": "open",
     "risk_if_false": "Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with\nan imposed norm, the linear/GR route closes.\n",
     "role": "open",
@@ -437,6 +459,37 @@
       }
     ],
     "statement": "Keep formal, physical, and metaphysical claims distinct; state the one explicit\nposit (actuality is a genuine status distinct from possibility, \u00a79.3) openly.\nDisclosure is the standard, not the absence of metaphysical commitment.\n",
+    "tier": 2
+  },
+  "OPN-008": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "ACT-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-002",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-008",
+    "name": "ADCE \u2014 Dark Energy from Mean Causal Growth",
+    "notes": "2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified\nsymbolically (both 3-volume and 4-volume counting; the H-relations are kinematic\nidentities given the dictionary, so all physics lives in the growth law). Prior-art\nsweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's\nfounding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by\nLorentz invariance); Sorkin's pre-1998 everpresent \u039b (gr-qc/9706002) is the\nestablished fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916\nis the count-driven dV/dt structural precedent (instructive inversion: his de Sitter\nis the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson\nenergy-per-bit named as the disavowed path. Four gaps identified and addressed in\nv3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity\nfork (resolved to 4-volume counting, the triadically- and CST-consistent choice),\ncoincidence problem (named mandatory deliverable), magnitude benchmark (competitive\nbar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2\nsigma, w0 > -1, wa < 0, phantom crossing z \u2248 0.4-0.5) is a live target; phantom\ncrossing is a structural opportunity since the actualization sector is not a\nminimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then\na CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory\ndeliverables (a) and (c).\n2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed\nat the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting\na static universe sustains \u1e44 > 0 at saturation, so the v2-form central hypothesis\n(\"continued actualization necessarily changes geometry\") is FALSE by the paper's\nown equations \u2014 criterion 3 fired, registered, hypothesis reformulated to\n\"accelerating actualization\" (expansion = rate acceleration, cosmic acceleration =\ncount jerk 3\u1e44N\u20db > 2N\u0308\u00b2). Vector 3 (HIGH): N-equivocation (Planck substrate count\nN_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level\nstructure + bridge-law obligation (\u00a79.4). Vector 5 (HIGH, reproduced): DESI-quadrant\n\u03c1_DE is NON-monotone (peak at crossing z\u22480.4, declining since; a* = 1+(1+w0)/wa),\nso the earlier \"phantom crossing is a structural opportunity\" line above OVERSTATED\n\u2014 corrected: only sign-stability is (weakly) claimed; the DESI history is prima\nfacie pressure, and the reframed severe test is a natural growth law with a\nsign-stable, late-peaking, non-monotone effective \u03c1_A. Vector 6: mean-coupled\nmagnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002\nadded (CST substrate import, this entry's new formal dependency). No confidence\nmoves; stays open/prose_only.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If no growth law solves the coincidence problem without hand-tuning, or the\nmechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the\n4-volume resolution renders the geometric hypothesis vacuous (static universes\nsustain \u1e44 > 0 at saturation, so only *accelerating* actualization carries content\n\u2014 adce.md \u00a78 v3.1), or no N_R\u2192N_P bridge law can be stated (adce.md \u00a79.4), ADCE\nreduces to re-labeled causal-set kinematics with no independent content and is\nabandoned (adce.md \u00a716 criteria 11-12, 15-16). The TRT hard core is untouched\neither way; this is a belt-level physics-facing conjecture.\n",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "ADCE-v3",
+        "section": "2-theory/04-cosmology/adce.md"
+      }
+    ],
+    "statement": "Determine whether the mean growth rate of realized causal structure (\u1e44), on the\ncausal-set number-volume substrate with an explicit saturation axiom (A-SAT), can\ndrive late-time accelerated expansion with (a) a derived growth law producing\nmatter-era deceleration followed by acceleration onset at z \u2248 0.7, (b) a natural\nmagnitude compatible with the observed dark-energy scale, and (c) a w_A(z)\ndistinguishable from both \u039bCDM and the fluctuation-driven everpresent-\u039b mechanism\n(\u039b ~ \u00b1\u210f/\u221aV\u2084) that shares the same kinematic substrate.\n",
     "tier": 2
   },
   "PRD-001": {

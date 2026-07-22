@@ -16,6 +16,7 @@
 |---|---|---|
 | ACT-001 | 1 | If A could actualize inadmissible structure, the gate fails and L₃ would not govern χ. |
 | EXT-001 | 1 | If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable. |
+| EXT-002 | 2 | If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson sprinkling proves inconsistent with Lorentz invariance or with continuum recovery), ADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival loses its fluctuation magnitude; the comparison in adce.md §11 becomes moot. |
 | LOG-001 | 1 | If L₃ is merely conventional, the hard core loses its transcendental warrant. |
 | LOG-002 | 1 | This is what makes TRT's hard core stronger than an orthodox Lakatosian core. If the transcendental argument fails, immunity falls back to mere convention. |
 | ONT-001 | 1 | The central identity is the programme's hard core. Its failure is not a belt adjustment but abandonment of TRT as such. |
@@ -29,6 +30,7 @@
 | OPN-005 | 2 | Without the S→A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical. |
 | OPN-006 | 2 | Equivocation silently smuggles unearned content across the formal/physical/metaphysical boundary. |
 | OPN-007 | 2 | An unannounced metaphysical posit operating as if it were physics would breach the methodology. |
+| OPN-008 | 2 | If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the 4-volume resolution renders the geometric hypothesis vacuous (static universes sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture. |
 | PRD-001 | 3 | If false, TRT's measurement account is re-description of decoherence, not new physics. |
 | PRD-002 | 3 | If the criterion underdetermines gravity, the gravity programme is interpretive, not derivational. |
 | PRD-003 | 3 | Weakens a retrodictive support; does not threaten the hard core. |

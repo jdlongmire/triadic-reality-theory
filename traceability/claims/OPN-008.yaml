@@ -1,0 +1,66 @@
+id: OPN-008
+name: ADCE — Dark Energy from Mean Causal Growth
+statement: |
+  Determine whether the mean growth rate of realized causal structure (Ṅ), on the
+  causal-set number-volume substrate with an explicit saturation axiom (A-SAT), can
+  drive late-time accelerated expansion with (a) a derived growth law producing
+  matter-era deceleration followed by acceleration onset at z ≈ 0.7, (b) a natural
+  magnitude compatible with the observed dark-energy scale, and (c) a w_A(z)
+  distinguishable from both ΛCDM and the fluctuation-driven everpresent-Λ mechanism
+  (Λ ~ ±ℏ/√V₄) that shares the same kinematic substrate.
+tier: 2
+role: open
+proof_status: prose_only
+epistemic_status: open
+depends_on:
+  - { claim_id: ONT-001, dependency_type: logical }
+  - { claim_id: ACT-001, dependency_type: logical }
+  - { claim_id: EXT-002, dependency_type: formal }
+source_documents:
+  - { doc: ADCE-v3, section: "2-theory/04-cosmology/adce.md" }
+risk_if_false: |
+  If no growth law solves the coincidence problem without hand-tuning, or the
+  mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the
+  4-volume resolution renders the geometric hypothesis vacuous (static universes
+  sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content
+  — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE
+  reduces to re-labeled causal-set kinematics with no independent content and is
+  abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched
+  either way; this is a belt-level physics-facing conjecture.
+notes: |
+  2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified
+  symbolically (both 3-volume and 4-volume counting; the H-relations are kinematic
+  identities given the dictionary, so all physics lives in the growth law). Prior-art
+  sweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's
+  founding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by
+  Lorentz invariance); Sorkin's pre-1998 everpresent Λ (gr-qc/9706002) is the
+  established fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916
+  is the count-driven dV/dt structural precedent (instructive inversion: his de Sitter
+  is the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson
+  energy-per-bit named as the disavowed path. Four gaps identified and addressed in
+  v3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity
+  fork (resolved to 4-volume counting, the triadically- and CST-consistent choice),
+  coincidence problem (named mandatory deliverable), magnitude benchmark (competitive
+  bar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2
+  sigma, w0 > -1, wa < 0, phantom crossing z ≈ 0.4-0.5) is a live target; phantom
+  crossing is a structural opportunity since the actualization sector is not a
+  minimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then
+  a CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory
+  deliverables (a) and (c).
+  2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed
+  at the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting
+  a static universe sustains Ṅ > 0 at saturation, so the v2-form central hypothesis
+  ("continued actualization necessarily changes geometry") is FALSE by the paper's
+  own equations — criterion 3 fired, registered, hypothesis reformulated to
+  "accelerating actualization" (expansion = rate acceleration, cosmic acceleration =
+  count jerk 3ṄN⃛ > 2N̈²). Vector 3 (HIGH): N-equivocation (Planck substrate count
+  N_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level
+  structure + bridge-law obligation (§9.4). Vector 5 (HIGH, reproduced): DESI-quadrant
+  ρ_DE is NON-monotone (peak at crossing z≈0.4, declining since; a* = 1+(1+w0)/wa),
+  so the earlier "phantom crossing is a structural opportunity" line above OVERSTATED
+  — corrected: only sign-stability is (weakly) claimed; the DESI history is prima
+  facie pressure, and the reframed severe test is a natural growth law with a
+  sign-stable, late-peaking, non-monotone effective ρ_A. Vector 6: mean-coupled
+  magnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002
+  added (CST substrate import, this entry's new formal dependency). No confidence
+  moves; stays open/prose_only.

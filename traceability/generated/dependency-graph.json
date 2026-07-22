@@ -2,6 +2,7 @@
   "nodes": [
     "ACT-001",
     "EXT-001",
+    "EXT-002",
     "LOG-001",
     "LOG-002",
     "ONT-001",
@@ -15,6 +16,7 @@
     "OPN-005",
     "OPN-006",
     "OPN-007",
+    "OPN-008",
     "PRD-001",
     "PRD-002",
     "PRD-003"
@@ -94,6 +96,21 @@
       "from": "OPN-007",
       "to": "ONT-004",
       "type": "interpretive"
+    },
+    {
+      "from": "OPN-008",
+      "to": "ONT-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-008",
+      "to": "ACT-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-008",
+      "to": "EXT-002",
+      "type": "formal"
     },
     {
       "from": "PRD-001",
