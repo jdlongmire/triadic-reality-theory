@@ -29,6 +29,7 @@
 | OPN-005 | 2 | Without the S→A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical. |
 | OPN-006 | 2 | Equivocation silently smuggles unearned content across the formal/physical/metaphysical boundary. |
 | OPN-007 | 2 | An unannounced metaphysical posit operating as if it were physics would breach the methodology. |
+| OPN-008 | 2 | If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture. |
 | PRD-001 | 3 | If false, TRT's measurement account is re-description of decoherence, not new physics. |
 | PRD-002 | 3 | If the criterion underdetermines gravity, the gravity programme is interpretive, not derivational. |
 | PRD-003 | 3 | Weakens a retrodictive support; does not threaten the hard core. |

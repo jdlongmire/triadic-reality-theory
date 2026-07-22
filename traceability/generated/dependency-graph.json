@@ -15,6 +15,7 @@
     "OPN-005",
     "OPN-006",
     "OPN-007",
+    "OPN-008",
     "PRD-001",
     "PRD-002",
     "PRD-003"
@@ -94,6 +95,16 @@
       "from": "OPN-007",
       "to": "ONT-004",
       "type": "interpretive"
+    },
+    {
+      "from": "OPN-008",
+      "to": "ONT-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-008",
+      "to": "ACT-001",
+      "type": "logical"
     },
     {
       "from": "PRD-001",
