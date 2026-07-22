@@ -1,0 +1,28 @@
+id: EXT-002
+name: CST Number-Volume Kinematic Substrate (imported)
+statement: |
+  Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds
+  to causal-element count at Planckian density ("Order + Number = Geometry"),
+  implemented by Poisson sprinkling, whose random form is forced by Lorentz
+  invariance (element count in 4-volume V₄: ⟨N⟩ = ρ_c V₄, δN ~ √N).
+tier: 2
+role: imported
+proof_status: imported
+epistemic_status: argued
+source_documents:
+  - { doc: ADCE-v3, section: "2-theory/04-cosmology/adce.md §2.1, §9" }
+external_citations:
+  - "Bombelli, Lee, Meyer & Sorkin (1987), Phys. Rev. Lett. 59, 521"
+  - "Surya (2019), Living Rev. Relativ. 22, 5 (arXiv:1903.11544)"
+  - "Bombelli, Henson & Sorkin (arXiv:gr-qc/0605006)"
+risk_if_false: |
+  If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson
+  sprinkling proves inconsistent with Lorentz invariance or with continuum recovery),
+  ADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival
+  loses its fluctuation magnitude; the comparison in adce.md §11 becomes moot.
+notes: |
+  Added 2026-07-22 per red-team vector 10(b) (reviews/2026-07-redteam-adce/): the
+  CST substrate was load-bearing for OPN-008 but invisible to the dependency graph.
+  Epistemic status "argued": the dictionary is a standard, widely-used postulate of
+  a respected quantum-gravity programme, not an established physical fact. Import is
+  by citation, not formalization (no Lean artifact; contrast EXT-001).

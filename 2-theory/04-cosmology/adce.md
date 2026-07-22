@@ -1,8 +1,10 @@
-# Actualization-Driven Cosmological Expansion (ADCE) — v3
+# Actualization-Driven Cosmological Expansion (ADCE) — v3.1
 
 **Working document. Belt-level research note; tracks [OPN-008](../../traceability/claims/OPN-008.yaml) and issue [#9](https://github.com/jdlongmire/triadic-reality-theory/issues/9).**
 
 **Status:** Pre-theoretical research program, confidence **LOW/CONJECTURED** throughout except where labeled. v3 is the repositioning revision of the 2026-07 note: it adds the related-work placement (§2), makes the saturation axiom explicit (§9), resolves the capacity-scaling fork toward 4-volume counting (§9), states the rivalry with fluctuation-driven everpresent Λ (§11), and anchors the observational targets to DESI DR2 (§14). The v2 primitive shift is retained: the primitive is **irreversible actualization**, not emitted information; emitters are derived physical instances of the process.
+
+**v3.1** absorbs the red-team pass ([reviews/2026-07-redteam-adce/](../../reviews/2026-07-redteam-adce/review.md)): the central hypothesis is **reformulated** after the static-universe result (§8; falsification criterion 3 fired against the v2-form statement under 4-volume counting and the firing is registered, §16); the two-level reading of $N$ is made explicit (§9.4); A-SAT's repair claim is softened (§9.1); the monotonicity claim is defined precisely and the DESI tension stated (§11, §14); the mean-coupled magnitude default is stated plainly (§11).
 
 **Author:** James D. Longmire (ORCID 0009-0009-1383-7698). v3 drafted with thinx-Claude research assistance; prior-art and observational claims verified against primary sources per the programme's source protocol (HCAE).
 
@@ -14,7 +16,7 @@ The accelerated expansion of the universe is conventionally represented by a cos
 
 This note develops a speculative alternative grounded in the triadic (Logic-Information-Action) framework. Representable information specifies possible physical states. Logic constrains which states are admissible. Action renders admissible states determinate within realized physical history. Each irreversible actualization event adds a physically instantiated event, relation, or record to the realized causal structure of the universe.
 
-The central hypothesis: continued irreversible actualization necessarily changes the geometry of realized spacetime, and what is described phenomenologically as dark energy is the effective gravitational signature of that growth. The kinematic substrate of the proposal (a number-volume correspondence for causal events) is not new: it is causal set theory's founding postulate. What the proposal adds is (a) an ontological account of what the birth of a causal element *is*, supplied by the triadic primitives, and (b) a sharp dynamical question posed inside that shared kinematics: whether the dark-energy signal is driven by the *mean growth rate* of realized causal structure, in contrast to the established causal-set mechanism in which it is driven by *Poisson fluctuations* in the causal-element count.
+The central hypothesis (reformulated in v3.1): cosmic expansion is the geometric registration of an **accelerating** actualization rate, and what is described phenomenologically as dark energy is the effective gravitational signature of the higher-order structure of that growth. Continued actualization alone does *not* force expansion (a static universe accumulates realized history at constant rate; §8); the dynamical question is why the actualization rate accelerates. The kinematic substrate of the proposal (a number-volume correspondence for causal events) is not new: it is causal set theory's founding postulate. What the proposal adds is (a) an ontological account of what the birth of a causal element *is*, supplied by the triadic primitives, and (b) a sharp dynamical question posed inside that shared kinematics: whether the dark-energy signal is driven by the *mean growth structure* of realized causal history, in contrast to the established causal-set mechanism in which it is driven by *Poisson fluctuations* in the causal-element count.
 
 The proposal remains pre-theoretical. Its viability depends on a covariant actualization current, a derived (not postulated) growth law that produces matter-era deceleration followed by late acceleration, a natural magnitude compatible with the observed dark-energy scale, and observational predictions distinguishable from both the cosmological constant and the fluctuation-driven alternative.
 
@@ -135,13 +137,21 @@ where $\Sigma_A$ is the local source density of irreversible actualization. Cand
 
 ---
 
-## 8. The Central Geometric Hypothesis
+## 8. The Central Geometric Hypothesis (reformulated in v3.1)
 
-**Hypothesis.** Continued irreversible actualization increases the realized causal structure of spacetime, and this increase requires corresponding evolution of the spacetime geometry.
+The v2-form hypothesis read: *continued irreversible actualization necessarily changes the geometry of realized spacetime.* Under the 4-volume counting adopted in §9, that statement is **false by the paper's own equations**, and the red-team pass caught the failure (review, vector 1). With $N = \rho_4 V_4$ and $V_4 = V_c \int_0^t a^3\, dt'$:
 
-$$\mathcal{I}_{\mathrm{adm}} \rightarrow \Pi \rightarrow \Delta\mathcal{H}_{\mathrm{R}} \rightarrow \Delta\mathcal{G}_{\mathrm{R}} \rightarrow \Delta g_{\mu\nu}.$$
+$$\dot N = \rho_4 V_c\, a^3 > 0 \quad \text{for any } a(t) > 0.$$
 
-The hypothesis does not yet establish the form of the constraint; a generic relation $\Delta g_{\mu\nu} = \mathfrak{G}_{\mu\nu}[A^\alpha, \Sigma_A, g_{\alpha\beta}]$ names the missing derivation (Target 4, §15). A graph can gain nodes without requiring metric expansion; the theory must explain why physically realized causal growth relates specifically to a geometric invariant. That explanation runs through the capacity bound, which forces the fork addressed next.
+A static universe ($a$ constant) accumulates 4-volume, hence realized history, linearly and forever at saturated density with zero metric evolution; a contracting universe likewise sustains $\dot N > 0$. Constant-rate actualization corresponds *exactly* to a static universe. The capacity bound plus continued actualization therefore constrain $a(t)$ not at all. **Falsification criterion 3 (§16) fired against the v2-form statement, and the firing is registered rather than papered over.**
+
+**Reformulated hypothesis (v3.1).** Under the 4-volume dictionary, expansion is the geometric registration of an *accelerating* actualization rate ($H = \tfrac{1}{3}\ddot N / \dot N$), and cosmic acceleration corresponds to a jerk condition on the count ($3\dot N \dddot N > 2\ddot N^2$, §9.3). The central dynamical claim becomes:
+
+> The actualization rate accelerates, for reasons grounded in the growth dynamics of realized causal structure (candidate grounds in §10), and dark energy is the effective gravitational signature of that acceleration.
+
+$$\mathcal{I}_{\mathrm{adm}} \rightarrow \Pi \rightarrow \ddot N > 0 \rightarrow \Delta g_{\mu\nu}.$$
+
+This is a strictly weaker and honestly harder claim than v2's: nothing *forces* it, and the burden is entirely on deriving the growth law (Target 5). One alternative escape remains open and unexecuted: a back-reaction argument that a static geometry cannot *sustain* actualization (that admissible-state supply or record formation dies without expansion), which would restore a forcing form. Until such an argument exists, the forcing language is retired.
 
 ---
 
@@ -155,7 +165,7 @@ A capacity bound alone yields an inequality, $V \geq N / \rho_{\max}$: growth of
 
 > **A-SAT (Saturation Axiom, ASSUMED).** Actualization proceeds at the maximal rate the capacity bound admits, and the realized-event density sits at (or tends to) its bound: $\rho_A \to \rho_{A,\max}$.
 
-Without A-SAT the argument of §10 does not go through; with A-SAT unstated, expansion is smuggled in (the note's own criterion 4). A-SAT may be derivable from an extremal principle (entropy or actualization maximization; compare Krishna and Mathew, 2017, for the analogous grounding of Padmanabhan's law), and deriving it is part of Target 3. Until then it is an axiom and is labeled as one.
+Naming the axiom is progress in honesty, **not a repair** (red-team, vector 2). A-SAT faces a direction-of-explanation fork: if geometry determines $\dot N$ through the dictionary, the growth-law question is answered trivially by geometry and ADCE is re-labeled kinematics (criteria 11-12); if a microphysical $\dot N$ determines geometry, then A-SAT quietly asserts that geometry *responds* so as to hold $\rho_4$ at its bound, which is precisely the ungrounded growth-to-geometry content of Target 4. The axiom presupposes the theorem it was introduced to enable. The only exit is a derivation of A-SAT from an extremal principle *that also derives the geometric response* (Targets 3 and 4 jointly; compare Krishna and Mathew, 2017, for the analogous grounding of Padmanabhan's law). Until then it is an axiom, it is labeled as one, and it is known to be load-bearing beyond what an axiom should carry.
 
 ### 9.2 Area, 3-volume, or 4-volume?
 
@@ -182,6 +192,16 @@ Reference cases (all verified symbolically):
 
 The structure of the 3-volume case (v2 §§10-12) carries over with one derivative shifted; the fork changes quantitative thresholds, not the qualitative program. Everything in §6's caution still applies: these are dictionary identities, and the physics is the growth law.
 
+### 9.4 Two levels of N (equivocation resolved by declaration)
+
+The red-team pass (vector 3) caught an equivocation v3 committed: the Bousso escape and A-SAT's "Planckian sprinkling density" require $N$ to be the **substrate element count** ($N_P$, one per Planck 4-volume, $\sim 10^{147}$ per m³ per second), while §4's working definition and §13's microphysics count **physical record-forming events** ($N_R$: decays, decohered records, transitions), whose 4-density is at least $\sim 100$ orders of magnitude below Planckian. These cannot be the same quantity, and v3's safety claims borrowed one reading while its novelty claims borrowed the other.
+
+v3.1 declares the two-level structure explicitly:
+
+* **$N_P$ (substrate count)** carries the kinematics: the CST dictionary, A-SAT, the Bousso escape, and every identity in §9.3 are statements about $N_P$. At this level ADCE inherits CST unchanged and adds nothing dynamical.
+* **$N_R$ (record count)** carries the ontology: §4's actualization events, §13's decoherence microphysics, and Target 1's invariance criterion are statements about $N_R$. $N_R \lll N_P$ and $N_R$ is *not* density-saturated.
+* **The bridge is the open problem.** ADCE's mechanism requires a stated bridge law relating $N_R$-dynamics (the physics of record formation) to $N_P$-growth (the geometry). $\Sigma_A$ (§7) is the natural carrier of that bridge. Absent a bridge law, the "ontological grounding" of §2.5 is an interpretive gloss on unchanged kinematics, which is this programme's canonical degenerating move. The bridge is therefore added to Target 1's deliverables, and its absence is a standing threat, not a footnote.
+
 ---
 
 ## 10. Growth Laws and the Coincidence Problem
@@ -199,19 +219,23 @@ Candidate phenomenological laws (v2 §20, restated for 4-volume counting): linea
 Both ADCE and everpresent Λ live on the same kinematic substrate ($N$ tracks 4-volume at Planckian density). They divide cleanly on the source of the dark-energy signal:
 
 * **Everpresent Λ (established rival):** the signal is the Poisson fluctuation, $\delta N \sim \sqrt N$; Λ fluctuates about zero with magnitude $\sim \hbar / \sqrt{V_4} \sim H^2$, delivering the observed order of magnitude for free and dissolving the coincidence problem, at the cost of a sign-fluctuating Λ (roughly every Hubble time) and known typicality concerns (Das, Nasiri and Yazdi, 2023).
-* **ADCE (this proposal):** the signal is the mean growth rate $\dot N$ (equivalently, departures of the growth law from the matter-driven baseline). The mechanism is monotone rather than sign-fluctuating; its magnitude and its onset epoch are *not* delivered for free and constitute the program's two hardest open problems (§10, criterion 14 in §16).
+* **ADCE (this proposal):** the signal is the mean growth structure of $N$ (the acceleration and jerk of the count, §8-§9). Its magnitude and its onset epoch are *not* delivered for free and constitute the program's two hardest open problems (§10, criterion 14 in §16).
 
-The comparison defines the program's competitive bar:
+**"Monotone" defined precisely (v3.1, after red-team vector 5).** Two readings must not be conflated. *Sign-stability*: the effective dark-energy contribution does not fluctuate in sign; ADCE plausibly has this property and everpresent Λ does not (its Λ changes sign roughly every Hubble time). *Magnitude-monotonicity*: $\rho_A$ never decreases; ADCE has **no earned claim** to this either way, because the map from growth law to $\rho_A(z)$ is entirely underived, and asserting it would repeat the identity-as-result sin of §6. Only the sign-stability reading is claimed, and weakly.
+
+**The DESI history is pressure, not comfort.** In the DESI-preferred quadrant ($w_0 > -1$, $w_a < 0$, crossing present), the dark-energy density $\rho_{DE}(a)$ *rose to a maximum at the crossing* ($a_* = 1 + (1 + w_0)/w_a \approx 0.71$, $z_* \approx 0.4$ for central fits) *and has been declining since* (from $d\ln\rho/d\ln a = -3(1+w)$; verified symbolically). A mechanism whose effective density were magnitude-monotone could not produce this history at all, and any mean-growth mechanism must explain why the geometric signature of *growing* realized structure is a density that peaked at $z \approx 0.4$. Prima facie, DESI DR2 favors the non-monotone over the naive-growth shape; §14 states the resulting test.
+
+**Magnitude default (v3.1, after red-team vector 6).** The rival's smallness is free: its signal is the fluctuation, suppressed by $1/\sqrt{N} \sim 10^{-60}$. A mechanism coupled to the *mean* has natural scale $\rho_{4,\max}$, i.e. Planckian: the original cosmological-constant problem, roughly 120 orders too large. Absent a derived suppression mechanism, criterion 14's failure mode is ADCE's *default outcome*, not a remote risk. The table reflects this.
 
 | Question | Everpresent Λ | ADCE (current state) |
 |---|---|---|
-| Magnitude of the effect | Derived, order $10^{-120}$ | Open (Target 3/5) |
+| Magnitude of the effect | Derived, order $10^{-120}$ | Open; default is Planckian (120 orders wrong) absent derived suppression |
 | Coincidence problem | Dissolved by construction | Open (§10) |
-| Sign behavior of Λ_eff | Fluctuates (pressure point) | Monotone (potential advantage) |
+| Sign behavior of Λ_eff | Fluctuates (pressure point) | Sign-stable plausibly; magnitude behavior underived; DESI's non-monotone ρ_DE is prima facie pressure |
 | Covariance of the mechanism | CSG-grounded | To adopt from CSG (Target 2/4) |
 | Distinct near-term prediction | Fluctuation statistics in $w(z)$ | Growth-law-dependent $w(z)$ (§14) |
 
-If ADCE cannot at least match the first two rows, the fluctuation mechanism wins on the shared substrate and ADCE reduces to re-labeled CST kinematics (failure criteria 11 and 12, §16). The monotone sign behavior is the one axis on which ADCE is structurally *better* positioned, and it is observationally live (§14).
+If ADCE cannot at least match the first two rows, the fluctuation mechanism wins on the shared substrate and ADCE reduces to re-labeled CST kinematics (failure criteria 11 and 12, §16). Sign-stability is the one axis on which ADCE may be structurally better positioned, and it is observationally live (§14); it is a narrower advantage than v3 claimed.
 
 ---
 
@@ -246,7 +270,7 @@ DESI DR2 BAO combined with CMB prefers evolving dark energy over ΛCDM at 3.1σ 
 Consequences for ADCE:
 
 1. **A derived $w_A(z) \neq -1$ has a live observational target** for the first time since 1998.
-2. **Phantom crossing is an opportunity, not only a hazard.** A single minimally coupled scalar cannot cross $w = -1$; if the actualization sector is genuinely not a scalar field, a growth law whose effective $w_A(z)$ crosses the divide would be a distinguishing structural prediction. The toy model should report whether candidate growth laws land in, out of, or across the DESI-preferred quadrant.
+2. **Phantom crossing is a severe test, not an advertised advantage (reframed in v3.1).** The DESI-preferred history has $\rho_{DE}$ peaking at $z \approx 0.4$ and declining since (§11): prima facie pressure against mean-growth mechanisms. The test: exhibit a *natural* growth law whose effective $\rho_A(z)$ is sign-stable yet non-monotone in magnitude with a late peak. If none exists in the CSG family, that is evidence toward criterion 15/16 territory. (A single minimally coupled scalar cannot cross $w = -1$, so the placeholder scalar formulation of §12 is independently unable to fit this history; the actualization sector, if viable at all, must not be one.)
 3. **Background fits are insufficient.** Perturbations ($c_{s,A}^2$, anisotropic stress $\pi_A$, clustering) discriminate where $H(z)$ does not; first meaningful sound-speed constraints on dynamical dark energy now exist and must eventually be confronted.
 
 The reconstruction dictionary is standard: given $N(a)$, $w_A(a) = -1 - \tfrac{1}{3}\, d\ln\rho_A / d\ln a$, with predictions required for $H(z)$, distances, growth $f\sigma_8(z)$, and the scalar potentials.
@@ -259,7 +283,7 @@ The v2 target list stands, but the order of attack changes: positioning and the 
 
 1. **Target 0 (new): positioning discipline.** Every subsequent artifact cites and distinguishes the CST substrate (§2.1), the fluctuation rival (§2.2), and the count-driven precedent (§2.3). Done in v3; maintained thereafter.
 2. **Target 3 (promoted): capacity bound and saturation.** Justify $\rho_4 \leq \rho_{4,\max}$; derive or defend A-SAT (§9.1). Candidate sources: causal-set discreteness, holography (via light-sheet counting), black-hole thermodynamics, finite logical actualizability.
-3. **Target 1: invariant actualization criterion.** Separate actualized records from reversible evolution, transient correlation, gauge redundancy, coarse-graining artifacts, and observer-relative description. Anchor: quantum Darwinism redundancy (§13).
+3. **Target 1: invariant actualization criterion, plus the bridge law (extended in v3.1).** Separate actualized records from reversible evolution, transient correlation, gauge redundancy, coarse-graining artifacts, and observer-relative description; anchor: quantum Darwinism redundancy (§13). Then state the bridge law relating the record count $N_R$ to the substrate count $N_P$ (§9.4), without which the ontological grounding does not connect to the kinematics.
 4. **Target 2: covariant current.** Define $A^\mu$, $\Sigma_A$ field-theoretically; adopt CSG's discrete general covariance for the discrete regime.
 5. **Target 4: growth-to-geometry theorem.** Show $\Sigma_A > 0$ under the bound implies specific metric evolution (via A-SAT, this is where the theorem must do real work beyond the dictionary identity of §6).
 6. **Target 5: the growth law, on CSG dynamics.** Build the discrete toy model on Rideout-Sorkin sequential growth, benchmarked against Ahmed and Rideout (2010). **Mandatory deliverables:** (a) a growth law producing matter-era deceleration then late acceleration (§10); (b) its $w_A(z)$, confronted with the DESI quadrant and the crossing question (§14).
@@ -269,11 +293,11 @@ The v2 target list stands, but the order of attack changes: positioning and the 
 
 ## 16. Falsification Criteria
 
-The proposal should be rejected or substantially revised if any of the following holds. Criteria 1-14 are carried from v2; 15-17 are added in v3.
+The proposal should be rejected or substantially revised if any of the following holds. Criteria 1-14 are carried from v2; 15-17 are added in v3. Criteria 1-3 are worded as non-existence claims that cannot be conclusively established; they function as **abandonment heuristics** (sustained failure of serious attempts), not decidable tests, and are so labeled (v3.1, after red-team vector 9).
 
-1. Irreversible actualization cannot be defined independently of observer-relative description.
-2. No covariant actualization current can be constructed.
-3. Realized causal growth does not imply any necessary metric evolution.
+1. Irreversible actualization cannot be defined independently of observer-relative description. *(Heuristic.)*
+2. No covariant actualization current can be constructed. *(Heuristic.)*
+3. Realized causal growth does not imply any necessary metric evolution. *(Heuristic — and **partially fired, adjudicated in v3.1**: under 4-volume counting, continued growth demonstrably implies no metric evolution (§8, static-universe result). The v2-form central hypothesis was falsified and has been reformulated as an acceleration hypothesis; the criterion now reads against the reformulated claim: if no grounds can be found for accelerating actualization, the reformulated hypothesis fails too.)*
 4. Metric expansion follows only after assuming volume-count proportionality (equivalently: A-SAT can neither be derived nor independently motivated, §9.1).
 5. The theory requires an arbitrary coupling chosen solely to reproduce the observed value of Λ.
 6. The derived equation of state satisfies $w_A \geq -1/3$.
@@ -291,15 +315,19 @@ The proposal should be rejected or substantially revised if any of the following
 
 A theory of actualization must remain open to failure; these conditions are the program's asset, not its liability.
 
+**Degeneration clause (v3.1).** The criteria must be *re-run against each revision of this document*, not only against future derivations; v3 failed to do this and criterion 3's firing went unregistered until the red-team pass. Additionally: a future version that rescues the central hypothesis by adding an unmotivated postulate (for example, a back-reaction assumption introduced solely to restore the forcing form of §8 with no independent support) is the conventionalist twist and should be recognized as degenerating, per the programme methodology.
+
 ---
 
 ## 17. Present Status
 
-Pre-theoretical. v3 establishes: honest positioning against forty years of adjacent work (§2); the kinematic-identity caution (§6); an explicit saturation axiom (§9.1); a resolved capacity fork with revised 4-volume kinematics (§9.2-9.3); the named coincidence problem (§10); the mean-growth-versus-fluctuation rivalry with its competitive bar (§11); DESI-anchored observational targets (§14); and a reordered derivation program (§15).
+Pre-theoretical. v3 established: honest positioning against forty years of adjacent work (§2); the kinematic-identity caution (§6); an explicit saturation axiom (§9.1); a resolved capacity fork with revised 4-volume kinematics (§9.2-9.3); the named coincidence problem (§10); the mean-growth-versus-fluctuation rivalry with its competitive bar (§11); DESI-anchored observational targets (§14); and a reordered derivation program (§15).
 
-Not yet established: everything on the target list. The decisive chain remains
+v3.1 absorbed a partial refutation at the belt (red-team, 2026-07-22): the v2-form central hypothesis was falsified by the paper's own 4-volume equations and reformulated as an acceleration hypothesis (§8); the two-level reading of $N$ with its required bridge law was declared (§9.4); A-SAT's limits were stated (§9.1); the monotonicity and magnitude claims were corrected against the DESI history (§11, §14). Per the programme methodology, the recorded negative is itself progress; the surviving question is narrower and harder than v3 stated it.
 
-$$\Sigma_A \rightarrow \dot N(t) \rightarrow g_{\mu\nu} \rightarrow T^{(A)}_{\mu\nu} \rightarrow w_A(z),$$
+Not yet established: everything on the target list, now including the $N_R \to N_P$ bridge law. The decisive chain remains
+
+$$\Sigma_A \rightarrow \ddot N(t) \rightarrow g_{\mu\nu} \rightarrow T^{(A)}_{\mu\nu} \rightarrow w_A(z),$$
 
 derived without inserting accelerated expansion into the assumptions. The program succeeds only if that chain is completed; it is abandoned or absorbed into the fluctuation mechanism if criteria 15 or 16 fire.
 

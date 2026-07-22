@@ -63,6 +63,28 @@
     "statement": "The verified Lean derivation chain of Logic Realism Theory (X \u2192 \u2026 \u2192 Schr\u00f6dinger;\nBorn rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's\nL\u2083 constituent and is imported as a sub-project.\n",
     "tier": 1
   },
+  "EXT-002": {
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Bombelli, Lee, Meyer & Sorkin (1987), Phys. Rev. Lett. 59, 521",
+      "Surya (2019), Living Rev. Relativ. 22, 5 (arXiv:1903.11544)",
+      "Bombelli, Henson & Sorkin (arXiv:gr-qc/0605006)"
+    ],
+    "id": "EXT-002",
+    "name": "CST Number-Volume Kinematic Substrate (imported)",
+    "notes": "Added 2026-07-22 per red-team vector 10(b) (reviews/2026-07-redteam-adce/): the\nCST substrate was load-bearing for OPN-008 but invisible to the dependency graph.\nEpistemic status \"argued\": the dictionary is a standard, widely-used postulate of\na respected quantum-gravity programme, not an established physical fact. Import is\nby citation, not formalization (no Lean artifact; contrast EXT-001).\n",
+    "proof_status": "imported",
+    "risk_if_false": "If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson\nsprinkling proves inconsistent with Lorentz invariance or with continuum recovery),\nADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-\u039b rival\nloses its fluctuation magnitude; the comparison in adce.md \u00a711 becomes moot.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "ADCE-v3",
+        "section": "2-theory/04-cosmology/adce.md \u00a72.1, \u00a79"
+      }
+    ],
+    "statement": "Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds\nto causal-element count at Planckian density (\"Order + Number = Geometry\"),\nimplemented by Poisson sprinkling, whose random form is forced by Lorentz\ninvariance (element count in 4-volume V\u2084: \u27e8N\u27e9 = \u03c1_c V\u2084, \u03b4N ~ \u221aN).\n",
+    "tier": 2
+  },
   "LOG-001": {
     "depends_on": [
       {
@@ -448,14 +470,18 @@
       {
         "claim_id": "ACT-001",
         "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-002",
+        "dependency_type": "formal"
       }
     ],
     "epistemic_status": "open",
     "id": "OPN-008",
     "name": "ADCE \u2014 Dark Energy from Mean Causal Growth",
-    "notes": "2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified\nsymbolically (both 3-volume and 4-volume counting; the H-relations are kinematic\nidentities given the dictionary, so all physics lives in the growth law). Prior-art\nsweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's\nfounding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by\nLorentz invariance); Sorkin's pre-1998 everpresent \u039b (gr-qc/9706002) is the\nestablished fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916\nis the count-driven dV/dt structural precedent (instructive inversion: his de Sitter\nis the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson\nenergy-per-bit named as the disavowed path. Four gaps identified and addressed in\nv3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity\nfork (resolved to 4-volume counting, the triadically- and CST-consistent choice),\ncoincidence problem (named mandatory deliverable), magnitude benchmark (competitive\nbar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2\nsigma, w0 > -1, wa < 0, phantom crossing z \u2248 0.4-0.5) is a live target; phantom\ncrossing is a structural opportunity since the actualization sector is not a\nminimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then\na CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory\ndeliverables (a) and (c).\n",
+    "notes": "2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified\nsymbolically (both 3-volume and 4-volume counting; the H-relations are kinematic\nidentities given the dictionary, so all physics lives in the growth law). Prior-art\nsweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's\nfounding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by\nLorentz invariance); Sorkin's pre-1998 everpresent \u039b (gr-qc/9706002) is the\nestablished fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916\nis the count-driven dV/dt structural precedent (instructive inversion: his de Sitter\nis the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson\nenergy-per-bit named as the disavowed path. Four gaps identified and addressed in\nv3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity\nfork (resolved to 4-volume counting, the triadically- and CST-consistent choice),\ncoincidence problem (named mandatory deliverable), magnitude benchmark (competitive\nbar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2\nsigma, w0 > -1, wa < 0, phantom crossing z \u2248 0.4-0.5) is a live target; phantom\ncrossing is a structural opportunity since the actualization sector is not a\nminimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then\na CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory\ndeliverables (a) and (c).\n2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed\nat the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting\na static universe sustains \u1e44 > 0 at saturation, so the v2-form central hypothesis\n(\"continued actualization necessarily changes geometry\") is FALSE by the paper's\nown equations \u2014 criterion 3 fired, registered, hypothesis reformulated to\n\"accelerating actualization\" (expansion = rate acceleration, cosmic acceleration =\ncount jerk 3\u1e44N\u20db > 2N\u0308\u00b2). Vector 3 (HIGH): N-equivocation (Planck substrate count\nN_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level\nstructure + bridge-law obligation (\u00a79.4). Vector 5 (HIGH, reproduced): DESI-quadrant\n\u03c1_DE is NON-monotone (peak at crossing z\u22480.4, declining since; a* = 1+(1+w0)/wa),\nso the earlier \"phantom crossing is a structural opportunity\" line above OVERSTATED\n\u2014 corrected: only sign-stability is (weakly) claimed; the DESI history is prima\nfacie pressure, and the reframed severe test is a natural growth law with a\nsign-stable, late-peaking, non-monotone effective \u03c1_A. Vector 6: mean-coupled\nmagnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002\nadded (CST substrate import, this entry's new formal dependency). No confidence\nmoves; stays open/prose_only.\n",
     "proof_status": "prose_only",
-    "risk_if_false": "If no growth law solves the coincidence problem without hand-tuning, or the\nmechanism cannot match the fluctuation rival's derived 10^-120 magnitude, ADCE\nreduces to re-labeled causal-set kinematics with no independent content and is\nabandoned (adce.md \u00a716 criteria 11-12, 15-16). The TRT hard core is untouched\neither way; this is a belt-level physics-facing conjecture.\n",
+    "risk_if_false": "If no growth law solves the coincidence problem without hand-tuning, or the\nmechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the\n4-volume resolution renders the geometric hypothesis vacuous (static universes\nsustain \u1e44 > 0 at saturation, so only *accelerating* actualization carries content\n\u2014 adce.md \u00a78 v3.1), or no N_R\u2192N_P bridge law can be stated (adce.md \u00a79.4), ADCE\nreduces to re-labeled causal-set kinematics with no independent content and is\nabandoned (adce.md \u00a716 criteria 11-12, 15-16). The TRT hard core is untouched\neither way; this is a belt-level physics-facing conjecture.\n",
     "role": "open",
     "source_documents": [
       {

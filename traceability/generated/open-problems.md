@@ -13,7 +13,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-005 | 2 | open | Dimensional Analysis (ontological A vs physical S) | OPN-001 |
 | OPN-006 | 2 | open | Avoid Equivocation (define terms before use) | — |
 | OPN-007 | 2 | open | Theology / Metaphysics Boundary Discipline | ONT-004 |
-| OPN-008 | 2 | open | ADCE — Dark Energy from Mean Causal Growth | ONT-001, ACT-001 |
+| OPN-008 | 2 | open | ADCE — Dark Energy from Mean Causal Growth | ONT-001, ACT-001, EXT-002 |
 
 ## Statements & failure conditions
 
@@ -63,7 +63,7 @@ Keep formal, physical, and metaphysical claims distinct; state the one explicit 
 
 Determine whether the mean growth rate of realized causal structure (Ṅ), on the causal-set number-volume substrate with an explicit saturation axiom (A-SAT), can drive late-time accelerated expansion with (a) a derived growth law producing matter-era deceleration followed by acceleration onset at z ≈ 0.7, (b) a natural magnitude compatible with the observed dark-energy scale, and (c) a w_A(z) distinguishable from both ΛCDM and the fluctuation-driven everpresent-Λ mechanism (Λ ~ ±ℏ/√V₄) that shares the same kinematic substrate.
 
-*Risk if false:* If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.
+*Risk if false:* If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the 4-volume resolution renders the geometric hypothesis vacuous (static universes sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.
 
 ---
 

@@ -15,11 +15,15 @@ epistemic_status: open
 depends_on:
   - { claim_id: ONT-001, dependency_type: logical }
   - { claim_id: ACT-001, dependency_type: logical }
+  - { claim_id: EXT-002, dependency_type: formal }
 source_documents:
   - { doc: ADCE-v3, section: "2-theory/04-cosmology/adce.md" }
 risk_if_false: |
   If no growth law solves the coincidence problem without hand-tuning, or the
-  mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, ADCE
+  mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the
+  4-volume resolution renders the geometric hypothesis vacuous (static universes
+  sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content
+  — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE
   reduces to re-labeled causal-set kinematics with no independent content and is
   abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched
   either way; this is a belt-level physics-facing conjecture.
@@ -43,3 +47,20 @@ notes: |
   minimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then
   a CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory
   deliverables (a) and (c).
+  2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed
+  at the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting
+  a static universe sustains Ṅ > 0 at saturation, so the v2-form central hypothesis
+  ("continued actualization necessarily changes geometry") is FALSE by the paper's
+  own equations — criterion 3 fired, registered, hypothesis reformulated to
+  "accelerating actualization" (expansion = rate acceleration, cosmic acceleration =
+  count jerk 3ṄN⃛ > 2N̈²). Vector 3 (HIGH): N-equivocation (Planck substrate count
+  N_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level
+  structure + bridge-law obligation (§9.4). Vector 5 (HIGH, reproduced): DESI-quadrant
+  ρ_DE is NON-monotone (peak at crossing z≈0.4, declining since; a* = 1+(1+w0)/wa),
+  so the earlier "phantom crossing is a structural opportunity" line above OVERSTATED
+  — corrected: only sign-stability is (weakly) claimed; the DESI history is prima
+  facie pressure, and the reframed severe test is a natural growth law with a
+  sign-stable, late-peaking, non-monotone effective ρ_A. Vector 6: mean-coupled
+  magnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002
+  added (CST substrate import, this entry's new formal dependency). No confidence
+  moves; stays open/prose_only.

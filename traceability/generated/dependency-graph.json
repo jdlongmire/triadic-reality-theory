@@ -2,6 +2,7 @@
   "nodes": [
     "ACT-001",
     "EXT-001",
+    "EXT-002",
     "LOG-001",
     "LOG-002",
     "ONT-001",
@@ -105,6 +106,11 @@
       "from": "OPN-008",
       "to": "ACT-001",
       "type": "logical"
+    },
+    {
+      "from": "OPN-008",
+      "to": "EXT-002",
+      "type": "formal"
     },
     {
       "from": "PRD-001",
