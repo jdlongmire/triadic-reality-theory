@@ -18,6 +18,7 @@ depends_on:
   - { claim_id: EXT-002, dependency_type: formal }
 source_documents:
   - { doc: ADCE-v3, section: "2-theory/04-cosmology/adce.md" }
+  - { doc: ADCE-T3T5, section: "2-theory/04-cosmology/adce-t3t5-report.md" }
 risk_if_false: |
   If no growth law solves the coincidence problem without hand-tuning, or the
   mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the
@@ -64,3 +65,32 @@ notes: |
   magnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002
   added (CST substrate import, this entry's new formal dependency). No confidence
   moves; stays open/prose_only.
+  2026-07-22 (Targets 3+5 execution; adce-t3t5-report.md, v3.2): Target 3 CLOSED
+  NEGATIVE — A-SAT dissolved under the two-level split (substrate: saturation is a
+  geometry-neutral identity of the number-volume correspondence, cannot force
+  expansion; record level: saturation false by ~100 orders); capacity-forcing route
+  closed in principle. Krishna-Mathew direction corrected vs fulltext: they prove
+  law=>entropy-maximization, NOT the converse — the extremal escape is conjectural.
+  Target 5 (FLRW level) executed as a bridge-law scan (code/adce_bridge_scan.py):
+  deliverable (a) ACHIEVED — feedback attractor (sigma = lam*N_R, diluted-stock
+  bridge) has genuine de Sitter fixed point H* = lam/3 (v2's boxed relation recovered
+  as attractor, not assumption), matter era intact, z_acc ~ 0.47; cost = lam ~ 3H0
+  hand-set (coincidence relocated) + freezing quadrant (w_a > 0, DESI-disfavored).
+  SEVERE TEST FAILED across the natural grid: nearest morphological match (SFH x
+  diluted-stock) peaks at z ~ 2.1 (locked to cosmic noon) vs observed z* ~ 0.35-0.50.
+  Three-probe convergence on horizon coupling as the only data-viable branch:
+  (i) only DESI-quadrant natural cell is horizon-coupled (w0,wa ~ -0.58,-0.28, too
+  weak, Hsu-type self-limiting); (ii) inverse problem — exact-DESI source must RISE
+  monotonically to z=0 (2.8x its z=1 value), anti-correlated with all matter-
+  processing histories, no record destruction needed; (iii) magnitude — only the
+  horizon-entropy inventory (S_CEH = 2.6e122 kB, Egan-Lineweaver) yields a DERIVED
+  energy-per-record scale (within 1.4x of kB*T_deSitter; partially a de Sitter
+  thermodynamic identity, flagged). Meanwhile CSG literature (fulltext sweep) shows
+  cosmic renormalization makes percolation (t_n = t^n) the unique fixed-point family
+  => generic sequential growth natively selects the FEEDBACK branch; no covariant
+  t_n family producing a horizon-referenced law is known (confirmed gap); any CSG
+  benchmark bounded to coarse observables (Glaser-Surya 1309.3403 manifoldlikeness
+  failure). NET STATE: exactly two live realizations, mutually exclusive in w_a
+  sign — feedback attractor (CSG-natural, DESI-disfavored) vs horizon coupling
+  (DESI-quadrant, underived, acute criterion-12 risk) — with DESI DR3/Euclid as the
+  externally scheduled adjudicator. Stays open/prose_only; no confidence moves.
