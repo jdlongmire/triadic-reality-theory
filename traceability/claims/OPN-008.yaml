@@ -2,12 +2,14 @@ id: OPN-008
 name: ADCE — Dark Energy from Mean Causal Growth
 statement: |
   Determine whether the mean growth rate of realized causal structure (Ṅ), on the
-  causal-set number-volume substrate with an explicit saturation axiom (A-SAT), can
-  drive late-time accelerated expansion with (a) a derived growth law producing
-  matter-era deceleration followed by acceleration onset at z ≈ 0.7, (b) a natural
-  magnitude compatible with the observed dark-energy scale, and (c) a w_A(z)
-  distinguishable from both ΛCDM and the fluctuation-driven everpresent-Λ mechanism
-  (Λ ~ ±ℏ/√V₄) that shares the same kinematic substrate.
+  causal-set number-volume substrate, can drive late-time accelerated expansion via
+  a derivable bridge law T^(A) = B[N_R-sector; g] (the saturation axiom A-SAT was
+  retired in v3.2 — Target 3 closed negative for the declared two-level structure),
+  with (a) a derived growth law producing matter-era deceleration followed by
+  acceleration onset at z ≈ 0.7, (b) a natural magnitude compatible with the
+  observed dark-energy scale, and (c) a w_A(z) distinguishable from both ΛCDM and
+  the fluctuation-driven everpresent-Λ mechanism (Λ ~ ±ℏ/√V₄) that shares the same
+  kinematic substrate.
 tier: 2
 role: open
 proof_status: prose_only
@@ -94,3 +96,34 @@ notes: |
   sign — feedback attractor (CSG-natural, DESI-disfavored) vs horizon coupling
   (DESI-quadrant, underived, acute criterion-12 risk) — with DESI DR3/Euclid as the
   externally scheduled adjudicator. Stays open/prose_only; no confidence moves.
+  2026-07-22 (second red-team; reviews/2026-07-redteam-adce-t3t5/): report revised
+  in-cycle (v3.2.1 edits on the PR branch). Landed hits, all reproduced before
+  acceptance: V4 (HIGH) — attractor cell carries a PERMANENT ~14.4% dust-like
+  tracker through recombination (verified z=5..9000, w_A=0 at z=1090); "matter era
+  intact" refuted as stated (0.18 at z=5 also fails the scan's own <0.1 threshold);
+  deliverable (a) downgraded to background-morphology-only, two tuned dials (mu,
+  lam) = CPL's parameter count. V7 (HIGH) — "three independent probes" REFUTED as
+  multiplicity: scan + inverse problem are one B1-conditional computation run both
+  ways; magnitude row is an identity; restated as one probe; also "only DESI-
+  quadrant cell" was false as worded (S1xB1, S2xB1 in-quadrant but decelerating;
+  S5 unique only as in-quadrant AND accelerating, and S5 fails the interior-peak
+  shape criterion itself — now applied symmetrically: no cell passes, S5 fails
+  least). V8 (HIGH) — "CSG natively selects feedback" REFUTED as a level slip
+  (percolation results govern N_P substrate birth, not the N_R bridge — the exact
+  equivocation §9.4 forbids); restated as the named open INHERITANCE CONJECTURE.
+  V1 (MED-HIGH) — Target 3 closure re-scoped to the declared two-level structure;
+  Jacobson-type horizon-thermodynamic level not covered by the dichotomy, merges
+  with the extremal escape as one open problem (a horizon-thermodynamic derivation
+  of the bridge law). V6 (MED-HIGH) — magnitude horizon row relabeled a consistency
+  identity: mu/kB*T_dS = Omega_L*(c/H0*R_CEH)^2 = 0.59 exactly (verified); zero
+  record physics; "fully guaranteed given the inputs." V5 (MED-LOW) — inverse-
+  problem peak z combo-dependent (0.00/0.00/0.06/0.29 across DR2 combos); "rises
+  into the late era" is the robust statement. V9/V10 — stale A-SAT load-outs swept
+  (Target 4 re-posed as bridge-law derivation; criterion 4 FIRED-and-absorbed
+  annotation; this statement field amended); criteria adjudication added to report
+  §7: crit 15 PARTIALLY FIRED (hand-set lam ~ 3H0, z_acc 0.47 vs 0.7), crit 5 on
+  watch, crit 12 acute on horizon branch. Numerics core survived all attacks
+  (closed-form S5, two-sided attractor ODE, seed robustness, exact relations to
+  1e-13). Honest cycle close (red-team's sentence, accepted): one probe, two
+  damaged branches, one scheduled execution date (DESI DR3/Euclid w_a sign).
+  Stays open/prose_only; no confidence moves.
