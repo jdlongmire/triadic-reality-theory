@@ -21,7 +21,9 @@ at first order rather than $\epsilon^R$.
 
 **Required change:** treat $2\epsilon^R$ as a reference special case. A real protocol must bound the
 joint forbidden-event probability from a causal calibration model that includes common modes.
-Applied.
+Applied. Stage 2 now includes an independence-free direct joint calibration bound. It covers
+observed common modes but introduces a calibration-to-science transfer assumption and potentially
+severe sample complexity; those limitations are explicit.
 
 ## Attack 3 — independent affirmation of a proposition and its negation is nontrivial
 
@@ -74,4 +76,3 @@ The principal challenge is upheld: a positive discriminator can be constructed, 
 impossibility-style conclusion is withdrawn. The current artifact earns tier 2 because its
 inequality is explicit and reproducible. It does not earn `PRD-*` status until the causal joint
 bound and a rival physical likelihood are supplied.
-

@@ -87,3 +87,8 @@ The work remains tier 2. Carry forward:
 3. identify a rival physical model—not merely a rival logic—that predicts a different
    distribution; and
 4. only then preregister a tier-3 protocol.
+
+Stage 2 subsequently completed item 2 at the statistical level: direct calibration of the full
+joint all-gap/all-glut patterns yields a conservative simultaneous bound without fragment
+factorization. The remaining debt is physical matched-regime calibration and control-to-science
+transfer, not the algebra of the bound.

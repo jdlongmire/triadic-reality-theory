@@ -180,6 +180,38 @@ The real null bound must therefore be the maximum coherent-gap/glut probability 
 causal error model, not automatically $2\epsilon^R$. The symmetric formula remains a transparent
 reference case and a negative control for the analysis code.
 
+### Independence-free joint calibration
+
+The fragment-independence assumption can be removed from the statistical bound. On matched control
+preparations with known latent values $g\in\{T,F\}$, calibrate the **complete joint events**
+$00^R$ and $11^R$ directly. Let $U_{g,\mathrm{gap}}$ and $U_{g,\mathrm{glut}}$ be simultaneous
+one-sided upper confidence bounds on those four Bernoulli rates. Then
+
+$$
+B_{\mathrm{joint}}
+=
+\max_g U_{g,\mathrm{gap}}
++
+\max_g U_{g,\mathrm{glut}}
+$$
+
+is valid without factorizing the fragment responses. The reference code implements exact one-sided
+Clopper–Pearson limits with Bonferroni allocation across the four calibration rates. This incorporates
+observed common-mode failures into the null instead of suppressing them artificially by
+$\epsilon^R$.
+
+The price is substantial:
+
+- rare-event calibration requires very large control samples;
+- the bound may be too loose to yield useful power;
+- controls must match the measurement strength, timing, leakage population, and closure regime of
+  science trials; and
+- an unmodeled distribution shift between calibration and science trials remains a rival
+  explanation.
+
+The direct joint bound is the default for any real protocol. The factorized bound is admissible only
+after a causal argument and intervention tests establish the claimed conditional independence.
+
 ## Current epistemic status
 
 **Derived:** an explicit observable and inequality can be written. The claim that no discriminator
