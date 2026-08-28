@@ -42,8 +42,30 @@ The package must resolve, without defining success into existence:
 
 ## Carry forward
 
-Execute the package's observability/circularity audit and adversarial review. End with one
-explicit disposition: promote, revise, reclassify, or reject. Do not add a tier-3 claim
-unless an operationally observable discriminator against standard quantum measurement
-survives preregistration and review.
+The package was executed and closed later the same session.
 
+## Execution closeout
+
+The observability and circularity audit, primary-source comparison, and adversarial review
+converged on one disposition: **reject the submitted protocol as a tier-3 severe test and
+reclassify its surviving question as tier-2 operationalization debt**.
+
+Decisive findings:
+
+1. No positive raw-data event is supplied for genuine nonactualization.
+2. Outcome-informative redundancy contradicts the candidate-event criteria; occurrence-only
+   redundancy does not establish irreducible closure.
+3. Ordering the closure classifier before the outcome classifier does not make them independent
+   when both consume the same records.
+4. Complete-POVM normalization gives no observable likelihood difference between TRT and standard
+   quantum measurement.
+
+Landed surfaces: the tier-2 conceptual probe, red-team review, response and disposition,
+`OPN-009`, refreshed traceability reports, bibliography and reference verification, appraisal
+entry, and the completed package record. TRT remains **Unappraised**.
+
+## Carry forward after closeout
+
+None for this protocol. `OPN-009` remains an open conceptual frontier: a future attempt must
+supply a positive event, an independently satisfiable closure antecedent, and a rival likelihood.
+Do not revive event-rate statistics until those prerequisites exist.

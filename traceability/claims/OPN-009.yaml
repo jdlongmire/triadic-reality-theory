@@ -1,0 +1,29 @@
+id: OPN-009
+name: Operationalize Failure of Outcome Actualization
+statement: |
+  Specify whether any positive instrument-level event can distinguish failure of the
+  admissible-to-outcome-actual crossing from every physical outcome, anomaly, unclassified
+  record, and record-chain failure, while remaining possible under a defined rival model.
+tier: 2
+role: open
+proof_status: prose_only
+epistemic_status: open
+depends_on:
+  - { claim_id: ONT-003, dependency_type: logical }
+  - { claim_id: OPN-004, dependency_type: logical }
+source_documents:
+  - { doc: nonactualization-operationalization.md, section: "Result" }
+  - { doc: WP-TRT-LCC-0001, section: "Response and Disposition" }
+external_citations:
+  - Busch 2003, arXiv:quant-ph/9909073
+  - Ollivier, Poulin, and Zurek 2005, DOI 10.1103/PhysRevA.72.042113
+risk_if_false: >
+  If no such event can be defined, literal nonactualization cannot be an empirical target in
+  ordinary instrument semantics; TRT's LRM may still locate the measurement crossing, but an
+  experiment based only on missing or residual records cannot test actualizing action A.
+notes: >
+  WP-TRT-LCC-0001 tested one proposed operationalization. It failed because strong redundant
+  recording contradicts the candidate event, weak redundancy does not imply irreducible closure,
+  and every observable residual is another physical record or a record-chain failure. This is an
+  open impossibility/constructibility question, not a prediction that such an event exists.
+

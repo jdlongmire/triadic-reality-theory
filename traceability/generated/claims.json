@@ -492,6 +492,41 @@
     "statement": "Determine whether the mean growth rate of realized causal structure (\u1e44), on the\ncausal-set number-volume substrate with an explicit saturation axiom (A-SAT), can\ndrive late-time accelerated expansion with (a) a derived growth law producing\nmatter-era deceleration followed by acceleration onset at z \u2248 0.7, (b) a natural\nmagnitude compatible with the observed dark-energy scale, and (c) a w_A(z)\ndistinguishable from both \u039bCDM and the fluctuation-driven everpresent-\u039b mechanism\n(\u039b ~ \u00b1\u210f/\u221aV\u2084) that shares the same kinematic substrate.\n",
     "tier": 2
   },
+  "OPN-009": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-003",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "OPN-004",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "external_citations": [
+      "Busch 2003, arXiv:quant-ph/9909073",
+      "Ollivier, Poulin, and Zurek 2005, DOI 10.1103/PhysRevA.72.042113"
+    ],
+    "id": "OPN-009",
+    "name": "Operationalize Failure of Outcome Actualization",
+    "notes": "WP-TRT-LCC-0001 tested one proposed operationalization. It failed because strong redundant recording contradicts the candidate event, weak redundancy does not imply irreducible closure, and every observable residual is another physical record or a record-chain failure. This is an open impossibility/constructibility question, not a prediction that such an event exists.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If no such event can be defined, literal nonactualization cannot be an empirical target in ordinary instrument semantics; TRT's LRM may still locate the measurement crossing, but an experiment based only on missing or residual records cannot test actualizing action A.\n",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "nonactualization-operationalization.md",
+        "section": "Result"
+      },
+      {
+        "doc": "WP-TRT-LCC-0001",
+        "section": "Response and Disposition"
+      }
+    ],
+    "statement": "Specify whether any positive instrument-level event can distinguish failure of the\nadmissible-to-outcome-actual crossing from every physical outcome, anomaly, unclassified\nrecord, and record-chain failure, while remaining possible under a defined rival model.\n",
+    "tier": 2
+  },
   "PRD-001": {
     "depends_on": [
       {

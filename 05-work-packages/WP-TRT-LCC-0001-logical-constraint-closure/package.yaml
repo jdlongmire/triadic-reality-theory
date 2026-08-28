@@ -1,6 +1,6 @@
 id: WP-TRT-LCC-0001
 title: Disposition the Logical Constraint Closure experimental protocol
-status: approved
+status: done
 commitment: stretch
 scope: >
   Evaluate the submitted Logical Constraint Closure (LCC) protocol as a proposed
@@ -71,4 +71,9 @@ verification: >
   python3 traceability/scripts/build.py must pass with generated reports fresh, the
   relevant reproducible checks must pass, GitHub-safe LaTeX lint must be clean, and
   python3 0-program-methods/ops/research-wrap.py must pass before merge is proposed.
-disposition: open
+disposition: >
+  RECLASSIFIED. The submitted protocol is rejected as a tier-3 severe test because it supplies
+  no positive observable for chi_emptyset, its strong redundancy condition conflicts with its
+  candidate-event criteria, its weak redundancy reading does not entail I_irr, and it predicts
+  nothing beyond complete-POVM normalization. The surviving question is retained as the tier-2
+  conceptual probe OPN-009. Programme appraisal remains Unappraised.

@@ -28,6 +28,17 @@ No downstream work may build on an unverified citation. This file tracks the ver
 
 Used by [`../2-theory/00-foundational/actualization-resolution-sheaf-probe.md`](../2-theory/00-foundational/actualization-resolution-sheaf-probe.md) (OPN-002 sub-route). The contextuality-as-obstruction-to-a-global-section framing and the possibilistic (Boolean) vs probabilistic (ℝ≥0) semiring layering were verified against the primary during the 2026-06-29 red-team ([`../reviews/2026-06-redteam-sheaf/`](../reviews/2026-06-redteam-sheaf/)).
 
+## Verified — primary/authoritative source confirmed (2026-08-28, LCC disposition)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **Busch (2003)** | *Phys. Rev. Lett.* 91, 120403; arXiv:quant-ph/9909073. Effects in a POVM carry trace-rule probabilities; complete effect families sum to identity; result includes dimension 2. | arXiv full text |
+| **Ollivier, Poulin & Zurek (2005)** | *Phys. Rev. A* 72, 042113; DOI 10.1103/PhysRevA.72.042113. Redundancy is independently accessible information about pointer observables in environment fragments. | APS |
+| **de Lange et al. (2014)** | *Phys. Rev. Lett.* 112, 080501; DOI 10.1103/PhysRevLett.112.080501. Dispersive transmon measurement uses a continuous homodyne record and finite measurement efficiency. | APS |
+| **Nesterov & Pechenezhskiy (2024)** | *Phys. Rev. Applied* 22, 064038; DOI 10.1103/PhysRevApplied.22.064038. Dispersive readout can induce transitions into higher noncomputational states. | APS |
+
+Used by [`../2-theory/02-variational/nonactualization-operationalization.md`](../2-theory/02-variational/nonactualization-operationalization.md) and the [`LCC red-team`](../reviews/2026-08-lcc-protocol/review.md) (OPN-009).
+
 ## ⚠️ Correction required
 
 - **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.
