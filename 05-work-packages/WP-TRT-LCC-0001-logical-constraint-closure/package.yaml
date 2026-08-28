@@ -1,0 +1,74 @@
+id: WP-TRT-LCC-0001
+title: Disposition the Logical Constraint Closure experimental protocol
+status: approved
+commitment: stretch
+scope: >
+  Evaluate the submitted Logical Constraint Closure (LCC) protocol as a proposed
+  severe test of TRT's Logical Resolution Model and the admissible-to-outcome-actual
+  measurement crossing. Preserve the submitted draft as intake; reconstruct its
+  strongest testable claim; determine whether operational closure C_L is an
+  independently certifiable proxy for irreducible informational closure I_irr;
+  determine whether chi_emptyset denotes an observable event rather than an
+  exclusion-defined absence; check whether the proposal differs empirically from
+  completeness of a standard POVM and ordinary readout/anomaly accounting; and
+  record a final disposition as promote, revise, reclassify, or reject.
+
+  If a non-vacuous discriminator survives, integrate the resulting artifact at the
+  appropriate TRT tier with traceability, failure conditions, citations, and an
+  appraisal update. If none survives, preserve the negative result in TRT's review
+  and appraisal surfaces rather than manufacturing a prediction.
+
+  Out of scope: conducting a laboratory experiment; purchasing or reserving quantum
+  hardware; contacting laboratories or external reviewers; publishing or submitting
+  a paper; changing TRT's hard core; altering the Born-rule or decoherence verdicts
+  merely to accommodate this proposal; and work in thinx, CAC/FCD, Semantic Actualism,
+  or another repository beyond a pointer to this TRT package.
+authority_boundary: >
+  Work inside this TRT package may proceed without re-asking: source preservation,
+  internal analysis, literature-supported claim reconstruction, adversarial review,
+  traceability drafts, reproducible calculations or simulations, and a recorded
+  disposition that leaves the programme's confidence unchanged or moves it downward.
+
+  This approval does not authorize external communication, paid services, laboratory
+  access, publication, a public claim of falsifiability, promotion of confidence, a
+  change to the hard core, or merge to main. Any surviving tier-3 prediction must be
+  preregistered with an observation-class falsifier that is operationally distinguishable
+  from apparatus failure and from an expanded physical outcome space, then reviewed
+  before integration.
+actions:
+  - >
+    Preserve the 2026-08-28 submitted protocol verbatim under intake/ with provenance.
+  - >
+    Normalize the proposal into explicit antecedent, consequent, observable variables,
+    exclusions, and a decision rule without silently strengthening it.
+  - >
+    Run a circularity and observability audit on C_L, I_irr, chi_emptyset, closure time,
+    and the requirement that closure classification precede outcome classification.
+  - >
+    Compare the proposed null event against complete-POVM normalization, no-click and
+    leakage models, decoherence-only accounts, and existing TRT LRM/Born-rule claims.
+  - >
+    Test whether any possible raw record can satisfy the candidate criteria without
+    becoming either a physical anomaly outcome or an unclassifiable missing datum.
+  - >
+    Obtain an adversarial review focused on vacuity, underdetermination of the C_L to
+    I_irr bridge, and whether the experiment can discriminate TRT from standard quantum
+    measurement theory.
+  - >
+    Record one disposition: promote to a preregisterable tier-3 test; revise and return
+    for another pass; reclassify as tier-2 interpretation or conceptual probe; or reject
+    as non-falsifiable or non-discriminating.
+  - >
+    If promoted or reclassified, update the canonical claim registry, generated reports,
+    relevant roadmap/open-problem links, and appraisal in the same TRT change set.
+verification: >
+  Done is proven by a committed disposition record that explicitly answers four
+  questions: (1) what observable raw-data pattern counts as chi_emptyset, (2) why that
+  pattern is not another physical outcome or equipment/data failure, (3) why C_L is
+  certified independently of the alleged outcome, and (4) what result differs from
+  standard complete quantum measurement. The record must cite the preserved intake and
+  existing TRT LRM/Born-rule surfaces. If the disposition changes programme content,
+  python3 traceability/scripts/build.py must pass with generated reports fresh, the
+  relevant reproducible checks must pass, GitHub-safe LaTeX lint must be clean, and
+  python3 0-program-methods/ops/research-wrap.py must pass before merge is proposed.
+disposition: open
