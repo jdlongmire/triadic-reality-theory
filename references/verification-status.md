@@ -49,7 +49,17 @@ Used by [`../2-theory/02-variational/nonactualization-operationalization.md`](..
 | **Kleinmann et al. (2012)** | *Phys. Rev. Lett.* 109, 250402; DOI 10.1103/PhysRevLett.109.250402. Frames optimal noncontextuality inequalities as facets of a convex polytope. | arXiv full text |
 | **Mazurek et al. (2016)** | *Nature Communications* 7, 11780; DOI 10.1038/ncomms11780. Demonstrates an operational inequality with explicit treatment of noisy measurements and inexact operational equivalence. | Nature Communications full text |
 
-Used by [`../2-theory/02-variational/fll-closure-witness.md`](../2-theory/02-variational/fll-closure-witness.md) (OPN-009). These sources establish rival logical interpretation and witness methodology; none is represented as an existing experimental violation of the three FLL.
+Used by [`../2-theory/02-variational/global-bivalent-closure-witness-under-fll.md`](../2-theory/02-variational/global-bivalent-closure-witness-under-fll.md) (OPN-009). These sources establish rival logical interpretation and witness methodology; none is represented as an existing experimental violation of the three FLL.
+
+## Verified — primary sources confirmed (2026-08-28, rival-model attempt)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **Ozawa (1984)** | *J. Math. Phys.* 25, 79--87; DOI 10.1063/1.526000. Establishes correspondence between physical measuring processes and completely positive instruments. | AIP article metadata/abstract |
+| **Chiribella, D'Ariano & Perinotti (2010)** | *Phys. Rev. A* 81, 062348; arXiv:0908.1583; DOI 10.1103/PhysRevA.81.062348. Develops operational-probabilistic tests, transformations, composition, and reversible environmental realization under purification. | arXiv full text / APS metadata |
+| **da Costa & de Ronde (2015)** | *The Paraconsistent Approach to Quantum Superpositions Reloaded*, arXiv:1507.02706. Formalizes contradictory powers in a potential realm; does not derive a changed actual-measurement likelihood for the GBC witness. | arXiv full text |
+
+Used by [`../2-theory/02-variational/non-bivalent-rival-model-attempt.md`](../2-theory/02-variational/non-bivalent-rival-model-attempt.md) (OPN-009).
 
 ## ⚠️ Correction required
 

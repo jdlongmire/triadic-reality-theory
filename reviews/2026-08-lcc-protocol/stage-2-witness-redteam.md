@@ -1,7 +1,7 @@
-# Stage-2 Red-Team — Global FLL Closure Witness
+# Stage-2 Red-Team — Global Bivalent Closure Witness under FLL
 
 - **Date:** 2026-08-28
-- **Target:** [`global FLL closure witness`](../../2-theory/02-variational/fll-closure-witness.md)
+- **Target:** [`global bivalent closure witness under FLL`](../../2-theory/02-variational/global-bivalent-closure-witness-under-fll.md)
 - **Verdict:** **candidate inequality survives as an auxiliary-model witness; direct-FLL and
   tier-3 readings do not yet survive**
 
@@ -56,7 +56,8 @@ physics prediction.
 ## Attack 6 — finite records do not certify unrestricted globality
 
 Any experiment samples a finite causal record architecture. It can test the claim that FLL governs
-that completed context and can pressure a universal by counterexample. It cannot verify global FLL
+that completed context and can pressure a universal by counterexample. It cannot verify universal
+FLL operation
 from repeated confirmations. The asymmetry is Popperian and acceptable if stated: one sound
 violation refutes the bridge; zero violations only tighten an implementation-relative bound.
 

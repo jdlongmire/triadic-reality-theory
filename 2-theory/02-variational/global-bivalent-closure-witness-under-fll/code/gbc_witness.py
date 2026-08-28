@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reference calculation for the symmetric global-FLL closure witness.
+"""Reference calculation for the symmetric global-bivalent closure under GBC witness.
 
 The null is a closed binary context with one latent bivalent value and R
 conditionally independent record fragments.  Each fragment's probability of a
@@ -157,7 +157,7 @@ def main() -> None:
         mode = "direct_joint_calibration"
     p_value = binomial_upper_tail(args.trials, args.events, bound)
     print(f"mode={mode}")
-    print(f"B_FLL={bound:.12g}")
+    print(f"B_GBC={bound:.12g}")
     print(f"observed_rate={args.events / args.trials:.12g}")
     print(f"one_sided_p_value={p_value:.12g}")
 

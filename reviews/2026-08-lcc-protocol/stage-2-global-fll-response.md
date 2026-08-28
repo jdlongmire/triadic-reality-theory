@@ -41,7 +41,7 @@ p_{\mathrm{gap}}+p_{\mathrm{glut}}\leq B_{\mathrm{FLL}}.
 $$
 
 The exact bound and reproducible reference calculation live in
-[`fll-closure-witness.md`](../../2-theory/02-variational/fll-closure-witness.md).
+[`global-bivalent-closure-witness-under-fll.md`](../../2-theory/02-variational/global-bivalent-closure-witness-under-fll.md).
 
 This establishes that a discriminator **can** be called on. It does not yet establish a physical
 implementation or a rival theory that predicts violation. The WP is therefore reopened and remains
@@ -51,7 +51,6 @@ tier 2 rather than returning immediately to tier 3.
 
 Contextuality is precedent for the witness method, not evidence that FLL has already failed.
 Kochen–Specker inequalities reject specified context-independent joint valuations across multiple
-contexts. The proposed FLL witness restricts itself to one completed physical context and tests
+contexts. The proposed GBC witness restricts itself to one completed physical context and tests
 whether its actual records admit a coherent bivalent valuation. Conflating those claims would
-trivialize both contextuality and the global-FLL thesis.
-
+trivialize both contextuality and the global-bivalence-under-FLL thesis.

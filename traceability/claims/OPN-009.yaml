@@ -1,11 +1,13 @@
 id: OPN-009
-name: Derive and Instantiate a Global FLL Closure Witness
+name: Derive and Instantiate a Global Bivalent Closure Witness under FLL
 statement: |
   Derive and physically instantiate an error-bounded witness for whether one completed context's
   records admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded
-  Middle. Stage 2 has derived a candidate inequality from redundant dual affirmative reports of
-  P and not-P; remaining work is an instrument model, joint/common-mode error calibration, and a
-  rival physical model assigning a different distribution.
+  Middle. Stage 2 derived a candidate inequality from redundant dual affirmative reports of P and
+  not-P. Stage 3 tested the strongest minimal four-valued quantum instrument and found a
+  conditional dichotomy: a normalized model makes gap/glut ordinary actual outcomes, while an
+  irreducibly non-bivalent version lacks a complete likelihood. Remaining work is a genuinely
+  non-bivalent operational event algebra with a contrastive distribution.
 tier: 2
 role: open
 proof_status: prose_only
@@ -14,7 +16,8 @@ depends_on:
   - { claim_id: ONT-003, dependency_type: logical }
   - { claim_id: OPN-004, dependency_type: logical }
 source_documents:
-  - { doc: fll-closure-witness.md, section: "Error-bounded forbidden-correlation inequality" }
+  - { doc: global-bivalent-closure-witness-under-fll.md, section: "Error-bounded forbidden-correlation inequality" }
+  - { doc: non-bivalent-rival-model-attempt.md, section: "Instrument-completion dichotomy" }
   - { doc: nonactualization-operationalization.md, section: "Stage-2 correction" }
   - { doc: WP-TRT-LCC-0001, section: "Stage-2 Response" }
 external_citations:
@@ -22,15 +25,20 @@ external_citations:
   - Ollivier, Poulin, and Zurek 2005, DOI 10.1103/PhysRevA.72.042113
   - Spekkens 2005, DOI 10.1103/PhysRevA.71.052108
   - Klyachko et al. 2008, DOI 10.1103/PhysRevLett.101.020403
+  - Ozawa 1984, DOI 10.1063/1.526000
+  - Chiribella, D'Ariano, and Perinotti 2010, DOI 10.1103/PhysRevA.81.062348
 risk_if_false: >
   If no instrument can implement proposition-dual independent records, or every apparent
-  violation is observationally equivalent to a calibrated common-mode failure, the global FLL
-  closure bridge remains empirically inaccessible. If a sound implementation violates the bound
-  after all auxiliary assumptions survive, the claim that completed actual contexts are globally
-  bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
+  violation is observationally equivalent to a calibrated common-mode failure, the global
+  bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation
+  violates the bound after all auxiliary assumptions survive, the claim that completed actual
+  contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
 notes: >
   The first-pass WP disposition rejected the submitted null-event classifier and overreached by
-  inferring that no positive discriminator could exist. JD's global-FLL challenge corrected that
+  inferring that no positive discriminator could exist. JD's challenge about the global effect of
+  the three FLL corrected that
   inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim
-  until a physical implementation and contrastive rival likelihood exist. Contextuality provides
-  the inequality/polytope method but must not be conflated with FLL failure inside one context.
+  until a physical implementation and contrastive rival likelihood exist. The minimal four-valued
+  quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual
+  outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the
+  inequality/polytope method but must not be conflated with FLL failure inside one context.

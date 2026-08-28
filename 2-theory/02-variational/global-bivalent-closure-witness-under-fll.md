@@ -1,7 +1,8 @@
-# Global FLL Closure Witness
+# Global Bivalent Closure Witness under FLL
 
 > **Tier:** 2-theory candidate bridge. **Status:** derived witness form; physical instantiation
-> and rival likelihood remain open. **Claim:** `OPN-009`. **Provenance:** Stage 2 of
+> and rival likelihood remain open after the minimal four-valued instrument attempt. **Claim:**
+> `OPN-009`. **Provenance:** Stage 2 of
 > [`WP-TRT-LCC-0001`](../../05-work-packages/WP-TRT-LCC-0001-logical-constraint-closure/package.yaml).
 
 ## Correction to the first-pass disposition
@@ -16,6 +17,10 @@ The correct question is therefore not “can nothing be recorded?” It is:
 
 > After a context has physically closed, do all independent records admit one coherent valuation
 > satisfying Identity, Non-Contradiction, and Excluded Middle?
+
+The qualified name is deliberate. The observable directly probes bivalent closure through the
+Non-Contradiction and Excluded-Middle constraints. Identity supplies the event-typing and
+same-context antecedent. The inequality is therefore not an experimental test of “FLL simpliciter.”
 
 ## What the three laws constrain
 
@@ -56,7 +61,8 @@ A rival semantics can include gluts, gaps, or both.
   context. They supply the relevant technique—derive a correlation polytope and a separating
   inequality—not the result.
 
-This boundary is load-bearing. “Global FLL” here means globally operative in actuality, not one
+This boundary is load-bearing. “Global” here means operative throughout the completed actual
+context, not one
 counterfactual value assigned simultaneously to every incompatible observable.
 
 ## Dual-affirmation record architecture
@@ -105,26 +111,26 @@ p_{\mathrm{glut}}
 \max_{g\in\{T,F\}}\prod_{j=1}^{R}q_j(11\mid g).
 $$
 
-Therefore the global-FLL closure model obeys
+Therefore the global-bivalent closure model under FLL obeys
 
 $$
 \boxed{
 p_{\mathrm{gap}}+p_{\mathrm{glut}}
-\leq B_{\mathrm{FLL}}
+\leq B_{\mathrm{GBC}}
 }
 $$
 
 with
 
 $$
-B_{\mathrm{FLL}}=
+B_{\mathrm{GBC}}=
 \max_g\prod_j q_j(00\mid g)
 +
 \max_g\prod_j q_j(11\mid g).
 $$
 
 For a symmetric per-fragment bound $q_j(00\mid g),q_j(11\mid g)\leq\epsilon$,
-$B_{\mathrm{FLL}}\leq2\epsilon^R$.
+$B_{\mathrm{GBC}}\leq2\epsilon^R$.
 
 An observed excess over this calibrated bound is a positive, countable discriminator. It rejects
 the conjunction of:
@@ -220,6 +226,9 @@ exists was wrong.
 **Not derived:** that a transmon implementation can realize proposition-dual, causally independent
 record fragments; that $C_L$ entails the required context identity; or that any developed rival
 logic predicts a nonzero excess. Standard quantum measurement is expected to satisfy the same bound.
+The [minimal rival-model attempt](non-bivalent-rival-model-attempt.md) sharpened this debt: a
+normalized four-valued quantum instrument makes `gap` and `glut` ordinary actual outcomes, while
+refusing instrument completion removes the complete likelihood needed for comparison.
 
 Accordingly this remains tier 2. Promotion to tier 3 requires a concrete instrument model, a
 joint-error calibration protocol, and at least one rival physical model with a different predicted

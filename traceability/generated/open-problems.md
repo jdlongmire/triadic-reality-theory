@@ -14,7 +14,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-006 | 2 | open | Avoid Equivocation (define terms before use) | — |
 | OPN-007 | 2 | open | Theology / Metaphysics Boundary Discipline | ONT-004 |
 | OPN-008 | 2 | open | ADCE — Dark Energy from Mean Causal Growth | ONT-001, ACT-001, EXT-002 |
-| OPN-009 | 2 | open | Derive and Instantiate a Global FLL Closure Witness | ONT-003, OPN-004 |
+| OPN-009 | 2 | open | Derive and Instantiate a Global Bivalent Closure Witness under FLL | ONT-003, OPN-004 |
 
 ## Statements & failure conditions
 
@@ -66,11 +66,11 @@ Determine whether the mean growth rate of realized causal structure (Ṅ), on th
 
 *Risk if false:* If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the 4-volume resolution renders the geometric hypothesis vacuous (static universes sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.
 
-### OPN-009 — Derive and Instantiate a Global FLL Closure Witness
+### OPN-009 — Derive and Instantiate a Global Bivalent Closure Witness under FLL
 
-Derive and physically instantiate an error-bounded witness for whether one completed context's records admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded Middle. Stage 2 has derived a candidate inequality from redundant dual affirmative reports of P and not-P; remaining work is an instrument model, joint/common-mode error calibration, and a rival physical model assigning a different distribution.
+Derive and physically instantiate an error-bounded witness for whether one completed context's records admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded Middle. Stage 2 derived a candidate inequality from redundant dual affirmative reports of P and not-P. Stage 3 tested the strongest minimal four-valued quantum instrument and found a conditional dichotomy: a normalized model makes gap/glut ordinary actual outcomes, while an irreducibly non-bivalent version lacks a complete likelihood. Remaining work is a genuinely non-bivalent operational event algebra with a contrastive distribution.
 
-*Risk if false:* If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global FLL closure bridge remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
+*Risk if false:* If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
 
 ---
 

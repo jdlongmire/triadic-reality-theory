@@ -75,7 +75,7 @@ Non-Contradiction, and Excluded Middle. The challenge was correct: the absence o
 third detector outcome does not imply the absence of a positive discriminator. Actual
 meta-records can report a gap or glut in the target proposition's valuation.
 
-The package was reopened. A candidate global-FLL closure witness now uses independently
+The package was reopened. A candidate global-bivalent closure under GBC witness now uses independently
 calibrated dual affirmative reports of $P$ and $\neg P$. Under a closed bivalent latent model,
 coherent all-gap and all-glut correlations obey an explicit error bound; the reference code
 computes the bound and an exact binomial tail.
@@ -92,3 +92,21 @@ Stage 2 subsequently completed item 2 at the statistical level: direct calibrati
 joint all-gap/all-glut patterns yields a conservative simultaneous bound without fragment
 factorization. The remaining debt is physical matched-regime calibration and control-to-science
 transfer, not the algebra of the bound.
+
+## Stage-3 external review and rival-model attempt
+
+External review accepted the handoff at commit `4722cd0459ca064ef35e34daace41214baec2651`,
+recommended the qualified name **Global Bivalent Closure Witness under FLL**, and identified the
+absence of a contrastive physical likelihood as decisive. The terminology correction was applied:
+LNC and LEM are direct gap/glut targets, while Identity is principally the event-equivalence gate.
+
+The strongest minimal rival construction enlarged a quantum instrument to four CP branches
+`T`, `F`, `B`, and `N`, with a standard-quantum limit. It produced a conditional no-go result. If
+the instrument is normalized, `B` and `N` are ordinary actual outcomes in an expanded outcome
+space. If gap/glut are withheld from the completed outcome space, the model has no normalized
+likelihood for complete trials. The red-team upheld this result only within operational probability
+models; it is not a universal proof of bivalence.
+
+Carry forward: a genuine rival must supply a non-bivalent event algebra, normalized complete tests,
+composition/causal rules, an independently testable proposition-record bridge, and a quantitative
+gap/glut excess. `OPN-009` stays open at tier 2; TRT remains Unappraised.

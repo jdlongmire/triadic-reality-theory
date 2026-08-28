@@ -1,7 +1,7 @@
 # Nonactualization as an Operational Target
 
 > **Tier:** 2-theory (protective belt). **Status:** first-pass instrument-semantics audit,
-> corrected by the Stage-2 [`global FLL closure witness`](fll-closure-witness.md). **Claim:**
+> corrected by the Stage-2 [`global bivalent closure witness under FLL`](global-bivalent-closure-witness-under-fll.md). **Claim:**
 > `OPN-009`. **Provenance:** disposition of
 > [`WP-TRT-LCC-0001`](../../05-work-packages/WP-TRT-LCC-0001-logical-constraint-closure/package.yaml).
 
@@ -111,7 +111,7 @@ The terminal inference “therefore no positive observable can exist” was too 
 affirmative reports about $P$ and $\neg P$ can yield actual meta-records `00` (gap) and `11`
 (glut); redundant correlated instances can witness failure of bivalent outcome valuation without
 requiring nonactualization itself to become an ordinary third outcome. The derived inequality and
-its assumptions are in [`fll-closure-witness.md`](fll-closure-witness.md).
+its assumptions are in [`global-bivalent-closure-witness-under-fll.md`](global-bivalent-closure-witness-under-fll.md).
 
 Thus this document's critique remains dispositive against the **submitted classifier**, not against
 the possibility of an FLL discriminator.

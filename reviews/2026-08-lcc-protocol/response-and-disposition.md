@@ -4,7 +4,7 @@
 > accepted. The findings below remain valid against the submitted instrument classifier, but the
 > conclusion that no positive observable can exist was overbroad. See
 > [`stage-2-global-fll-response.md`](stage-2-global-fll-response.md) and the derived
-> [`global FLL closure witness`](../../2-theory/02-variational/fll-closure-witness.md).
+> [`global bivalent closure witness under FLL`](../../2-theory/02-variational/global-bivalent-closure-witness-under-fll.md).
 
 ## Decision
 
