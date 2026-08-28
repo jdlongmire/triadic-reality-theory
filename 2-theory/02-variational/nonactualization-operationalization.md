@@ -1,7 +1,8 @@
 # Nonactualization as an Operational Target
 
-> **Tier:** 2-theory (protective belt). **Status:** conceptual probe; no empirical
-> prediction. **Claim:** `OPN-009`. **Provenance:** disposition of
+> **Tier:** 2-theory (protective belt). **Status:** first-pass instrument-semantics audit,
+> corrected by the Stage-2 [`global FLL closure witness`](fll-closure-witness.md). **Claim:**
+> `OPN-009`. **Provenance:** disposition of
 > [`WP-TRT-LCC-0001`](../../05-work-packages/WP-TRT-LCC-0001-logical-constraint-closure/package.yaml).
 
 ## The question
@@ -28,7 +29,7 @@ $$
 d:Y\rightarrow\{0,1,\mathrm{anomaly},\mathrm{invalid},\mathrm{unclassified}\}.
 $$
 
-There is no separate observable supplied for $\varnothing$.
+There is no separate observable supplied for $\varnothing$ **in the submitted protocol**.
 
 - A raw record supporting `0` or `1` is a binary outcome.
 - A record supporting leakage, relaxation, excitation, loss, corruption, or another state is
@@ -89,7 +90,7 @@ diagnostic model, not evidence of literal nonactuality.
 
 ## Result
 
-The submitted protocol is **not promoted to tier 3**. As written, it cannot expose TRT to a
+The submitted protocol is **not promoted to tier 3 as written**. It cannot expose TRT to a
 measurement outcome forbidden by standard quantum theory:
 
 - under the strong reading of redundancy, its candidate event is operationally inconsistent;
@@ -104,7 +105,16 @@ The surviving contribution is this tier-2 operationalization problem:
 > from every physical outcome and every record failure, while remaining possible under a
 > well-defined rival model.
 
-Until that problem is solved, event-rate bounds on $\chi=\varnothing$ are not tests of TRT.
+### Stage-2 correction
+
+The terminal inference “therefore no positive observable can exist” was too strong. A pair of
+affirmative reports about $P$ and $\neg P$ can yield actual meta-records `00` (gap) and `11`
+(glut); redundant correlated instances can witness failure of bivalent outcome valuation without
+requiring nonactualization itself to become an ordinary third outcome. The derived inequality and
+its assumptions are in [`fll-closure-witness.md`](fll-closure-witness.md).
+
+Thus this document's critique remains dispositive against the **submitted classifier**, not against
+the possibility of an FLL discriminator.
 
 ## Primary sources
 
@@ -117,4 +127,3 @@ Until that problem is solved, event-rate bounds on $\chi=\varnothing$ are not te
 - K. N. Nesterov and I. V. Pechenezhskiy, “Measurement-induced state transitions in dispersive
   qubit-readout schemes,” *Physical Review Applied* 22, 064038 (2024), DOI
   10.1103/PhysRevApplied.22.064038.
-

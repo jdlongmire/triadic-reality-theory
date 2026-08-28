@@ -1,8 +1,14 @@
 # Response and Disposition — LCC Protocol
 
+> **Superseded as a terminal disposition on 2026-08-28.** JD's global-FLL challenge was
+> accepted. The findings below remain valid against the submitted instrument classifier, but the
+> conclusion that no positive observable can exist was overbroad. See
+> [`stage-2-global-fll-response.md`](stage-2-global-fll-response.md) and the derived
+> [`global FLL closure witness`](../../2-theory/02-variational/fll-closure-witness.md).
+
 ## Decision
 
-The red-team findings are accepted.
+The red-team findings were accepted at first pass and are now bounded as described above.
 
 - **Tier-3 protocol:** rejected.
 - **Submitted draft:** retained unchanged as intake evidence, not adopted as a TRT claim.
@@ -45,4 +51,3 @@ instrument-level criterion for observing failure to cross it. Keeping that debt 
 future drafts from turning POVM normalization or unexplained readout residuals into claimed
 evidence for actualization. The conceptual probe earns tier 2; the proposed experiment does not
 earn tier 3.
-

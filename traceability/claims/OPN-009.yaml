@@ -1,9 +1,11 @@
 id: OPN-009
-name: Operationalize Failure of Outcome Actualization
+name: Derive and Instantiate a Global FLL Closure Witness
 statement: |
-  Specify whether any positive instrument-level event can distinguish failure of the
-  admissible-to-outcome-actual crossing from every physical outcome, anomaly, unclassified
-  record, and record-chain failure, while remaining possible under a defined rival model.
+  Derive and physically instantiate an error-bounded witness for whether one completed context's
+  records admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded
+  Middle. Stage 2 has derived a candidate inequality from redundant dual affirmative reports of
+  P and not-P; remaining work is an instrument model, joint/common-mode error calibration, and a
+  rival physical model assigning a different distribution.
 tier: 2
 role: open
 proof_status: prose_only
@@ -12,18 +14,23 @@ depends_on:
   - { claim_id: ONT-003, dependency_type: logical }
   - { claim_id: OPN-004, dependency_type: logical }
 source_documents:
-  - { doc: nonactualization-operationalization.md, section: "Result" }
-  - { doc: WP-TRT-LCC-0001, section: "Response and Disposition" }
+  - { doc: fll-closure-witness.md, section: "Error-bounded forbidden-correlation inequality" }
+  - { doc: nonactualization-operationalization.md, section: "Stage-2 correction" }
+  - { doc: WP-TRT-LCC-0001, section: "Stage-2 Response" }
 external_citations:
   - Busch 2003, arXiv:quant-ph/9909073
   - Ollivier, Poulin, and Zurek 2005, DOI 10.1103/PhysRevA.72.042113
+  - Spekkens 2005, DOI 10.1103/PhysRevA.71.052108
+  - Klyachko et al. 2008, DOI 10.1103/PhysRevLett.101.020403
 risk_if_false: >
-  If no such event can be defined, literal nonactualization cannot be an empirical target in
-  ordinary instrument semantics; TRT's LRM may still locate the measurement crossing, but an
-  experiment based only on missing or residual records cannot test actualizing action A.
+  If no instrument can implement proposition-dual independent records, or every apparent
+  violation is observationally equivalent to a calibrated common-mode failure, the global FLL
+  closure bridge remains empirically inaccessible. If a sound implementation violates the bound
+  after all auxiliary assumptions survive, the claim that completed actual contexts are globally
+  bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
 notes: >
-  WP-TRT-LCC-0001 tested one proposed operationalization. It failed because strong redundant
-  recording contradicts the candidate event, weak redundancy does not imply irreducible closure,
-  and every observable residual is another physical record or a record-chain failure. This is an
-  open impossibility/constructibility question, not a prediction that such an event exists.
-
+  The first-pass WP disposition rejected the submitted null-event classifier and overreached by
+  inferring that no positive discriminator could exist. JD's global-FLL challenge corrected that
+  inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim
+  until a physical implementation and contrastive rival likelihood exist. Contextuality provides
+  the inequality/polytope method but must not be conflated with FLL failure inside one context.

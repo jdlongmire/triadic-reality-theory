@@ -1,6 +1,6 @@
 id: WP-TRT-LCC-0001
 title: Disposition the Logical Constraint Closure experimental protocol
-status: done
+status: in_progress
 commitment: stretch
 scope: >
   Evaluate the submitted Logical Constraint Closure (LCC) protocol as a proposed
@@ -72,8 +72,33 @@ verification: >
   relevant reproducible checks must pass, GitHub-safe LaTeX lint must be clean, and
   python3 0-program-methods/ops/research-wrap.py must pass before merge is proposed.
 disposition: >
-  RECLASSIFIED. The submitted protocol is rejected as a tier-3 severe test because it supplies
-  no positive observable for chi_emptyset, its strong redundancy condition conflicts with its
-  candidate-event criteria, its weak redundancy reading does not entail I_irr, and it predicts
-  nothing beyond complete-POVM normalization. The surviving question is retained as the tier-2
-  conceptual probe OPN-009. Programme appraisal remains Unappraised.
+  REOPENED 2026-08-28 after principal challenge. The first-pass instrument-semantics critique
+  remains valid against treating chi_emptyset as an ordinary third detector outcome, but its
+  terminal rejection overreached: it failed to test the stronger claim that globally operative
+  Identity, Non-Contradiction, and Excluded Middle constrain the valuation structure of a closed
+  context. Stage 2 is deriving a positive FLL closure witness from correlated affirmative reports
+  of P and not-P across independently calibrated record fragments. No tier-3 promotion yet.
+
+reopen_record: >
+  JD challenged the terminal assessment on 2026-08-28: historical and contemporary rival logics
+  make gaps and gluts conceivable, so an experimental discriminator may target forbidden global
+  valuation patterns rather than literal detector non-response. Accepted. The package remains a
+  stretch package and must now separate FLL from noncontextuality, provide an explicit error-bounded
+  inequality, and identify what rival physical model could violate it.
+stage_2_actions:
+  - >
+    Formalize Identity, Non-Contradiction, and Excluded Middle as constraints on one proposition
+    inside one physically completed context, without assuming noncontextual values for incompatible
+    counterfactual observables.
+  - >
+    Derive an observable gap/glut correlation witness from independently calibrated affirmative
+    reports of P and not-P, with a reproducible reference calculation.
+  - >
+    Red-team the witness against common-mode errors, operational inequivalence, contextuality
+    conflation, and the absence of a contrastive rival likelihood.
+  - >
+    Specify a candidate circuit-level one-hot record architecture and name the remaining hardware,
+    closure, and causal-calibration debts.
+  - >
+    Keep the package in progress and OPN-009 at tier 2 until a joint error bound and rival physical
+    model make a preregisterable tier-3 protocol possible.

@@ -66,6 +66,24 @@ entry, and the completed package record. TRT remains **Unappraised**.
 
 ## Carry forward after closeout
 
-None for this protocol. `OPN-009` remains an open conceptual frontier: a future attempt must
-supply a positive event, an independently satisfiable closure antecedent, and a rival likelihood.
-Do not revive event-rate statistics until those prerequisites exist.
+Superseded later the same day by the Stage-2 reopening below.
+
+## Stage-2 reopening — principal challenge accepted
+
+JD challenged the assessment for trivializing the global operation of Identity,
+Non-Contradiction, and Excluded Middle. The challenge was correct: the absence of an ordinary
+third detector outcome does not imply the absence of a positive discriminator. Actual
+meta-records can report a gap or glut in the target proposition's valuation.
+
+The package was reopened. A candidate global-FLL closure witness now uses independently
+calibrated dual affirmative reports of $P$ and $\neg P$. Under a closed bivalent latent model,
+coherent all-gap and all-glut correlations obey an explicit error bound; the reference code
+computes the bound and an exact binomial tail.
+
+The work remains tier 2. Carry forward:
+
+1. specify a physical proposition-dual record architecture;
+2. replace conditional-independence convenience with a defensible joint/common-mode error bound;
+3. identify a rival physical model—not merely a rival logic—that predicts a different
+   distribution; and
+4. only then preregister a tier-3 protocol.

@@ -39,6 +39,18 @@ Used by [`../2-theory/00-foundational/actualization-resolution-sheaf-probe.md`](
 
 Used by [`../2-theory/02-variational/nonactualization-operationalization.md`](../2-theory/02-variational/nonactualization-operationalization.md) and the [`LCC red-team`](../reviews/2026-08-lcc-protocol/review.md) (OPN-009).
 
+## Verified — primary sources confirmed (2026-08-28, global-FLL challenge)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **da Costa & de Ronde (2013)** | *The Paraconsistent Logic of Quantum Superpositions*, arXiv:1306.3121. Presents a contradiction-tolerant interpretation as an outline/first step, not a distinct empirical likelihood model. | arXiv full text |
+| **Spekkens (2005)** | *Phys. Rev. A* 71, 052108; DOI 10.1103/PhysRevA.71.052108. Defines contextuality operationally and makes explicit the assumptions behind outcome determinism. | arXiv full text |
+| **Klyachko et al. (2008)** | *Phys. Rev. Lett.* 101, 020403; DOI 10.1103/PhysRevLett.101.020403. Derives the spin-1 pentagram inequality from existence of a compatible hidden joint distribution. | arXiv full text |
+| **Kleinmann et al. (2012)** | *Phys. Rev. Lett.* 109, 250402; DOI 10.1103/PhysRevLett.109.250402. Frames optimal noncontextuality inequalities as facets of a convex polytope. | arXiv full text |
+| **Mazurek et al. (2016)** | *Nature Communications* 7, 11780; DOI 10.1038/ncomms11780. Demonstrates an operational inequality with explicit treatment of noisy measurements and inexact operational equivalence. | Nature Communications full text |
+
+Used by [`../2-theory/02-variational/fll-closure-witness.md`](../2-theory/02-variational/fll-closure-witness.md) (OPN-009). These sources establish rival logical interpretation and witness methodology; none is represented as an existing experimental violation of the three FLL.
+
 ## ⚠️ Correction required
 
 - **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.
