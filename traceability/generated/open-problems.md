@@ -14,6 +14,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-006 | 2 | open | Avoid Equivocation (define terms before use) | — |
 | OPN-007 | 2 | open | Theology / Metaphysics Boundary Discipline | ONT-004 |
 | OPN-008 | 2 | open | ADCE — Dark Energy from Mean Causal Growth | ONT-001, ACT-001, EXT-002 |
+| OPN-009 | 2 | open | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis | ONT-003, OPN-004 |
 
 ## Statements & failure conditions
 
@@ -64,6 +65,12 @@ Keep formal, physical, and metaphysical claims distinct; state the one explicit 
 Determine whether the mean growth rate of realized causal structure (Ṅ), on the causal-set number-volume substrate with an explicit saturation axiom (A-SAT), can drive late-time accelerated expansion with (a) a derived growth law producing matter-era deceleration followed by acceleration onset at z ≈ 0.7, (b) a natural magnitude compatible with the observed dark-energy scale, and (c) a w_A(z) distinguishable from both ΛCDM and the fluctuation-driven everpresent-Λ mechanism (Λ ~ ±ℏ/√V₄) that shares the same kinematic substrate.
 
 *Risk if false:* If no growth law solves the coincidence problem without hand-tuning, or the mechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the 4-volume resolution renders the geometric hypothesis vacuous (static universes sustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content — adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE reduces to re-labeled causal-set kinematics with no independent content and is abandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.
+
+### OPN-009 — Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis
+
+Govern the empirical investigation of TRT's physical hypothesis chi = A(I \| L), presently an ontological schema in which L is the global physical admissibility constraint, not yet a dynamical or operational law. The model predicts that every physical informational actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for the same proposition, context, time, and respect falsifies the model's exclusion rule that non-bivalent information is absent from the physically actualizable state space. The derived Global Bivalent Closure witness, rival-model constructions, and the empirical falsification ledger are subordinate instruments for exposing the model to failure rather than substitutes for it. Law status is intended but not earned. Purpose-built negative tests add implementation-relative corroboration in proportion to their power to expose B or N; adjacent quantum-foundational results merely constrain nearby rivals unless they had that power.
+
+*Risk if false:* If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
 
 ---
 

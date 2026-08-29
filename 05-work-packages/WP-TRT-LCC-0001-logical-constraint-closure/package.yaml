@@ -1,0 +1,193 @@
+id: WP-TRT-LCC-0001
+title: Disposition the Logical Constraint Closure experimental protocol
+status: complete
+commitment: stretch
+scope: >
+  Evaluate the submitted Logical Constraint Closure (LCC) protocol as a proposed
+  severe test of TRT's Logical Resolution Model and the admissible-to-outcome-actual
+  measurement crossing. Preserve the submitted draft as intake; reconstruct its
+  strongest testable claim; determine whether operational closure C_L is an
+  independently certifiable proxy for irreducible informational closure I_irr;
+  determine whether chi_emptyset denotes an observable event rather than an
+  exclusion-defined absence; check whether the proposal differs empirically from
+  completeness of a standard POVM and ordinary readout/anomaly accounting; and
+  record a final disposition as promote, revise, reclassify, or reject.
+
+  If a non-vacuous discriminator survives, integrate the resulting artifact at the
+  appropriate TRT tier with traceability, failure conditions, citations, and an
+  appraisal update. If none survives, preserve the negative result in TRT's review
+  and appraisal surfaces rather than manufacturing a prediction.
+
+  Out of scope: conducting a laboratory experiment; purchasing or reserving quantum
+  hardware; contacting laboratories or external reviewers; publishing or submitting
+  a paper; changing TRT's hard core; altering the Born-rule or decoherence verdicts
+  merely to accommodate this proposal; and work in thinx, CAC/FCD, Semantic Actualism,
+  or another repository beyond a pointer to this TRT package.
+authority_boundary: >
+  Work inside this TRT package may proceed without re-asking: source preservation,
+  internal analysis, literature-supported claim reconstruction, adversarial review,
+  traceability drafts, reproducible calculations or simulations, and a recorded
+  disposition that leaves the programme's confidence unchanged or moves it downward.
+
+  This approval does not authorize external communication, paid services, laboratory
+  access, publication, a public claim of falsifiability, promotion of confidence, a
+  change to the hard core, or merge to main. Any surviving tier-3 prediction must be
+  preregistered with an observation-class falsifier that is operationally distinguishable
+  from apparatus failure and from an expanded physical outcome space, then reviewed
+  before integration.
+actions:
+  - >
+    Preserve the 2026-08-28 submitted protocol verbatim under intake/ with provenance.
+  - >
+    Normalize the proposal into explicit antecedent, consequent, observable variables,
+    exclusions, and a decision rule without silently strengthening it.
+  - >
+    Run a circularity and observability audit on C_L, I_irr, chi_emptyset, closure time,
+    and the requirement that closure classification precede outcome classification.
+  - >
+    Compare the proposed null event against complete-POVM normalization, no-click and
+    leakage models, decoherence-only accounts, and existing TRT LRM/Born-rule claims.
+  - >
+    Test whether any possible raw record can satisfy the candidate criteria without
+    becoming either a physical anomaly outcome or an unclassifiable missing datum.
+  - >
+    Obtain an adversarial review focused on vacuity, underdetermination of the C_L to
+    I_irr bridge, and whether the experiment can discriminate TRT from standard quantum
+    measurement theory.
+  - >
+    Record one disposition: promote to a preregisterable tier-3 test; revise and return
+    for another pass; reclassify as tier-2 interpretation or conceptual probe; or reject
+    as non-falsifiable or non-discriminating.
+  - >
+    If promoted or reclassified, update the canonical claim registry, generated reports,
+    relevant roadmap/open-problem links, and appraisal in the same TRT change set.
+verification: >
+  Done is proven by a committed disposition record that explicitly answers four
+  questions: (1) what observable raw-data pattern counts as chi_emptyset, (2) why that
+  pattern is not another physical outcome or equipment/data failure, (3) why C_L is
+  certified independently of the alleged outcome, and (4) what result differs from
+  standard complete quantum measurement. The record must cite the preserved intake and
+  existing TRT LRM/Born-rule surfaces. If the disposition changes programme content,
+  python3 traceability/scripts/build.py must pass with generated reports fresh, the
+  relevant reproducible checks must pass, GitHub-safe LaTeX lint must be clean, and
+  python3 0-program-methods/ops/research-wrap.py must pass before merge is proposed.
+disposition: >
+  REOPENED 2026-08-28 after principal challenge. The first-pass instrument-semantics critique
+  remains valid against treating chi_emptyset as an ordinary third detector outcome, but its
+  terminal rejection overreached: it failed to test the stronger claim that globally operative
+  Identity, Non-Contradiction, and Excluded Middle constrain the valuation structure of a closed
+  context. Stage 2 derived a positive Global Bivalent Closure Witness under FLL from correlated
+  affirmative reports of P and not-P across independently calibrated record fragments. Stage 3
+  tested a minimal four-valued physical instrument; when normalized it reduces to an expanded
+  actual outcome space, and when left irreducibly gap/glut-like it has no complete likelihood.
+  No tier-3 promotion.
+
+reopen_record: >
+  JD challenged the terminal assessment on 2026-08-28: historical and contemporary rival logics
+  make gaps and gluts conceivable, so an experimental discriminator may target forbidden global
+  valuation patterns rather than literal detector non-response. Accepted. The package remains a
+  stretch package and must now separate FLL from noncontextuality, provide an explicit error-bounded
+  inequality, and identify what rival physical model could violate it.
+stage_2_actions:
+  - >
+    Formalize Identity, Non-Contradiction, and Excluded Middle as constraints on one proposition
+    inside one physically completed context, without assuming noncontextual values for incompatible
+    counterfactual observables.
+  - >
+    Derive an observable gap/glut correlation witness from independently calibrated affirmative
+    reports of P and not-P, with a reproducible reference calculation.
+  - >
+    Red-team the witness against common-mode errors, operational inequivalence, contextuality
+    conflation, and the absence of a contrastive rival likelihood.
+  - >
+    Specify a candidate circuit-level one-hot record architecture and name the remaining hardware,
+    closure, and causal-calibration debts.
+  - >
+    Keep the package in progress and OPN-009 at tier 2 until a joint error bound and rival physical
+    model make a preregisterable tier-3 protocol possible.
+stage_3_actions:
+  - >
+    Accept the external review and qualify the artifact as a Global Bivalent Closure Witness under
+    FLL: Non-Contradiction and Excluded Middle are direct targets; Identity is a typing antecedent.
+  - >
+    Construct the strongest minimal four-valued quantum instrument with dynamics-to-record maps,
+    normalized likelihoods, and a standard-quantum limit.
+  - >
+    Preserve the conditional no-go result: instrument completion turns gaps/gluts into ordinary
+    actual outcomes, while refusal of completion removes the likelihood needed for testing.
+  - >
+    Keep OPN-009 open for a non-bivalent operational event algebra with normalization, composition,
+    proposition-record semantics, and a contrastive quantitative prediction.
+governing_recenter_record: >
+  JD re-established the primary empirical objective on 2026-08-29. TRT asserts that every physical
+  informational actualization is constrained by Identity, Non-Contradiction, and Excluded Middle,
+  with V(P_chi) in {T,F}; one reproducible irreducible B or N actualization falsifies the model's
+  physical exclusion rule.
+  This statement prevents the Stage-3 instrument-completion result, or any later subsidiary model,
+  theorem, witness, or survey, from displacing the empirical target.
+stage_4_actions:
+  - >
+    Install the TRT Fundamental Laws of Logic Physical Model as the governing research
+    statement and link all OPN-009 work to its explicit falsification criterion.
+  - >
+    Record that Bell, Kochen-Specker, contextuality, Leggett-Garg, superposition, entanglement, and
+    stochasticity may refute stronger classical assumptions without thereby producing B or N.
+  - >
+    Open the FLL Empirical Falsification Ledger with a controlled schema and the complete initial
+    scope register; do not assign historical verdicts before primary-source assessment.
+  - >
+    Preserve rival construction and representation work as subordinate instruments of the
+    falsification programme, not as its objective.
+physical_model_freeze_record: >
+  JD froze the governing characterization on 2026-08-29: TRT-FLL is a physical model, not primarily
+  a philosophy-of-logic programme and not an abstract logic later bridged into physics. Its model
+  statement is chi = A(I | L), where L is the primitive global physical admissibility constraint,
+  I is informational state, A is primitive action, and chi is physical actualization. The exposed
+  prediction is V(P_chi) in {T,F}; the exclusion rule is that non-bivalent information is not in
+  the physically actualizable state space. One verified irreducible B or N actualization falsifies
+  the model.
+adversarial_background_record: >
+  The non-bivalent-physics literature is adopted as the model's adversarial scientific context.
+  Birkhoff-von Neumann non-Boolean quantum logic, Kochen-Specker contextuality, Pykacz many-valued
+  quantum mechanics, three-valued indeterminacy, and da Costa-de Ronde paraconsistent superposition
+  are distinguished rather than conflated. Their strongest claims are preserved. Formal or
+  premeasurement non-bivalence does not count as a falsification unless an irreducible B or N state
+  survives physical actualization; neither is it dismissed merely for being interpretive.
+stage_5_actions:
+  - >
+    Establish non-bivalent physics as the adversarial background to the TRT-FLL physical model and
+    verify the initial source set against primary publications.
+  - >
+    Correct source details: Kochen-Specker is conventionally 1967 with an archive DOI labeled 1968;
+    Pykacz's 2019-online article appears in the 2021 volume; Takagi is the verified author of the
+    contemporary three-valued/modal treatment.
+  - >
+    Extend the empirical ledger to distinguish Birkhoff-von Neumann, Pykacz, three-valued, and
+    paraconsistent programmes before case-specific assessment.
+law_status_correction_record: >
+  External critique accepted on 2026-08-29: proposed physical law is an intended status, not one
+  earned by relabeling the claim. Current status is PHYSICAL HYPOTHESIS / PROPOSED PHYSICAL
+  PRINCIPLE. The conceptual falsifier is clear, but its experimental identity is incomplete until
+  one apparatus fixes P, respect, context, time interval, T/F/B/N events, bivalent rivals, failure
+  modes, discriminator, likelihood, and falsifying outcome. The schema chi = A(I | L) is ontological,
+  not yet a dynamical law.
+stage_6_actions:
+  - >
+    Superseded by the law-status correction above. Preserve this stage as the record of the
+    over-promotion rather than as the active status.
+  - >
+    Add explicit discriminating-power and corroboration-weight fields so negative tests can support
+    the law without being misrepresented as proof.
+  - >
+    Preserve the asymmetric verdict: one controlled B or N actualization falsifies universally;
+    non-falsifying tests corroborate only relative to their severity and scope.
+next_package: >
+  WP-TRT-FLL-0002 is opened around one objective: construct one adversarial operational protocol in
+  which a non-bivalent actualization requires observable probabilities, correlation structure, or
+  event topology that no admissible bivalent instrument model can reproduce.
+closeout_record: >
+  COMPLETE 2026-08-29. This package preserved and rejected the submitted null-event classifier,
+  recovered a legitimate Global Bivalent Closure witness form, bounded the normalized
+  four-valued-instrument result, froze the governing physical hypothesis, established its
+  adversarial background, and accepted the operational critique that blocks law status. All
+  remaining implementation work transfers to WP-TRT-FLL-0002; OPN-009 remains open.
