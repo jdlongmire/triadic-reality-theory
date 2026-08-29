@@ -3,6 +3,9 @@
 > **Tier:** 2-theory negative construction result. **Status:** no contrastive physical rival yet.
 > **Claim:** `OPN-009`. **Scope:** strongest minimal extension of a quantum measurement instrument
 > with gap and glut labels; not a no-go theorem for every future non-bivalent theory.
+> **Governing boundary:** this construction serves the
+> [`TRT-FLL Physical Hypothesis`](../../0-program-methods/FLL-PHYSICAL-HYPOTHESIS.md). The
+> representation problem is an instrument for sharpening falsification, not the research objective.
 
 ## Question
 

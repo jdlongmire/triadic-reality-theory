@@ -75,7 +75,7 @@ Non-Contradiction, and Excluded Middle. The challenge was correct: the absence o
 third detector outcome does not imply the absence of a positive discriminator. Actual
 meta-records can report a gap or glut in the target proposition's valuation.
 
-The package was reopened. A candidate global-bivalent closure under GBC witness now uses independently
+The package was reopened. A candidate Global Bivalent Closure witness under FLL uses independently
 calibrated dual affirmative reports of $P$ and $\neg P$. Under a closed bivalent latent model,
 coherent all-gap and all-glut correlations obey an explicit error bound; the reference code
 computes the bound and an exact binomial tail.
@@ -110,3 +110,17 @@ models; it is not a universal proof of bivalence.
 Carry forward: a genuine rival must supply a non-bivalent event algebra, normalized complete tests,
 composition/causal rules, an independently testable proposition-record bridge, and a quantitative
 gap/glut excess. `OPN-009` stays open at tier 2; TRT remains Unappraised.
+
+## 2026-08-29 governing-objective recenter
+
+JD identified a programme-order risk: the four-valued instrument result had begun to frame the
+research agenda, although rival representation is only one instrument of the original hypothesis.
+The canonical [`FLL-PHYSICAL-HYPOTHESIS.md`](../FLL-PHYSICAL-HYPOTHESIS.md) now governs the branch:
+physical informational actualization is predicted to be bivalent, and one reproducible irreducible
+$B$ or $N$ actualization for the same proposition, context, time, and respect falsifies the bridge.
+
+The ROADMAP no longer names co-admissibility as the single principle governing the whole programme.
+It remains a major formalization route under the governing empirical objective. The
+[`FLL Empirical Falsification Ledger`](../../3-prediction/fll-empirical-falsification-ledger.md) is
+opened with the required schema and all requested experiment families marked **Not yet assessed**.
+No result is weakened, redescribed, or assigned a verdict before primary-source review.

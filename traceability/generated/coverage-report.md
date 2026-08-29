@@ -54,7 +54,7 @@
 | OPN-006 | 2 | open | open | open | Avoid Equivocation (define terms before use) |
 | OPN-007 | 2 | open | open | open | Theology / Metaphysics Boundary Discipline |
 | OPN-008 | 2 | open | prose_only | open | ADCE — Dark Energy from Mean Causal Growth |
-| OPN-009 | 2 | open | prose_only | open | Derive and Instantiate a Global Bivalent Closure Witness under FLL |
+| OPN-009 | 2 | open | prose_only | open | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis |
 | PRD-001 | 3 | prediction | open | conjectured | Co-Admissibility Conjecture (incompatible channels) |
 | PRD-002 | 3 | prediction | open | conjectured | Gravity Linearity Test (GR vs modified gravity) |
 | PRD-003 | 3 | prediction | prose_only | argued | Effectiveness of Mathematics (retrodiction) |

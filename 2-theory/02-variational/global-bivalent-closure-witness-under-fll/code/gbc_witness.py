@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reference calculation for the symmetric global-bivalent closure under GBC witness.
+"""Reference calculation for the Global Bivalent Closure witness under FLL.
 
 The null is a closed binary context with one latent bivalent value and R
 conditionally independent record fragments.  Each fragment's probability of a

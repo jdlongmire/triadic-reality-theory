@@ -1,13 +1,12 @@
 id: OPN-009
-name: Derive and Instantiate a Global Bivalent Closure Witness under FLL
+name: Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis
 statement: |
-  Derive and physically instantiate an error-bounded witness for whether one completed context's
-  records admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded
-  Middle. Stage 2 derived a candidate inequality from redundant dual affirmative reports of P and
-  not-P. Stage 3 tested the strongest minimal four-valued quantum instrument and found a
-  conditional dichotomy: a normalized model makes gap/glut ordinary actual outcomes, while an
-  irreducibly non-bivalent version lacks a complete likelihood. Remaining work is a genuinely
-  non-bivalent operational event algebra with a contrastive distribution.
+  Govern the empirical investigation of TRT's physical hypothesis that every physical
+  informational actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with
+  operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for
+  the same proposition, context, time, and respect falsifies the bridge. The derived Global
+  Bivalent Closure witness, rival-model constructions, and the empirical falsification ledger are
+  subordinate instruments for exposing that hypothesis to failure rather than substitutes for it.
 tier: 2
 role: open
 proof_status: prose_only
@@ -16,6 +15,8 @@ depends_on:
   - { claim_id: ONT-003, dependency_type: logical }
   - { claim_id: OPN-004, dependency_type: logical }
 source_documents:
+  - { doc: FLL-PHYSICAL-HYPOTHESIS.md, section: "Governing Objective" }
+  - { doc: fll-empirical-falsification-ledger.md, section: "Required entry record" }
   - { doc: global-bivalent-closure-witness-under-fll.md, section: "Error-bounded forbidden-correlation inequality" }
   - { doc: non-bivalent-rival-model-attempt.md, section: "Instrument-completion dichotomy" }
   - { doc: nonactualization-operationalization.md, section: "Stage-2 correction" }
@@ -41,4 +42,6 @@ notes: >
   until a physical implementation and contrastive rival likelihood exist. The minimal four-valued
   quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual
   outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the
-  inequality/polytope method but must not be conflated with FLL failure inside one context.
+  inequality/polytope method but must not be conflated with FLL failure inside one context. The
+  governing objective remains the search for any irreducibly non-bivalent physical informational
+  actualization; model representation is subordinate to that falsification programme.

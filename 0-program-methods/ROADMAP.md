@@ -17,7 +17,18 @@ The position paper establishes Triadic Reality Theory as a coherent foundational
 
 This document converts that gap into a structured program. It states what would have to be true for TRT to advance from ontology to formalized theory, orders the work by tractability and dependency, specifies the repository that will hold it, and sets the terms on which others can contribute. It is deliberately honest about what is conjecture, what is open, and what would count as failure, because the credibility of the program depends on those distinctions being maintained rather than blurred as the work proceeds.
 
-A single principle governs the whole program. Conceptual elaboration is no longer the bottleneck. Three independent reviews of the position paper converged on the same conclusion: additional philosophical exposition adds weight without rigor. The priority is formalization, and the measure of progress is whether a named conjecture becomes either a theorem or a recorded failure.
+The programme's governing empirical objective is the
+[TRT Fundamental Laws of Logic Physical Hypothesis](FLL-PHYSICAL-HYPOTHESIS.md): physical
+informational actualization is bivalent, and one reproducible irreducible $B$ or $N$ actualization
+would falsify that bridge. Co-admissibility, gravity, variational work, rival models, and historical
+surveys are subordinate research paths; none may displace or silently strengthen that hypothesis.
+
+Within those paths, conceptual elaboration is no longer the bottleneck. Three independent reviews
+of the position paper converged on the same conclusion: additional philosophical exposition adds
+weight without rigor. The priority is operationalization and formalization, and the measure of
+progress is whether a named conjecture becomes either a testable result, a theorem, or a recorded
+failure. The immediate FLL-facing instrument is the
+[Empirical Falsification Ledger](../3-prediction/fll-empirical-falsification-ledger.md).
 
 ---
 

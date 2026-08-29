@@ -513,12 +513,20 @@
       "Chiribella, D'Ariano, and Perinotti 2010, DOI 10.1103/PhysRevA.81.062348"
     ],
     "id": "OPN-009",
-    "name": "Derive and Instantiate a Global Bivalent Closure Witness under FLL",
-    "notes": "The first-pass WP disposition rejected the submitted null-event classifier and overreached by inferring that no positive discriminator could exist. JD's challenge about the global effect of the three FLL corrected that inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim until a physical implementation and contrastive rival likelihood exist. The minimal four-valued quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the inequality/polytope method but must not be conflated with FLL failure inside one context.\n",
+    "name": "Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis",
+    "notes": "The first-pass WP disposition rejected the submitted null-event classifier and overreached by inferring that no positive discriminator could exist. JD's challenge about the global effect of the three FLL corrected that inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim until a physical implementation and contrastive rival likelihood exist. The minimal four-valued quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the inequality/polytope method but must not be conflated with FLL failure inside one context. The governing objective remains the search for any irreducibly non-bivalent physical informational actualization; model representation is subordinate to that falsification programme.\n",
     "proof_status": "prose_only",
     "risk_if_false": "If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.\n",
     "role": "open",
     "source_documents": [
+      {
+        "doc": "FLL-PHYSICAL-HYPOTHESIS.md",
+        "section": "Governing Objective"
+      },
+      {
+        "doc": "fll-empirical-falsification-ledger.md",
+        "section": "Required entry record"
+      },
       {
         "doc": "global-bivalent-closure-witness-under-fll.md",
         "section": "Error-bounded forbidden-correlation inequality"
@@ -536,7 +544,7 @@
         "section": "Stage-2 Response"
       }
     ],
-    "statement": "Derive and physically instantiate an error-bounded witness for whether one completed context's\nrecords admit a coherent bivalent valuation under Identity, Non-Contradiction, and Excluded\nMiddle. Stage 2 derived a candidate inequality from redundant dual affirmative reports of P and\nnot-P. Stage 3 tested the strongest minimal four-valued quantum instrument and found a\nconditional dichotomy: a normalized model makes gap/glut ordinary actual outcomes, while an\nirreducibly non-bivalent version lacks a complete likelihood. Remaining work is a genuinely\nnon-bivalent operational event algebra with a contrastive distribution.\n",
+    "statement": "Govern the empirical investigation of TRT's physical hypothesis that every physical\ninformational actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with\noperational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for\nthe same proposition, context, time, and respect falsifies the bridge. The derived Global\nBivalent Closure witness, rival-model constructions, and the empirical falsification ledger are\nsubordinate instruments for exposing that hypothesis to failure rather than substitutes for it.\n",
     "tier": 2
   },
   "PRD-001": {

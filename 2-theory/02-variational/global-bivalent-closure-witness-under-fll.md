@@ -4,6 +4,9 @@
 > and rival likelihood remain open after the minimal four-valued instrument attempt. **Claim:**
 > `OPN-009`. **Provenance:** Stage 2 of
 > [`WP-TRT-LCC-0001`](../../05-work-packages/WP-TRT-LCC-0001-logical-constraint-closure/package.yaml).
+> **Governing target:** the
+> [`TRT-FLL Physical Hypothesis`](../../0-program-methods/FLL-PHYSICAL-HYPOTHESIS.md). This witness
+> is one candidate operational route and does not replace the broader empirical programme.
 
 ## Correction to the first-pass disposition
 
