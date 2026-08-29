@@ -146,3 +146,12 @@ the current Indiana archive DOI encodes 1968; Pykacz's article was online in 201
 2021 volume; and Tsubasa Takagi, not an inferred author, wrote the verified contemporary
 three-valued/modal article. All new ledger cases remain **Not yet assessed** pending individual
 theoretical and experimental reviews.
+
+## 2026-08-29 proposed-law status
+
+JD fixed TRT-FLL's status as a **proposed physical law**, with an **explicit physical falsifier**
+and **empirical corroboration subject to continuing test**. The ledger now separates verdict from
+corroboration weight. One reproducible irreducible $B/N$ actualization falsifies the universal law;
+a negative result adds support only if the experiment could genuinely expose the forbidden state
+and controlled its principal reductions. No existing ledger placeholder was retroactively scored,
+so this status change is not an evidential promotion.

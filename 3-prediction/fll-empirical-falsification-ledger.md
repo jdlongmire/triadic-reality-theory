@@ -23,14 +23,29 @@ validity of rules inside a selected formal logical calculus.
   tests.
 - **Candidate challenge unresolved:** a plausible $B/N$ reading remains and ordinary reductions
   have not been shown sufficient.
-- **FLL survives this test:** the tested result is strong and relevant, but its actual records admit
-  a bivalent account without weakening the result.
+- **FLL not falsified by this test:** the actual records admit a bivalent account without weakening
+  the source result. Corroboration weight is recorded separately.
 - **Orthogonal:** the target assumption is not the model's physical actualization-admissibility
   constraint.
 - **Not yet assessed:** scope placeholder only; no substantive verdict has been reached.
 
-“FLL survives this test” is not confirmation of the universal hypothesis. A finite sequence of
-non-falsifying tests cannot establish universal bivalence; one verified counterexample can refute it.
+“FLL not falsified” is not confirmation of the universal law. A finite sequence of non-falsifying
+tests cannot establish universal bivalence; one verified counterexample can refute it. A negative
+test increases corroboration only when it had preregistered or otherwise defensible power to expose
+the forbidden state.
+
+## Corroboration weight
+
+For every non-falsifying test, record one of:
+
+- **None:** orthogonal to $B/N$ actualization or incapable of observing it.
+- **Weak:** adjacent to the boundary, but key identity or reduction controls are absent.
+- **Moderate:** a plausible $B/N$ channel was measurable and major ordinary reductions were tested.
+- **Strong:** the test was expressly capable of exposing the forbidden state, with proposition
+  identity, closure, calibration, and competing explanations controlled to a severe-test standard.
+
+Corroboration weights are implementation-relative and cumulative only with an explicit synthesis;
+they are never converted into proof by counting experiments.
 
 ## Required entry record
 
@@ -47,6 +62,8 @@ Each assessed entry must contain:
 | Identity audit | Same proposition, context, time, basis, reference frame, and respect? |
 | Reduction test | Superposition, contextuality, detector behavior, uncertainty, outcome refinement, or another bivalent description? |
 | Verdict | One controlled term from the vocabulary above |
+| Discriminating power | What $B/N$ state could this test have exposed, and with what sensitivity? |
+| Corroboration weight | None, weak, moderate, or strong, with justification |
 | Confidence and sources | Evidential confidence; primary theoretical and experimental sources |
 
 An entry cannot move out of **Not yet assessed** without primary-source verification. A theorem and

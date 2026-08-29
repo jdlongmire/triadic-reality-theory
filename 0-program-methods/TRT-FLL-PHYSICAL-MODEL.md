@@ -2,7 +2,8 @@
 
 ## Governing Hypothesis, Falsification Criterion, and Experimental Research Program
 
-> **Status:** Governing research statement
+> **Status:** Proposed physical law; open to explicit physical falsification and continuing
+> empirical corroboration
 >
 > **Framework:** Triadic Reality Theory (TRT)
 >
@@ -297,8 +298,9 @@ For each experiment or theorem, the ledger records:
 5. any plausible $B$ or $N$ interpretation;
 6. whether that interpretation reduces to superposition, contextuality, detector behavior,
    epistemic uncertainty, ordinary outcome refinement, or another bivalent account;
-7. the verdict: FLL falsified, candidate unresolved, FLL survives this test, or orthogonal; and
-8. confidence and source quality.
+7. the verdict: FLL falsified, candidate unresolved, FLL not falsified by this test, or orthogonal;
+8. the test's discriminating power and corroboration weight; and
+9. confidence and source quality.
 
 The ledger distinguishes theoretical impossibility results from laboratory observations.
 
@@ -319,16 +321,50 @@ objective itself.
 
 ## 11. Epistemic Status
 
-The TRT-FLL Physical Model is presently:
+TRT-FLL is proposed as a physical law. Its universal content and equivalent exclusion rule are
 
 $$
-\boxed{\text{CANDIDATE PHYSICAL PRINCIPLE: OPEN AND FALSIFIABLE}}
+\boxed{\forall P_\chi,\quad V(P_\chi)\in\{T,F\},}
 $$
 
-It has not been established merely because familiar experiments continue to produce definite
-records. It has not been falsified merely because quantum mechanics violates classical intuitions,
-locality assumptions, noncontextual hidden-variable models, or predetermined global valuation
-schemes.
+$$
+\boxed{I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}.}
+$$
+
+Its explicit physical falsifier is
+
+$$
+\boxed{
+\exists P_\chi:\ V(P_\chi)\in\{B,N\}
+\quad\Longrightarrow\quad
+\mathrm{TRT\text{-}FLL\ is\ false}.
+}
+$$
+
+One verified irreducibly non-bivalent informational actualization is sufficient. The present
+scientific task is not to establish the law by definition, but to expose its exclusion rule to the
+strongest theoretical and experimental attempts at falsification.
+
+Accordingly, the present status is:
+
+$$
+\boxed{\text{PROPOSED PHYSICAL LAW}}
+$$
+
+$$
+\boxed{\text{EXPLICIT PHYSICAL FALSIFIER}}
+$$
+
+$$
+\boxed{\text{EMPIRICAL CORROBORATION SUBJECT TO CONTINUING TEST}}
+$$
+
+It is not established merely because familiar experiments produce definite records. A negative
+test adds empirical support only to the degree that the test was capable of exposing an irreducible
+$B/N$ actualization and controlled the ordinary reductions. Increasingly discriminating negative
+tests can therefore increase corroboration without proving the universal law. The model is not
+falsified merely because quantum mechanics violates locality assumptions, noncontextual
+hidden-variable models, predetermined global valuation schemes, or other stronger classical claims.
 
 TRT predicts
 

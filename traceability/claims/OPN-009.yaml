@@ -1,7 +1,7 @@
 id: OPN-009
-name: Operationalize and Attempt to Falsify the TRT-FLL Physical Model
+name: Operationalize and Attempt to Falsify the Proposed TRT-FLL Physical Law
 statement: |
-  Govern the empirical investigation of TRT's physical model chi = A(I | L), where L is the global
+  Govern the empirical investigation of TRT's proposed physical law chi = A(I | L), where L is the global
   physical admissibility constraint. The model predicts that every physical informational
   actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with
   operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for
@@ -9,7 +9,8 @@ statement: |
   non-bivalent information is absent from the physically actualizable state space. The derived
   Global Bivalent Closure witness, rival-model constructions, and the empirical falsification
   ledger are subordinate instruments for exposing the model to failure rather than substitutes
-  for it.
+  for it. Properly discriminating negative tests add implementation-relative corroboration in
+  proportion to their power to expose B or N; they do not prove the universal law.
 tier: 2
 role: open
 proof_status: prose_only
