@@ -115,9 +115,14 @@ gap/glut excess. `OPN-009` stays open at tier 2; TRT remains Unappraised.
 
 JD identified a programme-order risk: the four-valued instrument result had begun to frame the
 research agenda, although rival representation is only one instrument of the original hypothesis.
-The canonical [`FLL-PHYSICAL-HYPOTHESIS.md`](../FLL-PHYSICAL-HYPOTHESIS.md) now governs the branch:
+The canonical [`TRT-FLL-PHYSICAL-MODEL.md`](../TRT-FLL-PHYSICAL-MODEL.md) now governs the branch:
 physical informational actualization is predicted to be bivalent, and one reproducible irreducible
-$B$ or $N$ actualization for the same proposition, context, time, and respect falsifies the bridge.
+$B$ or $N$ actualization for the same proposition, context, time, and respect falsifies the model.
+
+The governing framing was frozen one step more precisely later on 2026-08-29: TRT-FLL is a
+**physical model**, not an application of a prior abstract logical doctrine. Its primitive ontology
+is $\chi\equiv\mathcal A(I\mid L)$, with $L$ the global physical admissibility constraint and
+$I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}$ its exposed exclusion rule.
 
 The ROADMAP no longer names co-admissibility as the single principle governing the whole programme.
 It remains a major formalization route under the governing empirical objective. The

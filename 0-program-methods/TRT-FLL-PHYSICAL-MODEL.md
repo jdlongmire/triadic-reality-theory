@@ -1,6 +1,6 @@
-# TRT Fundamental Laws of Logic Physical Hypothesis
+# TRT Fundamental Laws of Logic Physical Model
 
-## Governing Objective, Falsification Criterion, and Experimental Research Program
+## Governing Hypothesis, Falsification Criterion, and Experimental Research Program
 
 > **Status:** Governing research statement
 >
@@ -11,6 +11,28 @@
 >
 > **Authority:** JD Longmire, 2026-08-29. This statement governs subsequent work in
 > `WP-TRT-LCC-0001` and `OPN-009`.
+
+TRT-FLL is a **physical model** proposing that the Fundamental Laws of Logic constitute physically
+operative constraints on which informational states can actualize in physical reality. It is not
+primarily a philosophy-of-logic project and does not test whether logical rules are valid inside a
+chosen formal language. It proposes that $L$ constrains the physically admissible state space.
+
+The model is
+
+$$
+\boxed{\chi\equiv\mathcal A(I\mid L)},
+$$
+
+where
+
+$$
+L=\text{global admissibility constraint},\qquad
+I=\text{informational state},\qquad
+\mathcal A=\text{primitive action},\qquad
+\chi=\text{physical actualization}.
+$$
+
+Bivalent actualization is an experimentally exposed consequence of this physical ontology.
 
 ## 1. Governing Objective
 
@@ -39,14 +61,18 @@ $$
 }
 $$
 
-For a proposition $P$ instantiated by an actualization $\chi$, the corresponding operational
-consequence is:
+For a proposition $P$ instantiated as physical information by an actualization $\chi$, the
+corresponding operational consequence is:
 
 $$
 \boxed{V(P_\chi)\in\{T,F\}.}
 $$
 
 TRT therefore predicts that physical actualization is bivalent.
+
+Here $P_\chi$ is not merely a proposition in a formal calculus. It represents information
+instantiated by the physical actualization $\chi$. The claim concerns what physical systems can
+actually instantiate.
 
 This claim concerns **actualized information**. It does not require that every conceivable quantum
 proposition possess a context-independent, predetermined truth value prior to actualization. That
@@ -80,25 +106,29 @@ The relevant question arises at actualization:
 
 TRT predicts that it cannot.
 
-## 3. The Logical-to-Physical Bridge
+## 3. Physical Ontology and Admissibility Constraint
 
-Care is required when moving from formal logic to physical ontology. Excluded Middle and semantic
-bivalence are distinguishable concepts within the broader literature on logic. TRT therefore must
-not simply define physical bivalence into existence.
+Excluded Middle and semantic bivalence are distinguishable concepts within the broader literature
+on logic. TRT therefore must not define physical bivalence into existence. Its stronger formulation
+is ontological: $L$ is already a primitive component of the physical model, functioning as the
+global constraint on admissibility.
 
-The substantive hypothesis is the bridge:
+Thus
 
 $$
 \boxed{
-\mathrm{FLL}
-+\mathrm{physical\ informational\ actualization}
-\Longrightarrow
-\mathrm{bivalent\ actualized\ information}.
+\chi\equiv\mathcal A(I\mid L)
 }
 $$
 
-This bridge is an empirical commitment of TRT. It asserts that Identity, Non-Contradiction, and
-Excluded Middle constrain the informational states that can become physically actual.
+is the physical model, and the exclusion rule is
+
+$$
+\boxed{I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}.}
+$$
+
+An FLL-violating informational state is not merely undesirable within a description. The model
+predicts that it cannot enter the physically actualized state space.
 
 Consequently, the hypothesis incurs empirical risk. If physical reality produces an irreducibly
 non-bivalent informational actualization, the hypothesis is false.
@@ -131,7 +161,7 @@ against the hypothesis.
 
 ## 5. Falsification Criterion
 
-The TRT-FLL Physical Hypothesis is falsified if there exists a reproducible physical actualization
+The TRT-FLL Physical Model is falsified if there exists a reproducible physical actualization
 $\chi$ and proposition $P_\chi$ such that
 
 $$
@@ -140,6 +170,16 @@ $$
 
 under controlled conditions preserving the identity of the proposition and its relevant context.
 The result must survive ordinary competing explanations.
+
+Equivalently,
+
+$$
+\boxed{
+\exists\chi:\ I_\chi\in I_{\mathrm{non\text{-}bivalent}}
+\quad\Longrightarrow\quad
+\mathrm{TRT\text{-}FLL\ falsified}.
+}
+$$
 
 In particular, a candidate falsification cannot merely consist of:
 
@@ -270,7 +310,7 @@ objective itself.
 
 ## 11. Epistemic Status
 
-The TRT-FLL Physical Hypothesis is presently:
+The TRT-FLL Physical Model is presently:
 
 $$
 \boxed{\text{OPEN AND FALSIFIABLE}}
@@ -325,5 +365,6 @@ TRT answers:
 
 > No. The Fundamental Laws of Logic forbid such an actualization.
 
-That answer is a physical hypothesis. The research program exists to give nature every reasonable
+That answer is a physical model with an exposed empirical hypothesis. The research program exists
+to give nature every reasonable
 opportunity to prove it wrong.

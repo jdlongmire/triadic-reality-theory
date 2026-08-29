@@ -3,11 +3,16 @@
 > **Status:** Open research ledger; initial scope only.
 >
 > **Governing statement:**
-> [`TRT Fundamental Laws of Logic Physical Hypothesis`](../0-program-methods/FLL-PHYSICAL-HYPOTHESIS.md)
+> [`TRT Fundamental Laws of Logic Physical Model`](../0-program-methods/TRT-FLL-PHYSICAL-MODEL.md)
 >
 > **Rule:** A ledger entry assesses whether an observed physical actualization is irreducibly $B$
 > or $N$. It must not substitute failure of locality, noncontextuality, predetermined valuation,
 > macrorealism, or classical representation for that criterion.
+
+TRT-FLL is a physical model in which $L$ is a primitive global admissibility constraint on
+$\chi\equiv\mathcal A(I\mid L)$. The ledger tests the resulting physical exclusion rule
+$I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}$; it does not assess the
+validity of rules inside a selected formal logical calculus.
 
 ## Verdict vocabulary
 
@@ -17,7 +22,8 @@
   have not been shown sufficient.
 - **FLL survives this test:** the tested result is strong and relevant, but its actual records admit
   a bivalent account without weakening the result.
-- **Orthogonal:** the target assumption is not the actualization-bivalence bridge.
+- **Orthogonal:** the target assumption is not the model's physical actualization-admissibility
+  constraint.
 - **Not yet assessed:** scope placeholder only; no substantive verdict has been reached.
 
 “FLL survives this test” is not confirmation of the universal hypothesis. A finite sequence of

@@ -1,12 +1,15 @@
 id: OPN-009
-name: Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis
+name: Operationalize and Attempt to Falsify the TRT-FLL Physical Model
 statement: |
-  Govern the empirical investigation of TRT's physical hypothesis that every physical
-  informational actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with
+  Govern the empirical investigation of TRT's physical model chi = A(I | L), where L is the global
+  physical admissibility constraint. The model predicts that every physical informational
+  actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with
   operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for
-  the same proposition, context, time, and respect falsifies the bridge. The derived Global
-  Bivalent Closure witness, rival-model constructions, and the empirical falsification ledger are
-  subordinate instruments for exposing that hypothesis to failure rather than substitutes for it.
+  the same proposition, context, time, and respect falsifies the model's exclusion rule that
+  non-bivalent information is absent from the physically actualizable state space. The derived
+  Global Bivalent Closure witness, rival-model constructions, and the empirical falsification
+  ledger are subordinate instruments for exposing the model to failure rather than substitutes
+  for it.
 tier: 2
 role: open
 proof_status: prose_only
@@ -15,7 +18,7 @@ depends_on:
   - { claim_id: ONT-003, dependency_type: logical }
   - { claim_id: OPN-004, dependency_type: logical }
 source_documents:
-  - { doc: FLL-PHYSICAL-HYPOTHESIS.md, section: "Governing Objective" }
+  - { doc: TRT-FLL-PHYSICAL-MODEL.md, section: "Governing Objective" }
   - { doc: fll-empirical-falsification-ledger.md, section: "Required entry record" }
   - { doc: global-bivalent-closure-witness-under-fll.md, section: "Error-bounded forbidden-correlation inequality" }
   - { doc: non-bivalent-rival-model-attempt.md, section: "Instrument-completion dichotomy" }
