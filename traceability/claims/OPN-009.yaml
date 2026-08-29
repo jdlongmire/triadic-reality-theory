@@ -1,16 +1,18 @@
 id: OPN-009
-name: Operationalize and Attempt to Falsify the Proposed TRT-FLL Physical Law
+name: Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis
 statement: |
-  Govern the empirical investigation of TRT's proposed physical law chi = A(I | L), where L is the global
-  physical admissibility constraint. The model predicts that every physical informational
+  Govern the empirical investigation of TRT's physical hypothesis chi = A(I | L), presently an
+  ontological schema in which L is the global physical admissibility constraint, not yet a
+  dynamical or operational law. The model predicts that every physical informational
   actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with
   operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for
   the same proposition, context, time, and respect falsifies the model's exclusion rule that
   non-bivalent information is absent from the physically actualizable state space. The derived
   Global Bivalent Closure witness, rival-model constructions, and the empirical falsification
   ledger are subordinate instruments for exposing the model to failure rather than substitutes
-  for it. Properly discriminating negative tests add implementation-relative corroboration in
-  proportion to their power to expose B or N; they do not prove the universal law.
+  for it. Law status is intended but not earned. Purpose-built negative tests add
+  implementation-relative corroboration in proportion to their power to expose B or N; adjacent
+  quantum-foundational results merely constrain nearby rivals unless they had that power.
 tier: 2
 role: open
 proof_status: prose_only
@@ -22,6 +24,7 @@ source_documents:
   - { doc: TRT-FLL-PHYSICAL-MODEL.md, section: "Governing Objective" }
   - { doc: non-bivalent-physics-adversarial-background.md, section: "Research Context" }
   - { doc: fll-empirical-falsification-ledger.md, section: "Required entry record" }
+  - { doc: WP-TRT-FLL-0002, section: "Preregistered Protocol Fields" }
   - { doc: global-bivalent-closure-witness-under-fll.md, section: "Error-bounded forbidden-correlation inequality" }
   - { doc: non-bivalent-rival-model-attempt.md, section: "Instrument-completion dichotomy" }
   - { doc: nonactualization-operationalization.md, section: "Stage-2 correction" }
@@ -38,6 +41,8 @@ external_citations:
   - Pykacz 2015, DOI 10.1007/s10773-015-2554-x
   - Pykacz 2021, DOI 10.1007/s10773-019-04050-6
   - Takagi 2021, DOI 10.1007/s10773-020-04701-z
+  - Brukner 2018, DOI 10.3390/e20050350
+  - Bong et al. 2020, DOI 10.1038/s41567-020-0990-x
 risk_if_false: >
   If no instrument can implement proposition-dual independent records, or every apparent
   violation is observationally equivalent to a calibrated common-mode failure, the global

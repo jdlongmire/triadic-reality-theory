@@ -34,6 +34,11 @@ tests cannot establish universal bivalence; one verified counterexample can refu
 test increases corroboration only when it had preregistered or otherwise defensible power to expose
 the forbidden state.
 
+Bell, Kochen--Specker, GHZ, contextuality, Leggett--Garg, delayed choice, and related experiments
+constrain nearby rival structures while leaving TRT-FLL unfalsified. They are not treated as
+corroboration unless a case-specific assessment shows that the experiment could expose an
+irreducibly non-bivalent actualization.
+
 ## Corroboration weight
 
 For every non-falsifying test, record one of:
@@ -97,6 +102,7 @@ would obscure what was observed.
 | FLL-EFL-021 | Pykacz many-valued quantum mechanics | Theoretical/interpretive | Not yet assessed |
 | FLL-EFL-022 | Reichenbach/Takagi three-valued quantum logic | Theoretical/semantic | Not yet assessed |
 | FLL-EFL-023 | Da Costa--de Ronde paraconsistent quantum-superposition programme | Theoretical/interpretive | Not yet assessed |
+| FLL-EFL-024 | Wigner's-friend / Local-Friendliness frontier and Absoluteness of Observed Events | Theoretical + proof-of-principle experimental | Candidate first frontier; not yet assessed |
 
 ## Research order
 

@@ -42,7 +42,8 @@ $$
 $$
 
 for every proposition $P$ instantiated by a completed physical informational actualization $\chi$,
-holding proposition, context, time, and relevant respect fixed. This is the proposed physical law.
+holding proposition, context, time, and relevant respect fixed. This is the physical hypothesis and
+proposed physical principle.
 Its significance becomes clearer against nearly a century of attempts to accommodate nonclassical
 logical structures within physical theory.
 
@@ -290,10 +291,24 @@ The governing question for every ledger entry is:
 If yes, TRT-FLL fails. If no, the experiment may still have falsified another classical assumption
 while leaving this physical constraint intact. This distinction governs the research programme.
 
-## 12. Present Status and Law Claim
+### Candidate first frontier: Wigner's friend and Local Friendliness
 
-TRT-FLL is proposed as a physical law. Its content is a universal constraint on physically
-actualizable informational states:
+This line is unusually relevant because it pressures the status of an already recorded event, not
+only an unperformed measurement. It is not yet a TRT-FLL experiment. The Local-Friendliness result
+rejects a conjunction including No-Superdeterminism, Locality, and Absoluteness of Observed Events;
+its proof-of-principle experiment uses a photon's path as the “observer.” The gating TRT question is:
+
+> Does TRT require Absoluteness of Observed Events across all observers, or only bivalence relative
+> to one well-defined physical actualization context?
+
+The latter cannot become an escape by equivocation: proposition identity and the relation between
+contexts must be specified. [`WP-TRT-FLL-0002`](../../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml)
+will assess this frontier before choosing an apparatus.
+
+## 12. Present Status and Intended Law Claim
+
+TRT-FLL is presently a physical hypothesis and proposed physical principle. Its intended law
+content is a universal constraint on physically actualizable informational states:
 
 $$
 \boxed{\forall P_\chi,\quad V(P_\chi)\in\{T,F\}.}
@@ -323,14 +338,15 @@ available theoretical and experimental attempts at falsification.
 Quantum foundations supplies an unusually mature adversarial environment. Its results must be
 accepted at full strength. The narrower question is whether physical reality has been demonstrated
 to actualize an informational state that irreducibly violates Identity, Non-Contradiction, or
-Excluded Middle. If yes, the proposed law is false. If increasingly discriminating experiments
-capable of exposing such states continue to exclude them, the law's empirical corroboration
-increases without becoming deductive proof.
+Excluded Middle. If yes, the hypothesis is false. Purpose-built negative tests capable of exposing
+such states can increase its empirical corroboration without becoming deductive proof. Historical
+experiments that constrain nearby rival structures leave TRT-FLL unfalsified but do not
+automatically corroborate it.
 
 Accordingly, the status is
 
 $$
-\boxed{\text{PROPOSED PHYSICAL LAW}}
+\boxed{\text{PHYSICAL HYPOTHESIS / PROPOSED PHYSICAL PRINCIPLE}}
 $$
 
 with
@@ -342,7 +358,7 @@ $$
 and
 
 $$
-\boxed{\text{EMPIRICAL CORROBORATION SUBJECT TO CONTINUING TEST}.}
+\boxed{\text{OPERATIONAL LAW STATUS NOT YET EARNED}.}
 $$
 
 Within $\chi\equiv\mathcal A(I\mid L)$, $L$ participates directly in determining admissible
@@ -351,9 +367,10 @@ physical actualization. The resulting law is the Fundamental Logical Admissibili
 > No informational state violating Identity, Non-Contradiction, or Excluded Middle with respect
 > to the same proposition, context, time, and relevant respect can become physically actual.
 
-The scientific obligation is straightforward: **try to break it**. Until it is broken, every
-properly discriminating negative test adds empirical support in proportion to its severity. If it
-is broken once under controlled and reproducible conditions, the law is false.
+The scientific obligation is straightforward: **try to break it**. A properly discriminating
+negative test adds empirical support in proportion to its severity. If the hypothesis is broken
+once under controlled and reproducible conditions, it is false. Only after the contrastive
+operational obligation is met and severe tests survive should law status be advanced.
 
 ## Primary Sources
 

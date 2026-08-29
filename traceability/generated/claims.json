@@ -515,10 +515,12 @@
       "Kochen and Specker 1967, DOI 10.1512/iumj.1968.17.17004",
       "Pykacz 2015, DOI 10.1007/s10773-015-2554-x",
       "Pykacz 2021, DOI 10.1007/s10773-019-04050-6",
-      "Takagi 2021, DOI 10.1007/s10773-020-04701-z"
+      "Takagi 2021, DOI 10.1007/s10773-020-04701-z",
+      "Brukner 2018, DOI 10.3390/e20050350",
+      "Bong et al. 2020, DOI 10.1038/s41567-020-0990-x"
     ],
     "id": "OPN-009",
-    "name": "Operationalize and Attempt to Falsify the Proposed TRT-FLL Physical Law",
+    "name": "Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis",
     "notes": "The first-pass WP disposition rejected the submitted null-event classifier and overreached by inferring that no positive discriminator could exist. JD's challenge about the global effect of the three FLL corrected that inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim until a physical implementation and contrastive rival likelihood exist. The minimal four-valued quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the inequality/polytope method but must not be conflated with FLL failure inside one context. The governing objective remains the search for any irreducibly non-bivalent physical informational actualization; model representation is subordinate to that falsification programme.\n",
     "proof_status": "prose_only",
     "risk_if_false": "If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.\n",
@@ -537,6 +539,10 @@
         "section": "Required entry record"
       },
       {
+        "doc": "WP-TRT-FLL-0002",
+        "section": "Preregistered Protocol Fields"
+      },
+      {
         "doc": "global-bivalent-closure-witness-under-fll.md",
         "section": "Error-bounded forbidden-correlation inequality"
       },
@@ -553,7 +559,7 @@
         "section": "Stage-2 Response"
       }
     ],
-    "statement": "Govern the empirical investigation of TRT's proposed physical law chi = A(I | L), where L is the global\nphysical admissibility constraint. The model predicts that every physical informational\nactualization satisfies Identity, Non-Contradiction, and Excluded Middle, with\noperational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for\nthe same proposition, context, time, and respect falsifies the model's exclusion rule that\nnon-bivalent information is absent from the physically actualizable state space. The derived\nGlobal Bivalent Closure witness, rival-model constructions, and the empirical falsification\nledger are subordinate instruments for exposing the model to failure rather than substitutes\nfor it. Properly discriminating negative tests add implementation-relative corroboration in\nproportion to their power to expose B or N; they do not prove the universal law.\n",
+    "statement": "Govern the empirical investigation of TRT's physical hypothesis chi = A(I | L), presently an\nontological schema in which L is the global physical admissibility constraint, not yet a\ndynamical or operational law. The model predicts that every physical informational\nactualization satisfies Identity, Non-Contradiction, and Excluded Middle, with\noperational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for\nthe same proposition, context, time, and respect falsifies the model's exclusion rule that\nnon-bivalent information is absent from the physically actualizable state space. The derived\nGlobal Bivalent Closure witness, rival-model constructions, and the empirical falsification\nledger are subordinate instruments for exposing the model to failure rather than substitutes\nfor it. Law status is intended but not earned. Purpose-built negative tests add\nimplementation-relative corroboration in proportion to their power to expose B or N; adjacent\nquantum-foundational results merely constrain nearby rivals unless they had that power.\n",
     "tier": 2
   },
   "PRD-001": {

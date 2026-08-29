@@ -149,9 +149,30 @@ theoretical and experimental reviews.
 
 ## 2026-08-29 proposed-law status
 
-JD fixed TRT-FLL's status as a **proposed physical law**, with an **explicit physical falsifier**
+> **Superseded later the same day by the operational critique below.**
+
+JD initially fixed TRT-FLL's status as a **proposed physical law**, with an **explicit physical falsifier**
 and **empirical corroboration subject to continuing test**. The ledger now separates verdict from
 corroboration weight. One reproducible irreducible $B/N$ actualization falsifies the universal law;
 a negative result adds support only if the experiment could genuinely expose the forbidden state
 and controlled its principal reductions. No existing ledger placeholder was retroactively scored,
 so this status change is not an evidential promotion.
+
+## 2026-08-29 operational critique accepted
+
+The proposed-law label overran the empirical content. Corrected status: **physical hypothesis /
+proposed physical principle**. The equation $\chi\equiv\mathcal A(I\mid L)$ is an ontological
+schema, not yet a dynamical law; TRT still owes a mathematical account of whether $L$ restricts
+state space, instruments, update maps, event structures, or some derived relation among them.
+
+The conceptual falsifier $V(P_\chi)\in\{B,N\}$ is only as sharp as the apparatus-level identity of
+$P_\chi$. [`WP-TRT-FLL-0002`](../../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml)
+is opened to construct one protocol whose non-bivalent signature differs from every admissible
+bivalent model in probability, correlation structure, or event topology. Wigner's-friend/Local
+Friendliness is the leading candidate frontier because it pressures recorded-event status, but the
+package must first decide whether TRT entails Absoluteness of Observed Events or context-relative
+bivalence. No law status, protocol, prediction, or corroboration is claimed at opening.
+
+`WP-TRT-LCC-0001` is complete with this handoff. `OPN-009` remains open and
+`WP-TRT-FLL-0002` is ready; its significant execution must occur in its own dedicated branch and
+worktree rather than continuing implementation on the LCC disposition branch.

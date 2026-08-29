@@ -73,6 +73,15 @@ Used by [`../2-theory/02-variational/non-bivalent-rival-model-attempt.md`](../2-
 
 Used by [`../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md) and the [`FLL ledger`](../3-prediction/fll-empirical-falsification-ledger.md) (OPN-009). Da Costa--de Ronde verification is recorded in the preceding sections.
 
+## Verified — primary sources confirmed (2026-08-29, candidate Local-Friendliness frontier)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **Brukner (2018)** | *Entropy* 20, 350; DOI 10.3390/e20050350; arXiv:1804.00749. Derives a no-go theorem for observer-independent facts common to Wigner and friend while discussing relative determinacy and definite outcomes. | Original open-access article / arXiv |
+| **Bong et al. (2020)** | *Nature Physics* 16, 1199--1205; DOI 10.1038/s41567-020-0990-x. Local-Friendliness theorem rejects the conjunction of No-Superdeterminism, Locality, and Absoluteness of Observed Events under universal controllable quantum evolution; proof-of-principle experiment treats a photon's path as an observer. | Original article and source materials |
+
+Used to scope [`WP-TRT-FLL-0002`](../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml). These results do not yet decide whether TRT entails Absoluteness of Observed Events or supply a purpose-built $B/N$ falsifier.
+
 ## ⚠️ Correction required
 
 - **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.

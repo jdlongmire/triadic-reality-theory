@@ -1,0 +1,74 @@
+id: WP-TRT-FLL-0002
+title: Construct one contrastive adversarial protocol for non-bivalent actualization
+status: ready
+commitment: stretch
+governing_objective: >
+  Construct one adversarial operational protocol in which a non-bivalent actualization would
+  require an observable structure that no admissible bivalent instrument model can reproduce.
+scope: >
+  Select one physical architecture; define a proposition instantiated by a completed physical
+  actualization; fix its identity conditions, context, respect, and time interval; define the raw
+  event structure for T, F, B, and N; specify the complete class of admissible bivalent rivals and
+  ordinary failure models; and derive a quantitative contrast in probabilities, correlation
+  structure, or event topology. The package succeeds by producing either a preregisterable severe
+  test or a recorded negative showing that the selected architecture cannot escape bivalent
+  representation.
+
+  Wigner's-friend and Local-Friendliness scenarios are the leading candidate frontier because they
+  pressure the status of an already recorded event. They are not adopted automatically. The first
+  task is to decide whether TRT requires Absoluteness of Observed Events across observers or only
+  bivalence relative to a well-defined actualization context, and whether the proof-of-principle
+  architectures test that distinction rather than a conjunction dominated by locality or
+  no-superdeterminism.
+authority_boundary: >
+  Internal literature review, event-algebra construction, mathematical modelling, simulation,
+  adversarial review, and a negative disposition are authorized inside the dedicated TRT worktree.
+  This package does not authorize laboratory access, external communication, paid services,
+  publication, empirical confidence promotion, declaring law status earned, changing the hard
+  core, merging to main, or representing a photonic proof-of-principle observer as a human-scale
+  Wigner's friend without explicit justification.
+preregistered_protocol_fields:
+  - proposition P
+  - identity conditions for P
+  - measurement context and relevant respect
+  - time interval Delta t
+  - raw physical events corresponding to T, F, B, and N
+  - permitted bivalent rival-model class
+  - excluded ordinary failure modes
+  - quantitative discriminator
+  - likelihood model
+  - precise outcome that falsifies TRT-FLL
+actions:
+  - >
+    Formalize the three-level architecture: ontological hypothesis, operationalization obligation,
+    and criterion for any future advancement to empirically supported law status.
+  - >
+    Decide where L acts mathematically, or state the relations still required among state-space,
+    instrument, update-map, and event-structure restrictions.
+  - >
+    Review Brukner's observer-independent-facts theorem, Bong et al.'s Local-Friendliness theorem
+    and proof-of-principle experiment, and the strongest critiques or assumption audits using
+    primary sources.
+  - >
+    Resolve whether Absoluteness of Observed Events is entailed by TRT-FLL or whether bivalence is
+    indexed to a defined actualization context without permitting equivocation in P.
+  - >
+    Choose one apparatus-level proposition and complete all preregistered protocol fields before
+    deriving or simulating a discriminator.
+  - >
+    Prove that the proposed B/N signature differs from every model in the declared admissible
+    bivalent class in probability, correlation structure, or event topology.
+  - >
+    Red-team the result for circular event labeling, hidden context changes, ordinary outcome
+    refinement, calibration failure, postselection, leakage, and an under-specified rival class.
+verification: >
+  Done requires a committed protocol or negative disposition that defines every preregistered
+  field; provides a complete raw-event-to-valuation map; states the admissible bivalent model class
+  without defining success into existence; supplies a reproducible quantitative discriminator and
+  likelihood when a protocol survives; and identifies a physical result that cannot be reproduced
+  by any declared bivalent model. Traceability must build, all reference claims must be verified
+  from primary sources, math lint and relevant code tests must pass, and research-wrap must pass.
+disposition: >
+  OPENED 2026-08-29 as the next operational package. No protocol, prediction, corroboration, or law
+  status is claimed at opening. The package exists because framing is no longer the bottleneck: the
+  next increment must be contrastive physics.

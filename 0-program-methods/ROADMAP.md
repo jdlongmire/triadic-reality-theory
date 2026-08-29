@@ -17,8 +17,8 @@ The position paper establishes Triadic Reality Theory as a coherent foundational
 
 This document converts that gap into a structured program. It states what would have to be true for TRT to advance from ontology to formalized theory, orders the work by tractability and dependency, specifies the repository that will hold it, and sets the terms on which others can contribute. It is deliberately honest about what is conjecture, what is open, and what would count as failure, because the credibility of the program depends on those distinctions being maintained rather than blurred as the work proceeds.
 
-The programme's governing empirical objective is the proposed
-[TRT Fundamental Laws of Logic Physical Law](TRT-FLL-PHYSICAL-MODEL.md): physical
+The programme's governing empirical objective is the
+[TRT Fundamental Laws of Logic Physical Hypothesis](TRT-FLL-PHYSICAL-MODEL.md): physical
 informational actualization is bivalent, and one reproducible irreducible $B$ or $N$ actualization
 would falsify the model's physical exclusion rule. Co-admissibility, gravity, variational work,
 rival models, and historical
@@ -32,6 +32,10 @@ failure. The immediate FLL-facing instrument is the
 [Empirical Falsification Ledger](../3-prediction/fll-empirical-falsification-ledger.md).
 Its adversarial source map begins with
 [`Non-Bivalent Physics`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
+The next operational increment is
+[`WP-TRT-FLL-0002`](../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml),
+which must produce one contrastive protocol or an explicit negative disposition before any law
+status is reconsidered.
 
 ---
 

@@ -2,8 +2,8 @@
 
 ## Governing Hypothesis, Falsification Criterion, and Experimental Research Program
 
-> **Status:** Proposed physical law; open to explicit physical falsification and continuing
-> empirical corroboration
+> **Status:** Physical hypothesis / proposed physical principle. Intended law status is not yet
+> earned; operational instantiation and discriminating tests remain open.
 >
 > **Framework:** Triadic Reality Theory (TRT)
 >
@@ -18,7 +18,7 @@ operative constraints on which informational states can actualize in physical re
 primarily a philosophy-of-logic project and does not test whether logical rules are valid inside a
 chosen formal language. It proposes that $L$ constrains the physically admissible state space.
 
-The model is
+The ontological schema is
 
 $$
 \boxed{\chi\equiv\mathcal A(I\mid L)},
@@ -33,7 +33,9 @@ I=\text{informational state},\qquad
 \chi=\text{physical actualization}.
 $$
 
-Bivalent actualization is an experimentally exposed consequence of this physical ontology.
+At present, $\chi\equiv\mathcal A(I\mid L)$ is an ontological schema, not yet a dynamical law. It
+does not specify where $L$ acts mathematically, how actualization evolves, or which measurable
+event algebra follows. Bivalent actualization is the schema's exposed physical hypothesis.
 
 The model's scientific context and strongest known non-bivalent approaches are surveyed in
 [`Non-Bivalent Physics as the Adversarial Background`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
@@ -112,12 +114,14 @@ The relevant question arises at actualization:
 
 TRT predicts that it cannot.
 
-## 3. Physical Ontology and Admissibility Constraint
+## 3. Physical Ontology, Operationalization, and Law Criterion
 
 Excluded Middle and semantic bivalence are distinguishable concepts within the broader literature
 on logic. TRT therefore must not define physical bivalence into existence. Its stronger formulation
 is ontological: $L$ is already a primitive component of the physical model, functioning as the
 global constraint on admissibility.
+
+### Level 1 — ontological hypothesis
 
 Thus
 
@@ -142,6 +146,61 @@ predicts that it cannot enter the physically actualized state space.
 
 Consequently, the hypothesis incurs empirical risk. If physical reality produces an irreducibly
 non-bivalent informational actualization, the hypothesis is false.
+
+### Level 2 — operationalization obligation
+
+For at least one physical system, TRT must specify an event algebra and measurement protocol in
+which a non-bivalent actualization produces an observable signature not reproducible by any
+admissible bivalent model. The contrast must appear in at least one of:
+
+$$
+\boxed{\text{probabilities},\qquad\text{correlation structure},\qquad\text{event topology}.}
+$$
+
+For a concrete apparatus, the programme owes explicit definitions of
+
+$$
+P,\quad\text{respect},\quad\text{context},\quad\Delta t,\quad T,\quad F,\quad B,\quad N.
+$$
+
+The falsifier is only as sharp as the identity of $P_\chi$. A conventional detector click labeled
+`B` or `N` is insufficient; the physical information instantiated by the event must violate the
+admissibility hypothesis in a way unavailable to the permitted bivalent models.
+
+### Level 3 — law criterion
+
+Only after a contrastive protocol exists and survives discriminating tests should TRT-FLL advance
+from proposed physical principle to empirically supported physical law. Until then, “law” names the
+intended destination, not an evidential status already earned.
+
+### Where does $L$ act?
+
+The deepest current theoretical obligation is to choose, derive, or relate the possible
+mathematical actions of $L$, including:
+
+$$
+L:\Omega\rightarrow\Omega_{\mathrm{admissible}}
+$$
+
+as a state-space restriction,
+
+$$
+L:\mathcal I\rightarrow\mathcal I_{\mathrm{allowed}}
+$$
+
+as an instrument constraint,
+
+$$
+L:U\rightarrow U_{\mathrm{allowed}}
+$$
+
+as a constraint on state updates, or
+
+$$
+L:\mathcal E\rightarrow\mathcal E_{\mathrm{allowed}}
+$$
+
+as a restriction on physically realizable event structures. These are not assumed equivalent.
 
 ## 4. Candidate Non-Bivalent Actualizations
 
@@ -321,7 +380,8 @@ objective itself.
 
 ## 11. Epistemic Status
 
-TRT-FLL is proposed as a physical law. Its universal content and equivalent exclusion rule are
+TRT-FLL is a physical hypothesis and proposed physical principle. Its universal content and
+equivalent exclusion rule are
 
 $$
 \boxed{\forall P_\chi,\quad V(P_\chi)\in\{T,F\},}
@@ -348,7 +408,7 @@ strongest theoretical and experimental attempts at falsification.
 Accordingly, the present status is:
 
 $$
-\boxed{\text{PROPOSED PHYSICAL LAW}}
+\boxed{\text{PHYSICAL HYPOTHESIS / PROPOSED PHYSICAL PRINCIPLE}}
 $$
 
 $$
@@ -356,13 +416,15 @@ $$
 $$
 
 $$
-\boxed{\text{EMPIRICAL CORROBORATION SUBJECT TO CONTINUING TEST}}
+\boxed{\text{OPERATIONAL LAW STATUS NOT YET EARNED}}
 $$
 
 It is not established merely because familiar experiments produce definite records. A negative
 test adds empirical support only to the degree that the test was capable of exposing an irreducible
 $B/N$ actualization and controlled the ordinary reductions. Increasingly discriminating negative
-tests can therefore increase corroboration without proving the universal law. The model is not
+purpose-built discriminating tests can therefore increase corroboration without proving the
+universal claim. Nearby experiments that were not capable of exposing $B/N$ constrain rival
+structures while leaving TRT-FLL unfalsified; they are not counted as corroboration. The model is not
 falsified merely because quantum mechanics violates locality assumptions, noncontextual
 hidden-variable models, predetermined global valuation schemes, or other stronger classical claims.
 
