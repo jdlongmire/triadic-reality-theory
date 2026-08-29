@@ -61,6 +61,18 @@ Used by [`../2-theory/02-variational/global-bivalent-closure-witness-under-fll.m
 
 Used by [`../2-theory/02-variational/non-bivalent-rival-model-attempt.md`](../2-theory/02-variational/non-bivalent-rival-model-attempt.md) (OPN-009).
 
+## Verified — primary sources confirmed (2026-08-29, non-bivalent adversarial background)
+
+| Reference | Confirmed details | Source |
+|---|---|---|
+| **Birkhoff & von Neumann (1936)** | *Annals of Mathematics* 37(4), 823--843; DOI 10.2307/1968621. Constructs a non-Boolean calculus of physical propositions using linear subspaces and orthogonal complements; emphasizes departure from classical logic and incompatibility. | Original paper/JSTOR scan |
+| **Kochen & Specker (1967)** | *Journal of Mathematics and Mechanics* 17, 59--87. Conventional citation year is 1967; current Indiana archive labels issue 17(1) as 1968 and assigns DOI 10.1512/iumj.1968.17.17004. | Original journal archive / CERN record |
+| **Pykacz (2015)** | *Int. J. Theor. Phys.* 54, 4367--4375; DOI 10.1007/s10773-015-2554-x; arXiv:1408.2697. Applies infinite-valued Łukasiewicz logic to future/not-yet-measured quantum properties. | Open-access article / arXiv |
+| **Pykacz (2021; online 2019)** | *Int. J. Theor. Phys.* 60, 677--686; DOI 10.1007/s10773-019-04050-6. Explicitly distinguishes many-valued future propositions from completed experimental propositions that resolve true or false. | Open-access Springer article |
+| **Takagi (2021)** | *Int. J. Theor. Phys.* 60, 366--377; DOI 10.1007/s10773-020-04701-z. Uses $\{T,I,F\}$ with $I$ for transition probabilities in $(0,1)$ and explicitly derives post-observation values 0 or 1. | Open-access Springer article |
+
+Used by [`../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md) and the [`FLL ledger`](../3-prediction/fll-empirical-falsification-ledger.md) (OPN-009). Da Costa--de Ronde verification is recorded in the preceding sections.
+
 ## ⚠️ Correction required
 
 - **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.

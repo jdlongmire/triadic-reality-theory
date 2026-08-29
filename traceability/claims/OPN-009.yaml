@@ -19,6 +19,7 @@ depends_on:
   - { claim_id: OPN-004, dependency_type: logical }
 source_documents:
   - { doc: TRT-FLL-PHYSICAL-MODEL.md, section: "Governing Objective" }
+  - { doc: non-bivalent-physics-adversarial-background.md, section: "Research Context" }
   - { doc: fll-empirical-falsification-ledger.md, section: "Required entry record" }
   - { doc: global-bivalent-closure-witness-under-fll.md, section: "Error-bounded forbidden-correlation inequality" }
   - { doc: non-bivalent-rival-model-attempt.md, section: "Instrument-completion dichotomy" }
@@ -31,6 +32,11 @@ external_citations:
   - Klyachko et al. 2008, DOI 10.1103/PhysRevLett.101.020403
   - Ozawa 1984, DOI 10.1063/1.526000
   - Chiribella, D'Ariano, and Perinotti 2010, DOI 10.1103/PhysRevA.81.062348
+  - Birkhoff and von Neumann 1936, DOI 10.2307/1968621
+  - Kochen and Specker 1967, DOI 10.1512/iumj.1968.17.17004
+  - Pykacz 2015, DOI 10.1007/s10773-015-2554-x
+  - Pykacz 2021, DOI 10.1007/s10773-019-04050-6
+  - Takagi 2021, DOI 10.1007/s10773-020-04701-z
 risk_if_false: >
   If no instrument can implement proposition-dual independent records, or every apparent
   violation is observationally equivalent to a calibrated common-mode failure, the global

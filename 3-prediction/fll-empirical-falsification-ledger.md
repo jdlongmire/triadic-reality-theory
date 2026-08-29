@@ -5,6 +5,9 @@
 > **Governing statement:**
 > [`TRT Fundamental Laws of Logic Physical Model`](../0-program-methods/TRT-FLL-PHYSICAL-MODEL.md)
 >
+> **Adversarial context:**
+> [`Non-Bivalent Physics`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md)
+>
 > **Rule:** A ledger entry assesses whether an observed physical actualization is irreducibly $B$
 > or $N$. It must not substitute failure of locality, noncontextuality, predetermined valuation,
 > macrorealism, or classical representation for that criterion.
@@ -73,12 +76,17 @@ would obscure what was observed.
 | FLL-EFL-017 | Wigner's-friend-inspired experiments | Experimental | Not yet assessed |
 | FLL-EFL-018 | Experimental claims for paraconsistent or dialetheic physical states | Search class | Not yet assessed |
 | FLL-EFL-019 | Experimental claims for intuitionistic, many-valued, or otherwise non-bivalent physical states | Search class | Not yet assessed |
+| FLL-EFL-020 | Birkhoff--von Neumann quantum logic | Theoretical | Not yet assessed |
+| FLL-EFL-021 | Pykacz many-valued quantum mechanics | Theoretical/interpretive | Not yet assessed |
+| FLL-EFL-022 | Reichenbach/Takagi three-valued quantum logic | Theoretical/semantic | Not yet assessed |
+| FLL-EFL-023 | Da Costa--de Ronde paraconsistent quantum-superposition programme | Theoretical/interpretive | Not yet assessed |
 
 ## Research order
 
-The ledger begins with Bell, Kochen--Specker/contextuality, and Leggett--Garg because they provide
-the clearest controls against conflating the governing hypothesis with stronger classical
-assumptions. This ordering is methodological, not a judgment that later entries are less important.
+The first pass should establish controls with Birkhoff--von Neumann, Kochen--Specker/contextuality,
+and Bell, then engage the most direct non-bivalent adversaries: Pykacz's many-valued programme,
+three-valued indeterminacy, and da Costa--de Ronde paraconsistent superposition. This ordering is
+methodological, not a prejudged verdict.
 
 Each assessment must steelman the candidate non-bivalent interpretation before applying the
 reduction test. No entry may protect TRT by redescribing or weakening the source result.

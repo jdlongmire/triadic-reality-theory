@@ -146,3 +146,21 @@ physical_model_freeze_record: >
   prediction is V(P_chi) in {T,F}; the exclusion rule is that non-bivalent information is not in
   the physically actualizable state space. One verified irreducible B or N actualization falsifies
   the model.
+adversarial_background_record: >
+  The non-bivalent-physics literature is adopted as the model's adversarial scientific context.
+  Birkhoff-von Neumann non-Boolean quantum logic, Kochen-Specker contextuality, Pykacz many-valued
+  quantum mechanics, three-valued indeterminacy, and da Costa-de Ronde paraconsistent superposition
+  are distinguished rather than conflated. Their strongest claims are preserved. Formal or
+  premeasurement non-bivalence does not count as a falsification unless an irreducible B or N state
+  survives physical actualization; neither is it dismissed merely for being interpretive.
+stage_5_actions:
+  - >
+    Establish non-bivalent physics as the adversarial background to the TRT-FLL physical model and
+    verify the initial source set against primary publications.
+  - >
+    Correct source details: Kochen-Specker is conventionally 1967 with an archive DOI labeled 1968;
+    Pykacz's 2019-online article appears in the 2021 volume; Takagi is the verified author of the
+    contemporary three-valued/modal treatment.
+  - >
+    Extend the empirical ledger to distinguish Birkhoff-von Neumann, Pykacz, three-valued, and
+    paraconsistent programmes before case-specific assessment.

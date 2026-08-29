@@ -34,6 +34,11 @@ $$
 
 Bivalent actualization is an experimentally exposed consequence of this physical ontology.
 
+The model's scientific context and strongest known non-bivalent approaches are surveyed in
+[`Non-Bivalent Physics as the Adversarial Background`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
+That literature is treated as an adversarial environment for the model, not as philosophy to be
+dismissed and not as empirical falsification merely because it employs nonclassical logic.
+
 ## 1. Governing Objective
 
 The central empirical claim under investigation is:
@@ -129,6 +134,10 @@ $$
 
 An FLL-violating informational state is not merely undesirable within a description. The model
 predicts that it cannot enter the physically actualized state space.
+
+> **Fundamental Logical Admissibility Principle:** No informational state violating Identity,
+> Non-Contradiction, or Excluded Middle with respect to the same proposition, context, time, and
+> relevant respect can become physically actual.
 
 Consequently, the hypothesis incurs empirical risk. If physical reality produces an irreducibly
 non-bivalent informational actualization, the hypothesis is false.
@@ -313,7 +322,7 @@ objective itself.
 The TRT-FLL Physical Model is presently:
 
 $$
-\boxed{\text{OPEN AND FALSIFIABLE}}
+\boxed{\text{CANDIDATE PHYSICAL PRINCIPLE: OPEN AND FALSIFIABLE}}
 $$
 
 It has not been established merely because familiar experiments continue to produce definite

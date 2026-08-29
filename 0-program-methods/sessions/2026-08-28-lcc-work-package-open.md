@@ -129,3 +129,20 @@ It remains a major formalization route under the governing empirical objective. 
 [`FLL Empirical Falsification Ledger`](../../3-prediction/fll-empirical-falsification-ledger.md) is
 opened with the required schema and all requested experiment families marked **Not yet assessed**.
 No result is weakened, redescribed, or assigned a verdict before primary-source review.
+
+## 2026-08-29 non-bivalent adversarial background
+
+The scientific context is now explicit in
+[`non-bivalent-physics-adversarial-background.md`](../../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
+Birkhoff--von Neumann, Kochen--Specker, Pykacz, contemporary three-valued quantum logic, and da
+Costa--de Ronde are treated as distinct adversarial programmes. Primary-source verification found
+that Pykacz and Takagi expressly distinguish many-valued/indeterminate pre-observation propositions
+from completed observations with values 0 or 1, while da Costa--de Ronde's mature construction
+places contradictory powers in a potential realm. Those boundaries are scientifically material;
+they are not used to dismiss the programmes.
+
+Bibliographic corrections were applied: Kochen--Specker is conventionally cited as 1967 although
+the current Indiana archive DOI encodes 1968; Pykacz's article was online in 2019 and assigned to a
+2021 volume; and Tsubasa Takagi, not an inferred author, wrote the verified contemporary
+three-valued/modal article. All new ledger cases remain **Not yet assessed** pending individual
+theoretical and experimental reviews.

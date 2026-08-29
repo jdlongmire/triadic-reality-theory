@@ -30,6 +30,8 @@ weight without rigor. The priority is operationalization and formalization, and 
 progress is whether a named conjecture becomes either a testable result, a theorem, or a recorded
 failure. The immediate FLL-facing instrument is the
 [Empirical Falsification Ledger](../3-prediction/fll-empirical-falsification-ledger.md).
+Its adversarial source map begins with
+[`Non-Bivalent Physics`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
 
 ---
 
