@@ -527,3 +527,23 @@ The project now has two honest routes:
 (B) derive thick ground-level semantic/normative/sourcehood features to close the bridge deductively.
 
 Recommended next target: GLSA-001, Ground-Level Semantic Adequacy.
+
+
+## GLSA-001 result — 2026-09-19
+
+Ground-Level Semantic Adequacy does not yet yield the unconditional theorem:
+
+SemanticActuality(X_s) AND UltimateGround(U,X_s) -> SemanticCapacity(U).
+
+A simple "effect property must exist in the cause" inference is rejected.
+
+Instead GLSA establishes **SGAP, Semantic Ground Adequacy Principle**. An adequate ultimate ground of a domain containing intrinsic semantic content must either:
+1. contain semantic capacity intrinsically;
+2. provide a non-circular reduction/emergence account from nonsemantic ground-nature;
+3. leave intrinsic semantics as an unexplained downstream primitive, weakening ultimate adequacy.
+
+IAS-thin therefore remains logically live but now carries a concrete naturalization burden: derive determinate reference, misrepresentation, truth-aptness, and semantic correctness from thin nonsemantic L/I/A/C without importing semantic/normative primitives.
+
+Mind has direct semantic model-fit, but model-fit is not yet a theorem.
+
+The next work should be adversarial research into teleosemantics, causal/informational semantics, inferential-role accounts, original/derived intentionality, misrepresentation, and content normativity. Internal conceptual expansion should pause until that literature is harvested.
