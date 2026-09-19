@@ -569,3 +569,23 @@ Current literature-level result:
 IAS-thin therefore survives with a concrete semantic-naturalization burden rather than a generic "emergence" escape.
 
 Next: primary-text close read of Millikan 1989, then Neander 2017, Dretske, Fodor, and content normativity.
+
+
+## GLSA-003 Millikan primary close read — 2026-09-19
+
+Millikan 1989 materially strengthens the IAS rival.
+
+Biosemantics does not rely on bare covariance. It uses historical proper function, producer/consumer organization, normal conditions, and selected/reproduced biological history to fix content and make misrepresentation possible.
+
+TRT must withdraw any argument of the form "naturalism cannot account for misrepresentation." Millikan supplies a substantive malfunction-based model.
+
+The live burden moves to:
+- fully naturalistic specification of proper function;
+- non-arbitrary normal conditions;
+- unique content determination;
+- consumer success without semantic circularity;
+- extension from biological correctness to full truth-bearing/original intentionality.
+
+Typed control: biosemantics is a legitimate Type-H intra-domain explanation and is not defeated merely because biology presupposes TRT's Type-P hard core. Anti-smuggling becomes relevant only when the account is promoted as a complete reduction of semantic content without residual semantic/normative primitives.
+
+Next source: Neander 2017, because it explicitly targets original intentionality using informational teleosemantics.
