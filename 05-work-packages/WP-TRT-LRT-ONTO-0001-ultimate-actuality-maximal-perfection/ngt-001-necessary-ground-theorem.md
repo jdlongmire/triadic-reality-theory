@@ -1,3 +1,5 @@
+
+> **NSA-001 TYPING CORRECTION — 2026-09-19:** Any existential claim that determinate actuality *must have an ultimate ground* is conditional on the currently open **Grounding Requirement Premise (GRP)**. TRT's hard core establishes constitutive dependence (D -> G), not by itself (D -> exists U Ground(U,G)). The analysis in this artifact remains useful conditionally if GRP is warranted. See `nsa-001-no-smuggling-no-free-lunch-audit.md`.
 > **NULL-WORLD CORRECTION — 2026-09-19:** The v0.1 treatment of a "null world" as a live blocker is superseded by `absolute-nothingness-nonactualizability-lemma.md`. Absolute nothingness is representable content but not an actualizable determinate state. The historical analysis below is retained for traceability. The remaining blocker to one necessary U is ground identity/invariance, not a null-world boundary condition.
 
 # NGT-001: Necessary Ground Theorem
