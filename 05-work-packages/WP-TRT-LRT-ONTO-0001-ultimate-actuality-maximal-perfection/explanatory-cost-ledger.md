@@ -206,3 +206,36 @@ E_S plausibly entails differentiation (I) and minimal logical constraint (L). St
 E_M strongly supports differentiability/content-capacity (I), minimal/rational logical constraint (L), and actuality status alpha in one subject. It does not yet derive productive actuality-conferring A beyond the mind. H_M∞ therefore retains an **actuality-to-productive-action gap**.
 
 H_M∞ presently offers a promising unity model for L/I/alpha through one subject, but no overall verdict is authorized. The decisive next comparison is whether either candidate can derive productive A without importing GAP/GAP2 or equivalent hidden grounding assumptions.
+
+
+## 11. Inertness Principle update — 2026-09-19
+
+The comparison now adopts:
+
+**IP, Inertness Principle:** L + I without A is ontologically inert with respect to actuality.
+
+Formally:
+
+I_adm = I_infinity | L,
+
+but:
+
+I_adm -/-> chi
+
+without actuality-conferring efficacy.
+
+This is functional, not rhetorical:
+- L supplies constraint;
+- I supplies differentiated potential/content;
+- A supplies efficacy/actualization.
+
+Accordingly H_S must not receive A by calling formal structure "actual structure." Its best form must independently account for an efficacy dimension in addition to formal/logical-informational order.
+
+H_M∞ is correspondingly sharpened to **one intrinsically active rational informational actuality**. This gives a candidate intrinsic analogue of the three roles plus unity in one subject, but a new distinction is mandatory:
+
+- A_int: intrinsic mental/occurrent activity;
+- A_prod: productive actuality-conferring efficacy over derivative reality.
+
+A_int -> A_prod is NOT YET DERIVED.
+
+The next discriminator is whether an unlimited ultimate active Mind can warrant A_prod without inserting productive power by definition.
