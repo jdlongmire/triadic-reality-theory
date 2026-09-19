@@ -502,3 +502,28 @@ This suggests a revised strategy:
 4. only then return to trans-world numerical identity/necessary U.
 
 Thus MindLike characterization should precede the uniqueness theorem rather than follow it.
+
+
+## EGN-001 result — 2026-09-19
+
+The invariant ground-nature analysis gives the strongest nonmental rival a deliberately maximal form:
+
+**IAS, Impersonal Active Structure:** one non-derivative transcendent ground intrinsically containing logical/determinate form, differentiated informational structure, actuality/activity, unity, and discrimination where required.
+
+From the thin hard core alone, IAS remains logically live.
+
+FAA/CPIT force thin counterparts of content, constraint, act, discrimination, and unity, but do not yet deductively force intrinsic intentionality, apprehension-as, reasons-as-reasons, or subject-sourcehood.
+
+Therefore:
+
+AdequateGroundNature(E_G) -> MindLike(E_G)
+
+is NOT YET DEDUCTIVELY ESTABLISHED.
+
+A strong conditional survives: if the adequate ground must intrinsically instantiate semantic aboutness, rational relations as reasons, source-attributable act/selection, and a unified subject-locus, then it satisfies independently defined MindLike markers regardless of whether it is labeled "structure."
+
+The project now has two honest routes:
+(A) retain IAS as a live rival and keep Mind as abductive best-unification candidate;
+(B) derive thick ground-level semantic/normative/sourcehood features to close the bridge deductively.
+
+Recommended next target: GLSA-001, Ground-Level Semantic Adequacy.
