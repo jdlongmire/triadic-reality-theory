@@ -92,6 +92,92 @@ AAT supplies:
 
 Mental action is genuine action. A thought may be actual as an act without its intentional content being physically instantiated.
 
+## Irreducibility of the co-primitives
+
+The triad is co-primitive only if each pair without the third fails to constitute determinate actuality.
+
+### Lemma 1: Logic + Information without Action
+
+A domain of logically admissible, distinguishable contents remains a domain of representable/actualizable content. Specification does not entail obtaining:
+
+\[
+R(i)\land Consistent(i)\not\Rightarrow X(i).
+\]
+
+Therefore:
+
+\[
+(\mathcal L\land\mathcal I)\land\neg\mathcal A
+\not\Rightarrow D.
+\]
+
+Logic constrains and Information differentiates; without Action/actuality the pair is inert with respect to determinate actuality.
+
+### Lemma 2: Logic + Action without Information
+
+Without differentiated informational content there is no determinate what to actualize.
+
+\[
+Actualize(a,\_)
+\]
+
+does not specify a determinate actuality until a content role is filled.
+
+Therefore:
+
+\[
+(\mathcal L\land\mathcal A)\land\neg\mathcal I
+\not\Rightarrow D.
+\]
+
+### Lemma 3: Information + Action without Logic
+
+Differentiated content plus act, absent the logical conditions of determinate actuality, cannot secure identity, exclude same-respect contradiction, or sustain exact determinate predication.
+
+Therefore:
+
+\[
+(\mathcal I\land\mathcal A)\land\neg\mathcal L
+\not\Rightarrow D.
+\]
+
+This lemma applies to actualized determinate states, not the entire representable domain. Contradictory content may be representable without being actualizable as determinate actuality.
+
+### Joint CPIT result
+
+\[
+\boxed{
+D\rightarrow(\mathcal L\land\mathcal I\land\mathcal A)
+\quad\text{and no proper pair suffices.}
+}
+\]
+
+The roles are therefore co-primitive relative to D: jointly necessary, pairwise insufficient, and functionally non-interchangeable.
+
+CPIT does not establish substances, one bearer, or Mind.
+
+### Selection scope
+
+CPIT supports only minimal selection/differentiation S0 internal to determinate actualization. It does not establish stronger S1 involving intentional, volitional, probabilistic, or rule-governed selection.
+
+### Co-Unity Burden
+
+If a ground theory distributes the roles:
+
+\[
+g_L\rightarrow\mathcal L,\quad
+g_I\rightarrow\mathcal I,\quad
+g_A\rightarrow\mathcal A,
+\]
+
+it must additionally account for the necessary co-unity:
+
+\[
+C(g_L,g_I,g_A).
+\]
+
+Plurality does not remove the unity problem; it adds a coordination relation. This is the only bridge CPIT itself licenses toward a unified source. It does not yet entail Mind.
+
 ## Co-Primitive Necessity
 
 From DRT, DAT, and AAT:
