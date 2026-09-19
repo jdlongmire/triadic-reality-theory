@@ -589,3 +589,22 @@ The live burden moves to:
 Typed control: biosemantics is a legitimate Type-H intra-domain explanation and is not defeated merely because biology presupposes TRT's Type-P hard core. Anti-smuggling becomes relevant only when the account is promoted as a complete reduction of semantic content without residual semantic/normative primitives.
 
 Next source: Neander 2017, because it explicitly targets original intentionality using informational teleosemantics.
+
+
+## GLSA-004 Neander stress test — 2026-09-19
+
+Neander 2017 materially strengthens IAS by directly targeting **original intentionality** for nonconceptual sensory-perceptual representations.
+
+Her producer teleosemantics combines proper function, causal-information relations, and second-order/state-space similarity. She explicitly addresses error-permitting representation and six content-determinacy challenges. TRT must therefore not claim that teleosemantics ignores misrepresentation/content determination or merely relies on an external interpreter.
+
+However, Neander's scope is deliberately limited. Success would not automatically naturalize conceptual propositional thought, reasons-as-reasons, rational normativity, or source-attributable agency.
+
+The semantic bridge is now partitioned:
+- GLSA-S1 sensory/nonconceptual original intentionality: serious naturalistic model exists.
+- GLSA-S2 conceptual/truth-bearing content: OPEN.
+- GLSA-S3 reasons/rational normativity: OPEN.
+- GLSA-S4 source-attributable intentional agency: OPEN.
+
+The MindLike bridge should therefore shift away from sensory representation alone toward the **joint thick package**.
+
+Next high-value work: proper-function ontology and rational normativity.
