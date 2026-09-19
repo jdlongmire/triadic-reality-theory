@@ -29,3 +29,22 @@ No current route may label the result "maximally perfect" unless the blocked bri
 6. "Objective value" may not be introduced through the word "positive."
 
 This ledger is the anti-circularity control for subsequent work.
+
+
+## Necessity bridge update — 2026-09-19
+
+The necessity bridge has now been isolated more precisely.
+
+**Negative result:** current TRT alone does not exclude a brute-contingent ultimate actualizer. Because the hard core explicitly permits a domain of pure unactualized possibility, a possible world in which U is absent does not violate L3.
+
+**Minimal additional principle proposed:**
+
+CGP: For every x, if x is contingently actual, there exists a sufficient actuality-determining ground or reason for x's actuality.
+
+Under proper-ground discipline and the contingent/necessary modal partition:
+
+UA(U) + CGP -> N(U).
+
+This is narrower than unrestricted PSR. Its independent warrant remains **UNCERTAIN** and is now the next adversarial target.
+
+Necessity status is therefore updated from **FAILED AS STATED** to **CONDITIONAL: DERIVABLE WITH CGP; NOT DERIVED FROM TRT ALONE**.
