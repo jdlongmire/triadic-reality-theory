@@ -239,3 +239,30 @@ H_M∞ is correspondingly sharpened to **one intrinsically active rational infor
 A_int -> A_prod is NOT YET DERIVED.
 
 The next discriminator is whether an unlimited ultimate active Mind can warrant A_prod without inserting productive power by definition.
+
+
+## 12. Productive-efficacy bridge result — 2026-09-19
+
+The direct entailment failed:
+
+A_int -/-> A_prod.
+
+An intrinsically active mind can be conceived whose activity is wholly immanent and does not actualize derivative reality.
+
+A new role control is adopted:
+
+**GRB, Ground-Role Bridge:**
+
+UG(U,chi) -> A_prod(U,chi).
+
+If U is independently established as the ontologically sufficient ultimate ground of derivative actuality, actuality-conferring efficacy follows from the ground role. GRB may not be used in reverse to prove that a candidate U is the ground.
+
+Current accounting:
+
+H_S = L + I + A_prod + C, unless a single structural essence derives them.
+
+H_M∞ = Mind -> candidate L + I + A_int + C, with A_prod still an independent debt until either essence derivation or independent ultimate-ground identification succeeds.
+
+A_prod does not entail omnipotence, will, agency, or personhood.
+
+The comparison now moves upstream to whether H_M∞ can be independently warranted as the ultimate ground, with co-unity C and necessity as the strongest remaining discriminators.
