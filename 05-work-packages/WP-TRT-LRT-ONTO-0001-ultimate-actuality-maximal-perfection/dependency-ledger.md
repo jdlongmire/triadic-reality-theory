@@ -355,3 +355,36 @@ Where D contains mutually incompatible alternatives for one actuality domain, a 
 The first **Co-Primitive Ground Theorem candidate (CPGT v0.1)** now combines CPN, conditional S, co-instantiation C, FAP, and a Transcendence Constraint excluding merely derivative physical systems as adequate upstream grounds.
 
 CPGT v0.1 deliberately stops before Mind identification. The universal AdequateUltimateGround -> MindLike bridge remains OPEN.
+
+
+## Co-Primitive Irreducibility Theorem — 2026-09-19
+
+CPIT now supplies the minimality proof missing from the co-primitive claim.
+
+Pair-failure lemmas:
+
+(L AND I AND not-A) -/-> D.
+
+(L AND A AND not-I) -/-> D.
+
+(I AND A AND not-L) -/-> D,
+
+with Lemma 3 strictly scoped to actualized determinate states rather than the unrestricted representable domain.
+
+Joint result:
+
+D -> (L AND I AND A),
+
+and no proper pair suffices for D.
+
+Therefore the triad is co-primitive relative to determinate actuality in the functional/constitutive sense: jointly necessary, pairwise insufficient, and non-interchangeable.
+
+CPIT does not establish substances, one bearer, or Mind.
+
+Selection control:
+- S0 minimal actualization differentiation: compatible with CPIT.
+- S1 strong intentional/volitional/probabilistic selection: not derived by CPIT.
+
+New **Co-Unity Burden (CUB):** if distinct grounds g_L/g_I/g_A are proposed, the theory must additionally ground the necessary coordination C(g_L,g_I,g_A). Plurality adds a unity/coordination obligation rather than escaping it.
+
+The canonical synthesis now places CPIT before the detailed Logic/Information/Action expansions.
