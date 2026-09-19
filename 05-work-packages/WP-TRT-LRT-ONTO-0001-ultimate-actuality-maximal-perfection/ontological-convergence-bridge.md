@@ -1,3 +1,5 @@
+
+> **NSA-001 TYPING CORRECTION — 2026-09-19:** Any existential claim that determinate actuality *must have an ultimate ground* is conditional on the currently open **Grounding Requirement Premise (GRP)**. TRT's hard core establishes constitutive dependence (D -> G), not by itself (D -> exists U Ground(U,G)). The analysis in this artifact remains useful conditionally if GRP is warranted. See `nsa-001-no-smuggling-no-free-lunch-audit.md`.
 # Ontological Convergence Bridge (OCB)
 
 **WP:** WP-TRT-LRT-ONTO-0001
