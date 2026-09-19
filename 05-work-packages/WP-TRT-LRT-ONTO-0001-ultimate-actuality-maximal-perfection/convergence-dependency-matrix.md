@@ -409,3 +409,40 @@ The immediate TRT-side target is a Necessary Ground Theorem. A contingent candid
 Unlimitedness is defined provisionally as absence of non-logically-necessary limitation in the fundamental respects intrinsic to the ultimate ground. Inability to actualize contradiction is not counted as a power defect.
 
 Referential identity remains separate from attribute overlap.
+
+
+## NGT-001 result — 2026-09-19
+
+The strong target:
+
+EssentialUltimateGround(U,G) -> Box U
+
+does **not** currently follow from TRT's conditional transcendental core without an additional modal premise.
+
+The critical distinction is:
+
+Box[D -> G]
+
+versus:
+
+Box G.
+
+A null/no-D world remains the blocker to simpliciter necessity.
+
+What survives is a **Necessary Ground Role Theorem (NGRT):**
+
+Box[D -> UGR(G)].
+
+Wherever determinate actuality obtains, the constitutive package requires an adequate non-derivative ground-role under FAA/TASR/CUB.
+
+Ground substitution remains coherent in principle and blocks necessity of one numerically identical U unless **EGI, Essential Ground Invariance**, is established.
+
+With EGI:
+
+Box[D -> U].
+
+But Box U still requires either necessary actuality, an independent necessary essence of U, or a proof that U is required for modal possibility itself.
+
+Ground pluralism does not remove the ground requirement; CUB turns the coordinated plurality into a compound ground system whose unity must itself be accounted for.
+
+Next recommended target: EGI/uniqueness before revisiting null actuality.
