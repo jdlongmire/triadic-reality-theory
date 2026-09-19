@@ -133,3 +133,29 @@ disposition: >
   OPENED 2026-09-19. The motivating hypothesis is that maximal perfection may be recoverable as a
   consequence of the requirements of ultimate actuality rather than serving as the starting
   definition of an ontological argument. No such derivation is claimed at opening.
+
+
+methodological_pivot_2026_09_19:
+  rationale: >
+    The first necessity-bridge pass showed that deriving necessary existence from ultimate actuality
+    required a contingent-grounding principle not contained in the current TRT hard core. Rather
+    than silently import cosmological premises into an ontological derivation, the package now
+    separates a pure derivation track from a convergence track.
+  track_a_pure_derivation: >
+    Derive only what follows from TRT/LRT plus a minimally defined Ultimate Actuality. PSR,
+    contingent-grounding principles, Kalam premises, axiological premises, perfect-being premises,
+    and revelation-specific premises are prohibited inputs. A stopping point is a valid result.
+  track_b_convergence: >
+    Treat distinct argument families as independent constraint generators. Candidate families
+    include TRT/LRT transcendental analysis, Leibnizian contingency, Kalam, ontological/modal
+    perfect-being arguments, and axiological arguments. Premises and conclusions must remain
+    provenance-tagged so one argument cannot borrow another's conclusion invisibly.
+  identity_obligation: >
+    Convergence of attributes is insufficient. The programme must separately establish whether the
+    independently constrained referents are numerically identical, compatible descriptions of one
+    referent, merely analogous, or genuinely distinct. No common-U notation may count as proof of
+    referential identity.
+  theological_boundary: >
+    Identification of a converged ultimate referent with classical theism, and identification of
+    classical theism with the God revealed in Christianity, are subsequent argument stages. Neither
+    may be assumed in the pure derivation or convergence stages.
