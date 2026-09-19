@@ -142,3 +142,26 @@ B1: alpha -> A.
 B2: A -> bearer U.
 
 Neither is currently derived. In particular, A does not yet entail agency, temporality, or a personal bearer.
+
+
+## B1 result: alpha -> A — 2026-09-19
+
+B1 splits into two claims.
+
+**Internal TRT:** A is already constitutive of chi by the hard-core identity chi ≡ A(I_infinity | L3). Therefore within TRT, actualized reality includes the A-role by model commitment. Status: HIGH.
+
+**Independent metaphysical claim:** alpha alone does not logically entail A. A coherent reduced model can take alpha as a primitive monadic actuality predicate over admissible structures and omit an actuality-conferring relation. This changes TRT materially but is not self-contradictory.
+
+The additional burden is isolated as:
+
+**GAP: Grounded Actuality Principle**
+
+If an admissible structure is actual, actuality is not merely an unexplained primitive label; it is grounded/conferrred through an ontological relation or principle.
+
+Then alpha + GAP -> A.
+
+GAP is narrower than CGP/PSR and does not require deterministic outcome selection, a sufficient reason for every contingent fact, or a ground for A itself.
+
+B1 independent status: CONDITIONAL ON GAP / UNCERTAIN as standalone metaphysics.
+
+Next pure-track bridge: B2, given TRT's primitive A, does A require a bearer/ground U?
