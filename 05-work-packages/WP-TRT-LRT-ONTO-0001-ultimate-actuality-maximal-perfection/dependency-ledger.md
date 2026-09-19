@@ -388,3 +388,33 @@ Selection control:
 New **Co-Unity Burden (CUB):** if distinct grounds g_L/g_I/g_A are proposed, the theory must additionally ground the necessary coordination C(g_L,g_I,g_A). Plurality adds a unity/coordination obligation rather than escaping it.
 
 The canonical synthesis now places CPIT before the detailed Logic/Information/Action expansions.
+
+
+## Typed Presupposition Rule — 2026-09-19
+
+The WP now uses four canonical claim types:
+
+- **P:** transcendental/ontic presupposition.
+- **D:** derived result.
+- **H:** intra-domain hypothesis.
+- **B:** ground/bridge hypothesis.
+
+Current core typing:
+
+L, I, A : P relative to determinate actuality D.
+
+S0/CPN/CPIT consequences : D where formally derived.
+
+Physics-facing mechanisms, laws/models, TRM/FLL empirical claims : H.
+
+OSR, Platonism, powers, nonmental necessary ground, and Infinite Transcendent Mind when proposed as ultimate grounds : B.
+
+The distinction is type-theoretic, not confidence-based.
+
+A hypothesis can be withdrawn while the constitutive domain remains available to state the withdrawal. A presupposition cannot be genuinely withdrawn while retaining the same determinate move whose well-posedness depends on it.
+
+**TASR:** anti-smuggling applies to the promotion of something that ontically presupposes Y into the ontologically prior ultimate ground of Y. It does not invalidate ordinary intra-domain hypotheses merely because they employ the hard-core conditions.
+
+Confidence labels apply to Type H/B claims and to formalization/scope maturity. They must not demote Type-P co-primitives into the protective belt.
+
+Mind remains Type B. It is not a presupposition of D. This firewall prevents the bridge programme from becoming a TAG-style definitional shortcut.
