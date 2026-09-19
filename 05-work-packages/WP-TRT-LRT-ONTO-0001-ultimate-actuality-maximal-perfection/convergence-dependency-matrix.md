@@ -216,3 +216,23 @@ These do not entail libertarian freedom or moral perfection.
 The key remaining burden is **source attribution**: showing that S is genuinely an act of M∞ rather than an event merely occurring in or alongside M∞.
 
 A live modal-collapse risk is also recorded: if necessary M∞ plus necessary rational nature uniquely necessitates one physical selection, derivative physical reality may become necessary. Multiple rationally permissible selections or another non-collapsing volitional structure must be examined.
+
+
+## Sourcehood result — 2026-09-19
+
+Selection sourcehood is now decomposed into:
+- subject integration;
+- intentional directedness;
+- reason responsiveness;
+- absence of an ontologically prior external sufficient selector;
+- act attribution.
+
+A prior external selector sufficient for M∞'s selection conflicts with M∞'s ultimacy in that respect.
+
+An intrinsic necessary rule can preserve sourcehood but may threaten contingent physical reality if it uniquely determines one selection.
+
+A candidate solution is **AOD, Agent-Originating Determination**: the rational subject is the non-derivative source of selection among multiple rationally permissible alternatives; reasons constrain/rationalize without uniquely necessitating the act.
+
+AOD is not adopted as established. It must be distinguished from brute selection by substantive subject integration, intentionality, reason responsiveness, and genuine sourcehood.
+
+Next critical test: whether perfect rationality can permit more than one fully rational alternative without defect. This is the Rational Permissibility Test and directly controls the modal-collapse risk.
