@@ -75,3 +75,23 @@ The earlier provisional claim Box(L AND I AND A) is suspended. Current warranted
 Likewise, Diamond p iff Actualizable(p) is a candidate semantics. The necessity direction Diamond p -> Actualizable(p) is presently stronger than the sufficiency direction, which still requires proof.
 
 This correction reopens the pure-track necessity question through three routes: world actuality, actualizer regress, and co-primitive necessity. CGP remains isolated to the convergence track and is not permitted to discharge this proof obligation.
+
+
+## Co-primitive necessity result — 2026-09-19
+
+Pure-track analysis now supports the constitutive theorem schema:
+
+**Box(Actuality -> (I AND L AND A)).**
+
+For any determinate actuality:
+- I is required for differentiability/identity;
+- minimal L is required for coherent determinacy;
+- A is required for obtaining rather than mere admissibility.
+
+This is role-level co-necessity. It does not establish a substance, unified bearer, or numerically identical triad across worlds.
+
+The stronger claim **Box(I AND L AND A)** remains blocked by one sharply isolated question: whether a metaphysically possible "null world" with no actuality of any kind is coherent.
+
+Additional precision: the elenctic case is strongest for Identity and Non-Contradiction. Full L3 universality, especially the exact scope of Excluded Middle, remains a stronger repository claim and should not be smuggled into this theorem without separate defense.
+
+Next pure-track target: null-world / necessary-actuality analysis.
