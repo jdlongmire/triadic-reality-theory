@@ -150,3 +150,11 @@ DRT does not claim every representable structure is actualizable.
 - DRT Box[ActualizedReality -> I_R]: MEDIUM-HIGH.
 - DRT -> semantics: NOT CLAIMED.
 - DRT -> Mind: NOT CLAIMED.
+
+## Typed-status correction — 2026-09-19
+
+Under the canonical Typed Presupposition Rule, the co-primitive role defended by this theorem is **Type P: transcendental/ontic presupposition relative to determinate actuality**, not an ordinary Type-H empirical hypothesis.
+
+Any prior confidence language in this document is to be read as confidence/maturity concerning the **formalization, scope, or argument articulation**, not as a probability that the co-primitive role belongs in TRT's protective belt.
+
+The theorem artifact itself remains subject to adversarial formal review before broader repository promotion.
