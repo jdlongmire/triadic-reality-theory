@@ -547,3 +547,25 @@ IAS-thin therefore remains logically live but now carries a concrete naturalizat
 Mind has direct semantic model-fit, but model-fit is not yet a theorem.
 
 The next work should be adversarial research into teleosemantics, causal/informational semantics, inferential-role accounts, original/derived intentionality, misrepresentation, and content normativity. Internal conceptual expansion should pause until that literature is harvested.
+
+
+## GLSA-002 adversarial literature sweep — 2026-09-19
+
+The strongest nonmental semantic-naturalization route is now treated as a serious live rival, especially teleosemantics/informational teleosemantics.
+
+Primary programmes identified for close review:
+- Dretske 1981/1988: information/indication plus function;
+- Fodor 1990: asymmetric causal dependence;
+- Millikan 1984/1989: proper function, consumer architecture, biosemantics;
+- Neander 2017: informational teleosemantics explicitly targeting original intentionality.
+
+Current literature-level result:
+- bare covariance/information does not adequately explain misrepresentation;
+- mature naturalizers add function, teleology, selection history, consumer roles, asymmetric dependence, or inferential structure;
+- content determination, misrepresentation, and normativity remain live philosophical problems;
+- no claim of demonstrated impossibility of naturalized semantics is warranted;
+- no claim of a settled reduction without remainder is warranted either.
+
+IAS-thin therefore survives with a concrete semantic-naturalization burden rather than a generic "emergence" escape.
+
+Next: primary-text close read of Millikan 1989, then Neander 2017, Dretske, Fodor, and content normativity.
