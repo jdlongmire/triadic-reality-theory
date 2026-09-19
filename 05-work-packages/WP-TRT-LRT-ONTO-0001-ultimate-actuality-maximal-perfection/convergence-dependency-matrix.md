@@ -446,3 +446,34 @@ But Box U still requires either necessary actuality, an independent necessary es
 Ground pluralism does not remove the ground requirement; CUB turns the coordinated plurality into a compound ground system whose unity must itself be accounted for.
 
 Next recommended target: EGI/uniqueness before revisiting null actuality.
+
+
+## ANNAL / NGT correction — 2026-09-19
+
+**Absolute Nothingness Non-Actualizability Lemma (ANNAL):**
+
+Let N denote the represented content "absolute nothingness."
+
+R(N) AND not-D(N) AND not-X(N).
+
+Absolute nothingness is representable but cannot be actualized as a determinate state because an "actualized state of absolute non-actuality" would entail both that some actuality obtains and that no actuality obtains.
+
+The prior "null world" blocker is therefore withdrawn. Nothingness is not a null state/world/boundary condition and is not a member of the actualizable determinate-world domain W_D.
+
+Result:
+
+Box_D D.
+
+Combined with NGRT:
+
+Box_D UGR(G).
+
+The remaining problem is not null actuality but quantifier/identity invariance:
+
+Box_D exists U Ground(U,G)
+
+does not yet entail
+
+exists U Box_D Ground(U,G).
+
+Next target: EGI/uniqueness.
