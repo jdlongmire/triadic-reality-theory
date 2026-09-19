@@ -178,3 +178,20 @@ then H_M∞ may gain substantial abductive force as a unified explanation.
 If L/I/A remain thin, or their thick features naturalize without explanatory remainder, H_S remains fully viable.
 
 Next research target: L-thick, the status of logical normativity.
+
+
+## Explanatory accounting controls — 2026-09-19
+
+Three controls are now adopted:
+
+1. **EPR, Emergence Presupposition Rule:** emergence requires differentiation, coherent relation/transformation, and actuality if it obtains. Therefore emergence cannot non-circularly generate the L/I/A roles that its own operation presupposes.
+
+2. **BBR, Bruteness Burden Rule:** calling a commitment "brute" terminates explanation; it does not provide an explanation or reduce the number of independent commitments being terminated.
+
+3. **NPR, Nominal Packaging Rule:** naming a conjunction as one thing does not establish ontological simplicity. This applies symmetrically to "one primitive structure" and "one Mind."
+
+Current structural accounting therefore treats H_S as owing L, I, A, and their co-unity C unless it independently derives them from one simple structural essence.
+
+H_M∞ likewise owes an argument that Mind is substantive and that its intrinsic nature entails/unifies L, I, A, and C. It receives no one-primitive discount merely from the noun "Mind."
+
+No winner is recorded. The comparison now turns on which hypothesis can demonstrate a non-stipulative unity principle with fewer independent unexplained commitments.
