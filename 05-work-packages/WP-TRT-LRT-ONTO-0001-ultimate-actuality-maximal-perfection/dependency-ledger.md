@@ -273,3 +273,24 @@ A companion dependency rule is adopted:
 Quantum superposition is not treated as a same-respect contradiction, and DAT must not be used to prejudge the separate TRT-FLL empirical programme.
 
 DAT strengthens the L leg but does not derive Mind. Promotion into the broader TRT/LRT foundation requires formal/adversarial review, especially of the exact-condition treatment of Excluded Middle.
+
+
+## DAT canonical promotion inside WP — 2026-09-19
+
+The expanded **Actualized Reality, Logical Determinacy, and Underdetermination** formulation now supersedes DAT v0.1 inside this work package.
+
+Canonical DAT:
+
+Box[ActualizedReality -> L3]
+
+under exact same-subject/property/time/respect predication.
+
+New controls incorporated:
+- explicit LEM/bivalence distinction;
+- Underdetermination Principle (epistemic inability to decide P does not entail failure of P OR not-P);
+- exact-condition restriction;
+- representational nonclassicality vs ontological determinacy distinction;
+- primary-source priority for Aristotle;
+- preservation of the quantum/TRT-FLL boundary.
+
+DAT is now the canonical L-leg candidate for the Co-Primitive Ground Theorem. Promotion to broader TRT/LRT foundational material remains gated by formal/adversarial review.
