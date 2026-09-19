@@ -336,3 +336,30 @@ H_M∞ is weakened or defeated as an explanatory advance if:
 - independent convergence tracks identify incompatible ultimate referents.
 
 The hypothesis must earn its content rather than inherit it from theological vocabulary.
+
+
+## 18. Ontological-level control: derivative systems are not independent ground-level rivals
+
+A methodological correction is adopted across this sub-track.
+
+Computers/AI, biological systems, cellular automata, evolutionary systems, and ordinary physical systems all occur within chi and therefore already presuppose the L/I/A conditions required for actualized reality under TRT.
+
+They cannot, merely by exhibiting thin logic/information/action downstream, establish that the ultimate T = <L,I,A> is mind-independent.
+
+**Derivative-System Independence Rule (DSIR):**
+
+No derivative system within chi may be treated as an independent counterexample to a hypothesis concerning the ontological ground of the co-primitives required for chi.
+
+This does not immunize H_M∞ from criticism. Derivative systems remain relevant when they produce discriminating evidence, for example if a complete reduction of semantic/normative/agentive features to thin structural features can be shown without presupposing the disputed ground-level conclusion.
+
+The H_S vs H_M∞ comparison must therefore avoid cross-level inference:
+
+downstream implementation != upstream ontological ground.
+
+The proper same-level alternatives remain:
+
+H_S: T is primitive, self-sufficient impersonal structure.
+
+H_M∞: T is unified as intrinsic aspects of ultimate Mind.
+
+Any future rival must compete at this ontological level or supply a valid bridge from derivative evidence to ground-level ontology.
