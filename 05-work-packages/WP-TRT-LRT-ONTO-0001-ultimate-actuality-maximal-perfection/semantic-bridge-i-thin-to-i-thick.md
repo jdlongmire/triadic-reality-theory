@@ -232,3 +232,69 @@ Then work A-thick:
 > Is actuality-conferring action merely transition, or does the full TRT programme require selection responsive to reasons/goals?
 
 Only after all three should the H_S vs H_M∞ comparison be scored.
+
+
+## 14. Correction: derivative-system counterexamples and ontological level discipline
+
+The first pass used cellular automata and related formal/physical systems too aggressively as countermodels to the ultimate semantic/mind hypothesis.
+
+That move is corrected.
+
+A cellular automaton already presupposes:
+- distinguishable states: I-role;
+- identity, consistency, and transition constraints: L-role;
+- if physically instantiated/executed, actualization within chi: A-role.
+
+Likewise computers, AI systems, organisms, and physical dynamical systems are derivative structures within actualized reality:
+
+T = <L,I,A> -> chi -> derivative systems.
+
+They therefore cannot serve as **independent ontological counterexamples** to a hypothesis concerning the ground of T itself. Both H_S and H_M∞ predict that derivative L/I/A-bearing structures may occur within chi.
+
+The earlier cellular-automaton example remains valid only for the narrower conceptual point:
+
+I-thin does not contain I-semantic by definition.
+
+It does **not** establish:
+
+Diamond(I-thin AND not-Mind)
+
+at the ultimate ontological level.
+
+### New level-discipline rule
+
+**Derivative-System Independence Rule (DSIR):**
+
+No system whose existence already depends on the co-primitives under investigation may be treated as independent evidence that those co-primitives are ontologically self-sufficient or mind-independent.
+
+Derivative systems may:
+- illuminate how L/I/A manifest;
+- test whether thick semantic/normative/agentive features appear downstream;
+- supply analogies and local reduction models.
+
+They may not:
+- establish that T is self-grounding;
+- establish that ultimate I is non-semantic;
+- establish that ultimate L is non-rational;
+- establish that ultimate A is non-agentive;
+- defeat H_M∞ merely by instantiating thin derivative analogues.
+
+### Correct hypothesis comparison
+
+The relevant same-level comparison is:
+
+H_S: T = <L,I,A> is primitively self-sufficient impersonal structure.
+
+H_M∞: L/I/A are intrinsic unified aspects of ultimate mind M∞.
+
+Evidence from within chi must be interpreted as downstream evidence under both hypotheses unless it discriminates between them.
+
+### Revised status
+
+- I-thin -> I-semantic: still NOT deductively established.
+- Cellular automata/computers as ultimate counterexamples: WITHDRAWN.
+- Derivative naturalized-semantics models as proofs of ultimate mind-independence: NOT LICENSED.
+- Such models as local demonstrations that semantic-like function may be implemented downstream: RETAINED.
+- Ultimate H_S vs H_M∞ comparison must be conducted at the ontological-ground level.
+
+This correction increases the importance of identifying evidence that discriminates between the two ultimate hypotheses rather than pointing to derivative implementations both can accommodate.
