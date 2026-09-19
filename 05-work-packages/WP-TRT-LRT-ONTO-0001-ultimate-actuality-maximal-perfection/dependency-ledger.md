@@ -95,3 +95,22 @@ The stronger claim **Box(I AND L AND A)** remains blocked by one sharply isolate
 Additional precision: the elenctic case is strongest for Identity and Non-Contradiction. Full L3 universality, especially the exact scope of Excluded Middle, remains a stronger repository claim and should not be smuggled into this theorem without separate defense.
 
 Next pure-track target: null-world / necessary-actuality analysis.
+
+
+## Null-world analysis — 2026-09-19
+
+The attempted proof of **Box Actuality** did not survive the anti-equivocation audit. Absolute nullity can be represented externally without thereby showing internal actuality in the represented null condition. Arguments from "N0 is a fact," robust possible-world ontology, or grammatical predication risk begging the question.
+
+A better target emerged:
+
+**NACT: Necessary Actuality-Category Thesis**
+
+Metaphysical possibility is possibility-of-obtaining. Therefore the actuality/non-actuality distinction appears constitutive of modal space even if no proof yet shows that some actual object exists in every possible world.
+
+This suggests reformulating co-primitive necessity at the role/category level:
+
+Box L_role AND Box I_role AND Box A_role,
+
+rather than prematurely claiming Box exists x Actual(x) or a necessary unified bearer.
+
+The next blocker is an ambiguity in TRT's A. It has been described as actualizing action, a principle, and a map from admissible to actual. The programme must distinguish whether A is an event/process token, standing capacity/principle, primitive actuality-conferring relation, or ontological actuality category. No modal theorem may exploit the ambiguity.
