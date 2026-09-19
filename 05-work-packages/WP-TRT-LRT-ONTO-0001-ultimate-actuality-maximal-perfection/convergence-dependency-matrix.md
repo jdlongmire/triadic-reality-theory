@@ -265,3 +265,20 @@ UDR is stronger than ordinary reason-responsiveness and is not presently establi
 Therefore a necessary perfectly rational M∞ is conceptually compatible with multiple mutually exclusive rationally permissible selections, blocking the direct modal-collapse inference to a necessary physical world.
 
 Next target: test Agent-Originating Determination against the objection that non-necessitated agent selection collapses into chance/randomness.
+
+
+## Chance Ontology Audit — 2026-09-19
+
+The prior "determined or random" framing is rejected as ontologically under-specified.
+
+**CPP, Chance Presupposition Principle:** any ontologically meaningful chance structure involving actual alternatives and an actual outcome presupposes differentiation (I), coherent modal/probability relations (L), and actuality/action (A).
+
+Probability measures supply structured weights over alternatives but do not actualize an outcome. Indeterminism says only that one state does not uniquely necessitate a successor. Epistemic uncertainty is not an ontological source. An "uncaused chance occurrence" risks merely relabeling unexplained actuality. Primitive propensity still presupposes the co-primitives and owes a manifestation relation.
+
+Therefore:
+
+not NecessitatedByReasons(S) -/-> ChanceIsSource(S).
+
+AOD is not established by eliminating chance, but the objection "non-necessitated choice is therefore random" now bears an independent ontological burden.
+
+Next target: formalize positive subject-sourcehood and determine whether it adds explanatory content beyond an unexplained selection event.
