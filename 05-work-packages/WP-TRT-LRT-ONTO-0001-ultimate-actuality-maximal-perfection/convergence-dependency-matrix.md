@@ -99,3 +99,26 @@ The programme is now a **convergent constraint programme** rather than merely an
 
 **Confidence:** MEDIUM that this architecture improves methodological clarity.
 **Confidence that all tracks converge on one referent:** UNCERTAIN.
+
+
+## Abductive mind-ground sub-track — 2026-09-19
+
+Track A's live Ultimate Structural Triad countermodel remains intact:
+
+T = <L,I,A>.
+
+A new evidential sub-track compares:
+
+- **H_S:** T is irreducible impersonal structure.
+- **H_M:** T is grounded in or instantiated by ultimate mind-like reality.
+
+The motivating observation is deliberately weak at opening: known minds integrate logical/rational relations, semantic information, and purposive action. The stronger claim that no independently verified non-mental system instantiates intrinsic semantic information + normative logic + genuine action is **UNCERTAIN pending research**.
+
+The comparison must distinguish thin from thick senses:
+- L-thin consistency vs L-thick normative consequence;
+- I-thin differentiability vs I-thick intrinsic semantics;
+- A-thin actuality relation vs A-thick intentional/agentive selection.
+
+No thick sense may be imported into TRT by vocabulary alone. Computers/AI, biology, cellular automata, physical law, evolution, Platonism, panpsychism, and neutral monism are explicit rival/control cases.
+
+This sub-track is abductive, not deductive, and does not alter the pure-track stopping point unless a bridge is independently established.
