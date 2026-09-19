@@ -1,213 +1,340 @@
-# Determinate Actuality Theorem (DAT)
+# Actualized Reality, Logical Determinacy, and Underdetermination
 
 **WP:** WP-TRT-LRT-ONTO-0001  
 **Date:** 2026-09-19  
-**Status:** theorem candidate v0.1  
-**Intended scope:** candidate promotion beyond this WP into TRT/LRT foundational material after review
+**Status:** canonical DAT draft v0.2  
+**Role:** L-leg candidate for the Co-Primitive Ground Theorem
 
 ## Thesis
 
-Any actualized physical reality must be determinate in what it is, incapable of both being and not being what it is in the same respect, and exhaustively either instantiating or failing to instantiate any exact identity-condition applicable in that respect.
-
-Therefore the classical logical triad is not a contingent human convention imposed upon actuality. It is constitutive of determinate actuality.
-
-## 1. Definitions
+The laws of **identity**, **non-contradiction**, and **excluded middle** are necessary conditions for anything to be actualized as a determinate reality. They are not contingent products of human language, social convention, empirical regularity, or finite observation. They are the logical conditions under which an entity, property, state of affairs, event, or relation can be what it is rather than what it is not.
 
 Let:
 
-- Actualized(x): x obtains as an actualized physical state/entity/configuration.
-- Exact(P,x,r): P is an exact, fully specified identity-condition applicable to x in respect r.
-- P(x,r): x instantiates P in respect r.
-- not-P(x,r): x fails to instantiate P in the same respect r.
+L3 := I AND NC AND EM,
 
-The respect parameter prevents equivocation across time, domain, relation, scale, or predicate meaning.
+where:
 
-## 2. Identity
+I: A = A.
 
-For any actualized x:
+NC: not(A AND not-A).
 
-Actualized(x) -> x = x.
+EM: A OR not-A.
 
-If no determinate identity obtains, there is no x available to be the subject of actualization, predication, relation, or state description.
+The central claim is:
 
-Identity here is ontological determinacy, not merely human recognition or naming.
+Box[Actualized(x) -> Determinate(x) -> L3].
 
-## 3. Non-Contradiction
+In words:
 
-For any exact condition P in the same respect r:
+> Necessarily, anything actualized must be determinate; and whatever is determinate must conform to identity, non-contradiction, and excluded middle under exact same-respect predication.
 
-Actualized(x) AND Exact(P,x,r)
--> not [P(x,r) AND not-P(x,r)].
+## 1. Identity and actuality
 
-If x both instantiated and failed to instantiate the same exact condition in the same respect, x would not be determinate with respect to P.
+To say that something is actualized is to say that it obtains in reality as something definite. It is not merely an unspecified possibility or absence of determination.
 
-This does not prohibit:
-- change across times;
-- different properties in different respects;
-- relational dependence;
-- superposed quantum states represented by a determinate state vector/density operator;
-- epistemic uncertainty.
+For any actual entity x:
 
-It prohibits same-respect contradiction in determinate actuality.
+x = x.
 
-## 4. Excluded Middle
+This is ontological rather than merely symbolic. The entity is itself and has determinate identity sufficient to distinguish it from what it is not.
 
-For any exact condition P in the same respect r:
+Thus:
 
-Actualized(x) AND Exact(P,x,r)
--> [P(x,r) OR not-P(x,r)].
+Actualized(x) -> HasIdentity(x).
 
-The exact-condition restriction is essential.
+Identity is a condition of reference, predication, relation, measurement, change, and explanation. Claims that x changes, causes, occupies a location, has mass, or enters a relation already presuppose an x to which the claims apply.
 
-Vague predicates, threshold-dependent categories, incomplete measurement, fuzzy language, and underspecified observables do not supply counterexamples because they fail the Exact condition or change the relevant respect.
+## 2. Non-contradiction and actuality
 
-The claim is ontological:
+For property P, entity x, time t, and respect r:
 
-for an exact applicable condition, actualized x either instantiates it or fails to instantiate it.
+not[P(x,t,r) AND not-P(x,t,r)].
 
-## 5. DAT formal schema
+The qualifications are load-bearing:
+- same entity x;
+- same property P;
+- same time t where time is relevant;
+- same respect/relation/framework/condition r.
 
-**Determinate Actuality Theorem candidate:**
+Different times, reference frames, approximation standards, relations, or levels of description do not constitute contradiction.
 
-For all x, P, r:
+A genuine same-respect contradiction would collapse determinate predication for that proposition.
 
-[Actualized(x) AND Exact(P,x,r)]
-->
-[x=x
- AND not(P(x,r) AND not-P(x,r))
- AND (P(x,r) OR not-P(x,r))].
+Therefore:
 
-Abbreviated:
+Actualized(x) AND Exact(P,x,t,r)
+-> not[P(x,t,r) AND not-P(x,t,r)].
 
-Actualized(x) -> L3(x)
+Aristotle's *Metaphysics* IV supplies the classical same-subject/same-time/same-respect formulation; later secondary analysis may be used for interpretive comparison, but primary text governs historical attribution.
+
+## 3. Excluded middle and actuality
+
+For an exact fully specified condition:
+
+P(x,t,r) OR not-P(x,t,r).
+
+Non-contradiction excludes both sides being true together. Excluded middle excludes the failure of both sides to exhaust the exact predication.
+
+Important precision:
+
+**Excluded middle is not identical to the semantic principle of bivalence.**
+
+EM is the object-language/formal schema:
+
+P OR not-P.
+
+Bivalence is a semantic thesis concerning truth values. The DAT argument concerns exhaustive exact predication under the relevant classical ontological reading and must not rely on an unargued identification of LEM with every formulation of bivalence.
+
+Thus:
+
+Actualized(x) AND Exact(P,x,t,r)
+-> [P(x,t,r) OR not-P(x,t,r)].
+
+## 4. Exact-condition restriction
+
+Let Exact(P,x,t,r) mean that:
+- the subject/reference is fixed;
+- predicate P is fully specified;
+- relevant time is fixed where applicable;
+- respect/relation/framework is fixed;
+- classification standard is fixed;
+- no semantic ambiguity is being shifted between P and not-P.
+
+This restriction prevents vague language, measurement tolerance, context switching, and incomplete specification from masquerading as ontological counterexamples.
+
+## 5. Circle illustration
+
+Let C(x) mean:
+
+"x is an exact Euclidean circle."
+
+One exact formulation is:
+
+C(x) iff exists c exists r>0 for all p:
+[p in x iff d(p,c)=r].
+
+Then:
+
+C(x) OR not-C(x),
+
+and:
+
+not[C(x) AND not-C(x)].
+
+A minute alteration that violates the constant-radius condition makes the resulting figure a non-circle under this exact predicate, even if it remains arbitrarily close, visually indistinguishable, or practically acceptable as a circle.
+
+NearCircle(x,epsilon) does not entail C(x).
+
+Degrees of resemblance do not by themselves create a third exact identity-category.
+
+## 6. Underdetermination Principle
+
+Let K(P) mean "it is known that P."
+
+A rational agent may be unable to determine whether P:
+
+not-K(P) AND not-K(not-P).
+
+But:
+
+not-K(P) AND not-K(not-P)
+does not entail
+not(P OR not-P).
+
+**Underdetermination Principle (UP):**
+
+> Epistemic, linguistic, measurement, contextual, or evidential underdetermination does not by itself obviate excluded middle for an exact fully specified ontological condition.
+
+Lack of knowledge is not thereby a third ontological state.
+
+Common sources of apparent fuzziness include:
+- measurement limits;
+- incomplete evidence;
+- vague predicates;
+- unspecified tolerances;
+- unclear reference;
+- temporal ambiguity;
+- relational/reference-frame ambiguity.
+
+The remedy is specification, not automatic abandonment of ontological determinacy.
+
+## 7. Fuzzy and many-valued models
+
+Fuzzy, many-valued, intuitionistic, paraconsistent, and other nonclassical formalisms may be useful for:
+- vague language;
+- graded membership;
+- uncertainty;
+- proof conditions;
+- inconsistent information bases;
+- representational systems.
+
+Their formal usefulness does not by itself establish that a fully determinate actualized state literally occupies an ontological middle between exact P and exact not-P in the same respect.
+
+DAT therefore distinguishes:
+
+representational/formal nonclassicality
+
+from:
+
+ontological violation of exact same-respect determinacy.
+
+The latter is the theorem target.
+
+## 8. Truth, consequence, and physical reality
+
+Logic does not manufacture contingent physical facts.
+
+Logical validity alone cannot establish:
+- whether it is raining;
+- a measured particle value;
+- whether a drawn object is an exact circle.
+
+Evidence and sound premises remain required.
+
+But determinate truth claims require coherent identity and predication, and valid consequence preserves truth under the relevant logical relation.
+
+Therefore DAT does not subordinate truth to human reasoning. It claims that determinate truth claims cannot coherently overturn the conditions required for determinate truth and falsity.
+
+## 9. Formal DAT schema
+
+Let:
+- A(x): x is actualized;
+- D(x): x is determinate;
+- Exact(P,x,t,r): exact same-respect predication;
+- L3: I AND NC AND EM.
+
+Then:
+
+for all x [A(x) -> D(x)].
+
+for all x [D(x) -> x=x].
+
+for all x,P,t,r:
+[D(x) AND Exact(P,x,t,r)
+ -> not(P(x,t,r) AND not-P(x,t,r))].
+
+for all x,P,t,r:
+[D(x) AND Exact(P,x,t,r)
+ -> (P(x,t,r) OR not-P(x,t,r))].
+
+Therefore:
+
+for all x [A(x) -> L3(x)]
 
 under exact same-respect predication.
 
 Modal form:
 
-Box(ActualizedPhysicalReality -> L3).
+**DAT:**
 
-## 6. What DAT establishes
+Box[ActualizedReality -> L3].
 
-DAT establishes a constitutive dependency:
+## 10. Determinacy Thesis
 
-L3 is a necessary condition of determinate actualized physical reality.
+> **Any actualized reality must be actualized as something determinate. Determinate actuality requires identity: a thing must be itself. It requires non-contradiction: the same thing cannot both possess and fail to possess the same property in the same respect at the same time. It requires excluded middle: relative to an exact and fully specified condition, the thing either possesses that property or does not. Apparent fuzziness, ambiguity, or unresolved classification does not suspend these laws; it indicates underdetermination in evidence, measurement, description, predicate, context, or specification. Therefore underdetermination does not obviate excluded middle, and determinate physical actuality cannot be actualized in violation of the logical triad.**
 
-Therefore L3 is not:
-- an inductive generalization from observed physics;
-- a convention imposed by finite human cognition;
-- a rule created by linguistic practice;
-- a physical regularity produced downstream by matter.
+## 11. Quantum-control note
 
-The dependency order is:
+DAT does not identify quantum superposition with contradiction.
 
-L3 ≺_ont chi_phys.
+A superposed state can itself be a determinately specified quantum state. DAT does not infer that an unmeasured observable already possesses a classical outcome value unless that follows independently from the physical theory.
 
-## 7. What DAT does not establish
+Therefore DAT must remain separate from the TRT-FLL empirical hypothesis concerning outcome actualization/bivalence.
 
-DAT does not yet establish:
+## 12. Logical Emergence Exclusion
 
-- Box L3 simpliciter in a domain containing no actuality whatsoever;
-- that every representable formal system must use classical logic internally;
-- that paraconsistent calculi are meaningless as representable formalisms;
-- that every natural-language proposition is bivalent;
-- that measurement always reveals a pre-existing classical value;
-- that quantum superposition is contradiction;
-- that L3 is grounded in Mind;
-- that a transcendent ground exists.
+**LEE:**
 
-It establishes the conditional necessity of L3 for determinate actualized physical reality.
+No emergence process can be the ontologically prior generator of logical conditions already presupposed by the identity and coherence of that emergence process.
 
-## 8. Quantum-control note
+If one proposes:
 
-Quantum theory does not automatically defeat DAT.
+E: X -> L3,
 
-A superposition:
-
-|psi> = a|0> + b|1>
-
-is itself a determinate quantum state represented by definite mathematical structure. The proposition "the system is in state |psi>" is not equivalent to asserting that one actualized outcome is simultaneously both 0 and not-0 in the same respect.
-
-Likewise a density operator, probability distribution, or noncommuting observable structure remains mathematically identified and distinguished.
-
-Any stronger claim about outcome bivalence belongs to the separate TRT-FLL empirical programme.
-
-DAT therefore must not be used to prejudge the empirical FLL work.
-
-## 9. Emergence exclusion
-
-Suppose L3 is claimed to emerge through relation E from some prior X:
-
-E: X -> L3.
-
-To specify:
+then identifying:
 - X as X;
 - L3 as distinct from X;
-- E as this relation rather than not-E;
-- whether E obtains;
+- E as E;
+- E as obtaining rather than not obtaining;
 
-already requires identity, differentiation, noncontradiction, and determinate relation.
+already presupposes the relevant identity/noncontradiction/determinacy conditions.
 
-Therefore an emergence account of the very logical conditions required to specify emergence is dependency-circular.
+Thus physical emergence cannot non-circularly generate the logical conditions required to specify physical emergence.
 
-This yields:
+Derivative formal systems and higher-level logical calculi may still emerge within an already logically constrained actuality.
 
-**Logical Emergence Exclusion (LEE):**
+## 13. Dependency result
 
-No emergence process can be the ontologically prior generator of the logical conditions presupposed by the identity and coherence of that emergence process.
+DAT establishes:
 
-LEE does not forbid derivative formal systems or higher-level logics from emerging within an already logically constrained actuality.
+L3 ≺_ont chi_phys
 
-## 10. Relation to co-primitives
+in the sense that L3 is constitutive of determinate physical actualization rather than generated downstream by physical systems.
 
-DAT secures the L leg more strongly:
+This does not yet identify an ontological bearer or ground of L3.
 
-ActualizedPhysicalReality -> L3.
+## 14. Co-primitive theorem interface
 
-Parallel obligations remain:
+DAT supplies the L-leg:
 
-ActualizedPhysicalReality -> I-role,
-because determinate actuality requires differentiation/informational distinction.
+Box[ActualizedPhysicalReality -> L3].
 
-ActualizedPhysicalReality -> A-role,
-because actualized reality is not merely admissible possibility.
+Parallel theorem obligations:
 
-The intended co-primitive theorem target is therefore:
+I-leg:
+Box[ActualizedPhysicalReality -> I_role].
+
+A-leg:
+Box[ActualizedPhysicalReality -> A_role].
+
+Target:
 
 Box[ActualizedPhysicalReality -> (L3 AND I_role AND A_role)].
 
-The stronger ground theorem then asks what ontological ground adequately accounts for their necessary co-presence and unity.
+Then the Co-Primitive Ground Theorem asks what ground can adequately account for the necessary co-presence and unity of those roles.
 
-## 11. Relation to Mind hypothesis
+## 15. Mind boundary
 
-DAT deliberately does not infer Mind.
+DAT does **not** claim:
+- finite minds create logic;
+- logic exists only when perceived;
+- DAT alone proves Transcendent Mind.
 
-It removes one weaker alternative: L3 cannot be explained as a convention or emergent derivative of physical systems whose identity and dynamics already presuppose L3.
+The Mind hypothesis enters later as a candidate ground capable of intrinsically unifying rational form, informational content, act, and subject-unity.
 
-The remaining same-level candidates include:
-- primitive necessary logical/structural ground;
-- intrinsic rationality of Transcendent Mind;
-- other non-derivative ground-level ontologies.
+## 16. Historical/source discipline
 
-Mind identification remains a convergence problem.
+Primary source priority:
+- Aristotle, *Metaphysics* IV (Gamma), especially the formulation of non-contradiction.
 
-## 12. Epistemic status
+Secondary philosophical resources may be used for:
+- contemporary treatments of LEM/bivalence;
+- fuzzy logic;
+- vagueness;
+- paraconsistency;
+- logical consequence.
+
+No secondary source should be cited as though it were Aristotle's primary text.
+
+## 17. Epistemic status
 
 - Identity as constitutive of determinate actuality: HIGH.
-- Non-Contradiction under exact same-respect conditions: HIGH.
-- Excluded Middle under exact identity-condition restriction: MEDIUM-HIGH, formal review still warranted.
-- Box(ActualizedPhysicalReality -> L3): MEDIUM-HIGH.
-- LEE: HIGH as dependency/circularity control within the framework.
+- NC under exact same-respect predication: HIGH.
+- EM under exact-condition restriction: MEDIUM-HIGH pending adversarial formal review.
+- UP: HIGH as ontology/epistemology distinction.
+- Box[ActualizedReality -> L3]: MEDIUM-HIGH.
+- LEE: HIGH within TRT dependency analysis.
 - DAT -> Mind: NOT CLAIMED.
 
-## 13. Promotion criteria
+## 18. Promotion criteria
 
-Before DAT is promoted into TRT/LRT foundational material:
-
-1. formalize Exact(P,x,r);
-2. test against intuitionistic, paraconsistent, many-valued, and quantum-logical objections;
-3. verify compatibility with the existing LRT formal core;
-4. ensure DAT does not prejudge TRT-FLL empirical claims;
-5. add traceability entries;
-6. formalize the dependency-circularity proof for LEE;
-7. adversarially review the exact scope of Excluded Middle.
+Before promotion beyond this WP:
+1. formalize Exact(P,x,t,r);
+2. test intuitionistic, paraconsistent, fuzzy, many-valued, and quantum-logical objections;
+3. verify compatibility with LRT formal core;
+4. preserve LEM/bivalence distinction;
+5. preserve separation from TRT-FLL empirical claims;
+6. primary-verify Aristotle citations and add exact edition/location;
+7. add traceability entries;
+8. adversarially review the circle/identity-condition example.
