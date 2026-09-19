@@ -191,3 +191,18 @@ The hypothesis that succeeds with fewer independent unexplained commitments gain
 - H_S currently demonstrated ontologically simple: **NO**.
 - H_M∞ currently demonstrated ontologically simple/unifying: **NO**.
 - H_M∞ potential unification advantage: **LIVE, UNPROVEN**.
+
+
+## 10. First unity-test result — 2026-09-19
+
+The best versions of both hypotheses were tested against the essence-to-aspect standard.
+
+**H_S best form:** one primitive modal-actual structural order E_S.
+
+E_S plausibly entails differentiation (I) and minimal logical constraint (L). Structure simpliciter does not entail that it obtains. Calling it "actual structure" adds actuality to the essence unless a non-circular structure-to-actuality bridge is supplied. H_S therefore retains a **structure-to-actuality gap**.
+
+**H_M∞ best form:** an intrinsically contentful rational actual Mind E_M.
+
+E_M strongly supports differentiability/content-capacity (I), minimal/rational logical constraint (L), and actuality status alpha in one subject. It does not yet derive productive actuality-conferring A beyond the mind. H_M∞ therefore retains an **actuality-to-productive-action gap**.
+
+H_M∞ presently offers a promising unity model for L/I/alpha through one subject, but no overall verdict is authorized. The decisive next comparison is whether either candidate can derive productive A without importing GAP/GAP2 or equivalent hidden grounding assumptions.
