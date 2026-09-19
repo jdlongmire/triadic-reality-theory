@@ -294,3 +294,40 @@ New controls incorporated:
 - preservation of the quantum/TRT-FLL boundary.
 
 DAT is now the canonical L-leg candidate for the Co-Primitive Ground Theorem. Promotion to broader TRT/LRT foundational material remains gated by formal/adversarial review.
+
+
+## Canonical R/D/X backbone — 2026-09-19
+
+The WP now adopts the categorical hierarchy:
+
+R = Representable.
+D = Actualizable.
+X = Actualized = chi.
+
+Canonical implications:
+
+Actualized(x) -> Actualizable(x) -> Representable(x).
+
+The co-primitive roles are aligned:
+
+- I-role: what can be represented through differentiation;
+- L-role: what can be actualized, at minimum through L3 admissibility;
+- A-role: what is actualized rather than merely actualizable.
+
+Canonical schematic:
+
+R --L--> D --A--> X,
+
+with an explicit sufficiency caveat: L3 is treated as necessary for actualizability, not yet sufficient. Therefore:
+
+Actualizable(x) -> Representable(x) AND L3(x),
+
+while:
+
+Representable(x) AND L3(x) -> Actualizable(x)
+
+is NOT YET CLAIMED.
+
+Selection S operates only after alternatives are representable and actualizable, and physical instantiation remains domain-specific.
+
+This backbone is now the control model for the I-leg, D/L-leg, A/X-leg, and Co-Primitive Ground Theorem.
