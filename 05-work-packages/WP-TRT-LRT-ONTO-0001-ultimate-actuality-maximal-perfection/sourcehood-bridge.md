@@ -1,3 +1,5 @@
+> **CHANCE-FRAMING CORRECTION — 2026-09-19:** The earlier "AOD versus chance" framing is superseded by `chance-ontology-audit.md`. Chance/randomness must first supply an ontology and pay the L/I/A dependency costs. Non-necessitation does not entail chance as source. The historical analysis below is retained for traceability.
+
 # Sourcehood Bridge: From Selection Event to Act of the Mind
 
 **WP:** WP-TRT-LRT-ONTO-0001  
