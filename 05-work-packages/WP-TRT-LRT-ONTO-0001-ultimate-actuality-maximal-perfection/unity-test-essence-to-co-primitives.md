@@ -218,3 +218,104 @@ Attack the **A discriminator** at the same ontological level:
 3. If mind is intrinsically active, does intrinsic activity entail productive/actuality-conferring action?
 4. What would distinguish productive A from mere change, occurrence, or causal transition?
 5. Can either account derive A without GAP/GAP2 or another hidden grounding principle?
+
+
+## 10. Inertness correction: L + I without A
+
+The first unity test understated the role of A by describing H_S primarily as having a "structure-to-actuality gap."
+
+Within TRT the sharper point is:
+
+L constrains.
+I differentiates / supplies representable potential.
+Neither role is actuality-conferring.
+
+Thus:
+
+I_adm = I_infinity | L
+
+is still only the admissible/actualizable domain.
+
+Without A:
+
+I_adm -/-> chi.
+
+This is the **Inertness Principle (IP)**:
+
+**IP:** Logical constraint plus informational/differentiable potential, absent actuality-conferring efficacy, is ontologically inert with respect to the production/constitution of actuality.
+
+"Inert" here does not mean nonexistent or meaningless. It means L + I alone contains no role that accounts for the transition/distinction from admissible to actual.
+
+Therefore A is not an optional supplement to L/I. It answers a categorical deficiency:
+
+- L = constraint;
+- I = differentiated content/potential;
+- A = efficacy/actualization.
+
+The three roles are irreducible by function within the current TRT ontology.
+
+## 11. Revised H_S burden
+
+H_S cannot be adequately formulated as merely "structure" if structure means formal/logical-informational order.
+
+It must contain an efficacy dimension:
+
+E_S* := one primitive structural-actual order containing constraint, differentiated potential, and actuality-conferring efficacy.
+
+But this creates a new burden. "Efficacy" does not follow from formal structure merely by naming the whole order actual.
+
+Therefore H_S must show that one structural essence intrinsically entails:
+
+{constraint, content/potential, efficacy, co-unity}.
+
+Absent that demonstration, the structural account retains at least three categorically distinct primitive roles plus their unity.
+
+## 12. Revised H_M∞ essence
+
+The mind candidate is sharpened from "actual Mind with activity" to:
+
+**E_M* := one intrinsically active rational informational actuality.**
+
+Candidate correspondences:
+
+- rationality -> L-role;
+- content/differentiation -> I-role;
+- intrinsic activity -> A-analogue;
+- one subject/actuality -> C.
+
+This is still a candidate model, not a derivation.
+
+The key question is now whether **activity is constitutive of mind** rather than an appended property.
+
+A mind wholly devoid of any occurrence of awareness, apprehension, thought, intention, self-presence, or other mental actuality is difficult to distinguish from a merely possible specification of a mind. This supplies a stronger route to intrinsic occurrent activity than the earlier "actual mind -> alpha" formulation.
+
+However:
+
+intrinsic mental activity -/-> productive actuality-conferring power over derivative reality
+
+without another argument.
+
+Thus two senses of A must remain distinct:
+
+- A_int: intrinsic activity/occurrent actuality of M∞;
+- A_prod: productive actuality-conferring efficacy by which admissible derivative structures are actualized.
+
+The next bridge is:
+
+A_int -> ? A_prod.
+
+## 13. Revised comparison
+
+H_S:
+constraint + differentiated potential + efficacy + co-unity
+must be shown to follow from one structural essence.
+
+H_M∞:
+one intrinsically active rational informational actuality
+must be shown to be warranted as ultimate and to possess productive efficacy.
+
+H_M∞ potentially explains C more naturally if rationality, content, and activity are genuinely constitutive of one mind. This potential advantage is not yet scored as a conclusion.
+
+## 14. Classical-actus caution
+
+The resulting concept resembles classical discussions of actuality/actus, but no Aristotelian or Thomistic doctrine is imported here. Any comparison with actus purus or classical divine simplicity belongs in the convergence/historical track after the internal TRT derivation is complete.
