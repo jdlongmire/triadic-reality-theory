@@ -1,3 +1,5 @@
+> **NULL-WORLD CORRECTION — 2026-09-19:** The v0.1 treatment of a "null world" as a live blocker is superseded by `absolute-nothingness-nonactualizability-lemma.md`. Absolute nothingness is representable content but not an actualizable determinate state. The historical analysis below is retained for traceability. The remaining blocker to one necessary U is ground identity/invariance, not a null-world boundary condition.
+
 # NGT-001: Necessary Ground Theorem
 
 **WP:** WP-TRT-LRT-ONTO-0001
@@ -401,3 +403,54 @@ Two high-value routes now exist:
 2. **Null actuality route revisited:** determine whether the canonical R/D/X + typed-presupposition architecture strengthens the earlier case against an absolute null world.
 
 The EGI/Uniqueness route should be worked first because it does not require solving absolute nothingness.
+
+
+## 15. v0.2 correction: ANNAL removes the null-world blocker
+
+The canonical R/D/X distinction now resolves the earlier null-world issue.
+
+Let N be the represented content "absolute nothingness":
+
+\[
+N:=\neg\exists x\,X(x).
+\]
+
+ANNAL establishes:
+
+\[
+R(N)\land\neg D(N)\land\neg X(N).
+\]
+
+Therefore absolute nothingness is not a member of the metaphysically actualizable determinate-world domain W_D.
+
+Hence:
+
+\[
+\boxed{\square_D D}.
+\]
+
+Combine with NGRT:
+
+\[
+\square_D[D\rightarrow UGR(\mathcal G)]
+\]
+
+to obtain:
+
+\[
+\boxed{\square_D UGR(\mathcal G)}.
+\]
+
+Thus an adequate non-derivative ground-role is necessary across the full actualizable determinate domain.
+
+The remaining quantifier problem is:
+
+\[
+\square_D\exists U\,Ground(U,\mathcal G)
+\not\Rightarrow
+\exists U\,\square_D Ground(U,\mathcal G).
+\]
+
+Accordingly, the critical next target is EGI/uniqueness: whether the adequate ground-role can have numerically distinct realizers across actualizable worlds.
+
+The earlier statement that "null actuality is the strongest blocker to NGT-S" is withdrawn.
