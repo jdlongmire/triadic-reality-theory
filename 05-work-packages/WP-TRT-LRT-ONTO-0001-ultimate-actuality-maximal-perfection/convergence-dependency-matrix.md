@@ -156,3 +156,25 @@ Current attribute recovery ledger:
 | maximal perfection | convergence of warranted attributes | target, not premise |
 
 This table is now the control against importing classical divine attributes into H_M∞ by definition.
+
+
+## Semantic bridge result — 2026-09-19
+
+The direct semantic route failed:
+
+I-thin (differentiability) does not entail I-semantic (intrinsic aboutness/reference/truth conditions).
+
+Formal/syntactic structure also underdetermines semantics; token/state reinterpretation can preserve syntax while changing assigned meaning. This does not prove naturalized semantics impossible. Causal, functional, teleosemantic, inferential-role, and biological accounts remain serious rivals.
+
+The mind-ground programme is therefore revised around a **Triadic Thickening Hypothesis (TTH)**:
+
+If the ultimate co-primitives independently require:
+- I-thick: intrinsic semantic content,
+- L-thick: objective logical normativity,
+- A-thick: reason-responsive/purposive action,
+
+then H_M∞ may gain substantial abductive force as a unified explanation.
+
+If L/I/A remain thin, or their thick features naturalize without explanatory remainder, H_S remains fully viable.
+
+Next research target: L-thick, the status of logical normativity.
