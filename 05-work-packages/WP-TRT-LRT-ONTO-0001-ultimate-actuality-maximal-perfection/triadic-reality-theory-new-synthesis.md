@@ -1,0 +1,344 @@
+# Triadic Reality Theory: A New Synthesis
+
+**WP:** WP-TRT-LRT-ONTO-0001
+**Date:** 2026-09-19
+**Status:** canonical synthesis draft v0.1
+
+## Thesis
+
+Triadic Reality Theory is a transcendental framework according to which determinate actuality presupposes three irreducible co-primitive roles: Logic, Information, and Action.
+
+The core direction is necessity, not sufficiency:
+
+\[
+\boxed{D \rightarrow (\mathcal L \land \mathcal I \land \mathcal A)}
+\]
+
+and modally:
+
+\[
+\boxed{\square[D\rightarrow(\mathcal L\land\mathcal I\land\mathcal A)]}.
+\]
+
+TRT does not presently claim that the conjunction alone is sufficient to generate this particular actuality.
+
+## Canonical category backbone
+
+Use:
+
+\[
+R(i):=\operatorname{Representable}(i),\quad
+D(i):=\operatorname{Actualizable}(i),\quad
+X(i):=\operatorname{Actualized}(i).
+\]
+
+Then:
+
+\[
+\boxed{R\supseteq D\supseteq X}
+\]
+
+and:
+
+\[
+X(i)\rightarrow D(i)\rightarrow R(i).
+\]
+
+The reverse implications do not generally hold.
+
+Conceptually:
+
+\[
+R\xrightarrow{L_D}D\xrightarrow{A_X}X.
+\]
+
+L_D is necessary for actualizability; it is not yet claimed sufficient for every domain.
+
+## Co-primitives
+
+### Logic
+
+Logic supplies the constitutive conditions under which something can be actualized as determinate.
+
+DAT supplies:
+
+\[
+\boxed{\square[X\rightarrow L_D]}.
+\]
+
+Under exact same-subject/property/time/respect predication, L_D includes Identity, Non-Contradiction, and Excluded Middle.
+
+### Information
+
+At the primitive level Information means differentiated representability, not Shannon information and not intrinsic semantics by definition.
+
+DRT supplies:
+
+\[
+\boxed{\square[X\rightarrow I_R]}.
+\]
+
+Information denotes the differentiated structure by virtue of which content is representable as that content. No finite observer is required.
+
+### Action
+
+Action at the primitive level is act/actuality, not specifically physical motion, external production, or temporal transition.
+
+AAT supplies:
+
+\[
+\boxed{\square[X\rightarrow A_X]}.
+\]
+
+Mental action is genuine action. A thought may be actual as an act without its intentional content being physically instantiated.
+
+## Co-Primitive Necessity
+
+From DRT, DAT, and AAT:
+
+\[
+\boxed{\square[X\rightarrow(I_R\land L_D\land A_X)]}.
+\]
+
+This is the assembled co-primitive theorem at the role level. It does not yet establish one bearer, Mind, necessity of a bearer, infinity, or maximal perfection.
+
+## Representable versus actualizable
+
+A contradiction-encoding expression can be represented:
+
+\[
+R(\text{square circle}).
+\]
+
+Under exact Euclidean definitions its intended state of affairs is not actualizable:
+
+\[
+\neg D(\exists x[Square(x)\land Circle(x)]).
+\]
+
+The representational token can itself be actual while its contradictory intended state of affairs is not actualizable.
+
+Therefore:
+
+\[
+\boxed{R\nRightarrow D\nRightarrow X}.
+\]
+
+## Underdetermination
+
+Let K(P) mean "it is known that P."
+
+\[
+\neg K(P)\land\neg K(\neg P)
+\not\Rightarrow
+\neg(P\lor\neg P).
+\]
+
+**Underdetermination Principle:** epistemic, linguistic, measurement, contextual, or evidential underdetermination does not by itself obviate excluded middle for an exact fully specified ontological condition.
+
+## Selection
+
+Selection is not a fourth co-primitive.
+
+The unconditional claim:
+
+\[
+(\mathcal L\land\mathcal I\land\mathcal A)\rightarrow S
+\]
+
+is too strong.
+
+Instead, where D_d contains mutually incompatible alternatives and a determinate actuality X_d obtains:
+
+\[
+\boxed{
+\square[
+MultipleIncompatibleActualizable(D_d)
+\land Determinate(X_d)
+\rightarrow S_d
+]}.
+\]
+
+Minimal selection means discrimination among already actualizable alternatives for the relevant actuality domain. It does not yet entail conscious deliberation, libertarian freedom, will, probability, or physical causation.
+
+## Anti-Smuggling Rule
+
+TRT prohibits dependency-circular ultimate explanations.
+
+\[
+Presupposes(X,Y)\rightarrow\neg UltimateGround(X,Y)
+\]
+
+when the presupposition is ontologically constitutive.
+
+Derivative physical entities and processes already require differentiated identity/content, logical determinacy, and actuality. They therefore cannot non-circularly generate those same conditions as their ontologically prior ground.
+
+Physics remains fully available to explain mechanisms and regularities within physical actuality.
+
+## Emergence, bruteness, and chance
+
+Emergence already requires differentiation, coherent relation, and actuality; it cannot generate those roles upstream without circularity.
+
+"Brute" is an explanatory stopping claim, not a mechanism and not a primitive-count discount.
+
+Probability and indeterminism presuppose differentiated alternatives and coherent relations; an actual chance outcome additionally presupposes actuality. Chance therefore receives no sourcehood or actualizing efficacy for free.
+
+## Functional Adequacy Argument
+
+Define:
+
+\[
+\mathcal G=\langle I_R,L_D,A_X,S,C\rangle
+\]
+
+where C is the co-unity of the reality-generating order.
+
+**Functional Adequacy Principle:**
+
+\[
+UltimateGround(g,\chi)\rightarrow AdequatelyGrounds(g,\mathcal G).
+\]
+
+An adequate ultimate account must address representability, logical actualizability/determinacy, act/actuality, selection where alternative plurality obtains, and unity/co-instantiation.
+
+## Rival-ground audit
+
+Derivative physicality explains downstream mechanisms but already presupposes the co-primitive roles.
+
+Abstracta/Platonism can model necessary structure and relations, but inert abstracta do not by themselves supply actuality/act or selection.
+
+Impersonal laws can supply constraint, but constraint alone is inert with respect to actuality and does not automatically select one concrete instantiation.
+
+Primitive structure remains a live rival if one genuinely unified nonmental essence can derive I_R, L_D, A_X, S, and C without merely packaging independent primitives.
+
+Brute/primitive necessity can terminate regress but does not itself explain why the terminus has the required functional unity.
+
+Information-as-physics describes derivative correlations/state structure but does not automatically supply the upstream roles.
+
+No rival is rejected merely by label. Each must pass FAP.
+
+## Transcendence constraint
+
+If an adequate ultimate ground is posited, it cannot be merely a derivative physical system whose existence already presupposes G.
+
+Candidate:
+
+\[
+AdequateUltimateGround(g,\mathcal G)
+\rightarrow
+NonDerivative(g)\land OntologicallyPrior(g,\chi_{phys}).
+\]
+
+"Transcendent" means ontologically prior/non-derivative, not spatially exterior.
+
+## Infinite Transcendent Mind hypothesis
+
+The current strongest unified candidate is H_MinfT: an Infinite Transcendent Mind whose intrinsic nature is rational, informational/contentful, active, and unified.
+
+Candidate model-fit:
+
+- I_R <-> content/representation.
+- L_D <-> intrinsic rational/logical form.
+- A_X <-> genuine act.
+- S <-> intentional selection.
+- C <-> unity of one subject.
+
+This is a research hypothesis, not yet the conclusion of CPN.
+
+Mind receives no automatic credit for necessity, infinity/unlimitedness, uniqueness, omniscience, omnipotence, goodness, physical instantiation, or Christian identification.
+
+## Open Mind bridge
+
+The strong target is:
+
+\[
+\boxed{
+\forall g[
+AdequateUltimateGround(g,\mathcal G)
+\rightarrow
+MindLike(g)
+]}.
+\]
+
+This universal premise remains OPEN.
+
+The present result is a transcendental/comparative adequacy argument: Mind is the current candidate whose intrinsic character most directly corresponds to the complete functional requirement, while nonmental rivals must demonstrate equal or superior functional unity without hidden additional primitives.
+
+## Theorem ladder
+
+DRT:
+\[
+\square[X\rightarrow I_R].
+\]
+
+DAT:
+\[
+\square[X\rightarrow L_D].
+\]
+
+AAT:
+\[
+\square[X\rightarrow A_X].
+\]
+
+Therefore CPN:
+\[
+\square[X\rightarrow(I_R\land L_D\land A_X)].
+\]
+
+Conditional selection:
+\[
+AlternativePlurality(D_d)\land Determinate(X_d)\rightarrow S_d.
+\]
+
+Ground layer:
+\[
+UltimateGround(g,\chi)\rightarrow AdequatelyGrounds(g,\mathcal G).
+\]
+
+Under the dependency constraints:
+\[
+AdequateUltimateGround(g,\mathcal G)\rightarrow Transcendent/NonDerivative(g).
+\]
+
+Open identification layer:
+\[
+AdequateUltimateGround(g,\mathcal G)\stackrel{?}{\rightarrow}MindLike(g).
+\]
+
+Later attribute-recovery layer:
+\[
+MindLike(g)+necessity+transcendence+unlimitedness+unity
+\stackrel{?}{\rightarrow}M_\infty^T.
+\]
+
+Maximal perfection remains a later convergence target.
+
+## Canonical statement
+
+> **Triadic Reality Theory holds that any determinate actuality necessarily instantiates three irreducible co-primitive roles: differentiated representability (Information), logical determinacy/actualizability (Logic), and act/actuality (Action). Representability, actualizability, and actuality are distinct categories: R contains D contains X. Logic constrains what can be actualized; Information supplies differentiated representability; Action distinguishes what actually obtains from what remains merely actualizable. Where mutually incompatible actualizable alternatives exist, determinate domain actuality additionally requires discrimination or selection. Derivative physical systems, emergence, brute labels, and chance do not receive these transcendental conditions for free. Any proposed ultimate ground must account non-circularly for the complete functional workload and its unity. Infinite Transcendent Mind is the current unified candidate whose intrinsic character directly models rational form, content, act, selection, and unity, while the bridge from adequate ultimate ground to Mind, and the further attributes of necessity, infinity, uniqueness, and perfection, remain explicit proof obligations.**
+
+## Proof-ledger dependencies
+
+- canonical-category-backbone.md
+- determinate-actuality-theorem.md
+- differentiability-representability-theorem.md
+- actuality-act-theorem.md
+- co-primitive-ground-theorem.md
+- functional-adequacy-argument.md
+- chance-ontology-audit.md
+- action-scope-mental-vs-physical.md
+- selection-bridge-to-will-agency.md
+- sourcehood-bridge.md
+- positive-sourcehood-aod.md
+- intentionality-reasons-audit.md
+- logical-normativity-intelligibility-test.md
+- explanatory-cost-ledger.md
+
+## Immediate next work
+
+1. adversarially formalize DRT and AAT;
+2. tighten conditional S;
+3. formalize C beyond mere co-instantiation if possible;
+4. attack the open AdequateGround -> MindLike bridge;
+5. separately derive necessity, unlimitedness, and uniqueness before returning to maximal perfection.
