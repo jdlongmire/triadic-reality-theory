@@ -1,0 +1,221 @@
+# Abductive Bridge: Ultimate Structural Triad to Mind Hypothesis
+
+**WP:** WP-TRT-LRT-ONTO-0001  
+**Date:** 2026-09-19  
+**Track:** A-adjacent evidential sub-track  
+**Status:** opened; first formulation
+
+## Motivation
+
+Pure Track A reached a live countermodel:
+
+T := <L, I, A>
+
+where the co-primitives are treated as irreducible impersonal structure. No deductive bearer U follows merely from relationhood, co-requirement, or map notation.
+
+A distinct evidential observation now motivates an abductive comparison:
+
+> The clearest known unified instantiation in which logic, information, and action occur together is mind.
+
+This is not entered as a deductive theorem. It is a hypothesis-generating empirical/phenomenological observation requiring adversarial testing.
+
+## 1. Claim discipline
+
+Do not assert:
+
+L + I + A -> Mind.
+
+Current candidate claim:
+
+**O1:** Known minds instantiate a unified pattern involving logical/rational relations, information, and action.
+
+Stronger research claim to test:
+
+**O2:** No independently established non-mental system is presently known to instantiate intrinsic semantic information, normative logical consequence, and genuine action/selection together without dependence on prior mind.
+
+O2 is NOT YET VERIFIED and requires a research sweep across philosophy of information, computation, biology, cognitive science, physics, and philosophy of action.
+
+## 2. Hypotheses
+
+### H_S: Ultimate Structural Hypothesis
+
+T = <L,I,A> is irreducible impersonal structure. No mind-like ground is required.
+
+### H_M: Mind-Ground Hypothesis
+
+T is grounded in, instantiated by, or constitutive of an ultimate mind-like reality.
+
+"Mind-like" is intentionally minimal at opening. It does not yet mean human consciousness, personhood, Trinity, omniscience, moral perfection, or the Christian God.
+
+## 3. Feature decomposition
+
+The abductive force depends entirely on what L, I, and A mean.
+
+### L-thin
+Logical consistency/admissibility only.
+
+This is readily modeled structurally and gives little independent support to H_M.
+
+### L-thick
+Objective logical consequence with normativity: some inferences are correct/incorrect in virtue of logical content rather than merely regular physical transition.
+
+If L-thick is required by TRT/LRT, H_S bears a larger explanatory burden.
+
+### I-thin
+Differentiability / representable informational potential.
+
+This is the current minimal TRT sense. It does not imply semantics or mind.
+
+### I-thick
+Intrinsic semantic content: aboutness, reference, truth conditions, meaning.
+
+If I-thick can be derived or shown necessary, H_M gains potential abductive support.
+
+### A-thin
+Actuality-conferring relation/operator.
+
+This is current TRT minimum and does not imply agency.
+
+### A-thick
+Selection/action involving reasons, goals, intention, or agent causation.
+
+If A-thick can be established independently, H_M gains potential abductive support.
+
+## 4. Known-mind analogue
+
+In paradigmatic human mind:
+
+- logical relations can be apprehended and evaluated;
+- information can be semantic, intentional, and truth-apt;
+- action can be purposive and selected for reasons.
+
+Thus mind supplies at least one known integrated model of:
+
+L-thick + I-thick + A-thick.
+
+The analogy does not establish that ultimate T is a mind. Human minds are contingent, embodied, temporally conditioned, fallible, and dependent. The inference concerns the type of integration, not anthropomorphic properties.
+
+## 5. Rival cases requiring examination
+
+The following may challenge O2 and must be treated adversarially:
+
+1. **Computers / AI systems**
+   - instantiate formal logic, encoded information, and state transitions/actions;
+   - question: are semantics, goals, and normativity intrinsic or derived from designers/users/training ecosystems?
+
+2. **Biological systems**
+   - DNA/RNA, signaling, regulation, adaptive behavior;
+   - question: is biological information intrinsically semantic/teleonomic, or fully structural/causal?
+
+3. **Cellular automata / dynamical systems**
+   - distinctions, rules, transitions;
+   - likely strong cases for L-thin + I-thin + A-thin without mind;
+   - crucial control against equivocation.
+
+4. **Physical law**
+   - lawful regularity, state information, evolution;
+   - question: does describing physics in informational/logical language identify ontology or merely model it?
+
+5. **Evolutionary systems**
+   - apparent information accumulation and adaptive selection;
+   - question: whether genuine semantic content or intentional action appears without mind.
+
+6. **Platonism / abstracta**
+   - objective logical and mathematical structure without mind;
+   - challenge to any L -> Mind inference;
+   - does not obviously supply A.
+
+7. **Panpsychism / neutral monism**
+   - may deny the structural-vs-mind dichotomy by making mentality fundamental;
+   - must be treated as distinct rival ontologies.
+
+## 6. Abductive criteria
+
+H_M and H_S should be compared using explicit criteria rather than intuition:
+
+- explanatory scope;
+- explanatory coherence;
+- primitive count;
+- ad hoc auxiliary commitments;
+- fit to intrinsic vs derived semantics;
+- ability to ground normativity rather than merely instantiate regularity;
+- ability to account for actualization without semantic equivocation;
+- compatibility with TRT's existing hard core;
+- independent evidence;
+- novel constraints/predictions, if any.
+
+No criterion may be weighted after seeing the desired outcome without recording the change.
+
+## 7. Dependency firewall
+
+The following inferences are prohibited unless separately established:
+
+- information -> semantic information;
+- semantic information -> consciousness;
+- logic -> logical normativity;
+- logical normativity -> intellect;
+- actualization -> selection;
+- selection -> intention;
+- action -> agent;
+- mind-like -> personal;
+- personal -> morally perfect;
+- mind-like ultimate -> God;
+- God -> Christian God.
+
+Each arrow is a separate bridge.
+
+## 8. Bayesian/likelihood framing
+
+A future formal comparison may ask:
+
+P(E | H_M) versus P(E | H_S),
+
+where E is a carefully specified evidence set, potentially including:
+- intrinsic semantic content exists;
+- objective logical normativity exists;
+- purposive agency exists;
+- the ultimate ontology requires unified L/I/A.
+
+No numerical Bayes factor is authorized until priors, evidence independence, and likelihood models can be defended. Qualitative Bayesian language must not masquerade as quantified evidence.
+
+## 9. Falsification / defeat conditions
+
+The abductive Mind-Ground hypothesis is weakened if one or more of the following is established:
+
+- intrinsic semantics is fully reducible to non-mental structural relations with no explanatory remainder;
+- logical normativity is fully reducible to descriptive regularity;
+- genuine agency/action is fully reducible to impersonal state transition;
+- a verified non-mental system independently instantiates the relevant thick L/I/A conjunction;
+- H_M adds no explanatory power beyond relabeling T as "mind";
+- "mind-like" is defined so weakly that H_M becomes indistinguishable from H_S.
+
+A result favoring H_S is a valid research outcome.
+
+## 10. Success condition
+
+This sub-track succeeds if it can determine whether the move from T to a mind-like ground has genuine abductive warrant, and precisely which features supply that warrant.
+
+Strong success would require:
+1. independent defense of at least some thick features;
+2. evidence that their unified non-derivative instantiation is better accounted for by H_M than H_S;
+3. no hidden definitional move from semantics/normativity/action to mind;
+4. explicit surviving rival models.
+
+## 11. Immediate research tasks
+
+1. Verify O1 and test O2 against primary literature.
+2. Audit TRT/LRT to determine whether L and I are intentionally thin or already contain thick semantic/normative commitments.
+3. Examine whether intrinsic semantic information can be established independently.
+4. Examine whether logical consequence is normative in a sense irreducible to regularity.
+5. Examine A for any independently warranted selection/agency content.
+6. Build an H_S vs H_M evidence ledger.
+7. Keep Track A's structural-triad result unchanged unless one of these bridges is actually established.
+
+## 12. Opening disposition
+
+- O1, minds instantiate integrated logic/information/action: **HIGH at ordinary descriptive level**.
+- O2, only mind is known to instantiate intrinsic thick L/I/A independently: **UNCERTAIN pending research**.
+- H_M as a live explanation: **YES**.
+- H_M deductively established: **NO**.
+- H_S defeated: **NO**.
+- Abductive bridge worth pursuing: **MEDIUM-HIGH**.
