@@ -360,3 +360,27 @@ A stronger route is now preferred over logic alone: the **Co-Primitive Ground Th
 Mind identification then depends on whether subject-level/intentional/sourcehood features survive and whether H_S can construct an equally substantive impersonal unified essence.
 
 No infinity, maximal perfection, or Christian identification is credited at this stage.
+
+
+## Functional Adequacy Argument — 2026-09-19
+
+FAA is now the canonical comparative layer immediately upstream of the Co-Primitive Ground Theorem.
+
+Canonical explanandum:
+
+G = <I_R, L_D, A_X, S, C>
+
+where:
+- I_R = representability/differentiated content;
+- L_D = logical constraint on actualizability;
+- A_X = act/actuality;
+- S = discrimination among mutually incompatible actualizable alternatives;
+- C = co-unity of the reality-generating order.
+
+**FAP:** an ultimate ground must adequately and non-circularly ground all five functions. Partial coverage is not an adequate ultimate account.
+
+The audit explicitly retains material physicalism, Platonism/abstracta, brute/primitive necessity, impersonal laws, structural realism, information-as-physics, and nonmental necessary ground as rivals. None is dismissed by label; each must pay the functional costs it uses.
+
+H_M_Tinf is retained as a strong candidate because Mind has a direct model-fit to content, rational form, act, selection, and subject-unity. It receives no automatic credit for necessity, infinity, uniqueness, goodness, omniscience, omnipotence, physical instantiation, or theological identification.
+
+The universal theorem AdequateGround(g,G) -> MindLike(g) remains OPEN. FAA is presently a disciplined transcendental/comparative adequacy argument, not a completed deductive proof.
