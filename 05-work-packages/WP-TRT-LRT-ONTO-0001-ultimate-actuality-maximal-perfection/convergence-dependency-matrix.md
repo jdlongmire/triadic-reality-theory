@@ -122,3 +122,37 @@ The comparison must distinguish thin from thick senses:
 No thick sense may be imported into TRT by vocabulary alone. Computers/AI, biology, cellular automata, physical law, evolution, Platonism, panpsychism, and neutral monism are explicit rival/control cases.
 
 This sub-track is abductive, not deductive, and does not alter the pure-track stopping point unless a bridge is independently established.
+
+
+## Strong convergence candidate — 2026-09-19
+
+The generic H_M is sharpened to:
+
+**H_M∞:** Ultimate reality is one intrinsically logical, informational, active, unlimited Mind.
+
+Candidate notation:
+
+M∞ ≈ <L,I,A>_unified.
+
+This is a hypothesis, not an identity theorem. "Perfect" is deliberately withheld from the premise. Maximal perfection is the original target and must be recovered, if at all, through independently audited constraints.
+
+Current attribute recovery ledger:
+
+| Attribute | Current source candidate | Status |
+|---|---|---|
+| intrinsic logicality | L aspect | candidate |
+| informational character | I aspect | candidate |
+| intrinsic activity/dynamism | A aspect | candidate |
+| unity | H_M∞ explanatory proposal | unproven |
+| mind/intellect | semantic + normative bridge | unproven |
+| unlimitedness/infinity | scope/limitation analysis | unproven |
+| necessity | contingency or pure modal route | unproven |
+| aseity/non-derivation | ultimate-ground analysis | partial/candidate |
+| knowledge/omniscience | semantic/intellect + scope | unproven |
+| agency | rational/semantic A-thick bridge | unproven |
+| power/omnipotence | actuality-conferring scope | unproven |
+| goodness/moral perfection | axiological convergence | unproven |
+| uniqueness | referential identity / ultimacy | unproven |
+| maximal perfection | convergence of warranted attributes | target, not premise |
+
+This table is now the control against importing classical divine attributes into H_M∞ by definition.
