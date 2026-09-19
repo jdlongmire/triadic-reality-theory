@@ -114,3 +114,31 @@ Box L_role AND Box I_role AND Box A_role,
 rather than prematurely claiming Box exists x Actual(x) or a necessary unified bearer.
 
 The next blocker is an ambiguity in TRT's A. It has been described as actualizing action, a principle, and a map from admissible to actual. The programme must distinguish whether A is an event/process token, standing capacity/principle, primitive actuality-conferring relation, or ontological actuality category. No modal theorem may exploit the ambiguity.
+
+
+## A disambiguation — 2026-09-19
+
+A was found to be overloaded between actuality status and actualization. The WP now uses:
+
+- **alpha(x):** x obtains / has actuality status;
+- **A:** actuality-conferring relation/operator, A: I_adm -> I_actual;
+- **chi:** resulting actualized domain.
+
+alpha is a status predicate, not provisionally a fourth productive primitive. L, I, A remain the productive triad.
+
+The former NACT language is replaced by the clearer **Necessary Actuality-Distinction Thesis (NADT)**:
+
+Box(alpha_role).
+
+Candidate necessary modal-role structure:
+
+Box(L_role AND I_role AND alpha_role).
+
+For actualized reality, A remains required under TRT, but **Box A** is suspended because it previously conflated necessary actuality-category structure with an instantiated actualization relation.
+
+Two new pure-track bridges are explicit:
+
+B1: alpha -> A.
+B2: A -> bearer U.
+
+Neither is currently derived. In particular, A does not yet entail agency, temporality, or a personal bearer.
