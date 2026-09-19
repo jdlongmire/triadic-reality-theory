@@ -246,3 +246,30 @@ Physical law does not presently solve PIB if law only constrains already-instant
 The modal-collapse problem now localizes primarily in S: whether selection is necessary, contingent, reason-responsive, free, stochastic, or otherwise constrained.
 
 Next target: selection among admissible alternatives and whether rational selection supplies a bridge toward will/agency.
+
+
+## Determinate Actuality Theorem candidate — 2026-09-19
+
+DAT is now the primary formal candidate for the L leg:
+
+For exact same-respect identity conditions P:
+
+[Actualized(x) AND Exact(P,x,r)]
+->
+[x=x
+ AND not(P(x,r) AND not-P(x,r))
+ AND (P(x,r) OR not-P(x,r))].
+
+Abbreviated:
+
+Box(ActualizedPhysicalReality -> L3).
+
+DAT treats L3 as constitutive of determinate actuality, not as finite cognitive convention or inductively observed physical regularity.
+
+A companion dependency rule is adopted:
+
+**LEE, Logical Emergence Exclusion:** no emergence process can be the ontologically prior generator of the logical conditions presupposed by the identity and coherence of that emergence process.
+
+Quantum superposition is not treated as a same-respect contradiction, and DAT must not be used to prejudge the separate TRT-FLL empirical programme.
+
+DAT strengthens the L leg but does not derive Mind. Promotion into the broader TRT/LRT foundation requires formal/adversarial review, especially of the exact-condition treatment of Excluded Middle.
