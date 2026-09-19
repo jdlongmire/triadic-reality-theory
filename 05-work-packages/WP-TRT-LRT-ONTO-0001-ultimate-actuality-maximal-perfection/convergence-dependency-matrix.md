@@ -236,3 +236,32 @@ A candidate solution is **AOD, Agent-Originating Determination**: the rational s
 AOD is not adopted as established. It must be distinguished from brute selection by substantive subject integration, intentionality, reason responsiveness, and genuine sourcehood.
 
 Next critical test: whether perfect rationality can permit more than one fully rational alternative without defect. This is the Rational Permissibility Test and directly controls the modal-collapse risk.
+
+
+## Rational Permissibility Test result — 2026-09-19
+
+Perfect rationality does not by itself entail a unique selection.
+
+A stronger principle would be required:
+
+**URP, Unique Rational Resolution Principle:** every complete rational choice situation has exactly one uniquely rationally required option.
+
+URP is not a law of logic and is not presently established.
+
+Rationality can instead constrain a permissible set:
+
+Options --Reasons/Rationality--> PermissibleSet,
+
+with volitional selection operating within that set. This parallels TRT's constraint/actualization distinction:
+
+I --L--> D --A--> actual.
+
+A second hidden premise is isolated:
+
+**UDR:** every rational selection requires a reason sufficient to distinguish the selected option uniquely from every unselected permissible option.
+
+UDR is stronger than ordinary reason-responsiveness and is not presently established.
+
+Therefore a necessary perfectly rational M∞ is conceptually compatible with multiple mutually exclusive rationally permissible selections, blocking the direct modal-collapse inference to a necessary physical world.
+
+Next target: test Agent-Originating Determination against the objection that non-necessitated agent selection collapses into chance/randomness.
