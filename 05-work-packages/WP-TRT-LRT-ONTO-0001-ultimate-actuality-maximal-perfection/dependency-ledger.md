@@ -331,3 +331,27 @@ is NOT YET CLAIMED.
 Selection S operates only after alternatives are representable and actualizable, and physical instantiation remains domain-specific.
 
 This backbone is now the control model for the I-leg, D/L-leg, A/X-leg, and Co-Primitive Ground Theorem.
+
+
+## Co-Primitive theorem assembly — 2026-09-19
+
+The three role-level theorem legs are now explicit:
+
+**DRT:** Box[X -> I_R].
+Determinate actuality requires differentiation/representability. No Shannon or semantic claim is imported.
+
+**DAT:** Box[X -> L_D].
+Determinate actuality requires the exact same-respect logical triad under the canonical DAT formulation.
+
+**AAT:** Box[X -> A_X].
+Actuality is categorically distinct from mere actualizability; the actuality/act role is required for X. This does not yet entail a separate A-bearer.
+
+Assembled:
+
+**CPN:** Box[X -> (I_R AND L_D AND A_X)].
+
+Where D contains mutually incompatible alternatives for one actuality domain, a discriminator S is conditionally required.
+
+The first **Co-Primitive Ground Theorem candidate (CPGT v0.1)** now combines CPN, conditional S, co-instantiation C, FAP, and a Transcendence Constraint excluding merely derivative physical systems as adequate upstream grounds.
+
+CPGT v0.1 deliberately stops before Mind identification. The universal AdequateUltimateGround -> MindLike bridge remains OPEN.
