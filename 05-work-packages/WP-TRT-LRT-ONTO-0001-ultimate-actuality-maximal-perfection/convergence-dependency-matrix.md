@@ -384,3 +384,28 @@ The audit explicitly retains material physicalism, Platonism/abstracta, brute/pr
 H_M_Tinf is retained as a strong candidate because Mind has a direct model-fit to content, rational form, act, selection, and subject-unity. It receives no automatic credit for necessity, infinity, uniqueness, goodness, omniscience, omnipotence, physical instantiation, or theological identification.
 
 The universal theorem AdequateGround(g,G) -> MindLike(g) remains OPEN. FAA is presently a disciplined transcendental/comparative adequacy argument, not a completed deductive proof.
+
+
+## Ontological Convergence Bridge — 2026-09-19
+
+OCB now formally separates two independent Type-B tracks.
+
+**TRT transcendental-ground route:**
+
+D -> G -> adequate ground -> ? Transcendent Mind -> ? necessary Mind -> ? unlimited/infinite Mind.
+
+**Perfect-being route:**
+
+perfect-being concept -> independent modal/axiological premises -> ? maximally perfect being G_max.
+
+No perfect-being premise may discharge a missing TRT bridge by stealth. No TRT attribute may be credited to G_max without an independent identity argument.
+
+The eventual convergence target is:
+
+M_inf^T ?= G_max.
+
+The immediate TRT-side target is a Necessary Ground Theorem. A contingent candidate ground must be tested against: G without that ground, alternative ground substitution, ground pluralism, and null actuality.
+
+Unlimitedness is defined provisionally as absence of non-logically-necessary limitation in the fundamental respects intrinsic to the ultimate ground. Inability to actualize contradiction is not counted as a power defect.
+
+Referential identity remains separate from attribute overlap.
