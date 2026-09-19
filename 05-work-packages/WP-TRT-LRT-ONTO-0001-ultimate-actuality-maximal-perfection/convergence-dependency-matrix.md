@@ -195,3 +195,24 @@ Current structural accounting therefore treats H_S as owing L, I, A, and their c
 H_M∞ likewise owes an argument that Mind is substantive and that its intrinsic nature entails/unifies L, I, A, and C. It receives no one-primitive discount merely from the noun "Mind."
 
 No winner is recorded. The comparison now turns on which hypothesis can demonstrate a non-stipulative unity principle with fewer independent unexplained commitments.
+
+
+## Selection-to-agency result — 2026-09-19
+
+The PIB analysis now has a candidate route from physical-instantiation discrimination to minimal will without defining agency into A.
+
+Selection alone does not imply agency. Live models include brute selection, deterministic impersonal rule, stochastic rule, value-sensitive optimization, and rational intentional selection.
+
+For an ultimate Mind, however, an external selection rule creates an ultimacy debt; a brute unrelated selector creates an explanatory debt; an intrinsic rule/norm begins to locate selection within the Mind's own rational nature.
+
+Minimal categories are now:
+
+**Agency_min:** a rational subject is the source to which a reason-responsive selection among apprehended alternatives is attributable.
+
+**Will_min:** the rational agent's capacity for intentional selection/action in light of apprehended ends/reasons.
+
+These do not entail libertarian freedom or moral perfection.
+
+The key remaining burden is **source attribution**: showing that S is genuinely an act of M∞ rather than an event merely occurring in or alongside M∞.
+
+A live modal-collapse risk is also recorded: if necessary M∞ plus necessary rational nature uniquely necessitates one physical selection, derivative physical reality may become necessary. Multiple rationally permissible selections or another non-collapsing volitional structure must be examined.
