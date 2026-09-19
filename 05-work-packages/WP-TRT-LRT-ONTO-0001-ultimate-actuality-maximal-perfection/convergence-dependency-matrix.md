@@ -319,3 +319,21 @@ Key findings:
 H_S must either reduce these thick relations to thin structure, add primitive semantic/normative relations, or deny that the ultimate co-primitives are thick. H_M∞ naturally supplies one locus for content, rational relation, and act, but gains explanatory force only if thick features are independently warranted at the ultimate level.
 
 Next target: intelligibility/logical normativity, asking whether ultimate L is merely descriptive constraint or contains irreducibly normative consequence.
+
+
+## Logical normativity/intelligibility result — 2026-09-19
+
+L is now separated into:
+- L_constitutive: identity/noncontradiction-type conditions of determinate actuality;
+- L_consequence: objective consequence relations;
+- L_normative: standards governing rational inference.
+
+TRT most securely establishes L_constitutive. Objective consequence is not reducible to physical regularity under TRT's dependency order, but consequence alone does not directly entail a subject-level doxastic "ought."
+
+The strongest current ground-level claim is:
+
+**L is constitutive, objective, and non-emergent constraint on actualizability.**
+
+This does not by itself derive Mind. H_S can model L as primitive necessary structure; H_M∞ can model L as intrinsic rational nature. Each owes its own unity/necessity account.
+
+The next high-value target is a joint-unity theorem attempt: whether an impersonal ontology can non-stipulatively unify L, I, A, and C after all corrections, or whether Mind provides a uniquely substantive unity model.
