@@ -337,3 +337,26 @@ The strongest current ground-level claim is:
 This does not by itself derive Mind. H_S can model L as primitive necessary structure; H_M∞ can model L as intrinsic rational nature. Each owes its own unity/necessity account.
 
 The next high-value target is a joint-unity theorem attempt: whether an impersonal ontology can non-stipulatively unify L, I, A, and C after all corrections, or whether Mind provides a uniquely substantive unity model.
+
+
+## Necessary Logic -> Infinite Transcendent Mind theorem attempt — 2026-09-19
+
+The direct theorem Box L -> Box M_T∞ is not yet earned.
+
+The analysis now distinguishes:
+- M_T: Transcendent Mind;
+- M_T∞: Infinite Transcendent Mind.
+
+"Transcendent" means ontologically prior to and non-derivative from derivative physical actuality. "Infinite" remains a proof obligation rather than a premise.
+
+Conditional necessity schema:
+
+Box L + EssentialGround(U,L) + NGI -> Box U,
+
+where **NGI, Necessary Ground Identity**, says the ground of fundamental logical law is invariant across possible worlds. NGI/essential grounding carry the principal burden.
+
+A stronger route is now preferred over logic alone: the **Co-Primitive Ground Theorem candidate**. If L/I/A are transcendentally necessary, necessarily co-unified, and non-derivable from downstream physical systems, an adequate ultimate ground must intrinsically account for logical form, informational potential/content, act, and unity.
+
+Mind identification then depends on whether subject-level/intentional/sourcehood features survive and whether H_S can construct an equally substantive impersonal unified essence.
+
+No infinity, maximal perfection, or Christian identification is credited at this stage.
