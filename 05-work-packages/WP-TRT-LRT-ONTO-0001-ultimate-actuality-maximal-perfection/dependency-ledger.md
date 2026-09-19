@@ -223,3 +223,26 @@ A is now treated generically, with domain-indexed candidates where necessary:
 The open bridge is renamed **PIB, Physical Instantiation Bridge**: what relation connects an ultimate Mind's acts/content, if such a Mind is established, to derivative physical instantiation?
 
 This correction also supplies a clean modal-collapse control: a necessary rational informational active Mind could actively apprehend admissible possibilities without every apprehended content being physically actualized.
+
+
+## PIB first-pass result — 2026-09-19
+
+The Physical Instantiation Bridge now distinguishes:
+
+Representable_M(p)
+-> Admissible_M(p)
+-> Act_M(p)
+-> Select_phys(p)
+-> alpha_phys(p),
+
+with no automatic entailment across the last two transitions.
+
+If an ultimate Mind apprehends multiple mutually incompatible admissible physical alternatives, mental apprehension cannot itself equal physical instantiation without contradiction. A discriminator S is therefore provisionally required in any Mind-ground model with one determinate physical actuality.
+
+S is not yet identified with will, freedom, decree, or choice.
+
+Physical law does not presently solve PIB if law only constrains already-instantiated physical states; it would still presuppose physical actuality.
+
+The modal-collapse problem now localizes primarily in S: whether selection is necessary, contingent, reason-responsive, free, stochastic, or otherwise constrained.
+
+Next target: selection among admissible alternatives and whether rational selection supplies a bridge toward will/agency.
