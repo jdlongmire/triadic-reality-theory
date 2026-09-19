@@ -48,3 +48,30 @@ UA(U) + CGP -> N(U).
 This is narrower than unrestricted PSR. Its independent warrant remains **UNCERTAIN** and is now the next adversarial target.
 
 Necessity status is therefore updated from **FAILED AS STATED** to **CONDITIONAL: DERIVABLE WITH CGP; NOT DERIVED FROM TRT ALONE**.
+
+
+## Modal-semantics correction — 2026-09-19
+
+The pure derivation track now distinguishes three ontological categories explicitly:
+
+R = I_infinity = representable differentiation.
+
+D = I_adm = I_infinity | L3 = admissible/actualizable differentiation.
+
+X = I_actual = structures made actual through A.
+
+Therefore:
+
+R --L3--> D --A--> X.
+
+Shannon information is downstream of X and must not be identified with I_infinity.
+
+The earlier provisional claim Box(L AND I AND A) is suspended. Current warranted forms are:
+
+- strong candidate: Box(ModalDomain -> I AND L);
+- established conditional within TRT: Box(Actuality -> A);
+- NOT YET DERIVED: Box A.
+
+Likewise, Diamond p iff Actualizable(p) is a candidate semantics. The necessity direction Diamond p -> Actualizable(p) is presently stronger than the sufficiency direction, which still requires proof.
+
+This correction reopens the pure-track necessity question through three routes: world actuality, actualizer regress, and co-primitive necessity. CGP remains isolated to the convergence track and is not permitted to discharge this proof obligation.
