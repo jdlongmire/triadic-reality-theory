@@ -303,3 +303,19 @@ This gives sourcehood explanatory content beyond "S occurred" if those relations
 AOD is explicitly not an upstream explanation of L/I/A. It instantiates the triad plus unity in the Mind model.
 
 The key unresolved discriminator is whether intentional aboutness and reasons-as-reasons can be reduced without remainder to impersonal structural relations. That is now the next same-level H_S vs H_M∞ test.
+
+
+## Intentionality/reasons audit — 2026-09-19
+
+The same-level audit distinguishes thin structural relation R(x,y) from intrinsic intentional aboutness and reasons-as-reasons.
+
+Key findings:
+- causal/covariance relation does not by itself establish determinate reference;
+- a cause is not thereby a reason-as-reason;
+- misrepresentation introduces correctness/normative conditions;
+- aspectual apprehension ("c as evidence," "q as an end") is a strong candidate marker of a subject-locus;
+- no deductive impossibility of impersonal intrinsic semantics has yet been shown.
+
+H_S must either reduce these thick relations to thin structure, add primitive semantic/normative relations, or deny that the ultimate co-primitives are thick. H_M∞ naturally supplies one locus for content, rational relation, and act, but gains explanatory force only if thick features are independently warranted at the ultimate level.
+
+Next target: intelligibility/logical normativity, asking whether ultimate L is merely descriptive constraint or contains irreducibly normative consequence.
