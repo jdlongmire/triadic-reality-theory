@@ -282,3 +282,24 @@ not NecessitatedByReasons(S) -/-> ChanceIsSource(S).
 AOD is not established by eliminating chance, but the objection "non-necessitated choice is therefore random" now bears an independent ontological burden.
 
 Next target: formalize positive subject-sourcehood and determine whether it adds explanatory content beyond an unexplained selection event.
+
+
+## Positive AOD model — 2026-09-19
+
+Agent-Originating Determination is now specified positively rather than by contrast with determinism/chance.
+
+AOD includes:
+- active apprehension of alternatives;
+- apprehension of reasons/ends;
+- rational constraint to a permissible set;
+- intentional directedness toward selected content;
+- integration of apprehension/reasons/selection in one subject;
+- absence of an ontologically prior external sufficient selector displacing the subject;
+- an actual selecting act;
+- a stable subject-level capacity for such acts.
+
+This gives sourcehood explanatory content beyond "S occurred" if those relations are independently identifiable.
+
+AOD is explicitly not an upstream explanation of L/I/A. It instantiates the triad plus unity in the Mind model.
+
+The key unresolved discriminator is whether intentional aboutness and reasons-as-reasons can be reduced without remainder to impersonal structural relations. That is now the next same-level H_S vs H_M∞ test.
