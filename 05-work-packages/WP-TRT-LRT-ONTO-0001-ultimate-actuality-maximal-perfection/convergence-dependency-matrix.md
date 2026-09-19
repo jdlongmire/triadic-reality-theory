@@ -608,3 +608,31 @@ The semantic bridge is now partitioned:
 The MindLike bridge should therefore shift away from sensory representation alone toward the **joint thick package**.
 
 Next high-value work: proper-function ontology and rational normativity.
+
+
+## NSA-001 corrective audit — 2026-09-19
+
+A grounding-existence premise had begun to enter the bridge implicitly.
+
+TRT hard core establishes:
+
+D -> G.
+
+It does NOT yet establish:
+
+D -> exists U Ground(U,G).
+
+The latter is now explicit as **GRP, Grounding Requirement Premise**, Type B and OPEN.
+
+Consequences:
+- FAP/FAA remain valid conditionally for proposed ultimate grounds.
+- TASR remains a conditional anti-circularity test on proposed grounds.
+- CUB remains a conditional burden within grounding accounts.
+- ANNAL remains intact and removes absolute nothingness from actualizability.
+- prior NGRT language as an unconditional TRT theorem is withdrawn.
+- NGT/EGI/EGN remain useful conditional analyses if GRP is warranted.
+- OCB now requires a new bridge before ground comparison: does the irreducible constitutive package require an ultimate ground at all?
+
+Mind and IAS are both audited symmetrically under NPR/no-free-lunch. Neither receives capacities or primitive-count reductions from its label.
+
+Next critical target: **GRP-001 Grounding Requirement Test**, before further rational-normativity work.
