@@ -1,0 +1,135 @@
+id: WP-TRT-LRT-ONTO-0001
+title: Derive maximal perfection from the requirements of ultimate actuality
+status: ready
+commitment: research
+governing_objective: >
+  Determine whether the classical ontological concept of maximal perfection can be derived from
+  the requirements of ultimate actuality, rather than introduced as an unexplained definition or
+  primitive positivity predicate. Test whether LRT/TRT can supply a non-question-begging bridge
+  from logic, information, action, modality, and actuality to the attributes traditionally
+  associated with a maximally perfect or God-like being.
+
+research_question: >
+  If reality includes objective logical consequence, modal structure, truth, information,
+  actuality, and value, what must be true of their ultimate ontological ground? In particular,
+  do necessity, ultimacy, rational adequacy, actuality, unity, goodness, agency, and other
+  perfection predicates follow from those grounding requirements, and if so under exactly what
+  premises?
+
+scope: >
+  Reconstruct the Anselm-Leibniz-Godel-Plantinga ontological lineage at the level needed to isolate
+  its load-bearing premises. Give special attention to Godel's primitive positivity predicate and
+  Plantinga's possibility premise. Then construct an alternative derivational path beginning with
+  LRT/TRT commitments and ultimate actuality. Every proposed divine attribute must be derived,
+  independently assumed, or explicitly left unresolved. The package must distinguish formal
+  validity from metaphysical soundness and must not treat a definition of maximal perfection as
+  evidence for instantiation.
+
+authority_boundary: >
+  Internal philosophical analysis, primary-source research, modal formalization, dependency
+  mapping, Lean or other formal proof experiments, adversarial review, and negative findings are
+  authorized. This package does not authorize modification of the TRT or LRT hard core, promotion
+  of theological conclusions to demonstrated results, publication, external representation, or
+  merge to main without review.
+
+historical_baseline:
+  - Anselm: "that than which nothing greater can be conceived"
+  - Leibniz: perfection and the compossibility problem
+  - Godel: positive properties, God-likeness, essence, and necessary existence
+  - Plantinga: maximal excellence, maximal greatness, and the modal possibility premise
+
+candidate_derivation:
+  - objective logical consequence -> non-arbitrary logical constraint
+  - objective modality -> real modal structure or a sufficient ground for modal truth
+  - determinate actuality -> an adequate ground of actualization
+  - ultimate ground -> non-derivative / non-dependent actuality
+  - non-derivative actuality -> candidate necessity
+  - grounding of truth and intelligibility -> candidate rational or semantic adequacy
+  - grounding of objective value, if established -> candidate goodness
+  - actualizing action, if irreducible and adequately grounded -> candidate agency
+  - convergence of independently derived maximal attributes -> test for maximal perfection
+
+critical_questions:
+  - Can necessity be derived from ultimacy without illicitly defining contingency away?
+  - Does grounding logic require intellect, or only structure?
+  - Does grounding information require semantic intentionality?
+  - Does actualizing action entail agency, or can impersonal action satisfy the ontology?
+  - Is objective goodness independently established, and does its ground entail moral perfection?
+  - Can maximality be defined without Godel-style primitive positivity or a concealed great-making predicate?
+  - Are the derived attributes jointly compossible?
+  - Does the derivation establish uniqueness?
+  - Does the argument reach classical theism, generic perfect-being theology, or something weaker?
+  - What additional premises would be required to identify the result with the Christian God?
+
+actions:
+  - >
+    Verify the relevant primary texts for Anselm, Leibniz, Godel, and Plantinga and create a
+    premise-by-premise comparison of the four ontological strategies.
+  - >
+    Formalize Godel's argument sufficiently to identify exactly where positivity, possibility,
+    essence, and necessary existence enter the dependency graph.
+  - >
+    Build a dependency graph from LRT/TRT primitives to each proposed perfection predicate. Mark
+    every edge DERIVED, DEFINITIONAL, ASSUMED, CONJECTURAL, or FAILED.
+  - >
+    Attempt a derivation of necessity from ultimate actuality and record the strongest objections,
+    including modal collapse and question-begging concerns.
+  - >
+    Test whether rationality/intellect, semantic information, goodness, and agency can be derived
+    independently rather than smuggled into the meanings of logic, information, or action.
+  - >
+    Test compossibility and uniqueness of the resulting attribute set.
+  - >
+    Compare the resulting argument with Godel and Plantinga. Identify whether it eliminates,
+    relocates, or merely renames the positivity/possibility burden.
+  - >
+    Red-team the complete argument from naturalist, Platonist, Aristotelian, Thomist, Reformed
+    presuppositional, and modal-logical perspectives without assuming any rival framework is neutral.
+  - >
+    If a defensible derivation survives, specify a formal theorem target. If it does not, record
+    the exact stopping point and the minimum additional metaphysical premise required.
+
+deliverables:
+  - primary-source verification ledger
+  - ontological-argument premise matrix
+  - LRT/TRT-to-perfection dependency graph
+  - formal definition of ultimate actuality
+  - candidate derivation with numbered premises
+  - circularity and hidden-premise audit
+  - compossibility and uniqueness analysis
+  - adversarial review
+  - disposition memorandum
+  - formal proof target if warranted
+
+success_condition: >
+  The package succeeds strongly if maximal perfection, or a clearly specified substantial subset
+  of the classical divine attributes, follows from independently defended LRT/TRT grounding
+  requirements without importing maximal greatness, positivity, divine attributes, or necessary
+  existence as disguised premises. It also succeeds as research if it identifies a precise
+  non-derivable step and thereby locates the irreducible metaphysical premise.
+
+failure_condition: >
+  The proposed derivation fails if maximal perfection appears only because perfection, positivity,
+  necessity, agency, goodness, intellect, or an equivalent concept has been inserted into the
+  premises; if the dependency graph is circular; if the attributes are not jointly compossible; or
+  if the argument merely reproduces the Godel/Plantinga possibility burden under LRT/TRT vocabulary.
+  Such a result must be recorded as a negative finding rather than repaired by definitional change.
+
+epistemic_status:
+  historical_lineage: MEDIUM
+  formal_validity_of_standard_modal_arguments: MEDIUM
+  derivability_of_maximal_perfection_from_LRT_TRT: UNCERTAIN
+  derivability_of_classical_theism: UNCERTAIN
+  identification_with_the_Christian_God: OUT_OF_SCOPE_WITHOUT_ADDITIONAL_ARGUMENT
+
+verification: >
+  Done requires primary-source verification of the load-bearing historical claims; an explicit
+  premise/dependency graph; definitions for all modal and perfection terms; a circularity audit;
+  a compossibility analysis; at least one serious adversarial treatment; and a final disposition
+  that states exactly what was derived, what remained assumed, and what failed. No confidence
+  promotion is permitted solely because a formal theorem prover verifies consequence from axioms.
+
+disposition: >
+  OPENED 2026-09-19. The motivating hypothesis is that maximal perfection may be recoverable as a
+  consequence of the requirements of ultimate actuality rather than serving as the starting
+  definition of an ontological argument. No such derivation is claimed at opening.
