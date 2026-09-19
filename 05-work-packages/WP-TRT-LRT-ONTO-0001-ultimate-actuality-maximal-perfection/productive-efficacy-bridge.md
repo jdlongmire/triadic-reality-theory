@@ -1,3 +1,5 @@
+> **SUPERSEDED IN PART — 2026-09-19:** This note used A_int/A_prod language that implicitly privileged external/physical production over mental action. See `action-scope-mental-vs-physical.md`. Mental act is genuine action; the remaining issue is the domain bridge from mental content/action to derivative physical instantiation, not whether mental activity qualifies as A. Historical analysis below is retained for traceability.
+
 # Productive Efficacy Bridge: Intrinsic Activity to Actualization
 
 **WP:** WP-TRT-LRT-ONTO-0001  
