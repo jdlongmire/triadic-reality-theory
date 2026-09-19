@@ -165,3 +165,38 @@ GAP is narrower than CGP/PSR and does not require deterministic outcome selectio
 B1 independent status: CONDITIONAL ON GAP / UNCERTAIN as standalone metaphysics.
 
 Next pure-track bridge: B2, given TRT's primitive A, does A require a bearer/ground U?
+
+
+## B2 result: A -> U — 2026-09-19
+
+The strong bearer inference failed under pure-track analysis.
+
+A, read neutrally as an actuality-conferring relation/operator, does not entail a third bearer, agent, substance, or person. Relationhood supplies relata; map notation supplies no actor; ordinary "action -> actor" grammar cannot carry the metaphysical burden.
+
+A live countermodel is now explicit:
+
+**Ultimate Structural Triad**
+
+T := <L, I, A>
+
+with L, I, and A treated as irreducible co-required structure rather than properties/operations of a deeper bearer U.
+
+Co-requirement does not entail numerical unity or a single substrate.
+
+To move beyond T requires an additional bridge such as:
+- GAP2: actuality-conferring relations require an ontological ground;
+- WFG: ontological grounding is well-founded;
+- a substance/property principle;
+- an independent agency result;
+- a semantic/intellect result;
+- convergence with an independent contingency/transcendental argument.
+
+Therefore:
+
+A -> U_bearer: FAILED AS STATED / HIGH.
+
+A + GAP2 -> U_ground: CONDITIONAL.
+
+A -> personal U: NOT DERIVED.
+
+Track A has reached a natural stopping point unless the internal character of L/I/A can defeat the structural-triad countermodel. The strongest remaining pure-track candidate is whether semantic information and logical normativity require a mind-like ground.
