@@ -477,3 +477,28 @@ does not yet entail
 exists U Box_D Ground(U,G).
 
 Next target: EGI/uniqueness.
+
+
+## EGI-001 result — 2026-09-19
+
+The quantifier shift:
+
+Box_D exists U Ground(U,G)
+
+->
+
+exists U Box_D Ground(U,G)
+
+is NOT derivable from ground-role necessity, ultimacy, necessary G, or CUB alone.
+
+World-variable adequate grounds remain logically coherent. Same necessary explanandum does not entail the same numerical explainer.
+
+What survives is an **Essential Ground-Nature (EGN) requirement**: every adequate ultimate ground across W_D must instantiate a nature sufficient for the invariant functional workload G.
+
+This suggests a revised strategy:
+1. characterize invariant adequate ground-nature E_G;
+2. test whether E_G is necessarily Mind-like;
+3. derive uniqueness, if possible, from that nature;
+4. only then return to trans-world numerical identity/necessary U.
+
+Thus MindLike characterization should precede the uniqueness theorem rather than follow it.
