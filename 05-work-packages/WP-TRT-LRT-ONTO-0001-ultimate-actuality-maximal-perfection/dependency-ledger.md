@@ -200,3 +200,26 @@ A + GAP2 -> U_ground: CONDITIONAL.
 A -> personal U: NOT DERIVED.
 
 Track A has reached a natural stopping point unless the internal character of L/I/A can defeat the structural-triad countermodel. The strongest remaining pure-track candidate is whether semantic information and logical normativity require a mind-like ground.
+
+
+## Action-scope correction — 2026-09-19
+
+The earlier A_int/A_prod framing is superseded where it implied that physically external production is a fuller sense of action.
+
+A mental act is genuine A-category action. The actuality of thinking/apprehending p does not entail physical instantiation of p.
+
+New controls:
+
+- actual mental act concerning p -/-> alpha_phys(p);
+- action -/-> physical action;
+- Box M∞ -/-> Box chi_phys;
+- unlimited informational content -/-> universal physical instantiation.
+
+A is now treated generically, with domain-indexed candidates where necessary:
+- A_M: mental act;
+- A_phys: physical-domain action/actualization;
+- A_d: domain-indexed act.
+
+The open bridge is renamed **PIB, Physical Instantiation Bridge**: what relation connects an ultimate Mind's acts/content, if such a Mind is established, to derivative physical instantiation?
+
+This correction also supplies a clean modal-collapse control: a necessary rational informational active Mind could actively apprehend admissible possibilities without every apprehended content being physically actualized.
