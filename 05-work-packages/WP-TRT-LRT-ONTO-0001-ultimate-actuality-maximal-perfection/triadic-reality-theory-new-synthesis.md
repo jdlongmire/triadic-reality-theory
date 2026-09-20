@@ -27,9 +27,9 @@ TRT does not presently claim that the conjunction alone is sufficient to generat
 Use:
 
 \[
-R(i):=\operatorname{Representable}(i),\quad
-D(i):=\operatorname{Actualizable}(i),\quad
-X(i):=\operatorname{Actualized}(i).
+R(i):=\mathrm{Representable}(i),\quad
+D(i):=\mathrm{Actualizable}(i),\quad
+X(i):=\mathrm{Actualized}(i).
 \]
 
 Then:
