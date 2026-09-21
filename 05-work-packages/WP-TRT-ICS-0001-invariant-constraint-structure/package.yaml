@@ -1,0 +1,174 @@
+id: WP-TRT-ICS-0001
+title: Investigate invariant constraint structure in fundamental physics
+status: proposed
+commitment: stretch
+scope: >
+  Test whether contemporary scattering-amplitude results provide a disciplined empirical and
+  mathematical contact point for TRT/LRT claims about logical constraint, information, and
+  actualization. The primary case is the hidden-zero/surfaceology programme in which Tr(phi^3),
+  nonlinear-sigma-model pion amplitudes, and Yang-Mills gluon amplitudes share structured
+  kinematic zero loci and can be related through common amplitude structures and kinematic
+  shifts. Extend the comparison only as needed to double-copy/BCJ structure, gauge redundancy,
+  dualities, AdS/CFT, and renormalization-group universality.
+
+  The package must distinguish three levels throughout: (1) demonstrated mathematical/physical
+  structure, (2) structural interpretation, and (3) metaphysical inference. It must not infer
+  from a spacetime-independent amplitude representation that spacetime is unreal or emergent,
+  nor infer from a successful geometric representation that geometry is ontologically
+  fundamental.
+
+  The target research question is whether successful reductions in fundamental physics
+  systematically remove representation-specific object descriptions while preserving or
+  revealing invariant consequence/constraint structures, and whether that pattern has
+  discriminating relevance for TRT's schema chi = A(I | L).
+
+authority_boundary: >
+  Work inside this package may proceed without re-asking for primary-source collection,
+  mathematical reconstruction, case-study comparison, adversarial review, falsifier design,
+  traceability drafts, and negative findings. No result may be promoted as evidence that
+  spacetime is emergent, that reality is fundamentally geometry, or that TRT/LRT has been
+  empirically confirmed unless a separate argument establishes the required bridge. Do not
+  change the TRT hard core, elevate programme confidence, publish externally, or claim a novel
+  prediction without explicit review.
+
+research_questions:
+  - >
+    What exactly is invariant across the Tr(phi^3), pion/NLSM, and Yang-Mills descriptions:
+    zero loci, factorization behavior, amplitude function, kinematic shift, surface structure,
+    or some narrower mathematical object?
+  - >
+    Can the shared zero structure be represented rigorously as a consequence or admissibility
+    relation without equivocating between mathematical implication and physical law?
+  - >
+    Does surface kinematics eliminate spacetime assumptions from the physical theory, or only
+    from a particular representation/calculation of scattering observables?
+  - >
+    Across independent examples such as BCJ/double copy, gauge equivalence, dualities, and
+    universality, do representation-specific objects vary while constraint structure remains
+    invariant?
+  - >
+    Is the candidate principle "ontological depth correlates with representational invariance"
+    defensible, too strong, or reducible to ordinary structural realism?
+  - >
+    Does any observed invariant constrain the L and I terms of chi = A(I | L) in a way that
+    differs from existing structural-realist or information-theoretic interpretations?
+  - >
+    Does the physics provide any evidence concerning primitive action/actualization A, or does
+    it leave the representation-to-actuality bridge completely open?
+
+candidate_formalization: |
+  Let R_i be empirically adequate representations of a physical domain D.
+  Let C(R_i) denote the constraint/consequence structure recoverable from R_i.
+
+  Candidate invariant:
+      C* = intersection_i C(R_i)
+
+  Strong structural hypothesis:
+      If materially different R_i preserve C* while representation-specific objects O_i vary,
+      then C* has greater representation-invariant status than O_i.
+
+  Hidden-zero case:
+      Z = { k in K : A(k) = 0 }
+
+      A_phi3|_Z = 0
+      A_NLSM|_Z = 0
+      A_YM|_Z = 0
+
+  Candidate consequence reading:
+      k in Z  =>  event(k) is physically excluded within the theory.
+
+  TRT mapping to test, not assume:
+      L  <-> invariant admissibility/constraint structure
+      I  <-> determinate kinematic/informational specification
+      A  <-> primitive action/actualization
+      chi <-> physically actual outcome
+
+  Critical non-entailments:
+      representability != actuality
+      mathematical constraint != physical actualization
+      spacetime-free representation != proof that spacetime is non-fundamental
+      common geometry != proof that geometry is ontologically primitive
+
+actions:
+  - >
+    Preserve a source ledger beginning with Arkani-Hamed, Cao, Dong, Figueiredo, and He,
+    "Hidden zeros for particle/string amplitudes and the unity of colored scalars, pions and
+    gluons," JHEP 2024(10):231, DOI 10.1007/JHEP10(2024)231, and the corresponding arXiv
+    record 2312.16282.
+  - >
+    Add Arkani-Hamed, Cao, Dong, Figueiredo, and He, "Surface Kinematics and the Canonical
+    Yang-Mills All-Loop Integrand," Physical Review Letters 134, 171601 (2025),
+    DOI 10.1103/PhysRevLett.134.171601, and trace subsequent surfaceology papers through
+    primary publications.
+  - >
+    Reconstruct the hidden-zero claim directly from the primary paper: define the relevant
+    Mandelstam/kinematic variables, the zero locus, factorization near zeros, and the kinematic
+    shift relating colored scalars, pions, and gluons. Separate proved results, observed
+    patterns, conjectures, and later extensions.
+  - >
+    Build a representation-invariance matrix for at least four case studies. Columns must
+    include representation-specific ontology, invariant observable/constraint, mathematical
+    equivalence strength, empirical content, and ontological underdetermination.
+  - >
+    Compare the proposed invariant-constraint interpretation against ontic structural realism,
+    epistemic structural realism, amplitude-first interpretations, mathematical universe
+    proposals, and ordinary instrumental/computational readings. Record where TRT adds content
+    and where it merely redescribes established positions.
+  - >
+    Apply the TRT no-smuggling/no-free-lunch discipline. For every proposed mapping to L, I,
+    A, or chi, state the bridge premise explicitly and ask whether the physics supplies it or
+    whether TRT imports it.
+  - >
+    Attempt to construct a counterexample: identify a domain where radically different
+    representations preserve observables while no plausible ontological priority follows, or
+    where representation-invariant structure changes under a deeper formulation.
+  - >
+    Investigate whether hidden zeros or related amplitude structures imply a prospective,
+    independently testable constraint not already entailed by the source theories. Do not
+    manufacture novelty from computational compression.
+  - >
+    Produce a disposition: promote as empirical support/contact point, retain as philosophical
+    analogy, revise the candidate principle, or reject the proposed TRT/LRT connection.
+
+falsification_and_failure_conditions:
+  - >
+    The structural thesis is weakened if the apparent shared constraint is shown to be a
+    representation artifact, definitional translation, or consequence already guaranteed by
+    a common imported assumption rather than an independently recovered invariant.
+  - >
+    The TRT-specific relevance is weakened if every claimed L/I mapping is equally explained
+    by standard structural realism or amplitude methodology with no additional discriminating
+    content.
+  - >
+    Any claim that the work bears on A/actualization fails unless an explicit result concerns
+    physical instantiation rather than mathematical admissibility or amplitude calculation.
+  - >
+    The candidate ontological-depth principle must be revised or rejected if robust
+    counterexamples show that representational invariance does not track ontological
+    significance.
+
+verification: >
+  Done is proven by a committed research dossier that (1) reconstructs the hidden-zero and
+  surface-kinematics results from primary sources, (2) distinguishes mathematical result,
+  physical interpretation, and metaphysical inference, (3) includes a multi-case
+  representation-invariance matrix, (4) records at least one serious counterexample attempt,
+  (5) explicitly audits every TRT bridge premise for smuggling, (6) determines whether the
+  programme yields any prospective discriminator or only retrospective structural fit, and
+  (7) records a disposition without increasing TRT confidence by assertion. Any promoted TRT
+  claim must be entered into the canonical claim/traceability surfaces and pass repository
+  research-wrap, traceability build, and applicable formalization checks before merge.
+
+initial_assessment: >
+  The hidden-zero/surfaceology programme is a high-value contact point because materially
+  different quantum-field-theory descriptions exhibit common structured amplitude constraints,
+  and later surface-kinematics work obtains canonical Yang-Mills loop-integrand structure from
+  curves on surfaces. This supports investigation of representation-invariant constraint
+  structure. It does not presently establish that spacetime is emergent, that geometry is
+  fundamental, or that mathematical constraint actualizes physical events. The strongest
+  immediate TRT/LRT use is therefore as a severe comparative case for the L/I side of the
+  ontology while deliberately leaving A/actualization as an open explanatory boundary.
+
+disposition: >
+  OPEN. Treat as a research programme, not corroboration. First gate is primary-source
+  reconstruction of the hidden-zero result and a no-smuggling audit of the mapping from
+  amplitude constraints to TRT logical constraint.
