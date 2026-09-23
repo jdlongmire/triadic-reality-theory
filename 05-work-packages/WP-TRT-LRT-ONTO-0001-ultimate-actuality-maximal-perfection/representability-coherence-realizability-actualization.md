@@ -491,3 +491,289 @@ No change to the TRT/LRT hard core is authorized until:
 - conditional realizability is defined without modal circularity;
 - the counterfactual semantics are red-teamed against Molinist, Thomist, Reformed, modal-realist, and nominalist alternatives;
 - the no-smuggling/no-free-lunch audit passes.
+
+
+## 16. Reconciliation with canonical R/D/X
+
+The canonical TRT backbone remains:
+
+[
+R \xrightarrow{L_3} D \xrightarrow{A} X.
+]
+
+The refined predicates map onto that backbone as follows.
+
+### R: representable domain
+
+[
+x\in R \iff \operatorname{Rep}(x).
+]
+
+This is the cleanest correspondence and is adopted provisionally.
+
+### D: admissible / actualizable domain
+
+The earlier shorthand
+
+[
+x\in D \iff x\text{ survives }L_3
+]
+
+must be decomposed.
+
+Define logical admissibility:
+
+[
+\operatorname{Adm}_{L_3}(x)
+:=
+\operatorname{Rep}(x)\land\operatorname{Coh}_{L_3}(x).
+]
+
+Then:
+
+[
+x\in D \to \operatorname{Adm}_{L_3}(x).
+]
+
+The converse remains unproved:
+
+[
+\operatorname{Adm}_{L_3}(x)\stackrel{?}{\to}x\in D.
+]
+
+Accordingly, (D) must not yet be identified simpliciter with bare coherence.
+
+A safer provisional reading is:
+
+[
+D := \{x\in R\mid \operatorname{Adm}_{L_3}(x)\land M(x)\},
+]
+
+where (M(x)) denotes any additional metaphysical admissibility condition required beyond logical coherence.
+
+At present:
+
+[
+M(x)=\top
+]
+
+is a hypothesis, not a theorem.
+
+This exposes the exact open burden rather than concealing it in the word "actualizable."
+
+### X: actualized domain
+
+[
+x\in X \to x\in D.
+]
+
+Under TRT:
+
+[
+A:D\to X.
+]
+
+For the actual condition set (Y_a):
+
+[
+x\in X
+\to
+\operatorname{Real}(x\mid Y_a)
+\to
+\operatorname{Compat}(x,Y_a).
+]
+
+The reverse implications do not hold merely from category membership.
+
+## 17. L3/coherence result
+
+The present analysis supports the following bounded result:
+
+[
+\boxed{
+\operatorname{Coh}_{L_3}(x)
+\iff
+x\text{ contains no contradiction detectable under the current }L_3\text{ constraints}
+}
+]
+
+This is a logical result only.
+
+It does not establish:
+
+[
+\operatorname{Coh}_{L_3}(x)
+\iff
+\Diamond x.
+]
+
+Nor does it establish:
+
+[
+\operatorname{Coh}_{L_3}(x)
+\iff
+x\in D.
+]
+
+Therefore the canonical phrase "L3 filters representable structure into admissible/actualizable structure" should be read operationally as a necessary filtering stage, not as a completed proof that (L_3) alone exhausts metaphysical actualizability.
+
+### Disposition
+
+**HIGH:** (x\in D\to\operatorname{Coh}_{L_3}(x)).
+
+**MEDIUM:** (x\in R\iff\operatorname{Rep}(x)), subject to final vocabulary normalization.
+
+**UNCERTAIN:** (operatorname{Coh}_{L_3}(x)\to x\in D).
+
+**UNCERTAIN:** (x\in D\iff\Diamond x).
+
+This resolves the immediate reconciliation without strengthening the hard core.
+
+## 18. Conditional realizability without circularity
+
+To avoid defining realizability by the modal operator it is intended to explain, introduce a structural relation first.
+
+Let:
+
+[
+\operatorname{JointAdm}(x,Y)
+:=
+\operatorname{Adm}_{L_3}(x\land Y)\land M(x\land Y).
+]
+
+Then define conditional realizability provisionally as:
+
+[
+\operatorname{Real}(x\mid Y)
+:=
+\operatorname{JointAdm}(x,Y).
+]
+
+This is acceptable only if (M) can be specified independently of (Diamond).
+
+If (M) is defined as "metaphysically possible," the definition becomes circular and must be rejected.
+
+The research target is therefore:
+
+> Identify whether any constraints beyond (L_3) are required for actualizability, and if so state them extensionally or structurally without invoking the modal notion being analyzed.
+
+Until that is done, (operatorname{Real}) remains a typed research predicate rather than a canonical primitive.
+
+## 19. Counterfactual truth boundary
+
+The framework now distinguishes four propositions:
+
+[
+\operatorname{Rep}(Y\Box\!\to x)
+]
+
+the counterfactual is representable;
+
+[
+\operatorname{Coh}(Y\land x)
+]
+
+antecedent and consequent are jointly coherent;
+
+[
+\operatorname{Real}(x\mid Y)
+]
+
+the consequent is realizable under the antecedent conditions;
+
+[
+\operatorname{TrueCF}(Y\Box\!\to x)
+]
+
+the counterfactual itself is true.
+
+No equivalence among these is assumed.
+
+In particular:
+
+[
+\operatorname{Real}(x\mid Y)
+\nRightarrow
+\operatorname{TrueCF}(Y\Box\!\to x).
+]
+
+Realizability says that (x) can obtain under (Y). A true counterfactual of the form "if (Y), then (x) would obtain" says substantially more.
+
+This is the point at which Molinist middle knowledge would require an additional grounding account for creaturely WOULD claims.
+
+The current framework stops before that move.
+
+## 20. Revised canonical candidate
+
+The strongest formulation presently licensed is:
+
+[
+\boxed{
+R
+\xrightarrow{L_3\text{ necessary filter}}
+D
+\xrightarrow{A}
+X
+}
+]
+
+with:
+
+[
+x\in R\iff\operatorname{Rep}(x),
+]
+
+[
+x\in D\to\operatorname{Coh}_{L_3}(x),
+]
+
+[
+x\in X\to x\in D,
+]
+
+and:
+
+[
+\operatorname{Coh}_{L_3}(x)
+\nRightarrow
+x\in D
+]
+
+until the metaphysical sufficiency burden is discharged.
+
+For conditional analysis:
+
+[
+X(x)
+\to
+\operatorname{Real}(x\mid Y_a)
+\to
+\operatorname{Compat}(x,Y_a)
+\to
+\operatorname{Coh}(x)
+\to
+\operatorname{Rep}(x).
+]
+
+For counterfactual analysis:
+
+[
+\boxed{
+\text{IF}
+\neq
+\text{CAN}
+\neq
+\text{WOULD}
+\neq
+\text{IS}
+}
+]
+
+where:
+
+- **IF** = representable conditional;
+- **CAN** = conditionally realizable;
+- **WOULD** = true determinate counterfactual relation;
+- **IS** = actualized state.
+
+This four-way distinction is recommended for subsequent red-team work.
