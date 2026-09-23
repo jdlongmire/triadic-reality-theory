@@ -319,3 +319,119 @@ Test the Source Principle SP-A and the minimal-agency implication at the ontolog
 Only event ontology, process ontology, substance ontology, and structural ontology need to be compared as classes. ESR prohibits unbounded instance enumeration.
 
 The result should determine whether Agent_min is derivable or whether sourcehood remains an additional primitive.
+
+
+## 18. ANALOGY: Dormant Generative AI and intrinsic sourcehood
+
+**Status:** ANALOGY ONLY under ADF.  
+**Derivational weight:** ZERO.
+
+A dormant generative-AI system provides a useful downstream illustration of the already-derived distinction among informational capacity, logical/relational constraint, activation, and actual output.
+
+Schematically:
+
+\[
+I_{model}+L_{architecture}\nRightarrow A
+\]
+
+and therefore:
+
+\[
+I_{model}+L_{architecture}\nRightarrow X_{output}.
+\]
+
+Model weights do not invoke themselves. Representational capacity does not entail an actual inference event.
+
+A derivative execution chain can be represented approximately as:
+
+\[
+I_{model}
++
+L_{architecture}
++
+A_{runtime}
++
+I_{prompt}
++
+S_{invocation}
+\rightarrow
+X_{output}.
+\]
+
+This is not a model of ultimate ontology. Every term in the example is already physically actualized and externally dependent.
+
+Its legitimate use is narrower: it illustrates the categorical distinction:
+
+\[
+\text{capacity}\neq\text{activation}\neq\text{actualized result}.
+\]
+
+### Distributed-role lesson
+
+The example also illustrates what distributed grounding looks like.
+
+The model does not intrinsically supply:
+- its hardware;
+- electrical power;
+- runtime;
+- invocation;
+- prompt;
+- training history;
+- architecture;
+- external causal environment.
+
+Its logic/information capacity is therefore inert with respect to a new output until derivative activation conditions obtain.
+
+Again, this carries no first-principles proof weight.
+
+### Return to first principles
+
+The independently derived ultimate-ground requirement differs categorically.
+
+If \(g\) is ultimate, the explanation cannot terminate with:
+
+\[
+Contain(g,L,I)
+\]
+
+plus an external:
+
+\[
+h\rightarrow Activate(g).
+\]
+
+If \(h\) is ontologically prior and supplies the actuality-producing act, then \(g\) is not ultimate with respect to \(A\).
+
+Therefore, from the source/bearer argument rather than from the GenAI analogy:
+
+\[
+UltimateGround(g,X)
+\rightarrow
+IntrinsicSource(g,A).
+\]
+
+Combined with containment:
+
+\[
+UltimateGround(g,X)
+\rightarrow
+Intrinsic_g(L,I,A,C).
+\]
+
+The analogy may then be used to make this result intuitive:
+
+> Logic and information describe capacity. Capacity does not become an actualized result merely by being capacity. Derivative systems receive activation from outside themselves. An ultimate ground cannot outsource the actuality-producing source without ceasing to be ultimate in that respect.
+
+### ADF audit
+
+The following inference is prohibited:
+
+> GenAI requires external activation; therefore ultimate reality requires an intrinsic agent.
+
+The permitted order is:
+
+1. first-principles source/bearer analysis establishes the intrinsic-source requirement;
+2. the GenAI case illustrates the difference between capacity and actualization;
+3. no property of GenAI is transferred upstream as an ontological premise.
+
+**ADF status:** PASS.
