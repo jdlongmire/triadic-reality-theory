@@ -363,3 +363,76 @@ H_S: T is primitive, self-sufficient impersonal structure.
 H_M∞: T is unified as intrinsic aspects of ultimate Mind.
 
 Any future rival must compete at this ontological level or supply a valid bridge from derivative evidence to ground-level ontology.
+
+
+## 19. Analogy / Derivation Firewall — 2026-09-23
+
+The prior DSIR is tightened to distinguish legitimate analogy from illegitimate first-principles inference.
+
+### Rule
+
+Derivative actualities within \(X_{phys}\) may illustrate, model, or clarify an independently derived ontological relation. They may not serve as the first-principles premise from which the ontological conditions of actuality are inferred.
+
+Formally:
+
+\[
+p\in X_{phys}
+\Rightarrow
+IllustrativeUse(p,L/I/A)\ \text{permitted}.
+\]
+
+But:
+
+\[
+p\in X_{phys}
+\nRightarrow
+FirstPrinciplesGround(p,L/I/A).
+\]
+
+And where \(p\) already ontically presupposes the co-primitive roles:
+
+\[
+Presupposes(p,L/I/A)
+\rightarrow
+\neg UltimateGround(p,L/I/A).
+\]
+
+### Legitimate use
+
+A computer, organism, physical law, brain, information-processing system, or other derivative actuality may be used after or alongside a first-principles derivation to make a distinction intelligible.
+
+Example pattern:
+
+\[
+X\rightarrow\text{necessary conditions of }X\rightarrow(L,I,A),
+\]
+
+followed by a downstream analogy illustrating specification, constraint, and execution.
+
+### Prohibited use
+
+The following inference pattern is invalid as first-principles support:
+
+> Physical system \(p\) exhibits information, logic, and execution; therefore ultimate actuality requires Information, Logic, and Action.
+
+The example already belongs to the actuality whose ontological conditions are under investigation.
+
+### Mind-bridge consequence
+
+Human minds, brains, AI systems, computers, language, biological information systems, and other physically actualized systems may illustrate what unified content/rationality/action looks like. They may not establish the upstream premise:
+
+\[
+AdequateUltimateGround(g,\mathcal G)\rightarrow MindLike(g).
+\]
+
+That bridge must be earned from the functional and ontological requirements of \(\mathcal G\) themselves, or from independently justified same-level premises.
+
+Therefore the earlier phrase "known-mind analogue" is retained strictly as analogy/model-fit evidence. It has zero first-principles derivational force.
+
+### Control label
+
+**ADF: Analogy/Derivation Firewall**
+
+> Derivative actuality may illustrate a first-principles result. It may not ground that result.
+
+ADF applies to all subsequent Mind, agency, information, logic, selection, and sourcehood arguments in this work package.
