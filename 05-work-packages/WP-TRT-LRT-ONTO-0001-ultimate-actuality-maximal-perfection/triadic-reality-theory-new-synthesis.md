@@ -428,3 +428,74 @@ Maximal perfection remains a later convergence target.
 3. formalize C beyond mere co-instantiation if possible;
 4. attack the open AdequateGround -> MindLike bridge;
 5. separately derive necessity, unlimitedness, and uniqueness before returning to maximal perfection.
+
+
+## Modal/representability consolidation — 2026-09-23
+
+The bounded modal investigation adds the following controls without changing the co-primitive hard core.
+
+### Representability is not possibility
+
+The unrestricted representational domain R may contain contradiction-encoding and counterfactual content. Therefore:
+
+\[
+R(x)\nRightarrow D(x).
+\]
+
+Representational infinity is a domain property. It is not an invitation to enumerate representations.
+
+### Constraint-closure candidate for D
+
+Let \(G_c(x)\) be a provenance-typed constitutive-information graph for \(x\), preserving identity/reference, definitional, structural, type, and constitutive-dependency information.
+
+Let:
+
+\[
+Cl_L(G_c(x))
+\]
+
+be closure under the governing logical/constitutive constraints.
+
+Necessary direction:
+
+\[
+\bot\in Cl_L(G_c(x))\rightarrow\neg D(x).
+\]
+
+Candidate sufficiency direction:
+
+\[
+\bot\notin Cl_L(G_c(x))\stackrel{?}{\rightarrow}D(x).
+\]
+
+This remains a research conjecture. No independent fourth primitive \(M(x)\) has been established.
+
+### Counterfactual categories
+
+Use the four-way distinction:
+
+\[
+\boxed{\mathrm{IF}\neq\mathrm{CAN}\neq\mathrm{WOULD}\neq\mathrm{IS}}
+\]
+
+where:
+
+- IF = representable conditional content;
+- CAN = conditional actualizability/compatibility;
+- WOULD = a true determinate counterfactual relation;
+- IS = actualized state.
+
+CAN does not entail WOULD. This prevents the modal analysis from importing Molinist middle knowledge by definition.
+
+### Enumeration Stop Rule
+
+Further representable cases are admitted only when they:
+
+1. threaten a load-bearing L/I/A relation;
+2. identify a genuinely new irreducible primitive;
+3. falsify an adopted category distinction; or
+4. supply a counterexample outside an already tested objection class.
+
+Otherwise the case is classified and closed.
+
+The representability/essence/origin branch is therefore dispositioned and suspended. The programme returns to the principal LRT bridge obligations.
