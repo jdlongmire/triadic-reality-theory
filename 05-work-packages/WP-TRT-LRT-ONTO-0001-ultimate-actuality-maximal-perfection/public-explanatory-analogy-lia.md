@@ -39,29 +39,11 @@ A score may contain marks that cannot coherently be performed. A coherent score 
 
 This maps pedagogically onto the more precise corpus distinctions:
 
-\[
-\operatorname{Rep}(x)
-\rightarrow
-\operatorname{Coh}(x)
-\rightarrow
-\operatorname{Real}(x\mid Y)
-\rightarrow
-X(x)
-\]
+**Rep(x) → Coh(x) → Real(x | Y) → X(x)**
 
 only as a sequence of questions, not as unconditional forward implications. The formally warranted direction remains from actuality back through its necessary conditions:
 
-\[
-X(x)
-\to
-\operatorname{Real}(x\mid Y_{\mathrm{actual}})
-\to
-\operatorname{Compat}(x,Y_{\mathrm{actual}})
-\to
-\operatorname{Coh}(x)
-\to
-\operatorname{Rep}(x).
-\]
+**X(x) → Real(x | Y_actual) → Compat(x, Y_actual) → Coh(x) → Rep(x)**
 
 **Public shorthand:** Information specifies differentiated content and makes the question of realization determinate.
 
@@ -73,9 +55,7 @@ A photograph-versus-film analogy can help with dynamic cases, but it is incomple
 
 The stronger TRT point is:
 
-\[
-\text{specification} \not\Rightarrow \text{obtaining}.
-\]
+**specification ⇏ obtaining**
 
 Logic plus Information can characterize admissible or differentiated content. They do not, merely by doing so, entail that the content is actual.
 
