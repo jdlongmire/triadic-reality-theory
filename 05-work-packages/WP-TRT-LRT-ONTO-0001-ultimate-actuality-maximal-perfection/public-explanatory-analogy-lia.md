@@ -7,7 +7,7 @@
 
 ## Accessible narrative
 
-Fair question. “Ontological” just means “about what is real,” as opposed to what we think about it. So an ontological constraint is a rule reality itself has to obey. It is not merely a rule we made up. It is a constraint on what can actually be.
+Here’s the storyline. “Ontological” just means “about what is real,” as opposed to what we think about it. So an ontological constraint is a rule reality itself has to obey. It is not merely a rule we made up. It is a constraint on what can actually be.
 
 Start with logic. A coin-face cannot be both heads and not-heads at the same time and in the same respect. That is the law of non-contradiction in ordinary language. If contradiction were allowed all the way down, distinctions would collapse. “Heads” and “not-heads” could both obtain in the same respect, and determinate description would disappear.
 
