@@ -16,9 +16,9 @@ Refine the existing TRT/LRT modal backbone by distinguishing four questions that
 
 This artifact extends, but does not supersede, `trt-modal-semantics.md` and the Absolute Nothingness Non-Actualizability Lemma. It preserves the existing hard-core distinction:
 
-[
+\[
 R \nRightarrow D \nRightarrow X
-]
+\]
 
 while making explicit that conditional compatibility is indexed to a condition set and therefore cannot be modeled as a simple untyped subset chain.
 
@@ -26,69 +26,69 @@ while making explicit that conditional compatibility is indexed to a condition s
 
 Let:
 
-[
+\[
 G := \text{God}
-]
+\]
 
-[
+\[
 L := \text{logical order}
-]
+\]
 
-[
+\[
 I_{\mathrm{rep}}(x) := \text{informational representation of }x
-]
+\]
 
-[
+\[
 Y := \{y_1,\ldots,y_n\}
-]
+\]
 
 where (Y) is a specified condition set.
 
 Let:
 
-[
+\[
 \operatorname{Rep}(x)
-]
+\]
 
 mean that (x) is informationally representable.
 
 Let:
 
-[
+\[
 \operatorname{Coh}(x)
-]
+\]
 
 mean that the content represented by (x) is internally non-contradictory under (L).
 
 Let:
 
-[
+\[
 \operatorname{Compat}(x,Y)
-]
+\]
 
 mean that (x) is jointly coherent with the specified condition set (Y).
 
 Let:
 
-[
+\[
 \operatorname{Real}(x\mid Y)
-]
+\]
 
 mean that (x) is conditionally realizable given (Y).
 
 Let:
 
-[
+\[
 X(x)
-]
+\]
 
 mean that (x) is actualized.
 
 Let:
 
-[
+\[
 \mathcal A_G
-]
+\]
 
 denote divine actualizing action where the theological bridge is explicitly in scope.
 
@@ -98,9 +98,9 @@ Within the theological extension under investigation, representable information 
 
 The dependency claim is ontological rather than temporal:
 
-[
+\[
 G \to \{L,I_{\mathrm{rep}}\}.
-]
+\]
 
 This must not be read as:
 
@@ -114,17 +114,17 @@ The stronger identification of (L) and (I_{\mathrm{rep}}) with divine attributes
 
 Representability is the weakest category.
 
-[
+\[
 \operatorname{Rep}(x)
-]
+\]
 
 asserts that sufficiently determinate informational content exists to identify what is being proposed.
 
 It does not establish coherence:
 
-[
+\[
 \boxed{\operatorname{Rep}(x)\nRightarrow\operatorname{Coh}(x)}.
-]
+\]
 
 Example: the content "four-sided Euclidean triangle" is representable as a proposed conjunction even though its constitutive predicates cannot be jointly satisfied.
 
@@ -134,25 +134,25 @@ Thus semantic or informational determination must not be smuggled into metaphysi
 
 Define:
 
-[
+\[
 \operatorname{Coh}(x) \iff \neg(x\vdash_L\bot).
-]
+\]
 
 Coherence is intrinsic to the represented content under the governing logical constraints.
 
 Where coherence is assessable, representation is presupposed:
 
-[
+\[
 \operatorname{Coh}(x)\to\operatorname{Rep}(x).
-]
+\]
 
 The reverse does not hold.
 
 This refines the current TRT modal semantics without yet proving the stronger biconditional:
 
-[
+\[
 \Diamond x \iff \operatorname{Coh}(x).
-]
+\]
 
 No such equivalence is claimed here.
 
@@ -162,39 +162,39 @@ Conditional realizability is relational rather than intrinsic.
 
 A coherent (x) may fail to be compatible with a particular condition set (Y):
 
-[
+\[
 \operatorname{Coh}(x)\nRightarrow\operatorname{Compat}(x,Y).
-]
+\]
 
 Compatibility requires:
 
-[
+\[
 \operatorname{Coh}(x\land Y).
-]
+\]
 
 Candidate definition:
 
-[
+\[
 \operatorname{Compat}(x,Y)
 \iff
 \operatorname{Coh}(x\land Y).
-]
+\]
 
 Conditional realizability then requires at minimum compatibility:
 
-[
+\[
 \operatorname{Real}(x\mid Y)
 \to
 \operatorname{Compat}(x,Y).
-]
+\]
 
 Whether compatibility is sufficient for metaphysical realizability remains OPEN:
 
-[
+\[
 \operatorname{Compat}(x,Y)
 \stackrel{?}{\to}
 \operatorname{Real}(x\mid Y).
-]
+\]
 
 This is the same sufficiency burden already identified in the existing TRT modal semantics: logical admissibility is clearly necessary for actualizability, but its sufficiency for metaphysical possibility has not been demonstrated.
 
@@ -202,37 +202,37 @@ This is the same sufficiency burden already identified in the existing TRT modal
 
 The provisional subset expression
 
-[
+\[
 \text{Actuality}\subseteq\text{Conditional Realizability}\subseteq\text{Coherence}\subseteq\text{Representability}
-]
+\]
 
 is rejected as formally imprecise.
 
 The predicates are differently typed:
 
-[
+\[
 \operatorname{Rep}:\mathcal I\to\{0,1\},
-]
+\]
 
-[
+\[
 \operatorname{Coh}:\mathcal I\to\{0,1\},
-]
+\]
 
-[
+\[
 \operatorname{Compat}:\mathcal I\times\mathcal Y\to\{0,1\},
-]
+\]
 
-[
+\[
 \operatorname{Real}:\mathcal I\times\mathcal Y\to\{0,1\},
-]
+\]
 
-[
+\[
 X:\mathcal I\to\{0,1\}.
-]
+\]
 
 The defensible dependency structure is therefore:
 
-[
+\[
 X(x)
 \to
 \operatorname{Real}(x\mid Y_{\mathrm{actual}})
@@ -242,7 +242,7 @@ X(x)
 \operatorname{Coh}(x)
 \to
 \operatorname{Rep}(x),
-]
+\]
 
 where (Y_{\mathrm{actual}}) denotes the relevant actual condition set.
 
@@ -250,31 +250,31 @@ The reverse implications are denied in general.
 
 In particular:
 
-[
+\[
 \operatorname{Rep}(x)\nRightarrow\operatorname{Coh}(x),
-]
+\]
 
-[
+\[
 \operatorname{Coh}(x)\nRightarrow\operatorname{Compat}(x,Y),
-]
+\]
 
-[
+\[
 \operatorname{Compat}(x,Y)\nRightarrow\operatorname{Real}(x\mid Y)
-]
+\]
 
 until sufficiency is proven, and
 
-[
+\[
 \operatorname{Real}(x\mid Y)\nRightarrow X(x).
-]
+\]
 
 ## 7. Counterfactual representation
 
 A counterfactual can be represented as:
 
-[
+\[
 Y \Box\!\to x.
-]
+\]
 
 The present framework does not assume that every representable counterfactual has a true consequent relation.
 
@@ -289,23 +289,23 @@ God can know:
 
 Therefore divine knowledge of the represented IF does not entail actuality:
 
-[
+\[
 K_G[\operatorname{Rep}(x,Y)]\nRightarrow X(x).
-]
+\]
 
 Nor does representation entail compatibility:
 
-[
+\[
 K_G[\operatorname{Rep}(x,Y)]\nRightarrow\operatorname{Compat}(x,Y).
-]
+\]
 
 God may know exactly what a counterfactual proposes while also knowing that its antecedent-condition set logically excludes its consequent.
 
 Thus:
 
-[
+\[
 \boxed{\text{representation of an IF}\neq\text{possibility of an IS}}.
-]
+\]
 
 ## 8. IF, WOULD, and IS
 
@@ -321,9 +321,9 @@ The framework requires knowledge of the IF and of its logical status. It does no
 
 Therefore:
 
-[
+\[
 \boxed{\text{Representable IF}\neq\text{determinate creaturely WOULD}}.
-]
+\]
 
 This is the principal boundary between the present account and Molinist middle knowledge.
 
@@ -335,23 +335,23 @@ Within the theological extension, divine knowledge of representable content does
 
 Actuality requires actualizing action:
 
-[
+\[
 \mathcal A_G(I_x\mid L)\Rightarrow X(x).
-]
+\]
 
 Accordingly:
 
-[
+\[
 I_{\mathrm{rep}}(x)\nRightarrow X(x).
-]
+\]
 
 This preserves the LRT/TRT action primitive as the discriminator between admissible informational content and actuality.
 
 The formulation:
 
-[
+\[
 \text{IF}\xrightarrow{\mathcal A_G}\text{IS}
-]
+\]
 
 is therefore permitted only when the represented state is realizable and God actualizes it. It must not imply that every represented IF is an available object awaiting selection.
 
@@ -372,15 +372,15 @@ Absolute nothingness supplies no:
 
 Therefore:
 
-[
+\[
 \varnothing\nrightarrow R.
-]
+\]
 
 Within the proposed theological bridge:
 
-[
+\[
 G:I_R\xrightarrow{\mathcal A_G}R.
-]
+\]
 
 "Nothing became something" is rejected as an ontologically misleading formulation. Nothingness is not a source term.
 
@@ -388,9 +388,9 @@ G:I_R\xrightarrow{\mathcal A_G}R.
 
 This artifact preserves ANNAL:
 
-[
+\[
 R(N)\land\neg D(N)\land\neg X(N).
-]
+\]
 
 The represented content "absolute nothingness" is informationally accessible, while its intended content cannot be actualized as a determinate state without contradiction.
 
@@ -398,9 +398,9 @@ No null-world object, zero-state object, or boundary-condition object may be int
 
 Thus:
 
-[
+\[
 \operatorname{Rep}(N)\nRightarrow\operatorname{Exists}(N).
-]
+\]
 
 ## 12. No-smuggling / no-free-lunch controls
 
@@ -420,15 +420,15 @@ The following substitutions are prohibited without independent proof:
 
 No ontological status may be inferred merely from representation:
 
-[
+\[
 \boxed{\operatorname{Rep}(x)\nRightarrow\operatorname{Exists}(x)}.
-]
+\]
 
 No modal status may be inferred merely from representation:
 
-[
+\[
 \boxed{\operatorname{Rep}(x)\nRightarrow\Diamond x}.
-]
+\]
 
 ## 13. Current disposition
 
@@ -464,7 +464,7 @@ No modal status may be inferred merely from representation:
 
 Compactly:
 
-[
+\[
 \boxed{
 \operatorname{Rep}(x)
 \nRightarrow
@@ -476,7 +476,7 @@ Compactly:
 \nRightarrow
 X(x)
 }
-]
+\]
 
 with the caution that each non-entailment has a distinct type and proof burden.
 
@@ -497,17 +497,17 @@ No change to the TRT/LRT hard core is authorized until:
 
 The canonical TRT backbone remains:
 
-[
+\[
 R \xrightarrow{L_3} D \xrightarrow{A} X.
-]
+\]
 
 The refined predicates map onto that backbone as follows.
 
 ### R: representable domain
 
-[
+\[
 x\in R \iff \operatorname{Rep}(x).
-]
+\]
 
 This is the cleanest correspondence and is adopted provisionally.
 
@@ -515,47 +515,47 @@ This is the cleanest correspondence and is adopted provisionally.
 
 The earlier shorthand
 
-[
+\[
 x\in D \iff x\text{ survives }L_3
-]
+\]
 
 must be decomposed.
 
 Define logical admissibility:
 
-[
+\[
 \operatorname{Adm}_{L_3}(x)
 :=
 \operatorname{Rep}(x)\land\operatorname{Coh}_{L_3}(x).
-]
+\]
 
 Then:
 
-[
+\[
 x\in D \to \operatorname{Adm}_{L_3}(x).
-]
+\]
 
 The converse remains unproved:
 
-[
+\[
 \operatorname{Adm}_{L_3}(x)\stackrel{?}{\to}x\in D.
-]
+\]
 
 Accordingly, (D) must not yet be identified simpliciter with bare coherence.
 
 A safer provisional reading is:
 
-[
+\[
 D := \{x\in R\mid \operatorname{Adm}_{L_3}(x)\land M(x)\},
-]
+\]
 
 where (M(x)) denotes any additional metaphysical admissibility condition required beyond logical coherence.
 
 At present:
 
-[
+\[
 M(x)=\top
-]
+\]
 
 is a hypothesis, not a theorem.
 
@@ -563,25 +563,25 @@ This exposes the exact open burden rather than concealing it in the word "actual
 
 ### X: actualized domain
 
-[
+\[
 x\in X \to x\in D.
-]
+\]
 
 Under TRT:
 
-[
+\[
 A:D\to X.
-]
+\]
 
 For the actual condition set (Y_a):
 
-[
+\[
 x\in X
 \to
 \operatorname{Real}(x\mid Y_a)
 \to
 \operatorname{Compat}(x,Y_a).
-]
+\]
 
 The reverse implications do not hold merely from category membership.
 
@@ -589,31 +589,31 @@ The reverse implications do not hold merely from category membership.
 
 The present analysis supports the following bounded result:
 
-[
+\[
 \boxed{
 \operatorname{Coh}_{L_3}(x)
 \iff
 x\text{ contains no contradiction detectable under the current }L_3\text{ constraints}
 }
-]
+\]
 
 This is a logical result only.
 
 It does not establish:
 
-[
+\[
 \operatorname{Coh}_{L_3}(x)
 \iff
 \Diamond x.
-]
+\]
 
 Nor does it establish:
 
-[
+\[
 \operatorname{Coh}_{L_3}(x)
 \iff
 x\in D.
-]
+\]
 
 Therefore the canonical phrase "L3 filters representable structure into admissible/actualizable structure" should be read operationally as a necessary filtering stage, not as a completed proof that (L_3) alone exhausts metaphysical actualizability.
 
@@ -635,19 +635,19 @@ To avoid defining realizability by the modal operator it is intended to explain,
 
 Let:
 
-[
+\[
 \operatorname{JointAdm}(x,Y)
 :=
 \operatorname{Adm}_{L_3}(x\land Y)\land M(x\land Y).
-]
+\]
 
 Then define conditional realizability provisionally as:
 
-[
+\[
 \operatorname{Real}(x\mid Y)
 :=
 \operatorname{JointAdm}(x,Y).
-]
+\]
 
 This is acceptable only if (M) can be specified independently of (Diamond).
 
@@ -663,27 +663,27 @@ Until that is done, (operatorname{Real}) remains a typed research predicate rath
 
 The framework now distinguishes four propositions:
 
-[
+\[
 \operatorname{Rep}(Y\Box\!\to x)
-]
+\]
 
 the counterfactual is representable;
 
-[
+\[
 \operatorname{Coh}(Y\land x)
-]
+\]
 
 antecedent and consequent are jointly coherent;
 
-[
+\[
 \operatorname{Real}(x\mid Y)
-]
+\]
 
 the consequent is realizable under the antecedent conditions;
 
-[
+\[
 \operatorname{TrueCF}(Y\Box\!\to x)
-]
+\]
 
 the counterfactual itself is true.
 
@@ -691,11 +691,11 @@ No equivalence among these is assumed.
 
 In particular:
 
-[
+\[
 \operatorname{Real}(x\mid Y)
 \nRightarrow
 \operatorname{TrueCF}(Y\Box\!\to x).
-]
+\]
 
 Realizability says that (x) can obtain under (Y). A true counterfactual of the form "if (Y), then (x) would obtain" says substantially more.
 
@@ -707,7 +707,7 @@ The current framework stops before that move.
 
 The strongest formulation presently licensed is:
 
-[
+\[
 \boxed{
 R
 \xrightarrow{L_3\text{ necessary filter}}
@@ -715,35 +715,35 @@ D
 \xrightarrow{A}
 X
 }
-]
+\]
 
 with:
 
-[
+\[
 x\in R\iff\operatorname{Rep}(x),
-]
+\]
 
-[
+\[
 x\in D\to\operatorname{Coh}_{L_3}(x),
-]
+\]
 
-[
+\[
 x\in X\to x\in D,
-]
+\]
 
 and:
 
-[
+\[
 \operatorname{Coh}_{L_3}(x)
 \nRightarrow
 x\in D
-]
+\]
 
 until the metaphysical sufficiency burden is discharged.
 
 For conditional analysis:
 
-[
+\[
 X(x)
 \to
 \operatorname{Real}(x\mid Y_a)
@@ -753,11 +753,11 @@ X(x)
 \operatorname{Coh}(x)
 \to
 \operatorname{Rep}(x).
-]
+\]
 
 For counterfactual analysis:
 
-[
+\[
 \boxed{
 \text{IF}
 \neq
@@ -767,7 +767,7 @@ For counterfactual analysis:
 \neq
 \text{IS}
 }
-]
+\]
 
 where:
 
