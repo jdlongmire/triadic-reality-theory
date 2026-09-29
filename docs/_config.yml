@@ -1,7 +1,12 @@
 title: Triadic Reality Theory
-description: Logic, Information, and Action as irreducible co-primitives of determinate actuality
+description: A foundational ontology research programme proposing Logic, Information, and Action as three irreducible co-primitives of determinate actuality.
 baseurl: "/triadic-reality-theory"
 url: "https://jdlongmire.github.io"
+repository: "jdlongmire/triadic-reality-theory"
+author:
+  name: "James D. (JD) Longmire"
+  url: "https://orcid.org/0009-0009-1383-7698"
+lang: en_US
 markdown: kramdown
 kramdown:
   math_engine: mathjax
