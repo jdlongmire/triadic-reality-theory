@@ -1,0 +1,11 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign pages = site.pages | where_exp: "p", "p.url != nil" %}
+{% for p in pages %}{% if p.url == "/" or p.url contains "/accessible/" or p.url contains "/technical/" or p.url contains "/status/" or p.url contains "/terminology/" or p.url contains "/corpus/" %}
+<url><loc>{{ p.url | absolute_url }}</loc><lastmod>{{ site.time | date_to_xmlschema }}</lastmod></url>
+{% endif %}{% endfor %}
+</urlset>
