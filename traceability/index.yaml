@@ -6,7 +6,7 @@ generator: scripts/build.py
 prefixes:
   ONT: ontological primitives
   LOG: logical constraints
-  ACT: actualization/constitution
+  ACT: action/transition/actuality
   QM:  quantum reconstruction
   PHY: dynamics/temporal/gravity
   INT: interpretive consequences
