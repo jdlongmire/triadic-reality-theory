@@ -42,22 +42,27 @@ This is the actualization question. A possibility space does not actualize itsel
 
 ## 2. TRT/LRT mapping
 
+> **Canonical normalization (WP-TRT-CORE-0001):** this framework must distinguish representability, L₃-admissibility, actualizability, and actuality. Primitive A is fundamental state transition/change and is non-temporal in definition. “Actualization” names an outcome/status relation, not the definition of A.
+
 The framework maps naturally onto the LIA ontology.
 
-- \(L\): logic and constraint; determines admissibility and consistency.
-- \(I\): information; specifies content, structure, distinction, or state description.
-- \(\mathcal{A}\): action; provides causal efficacy or transition.
-- \(\chi\): actualization; the realized outcome.
+- \(L_3\): Identity, Non-Contradiction, and Excluded Middle as necessary ontological constraint.
+- \(I_\infty\): unbounded representable informational differentiation.
+- \(A\): fundamental state transition/change, without a primitive temporal parameter.
+- \(D\): actualizable states, a stronger category than bare L₃-coherence unless sufficiency is proved.
+- \(X/\chi\): what obtains.
 
-Canonical relation:
+Canonical architecture:
 
 \[
-\chi \equiv \mathcal{A}(I\mid L)
+R \xrightarrow{L_3\;\text{necessary filter}} D \xrightarrow{A} X\;(\chi)
 \]
+
+The older shorthand \(\chi \equiv A(I\mid L)\) remains schematic only.
 
 Interpretive shorthand:
 
-> **Logic constrains. Information specifies. Action transitions. Actualization obtains.**
+> **Logic constrains. Information differentiates. Action transitions. Actuality obtains.**
 
 This relation should not be reduced to a claim that all physical transitions are conscious acts. At the physical level, lawful secondary causation may instantiate transition dynamics. The foundational question is what ultimately grounds the existence, applicability, and efficacy of those dynamics.
 
@@ -270,18 +275,18 @@ The framework aligns with the Semantic Actualism modal triplet:
 
 State-transition analysis adds explicit attention to the mechanism by which an admissible state becomes realized.
 
-This suggests a useful distinction:
+This now yields a typed sequence rather than an assumed chain of subset equivalences:
 
 \[
-\text{representable} \supseteq \text{admissible} \supseteq \text{actualizable} \supseteq \text{actualized}
+\text{representable} \xrightarrow{L_3\;\mathrm{necessary}} \text{actualizable} \xrightarrow{A} \text{actual}
 \]
 
-The inclusions are provisional and require formal care. In particular, `actualizable` should denote more than logical consistency; it should require sufficient conditions for realization under the ontology in question.
+L₃-admissibility/coherence is a necessary intermediate predicate. Its sufficiency for `actualizable` remains unproved.
 
 ## 12. Follow-on work
 
 - Formalize P1-P6 in Lean where useful and nontrivial.
-- Clarify whether \(\mathcal{A}\) should be modeled as primitive action, transition efficacy, or a typed family of actions at different ontological levels.
+- Formalize primitive A as non-temporal state transition/change and test whether transition efficacy requires a further bridge rather than importing it by definition.
 - Develop a state-space notation compatible with the existing LIA formalization.
 - Cross-reference the BWM abiogenesis and consciousness notes.
 - Cross-reference DFM retrodictive-age and initialization work.
