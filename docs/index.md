@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Home
+title: Triadic Reality Theory (TRT)
+description: "Triadic Reality Theory proposes Logic, Information, and Action as three irreducible co-primitives necessary for determinate actuality."
 ---
 <p class="eyebrow">Triadic Reality Theory · TRT v0.10</p>
 
-# What must be present for a determinate reality to obtain?
+# Triadic Reality Theory: Logic, Information, and Action
 
 TRT proposes three **irreducible co-primitives**: logical constraint, informational differentiation, and action.
+
+In compact form, TRT describes determinate actuality as constrained information in action. The equation below expresses the ontology; the separate R-to-D-to-X architecture tracks representability, actualizability, and actuality.
 
 <div class="math-hero">
 
