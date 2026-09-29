@@ -33,11 +33,11 @@ $$D\subseteq R$$
 
 and
 
-$$x\in D\Rightarrow \operatorname{Adm}_{L_3}(x)$$
+$$x\in D\Rightarrow \mathrm{Adm}_{L_3}(x)$$
 
 It does not currently warrant the converse:
 
-$$\operatorname{Adm}_{L_3}(x)\nRightarrow x\in D$$
+$$\mathrm{Adm}_{L_3}(x)\nRightarrow x\in D$$
 
 until any additional metaphysical constraints on actualizability are identified or ruled out.
 
