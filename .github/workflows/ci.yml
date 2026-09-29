@@ -23,6 +23,7 @@ jobs:
           if ! git diff --quiet traceability/generated; then
             echo "::error::traceability/generated is stale — run build.py and commit the result"
             git diff --stat traceability/generated
+            git diff -- traceability/generated/claims.json
             exit 1
           fi
 
