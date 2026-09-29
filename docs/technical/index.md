@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Technical
+title: TRT Technical Framework
+description: "Technical formulation of Triadic Reality Theory covering L3 logical constraint, I-infinity representability, primitive action, actualizability, irreducibility, and open proof obligations."
 ---
 <p class="eyebrow">Technical & systematic framing</p>
 
-# Canonical ontology
+This page gives the systematic ontology, notation, typed actualizability architecture, irreducibility arguments, formal status, and open proof obligations for TRT.
+
+# Triadic Reality Theory technical framework
 
 $$\mathrm{TRT}=\langle L_3,I_{\infty},A\rangle$$
 
