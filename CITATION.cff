@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality"
+title: "Triadic Reality Theory: Logic, Information, and Action as Irreducible Co-Primitives of Determinate Actuality"
 message: "If you use this work, please cite it as below."
 type: software
 authors:
@@ -7,23 +7,23 @@ authors:
     given-names: James D.
     orcid: "https://orcid.org/0009-0009-1383-7698"
     email: jdlongmire@outlook.com
-version: "0.9"
-date-released: "2026-06"
+    affiliation: "Sr. Technical Fellow, Aerospace & Defense Sector"
+version: "0.10"
+date-released: "2026-09-29"
 url: "https://github.com/jdlongmire/triadic-reality-theory"
 abstract: >
-  Triadic Reality Theory proposes that actualized physical reality is constituted
-  by three co-requiring primitives: finite logical constraint, infinite
-  informational potential, and actualizing action. It is offered as a candidate
-  foundational ontology and research program, not a completed physical theory.
-# Top-level `type` is constrained by CFF 1.2 to software/dataset; the repository
-# carries Lean + Python artifacts, so `software` is retained. The scholarly object
-# to cite is the position paper, given as preferred-citation below.
+  Triadic Reality Theory proposes that determinate actuality requires three
+  irreducible co-primitives: L3 as ontological logical constraint, I-infinity as
+  unbounded informational representability/differentiation, and A as fundamental
+  state transition/change. Representability, L3-admissibility, actualizability,
+  and actuality are kept distinct.
 preferred-citation:
   type: article
-  title: "Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality"
+  title: "Triadic Reality Theory: Logic, Information, and Action as Irreducible Co-Primitives of Determinate Actuality"
   authors:
     - family-names: Longmire
       given-names: James D.
       orcid: "https://orcid.org/0009-0009-1383-7698"
+      affiliation: "Sr. Technical Fellow, Aerospace & Defense Sector"
   year: 2026
-  notes: "Position paper / preprint, v0.9. See 1-hypothesis/paper/TRT-v0.9.md."
+  notes: "Position paper / preprint, v0.10. See 1-hypothesis/paper/TRT-v0.10.md."
