@@ -41,7 +41,7 @@ jobs:
         run: lean TrtFormalization/Core/Primitives.lean
 
   math-lint:
-    name: GitHub-safe LaTeX
+    name: GitHub MathJax / LaTeX safety
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -55,4 +55,45 @@ jobs:
             echo "$HITS"
             exit 1
           fi
-          echo "OK — no \\operatorname in committed math"
+          echo "OK — no unsupported \\operatorname usage"
+
+      - name: Detect malformed display delimiters
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, sys
+
+          excluded = {Path("formalization/lrt")}
+          errors = []
+          checked = 0
+
+          for p in Path(".").rglob("*.md"):
+              if any(str(p).startswith(str(x) + "/") for x in excluded):
+                  continue
+              text = p.read_text(encoding="utf-8")
+              checked += 1
+
+              # Fenced math is valid GitHub syntax. Remove it before checking
+              # dollar-delimited blocks so its contents cannot create false hits.
+              scrubbed = re.sub(r"```math\n.*?\n```", "", text, flags=re.S)
+
+              # A line containing exactly one leading/trailing dollar is the
+              # regression that previously exposed raw LaTeX in the README.
+              for n, line in enumerate(scrubbed.splitlines(), 1):
+                  s = line.strip()
+                  if len(s) > 1 and s.startswith("$") and s.endswith("$") and not s.startswith("$") and not s.endswith("$"):
+                      # ordinary inline math is allowed when embedded in prose;
+                      # flag only a standalone math-looking line.
+                      if re.match(r"^\$\\?[A-Za-z{]", s) or "\\" in s:
+                          errors.append(f"{p}:{n}: suspicious single-dollar display line: {s}")
+
+              # Display $ delimiters must be balanced in each file.
+              if scrubbed.count("$") % 2:
+                  errors.append(f"{p}: unbalanced $ display delimiters")
+
+          if errors:
+              print("::error::Malformed GitHub math delimiters detected")
+              print("\n".join(errors))
+              sys.exit(1)
+          print(f"OK — audited {checked} Markdown files for malformed display delimiters")
+          PY
