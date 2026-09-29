@@ -2,7 +2,7 @@
 
 Lean 4 formalization of Triadic Reality Theory. The module namespaces mirror the [falsifiability tiers](../0-program-methods/METHODOLOGY.md): `Core ⇄ 1-hypothesis`, `Belt ⇄ 2-theory`, `Prediction ⇄ 3-prediction`.
 
-## Status (2026-06)
+## Status (2026-09-29)
 
 | Metric | Value |
 |--------|-------|
@@ -14,45 +14,16 @@ Lean 4 formalization of Triadic Reality Theory. The module namespaces mirror the
 
 ## Structure
 
-```
-formalization/
-├── TrtFormalization/
-│   ├── Core/Primitives.lean    # ⇄ 1-hypothesis: Representable, L3Admissible, Admissible,
-│   │                           #   Actual, Chi, OutcomeActual — the four-tier engine
-│   ├── Belt/                    # ⇄ 2-theory: co-admissibility, Born rule, gravity reduction
-│   └── Prediction/             # ⇄ 3-prediction: formal conjecture statements (where proof-shaped)
-├── lrt/                        # vendored LRT formal core (sub-project) — see lrt/README.md
-├── scripts/ { build.sh · clean.sh · update-mathlib.sh }
-├── lakefile.toml · lean-toolchain
-```
+\`\`\`
+I∞ / R  --L₃ necessary filter-->  D / Actualizable  --A-->  X / χ
+                    │
+                    └── sufficiency of L₃ for D is NOT assumed
 
-## Building
+A = primitive non-temporal state transition/change.
+Obtains = separate actuality predicate.
+\`\`\`
 
-The `Core/` primitives are Mathlib-free and typecheck without a build:
-
-```bash
-source ~/.elan/env && lean TrtFormalization/Core/Primitives.lean
-```
-
-The full project (once belt derivations + the LRT core land) needs the Mathlib cache:
-
-```bash
-cd formalization && ./scripts/build.sh    # lake exe cache get && lake build
-```
-
-## Filesystem note
-
-This repository lives on **ext4** (Macro-Drive-1TB), so — unlike the LRT origin repo on NTFS — **no `.lake` symlink to another mount is required.** `.lake/` stays in-repo and is gitignored.
-
-## Derivation chain (planned)
-
-```
-L₃ + I∞  →  Admissible (I∞|L₃)  →  A: Admissible → Actual  →  χ
-                                          ↓
-        co-admissibility criterion (Belt)  →  Born rule (Belt)  →  predictions (Prediction)
-                                          ↓
-        gravity reduction (Belt): holonomy deficit → linear? → GR  /  quadratic? → modified gravity
-```
+Protective-belt work may refine the D-to-X bridge, co-admissibility, measurement, Born-rule, and gravity models without redefining the hard-core primitives.
 
 The imported [LRT core](lrt/) supplies the verified formalization of the *L₃* constituent (LRT's X → Schrödinger chain), which TRT's `Core` and `Belt` import as needed.
 
