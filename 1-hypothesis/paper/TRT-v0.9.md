@@ -19,11 +19,15 @@ Triadic Reality Theory proposes that actualized physical reality is constituted 
 
 The central ontological identity of the theory is:
 
-$$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+```math
+\chi \equiv \mathsf{A}(I_\infty \mid L_3)
+```
 
 where *χ* denotes actual reality. The corresponding variational stability condition is:
 
-$$\delta \mathcal{S}[\chi] = 0$$
+```math
+\delta \mathcal{S}[\chi] = 0
+```
 
 where *S* is the action functional over actualized, logically admissible information. On this view, physical reality is constrained information in action. Time emerges as the ordered relation among actualized states. Energy emerges as the measurable capacity for actualization and transformation within constrained information. Spacetime emerges as the stable relational geometry of actualized informational order. Observable phenomena are higher-order structures within *χ*.
 
@@ -57,7 +61,9 @@ TRT therefore begins with three co-requiring primitives: *L₃*, the finite logi
 
 From these, actual reality is defined as:
 
-$$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+```math
+\chi \equiv \mathsf{A}(I_\infty \mid L_3)
+```
 
 This expression states that reality, denoted by the Greek letter chi, is the actualized domain of infinite informational potential under finite logical constraint through the primitive of action.
 
@@ -95,7 +101,9 @@ TRT argues that these four features point to a triadic foundation. Logic gives a
 
 The first primitive is *L₃*, the finite set of logical laws without which determinate reality cannot be coherently specified.
 
-$$L_3 = \{\text{Identity},\ \text{Non-Contradiction},\ \text{Excluded Middle}\}$$
+```math
+L_3 = \{\text{Identity},\ \text{Non-Contradiction},\ \text{Excluded Middle}\}
+```
 
 The law of identity states that a thing is itself: *P = P*. The law of non-contradiction states that a proposition and its negation cannot both be true in the same respect: *¬(P ∧ ¬P)*. The law of excluded middle states that a determinate proposition either obtains or does not obtain: *P ∨ ¬P*.
 
@@ -115,13 +123,17 @@ A domain with no possible distinctions is indistinguishable from nothing with re
 
 Thus *I∞* denotes the unbounded domain of possible distinctions and relations prior to finite actualization.
 
-$$I_\infty = \{\text{all possible distinctions, relations, states, and configurations}\}$$
+```math
+I_\infty = \{\text{all possible distinctions, relations, states, and configurations}\}
+```
 
 The subscript ∞ does not imply that an actually instantiated physical universe contains an infinite quantity of realized information. It means that informational potential is not intrinsically exhausted by any finite actual state. Finite physical systems instantiate finite informational structures. The domain of possible informational configurations remains unbounded with respect to actualization.
 
 TRT therefore distinguishes *I∞* (infinite informational potential), *I_adm* (logically admissible information), and *I_actual* (actualized information within *χ*). The logical constraint relation is:
 
-$$I_{\text{adm}} = I_\infty \mid L_3$$
+```math
+I_{\text{adm}} = I_\infty \mid L_3
+```
 
 That is, admissible information is infinite informational potential constrained by the finite laws of logic.
 
@@ -133,11 +145,15 @@ Action in TRT is more primitive than motion, force, temporal change, or physical
 
 *A* is the principle by which logically admissible informational possibility becomes determinate actuality:
 
-$$\mathsf{A}: I_{\text{adm}} \rightarrow I_{\text{actual}}$$
+```math
+\mathsf{A}: I_{\text{adm}} \rightarrow I_{\text{actual}}
+```
 
 The result is actual reality:
 
-$$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+```math
+\chi \equiv \mathsf{A}(I_\infty \mid L_3)
+```
 
 Action, in this ontological sense, is the bridge between possibility and actuality. Without action, informational potential remains merely possible. Without information, action has no object. Without logic, action has no coherent admissibility conditions.
 
@@ -153,13 +169,17 @@ The first tier is the *representable*. *I∞*, infinite informational potential,
 
 The second tier is the *admissible*. The logically admissible information is the subdomain of *I∞* that survives the constraint of *L₃*:
 
-$$I_{\text{adm}} = I_\infty \mid L_3$$
+```math
+I_{\text{adm}} = I_\infty \mid L_3
+```
 
 Here *L₃* operates as a filter. The contradiction-encoding structures of the first tier are representable but not admissible. They are present in *I∞* and excluded from *I_adm*. The constraint does not erase them from representation. It withholds them from actualization.
 
 The third tier is the *actual*. Actualizing action realizes the actual from the admissible:
 
-$$\chi = \mathsf{A}(I_{\text{adm}})$$
+```math
+\chi = \mathsf{A}(I_{\text{adm}})
+```
 
 Only structures that have passed the filter are available for actualization. A contradiction-encoding structure, excluded at the second tier, never reaches the third.
 
@@ -192,7 +212,9 @@ This claim is weaker than the effectiveness result of §9.5. The history of foun
 
 TRT denotes actual reality by the Greek letter chi: *χ*. This symbol is appropriate because chi visually suggests crossing, convergence, and intersection. TRT defines reality as the convergence of three co-requiring primitives.
 
-$$\boxed{\chi \equiv \mathsf{A}(I_\infty \mid L_3)}$$
+```math
+\boxed{\chi \equiv \mathsf{A}(I_\infty \mid L_3)}
+```
 
 In prose: *χ* is actual reality, infinite informational potential constrained by finite logic through actualizing action.
 
@@ -205,7 +227,9 @@ Several derivative uses follow: *χ_actual* (actualized reality in general); *χ
 
 The use of *χ* also clarifies the variational formulation. Instead of writing the action functional directly over unconstrained informational potential, TRT writes:
 
-$$\boxed{\delta \mathcal{S}[\chi] = 0}$$
+```math
+\boxed{\delta \mathcal{S}[\chi] = 0}
+```
 
 This states that physically actual reality exhibits stationary-action structure over logically admissible, actualized information.
 
@@ -215,23 +239,31 @@ This states that physically actual reality exhibits stationary-action structure 
 
 The central identity of TRT is:
 
-$$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+```math
+\chi \equiv \mathsf{A}(I_\infty \mid L_3)
+```
 
 The corresponding variational principle is:
 
-$$\delta \mathcal{S}[\chi] = 0$$
+```math
+\delta \mathcal{S}[\chi] = 0
+```
 
 The first equation is ontological. The second is physical. The ontological equation defines what actual reality is. The variational equation describes how physically realized reality stabilizes.
 
 The sequence is:
 
-$$I_\infty \rightarrow I_{\text{adm}} \rightarrow I_{\text{actual}} \rightarrow \chi$$
+```math
+I_\infty \rightarrow I_{\text{adm}} \rightarrow I_{\text{actual}} \rightarrow \chi
+```
 
 where *I_adm = I∞ | L₃* and *I_actual = A(I_adm)*, therefore *χ = I_actual* understood as the complete actualized domain.
 
 The action functional is then defined over *χ*:
 
-$$\mathcal{S}[\chi] = \int_\Omega \mathcal{L}(\chi, \partial\chi, L_3)\, d\Omega$$
+```math
+\mathcal{S}[\chi] = \int_\Omega \mathcal{L}(\chi, \partial\chi, L_3)\, d\Omega
+```
 
 where *L* is a Lagrangian density over actualized reality, *∂χ* denotes relational variation within actualized structure, and *dΩ* denotes the appropriate measure over the emergent domain. The stationarity condition is *δS[χ] = 0*.
 
@@ -249,7 +281,9 @@ TRT is a foundational ontology and research program. It does not yet claim a com
 
 In TRT, time is not primitive. Time emerges as relational ordering among actualized states. Let *χ_i* and *χ_j* denote distinguishable actualized reality-states. If *A* orders these states through actualization, then time is the relational ordering structure generated by action over constrained information:
 
-$$t \sim \mathrm{Ord}_{\mathsf{A}}(\chi_i, \chi_j)$$
+```math
+t \sim \mathrm{Ord}_{\mathsf{A}}(\chi_i, \chi_j)
+```
 
 Time is therefore neither an independent container nor a mere illusion. It is the ordered relation of actualization. A reality-state does not merely sit in time; temporal ordering is generated by the ordered actualization of reality-states.
 
@@ -257,7 +291,9 @@ Time is therefore neither an independent container nor a mere illusion. It is th
 
 Energy is commonly understood as the capacity to do work. That definition presupposes an already actual physical system. TRT seeks a more primitive description: energy is the measurable capacity for actualization, persistence, and transformation within constrained information.
 
-$$E \sim \frac{\Delta \mathcal{S}}{\Delta t}$$
+```math
+E \sim \frac{\Delta \mathcal{S}}{\Delta t}
+```
 
 This aligns with the dimensional relationship between action, energy, and time: *[S] = [E][t]*. Energy is therefore action-rate within an emergent temporal order. At the ontological level, energy is actualized action expressed as measurable transformation capacity.
 
@@ -265,7 +301,9 @@ This aligns with the dimensional relationship between action, energy, and time: 
 
 Spacetime is not primitive in TRT. It emerges as the stable relational geometry of actualized information. If actualized states bear relations of adjacency, ordering, transformation, and constraint, then spacetime is the geometry of those relations:
 
-$$g_{\mu\nu} \sim \mathrm{Geom}(\mathrm{Rel}(\chi))$$
+```math
+g_{\mu\nu} \sim \mathrm{Geom}(\mathrm{Rel}(\chi))
+```
 
 where *g_{μν}* denotes the emergent metric structure and *Rel(χ)* denotes the relational structure of actualized reality. This provides a conceptual bridge to quantum gravity research programs that treat spacetime as emergent from entanglement, information, causal order, or relational structure. TRT adds that such emergence must be logically admissible and action-governed.
 
@@ -273,7 +311,9 @@ where *g_{μν}* denotes the emergent metric structure and *Rel(χ)* denotes the
 
 Physical law emerges as stable regularity within the variational structure of *χ*. A physical law is not merely a human description of pattern; it is a stable constraint relation within actualized reality:
 
-$$\mathcal{L}_{\text{phys}} \subset \mathrm{Stab}(\chi)$$
+```math
+\mathcal{L}_{\text{phys}} \subset \mathrm{Stab}(\chi)
+```
 
 where *Stab(χ)* denotes stable structures of actualized reality. Physical law is therefore downstream from the triad. Logic establishes admissibility. Information supplies possible structure. Action actualizes stable order.
 
@@ -288,7 +328,9 @@ This placement resolves the apparent conflict between quantum indeterminacy and 
 
 A quantum state is a vector in a Hilbert space:
 
-$$|\psi\rangle \in \mathcal{H}_{\text{adm}}$$
+```math
+|\psi\rangle \in \mathcal{H}_{\text{adm}}
+```
 
 Considered as mathematical structure, *|ψ⟩* is fully determinate. It is a definite vector. Its unitary evolution under the Schrödinger equation is deterministic. Nothing about *|ψ⟩* as structure is fuzzy, unknown, or indeterminate. It is an element of the admissible tier, *I_adm*, and it behaves there as admissible structure behaves: consistently, determinately, and without being outcome-actual.
 
@@ -302,7 +344,9 @@ Superposition, then, is not a state that is both *P* and not-*P*. It is admissib
 
 Measurement is the actualization event. It is *A* operating across the boundary between the admissible and the actual, resolving the structured potential of *|ψ⟩* into a determinate outcome:
 
-$$|\psi\rangle \rightarrow \chi_{\text{obs}}$$
+```math
+|\psi\rangle \rightarrow \chi_{\text{obs}}
+```
 
 The Born rule is the law of that crossing. It assigns to each admissible branch the probability with which actualizing action realizes it. The rule is the bridge between the mathematical layer, where *|ψ⟩* lives and evolves, and the actual layer, where determinate outcomes obtain. The Logical Resolution Model, LRM, developed in §6.6 and named in §7, is the model of this crossing.
 
@@ -366,7 +410,9 @@ TRT provides the broader ontology within which Logic Realism Theory, hereafter L
 
 The hierarchy is:
 
-$$\text{TRT} \rightarrow \text{LRT} \rightarrow \text{LRM} \rightarrow \text{testable predictions}$$
+```math
+\text{TRT} \rightarrow \text{LRT} \rightarrow \text{LRM} \rightarrow \text{testable predictions}
+```
 
 > **Figure 4. The layer hierarchy.** From ontology to test: TRT (what actualized reality must be) → LRT (how *L₃* governs physical admissibility) → LRM (how an unresolved description resolves into a determinate outcome) → discriminating predictions. Each layer has a distinct task; none duplicates another.
 >
@@ -488,7 +534,9 @@ Action alone is blind. It supplies the conferral of actuality but no object to a
 
 The three are jointly required for the actual, and no two suffice. This is the precise sense in which the triad is minimal. The argument is not aesthetic preference for symmetry. It is the result of §9.3: each constituent answers to a distinct and independently recognizable requirement of actuality, and the removal of any one leaves no path from constituents to *χ*.
 
-$$(L_3,\ I_\infty,\ \mathsf{A}) \Longrightarrow \chi$$
+```math
+(L_3,\ I_\infty,\ \mathsf{A}) \Longrightarrow \chi
+```
 
 ### 9.5 A Standing Consequence: The Effectiveness of Mathematics
 
@@ -539,11 +587,15 @@ This claim must be stated carefully. Global co-admissibility is defined independ
 
 General relativity gives this identification a concrete foothold. The twice-contracted second Bianchi identity states that the Einstein tensor is divergence-free:
 
-$$\nabla_\mu G^{\mu\nu} = 0$$
+```math
+\nabla_\mu G^{\mu\nu} = 0
+```
 
 This is a geometric identity. Once the field equation identifies *G_μν* with *8πG T_μν*, the covariant conservation of stress-energy follows:
 
-$$\nabla_\mu T^{\mu\nu} = 0$$
+```math
+\nabla_\mu T^{\mu\nu} = 0
+```
 
 The conservation condition is therefore not appended as an external law. It is built into the geometric constraint structure: the contracted Bianchi identity gives *∇_μ G^μν = 0*, and the field equation then entails *∇_μ T^μν = 0*. In the action formulation, this same structure is tied to diffeomorphism invariance through Noether identities.
 
@@ -683,7 +735,9 @@ Triadic Reality Theory proposes that physical reality is neither brute material 
 
 The finite laws of logic provide the conditions of coherent admissibility. Infinite informational potential provides the domain of possible distinction, relation, and structure. Actualizing action brings logically admissible possibility into determinate actuality. Their convergence is reality:
 
-$$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+```math
+\chi \equiv \mathsf{A}(I_\infty \mid L_3)
+```
 
 The physical stability of that reality is expressed by *δS[χ] = 0*.
 
