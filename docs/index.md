@@ -35,3 +35,5 @@ Here $R$ is representable content, $D$ is the actualizable domain, and $X/\chi$ 
 <span class="status">Candidate foundational ontology</span>
 
 Hard-core claims are argued and partly axiomatized in the formalization. Physics-facing descendants remain protective-belt models and severe-test targets.
+
+<!-- deploy trigger: Pages enabled for GitHub Actions 2026-09-29 -->
