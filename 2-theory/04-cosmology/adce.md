@@ -30,15 +30,11 @@ The large-scale universe is expanding, and observations of distant Type Ia super
 
 In the standard model the acceleration is represented by a cosmological constant Λ or an equivalent dark-energy density. In a homogeneous and isotropic spacetime, acceleration requires a component with
 
-```math
-\rho + \frac{3p}{c^2} < 0,
-```
+$$\rho + \frac{3p}{c^2} < 0,$$
 
 and a cosmological constant satisfies $p_\Lambda = -\rho_\Lambda c^2$, so
 
-```math
-w_\Lambda = \frac{p_\Lambda}{\rho_\Lambda c^2} = -1.
-```
+$$w_\Lambda = \frac{p_\Lambda}{\rho_\Lambda c^2} = -1.$$
 
 The representation is mathematically economical and empirically successful. It does not establish what dark energy *is*. The unresolved question is ontological: what physical or geometric condition gives rise to the effective negative pressure associated with accelerated expansion?
 
@@ -62,9 +58,7 @@ CSG dynamics have already been shown to produce de Sitter-like early expansion i
 
 Sorkin predicted, in print before the 1998 supernova discovery, a fluctuating cosmological "constant" of magnitude
 
-```math
-\Lambda \sim \pm \frac{\hbar}{\sqrt{V_4}} \sim 10^{-120} \ \text{(natural units, today)},
-```
+$$\Lambda \sim \pm \frac{\hbar}{\sqrt{V_4}} \sim 10^{-120} \ \text{(natural units, today)},$$
 
 from unimodular gravity (Λ conjugate to 4-volume) plus the Poisson fluctuation $\delta N \sim \sqrt N$ of the CST dictionary (Sorkin, 1997). The phenomenological realization is "everpresent Λ" (Ahmed, Dodelson, Greene and Sorkin, 2004): Λ fluctuates about zero with magnitude tracking the ambient energy density at every epoch, which dissolves the coincidence problem by construction. Cosmological fits perform as well as ΛCDM and relieve some low-redshift tensions (Zwane, Afshordi and Sorkin, 2018), with implementation-dependence and typicality concerns subsequently flagged (Das, Nasiri and Yazdi, 2023). [HIGH]
 
@@ -72,9 +66,7 @@ from unimodular gravity (Λ conjugate to 4-volume) plus the Poisson fluctuation 
 
 Padmanabhan (2012) derives the full Friedmann dynamics from a postulated law of emergent space,
 
-```math
-\frac{dV}{dt} = L_P^2 \left( N_{\mathrm{surf}} - N_{\mathrm{bulk}} \right),
-```
+$$\frac{dV}{dt} = L_P^2 \left( N_{\mathrm{surf}} - N_{\mathrm{bulk}} \right),$$
 
 with de Sitter as the *equilibrium* state (holographic equipartition, $N_{\mathrm{surf}} = N_{\mathrm{bulk}}$). The companion CosMIn proposal fixes the numerical value of Λ from a conserved information count (Padmanabhan and Padmanabhan, 2013). Two lessons carry over. First, count-driven $dV/dt$ laws can reproduce exact FRW dynamics. Second, the program's standing criticisms (teleological justification, ad hoc sign conventions, foliation dependence) show what happens when the growth law is postulated to fit rather than derived. Note the inversion relative to ADCE: for Padmanabhan de Sitter is the equilibrium of vanishing count difference; here de Sitter would be the signature of proportional (exponential) growth. [HIGH]
 
@@ -99,9 +91,7 @@ The proposal begins from the triadic primitives: $\mathcal{I}$ (representable in
 
 Let $\mathcal{I}_{\mathrm{adm}} = \mathcal{L}(\mathcal{I})$ denote the admissible state space, and let $\Pi$ denote the actualization operator:
 
-```math
-\Pi : \mathcal{I}_{\mathrm{adm}} \rightarrow \mathcal{H}_{\mathrm{R}},
-```
+$$\Pi : \mathcal{I}_{\mathrm{adm}} \rightarrow \mathcal{H}_{\mathrm{R}},$$
 
 where $\mathcal{H}_{\mathrm{R}}$ is realized physical history. The essential distinction is between $\mathcal{I}_{\mathrm{adm}}$ as the domain of admissible possibilities and $\mathcal{H}_{\mathrm{R}}$ as the domain of physically actualized events and relations. Information is not treated as an independently acting substance; action is the transition from admissibility to realized determinacy.
 
@@ -129,15 +119,11 @@ Represent realized history as a directed causal structure $\mathcal{G}_{\mathrm{
 
 Under the CST dictionary the count and the volume are proportional by *definition*. It follows that any relation of the form
 
-```math
-H = \frac{1}{3}\frac{\dot N}{N} \quad (\text{3-volume counting}), \qquad H = \frac{1}{3}\frac{\ddot N}{\dot N} \quad (\text{4-volume counting, §9})
-```
+$$H = \frac{1}{3}\frac{\dot N}{N} \quad (\text{3-volume counting}), \qquad H = \frac{1}{3}\frac{\ddot N}{\dot N} \quad (\text{4-volume counting, §9})$$
 
 is a **kinematic identity, not a dynamical result**: it holds for every FRW history, decelerating or accelerating, because $N$ tracks volume by construction. All physical content of ADCE lives in the growth law
 
-```math
-\dot N = \Gamma(N, t)
-```
+$$\dot N = \Gamma(N, t)$$
 
 and in whatever microphysics determines it. v2 half-stated this; v3 states it outright, because mistaking the identity for a derivation is the proposal's nearest failure mode (falsification criterion 4, §16).
 
@@ -147,9 +133,7 @@ and in whatever microphysics determines it. v2 half-stated this; v3 states it ou
 
 Introduce an actualization current $A^\mu$ with divergence
 
-```math
-\nabla_\mu A^\mu = \Sigma_A \geq 0,
-```
+$$\nabla_\mu A^\mu = \Sigma_A \geq 0,$$
 
 where $\Sigma_A$ is the local source density of irreversible actualization. Candidate measures: realized events per unit 4-volume, stable causal distinctions per unit 4-volume, record-forming transitions per unit 4-volume, decohered outcome density, growth in causal-set cardinality. The correct definition must be invariant, operationally meaningful, and compatible with quantum field theory in curved spacetime. The definition should not be selected for convenience (Target 2, §15).
 
@@ -159,9 +143,7 @@ where $\Sigma_A$ is the local source density of irreversible actualization. Cand
 
 The v2-form hypothesis read: *continued irreversible actualization necessarily changes the geometry of realized spacetime.* Under the 4-volume counting adopted in §9, that statement is **false by the paper's own equations**, and the red-team pass caught the failure (review, vector 1). With $N = \rho_4 V_4$ and $V_4 = V_c \int_0^t a^3\, dt'$:
 
-```math
-\dot N = \rho_4 V_c\, a^3 > 0 \quad \text{for any } a(t) > 0.
-```
+$$\dot N = \rho_4 V_c\, a^3 > 0 \quad \text{for any } a(t) > 0.$$
 
 A static universe ($a$ constant) accumulates 4-volume, hence realized history, linearly and forever at saturated density with zero metric evolution; a contracting universe likewise sustains $\dot N > 0$. Constant-rate actualization corresponds *exactly* to a static universe. The capacity bound plus continued actualization therefore constrain $a(t)$ not at all. **Falsification criterion 3 (§16) fired against the v2-form statement, and the firing is registered rather than papered over.**
 
@@ -169,9 +151,7 @@ A static universe ($a$ constant) accumulates 4-volume, hence realized history, l
 
 > The actualization rate accelerates, for reasons grounded in the growth dynamics of realized causal structure (candidate grounds in §10), and dark energy is the effective gravitational signature of that acceleration.
 
-```math
-\mathcal{I}_{\mathrm{adm}} \rightarrow \Pi \rightarrow \ddot N > 0 \rightarrow \Delta g_{\mu\nu}.
-```
+$$\mathcal{I}_{\mathrm{adm}} \rightarrow \Pi \rightarrow \ddot N > 0 \rightarrow \Delta g_{\mu\nu}.$$
 
 This is a strictly weaker and honestly harder claim than v2's: nothing *forces* it, and the burden is entirely on deriving the growth law (Target 5). One alternative escape remains open and unexecuted: a back-reaction argument that a static geometry cannot *sustain* actualization (that admissible-state supply or record formation dies without expansion), which would restore a forcing form. Until such an argument exists, the forcing language is retired.
 
@@ -203,15 +183,11 @@ Two escape routes exist. Either argue that actualization events are not Bousso e
 
 For a comoving domain with $V_4(t) = V_c \int_0^t a^3(t')\, dt'$ and $N = \rho_4 V_4$:
 
-```math
-\dot N = \rho_4 V_c\, a^3 \quad\Longrightarrow\quad a \propto \dot N^{1/3}, \qquad H = \frac{1}{3}\frac{\ddot N}{\dot N}.
-```
+$$\dot N = \rho_4 V_c\, a^3 \quad\Longrightarrow\quad a \propto \dot N^{1/3}, \qquad H = \frac{1}{3}\frac{\ddot N}{\dot N}.$$
 
 Differentiating, the acceleration condition becomes
 
-```math
-\frac{\ddot a}{a} = \frac{1}{3}\frac{\dddot N}{\dot N} - \frac{2}{9}\left(\frac{\ddot N}{\dot N}\right)^2 > 0 \quad\Longleftrightarrow\quad 3\, \dot N\, \dddot N > 2\, \ddot N^2.
-```
+$$\frac{\ddot a}{a} = \frac{1}{3}\frac{\dddot N}{\dot N} - \frac{2}{9}\left(\frac{\ddot N}{\dot N}\right)^2 > 0 \quad\Longleftrightarrow\quad 3\, \dot N\, \dddot N > 2\, \ddot N^2.$$
 
 Reference cases (all verified symbolically):
 
@@ -357,9 +333,7 @@ v3.2 executed Targets 3 and 5 (FLRW level) — [adce-t3t5-report.md](adce-t3t5-r
 
 Not yet established: everything on the target list, now including the $N_R \to N_P$ bridge law. The decisive chain remains
 
-```math
-\Sigma_A \rightarrow \ddot N(t) \rightarrow g_{\mu\nu} \rightarrow T^{(A)}_{\mu\nu} \rightarrow w_A(z),
-```
+$$\Sigma_A \rightarrow \ddot N(t) \rightarrow g_{\mu\nu} \rightarrow T^{(A)}_{\mu\nu} \rightarrow w_A(z),$$
 
 derived without inserting accelerated expansion into the assumptions. The program succeeds only if that chain is completed; it is abandoned or absorbed into the fluctuation mechanism if criteria 15 or 16 fire.
 
