@@ -1,37 +1,94 @@
 # The Hard Core
 
-> **Tier:** 1-hypothesis. **Lakatos role:** the **hard core** of the research programme — the commitments held immune from refutation by the *negative heuristic*. Refutation is not aimed here; it is directed at the [protective belt](../2-theory/). This file enumerates *what is in the core*, so that the negative heuristic can be applied without ambiguity.
->
-> See [`../0-program-methods/METHODOLOGY.md`](../0-program-methods/METHODOLOGY.md) for why the core is immune (by *necessity*, not merely convention) and how the belt/heuristic/appraisal apparatus surrounds it. The narrative statement of the core is the position paper, [`paper/TRT-v0.9.md`](paper/TRT-v0.9.md).
+> **Tier:** 1-hypothesis. **Lakatos role:** hard core of the research programme. This file states the canonical commitments after WP-TRT-CORE-0001. Protective-belt models remain refutable and revisable.
 
-## The immune commitments
+## Canonical thesis
 
-1. **The central identity.** Actual reality is constrained information in action:
-   $$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
+Any determinate actuality necessarily exhibits **logical constraint, informational differentiation, and action**. TRT identifies these as three irreducible co-primitives:
 
-2. **The three co-requiring primitives.**
-   - *L₃* — finite logical constraint: {Identity, Non-Contradiction, Excluded Middle}, functioning as the admissibility condition for physical actuality.
-   - *I∞* — infinite informational potential: the unbounded domain of possible distinctions, relations, states, configurations.
-   - *A* — actualizing action: the principle by which logically admissible possibility becomes determinate actuality, *A: I_adm → I_actual*.
+$$\mathrm{TRT}=\langle L_3,I_{\infty},A\rangle$$
 
-3. **Co-requirement (not definitional circularity).** The three are mutually co-requiring constituents of actualized reality, each characterizable on its own terms, none obtaining in isolation. The only dependency edge runs from the triad to its output *χ*; the dependency graph is acyclic (paper §9.2).
+### L₃: ontological logical constraint
 
-4. **The four-tier engine.** The load-bearing distinction:
-   - *Representable* — any well-formed structure in *I∞*, including contradiction-encoding ones.
-   - *Admissible* — representable structures that survive *L₃*: *I_adm = I∞ | L₃*.
-   - *Actual* — structures *A* has realized; members of *χ*; always determinate, always satisfy excluded middle.
-   - *Outcome-actual* — the determinate result of a measurement (a quantum state is admissible and real, but not outcome-actual).
+$$L_3=\{\mathrm{Identity},\mathrm{NonContradiction},\mathrm{ExcludedMiddle}\}$$
 
-5. **The synthetic necessity of the triad** (paper §9.3), resting on one openly-stated posit: **actuality is a genuine status distinct from possibility.** Remove any constituent and a distinct failure mode appears — determinacy (no *L₃*), differentiation (no *I∞*), actuality (no *A*).
+L₃ constrains what may determinately obtain. It supplies neither informational content nor transition. Denial of Identity or Non-Contradiction is argued by elenchus to depend upon the logical resources it attempts to deny. The physical reach of Excluded Middle remains exposed through the programme's FLL work.
 
-6. **The layer hierarchy.** TRT → LRT → LRM → testable predictions. TRT is the ontology; [LRT](../formalization/lrt/) formalizes the *L₃* constituent; LRM models the measurement crossing; predictions test LRM.
+### I∞: unbounded informational representability
 
-## The warrant for immunity — by necessity, not convention
+I∞ is the unbounded domain of representable informational differentiation: distinctions, relations, states, configurations, and structures.
 
-Orthodox Lakatos holds the hard core immune *by methodological decision*. TRT's core carries a stronger warrant for its logical constituent: **the denial of *L₃* is self-refuting** (paper §7.1, after Aristotle's *Metaphysics* Γ). One cannot construct a non-*L₃* alternative the way one constructs non-Euclidean geometry, because the construction itself deploys identity and non-contradiction. This is a demonstration by refutation (*elenchus*), not by derivation.
+**Representability is not actualizability.** TRT keeps the following predicates distinct:
 
-A precision the core must keep: *L₃* governs the **form** of the actual; it does not entail the **fact** of the actual. A domain of pure unactualized possibility violates no logical law. So *L₃* and *A* remain co-requiring constituents, not one wearing two names (paper §7.1).
+- **Representable (R):** content can be determinately represented.
+- **Coherent / L₃-admissible:** the represented content survives the necessary logical filter.
+- **Actualizable (D):** the content satisfies every condition required for possible realization.
+- **Actual (X/χ):** the content obtains.
 
-## What is *not* in the core
+Contradiction-encoding content may therefore be representable without being coherent or actualizable.
 
-Everything formal and adjustable: the specific form of the co-admissibility criterion, the linear-vs-quadratic measure choice, the Lagrangian, the holonomy identification, the Born-rule treatment, the gravity-reduction auxiliary assumptions. These are the [protective belt](../2-theory/) and take the brunt of refutation. Aiming modus tollens at *them* — not at the core — is the negative heuristic in practice.
+TRT currently warrants:
+
+$$D\subseteq R$$
+
+and
+
+$$x\in D\Rightarrow \operatorname{Adm}_{L_3}(x)$$
+
+It does not currently warrant the converse:
+
+$$\operatorname{Adm}_{L_3}(x)\nRightarrow x\in D$$
+
+until any additional metaphysical constraints on actualizability are identified or ruled out.
+
+### A: fundamental action
+
+A is primitive **state transition/change**. Its definition does not presuppose physical time, motion, force, energy, work, or the word *actualization*.
+
+Schematically:
+
+$$A:s_i\rightarrow s_j$$
+
+where the relation marks ontological transition between informationally distinguishable states. Physical dynamics are downstream specifications of this primitive. Ordered A-relations may ground derivative temporal succession.
+
+Actualization is a role of A in the passage from an actualizable domain to what obtains. It is not the definition of A.
+
+## Canonical architecture
+
+$$R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi)$$
+
+The first arrow is deliberately marked **necessary filter**, not equivalence. L₃-coherence is necessary for D; its sufficiency is an open burden.
+
+The familiar compact expression may be used only with this qualification:
+
+$$\chi \equiv \mathsf{A}(I_{\infty}\mid L_3,\ldots)$$
+
+The ellipsis denotes any further actualizability conditions that future work may establish. It must not be read as a license to invent auxiliary constraints.
+
+## Irreducibility obligations
+
+1. **L₃ is irreducible to I∞ or A.** Content and transition presuppose determinate identity and non-contradictory applicability; neither supplies the constraint by being content or transition.
+2. **I∞ is irreducible to L₃ or A.** Constraint has nothing to constrain without differentiation; transition has no distinguishable relata without informational content.
+3. **A is irreducible to L₃ or I∞.** Constraint and representation do not entail that any represented state changes or obtains. Possibility does not perform its own transition.
+
+These are arguments in the hard core, with formal and adversarial work continuing. They are not relabeled empirical theorems.
+
+## Necessity claim
+
+Given determinate actuality:
+
+- remove L₃ and determinacy loses coherent constraint;
+- remove I∞ and there is no differentiable content;
+- remove A and there is no transition from what can be represented/realized to an obtaining state.
+
+The necessity claim rests openly on the distinction between possibility/representability and actuality.
+
+## Layer hierarchy
+
+TRT is the ontology. LRT develops the logical constituent. Physics-facing models, measurement models, gravity work, cosmology, and predictions belong to the protective belt or severe-test tiers. No downstream model may silently redefine the co-primitives.
+
+## What is not in the hard core
+
+The hard core does not include a proof that L₃ exhausts metaphysical actualizability, a particular co-admissibility measure, a Lagrangian, a Born-rule derivation, a gravity reduction, a measurement interpretation, or a specific cosmological dynamics. Those remain revisable research claims.
+
+Historical documents that use **actualizing action**, **I_adm = I∞ | L₃**, or a simple nested four-tier engine must be read through the normalization record in WP-TRT-CORE-0001 unless they have been explicitly updated.
