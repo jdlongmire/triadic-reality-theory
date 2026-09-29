@@ -112,11 +112,11 @@ I∞ denotes the unbounded domain of representable informational differentiation
 
 TRT does not infer possibility from representation:
 
-$\operatorname{Rep}(x)\nRightarrow\Diamond x$
+$\mathrm{Rep}(x)\nRightarrow\Diamond x$
 
 and does not infer actuality from representation:
 
-$\operatorname{Rep}(x)\nRightarrow X(x)$
+$\mathrm{Rep}(x)\nRightarrow X(x)$
 
 A contradiction can therefore be represented without being coherent or actualizable.
 
@@ -140,11 +140,11 @@ R is the representable domain. D is the actualizable domain. X/χ is what obtain
 
 The warranted direction is:
 
-$x\in D\Rightarrow \operatorname{Adm}_{L_3}(x)$
+$x\in D\Rightarrow \mathrm{Adm}_{L_3}(x)$
 
 The converse is open:
 
-$\operatorname{Adm}_{L_3}(x)\nRightarrow x\in D$
+$\mathrm{Adm}_{L_3}(x)\nRightarrow x\in D$
 
 until TRT establishes that no further metaphysical actualizability conditions are required.
 
