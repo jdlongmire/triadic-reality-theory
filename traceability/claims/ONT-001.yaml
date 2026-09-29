@@ -11,7 +11,7 @@ proof_status: prose_only
 epistemic_status: argued
 formal_artifacts:
   lean:
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: Chi, status: definition }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Chi, status: axiom }
 depends_on:
   - { claim_id: ONT-002, dependency_type: logical }
   - { claim_id: ONT-003, dependency_type: formal }
