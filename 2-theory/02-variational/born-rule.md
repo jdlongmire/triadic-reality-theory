@@ -1,8 +1,8 @@
 # Born Rule — The Logical Resolution Model (Task 2.2)
 
-> **Tier:** 2-theory (protective belt). **Lakatos role:** formalization target — the adjustable account of how actualizing action *A* crosses the admissible→actual boundary. **Provenance:** the §6.6 half of the working file `TRT-LRM-conjecture.md` (the §13 half is the severe test at [`3-prediction/co-admissibility-conjecture.md`](../../3-prediction/co-admissibility-conjecture.md)).
+> **Tier:** 2-theory (protective belt). **Lakatos role:** formalization target — the adjustable account of how fundamental action *A* crosses the admissible→actual boundary. **Provenance:** the §6.6 half of the working file `TRT-LRM-conjecture.md` (the §13 half is the severe test at [`3-prediction/co-admissibility-conjecture.md`](../../3-prediction/co-admissibility-conjecture.md)).
 >
-> **Task 2.2 (ROADMAP):** derive the Born measure from constraints on actualizing action across the admissible→actual boundary, rather than assuming it. *Confidence: LOW.* *Failure condition:* if the measure cannot be derived and must be assumed, TRT inherits the measurement problem's hard core unchanged (as the paper concedes). The keystone this depends on is [`../00-foundational/actualization-resolution.md`](../00-foundational/actualization-resolution.md).
+> **Task 2.2 (ROADMAP):** derive the Born measure from constraints on fundamental action across the admissible→actual boundary, rather than assuming it. *Confidence: LOW.* *Failure condition:* if the measure cannot be derived and must be assumed, TRT inherits the measurement problem's hard core unchanged (as the paper concedes). The keystone this depends on is [`../00-foundational/actualization-resolution.md`](../00-foundational/actualization-resolution.md).
 
 ---
 
@@ -10,7 +10,7 @@
 
 The reconciled §6.5 located measurement as the crossing from admissible structure to actualized outcome and named the Logical Resolution Model as the account of that crossing. This file specifies what LRM proposes. The proposal has two parts, and they carry very different evidential weight.
 
-The crossing decomposes into two stages. The first runs from the representable to the admissible, *I∞ → I_adm*. The second runs from the admissible to the actual, *I_adm → χ*. LRM makes a substantive claim about the first stage and an honest concession about the second.
+The crossing decomposes into two stages. The first runs from the representable to the admissible, *R → L₃-admissible*. This is only a necessary logical filter. The second research burden asks which L₃-admissible structures belong to actualizable *D* and how fundamental action relates *D* to outcome-actual *χ*. LRM makes a substantive claim about the first stage and an honest concession about the second.
 
 ### 6.6.1 The First Stage: Resolution to the Admissible Set
 
@@ -26,7 +26,7 @@ The value of the re-description, if it has value, is twofold. It grounds the sel
 
 The first stage resolves the representable to the co-admissible set. In general this set has more than one member. The number-basis pointer states of a decohered field are a co-admissible set, not a single state. Something further selects the one outcome that actualizes on a given occasion.
 
-LRM does not explain that final selection. The transition from the co-admissible set to the single actual outcome, *I_adm → χ*, is the residual actualization event, the operation of *A* on an occasion. TRT locates it, names it, and assigns it the Born rule as its probabilistic law, but it does not derive the Born measure and does not say what fixes the particular outcome beyond its probability. This is the hard residue of the measurement problem. The factoring is the contribution: the first stage is logical and, TRT claims, explicable; the second stage is the genuine remainder, and TRT does not pretend to have removed it.
+LRM does not explain that final selection. The transition from the co-admissible set to the single actual outcome, *D → χ*, is the residual actualization event, the operation of *A* on an occasion. TRT locates it, names it, and assigns it the Born rule as its probabilistic law, but it does not derive the Born measure and does not say what fixes the particular outcome beyond its probability. This is the hard residue of the measurement problem. The factoring is the contribution: the first stage is logical and, TRT claims, explicable; the second stage is the genuine remainder, and TRT does not pretend to have removed it.
 
 **This second stage is the keystone question** — see [`../00-foundational/actualization-resolution.md`](../00-foundational/actualization-resolution.md). Whether *A* resolves by obstruction-registration (linear) or best-fit projection (quadratic) governs both the Born measure here and the gravity fork in [`../03-gravity/`](../03-gravity/).
 
