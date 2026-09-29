@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Accessible
+title: Triadic Reality Theory Explained
+description: "An accessible introduction to Triadic Reality Theory: why determinate reality is proposed to require logical constraint, informational differentiation, and fundamental action."
 ---
 <p class="eyebrow">Accessible framing</p>
 
-# Three things a determinate reality requires
+# Triadic Reality Theory explained: three requirements for determinate reality
 
 Start with a concrete state: a coin lying heads-up.
+
+This introduction presents the same Logic-Information-Action ontology used in the technical TRT corpus, using ordinary examples before formal notation.
 
 ## Logic constrains
 
