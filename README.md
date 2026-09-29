@@ -2,9 +2,9 @@
 
 A foundational-ontology research program proposing that physical reality is **constrained information in action**: the convergence of finite logical constraint (*L₃*), infinite informational potential (*I∞*), and actualizing action (*A*), yielding actualized reality (*χ*).
 
-$
+```math
 \chi \equiv \mathsf{A}\!\left(I_{\infty}\mid L_{3}\right), \qquad \delta \mathcal{S}[\chi] = 0
-$
+```
 
 **Status: TRT v0.9 — a coherent position paper, not yet a formalized theory.** It is genuinely open to falsification. Its discipline is the maintenance of honest confidence labels and stated failure conditions; that discipline is the asset.
 
