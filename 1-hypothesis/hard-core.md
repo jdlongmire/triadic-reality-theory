@@ -76,10 +76,10 @@ The first arrow is deliberately marked **necessary filter**, not equivalence. L�
 The familiar compact expression may be used only with this qualification:
 
 ```math
-\chi \equiv \mathsf{A}(I_{\infty}\mid L_3,\ldots)
+\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)
 ```
 
-The ellipsis denotes any further actualizability conditions that future work may establish. It must not be read as a license to invent auxiliary constraints.
+The compact identity expresses the conjunction of TRT's three irreducible co-primitives. It is distinct from the stronger claim that L₃ alone exhausts the conditions for membership in D. The latter remains an open proof obligation in the typed R → D → X architecture.
 
 ## Irreducibility obligations
 
