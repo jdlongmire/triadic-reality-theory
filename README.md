@@ -8,13 +8,17 @@ Triadic Reality Theory is a foundational-ontology research programme built aroun
 
 The compact architecture is:
 
-$$R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi)$$
+```math
+R \xrightarrow{\;L_3\;\mathrm{necessary\ filter}\;} D \xrightarrow{\;A\;} X\;(\chi)
+```
 
 Here **R** is the representable domain, **D** is the actualizable domain, and **X/χ** is actualized reality. TRT does **not** presently identify D with every L₃-coherent member of R. L₃ is necessary for actualizability; whether it exhausts the constraints on actualizability remains an open proof obligation.
 
 A useful schematic remains:
 
-$$\chi \equiv \mathsf{A}(I_{\infty}\mid L_3,\ldots)$$
+```math
+\chi \equiv \mathsf{A}(I_{\infty}\mid L_3,\ldots)
+```
 
 The ellipsis is deliberate: it prevents the notation from asserting, before proof, that L₃ alone is sufficient to determine the actualizable domain.
 
