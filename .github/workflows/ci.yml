@@ -34,7 +34,16 @@ jobs:
       - name: Install elan + Lean (pinned by lean-toolchain)
         run: |
           curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o elan-init.sh
-          bash elan-init.sh -y --default-toolchain "$(cat formalization/lean-toolchain)"
+          # releases.lean-lang.org intermittently 500s on the toolchain tarball;
+          # retry a few times before failing the job.
+          for i in 1 2 3; do
+            if bash elan-init.sh -y --default-toolchain "$(cat formalization/lean-toolchain)"; then
+              break
+            fi
+            echo "elan toolchain install failed (attempt $i/3)"
+            if [ "$i" -lt 3 ]; then sleep 20; fi
+          done
+          test -x "$HOME/.elan/bin/lean" || { echo "::error::elan toolchain install failed after 3 attempts"; exit 1; }
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Typecheck Core/Primitives.lean (no Mathlib, must have 0 sorry)
         working-directory: formalization
