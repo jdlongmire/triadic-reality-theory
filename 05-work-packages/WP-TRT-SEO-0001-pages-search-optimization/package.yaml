@@ -1,0 +1,78 @@
+id: WP-TRT-SEO-0001
+title: Optimize TRT Pages for search discovery and scholarly indexing
+status: proposed
+commitment: stretch
+scope: >
+  Optimize the deployed Triadic Reality Theory GitHub Pages site for technical search
+  discovery, general-web search, machine-readable scholarly identity, and high-quality
+  link previews without changing the canonical TRT ontology or overstating research status.
+  SEO work applies to the Pages presentation layer and supporting repository metadata.
+dependency: >
+  Depends on WP-TRT-CORE-0001 for canonical terminology and WP-TRT-PAGES-0001 for the
+  deployed Pages information architecture. SEO copy must remain semantically subordinate
+  to the hard core, TRT v0.10, and canonical traceability.
+authority_boundary: >
+  This package authorizes titles, descriptions, canonical URLs, structured metadata,
+  sitemap/robots configuration, Open Graph and social metadata, semantic headings,
+  internal linking, indexability controls, scholarly metadata, accessibility-adjacent
+  discoverability improvements, and measurement/verification artifacts. It does not
+  authorize keyword stuffing, fabricated authority signals, inflated claim language,
+  misleading scientific status, hidden text, doorway pages, link schemes, or changes to
+  the TRT hard core for ranking purposes.
+objectives:
+  - Make the canonical TRT identity and subject matter intelligible to search engines from
+    titles, descriptions, headings, visible prose, and structured data.
+  - Establish unambiguous canonical URLs for Home, Accessible, Technical, Status,
+    Terminology, and Corpus surfaces.
+  - Improve discovery for relevant concepts including Triadic Reality Theory, logic
+    realism, ontological logic, information ontology, action ontology, foundational
+    ontology, representability versus actualizability, and logic-information-action.
+  - Expose author identity, ORCID, version, research status, repository, citation, and
+    licensing in machine-readable form without implying peer review or institutional
+    endorsement.
+  - Make the technical corpus easy for crawlers and human researchers to traverse through
+    disciplined internal links and descriptive anchor text.
+  - Preserve proper LaTeX/MathJax while ensuring surrounding textual descriptions carry
+    the semantic content needed by non-math-aware indexers.
+actions:
+  - Audit every deployed Pages route for title, meta description, canonical URL, H1/H2
+    structure, visible topic statement, internal links, and indexability.
+  - Add or configure jekyll-seo-tag where useful, or implement equivalent explicit metadata
+    in the shared layout if tighter control is warranted.
+  - Add canonical link tags and per-page SEO front matter.
+  - Add Open Graph and social-card metadata with a stable TRT title, description, and
+    share image strategy.
+  - Add JSON-LD using appropriate Schema.org types such as WebSite, ScholarlyArticle or
+    CreativeWork only where the type accurately describes the surface.
+  - Encode James D. (JD) Longmire, ORCID 0009-0009-1383-7698, canonical repository,
+    version, license, and date metadata consistently.
+  - Generate sitemap.xml and robots.txt and verify that intended public pages are crawlable.
+  - Add descriptive text equivalents around principal equations so indexing does not
+    depend on MathJax interpretation.
+  - Build intentional internal-link paths among Accessible, Technical, Status,
+    Terminology, Corpus, hard core, position paper, formalization, and traceability.
+  - Audit headings and page copy for search clarity while preserving the two-register
+    accessible/technical architecture.
+  - Add a concise glossary/discovery vocabulary layer where it improves semantic retrieval
+    without creating duplicate or doorway content.
+  - Check repository and Pages metadata for consistent project naming: Triadic Reality
+    Theory (TRT).
+  - Add automated checks for canonical tags, unique titles/descriptions, sitemap presence,
+    broken internal links, missing H1s, and accidental noindex directives.
+  - Validate structured data syntax and manually inspect rendered source for metadata.
+  - Establish a baseline/indexing checklist for Google Search Console and Bing Webmaster
+    Tools; do not claim indexing until externally confirmed.
+  - Record search-target rationale and rejected SEO tactics so later optimization cannot
+    silently degrade epistemic discipline.
+verification: >
+  Done requires every intended Pages route to have a unique descriptive title and meta
+  description, a canonical URL, one coherent H1, crawlable internal navigation, and no
+  accidental indexing block; sitemap and robots surfaces must resolve; structured data
+  must validate syntactically and accurately represent author/project/status; principal
+  equations must have indexable prose equivalents; internal links must pass automated
+  checks; Open Graph metadata must be present; and an adversarial review must confirm that
+  optimization has not inflated TRT's scientific or proof status. External indexing and
+  ranking are observed outcomes, not completion criteria and must not be fabricated.
+disposition: >
+  OPEN. Principal approved a dedicated SEO optimization work package on 2026-09-29 for
+  the deployed TRT Pages site.
