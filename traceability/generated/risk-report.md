@@ -17,7 +17,7 @@
 | ACT-001 | 1 | If transition can be eliminated without explanatory loss, A is not irreducible. If actual states need not satisfy L₃, the canonical gate fails. |
 | EXT-001 | 1 | If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable. |
 | EXT-002 | 2 | If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson sprinkling proves inconsistent with Lorentz invariance or with continuum recovery), ADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival loses its fluctuation magnitude; the comparison in adce.md §11 becomes moot. |
-| LOG-001 | 1 | If L₃ is merely conventional, the hard core loses its transcendental warrant. |
+| LOG-001 | 1 | If L₃ is merely conventional rather than ontologically constraining, the logical constituent of TRT loses its transcendental warrant. |
 | LOG-002 | 1 | This is what makes TRT's hard core stronger than an orthodox Lakatosian core. If the transcendental argument fails, immunity falls back to mere convention. |
 | ONT-001 | 1 | If the typed R-D-X architecture fails, TRT's canonical relation among representability, actualizability, action, and actuality requires revision. |
 | ONT-002 | 1 | A successful reduction of any primitive to the other two, without explanatory loss or smuggling, defeats the irreducibility claim and requires hard-core revision. |
