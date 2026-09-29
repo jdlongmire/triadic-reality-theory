@@ -26,9 +26,9 @@ $R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi
 
 R denotes representable content, D the actualizable domain, and X/χ what obtains. TRT presently claims that L₃-admissibility is necessary for D. It does not claim that L₃ alone exhausts the conditions of actualizability. The familiar compact expression
 
-$\chi \equiv \mathsf{A}(I_\infty\mid L_3,\ldots)$
+$\chi \equiv \mathsf{A}(I_\infty\mid L_3)$
 
-is therefore schematic rather than a proof of sufficiency. The ellipsis marks any further actualizability conditions that future work may establish.
+states the compact three-co-primitive ontology. It is not a proof that L₃-coherence is sufficient for membership in D; that stronger modal claim belongs to the typed R → D → X architecture and remains open.
 
 The irreducibility claim is functional and ontological: constraint cannot supply differentiated content or transition; information cannot supply its own admissibility or transition; action cannot supply the distinctions upon which it operates or the constraints under which transition is admissible. Ordered A-relations are candidates for grounding temporal succession, so physical time is not built into primitive A.
 
@@ -152,9 +152,9 @@ until TRT establishes that no further metaphysical actualizability conditions ar
 
 The compact identity
 
-$\chi \equiv \mathsf{A}(I_\infty\mid L_3,\ldots)$
+$\chi \equiv \mathsf{A}(I_\infty\mid L_3)$
 
-is schematic. The ellipsis records the open sufficiency burden.
+states the compact ontology. The open sufficiency burden concerns the separate relation between L₃-admissibility and D, not an omitted term in the compact identity.
 
 ### 3.5 Irreducibility
 
