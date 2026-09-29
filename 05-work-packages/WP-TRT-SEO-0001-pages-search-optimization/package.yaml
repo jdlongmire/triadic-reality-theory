@@ -1,6 +1,6 @@
 id: WP-TRT-SEO-0001
 title: Optimize TRT Pages for search discovery and scholarly indexing
-status: proposed
+status: in_progress
 commitment: stretch
 scope: >
   Optimize the deployed Triadic Reality Theory GitHub Pages site for technical search
@@ -74,5 +74,4 @@ verification: >
   optimization has not inflated TRT's scientific or proof status. External indexing and
   ranking are observed outcomes, not completion criteria and must not be fabricated.
 disposition: >
-  OPEN. Principal approved a dedicated SEO optimization work package on 2026-09-29 for
-  the deployed TRT Pages site.
+  IN PROGRESS 2026-09-29. Canonical/meta descriptions, canonical URLs, Open Graph, JSON-LD, author/ORCID/version/license metadata, robots.txt, sitemap.xml, semantic H1/topic copy, indexing checklist, adversarial status review, and automated SEO contract checks are committed. Awaiting green Pages build/deploy and rendered-site verification before closure.
