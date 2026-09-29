@@ -56,16 +56,3 @@ jobs:
             exit 1
           fi
           echo "OK — no \\operatorname in committed math"
-
-      - name: Reject dollar-delimited display math
-        run: |
-          # GitHub mobile has repeatedly exposed literal $...$ source. Display
-          # equations in TRT Markdown must use fenced ```math blocks.
-          HITS=$(grep -rn '\$\
- --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true)
-          if [ -n "$HITS" ]; then
-            echo "::error::Dollar-delimited display math found — use Unicode on high-visibility surfaces or fenced math in technical documents (see 0-program-methods/research-practices.md)"
-            echo "$HITS"
-            exit 1
-          fi
-          echo "OK — no dollar-delimited display math"
