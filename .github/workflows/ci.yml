@@ -41,7 +41,7 @@ jobs:
         run: lean TrtFormalization/Core/Primitives.lean
 
   math-lint:
-    name: GitHub-safe LaTeX (no \operatorname in committed math)
+    name: GitHub-safe LaTeX
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -56,3 +56,16 @@ jobs:
             exit 1
           fi
           echo "OK — no \\operatorname in committed math"
+
+      - name: Reject dollar-delimited display math
+        run: |
+          # GitHub mobile has repeatedly exposed literal $...$ source. Display
+          # equations in TRT Markdown must use fenced ```math blocks.
+          HITS=$(grep -rn '\$\
+ --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true)
+          if [ -n "$HITS" ]; then
+            echo "::error::Dollar-delimited display math found — use fenced math blocks (see 0-program-methods/research-practices.md)"
+            echo "$HITS"
+            exit 1
+          fi
+          echo "OK — display math uses fenced math blocks"
