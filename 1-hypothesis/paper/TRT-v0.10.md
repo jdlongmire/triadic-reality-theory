@@ -58,9 +58,9 @@ The question of why physical reality exists with intelligible order remains one 
 
 Triadic Reality Theory, hereafter TRT, begins from those presuppositions and asks what must be minimally present for any physical reality to obtain.
 
-The proposal is that physical reality cannot be grounded in law alone, information alone, or action alone. Law alone has no content to constrain. Information alone has no determinate admissibility. Action alone has no intelligible object or direction. Actualized reality requires the joint presence of finite logical constraint, infinite informational potential, and actualizing action, no one of which constitutes the actual in isolation.
+The proposal is that physical reality cannot be grounded in law alone, information alone, or action alone. Law alone has no content to constrain. Information alone has no determinate admissibility. Action alone has no intelligible object or direction. Actualized reality requires the joint presence of finite logical constraint, infinite informational potential, and fundamental action, no one of which constitutes the actual in isolation.
 
-TRT therefore begins with three co-requiring primitives: *L₃*, the finite logical laws of identity, non-contradiction, and excluded middle; *I∞*, infinite informational potential; and *A*, actualizing action.
+TRT therefore begins with three irreducible co-primitives: *L₃*, the finite logical laws of identity, non-contradiction, and excluded middle; *I∞*, infinite informational potential; and *A*, fundamental action.
 
 From these, actual reality is defined as:
 
@@ -166,16 +166,16 @@ These are the core irreducibility arguments. Their further formalization and adv
 
 ## 4. The Symbol of Reality: χ
 
-TRT denotes actual reality by the Greek letter chi: *χ*. This symbol is appropriate because chi visually suggests crossing, convergence, and intersection. TRT defines reality as the convergence of three co-requiring primitives.
+TRT denotes actual reality by the Greek letter chi: *χ*. This symbol is appropriate because chi visually suggests crossing, convergence, and intersection. TRT defines reality as the convergence of three irreducible co-primitives.
 
 $$\boxed{\chi \equiv \mathsf{A}(I_\infty \mid L_3)}$$
 
-In prose: *χ* is actual reality, infinite informational potential constrained by finite logic through actualizing action.
+In prose: *χ* is actual reality, infinite informational potential constrained by finite logic through fundamental action.
 
-> **Figure 2. χ as convergence.** The three co-requiring primitives — finite logical constraint *L₃*, infinite informational potential *I∞*, and actualizing action *A* — converge to constitute actual reality *χ*, the form the χ glyph itself suggests.
+> **Figure 2. χ as convergence.** The three irreducible co-primitives — finite logical constraint *L₃*, infinite informational potential *I∞*, and fundamental action *A* — converge to constitute actual reality *χ*, the form the χ glyph itself suggests.
 >
 > **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig02-chi-convergence.svg`
-> *Spec:* three labelled inflows (*L₃*, *I∞*, *A*) meeting at a central node *χ*, laid out to echo the crossing of the Greek letter χ. Annotate each leg with its role (*L₃* = admissibility / form; *I∞* = content; *A* = actualization), and label the convergence with the identity χ ≡ A(I∞ | L₃). Convey co-requirement (none alone yields χ). Print-safe, monochrome.
+> *Spec:* three labelled inflows (*L₃*, *I∞*, *A*) meeting at a central node *χ*, laid out to echo the crossing of the Greek letter χ. Annotate each leg with its role (*L₃* = admissibility / form; *I∞* = content; *A* = actualization), and label the convergence with the identity χ ≡ A(I∞ | L₃). Convey joint necessity (none alone yields χ). Print-safe, monochrome.
 
 Several derivative uses follow: *χ_actual* (actualized reality in general); *χ_t* (a reality-state at relational ordering index *t*); *χ_phys* (physical reality); *χ_obs* (observed reality); *χ_adm* (a logically admissible candidate reality-state).
 
@@ -201,9 +201,9 @@ The first equation is ontological. The second is physical. The ontological equat
 
 The sequence is:
 
-$$I_\infty \rightarrow I_{\text{adm}} \rightarrow I_{\text{actual}} \rightarrow \chi$$
+$R \xrightarrow{L_3\;\mathrm{necessary}} D \xrightarrow{A} X\;(\chi)$
 
-where *I_adm = I∞ | L₃* and *I_actual = A(I_adm)*, therefore *χ = I_actual* understood as the complete actualized domain.
+Here L₃ supplies a necessary logical filter on R, D denotes the stronger actualizable domain, and A supplies fundamental transition toward what obtains in X/χ. TRT does not identify L₃-coherence with D without further proof.
 
 The action functional is then defined over *χ*:
 
@@ -256,7 +256,7 @@ where *Stab(χ)* denotes stable structures of actualized reality. Physical law i
 
 ### 6.5 Quantum States and the Boundary of Actualization
 
-The quantum state has a precise location within the three-tier structure of §3.4. It is real, but not outcome-actual. It is a structure of the admissible, *I_adm*, a real physical feature at the level of constrained potentiality, standing at the boundary where actualizing action resolves admissible potential into a determinate outcome. Superposition names that boundary condition: admissible physical structure prior to the crossing into outcome-actuality.
+The quantum state has a precise location within the three-tier structure of §3.4. It is real, but not outcome-actual. It is a structure of the admissible, *I_L3*, a real physical feature at the level of constrained potentiality, standing at the boundary where fundamental action resolves admissible potential into a determinate outcome. Superposition names that boundary condition: admissible physical structure prior to the crossing into outcome-actuality.
 
 This placement resolves the apparent conflict between quantum indeterminacy and the law of excluded middle, and it does so without weakening the law.
 
@@ -266,7 +266,7 @@ A quantum state is a vector in a Hilbert space:
 
 $$|\psi\rangle \in \mathcal{H}_{\text{adm}}$$
 
-Considered as mathematical structure, *|ψ⟩* is fully determinate. It is a definite vector. Its unitary evolution under the Schrödinger equation is deterministic. Nothing about *|ψ⟩* as structure is fuzzy, unknown, or indeterminate. It is an element of the admissible tier, *I_adm*, and it behaves there as admissible structure behaves: consistently, determinately, and without being outcome-actual.
+Considered as mathematical structure, *|ψ⟩* is fully determinate. It is a definite vector. Its unitary evolution under the Schrödinger equation is deterministic. Nothing about *|ψ⟩* as structure is fuzzy, unknown, or indeterminate. It is an element of the admissible tier, *I_L3*, and it behaves there as admissible structure behaves: consistently, determinately, and without being outcome-actual.
 
 What is unresolved is not the structure but the actualization. The state encodes the structured potential for several actual outcomes. It does not specify which outcome actualizes. That non-specification is not a defect in the structure and not a gap in an observer's knowledge. It is the structure standing at the threshold of actuality, prior to the action that would resolve it.
 
@@ -280,12 +280,12 @@ Measurement is the actualization event. It is *A* operating across the boundary 
 
 $$|\psi\rangle \rightarrow \chi_{\text{obs}}$$
 
-The Born rule is the law of that crossing. It assigns to each admissible branch the probability with which actualizing action realizes it. The rule is the bridge between the mathematical layer, where *|ψ⟩* lives and evolves, and the actual layer, where determinate outcomes obtain. The Logical Resolution Model, LRM, developed in §6.6 and named in §7, is the model of this crossing.
+The Born rule is the law of that crossing. It assigns to each admissible branch the probability with which fundamental action realizes it. The rule is the bridge between the mathematical layer, where *|ψ⟩* lives and evolves, and the actual layer, where determinate outcomes obtain. The Logical Resolution Model, LRM, developed in §6.6 and named in §7, is the model of this crossing.
 
-> **Figure 3. The actualization boundary.** A quantum state *|ψ⟩* is admissible (ontic) structure standing at the boundary of actuality; measurement is actualizing action *A* crossing that boundary, governed in probability by the Born rule, to yield a determinate outcome-actual *χ_obs*.
+> **Figure 3. The actualization boundary.** A quantum state *|ψ⟩* is admissible (ontic) structure standing at the boundary of actuality; measurement is fundamental action *A* crossing that boundary, governed in probability by the Born rule, to yield a determinate outcome-actual *χ_obs*.
 >
 > **[FIGURE-PLACEHOLDER]** — *type:* conceptual schematic · *tool:* D2 · *asset:* `figures/fig03-actualization-boundary.svg`
-> *Spec:* a vertical boundary line dividing "admissible (I_adm)" on the left from "actual (χ)" on the right. On the left, *|ψ⟩* shown as a superposition fan of co-admissible branches (e.g. pointer states). An arrow labelled *A* / measurement crosses the boundary; annotate the arrow with the Born rule (branch probabilities). On the right, a single determinate *χ_obs* (outcome-actual). Make clear the state is real on the left (not ignorance) — psi-ontic. Print-safe, monochrome.
+> *Spec:* a vertical boundary line dividing "admissible (I_L3)" on the left from "actual (χ)" on the right. On the left, *|ψ⟩* shown as a superposition fan of co-admissible branches (e.g. pointer states). An arrow labelled *A* / measurement crosses the boundary; annotate the arrow with the Born rule (branch probabilities). On the right, a single determinate *χ_obs* (outcome-actual). Make clear the state is real on the left (not ignorance) — psi-ontic. Print-safe, monochrome.
 
 Once the crossing is made, the outcome is a structure of the actual tier, and there the law of excluded middle holds without exception. The measured system is determinately *P* or determinately not-*P*. No proposition over the actual outcome is both affirmed and denied. The law governs propositions over the actual, and the actual is exactly what measurement produces.
 
@@ -301,7 +301,7 @@ This preserves *L₃* intact. The law is not scoped down, qualified, or suspende
 
 The placement above must answer a strong result. Pusey, Barrett, and Rudolph (2012) proved that, under the assumption of preparation independence, the quantum state cannot be interpreted as mere knowledge about an underlying determinate physical state. If two distinct quantum states could correspond to the same underlying reality with overlapping probability, a contradiction with quantum predictions follows. The theorem rules out the psi-epistemic program: the view that *|ψ⟩* represents an observer's ignorance of a definite value the system already possesses.
 
-TRT's boundary reading is not psi-epistemic, and the theorem does not touch it. TRT does not hold that *|ψ⟩* is ignorance of a determinate actual value. It holds that *|ψ⟩* is real admissible structure standing at the boundary of actualization. There is no determinate actual value beneath the superposition of which the observer is ignorant. There is admissible structure that has not yet been actualized. This is a psi-ontic position: the state is a real physical feature of the system, not a state of knowledge about a deeper reality. The theorem is consistent with psi-ontic readings, and it is best understood as an argument for exactly the kind of view TRT takes. The reality TRT assigns to *|ψ⟩* is the reality of the admissible tier, *I_adm*, which is genuine structure and not nothing, and the fact that a given system is governed by *this* *|ψ⟩* rather than another is a real fact about the system.
+TRT's boundary reading is not psi-epistemic, and the theorem does not touch it. TRT does not hold that *|ψ⟩* is ignorance of a determinate actual value. It holds that *|ψ⟩* is real admissible structure standing at the boundary of actualization. There is no determinate actual value beneath the superposition of which the observer is ignorant. There is admissible structure that has not yet been actualized. This is a psi-ontic position: the state is a real physical feature of the system, not a state of knowledge about a deeper reality. The theorem is consistent with psi-ontic readings, and it is best understood as an argument for exactly the kind of view TRT takes. The reality TRT assigns to *|ψ⟩* is the reality of the admissible tier, *I_L3*, which is genuine structure and not nothing, and the fact that a given system is governed by *this* *|ψ⟩* rather than another is a real fact about the system.
 
 The theorem therefore strengthens rather than threatens the present account. It closes the epistemic reading that an earlier formulation of §3.1 mistakenly adopted, and it leaves standing the boundary reading developed here.
 
@@ -309,13 +309,13 @@ The theorem therefore strengthens rather than threatens the present account. It 
 
 This account locates the measurement problem precisely. It does not dissolve it.
 
-TRT specifies where measurement sits in its ontology: the crossing of the boundary between admissible structure and actualized outcome, performed by *A*, governed at the level of probability by the Born rule. It does not thereby explain why the Born rule takes the form it does, why actualizing action resolves one admissible branch rather than another on a given occasion, or what, if anything, determines the particular outcome beyond its probability. These are the hard residues of the measurement problem, and TRT inherits them. What it offers is a precise relocation: the problem is the problem of the boundary crossing, not a problem about hidden values beneath the state, nor a problem about observer knowledge. The Born rule is named as the law of the crossing, and the derivation of that law from the triadic structure, rather than its assumption, is left as an open problem and recorded in §12.
+TRT specifies where measurement sits in its ontology: the crossing of the boundary between admissible structure and actualized outcome, performed by *A*, governed at the level of probability by the Born rule. It does not thereby explain why the Born rule takes the form it does, why fundamental action resolves one admissible branch rather than another on a given occasion, or what, if anything, determines the particular outcome beyond its probability. These are the hard residues of the measurement problem, and TRT inherits them. What it offers is a precise relocation: the problem is the problem of the boundary crossing, not a problem about hidden values beneath the state, nor a problem about observer knowledge. The Born rule is named as the law of the crossing, and the derivation of that law from the triadic structure, rather than its assumption, is left as an open problem and recorded in §12.
 
 The honest claim is that TRT clarifies the location and character of the measurement problem and recasts it as a question about the actualization boundary. The honest disclaimer is that clarifying a problem's location is not solving it.
 
 ### 6.6 The Logical Resolution Model
 
-The Logical Resolution Model specifies the crossing named in §6.5. The proposal has two parts, and they carry very different evidential weight. The crossing decomposes into two stages: the first runs from the representable to the admissible, *I∞ → I_adm*; the second runs from the admissible to the actual, *I_adm → χ*. LRM makes a substantive claim about the first stage and an honest concession about the second.
+The Logical Resolution Model specifies the crossing named in §6.5. The proposal has two parts, and they carry very different evidential weight. The crossing decomposes into two stages: the first runs from the representable to the admissible, *I∞ → I_L3*; the second runs from the admissible to the actual, *I_L3 → χ*. LRM makes a substantive claim about the first stage and an honest concession about the second.
 
 #### 6.6.1 The First Stage: Resolution to the Admissible Set
 
@@ -331,14 +331,14 @@ The value of the re-description, if it has value, is twofold. It grounds the sel
 
 The first stage resolves the representable to the co-admissible set. In general this set has more than one member. The number-basis pointer states of a decohered field are a co-admissible set, not a single state. Something further selects the one outcome that actualizes on a given occasion.
 
-LRM does not explain that final selection. The transition from the co-admissible set to the single actual outcome, *I_adm → χ*, is the residual actualization event, the operation of *A* on an occasion. TRT locates it, names it, and assigns it the Born rule as its probabilistic law, but it does not derive the Born measure and does not say what fixes the particular outcome beyond its probability. This is the hard residue of the measurement problem, recorded as open in §12. The factoring is the contribution: the first stage is logical and, TRT claims, explicable; the second stage is the genuine remainder, and TRT does not pretend to have removed it.
+LRM does not explain that final selection. The transition from the co-admissible set to the single actual outcome, *I_L3 → χ*, is the residual actualization event, the operation of *A* on an occasion. TRT locates it, names it, and assigns it the Born rule as its probabilistic law, but it does not derive the Born measure and does not say what fixes the particular outcome beyond its probability. This is the hard residue of the measurement problem, recorded as open in §12. The factoring is the contribution: the first stage is logical and, TRT claims, explicable; the second stage is the genuine remainder, and TRT does not pretend to have removed it.
 
 
 ---
 
 ## 7. Relation to Logic Realism Theory
 
-TRT provides the broader ontology within which Logic Realism Theory, hereafter LRT, is situated. Logic Realism Theory is the TRT-derived thesis that logical form is not merely descriptive of thought or language but constraining upon physical admissibility. It is not to be confused with generic logical realism as a stance in the philosophy of logic; LRT is the named layer of the present program that formalizes one of TRT's three co-requiring constituents: the governance that finite logical constraint, *L₃*, exerts over what can be actualized.
+TRT provides the broader ontology within which Logic Realism Theory, hereafter LRT, is situated. Logic Realism Theory is the TRT-derived thesis that logical form is not merely descriptive of thought or language but constraining upon physical admissibility. It is not to be confused with generic logical realism as a stance in the philosophy of logic; LRT is the named layer of the present program that formalizes one of TRT's three irreducible co-primitives: the governance that finite logical constraint, *L₃*, exerts over what can be actualized.
 
 The hierarchy is:
 
@@ -351,7 +351,7 @@ $$\text{TRT} \rightarrow \text{LRT} \rightarrow \text{LRM} \rightarrow \text{tes
 
 TRT asks what actualized reality must be. LRT asks how finite logical constraint governs physical admissibility. LRM, the Logical Resolution Model, asks how an unresolved quantum description resolves into a determinate observed state. Predictions are the discriminating outputs of that resolution model.
 
-Each layer has a distinct task and none duplicates another. TRT is the ontology: three co-requiring constituents, *L₃*, *I∞*, and *A*, yielding actualized reality *χ*. LRT is the constraint program: the formalization of how *L₃* governs the admissible states that *A* can actualize. LRM is the measurement model: the account of transition from unresolved admissible potentiality to determinate outcome. The predictions test LRM and, through it, the program above.
+Each layer has a distinct task and none duplicates another. TRT is the ontology: three irreducible co-primitives, *L₃*, *I∞*, and *A*, yielding actualized reality *χ*. LRT is the constraint program: the formalization of how *L₃* governs the admissible states that *A* can actualize. LRM is the measurement model: the account of transition from unresolved admissible potentiality to determinate outcome. The predictions test LRM and, through it, the program above.
 
 ### 7.1 The Status of Logical Constraint Within TRT
 
@@ -363,13 +363,13 @@ This is the status Aristotle assigned to the principle of non-contradiction in *
 
 The standing objection to this position, dialetheism, holds that some contradictions are true. TRT's answer is structural and is developed in §3.4: the contradictions dialetheism adduces are real structures of the representable tier and are excluded at the gate between the representable and the actual. They never actualize. The objection therefore bears on the logic of representation and not on the ontology of *χ*, and LRT's constraint stands at the level it claims to govern.
 
-A precision is required here, because the claim is easily overstated. *L₃* governs the *form* of the actual. It does not entail the *fact* of the actual. A domain of pure unactualized possibility, the admissible without actualization, violates no logical law. Mathematical structure is not a contradiction. *L₃* therefore cannot be what forces actualization, and LRT does not claim that it does. Logical constraint settles what *A* may actualize, not whether *A* actualizes. The constraint and the actualization remain distinct, which is precisely why *L₃* and *A* are co-requiring constituents rather than one constituent wearing two names. This preserves the result of §9.4, that logic alone is sterile: a system governed only by *L₃*, with no *I∞* to supply content and no *A* to actualize, yields no determinate reality at all.
+A precision is required here, because the claim is easily overstated. *L₃* governs the *form* of the actual. It does not entail the *fact* of the actual. A domain of pure unactualized possibility, the admissible without actualization, violates no logical law. Mathematical structure is not a contradiction. *L₃* therefore cannot be what forces actualization, and LRT does not claim that it does. Logical constraint settles what *A* may actualize, not whether *A* actualizes. The constraint and the actualization remain distinct, which is precisely why *L₃* and *A* are irreducible co-primitives rather than one constituent wearing two names. This preserves the result of §9.4, that logic alone is sterile: a system governed only by *L₃*, with no *I∞* to supply content and no *A* to actualize, yields no determinate reality at all.
 
 ### 7.2 What the Relocation Settles
 
 Positioning LRT as the formalization of the *L₃* constituent settles two questions that a reader carries from the earlier sections.
 
-It settles what TRT adds beyond LRT. LRT formalizes one constituent. TRT adds *I∞* and *A* as co-requiring constituents alongside *L₃*, together with the actualization relation that yields *χ*. TRT is broader because logical constraint, however foundational, governs the admissible without supplying either its content or its actuality. The added constituents are not downstream of logic. They are co-required with it.
+It settles what TRT adds beyond LRT. LRT formalizes one constituent. TRT adds *I∞* and *A* as irreducible co-primitives alongside *L₃*, together with the actualization relation that yields *χ*. TRT is broader because logical constraint, however foundational, governs the admissible without supplying either its content or its actuality. The added constituents are not downstream of logic. They are co-required with it.
 
 It settles the relation between the logical commitment and the physics. LRT is the program through which the inviolable logical constraint is given physical formalization, the layer at which *L₃*'s governance is developed into a model of admissible physical states. LRM then operates within that program to model measurement as resolution. The single chain, TRT to LRT to LRM to predictions, carries the development from ontology through constraint to measurement to test, with no redundant layer between them.
 
@@ -393,7 +393,7 @@ Quantum information theory shows that information is not merely a convenient des
 
 ### 8.4 Constructor Theory
 
-Constructor theory frames physics in terms of possible and impossible transformations. This is strongly congenial to TRT because it treats possibility, impossibility, and transformation as fundamental categories. TRT supplies an ontological foundation beneath that distinction. Possibility and impossibility require logical admissibility. Transformations require informational states and actualizing action. Thus constructor theory can be read as a physics-level expression of the deeper TRT structure.
+Constructor theory frames physics in terms of possible and impossible transformations. This is strongly congenial to TRT because it treats possibility, impossibility, and transformation as fundamental categories. TRT supplies an ontological foundation beneath that distinction. Possibility and impossibility require logical admissibility. Transformations require informational states and fundamental action. Thus constructor theory can be read as a physics-level expression of the deeper TRT structure.
 
 ### 8.5 Variational Physics
 
@@ -416,9 +416,9 @@ Throughout, the object of analysis is *χ*, actualized reality. TRT does not her
 
 ### 9.1 The Triad and Its Co-Requirement
 
-The three co-primitives are mutually co-requiring. Logical constraint without informational content constrains nothing. Informational potential without logical admissibility supplies no criterion of coherent actuality. Actualizing action without logically admissible information has no determinate object to actualize. None of the three yields actualized reality in isolation. Their joint presence yields *χ*.
+The three co-primitives are jointly necessary. Logical constraint without informational content constrains nothing. Informational potential without logical admissibility supplies no criterion of coherent actuality. Actualizing action without logically admissible information has no determinate object to actualize. None of the three yields actualized reality in isolation. Their joint presence yields *χ*.
 
-This co-requirement is a substantive claim about the structure of the actual. It is not a claim that the three cannot be characterized apart from one another. The distinction is essential to the next subsection. Each primitive can be characterized on its own terms. The laws of logic can be stated as pure form, without reference to information or action. Informational potential can be characterized as the bare possibility of distinction, without reference to logic or action. Actualizing action can be characterized as the conferral of actuality on the admissible, without first defining logic or information. That each can be characterized alone, while none obtains alone, is the signature of correlative constituents rather than circular definitions.
+This joint necessity is a substantive claim about the structure of the actual. It is not a claim that the three cannot be characterized apart from one another. The distinction is essential to the next subsection. Each primitive can be characterized on its own terms. The laws of logic can be stated as pure form, without reference to information or action. Informational potential can be characterized as the bare possibility of distinction, without reference to logic or action. Fundamental action can be characterized independently as state transition/change, without first defining logic or information or presupposing physical time. That each can be characterized alone, while none obtains alone, is the signature of correlative constituents rather than circular definitions.
 
 ### 9.2 The Circularity Objection and Its Resolution
 
@@ -428,11 +428,11 @@ The objection conflates two relations that must be kept distinct.
 
 The first is *definitional dependence*. Term *X* depends definitionally on *Y* when one cannot say what *X* is without a prior definition of *Y*. A set of terms each of which depends definitionally on the others is viciously circular, because no term can be specified first and the whole set fails to acquire content. This is a genuine defect.
 
-The second is *metaphysical co-requirement*. *X* and *Y* co-require when neither obtains without the other, while each remains characterizable on its own terms. This relation is common in respectable metaphysics and carries no circularity. There is no convex surface without a concave one, yet convexity is characterizable without invoking concavity in its definition. Up does not obtain without down, determinables do not obtain without determinates, yet neither pair is defined circularly. Aristotle treated such correlatives, *ta pros ti*, as a standard category. Correlatives co-require in being while remaining independently specifiable in definition.
+The second is *metaphysical joint necessity*. *X* and *Y* co-require when neither obtains without the other, while each remains characterizable on its own terms. This relation is common in respectable metaphysics and carries no circularity. There is no convex surface without a concave one, yet convexity is characterizable without invoking concavity in its definition. Up does not obtain without down, determinables do not obtain without determinates, yet neither pair is defined circularly. Aristotle treated such correlatives, *ta pros ti*, as a standard category. Correlatives co-require in being while remaining independently specifiable in definition.
 
 TRT's primitives stand in the second relation, not the first. The check is direct. Trace the definitional dependency graph: each primitive is characterized in its own terms, as set out in §9.1, so the graph carries no definitional edges among the three. Audit for definitional self-reference: none is present, since no primitive appears in its own definiens or in the definiens of another. The only dependency edge in the theory runs from the triad to its output, *χ*. That graph is acyclic.
 
-What looked like a cycle was the co-requirement relation misread as a definitional one. The three are co-requiring constituents of actualized reality. Their mutual presupposition is a thesis about how the actual is built, not a circularity in how the theory is specified.
+What looked like a cycle was the joint necessity relation misread as a definitional one. The three are irreducible co-primitives of actualized reality. Their mutual presupposition is a thesis about how the actual is built, not a circularity in how the theory is specified.
 
 ### 9.3 The Necessity of the Triad
 
@@ -444,7 +444,7 @@ Remove logical constraint. Posit an actual thing that is both *F* and not-*F* in
 
 Remove informational potential. Posit an actual thing bearing no distinctions and no relations, differentiable from nothing. There is no respect in which it differs from anything else or from its own absence. There is no fact about which thing it is. What fails is *differentiation*, the identity a thing has through its distinctions.
 
-Remove actualizing action. Posit a fully specified, logically admissible informational structure that is not actual. The Mandelbrot set is such a structure. So is any unrealized possible world, and any object of pure mathematics. It is real as structure. It does nothing, occupies no causal or temporal order, and belongs to no actual history. What fails is *actuality* itself.
+Remove fundamental action. Posit a fully specified informational structure with no transition relation by which any distinct state obtains. The Mandelbrot set is such a structure. So is any unrealized possible world, and any object of pure mathematics. It is real as structure. It does nothing, occupies no causal or temporal order, and belongs to no actual history. What fails is *actuality* itself.
 
 Three constituents, three distinct failure modes, three independently recognizable lacks. Determinacy, differentiation, and actuality can be subtracted one at a time, and each subtraction removes something specific from the actual. That they come apart is the synthetic signature.
 
@@ -478,7 +478,7 @@ This is offered as a consequence, not as an independent argument for the triad. 
 
 ### 9.6 The Economy Claim, Stated Precisely
 
-TRT posits three co-primitives. They are co-requiring constituents of actualized reality, each characterizable on its own terms, none obtaining in isolation. Their co-requirement is metaphysical, not definitional, so the theory is not circular. Their necessity is synthetic and conditional: given that something is actually real, it necessarily exhibits logical constraint, informational structure, and actualization, and the three come apart under analysis into three distinct failure modes, which is the mark of synthetic rather than analytic necessity. The claim rests on one stated posit, that actuality is a genuine status distinct from possibility, which TRT adopts openly and which leaves the physical content untouched under any admissible alternative. The effectiveness of mathematics follows as a consequence, since two of the three constituents are those from which mathematics arises. Nothing in this structure is circular, and nothing in it is removable without loss of the actual.
+TRT posits three co-primitives. They are irreducible co-primitives of actualized reality, each characterizable on its own terms, none obtaining in isolation. Their joint necessity is metaphysical, not definitional, so the theory is not circular. Their necessity is synthetic and conditional: given that something is actually real, it necessarily exhibits logical constraint, informational structure, and actualization, and the three come apart under analysis into three distinct failure modes, which is the mark of synthetic rather than analytic necessity. The claim rests on one stated posit, that actuality is a genuine status distinct from possibility, which TRT adopts openly and which leaves the physical content untouched under any admissible alternative. The effectiveness of mathematics follows as a consequence, since two of the three constituents are those from which mathematics arises. Nothing in this structure is circular, and nothing in it is removable without loss of the actual.
 
 
 ---
@@ -529,7 +529,7 @@ The qualification is essential. Bianchi identities also appear in gauge theories
 
 #### 10.1.3 The Dynamic Leg: Curvature as Relational Actualization Gradient
 
-The content-forces produce transformations of states within the relational geometry. Gravity concerns the transformation of the geometry itself. On TRT, this means the restructuring of the relational order by actualizing action.
+The content-forces produce transformations of states within the relational geometry. Gravity concerns the transformation of the geometry itself. On TRT, this means the restructuring of the relational order by fundamental action.
 
 Energy was characterized in §6.2 as action-rate within emergent temporal order. The corresponding gravitational conjecture is that curvature encodes gradients in the density or rate of actualization across relational structure. Where actualization is uniform, the relational geometry is flat. Where actualization varies, the relational geometry curves.
 
@@ -580,7 +580,7 @@ The first challenge is formal precision. The primitives must be specified with s
 
 The second challenge is derivation. TRT must show how familiar physical structures can be derived or reconstructed from the triadic foundation. These include Hilbert space, probability, the Born rule, gauge symmetry, relativistic spacetime, field equations, and conservation laws. As noted in §5, the variational apparatus is at present a target rather than a result: the Lagrangian density *L* has no specified form, and no equations of motion have been derived from it.
 
-A further challenge concerns the Born rule specifically. TRT locates the rule as the law governing the crossing from admissible structure to actualized outcome, but it does not derive the rule's form from the triadic structure. Whether the Born measure can be derived from the constraints on actualizing action, rather than assumed, is an open problem, and the measurement problem's hard residues, why one admissible branch actualizes rather than another on a given occasion, remain unsolved. TRT relocates these questions precisely; it does not dissolve them.
+A further challenge concerns the Born rule specifically. TRT locates the rule as the law governing the crossing from admissible structure to actualized outcome, but it does not derive the rule's form from the triadic structure. Whether the Born measure can be derived from the constraints on fundamental action, rather than assumed, is an open problem, and the measurement problem's hard residues, why one admissible branch actualizes rather than another on a given occasion, remain unsolved. TRT relocates these questions precisely; it does not dissolve them.
 
 The third challenge is testability. A foundational ontology becomes scientifically meaningful only when it generates discriminating predictions, constrains model space, or clarifies existing anomalies in a way that competing frameworks do not. The co-admissibility conjecture of §13 is TRT's attempt to meet this challenge, and it is at present unproven.
 
@@ -643,7 +643,7 @@ The central claims of TRT are as follows.
 3. Physical reality requires informational content.
 4. Informational potential is unbounded relative to any finite actualization.
 5. Physical reality requires action, because possibility and actuality are not identical.
-6. Actual reality is infinite informational potential constrained by finite logic through actualizing action.
+6. Determinate actuality requires ontological logical constraint, informational differentiation, and fundamental action; representability and L₃-coherence do not by themselves entail actualizability.
 7. The symbol *χ* denotes actual reality.
 8. The core identity of the theory is *χ ≡ A(I∞ | L₃)*.
 9. The stability condition of physical reality is *δS[χ] = 0*.
@@ -663,7 +663,7 @@ $$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
 
 The physical stability of that reality is expressed by *δS[χ] = 0*.
 
-TRT offers a candidate foundational ontology beneath physics and metaphysics. Its strength lies in its economy: three co-requiring primitives, each a necessary constituent of actualized reality, none reducible to the others. Its weakness, at this stage, is its incompleteness as a formal physical theory. That weakness defines the research program. The task ahead is to move from ontological identity to mathematical derivation, and from mathematical derivation to discriminating prediction.
+TRT offers a candidate foundational ontology beneath physics and metaphysics. Its strength lies in its economy: three irreducible co-primitives, each a necessary constituent of actualized reality, none reducible to the others. Its weakness, at this stage, is its incompleteness as a formal physical theory. That weakness defines the research program. The task ahead is to move from ontological identity to mathematical derivation, and from mathematical derivation to discriminating prediction.
 
 The thesis stands: reality is constrained information in action.
 
