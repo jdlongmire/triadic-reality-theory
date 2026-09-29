@@ -9,7 +9,7 @@ The gravity reduction chain ([linearity-crux](../2-theory/03-gravity/linearity-c
 - **Linear** (raw obstruction) → exact General Relativity, via Regge + Lovelock, with **no higher-curvature corrections from this mechanism**.
 - **Quadratic** (best-fit residual / information distance) → Bianconi-class modified gravity, with curvature-squared corrections.
 
-This is governed by the [keystone](../2-theory/00-foundational/actualization-resolution.md): whether actualizing action *A* registers obstruction or best-fit projects.
+This is governed by the [keystone](../2-theory/00-foundational/actualization-resolution.md): whether fundamental action *A*, as state transition/change, is modeled by obstruction-registration or best-fit projection in this gravity-specific belt model.
 
 ## The discriminating content (`falsifies`)
 
