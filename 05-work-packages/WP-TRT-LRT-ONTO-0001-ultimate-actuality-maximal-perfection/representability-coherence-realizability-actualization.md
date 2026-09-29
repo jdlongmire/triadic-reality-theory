@@ -47,7 +47,7 @@ where (Y) is a specified condition set.
 Let:
 
 \[
-\operatorname{Rep}(x)
+\mathrm{Rep}(x)
 \]
 
 mean that (x) is informationally representable.
@@ -55,7 +55,7 @@ mean that (x) is informationally representable.
 Let:
 
 \[
-\operatorname{Coh}(x)
+\mathrm{Coh}(x)
 \]
 
 mean that the content represented by (x) is internally non-contradictory under (L).
@@ -63,7 +63,7 @@ mean that the content represented by (x) is internally non-contradictory under (
 Let:
 
 \[
-\operatorname{Compat}(x,Y)
+\mathrm{Compat}(x,Y)
 \]
 
 mean that (x) is jointly coherent with the specified condition set (Y).
@@ -71,7 +71,7 @@ mean that (x) is jointly coherent with the specified condition set (Y).
 Let:
 
 \[
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 \]
 
 mean that (x) is conditionally realizable given (Y).
@@ -115,7 +115,7 @@ The stronger identification of (L) and (I_{\mathrm{rep}}) with divine attributes
 Representability is the weakest category.
 
 \[
-\operatorname{Rep}(x)
+\mathrm{Rep}(x)
 \]
 
 asserts that sufficiently determinate informational content exists to identify what is being proposed.
@@ -123,7 +123,7 @@ asserts that sufficiently determinate informational content exists to identify w
 It does not establish coherence:
 
 \[
-\boxed{\operatorname{Rep}(x)\nRightarrow\operatorname{Coh}(x)}.
+\boxed{\mathrm{Rep}(x)\nRightarrow\mathrm{Coh}(x)}.
 \]
 
 Example: the content "four-sided Euclidean triangle" is representable as a proposed conjunction even though its constitutive predicates cannot be jointly satisfied.
@@ -135,7 +135,7 @@ Thus semantic or informational determination must not be smuggled into metaphysi
 Define:
 
 \[
-\operatorname{Coh}(x) \iff \neg(x\vdash_L\bot).
+\mathrm{Coh}(x) \iff \neg(x\vdash_L\bot).
 \]
 
 Coherence is intrinsic to the represented content under the governing logical constraints.
@@ -143,7 +143,7 @@ Coherence is intrinsic to the represented content under the governing logical co
 Where coherence is assessable, representation is presupposed:
 
 \[
-\operatorname{Coh}(x)\to\operatorname{Rep}(x).
+\mathrm{Coh}(x)\to\mathrm{Rep}(x).
 \]
 
 The reverse does not hold.
@@ -151,7 +151,7 @@ The reverse does not hold.
 This refines the current TRT modal semantics without yet proving the stronger biconditional:
 
 \[
-\Diamond x \iff \operatorname{Coh}(x).
+\Diamond x \iff \mathrm{Coh}(x).
 \]
 
 No such equivalence is claimed here.
@@ -163,37 +163,37 @@ Conditional realizability is relational rather than intrinsic.
 A coherent (x) may fail to be compatible with a particular condition set (Y):
 
 \[
-\operatorname{Coh}(x)\nRightarrow\operatorname{Compat}(x,Y).
+\mathrm{Coh}(x)\nRightarrow\mathrm{Compat}(x,Y).
 \]
 
 Compatibility requires:
 
 \[
-\operatorname{Coh}(x\land Y).
+\mathrm{Coh}(x\land Y).
 \]
 
 Candidate definition:
 
 \[
-\operatorname{Compat}(x,Y)
+\mathrm{Compat}(x,Y)
 \iff
-\operatorname{Coh}(x\land Y).
+\mathrm{Coh}(x\land Y).
 \]
 
 Conditional realizability then requires at minimum compatibility:
 
 \[
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 \to
-\operatorname{Compat}(x,Y).
+\mathrm{Compat}(x,Y).
 \]
 
 Whether compatibility is sufficient for metaphysical realizability remains OPEN:
 
 \[
-\operatorname{Compat}(x,Y)
+\mathrm{Compat}(x,Y)
 \stackrel{?}{\to}
-\operatorname{Real}(x\mid Y).
+\mathrm{Real}(x\mid Y).
 \]
 
 This is the same sufficiency burden already identified in the existing TRT modal semantics: logical admissibility is clearly necessary for actualizability, but its sufficiency for metaphysical possibility has not been demonstrated.
@@ -211,19 +211,19 @@ is rejected as formally imprecise.
 The predicates are differently typed:
 
 \[
-\operatorname{Rep}:\mathcal I\to\{0,1\},
+\mathrm{Rep}:\mathcal I\to\{0,1\},
 \]
 
 \[
-\operatorname{Coh}:\mathcal I\to\{0,1\},
+\mathrm{Coh}:\mathcal I\to\{0,1\},
 \]
 
 \[
-\operatorname{Compat}:\mathcal I\times\mathcal Y\to\{0,1\},
+\mathrm{Compat}:\mathcal I\times\mathcal Y\to\{0,1\},
 \]
 
 \[
-\operatorname{Real}:\mathcal I\times\mathcal Y\to\{0,1\},
+\mathrm{Real}:\mathcal I\times\mathcal Y\to\{0,1\},
 \]
 
 \[
@@ -235,13 +235,13 @@ The defensible dependency structure is therefore:
 \[
 X(x)
 \to
-\operatorname{Real}(x\mid Y_{\mathrm{actual}})
+\mathrm{Real}(x\mid Y_{\mathrm{actual}})
 \to
-\operatorname{Compat}(x,Y_{\mathrm{actual}})
+\mathrm{Compat}(x,Y_{\mathrm{actual}})
 \to
-\operatorname{Coh}(x)
+\mathrm{Coh}(x)
 \to
-\operatorname{Rep}(x),
+\mathrm{Rep}(x),
 \]
 
 where (Y_{\mathrm{actual}}) denotes the relevant actual condition set.
@@ -251,21 +251,21 @@ The reverse implications are denied in general.
 In particular:
 
 \[
-\operatorname{Rep}(x)\nRightarrow\operatorname{Coh}(x),
+\mathrm{Rep}(x)\nRightarrow\mathrm{Coh}(x),
 \]
 
 \[
-\operatorname{Coh}(x)\nRightarrow\operatorname{Compat}(x,Y),
+\mathrm{Coh}(x)\nRightarrow\mathrm{Compat}(x,Y),
 \]
 
 \[
-\operatorname{Compat}(x,Y)\nRightarrow\operatorname{Real}(x\mid Y)
+\mathrm{Compat}(x,Y)\nRightarrow\mathrm{Real}(x\mid Y)
 \]
 
 until sufficiency is proven, and
 
 \[
-\operatorname{Real}(x\mid Y)\nRightarrow X(x).
+\mathrm{Real}(x\mid Y)\nRightarrow X(x).
 \]
 
 ## 7. Counterfactual representation
@@ -290,13 +290,13 @@ God can know:
 Therefore divine knowledge of the represented IF does not entail actuality:
 
 \[
-K_G[\operatorname{Rep}(x,Y)]\nRightarrow X(x).
+K_G[\mathrm{Rep}(x,Y)]\nRightarrow X(x).
 \]
 
 Nor does representation entail compatibility:
 
 \[
-K_G[\operatorname{Rep}(x,Y)]\nRightarrow\operatorname{Compat}(x,Y).
+K_G[\mathrm{Rep}(x,Y)]\nRightarrow\mathrm{Compat}(x,Y).
 \]
 
 God may know exactly what a counterfactual proposes while also knowing that its antecedent-condition set logically excludes its consequent.
@@ -399,7 +399,7 @@ No null-world object, zero-state object, or boundary-condition object may be int
 Thus:
 
 \[
-\operatorname{Rep}(N)\nRightarrow\operatorname{Exists}(N).
+\mathrm{Rep}(N)\nRightarrow\mathrm{Exists}(N).
 \]
 
 ## 12. No-smuggling / no-free-lunch controls
@@ -421,13 +421,13 @@ The following substitutions are prohibited without independent proof:
 No ontological status may be inferred merely from representation:
 
 \[
-\boxed{\operatorname{Rep}(x)\nRightarrow\operatorname{Exists}(x)}.
+\boxed{\mathrm{Rep}(x)\nRightarrow\mathrm{Exists}(x)}.
 \]
 
 No modal status may be inferred merely from representation:
 
 \[
-\boxed{\operatorname{Rep}(x)\nRightarrow\Diamond x}.
+\boxed{\mathrm{Rep}(x)\nRightarrow\Diamond x}.
 \]
 
 ## 13. Current disposition
@@ -466,13 +466,13 @@ Compactly:
 
 \[
 \boxed{
-\operatorname{Rep}(x)
+\mathrm{Rep}(x)
 \nRightarrow
-\operatorname{Coh}(x)
+\mathrm{Coh}(x)
 \nRightarrow
-\operatorname{Compat}(x,Y)
+\mathrm{Compat}(x,Y)
 \nRightarrow
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 \nRightarrow
 X(x)
 }
@@ -506,7 +506,7 @@ The refined predicates map onto that backbone as follows.
 ### R: representable domain
 
 \[
-x\in R \iff \operatorname{Rep}(x).
+x\in R \iff \mathrm{Rep}(x).
 \]
 
 This is the cleanest correspondence and is adopted provisionally.
@@ -524,21 +524,21 @@ must be decomposed.
 Define logical admissibility:
 
 \[
-\operatorname{Adm}_{L_3}(x)
+\mathrm{Adm}_{L_3}(x)
 :=
-\operatorname{Rep}(x)\land\operatorname{Coh}_{L_3}(x).
+\mathrm{Rep}(x)\land\mathrm{Coh}_{L_3}(x).
 \]
 
 Then:
 
 \[
-x\in D \to \operatorname{Adm}_{L_3}(x).
+x\in D \to \mathrm{Adm}_{L_3}(x).
 \]
 
 The converse remains unproved:
 
 \[
-\operatorname{Adm}_{L_3}(x)\stackrel{?}{\to}x\in D.
+\mathrm{Adm}_{L_3}(x)\stackrel{?}{\to}x\in D.
 \]
 
 Accordingly, (D) must not yet be identified simpliciter with bare coherence.
@@ -546,7 +546,7 @@ Accordingly, (D) must not yet be identified simpliciter with bare coherence.
 A safer provisional reading is:
 
 \[
-D := \{x\in R\mid \operatorname{Adm}_{L_3}(x)\land M(x)\},
+D := \{x\in R\mid \mathrm{Adm}_{L_3}(x)\land M(x)\},
 \]
 
 where (M(x)) denotes any additional metaphysical admissibility condition required beyond logical coherence.
@@ -578,9 +578,9 @@ For the actual condition set (Y_a):
 \[
 x\in X
 \to
-\operatorname{Real}(x\mid Y_a)
+\mathrm{Real}(x\mid Y_a)
 \to
-\operatorname{Compat}(x,Y_a).
+\mathrm{Compat}(x,Y_a).
 \]
 
 The reverse implications do not hold merely from category membership.
@@ -591,7 +591,7 @@ The present analysis supports the following bounded result:
 
 \[
 \boxed{
-\operatorname{Coh}_{L_3}(x)
+\mathrm{Coh}_{L_3}(x)
 \iff
 x\text{ contains no contradiction detectable under the current }L_3\text{ constraints}
 }
@@ -602,7 +602,7 @@ This is a logical result only.
 It does not establish:
 
 \[
-\operatorname{Coh}_{L_3}(x)
+\mathrm{Coh}_{L_3}(x)
 \iff
 \Diamond x.
 \]
@@ -610,7 +610,7 @@ It does not establish:
 Nor does it establish:
 
 \[
-\operatorname{Coh}_{L_3}(x)
+\mathrm{Coh}_{L_3}(x)
 \iff
 x\in D.
 \]
@@ -619,9 +619,9 @@ Therefore the canonical phrase "L3 filters representable structure into admissib
 
 ### Disposition
 
-**HIGH:** (x\in D\to\operatorname{Coh}_{L_3}(x)).
+**HIGH:** (x\in D\to\mathrm{Coh}_{L_3}(x)).
 
-**MEDIUM:** (x\in R\iff\operatorname{Rep}(x)), subject to final vocabulary normalization.
+**MEDIUM:** (x\in R\iff\mathrm{Rep}(x)), subject to final vocabulary normalization.
 
 **UNCERTAIN:** (operatorname{Coh}_{L_3}(x)\to x\in D).
 
@@ -636,17 +636,17 @@ To avoid defining realizability by the modal operator it is intended to explain,
 Let:
 
 \[
-\operatorname{JointAdm}(x,Y)
+\mathrm{JointAdm}(x,Y)
 :=
-\operatorname{Adm}_{L_3}(x\land Y)\land M(x\land Y).
+\mathrm{Adm}_{L_3}(x\land Y)\land M(x\land Y).
 \]
 
 Then define conditional realizability provisionally as:
 
 \[
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 :=
-\operatorname{JointAdm}(x,Y).
+\mathrm{JointAdm}(x,Y).
 \]
 
 This is acceptable only if (M) can be specified independently of (Diamond).
@@ -664,25 +664,25 @@ Until that is done, (operatorname{Real}) remains a typed research predicate rath
 The framework now distinguishes four propositions:
 
 \[
-\operatorname{Rep}(Y\Box\!\to x)
+\mathrm{Rep}(Y\Box\!\to x)
 \]
 
 the counterfactual is representable;
 
 \[
-\operatorname{Coh}(Y\land x)
+\mathrm{Coh}(Y\land x)
 \]
 
 antecedent and consequent are jointly coherent;
 
 \[
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 \]
 
 the consequent is realizable under the antecedent conditions;
 
 \[
-\operatorname{TrueCF}(Y\Box\!\to x)
+\mathrm{TrueCF}(Y\Box\!\to x)
 \]
 
 the counterfactual itself is true.
@@ -692,9 +692,9 @@ No equivalence among these is assumed.
 In particular:
 
 \[
-\operatorname{Real}(x\mid Y)
+\mathrm{Real}(x\mid Y)
 \nRightarrow
-\operatorname{TrueCF}(Y\Box\!\to x).
+\mathrm{TrueCF}(Y\Box\!\to x).
 \]
 
 Realizability says that (x) can obtain under (Y). A true counterfactual of the form "if (Y), then (x) would obtain" says substantially more.
@@ -720,11 +720,11 @@ X
 with:
 
 \[
-x\in R\iff\operatorname{Rep}(x),
+x\in R\iff\mathrm{Rep}(x),
 \]
 
 \[
-x\in D\to\operatorname{Coh}_{L_3}(x),
+x\in D\to\mathrm{Coh}_{L_3}(x),
 \]
 
 \[
@@ -734,7 +734,7 @@ x\in X\to x\in D,
 and:
 
 \[
-\operatorname{Coh}_{L_3}(x)
+\mathrm{Coh}_{L_3}(x)
 \nRightarrow
 x\in D
 \]
@@ -746,13 +746,13 @@ For conditional analysis:
 \[
 X(x)
 \to
-\operatorname{Real}(x\mid Y_a)
+\mathrm{Real}(x\mid Y_a)
 \to
-\operatorname{Compat}(x,Y_a)
+\mathrm{Compat}(x,Y_a)
 \to
-\operatorname{Coh}(x)
+\mathrm{Coh}(x)
 \to
-\operatorname{Rep}(x).
+\mathrm{Rep}(x).
 \]
 
 For counterfactual analysis:
