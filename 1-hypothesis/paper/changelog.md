@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.10 (2026-09-29)
+
+Canonical co-primitive normalization under WP-TRT-CORE-0001. Reframes TRT around L₃ as ontological logical constraint, I∞ as unbounded informational representability/differentiation, and A as fundamental non-temporal state transition/change. Separates L₃-admissibility from metaphysical actualizability, replaces the simple four-tier sufficiency reading with typed R → D → X/χ architecture, makes irreducibility obligations explicit, and updates the author credential block.
+
+
 ## v0.9 (2026-06)
 
 First integrated master. Consolidates the position paper with the representable/admissible/actual/outcome-actual four-tier structure, the PBR-consistent quantum treatment, the LFT-into-LRT merge, the gravity positioning section (§10.1), and two physics-facing conjectures (§13.1, §13.4).
