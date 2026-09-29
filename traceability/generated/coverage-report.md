@@ -20,10 +20,9 @@
 
 ## By proof status
 
-- **axiomatized**: 2
+- **axiomatized**: 3
 - **imported**: 2
 - **open**: 8
-- **partial**: 1
 - **prose_only**: 8
 
 ## By epistemic status
@@ -37,7 +36,7 @@
 
 | ID | Tier | Role | Proof | Epistemic | Name |
 |---|---|---|---|---|---|
-| ACT-001 | 1 | bridge | partial | argued | Primitive Action and Admissibility Preservation |
+| ACT-001 | 1 | bridge | axiomatized | argued | Primitive Action and Admissibility Preservation |
 | EXT-001 | 1 | imported | imported | established | LRT Formal Core (imported) |
 | EXT-002 | 2 | imported | imported | argued | CST Number-Volume Kinematic Substrate (imported) |
 | LOG-001 | 1 | primitive | axiomatized | established | L₃ as Admissibility Constraint |
