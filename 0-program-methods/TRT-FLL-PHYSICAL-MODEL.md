@@ -20,18 +20,18 @@ chosen formal language. It proposes that $L$ constrains the physically admissibl
 
 The ontological schema is
 
-$$
+```math
 \boxed{\chi\equiv\mathcal A(I\mid L)},
-$$
+```
 
 where
 
-$$
+```math
 L=\text{global admissibility constraint},\qquad
 I=\text{informational state},\qquad
 \mathcal A=\text{primitive action},\qquad
 \chi=\text{physical actualization}.
-$$
+```
 
 At present, $\chi\equiv\mathcal A(I\mid L)$ is an ontological schema, not yet a dynamical law. It
 does not specify where $L$ acts mathematically, how actualization evolves, or which measurable
@@ -60,21 +60,21 @@ The three laws are:
 
 The resulting physical hypothesis is:
 
-$$
+```math
 \boxed{
 \forall \chi,\quad
 \chi\text{ is a physical informational actualization}
 \Rightarrow
 \chi\text{ satisfies Identity, Non\text{-}Contradiction, and Excluded Middle}.
 }
-$$
+```
 
 For a proposition $P$ instantiated as physical information by an actualization $\chi$, the
 corresponding operational consequence is:
 
-$$
+```math
 \boxed{V(P_\chi)\in\{T,F\}.}
-$$
+```
 
 TRT therefore predicts that physical actualization is bivalent.
 
@@ -125,17 +125,17 @@ global constraint on admissibility.
 
 Thus
 
-$$
+```math
 \boxed{
 \chi\equiv\mathcal A(I\mid L)
 }
-$$
+```
 
 is the physical model, and the exclusion rule is
 
-$$
+```math
 \boxed{I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}.}
-$$
+```
 
 An FLL-violating informational state is not merely undesirable within a description. The model
 predicts that it cannot enter the physically actualized state space.
@@ -153,15 +153,15 @@ For at least one physical system, TRT must specify an event algebra and measurem
 which a non-bivalent actualization produces an observable signature not reproducible by any
 admissible bivalent model. The contrast must appear in at least one of:
 
-$$
+```math
 \boxed{\text{probabilities},\qquad\text{correlation structure},\qquad\text{event topology}.}
-$$
+```
 
 For a concrete apparatus, the programme owes explicit definitions of
 
-$$
+```math
 P,\quad\text{respect},\quad\text{context},\quad\Delta t,\quad T,\quad F,\quad B,\quad N.
-$$
+```
 
 The falsifier is only as sharp as the identity of $P_\chi$. A conventional detector click labeled
 `B` or `N` is insufficient; the physical information instantiated by the event must violate the
@@ -178,27 +178,27 @@ intended destination, not an evidential status already earned.
 The deepest current theoretical obligation is to choose, derive, or relate the possible
 mathematical actions of $L$, including:
 
-$$
+```math
 L:\Omega\rightarrow\Omega_{\mathrm{admissible}}
-$$
+```
 
 as a state-space restriction,
 
-$$
+```math
 L:\mathcal I\rightarrow\mathcal I_{\mathrm{allowed}}
-$$
+```
 
 as an instrument constraint,
 
-$$
+```math
 L:U\rightarrow U_{\mathrm{allowed}}
-$$
+```
 
 as a constraint on state updates, or
 
-$$
+```math
 L:\mathcal E\rightarrow\mathcal E_{\mathrm{allowed}}
-$$
+```
 
 as a restriction on physically realizable event structures. These are not assumed equivalent.
 
@@ -206,9 +206,9 @@ as a restriction on physically realizable event structures. These are not assume
 
 For a proposition $P$, consider the four-value space
 
-$$
+```math
 V(P)\in\{T,F,B,N\},
-$$
+```
 
 where:
 
@@ -233,22 +233,22 @@ against the hypothesis.
 The TRT-FLL Physical Model is falsified if there exists a reproducible physical actualization
 $\chi$ and proposition $P_\chi$ such that
 
-$$
+```math
 \boxed{V(P_\chi)\in\{B,N\}}
-$$
+```
 
 under controlled conditions preserving the identity of the proposition and its relevant context.
 The result must survive ordinary competing explanations.
 
 Equivalently,
 
-$$
+```math
 \boxed{
 \exists\chi:\ I_\chi\in I_{\mathrm{non\text{-}bivalent}}
 \quad\Longrightarrow\quad
 \mathrm{TRT\text{-}FLL\ falsified}.
 }
-$$
+```
 
 In particular, a candidate falsification cannot merely consist of:
 
@@ -336,9 +336,9 @@ logic can describe quantum systems.
 
 The empirical question concerns what becomes actual:
 
-$$
+```math
 \boxed{\text{Can physical reality actualize }B\text{ or }N?}
-$$
+```
 
 That is the experimental target.
 
@@ -383,23 +383,23 @@ objective itself.
 TRT-FLL is a physical hypothesis and proposed physical principle. Its universal content and
 equivalent exclusion rule are
 
-$$
+```math
 \boxed{\forall P_\chi,\quad V(P_\chi)\in\{T,F\},}
-$$
+```
 
-$$
+```math
 \boxed{I_{\mathrm{non\text{-}bivalent}}\notin\Omega_{\mathrm{actualizable}}.}
-$$
+```
 
 Its explicit physical falsifier is
 
-$$
+```math
 \boxed{
 \exists P_\chi:\ V(P_\chi)\in\{B,N\}
 \quad\Longrightarrow\quad
 \mathrm{TRT\text{-}FLL\ is\ false}.
 }
-$$
+```
 
 One verified irreducibly non-bivalent informational actualization is sufficient. The present
 scientific task is not to establish the law by definition, but to expose its exclusion rule to the
@@ -407,17 +407,17 @@ strongest theoretical and experimental attempts at falsification.
 
 Accordingly, the present status is:
 
-$$
+```math
 \boxed{\text{PHYSICAL HYPOTHESIS / PROPOSED PHYSICAL PRINCIPLE}}
-$$
+```
 
-$$
+```math
 \boxed{\text{EXPLICIT PHYSICAL FALSIFIER}}
-$$
+```
 
-$$
+```math
 \boxed{\text{OPERATIONAL LAW STATUS NOT YET EARNED}}
-$$
+```
 
 It is not established merely because familiar experiments produce definite records. A negative
 test adds empirical support only to the degree that the test was capable of exposing an irreducible
@@ -430,15 +430,15 @@ hidden-variable models, predetermined global valuation schemes, or other stronge
 
 TRT predicts
 
-$$
+```math
 \forall P_\chi,\quad V(P_\chi)\in\{T,F\}.
-$$
+```
 
 Its falsifier is
 
-$$
+```math
 \exists P_\chi,\quad V(P_\chi)\in\{B,N\}.
-$$
+```
 
 A verified instance is sufficient.
 
@@ -446,7 +446,7 @@ A verified instance is sufficient.
 
 All subsequent work in this branch must preserve the hierarchy
 
-$$
+```math
 \boxed{
 \mathrm{FLL}
 \rightarrow
@@ -458,7 +458,7 @@ $$
 \rightarrow
 \mathrm{experimental\ testing}.
 }
-$$
+```
 
 Rival models, quantum-instrument constructions, representation theorems, semantic analyses, and
 historical surveys serve this hierarchy. They do not replace it.
