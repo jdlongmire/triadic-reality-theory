@@ -3,8 +3,8 @@ name: Canonical R-D-X Architecture
 statement: |
   Determinate actuality is modeled by R --(L₃ necessary filter)--> D --(A)--> X/χ.
   R is representable informational content, D is the actualizable domain, and X/χ
-  is what obtains. The compact χ = A(I∞ | L₃, ...) is schematic and does not assert
-  that L₃ alone exhausts actualizability.
+  is what obtains. The compact χ = A(I∞ | L₃) states the three-co-primitive ontology. It is distinct from
+  the stronger and unproved claim that L₃-admissibility alone exhausts D.
 tier: 1
 role: primitive
 proof_status: prose_only
