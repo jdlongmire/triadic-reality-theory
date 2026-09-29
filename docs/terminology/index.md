@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Terminology
+title: TRT Terminology and Glossary
+description: "Terminology concordance for Triadic Reality Theory, mapping accessible language to canonical terms for logic, information, action, representability, actualizability, and actuality."
 ---
 <p class="eyebrow">One ontology · two registers</p>
 
-# Terminology concordance
+Use this concordance to map accessible explanations to the canonical technical vocabulary without changing TRT's semantic boundaries.
+
+# Triadic Reality Theory terminology and glossary
 
 | Accessible wording | Canonical technical term | Constraint |
 |---|---|---|
