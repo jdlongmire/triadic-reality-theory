@@ -10,29 +10,39 @@
         "dependency_type": "formal"
       }
     ],
-    "epistemic_status": "established",
+    "epistemic_status": "argued",
     "formal_artifacts": {
       "lean": [
         {
           "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "axiom",
+          "symbol": "A"
+        },
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
           "status": "proven",
-          "symbol": "actual_is_admissible"
+          "symbol": "actual_is_actualizable"
+        },
+        {
+          "file": "TrtFormalization/Core/Primitives.lean",
+          "status": "proven",
+          "symbol": "actual_is_l3_admissible"
         }
       ]
     },
     "id": "ACT-001",
-    "name": "Actualization Preserves Admissibility",
-    "notes": "First verified theorem in the TRT Lean core. Holds by construction in the present\nmodel; deriving it from a dynamics is belt work.\n",
-    "proof_status": "verified",
-    "risk_if_false": "If A could actualize inadmissible structure, the gate fails and L\u2083 would not govern \u03c7.",
+    "name": "Primitive Action and Admissibility Preservation",
+    "notes": "WP-TRT-CORE-0001 separates primitive A from the predicate that a state obtains,\navoiding the former circular definition of A as \"actualizing action.\"\n",
+    "proof_status": "partial",
+    "risk_if_false": "If transition can be eliminated without explanatory loss, A is not irreducible.\nIf actual states need not satisfy L₃, the canonical gate fails.\n",
     "role": "bridge",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
+        "doc": "TRT-v0.10",
         "section": "3.3, 3.4"
       }
     ],
-    "statement": "Actualizing action A maps admissible structure to actual structure; every\nactual structure is L\u2083-admissible (the gate between representable and actual is L\u2083).\n",
+    "statement": "A is fundamental state transition/change, defined without presupposing physical\ntime, motion, force, energy, or actuality. Actual states belong to the\nactualizable domain, and every actualizable state satisfies the necessary L₃ filter.\n",
     "tier": 1
   },
   "EXT-001": {
@@ -50,9 +60,9 @@
     ],
     "id": "EXT-001",
     "name": "LRT Formal Core (imported)",
-    "notes": "PLANNED import (stage 2) \u2014 see formalization/lrt/README.md. Status flips to verified\nonce vendored and lake-built green under v4.28.0 / Mathlib v4.28.0.\n",
+    "notes": "PLANNED import (stage 2) — see formalization/lrt/README.md. Status flips to verified\nonce vendored and lake-built green under v4.28.0 / Mathlib v4.28.0.\n",
     "proof_status": "imported",
-    "risk_if_false": "If the imported proofs do not build under the matched toolchain, the L\u2083 formal backbone is unavailable.",
+    "risk_if_false": "If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable.",
     "role": "imported",
     "source_documents": [
       {
@@ -60,7 +70,7 @@
         "section": "formalization/"
       }
     ],
-    "statement": "The verified Lean derivation chain of Logic Realism Theory (X \u2192 \u2026 \u2192 Schr\u00f6dinger;\nBorn rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's\nL\u2083 constituent and is imported as a sub-project.\n",
+    "statement": "The verified Lean derivation chain of Logic Realism Theory (X → … → Schrödinger;\nBorn rule via Gleason, unitarity via Stone, energy via Noether) formalizes TRT's\nL₃ constituent and is imported as a sub-project.\n",
     "tier": 1
   },
   "EXT-002": {
@@ -74,15 +84,15 @@
     "name": "CST Number-Volume Kinematic Substrate (imported)",
     "notes": "Added 2026-07-22 per red-team vector 10(b) (reviews/2026-07-redteam-adce/): the\nCST substrate was load-bearing for OPN-008 but invisible to the dependency graph.\nEpistemic status \"argued\": the dictionary is a standard, widely-used postulate of\na respected quantum-gravity programme, not an established physical fact. Import is\nby citation, not formalization (no Lean artifact; contrast EXT-001).\n",
     "proof_status": "imported",
-    "risk_if_false": "If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson\nsprinkling proves inconsistent with Lorentz invariance or with continuum recovery),\nADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-\u039b rival\nloses its fluctuation magnitude; the comparison in adce.md \u00a711 becomes moot.\n",
+    "risk_if_false": "If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson\nsprinkling proves inconsistent with Lorentz invariance or with continuum recovery),\nADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival\nloses its fluctuation magnitude; the comparison in adce.md §11 becomes moot.\n",
     "role": "imported",
     "source_documents": [
       {
         "doc": "ADCE-v3",
-        "section": "2-theory/04-cosmology/adce.md \u00a72.1, \u00a79"
+        "section": "2-theory/04-cosmology/adce.md §2.1, §9"
       }
     ],
-    "statement": "Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds\nto causal-element count at Planckian density (\"Order + Number = Geometry\"),\nimplemented by Poisson sprinkling, whose random form is forced by Lorentz\ninvariance (element count in 4-volume V\u2084: \u27e8N\u27e9 = \u03c1_c V\u2084, \u03b4N ~ \u221aN).\n",
+    "statement": "Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds\nto causal-element count at Planckian density (\"Order + Number = Geometry\"),\nimplemented by Poisson sprinkling, whose random form is forced by Lorentz\ninvariance (element count in 4-volume V₄: ⟨N⟩ = ρ_c V₄, δN ~ √N).\n",
     "tier": 2
   },
   "LOG-001": {
@@ -94,7 +104,7 @@
     ],
     "epistemic_status": "established",
     "external_citations": [
-      "Aristotle, Metaphysics \u0393"
+      "Aristotle, Metaphysics Γ"
     ],
     "formal_artifacts": {
       "lean": [
@@ -106,9 +116,9 @@
       ]
     },
     "id": "LOG-001",
-    "name": "L\u2083 as Admissibility Constraint",
+    "name": "L₃ as Admissibility Constraint",
     "proof_status": "axiomatized",
-    "risk_if_false": "If L\u2083 is merely conventional, the hard core loses its transcendental warrant.",
+    "risk_if_false": "If L₃ is merely conventional, the hard core loses its transcendental warrant.",
     "role": "primitive",
     "source_documents": [
       {
@@ -128,10 +138,10 @@
     ],
     "epistemic_status": "argued",
     "external_citations": [
-      "Aristotle, Metaphysics \u0393"
+      "Aristotle, Metaphysics Γ"
     ],
     "id": "LOG-002",
-    "name": "Denial of L\u2083 is Self-Refuting",
+    "name": "Denial of L₃ is Self-Refuting",
     "proof_status": "prose_only",
     "risk_if_false": "This is what makes TRT's hard core stronger than an orthodox Lakatosian core.\nIf the transcendental argument fails, immunity falls back to mere convention.\n",
     "role": "primitive",
@@ -141,66 +151,71 @@
         "section": "7.1"
       }
     ],
-    "statement": "L\u2083 is immune by necessity, not convention: its denial deploys identity and\nnon-contradiction to be stated at all (demonstration by refutation, not derivation).\n",
+    "statement": "L₃ is immune by necessity, not convention: its denial deploys identity and\nnon-contradiction to be stated at all (demonstration by refutation, not derivation).\n",
     "tier": 1
   },
   "ONT-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "ONT-003",
+        "dependency_type": "formal"
+      }
+    ],
     "epistemic_status": "argued",
     "formal_artifacts": {
       "lean": [
         {
           "file": "TrtFormalization/Core/Primitives.lean",
-          "status": "axiom",
+          "status": "definition",
           "symbol": "Chi"
         }
       ]
     },
     "id": "ONT-001",
-    "name": "Central Identity \u03c7 \u2261 A(I\u221e | L\u2083)",
-    "notes": "Stated narratively in the paper; encoded as the carrier Chi in the Lean core.",
+    "name": "Canonical R-D-X Architecture",
+    "notes": "Normalized by WP-TRT-CORE-0001 on 2026-09-29.",
     "proof_status": "prose_only",
-    "risk_if_false": "The central identity is the programme's hard core. Its failure is not a belt\nadjustment but abandonment of TRT as such.\n",
+    "risk_if_false": "If the typed R-D-X architecture fails, TRT's canonical relation among\nrepresentability, actualizability, action, and actuality requires revision.\n",
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
-        "section": "4, 5"
+        "doc": "TRT-v0.10",
+        "section": "3.4"
       }
     ],
-    "statement": "Actual reality \u03c7 is infinite informational potential constrained by finite\nlogic through actualizing action: \u03c7 \u2261 A(I\u221e | L\u2083).\n",
+    "statement": "Determinate actuality is modeled by R --(L₃ necessary filter)--> D --(A)--> X/χ.\nR is representable informational content, D is the actualizable domain, and X/χ\nis what obtains. The compact χ = A(I∞ | L₃, ...) is schematic and does not assert\nthat L₃ alone exhausts actualizability.\n",
     "tier": 1
   },
   "ONT-002": {
-    "depends_on": [
-      {
-        "claim_id": "ONT-001",
-        "dependency_type": "logical"
-      }
-    ],
+    "depends_on": [],
     "epistemic_status": "argued",
     "id": "ONT-002",
-    "name": "Three Co-Requiring Primitives",
-    "notes": "Co-requirement is metaphysical, not definitional \u2014 dependency graph acyclic (paper \u00a79.2).",
+    "name": "Three Irreducible Co-Primitives",
+    "notes": "Canonical normalization under WP-TRT-CORE-0001.",
     "proof_status": "prose_only",
-    "risk_if_false": "If the three reduce to fewer (or the co-requirement is definitional, hence\ncircular), the economy claim and the synthetic-necessity argument collapse.\n",
+    "risk_if_false": "A successful reduction of any primitive to the other two, without explanatory\nloss or smuggling, defeats the irreducibility claim and requires hard-core revision.\n",
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
-        "section": "3, 9.1, 9.2"
+        "doc": "TRT-v0.10",
+        "section": "3, 9"
       }
     ],
-    "statement": "L\u2083 (finite logical constraint), I\u221e (infinite informational potential), and A\n(actualizing action) are mutually co-requiring constituents of actualized\nreality; each is characterizable on its own terms, none obtains in isolation.\n",
+    "statement": "L₃ (ontological logical constraint), I∞ (unbounded informational\nrepresentability/differentiation), and A (fundamental state transition/change)\nare jointly necessary and irreducible co-primitives for determinate actuality.\nL₃ cannot supply content or transition; I∞ cannot supply its own admissibility\nor transition; A cannot supply its relata or admissibility constraints.\n",
     "tier": 1
   },
   "ONT-003": {
     "depends_on": [
       {
-        "claim_id": "ONT-001",
+        "claim_id": "LOG-001",
         "dependency_type": "logical"
       }
     ],
-    "epistemic_status": "established",
+    "epistemic_status": "argued",
     "formal_artifacts": {
       "lean": [
         {
@@ -211,32 +226,33 @@
         {
           "file": "TrtFormalization/Core/Primitives.lean",
           "status": "axiom",
-          "symbol": "Admissible"
+          "symbol": "L3Admissible"
         },
         {
           "file": "TrtFormalization/Core/Primitives.lean",
           "status": "axiom",
-          "symbol": "Actual"
+          "symbol": "Actualizable"
         },
         {
           "file": "TrtFormalization/Core/Primitives.lean",
           "status": "axiom",
-          "symbol": "OutcomeActual"
+          "symbol": "actualizable_is_l3_admissible"
         }
       ]
     },
     "id": "ONT-003",
-    "name": "Four-Tier Engine",
+    "name": "Representability-Actualizability Distinction",
+    "notes": "Supersedes the simple four-tier sufficiency reading of TRT v0.9.",
     "proof_status": "axiomatized",
-    "risk_if_false": "The four-tier distinction is the load-bearing engine (dialetheism, superposition,\nPBR, measurement, black holes). Without it those treatments fail jointly.\n",
+    "risk_if_false": "Collapsing representability into actualizability reintroduces modal smuggling;\nproving L₃ sufficient for actualizability would permit a future controlled\nsimplification but is not assumed.\n",
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
-        "section": "3.4, 6.5"
+        "doc": "TRT-v0.10",
+        "section": "Terminological Note, 3.4"
       }
     ],
-    "statement": "Informational structure is stratified: representable (well-formed, incl.\ncontradiction) \u2283 admissible (survives L\u2083) \u2283 actual (A-realized) with\noutcome-actual reserved for determinate measurement results.\n",
+    "statement": "Representability, L₃-admissibility/coherence, actualizability, and actuality are\ntyped distinctions. Every actualizable state must satisfy L₃, but TRT does not\npresently claim that every L₃-admissible representable state is actualizable.\n",
     "tier": 1
   },
   "ONT-004": {
@@ -249,17 +265,17 @@
     "epistemic_status": "argued",
     "id": "ONT-004",
     "name": "Synthetic Necessity of the Triad",
-    "notes": "Carries the load-bearing metaphysical posit (actuality != possibility), stated openly per the methodology.",
+    "notes": "A is independently characterized as non-temporal state transition/change.",
     "proof_status": "prose_only",
-    "risk_if_false": "If the necessity is merely analytic (true by definition of \"actualized reality\"),\nthe economy claim is stipulation, not a substantive feature of the actual.\n",
+    "risk_if_false": "If the necessity follows only from stipulated definitions, or a constituent\ncan be removed without loss, the hard-core necessity claim fails.\n",
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
-        "section": "9.3, 9.6"
+        "doc": "TRT-v0.10",
+        "section": "3.5, 9"
       }
     ],
-    "statement": "Given that something is actually real, it necessarily exhibits all three\nconstituents; the necessity is synthetic, not analytic \u2014 the three come apart\nunder analysis into three distinct failure modes (determinacy, differentiation,\nactuality). Rests on one explicit posit: actuality is a genuine status distinct\nfrom possibility.\n",
+    "statement": "Given determinate actuality, logical constraint, informational differentiation,\nand action are each necessary. Their necessity is synthetic rather than a\ndefinitional unpacking: removing L₃ loses coherent determinacy, removing I∞\nloses differentiated content, and removing A loses fundamental transition.\n",
     "tier": 1
   },
   "OPN-001": {
@@ -274,7 +290,7 @@
       "computation": [
         {
           "notebook": "3-prediction/co-admissibility-conjecture/code/coadmissibility_commutant.py",
-          "result": "Reproduces (deterministic, no fitted params) on the verified Feller et al. 2020\nmodel, Eqs.(3)-(4). The rate-INDEPENDENT measure-free criteria are non-discriminating:\n(i) commutant {a,a\u2020,N,H}' = C\u00b7Id (dim 1, N=8..64) -> no DFS; (ii) Fock/coherent\npointer states lie in the complement (residual sqrt(2n+1)); (iii) [D_n,D_a]=0 to\nmachine precision (reproduces paper Eq.17) -> pairwise-commuting set is the whole\nspace. This is the witness-free horn of the Attempt-3 dichotomy. Red-Team HIGH.\n",
+          "result": "Reproduces (deterministic, no fitted params) on the verified Feller et al. 2020\nmodel, Eqs.(3)-(4). The rate-INDEPENDENT measure-free criteria are non-discriminating:\n(i) commutant {a,a†,N,H}' = C·Id (dim 1, N=8..64) -> no DFS; (ii) Fock/coherent\npointer states lie in the complement (residual sqrt(2n+1)); (iii) [D_n,D_a]=0 to\nmachine precision (reproduces paper Eq.17) -> pairwise-commuting set is the whole\nspace. This is the witness-free horn of the Attempt-3 dichotomy. Red-Team HIGH.\n",
           "status": "reproduces"
         },
         {
@@ -291,7 +307,7 @@
     },
     "id": "OPN-001",
     "name": "Formalize Co-Admissibility (Task 0.1)",
-    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.\nAttempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)\nexists (dissipative port of the flatness=kernel result) but degenerates to a single\nsteady state in the incompatible-channel regime; re-inflating to the pointer family\nreintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial \u2014 and even\nthen the DFS likely targets the protected, not the decohering, sector. A weaker\npairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status\nadvanced open->prose_only (a written construction now exists); epistemic stays OPEN\n(the central measure-independence-where-it-discriminates question is unresolved \u2014 both\nRed-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the\ntwo-part commutant + pointer-location computation over the Feller cavity model. The\nnorm the relaxation needs is the same L2-residual as the gravity quadratic horn \u2014 ties\nto OPN-002.\nAttempt 2 (2026-06-26, computation; see formal_artifacts): the decisive computation ran.\nAll three tested measure-free objects are NON-DISCRIMINATING on the real model \u2014\ncommutant trivial (no DFS), pointer states in the complement, pairwise-commuting set =\nwhole space (reproduces Feller Eq.17). Structural diagnosis: the tested objects are\nalgebraic/rate-independent but the pointer family is rate-governed (kappa_n/kappa_a~1),\nso they cannot track it; a surviving criterion would have to be rate-dependent and\ngenerator-derived. SCOPE: recorded NEGATIVE for the TESTED criteria (the risk_if_false\noutcome) \u2014 progressive resolution, NOT a proof no measure-free criterion can discriminate\n(Red-Team checked the natural rate-dependent candidate, Liouvillian slow modes, which\nalso fails). Labels held: proof_status prose_only, epistemic open; positive move declined.\nJD holds the final label call. Open sub-question: does any rate-dependent measure-free\nobject discriminate?\nAttempt 3 (2026-06-26, sub-question (a); see formal_artifacts coadmissibility_ratedep.py):\nCORRECTED after an independent Red-Team REFUTED the first-pass \"no\" conclusion. Result is\na DICHOTOMY: witness-free measure-free objects (Attempt 2 + generator spectrum) are\nnon-discriminating; the purity-rate gamma_dot, via Feller's energy-shell Fock-stability\ncriterion, REPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) (<0.2%,\nverified) -- but by adopting the purity witness, i.e. re-description of standard\neinselection. So the conjecture's witness-INDEPENDENT-with-novel-content target is unmet:\nwitness-free is empty, witness-fixed is einselection re-described. Live falsifier is now\nPRD-001 (a) (re-description), not (b)/(c). proof_status stays prose_only; refuted DECLINED\n(the re-description horn is not yet closed). NEW open sub-question: does gamma_dot differ\nfrom einselection where einselection is itself witness-dependent? (the only door ajar).\nAttempt 4 (2026-06-26, the re-description test; see formal_artifacts coadmissibility_\nredescription.py): that door is now CLOSED for the gamma_dot form. gamma_dot lives at the\nshort-time level where all Renyi witnesses agree (witness-independent) and there it equals\nstandard einselection (g* match <0.06%); the witness-dependence lives at finite time where\ngamma_dot is silent (it is the exact T->0 boundary limit). So gamma_dot predicts NOTHING\nnew -> RE-DESCRIPTION. PRD-001 falsifier (a) fires via the 'predicts nothing new' limb only.\nDECOHERENCE instantiation of OPN-001 = resolved-to-re-description; OPN-001's surviving\ndiscriminating value rests on the GRAVITY side (OPN-002 keystone / PRD-002). OPN-001 stays\nopen/prose_only at the root (the broader measure-free design space is not impossibility-\nproved); JD's call on any status move. Recommended next: pivot discriminating effort to\nPRD-002 (caveat: it shares OPN-001 + the free-measure hazard, so this lowers its prior).\n",
+    "notes": "Root of the dependency graph. May be a computational rather than a Lean-proof object.\nAttempt 1 (2026-06-26, agent roster): a measure-free criterion C0 = ker(Lindbladian)\nexists (dissipative port of the flatness=kernel result) but degenerates to a single\nsteady state in the incompatible-channel regime; re-inflating to the pointer family\nreintroduces a witness UNLESS the commutant {Lk,Lk^dag,H}' is nontrivial — and even\nthen the DFS likely targets the protected, not the decohering, sector. A weaker\npairwise-commuting-dissipator criterion (more L3-faithful) is untested. proof_status\nadvanced open->prose_only (a written construction now exists); epistemic stays OPEN\n(the central measure-independence-where-it-discriminates question is unresolved — both\nRed-Team and Peer-Review declined a move to 'argued'). Decisive next artifact: the\ntwo-part commutant + pointer-location computation over the Feller cavity model. The\nnorm the relaxation needs is the same L2-residual as the gravity quadratic horn — ties\nto OPN-002.\nAttempt 2 (2026-06-26, computation; see formal_artifacts): the decisive computation ran.\nAll three tested measure-free objects are NON-DISCRIMINATING on the real model —\ncommutant trivial (no DFS), pointer states in the complement, pairwise-commuting set =\nwhole space (reproduces Feller Eq.17). Structural diagnosis: the tested objects are\nalgebraic/rate-independent but the pointer family is rate-governed (kappa_n/kappa_a~1),\nso they cannot track it; a surviving criterion would have to be rate-dependent and\ngenerator-derived. SCOPE: recorded NEGATIVE for the TESTED criteria (the risk_if_false\noutcome) — progressive resolution, NOT a proof no measure-free criterion can discriminate\n(Red-Team checked the natural rate-dependent candidate, Liouvillian slow modes, which\nalso fails). Labels held: proof_status prose_only, epistemic open; positive move declined.\nJD holds the final label call. Open sub-question: does any rate-dependent measure-free\nobject discriminate?\nAttempt 3 (2026-06-26, sub-question (a); see formal_artifacts coadmissibility_ratedep.py):\nCORRECTED after an independent Red-Team REFUTED the first-pass \"no\" conclusion. Result is\na DICHOTOMY: witness-free measure-free objects (Attempt 2 + generator spectrum) are\nnon-discriminating; the purity-rate gamma_dot, via Feller's energy-shell Fock-stability\ncriterion, REPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) (<0.2%,\nverified) -- but by adopting the purity witness, i.e. re-description of standard\neinselection. So the conjecture's witness-INDEPENDENT-with-novel-content target is unmet:\nwitness-free is empty, witness-fixed is einselection re-described. Live falsifier is now\nPRD-001 (a) (re-description), not (b)/(c). proof_status stays prose_only; refuted DECLINED\n(the re-description horn is not yet closed). NEW open sub-question: does gamma_dot differ\nfrom einselection where einselection is itself witness-dependent? (the only door ajar).\nAttempt 4 (2026-06-26, the re-description test; see formal_artifacts coadmissibility_\nredescription.py): that door is now CLOSED for the gamma_dot form. gamma_dot lives at the\nshort-time level where all Renyi witnesses agree (witness-independent) and there it equals\nstandard einselection (g* match <0.06%); the witness-dependence lives at finite time where\ngamma_dot is silent (it is the exact T->0 boundary limit). So gamma_dot predicts NOTHING\nnew -> RE-DESCRIPTION. PRD-001 falsifier (a) fires via the 'predicts nothing new' limb only.\nDECOHERENCE instantiation of OPN-001 = resolved-to-re-description; OPN-001's surviving\ndiscriminating value rests on the GRAVITY side (OPN-002 keystone / PRD-002). OPN-001 stays\nopen/prose_only at the root (the broader measure-free design space is not impossibility-\nproved); JD's call on any status move. Recommended next: pivot discriminating effort to\nPRD-002 (caveat: it shares OPN-001 + the free-measure hazard, so this lowers its prior).\n",
     "proof_status": "prose_only",
     "risk_if_false": "The gating task. If no formalization avoids a free measure, or every one reduces\nto the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose\ndiscriminating content and the programme collapses to re-description.\n",
     "role": "open",
@@ -309,7 +325,7 @@
         "section": "Attempt 1 (C0); Attempt 2 (computation)"
       }
     ],
-    "statement": "Define co-admissibility as a criterion C(constraints) \u2192 admissible set that is\nwell-defined, computable, and measure-independent (no free entanglement measure).\n",
+    "statement": "Define co-admissibility as a criterion C(constraints) → admissible set that is\nwell-defined, computable, and measure-independent (no free entanglement measure).\n",
     "tier": 2
   },
   "OPN-002": {
@@ -322,7 +338,7 @@
     "epistemic_status": "open",
     "id": "OPN-002",
     "name": "Actualization-Resolution Keystone",
-    "notes": "The structural parallel between the gravity fork and measurement emerged from the\nrelational-graph computation (MEDIUM).\n2026-06-26 (cross-sector exploration; 2-theory/03-gravity/cross-sector-keystone.md):\nexamined whether the quantum-sector result (the discriminating einselection criterion\nuses the Hilbert metric) constrains A toward the projective/quadratic horn. A first-pass\n\"leans modified gravity\" reading was REFUTED by red-team: the metric-using object\n(gamma_dot) is STAGE-1 (co-admissibility; verdict = re-description), not the STAGE-2\nprojective Born selection, which born-rule.md \u00a76.6.2 itself leaves underived (the open\nkeystone). Corrected result: a CONDITIONAL only \u2014 IF the sectors share a value space\n(not just A) AND projective Born is fundamental to A (not a stage-2 overlay), THEN exact\nGR + projective measurement + the unification cannot all hold. Both premises unproven;\nthe all-three-consistent escape (A obstruction-registering + Born as overlay + shared A)\nis TRT's own position. NET: OPN-002 stays OPEN, no confidence move; the fork is neither\ndecided nor moved. The cross-sector view prices the UNIFICATION; it does not favor\nmodified gravity. Highest-leverage next question: is projective Born fundamental to A or\nan overlay? (= the stage-2 keystone itself).\n2026-06-29 (Grok proposal triage; reviews/2026-06-grok/): a categorical recast of TRT\nwas DECLINED as a program (re-skins v0.9 hard core; its idempotent-monad decoherence\ncenterpiece is the PRD-001 re-description route; ZX/dagger-compact bakes in the inner\nproduct and tilts to the quadratic horn). One graft EXTRACTED for sub-route 1: a\nSHEAF-COHOMOLOGICAL probe (2-theory/00-foundational/actualization-resolution-sheaf-probe.md).\nThesis: horn (a) obstruction-registering = the cohomological obstruction class to a global\nsection (metric-free, possibilistic layer); horn (b) best-fit projective = nearest-section\nprojection under an imposed norm (probabilistic layer). Precedent: Abramsky-Brandenburger\n(2011) sheaf-theoretic contextuality (verify primary first). Priority: OPTIONAL, below the\nlive commutant/gravity work; LOW confidence it resolves OPN-002; MEDIUM it is the right CT\ncorner. CORRECTION logged: an interim \"use ZX as the probe\" suggestion was withdrawn \u2014\nZX carries the inner product (quadratic horn only); sheaf cohomology can carry the\nmetric-free obstruction. No confidence move; OPN-002 stays OPEN.\n2026-06-29 (red-team of the sheaf probe; reviews/2026-06-redteam-sheaf/): attacked on 5\nvectors. PRIMARY VERIFIED (A-B 2011 obstruction-to-global-section + possibilistic/probabilistic\nsemiring layering \u2014 both accurate; logged in verification-status.md; cite the cohomology sequel\nAbramsky-Mansfield-Barbosa). Static mapping (co-admissibility-failure = no-global-section)\nSURVIVES \u2014 faithful, already rigorous via relational-graph-test \u00a71. DISCRIMINATING CLAIM DOES\nNOT SURVIVE: OPN-002 is about the deficit's MAGNITUDE functional (|\u03b4| vs \u03b4\u00b2/3); the\npossibilistic/metric-free layer is magnitude-free, so the property that keeps horn (a) honest\ncannot separate the horns, and the layer that can (probabilistic) IS horn (b) by definition \u2014\nthe \u03b3\u0307/PRD-001 re-description pattern recurring (UNCERTAIN\u2192REFUTED, MED-HIGH). The sheaf also\nmodels the OBSTRUCTION, not A's RESOLUTION ACT (register-vs-project sits on top of the sheaf,\nnot within it; REFUTED, HIGH). DISPOSITION APPLIED: RE-SCOPED, not killed \u2014 thesis demoted from\n\"distinguishes the horns natively\" to \"candidate sharper falsifier\"; success criterion sharpened\n(discriminator only if the possibilistic layer alone carries a torsion/higher-H^n feature\ndiffering by resolution mode; else record NEGATIVE \u2192 informative negative toward horn b).\nNo confidence move; OPN-002 stays OPEN.\n",
+    "notes": "The structural parallel between the gravity fork and measurement emerged from the\nrelational-graph computation (MEDIUM).\n2026-06-26 (cross-sector exploration; 2-theory/03-gravity/cross-sector-keystone.md):\nexamined whether the quantum-sector result (the discriminating einselection criterion\nuses the Hilbert metric) constrains A toward the projective/quadratic horn. A first-pass\n\"leans modified gravity\" reading was REFUTED by red-team: the metric-using object\n(gamma_dot) is STAGE-1 (co-admissibility; verdict = re-description), not the STAGE-2\nprojective Born selection, which born-rule.md §6.6.2 itself leaves underived (the open\nkeystone). Corrected result: a CONDITIONAL only — IF the sectors share a value space\n(not just A) AND projective Born is fundamental to A (not a stage-2 overlay), THEN exact\nGR + projective measurement + the unification cannot all hold. Both premises unproven;\nthe all-three-consistent escape (A obstruction-registering + Born as overlay + shared A)\nis TRT's own position. NET: OPN-002 stays OPEN, no confidence move; the fork is neither\ndecided nor moved. The cross-sector view prices the UNIFICATION; it does not favor\nmodified gravity. Highest-leverage next question: is projective Born fundamental to A or\nan overlay? (= the stage-2 keystone itself).\n2026-06-29 (Grok proposal triage; reviews/2026-06-grok/): a categorical recast of TRT\nwas DECLINED as a program (re-skins v0.9 hard core; its idempotent-monad decoherence\ncenterpiece is the PRD-001 re-description route; ZX/dagger-compact bakes in the inner\nproduct and tilts to the quadratic horn). One graft EXTRACTED for sub-route 1: a\nSHEAF-COHOMOLOGICAL probe (2-theory/00-foundational/actualization-resolution-sheaf-probe.md).\nThesis: horn (a) obstruction-registering = the cohomological obstruction class to a global\nsection (metric-free, possibilistic layer); horn (b) best-fit projective = nearest-section\nprojection under an imposed norm (probabilistic layer). Precedent: Abramsky-Brandenburger\n(2011) sheaf-theoretic contextuality (verify primary first). Priority: OPTIONAL, below the\nlive commutant/gravity work; LOW confidence it resolves OPN-002; MEDIUM it is the right CT\ncorner. CORRECTION logged: an interim \"use ZX as the probe\" suggestion was withdrawn —\nZX carries the inner product (quadratic horn only); sheaf cohomology can carry the\nmetric-free obstruction. No confidence move; OPN-002 stays OPEN.\n2026-06-29 (red-team of the sheaf probe; reviews/2026-06-redteam-sheaf/): attacked on 5\nvectors. PRIMARY VERIFIED (A-B 2011 obstruction-to-global-section + possibilistic/probabilistic\nsemiring layering — both accurate; logged in verification-status.md; cite the cohomology sequel\nAbramsky-Mansfield-Barbosa). Static mapping (co-admissibility-failure = no-global-section)\nSURVIVES — faithful, already rigorous via relational-graph-test §1. DISCRIMINATING CLAIM DOES\nNOT SURVIVE: OPN-002 is about the deficit's MAGNITUDE functional (|δ| vs δ²/3); the\npossibilistic/metric-free layer is magnitude-free, so the property that keeps horn (a) honest\ncannot separate the horns, and the layer that can (probabilistic) IS horn (b) by definition —\nthe γ̇/PRD-001 re-description pattern recurring (UNCERTAIN→REFUTED, MED-HIGH). The sheaf also\nmodels the OBSTRUCTION, not A's RESOLUTION ACT (register-vs-project sits on top of the sheaf,\nnot within it; REFUTED, HIGH). DISPOSITION APPLIED: RE-SCOPED, not killed — thesis demoted from\n\"distinguishes the horns natively\" to \"candidate sharper falsifier\"; success criterion sharpened\n(discriminator only if the possibilistic layer alone carries a torsion/higher-H^n feature\ndiffering by resolution mode; else record NEGATIVE → informative negative toward horn b).\nNo confidence move; OPN-002 stays OPEN.\n",
     "proof_status": "open",
     "risk_if_false": "Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with\nan imposed norm, the linear/GR route closes.\n",
     "role": "open",
@@ -336,7 +352,7 @@
         "section": "Tier 3 / 3.1"
       }
     ],
-    "statement": "Characterize how A resolves unsatisfiable/unresolved admissible structure:\nobstruction-registering (linear \u2192 GR, projective measurement-free) or best-fit\nprojective (quadratic \u2192 modified gravity, projective measurement).\n",
+    "statement": "Characterize how A resolves unsatisfiable/unresolved admissible structure:\nobstruction-registering (linear → GR, projective measurement-free) or best-fit\nprojective (quadratic → modified gravity, projective measurement).\n",
     "tier": 2
   },
   "OPN-003": {
@@ -362,7 +378,7 @@
         "section": "Tier 4 / 4.1"
       }
     ],
-    "statement": "Reconstruct the familiar structures \u2014 Hilbert space, probability, the Born rule,\ngauge symmetry, relativistic spacetime, field equations, conservation laws \u2014 from\nthe triadic foundation, in appropriate limits.\n",
+    "statement": "Reconstruct the familiar structures — Hilbert space, probability, the Born rule,\ngauge symmetry, relativistic spacetime, field equations, conservation laws — from\nthe triadic foundation, in appropriate limits.\n",
     "tier": 2
   },
   "OPN-004": {
@@ -392,7 +408,7 @@
         "section": "Tier 2 / 2.2"
       }
     ],
-    "statement": "Derive the Born rule's form from constraints on actualizing action A across the\nadmissible\u2192actual boundary, rather than assuming it; and address the hard residue\n(why one admissible branch actualizes rather than another on a given occasion).\n",
+    "statement": "Derive the Born rule's form from constraints on actualizing action A across the\nadmissible→actual boundary, rather than assuming it; and address the hard residue\n(why one admissible branch actualizes rather than another on a given occasion).\n",
     "tier": 2
   },
   "OPN-005": {
@@ -406,7 +422,7 @@
     "id": "OPN-005",
     "name": "Dimensional Analysis (ontological A vs physical S)",
     "proof_status": "open",
-    "risk_if_false": "Without the S\u2192A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical.",
+    "risk_if_false": "Without the S→A bridge, the variational apparatus and the energy-as-action-rate identification stay metaphorical.",
     "role": "open",
     "source_documents": [
       {
@@ -418,7 +434,7 @@
         "section": "Tier 0 / 0.2"
       }
     ],
-    "statement": "Develop the relation between ontological action A, the physical action functional\nS, energy, and time; justify the inference from the prominence of S in physics to\nthe ontological role of A (the S\u2192A bridge).\n",
+    "statement": "Develop the relation between ontological action A, the physical action functional\nS, energy, and time; justify the inference from the prominence of S in physics to\nthe ontological role of A (the S→A bridge).\n",
     "tier": 2
   },
   "OPN-006": {
@@ -458,7 +474,7 @@
         "section": "9.3, 12 (challenge 6)"
       }
     ],
-    "statement": "Keep formal, physical, and metaphysical claims distinct; state the one explicit\nposit (actuality is a genuine status distinct from possibility, \u00a79.3) openly.\nDisclosure is the standard, not the absence of metaphysical commitment.\n",
+    "statement": "Keep formal, physical, and metaphysical claims distinct; state the one explicit\nposit (actuality is a genuine status distinct from possibility, §9.3) openly.\nDisclosure is the standard, not the absence of metaphysical commitment.\n",
     "tier": 2
   },
   "OPN-008": {
@@ -478,10 +494,10 @@
     ],
     "epistemic_status": "open",
     "id": "OPN-008",
-    "name": "ADCE \u2014 Dark Energy from Mean Causal Growth",
-    "notes": "2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified\nsymbolically (both 3-volume and 4-volume counting; the H-relations are kinematic\nidentities given the dictionary, so all physics lives in the growth law). Prior-art\nsweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's\nfounding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by\nLorentz invariance); Sorkin's pre-1998 everpresent \u039b (gr-qc/9706002) is the\nestablished fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916\nis the count-driven dV/dt structural precedent (instructive inversion: his de Sitter\nis the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson\nenergy-per-bit named as the disavowed path. Four gaps identified and addressed in\nv3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity\nfork (resolved to 4-volume counting, the triadically- and CST-consistent choice),\ncoincidence problem (named mandatory deliverable), magnitude benchmark (competitive\nbar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2\nsigma, w0 > -1, wa < 0, phantom crossing z \u2248 0.4-0.5) is a live target; phantom\ncrossing is a structural opportunity since the actualization sector is not a\nminimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then\na CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory\ndeliverables (a) and (c).\n2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed\nat the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting\na static universe sustains \u1e44 > 0 at saturation, so the v2-form central hypothesis\n(\"continued actualization necessarily changes geometry\") is FALSE by the paper's\nown equations \u2014 criterion 3 fired, registered, hypothesis reformulated to\n\"accelerating actualization\" (expansion = rate acceleration, cosmic acceleration =\ncount jerk 3\u1e44N\u20db > 2N\u0308\u00b2). Vector 3 (HIGH): N-equivocation (Planck substrate count\nN_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level\nstructure + bridge-law obligation (\u00a79.4). Vector 5 (HIGH, reproduced): DESI-quadrant\n\u03c1_DE is NON-monotone (peak at crossing z\u22480.4, declining since; a* = 1+(1+w0)/wa),\nso the earlier \"phantom crossing is a structural opportunity\" line above OVERSTATED\n\u2014 corrected: only sign-stability is (weakly) claimed; the DESI history is prima\nfacie pressure, and the reframed severe test is a natural growth law with a\nsign-stable, late-peaking, non-monotone effective \u03c1_A. Vector 6: mean-coupled\nmagnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002\nadded (CST substrate import, this entry's new formal dependency). No confidence\nmoves; stays open/prose_only.\n2026-07-22 (Targets 3+5 execution; adce-t3t5-report.md, v3.2): Target 3 CLOSED\nNEGATIVE \u2014 A-SAT dissolved under the two-level split (substrate: saturation is a\ngeometry-neutral identity of the number-volume correspondence, cannot force\nexpansion; record level: saturation false by ~100 orders); capacity-forcing route\nclosed in principle. Krishna-Mathew direction corrected vs fulltext: they prove\nlaw=>entropy-maximization, NOT the converse \u2014 the extremal escape is conjectural.\nTarget 5 (FLRW level) executed as a bridge-law scan (code/adce_bridge_scan.py):\ndeliverable (a) ACHIEVED \u2014 feedback attractor (sigma = lam*N_R, diluted-stock\nbridge) has genuine de Sitter fixed point H* = lam/3 (v2's boxed relation recovered\nas attractor, not assumption), matter era intact, z_acc ~ 0.47; cost = lam ~ 3H0\nhand-set (coincidence relocated) + freezing quadrant (w_a > 0, DESI-disfavored).\nSEVERE TEST FAILED across the natural grid: nearest morphological match (SFH x\ndiluted-stock) peaks at z ~ 2.1 (locked to cosmic noon) vs observed z* ~ 0.35-0.50.\nThree-probe convergence on horizon coupling as the only data-viable branch:\n(i) only DESI-quadrant natural cell is horizon-coupled (w0,wa ~ -0.58,-0.28, too\nweak, Hsu-type self-limiting); (ii) inverse problem \u2014 exact-DESI source must RISE\nmonotonically to z=0 (2.8x its z=1 value), anti-correlated with all matter-\nprocessing histories, no record destruction needed; (iii) magnitude \u2014 only the\nhorizon-entropy inventory (S_CEH = 2.6e122 kB, Egan-Lineweaver) yields a DERIVED\nenergy-per-record scale (within 1.4x of kB*T_deSitter; partially a de Sitter\nthermodynamic identity, flagged). Meanwhile CSG literature (fulltext sweep) shows\ncosmic renormalization makes percolation (t_n = t^n) the unique fixed-point family\n=> generic sequential growth natively selects the FEEDBACK branch; no covariant\nt_n family producing a horizon-referenced law is known (confirmed gap); any CSG\nbenchmark bounded to coarse observables (Glaser-Surya 1309.3403 manifoldlikeness\nfailure). NET STATE: exactly two live realizations, mutually exclusive in w_a\nsign \u2014 feedback attractor (CSG-natural, DESI-disfavored) vs horizon coupling\n(DESI-quadrant, underived, acute criterion-12 risk) \u2014 with DESI DR3/Euclid as the\nexternally scheduled adjudicator. Stays open/prose_only; no confidence moves.\n2026-07-22 (second red-team; reviews/2026-07-redteam-adce-t3t5/): report revised\nin-cycle (v3.2.1 edits on the PR branch). Landed hits, all reproduced before\nacceptance: V4 (HIGH) \u2014 attractor cell carries a PERMANENT ~14.4% dust-like\ntracker through recombination (verified z=5..9000, w_A=0 at z=1090); \"matter era\nintact\" refuted as stated (0.18 at z=5 also fails the scan's own <0.1 threshold);\ndeliverable (a) downgraded to background-morphology-only, two tuned dials (mu,\nlam) = CPL's parameter count. V7 (HIGH) \u2014 \"three independent probes\" REFUTED as\nmultiplicity: scan + inverse problem are one B1-conditional computation run both\nways; magnitude row is an identity; restated as one probe; also \"only DESI-\nquadrant cell\" was false as worded (S1xB1, S2xB1 in-quadrant but decelerating;\nS5 unique only as in-quadrant AND accelerating, and S5 fails the interior-peak\nshape criterion itself \u2014 now applied symmetrically: no cell passes, S5 fails\nleast). V8 (HIGH) \u2014 \"CSG natively selects feedback\" REFUTED as a level slip\n(percolation results govern N_P substrate birth, not the N_R bridge \u2014 the exact\nequivocation \u00a79.4 forbids); restated as the named open INHERITANCE CONJECTURE.\nV1 (MED-HIGH) \u2014 Target 3 closure re-scoped to the declared two-level structure;\nJacobson-type horizon-thermodynamic level not covered by the dichotomy, merges\nwith the extremal escape as one open problem (a horizon-thermodynamic derivation\nof the bridge law). V6 (MED-HIGH) \u2014 magnitude horizon row relabeled a consistency\nidentity: mu/kB*T_dS = Omega_L*(c/H0*R_CEH)^2 = 0.59 exactly (verified); zero\nrecord physics; \"fully guaranteed given the inputs.\" V5 (MED-LOW) \u2014 inverse-\nproblem peak z combo-dependent (0.00/0.00/0.06/0.29 across DR2 combos); \"rises\ninto the late era\" is the robust statement. V9/V10 \u2014 stale A-SAT load-outs swept\n(Target 4 re-posed as bridge-law derivation; criterion 4 FIRED-and-absorbed\nannotation; this statement field amended); criteria adjudication added to report\n\u00a77: crit 15 PARTIALLY FIRED (hand-set lam ~ 3H0, z_acc 0.47 vs 0.7), crit 5 on\nwatch, crit 12 acute on horizon branch. Numerics core survived all attacks\n(closed-form S5, two-sided attractor ODE, seed robustness, exact relations to\n1e-13). Honest cycle close (red-team's sentence, accepted): one probe, two\ndamaged branches, one scheduled execution date (DESI DR3/Euclid w_a sign).\nStays open/prose_only; no confidence moves.\n",
+    "name": "ADCE — Dark Energy from Mean Causal Growth",
+    "notes": "2026-07-22 (capture; issue #9): evaluation of the v2 research note. Math verified\nsymbolically (both 3-volume and 4-volume counting; the H-relations are kinematic\nidentities given the dictionary, so all physics lives in the growth law). Prior-art\nsweep vs primaries: the bounded-density-therefore-V-proportional-to-N move is CST's\nfounding postulate (Bombelli-Lee-Meyer-Sorkin 1987, Poisson sprinkling forced by\nLorentz invariance); Sorkin's pre-1998 everpresent Λ (gr-qc/9706002) is the\nestablished fluctuation-driven rival on the same substrate; Padmanabhan 1206.4916\nis the count-driven dV/dt structural precedent (instructive inversion: his de Sitter\nis the equilibrium, ADCE's de Sitter is proportional growth); Gough/Vopson\nenergy-per-bit named as the disavowed path. Four gaps identified and addressed in\nv3: smuggled saturation axiom (now A-SAT, ASSUMED), Bousso area-vs-volume capacity\nfork (resolved to 4-volume counting, the triadically- and CST-consistent choice),\ncoincidence problem (named mandatory deliverable), magnitude benchmark (competitive\nbar vs 10^-120). Observational anchor: DESI DR2 evolving-DE preference (2.8-4.2\nsigma, w0 > -1, wa < 0, phantom crossing z ≈ 0.4-0.5) is a live target; phantom\ncrossing is a structural opportunity since the actualization sector is not a\nminimally-coupled scalar. Next: Target 3 (capacity bound + A-SAT derivation), then\na CSG-based toy model benchmarked vs Ahmed-Rideout 0909.4771 with mandatory\ndeliverables (a) and (c).\n2026-07-22 (red-team; reviews/2026-07-redteam-adce/): partial refutation absorbed\nat the belt, v3.1 in PR #10. Vector 1 (HIGH, reproduced): under 4-volume counting\na static universe sustains Ṅ > 0 at saturation, so the v2-form central hypothesis\n(\"continued actualization necessarily changes geometry\") is FALSE by the paper's\nown equations — criterion 3 fired, registered, hypothesis reformulated to\n\"accelerating actualization\" (expansion = rate acceleration, cosmic acceleration =\ncount jerk 3ṄN⃛ > 2N̈²). Vector 3 (HIGH): N-equivocation (Planck substrate count\nN_P vs physical record count N_R, ~100 orders apart) resolved by declared two-level\nstructure + bridge-law obligation (§9.4). Vector 5 (HIGH, reproduced): DESI-quadrant\nρ_DE is NON-monotone (peak at crossing z≈0.4, declining since; a* = 1+(1+w0)/wa),\nso the earlier \"phantom crossing is a structural opportunity\" line above OVERSTATED\n— corrected: only sign-stability is (weakly) claimed; the DESI history is prima\nfacie pressure, and the reframed severe test is a natural growth law with a\nsign-stable, late-peaking, non-monotone effective ρ_A. Vector 6: mean-coupled\nmagnitude default is Planckian (~120 orders wrong); suppression mandatory. EXT-002\nadded (CST substrate import, this entry's new formal dependency). No confidence\nmoves; stays open/prose_only.\n2026-07-22 (Targets 3+5 execution; adce-t3t5-report.md, v3.2): Target 3 CLOSED\nNEGATIVE — A-SAT dissolved under the two-level split (substrate: saturation is a\ngeometry-neutral identity of the number-volume correspondence, cannot force\nexpansion; record level: saturation false by ~100 orders); capacity-forcing route\nclosed in principle. Krishna-Mathew direction corrected vs fulltext: they prove\nlaw=>entropy-maximization, NOT the converse — the extremal escape is conjectural.\nTarget 5 (FLRW level) executed as a bridge-law scan (code/adce_bridge_scan.py):\ndeliverable (a) ACHIEVED — feedback attractor (sigma = lam*N_R, diluted-stock\nbridge) has genuine de Sitter fixed point H* = lam/3 (v2's boxed relation recovered\nas attractor, not assumption), matter era intact, z_acc ~ 0.47; cost = lam ~ 3H0\nhand-set (coincidence relocated) + freezing quadrant (w_a > 0, DESI-disfavored).\nSEVERE TEST FAILED across the natural grid: nearest morphological match (SFH x\ndiluted-stock) peaks at z ~ 2.1 (locked to cosmic noon) vs observed z* ~ 0.35-0.50.\nThree-probe convergence on horizon coupling as the only data-viable branch:\n(i) only DESI-quadrant natural cell is horizon-coupled (w0,wa ~ -0.58,-0.28, too\nweak, Hsu-type self-limiting); (ii) inverse problem — exact-DESI source must RISE\nmonotonically to z=0 (2.8x its z=1 value), anti-correlated with all matter-\nprocessing histories, no record destruction needed; (iii) magnitude — only the\nhorizon-entropy inventory (S_CEH = 2.6e122 kB, Egan-Lineweaver) yields a DERIVED\nenergy-per-record scale (within 1.4x of kB*T_deSitter; partially a de Sitter\nthermodynamic identity, flagged). Meanwhile CSG literature (fulltext sweep) shows\ncosmic renormalization makes percolation (t_n = t^n) the unique fixed-point family\n=> generic sequential growth natively selects the FEEDBACK branch; no covariant\nt_n family producing a horizon-referenced law is known (confirmed gap); any CSG\nbenchmark bounded to coarse observables (Glaser-Surya 1309.3403 manifoldlikeness\nfailure). NET STATE: exactly two live realizations, mutually exclusive in w_a\nsign — feedback attractor (CSG-natural, DESI-disfavored) vs horizon coupling\n(DESI-quadrant, underived, acute criterion-12 risk) — with DESI DR3/Euclid as the\nexternally scheduled adjudicator. Stays open/prose_only; no confidence moves.\n2026-07-22 (second red-team; reviews/2026-07-redteam-adce-t3t5/): report revised\nin-cycle (v3.2.1 edits on the PR branch). Landed hits, all reproduced before\nacceptance: V4 (HIGH) — attractor cell carries a PERMANENT ~14.4% dust-like\ntracker through recombination (verified z=5..9000, w_A=0 at z=1090); \"matter era\nintact\" refuted as stated (0.18 at z=5 also fails the scan's own <0.1 threshold);\ndeliverable (a) downgraded to background-morphology-only, two tuned dials (mu,\nlam) = CPL's parameter count. V7 (HIGH) — \"three independent probes\" REFUTED as\nmultiplicity: scan + inverse problem are one B1-conditional computation run both\nways; magnitude row is an identity; restated as one probe; also \"only DESI-\nquadrant cell\" was false as worded (S1xB1, S2xB1 in-quadrant but decelerating;\nS5 unique only as in-quadrant AND accelerating, and S5 fails the interior-peak\nshape criterion itself — now applied symmetrically: no cell passes, S5 fails\nleast). V8 (HIGH) — \"CSG natively selects feedback\" REFUTED as a level slip\n(percolation results govern N_P substrate birth, not the N_R bridge — the exact\nequivocation §9.4 forbids); restated as the named open INHERITANCE CONJECTURE.\nV1 (MED-HIGH) — Target 3 closure re-scoped to the declared two-level structure;\nJacobson-type horizon-thermodynamic level not covered by the dichotomy, merges\nwith the extremal escape as one open problem (a horizon-thermodynamic derivation\nof the bridge law). V6 (MED-HIGH) — magnitude horizon row relabeled a consistency\nidentity: mu/kB*T_dS = Omega_L*(c/H0*R_CEH)^2 = 0.59 exactly (verified); zero\nrecord physics; \"fully guaranteed given the inputs.\" V5 (MED-LOW) — inverse-\nproblem peak z combo-dependent (0.00/0.00/0.06/0.29 across DR2 combos); \"rises\ninto the late era\" is the robust statement. V9/V10 — stale A-SAT load-outs swept\n(Target 4 re-posed as bridge-law derivation; criterion 4 FIRED-and-absorbed\nannotation; this statement field amended); criteria adjudication added to report\n§7: crit 15 PARTIALLY FIRED (hand-set lam ~ 3H0, z_acc 0.47 vs 0.7), crit 5 on\nwatch, crit 12 acute on horizon branch. Numerics core survived all attacks\n(closed-form S5, two-sided attractor ODE, seed robustness, exact relations to\n1e-13). Honest cycle close (red-team's sentence, accepted): one probe, two\ndamaged branches, one scheduled execution date (DESI DR3/Euclid w_a sign).\nStays open/prose_only; no confidence moves.\n",
     "proof_status": "prose_only",
-    "risk_if_false": "If no growth law solves the coincidence problem without hand-tuning, or the\nmechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the\n4-volume resolution renders the geometric hypothesis vacuous (static universes\nsustain \u1e44 > 0 at saturation, so only *accelerating* actualization carries content\n\u2014 adce.md \u00a78 v3.1), or no N_R\u2192N_P bridge law can be stated (adce.md \u00a79.4), ADCE\nreduces to re-labeled causal-set kinematics with no independent content and is\nabandoned (adce.md \u00a716 criteria 11-12, 15-16). The TRT hard core is untouched\neither way; this is a belt-level physics-facing conjecture.\n",
+    "risk_if_false": "If no growth law solves the coincidence problem without hand-tuning, or the\nmechanism cannot match the fluctuation rival's derived 10^-120 magnitude, or the\n4-volume resolution renders the geometric hypothesis vacuous (static universes\nsustain Ṅ > 0 at saturation, so only *accelerating* actualization carries content\n— adce.md §8 v3.1), or no N_R→N_P bridge law can be stated (adce.md §9.4), ADCE\nreduces to re-labeled causal-set kinematics with no independent content and is\nabandoned (adce.md §16 criteria 11-12, 15-16). The TRT hard core is untouched\neither way; this is a belt-level physics-facing conjecture.\n",
     "role": "open",
     "source_documents": [
       {
@@ -493,7 +509,7 @@
         "section": "2-theory/04-cosmology/adce-t3t5-report.md"
       }
     ],
-    "statement": "Determine whether the mean growth rate of realized causal structure (\u1e44), on the\ncausal-set number-volume substrate, can drive late-time accelerated expansion via\na derivable bridge law T^(A) = B[N_R-sector; g] (the saturation axiom A-SAT was\nretired in v3.2 \u2014 Target 3 closed negative for the declared two-level structure),\nwith (a) a derived growth law producing matter-era deceleration followed by\nacceleration onset at z \u2248 0.7, (b) a natural magnitude compatible with the\nobserved dark-energy scale, and (c) a w_A(z) distinguishable from both \u039bCDM and\nthe fluctuation-driven everpresent-\u039b mechanism (\u039b ~ \u00b1\u210f/\u221aV\u2084) that shares the same\nkinematic substrate.\n",
+    "statement": "Determine whether the mean growth rate of realized causal structure (Ṅ), on the\ncausal-set number-volume substrate, can drive late-time accelerated expansion via\na derivable bridge law T^(A) = B[N_R-sector; g] (the saturation axiom A-SAT was\nretired in v3.2 — Target 3 closed negative for the declared two-level structure),\nwith (a) a derived growth law producing matter-era deceleration followed by\nacceleration onset at z ≈ 0.7, (b) a natural magnitude compatible with the\nobserved dark-energy scale, and (c) a w_A(z) distinguishable from both ΛCDM and\nthe fluctuation-driven everpresent-Λ mechanism (Λ ~ ±ℏ/√V₄) that shares the same\nkinematic substrate.\n",
     "tier": 2
   },
   "OPN-009": {
@@ -577,10 +593,10 @@
     "external_citations": [
       "Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851"
     ],
-    "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE\n(2026-06-26): (d) if the commutant {L_n,L_\u03b1,L_n^dag,L_\u03b1^dag,H}' is trivial across\nthe critical coupling, the measure-free kernel criterion degenerates to a unique\nsteady state and a witness is forced \u2014 refuting (a) without the full optimization;\nand if the commutant is nontrivial but the einselected pointer states lie in its\northogonal (decohering) complement rather than inside it, the measure-free object\nis disjoint from the predicted structure \u2014 also refuting.\n",
+    "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE\n(2026-06-26): (d) if the commutant {L_n,L_α,L_n^dag,L_α^dag,H}' is trivial across\nthe critical coupling, the measure-free kernel criterion degenerates to a unique\nsteady state and a witness is forced — refuting (a) without the full optimization;\nand if the commutant is nontrivial but the einselected pointer states lie in its\northogonal (decohering) complement rather than inside it, the measure-free object\nis disjoint from the predicted structure — also refuting.\n",
     "id": "PRD-001",
     "name": "Co-Admissibility Conjecture (incompatible channels)",
-    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) COMPUTED for the\nrate-INDEPENDENT objects \u2014 commutant {a,a\u2020,N,H}' trivial (no DFS) AND pointer states in\nits complement; pairwise-commuting set = whole space. Those objects are non-discriminating.\n2026-06-26 (computation, OPN-001 Attempt 3; SUPERSEDES the over-read of Attempt 2): an\nindependent Red-Team refuted a first-pass \"no measure-free criterion discriminates\"\nconclusion. Corrected picture is a DICHOTOMY: witness-free objects are non-discriminating,\nbut the purity-rate gamma_dot (via Feller's energy-shell Fock-stability criterion)\nREPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) to <0.2% \u2014 by adopting\nthe purity witness. So the live falsifier is (a) RE-DESCRIPTION (\"reproduces the witness-\ndependence it was meant to eliminate / predicts nothing new\"), NOT (b)/(c): the criterion\ndoes make a definite, correct prediction, but only by re-describing standard einselection.\nepistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).\nDecisive next test: does gamma_dot differ from einselection where einselection is itself\nwitness-dependent? See co-admissibility-formalization.md Attempt 3.\n2026-06-26 (Attempt 4, the re-description test \u2014 the door CLOSES): gamma_dot lives at the\nshort-time level where ALL Renyi witnesses agree (witness-independent, proven: d/dt tr\nrho^a|0 = (a/2) gamma_dot) and there it reproduces the analytic standard-einselection g*\nto <0.06%; the witness-dependence lives at finite time where gamma_dot (the exact T->0\nboundary limit) is silent. So gamma_dot predicts NOTHING NEW. Falsifier (a) FIRES via its\n'predicts nothing new' limb (NOT the 'reproduces witness-dependence' limb \u2014 gamma_dot is\nwitness-INDEPENDENT). RECOMMENDATION (JD's call): epistemic_status -> refuted-by-re-\ndescription (the enum [established,argued,conjectured,open] has no such value \u2014 needs a\nschema addition or an explicit annotation; held 'conjectured' pending JD). The decoherence\ndescendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),\nwhich is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node\nred-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.\n",
+    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) COMPUTED for the\nrate-INDEPENDENT objects — commutant {a,a†,N,H}' trivial (no DFS) AND pointer states in\nits complement; pairwise-commuting set = whole space. Those objects are non-discriminating.\n2026-06-26 (computation, OPN-001 Attempt 3; SUPERSEDES the over-read of Attempt 2): an\nindependent Red-Team refuted a first-pass \"no measure-free criterion discriminates\"\nconclusion. Corrected picture is a DICHOTOMY: witness-free objects are non-discriminating,\nbut the purity-rate gamma_dot (via Feller's energy-shell Fock-stability criterion)\nREPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) to <0.2% — by adopting\nthe purity witness. So the live falsifier is (a) RE-DESCRIPTION (\"reproduces the witness-\ndependence it was meant to eliminate / predicts nothing new\"), NOT (b)/(c): the criterion\ndoes make a definite, correct prediction, but only by re-describing standard einselection.\nepistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).\nDecisive next test: does gamma_dot differ from einselection where einselection is itself\nwitness-dependent? See co-admissibility-formalization.md Attempt 3.\n2026-06-26 (Attempt 4, the re-description test — the door CLOSES): gamma_dot lives at the\nshort-time level where ALL Renyi witnesses agree (witness-independent, proven: d/dt tr\nrho^a|0 = (a/2) gamma_dot) and there it reproduces the analytic standard-einselection g*\nto <0.06%; the witness-dependence lives at finite time where gamma_dot (the exact T->0\nboundary limit) is silent. So gamma_dot predicts NOTHING NEW. Falsifier (a) FIRES via its\n'predicts nothing new' limb (NOT the 'reproduces witness-dependence' limb — gamma_dot is\nwitness-INDEPENDENT). RECOMMENDATION (JD's call): epistemic_status -> refuted-by-re-\ndescription (the enum [established,argued,conjectured,open] has no such value — needs a\nschema addition or an explicit annotation; held 'conjectured' pending JD). The decoherence\ndescendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),\nwhich is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node\nred-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.\n",
     "proof_status": "open",
     "risk_if_false": "If false, TRT's measurement account is re-description of decoherence, not new physics.",
     "role": "prediction",
@@ -637,10 +653,10 @@
     "external_citations": [
       "Wigner (1960)"
     ],
-    "falsifies": "A retrodiction, not a forward test \u2014 it does not discriminate TRT from rivals that\nalso predict the fit. Its weight is bounded; the discriminating burden stays with\nPRD-001 and PRD-002.\n",
+    "falsifies": "A retrodiction, not a forward test — it does not discriminate TRT from rivals that\nalso predict the fit. Its weight is bounded; the discriminating burden stays with\nPRD-001 and PRD-002.\n",
     "id": "PRD-003",
     "name": "Effectiveness of Mathematics (retrodiction)",
-    "notes": "MEDIUM. Companion \u00a73.4.2 (discipline of foundations) is MEDIUM and admits competing readings.",
+    "notes": "MEDIUM. Companion §3.4.2 (discipline of foundations) is MEDIUM and admits competing readings.",
     "proof_status": "prose_only",
     "risk_if_false": "Weakens a retrodictive support; does not threaten the hard core.",
     "role": "prediction",
@@ -650,7 +666,7 @@
         "section": "9.5, 3.4.2"
       }
     ],
-    "statement": "The (Wigner) effectiveness of mathematics in physics is a structural expectation\nof TRT, not an anomaly: mathematics is what L\u2083 operating on I\u221e generates.\n",
+    "statement": "The (Wigner) effectiveness of mathematics in physics is a structural expectation\nof TRT, not an anomaly: mathematics is what L₃ operating on I∞ generates.\n",
     "tier": 3
   }
 }
