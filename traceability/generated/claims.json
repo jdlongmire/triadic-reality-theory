@@ -33,7 +33,7 @@
     "id": "ACT-001",
     "name": "Primitive Action and Admissibility Preservation",
     "notes": "WP-TRT-CORE-0001 separates primitive A from the predicate that a state obtains,\navoiding the former circular definition of A as \"actualizing action.\"\n",
-    "proof_status": "partial",
+    "proof_status": "axiomatized",
     "risk_if_false": "If transition can be eliminated without explanatory loss, A is not irreducible.\nIf actual states need not satisfy L₃, the canonical gate fails.\n",
     "role": "bridge",
     "source_documents": [
@@ -122,7 +122,7 @@
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
+        "doc": "TRT-v0.10",
         "section": "3.1, 7.1"
       }
     ],
@@ -147,7 +147,7 @@
     "role": "primitive",
     "source_documents": [
       {
-        "doc": "TRT-v0.9",
+        "doc": "TRT-v0.10",
         "section": "7.1"
       }
     ],
@@ -170,7 +170,7 @@
       "lean": [
         {
           "file": "TrtFormalization/Core/Primitives.lean",
-          "status": "definition",
+          "status": "axiom",
           "symbol": "Chi"
         }
       ]
