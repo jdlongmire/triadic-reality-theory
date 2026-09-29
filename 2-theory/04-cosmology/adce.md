@@ -87,7 +87,7 @@ Given §2.1 to §2.4, the novelty claim is confined to two items, and the progra
 
 ## 3. Foundational Framework
 
-The proposal begins from the triadic primitives: $\mathcal{I}$ (representable information), $\mathcal{L}$ (logical constraint), $\mathcal{A}$ (actualizing action). Representable information includes possible distinctions, states, relations, and histories. Logic constrains which combinations are coherent and physically admissible. Action renders an admissible possibility determinate within realized physical history.
+The proposal begins from the triadic primitives: $\mathcal{I}$ (representable information), $\mathcal{L}$ (logical constraint), $\mathcal{A}$ (fundamental state transition/change). Representable information includes specifiable distinctions, states, relations, and histories without thereby implying actualizability. Logic supplies a necessary coherence/admissibility filter. The stronger actualizable domain remains distinct. Fundamental action supplies state transition/change; this cosmology model must separately justify any bridge from actualizable structure to realized physical history.
 
 Let $\mathcal{I}_{\mathrm{adm}} = \mathcal{L}(\mathcal{I})$ denote the admissible state space, and let $\Pi$ denote the actualization operator:
 
