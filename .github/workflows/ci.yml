@@ -6,6 +6,11 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Cancel superseded runs: a burst of pushes to main runs CI once (latest only).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   traceability:
     name: Traceability (schema + acyclic graph + fresh reports)
