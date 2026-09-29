@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Research Status
+title: TRT Research Status and Open Problems
+description: "Current epistemic and formal status of Triadic Reality Theory, including argued claims, axiomatized relations, verified consequences, protective-belt models, and open problems."
 ---
 <p class="eyebrow">Research status</p>
 
-# What is argued, axiomatized, verified, and open?
+This status page separates philosophical argument, formal axiomatization, verified consequences, physics-facing conjectures, and unresolved proof obligations.
+
+# Triadic Reality Theory research status
 
 | Layer | Present status | Meaning |
 |---|---|---|
