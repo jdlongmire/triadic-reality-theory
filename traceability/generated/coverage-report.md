@@ -39,7 +39,7 @@
 | ACT-001 | 1 | bridge | axiomatized | argued | Primitive Action and Admissibility Preservation |
 | EXT-001 | 1 | imported | imported | established | LRT Formal Core (imported) |
 | EXT-002 | 2 | imported | imported | argued | CST Number-Volume Kinematic Substrate (imported) |
-| LOG-001 | 1 | primitive | axiomatized | established | L₃ as Admissibility Constraint |
+| LOG-001 | 1 | primitive | axiomatized | established | L₃ as Ontological Admissibility Constraint |
 | LOG-002 | 1 | primitive | prose_only | argued | Denial of L₃ is Self-Refuting |
 | ONT-001 | 1 | primitive | prose_only | argued | Canonical R-D-X Architecture |
 | ONT-002 | 1 | primitive | prose_only | argued | Three Irreducible Co-Primitives |
