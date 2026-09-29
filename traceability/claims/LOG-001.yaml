@@ -1,9 +1,10 @@
 id: LOG-001
-name: L₃ as Admissibility Constraint
+name: L₃ as Ontological Admissibility Constraint
 statement: |
-  The finite laws {Identity, Non-Contradiction, Excluded Middle} are not
-  conventions but admissibility constraints marking the boundary between coherent
-  actuality and incoherent pseudo-state.
+  Identity, Non-Contradiction, and Excluded Middle are proposed as ontological
+  constraints on determinate actuality rather than human conventions. L₃ supplies
+  a necessary logical filter; this claim does not assert that L₃ alone is sufficient
+  for metaphysical actualizability.
 tier: 1
 role: primitive
 proof_status: axiomatized
@@ -11,9 +12,11 @@ epistemic_status: established
 formal_artifacts:
   lean:
     - { file: TrtFormalization/Core/Primitives.lean, symbol: L3Admissible, status: axiom }
-depends_on:
-  - { claim_id: ONT-003, dependency_type: formal }
+depends_on: []
 source_documents:
   - { doc: TRT-v0.10, section: "3.1, 7.1" }
 external_citations: ["Aristotle, Metaphysics Γ"]
-risk_if_false: "If L₃ is merely conventional, the hard core loses its transcendental warrant."
+risk_if_false: |
+  If L₃ is merely conventional rather than ontologically constraining, the logical
+  constituent of TRT loses its transcendental warrant.
+notes: Normalized under WP-TRT-CORE-0001.
