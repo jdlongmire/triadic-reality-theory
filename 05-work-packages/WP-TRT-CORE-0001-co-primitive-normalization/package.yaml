@@ -1,0 +1,83 @@
+id: WP-TRT-CORE-0001
+title: Normalize TRT around the irreducible L-I-A co-primitives
+status: proposed
+commitment: stretch
+scope: >
+  Refactor the entire TRT repository around one canonical hard-core framing: any determinate
+  actuality requires three irreducible co-primitives, L3, I_infinity, and A. L3 is ontological
+  constraint constituted by Identity, Non-Contradiction, and Excluded Middle. I_infinity is the
+  unbounded domain of representable informational differentiation, with representability kept
+  distinct from coherence, admissibility/actualizability, and actuality. A is fundamental state
+  transition/change and must be defined without presupposing physical time, motion, force, energy,
+  or actuality in the definiens. Actualization is a role/consequence of A in the transition from
+  an actualizable domain to chi, not the primitive definition of A.
+
+  Normalize README, hard core, position paper, programme methods, theory, predictions,
+  formalization, traceability, reviews/navigation, and active work packages where terminology
+  or dependency structure conflicts with this framing. Preserve historical artifacts where
+  appropriate and annotate superseded language rather than silently rewriting research history.
+authority_boundary: >
+  This package explicitly authorizes repository-wide semantic and structural refactoring needed
+  to make the approved framing canonical. It may change the TRT hard-core wording, canonical
+  notation, traceability claims, Lean core, navigation, and downstream references when required
+  for consistency. It may not manufacture proofs, promote empirical confidence, erase unresolved
+  metaphysical burdens, or claim that L3 alone is sufficient for metaphysical actualizability.
+  Historical reviews and completed work-package records must retain provenance.
+canonical_framing:
+  thesis: >
+    Any determinate actuality necessarily exhibits logical constraint, informational
+    differentiation, and action. L3, I_infinity, and A are irreducible co-primitives necessary
+    for determinate actuality.
+  logic: >
+    L3 = {Identity, Non-Contradiction, Excluded Middle}. L3 is ontological admissibility
+    constraint. It constrains what may determinately obtain; it does not supply informational
+    content or cause transition.
+  information: >
+    I_infinity is unbounded representability/informational differentiation. Representable does
+    not entail coherent, admissible, actualizable, realizable, or actual. Preserve explicit typed
+    distinctions among these categories.
+  action: >
+    A is fundamental state transition/change. Its primitive definition must not presuppose
+    physical time. Ordered A-relations may ground derivative temporal succession. Actualization
+    is a role of A, not a circular definition of A.
+  architecture: >
+    Use R --(L3 as necessary ontological filter, plus any further demonstrated constraints)--> D
+    --(A)--> X/chi. Do not canonically assert D = I_infinity | L3 unless sufficiency is proved.
+  irreducibility: >
+    L3 cannot supply content or transition; I_infinity cannot supply its own admissibility or
+    transition; A cannot supply the distinctions upon which it operates or the constraints under
+    which a transition is admissible.
+actions:
+  - Inventory every repository use of primitive, co-requiring, finite logical constraint,
+    infinite informational potential, actualizing action, representable, admissible,
+    actualizable, realizable, actual, state transition, and the identity chi = A(I|L).
+  - Produce a terminology/dependency reconciliation matrix identifying canonical, compatible,
+    stale, ambiguous, circular, and historically preserved usages.
+  - Rewrite README.md and 1-hypothesis/hard-core.md so the irreducible co-primitive framing is
+    the repository entry point and canonical hard core.
+  - Revise TRT-v0.9 into the next warranted draft version with explicit definitions, typed
+    representability/actualizability distinctions, irreducibility argument, and non-temporal
+    primitive A.
+  - Reconcile the newer ontology WP results into canonical R/D/X vocabulary without promoting
+    unresolved coherence-to-actualizability sufficiency claims.
+  - Refactor formalization/TrtFormalization/Core/Primitives.lean so the formal carrier and
+    predicates do not encode disputed sufficiency by construction without an explicit status note.
+  - Update ONT, LOG, ACT, OPN, EXT, and PRD traceability records and regenerate dependency,
+    coverage, risk, and open-problem reports.
+  - Audit all tier-2 and tier-3 artifacts for assumptions that A means only actualization, that
+    time is primitive, or that L3 exhausts actualizability; revise or mark dependencies.
+  - Audit mathematical notation and GitHub rendering across Markdown, including display equations.
+  - Preserve completed research history and external reviews; add supersession notes/pointers
+    where canonical semantics have changed.
+  - Run an adversarial review for circularity, modal smuggling, temporal smuggling, primitive
+    reducibility, and accidental strengthening of the metaphysical claims.
+verification: >
+  Done requires one coherent canonical vocabulary from README through hard core, paper,
+  formalization, traceability, theory, and predictions; no active canonical artifact may define A
+  circularly as actualization, equate representability with actualizability, or state that L3 is
+  sufficient for D without a proof. The irreducibility obligations for all three pairwise
+  reductions must be explicit. Repository traceability/build/lint checks and Lean checks must pass,
+  generated reports must be fresh, and an adversarial review with dispositions must be committed.
+disposition: >
+  OPEN. Principal approved the normalization framing on 2026-09-29. This package governs the
+  repository-wide refactor before further canonical promotion of TRT.
