@@ -14,9 +14,9 @@ Here **R** is the representable domain, **D** is the actualizable domain, and **
 
 A useful schematic remains:
 
-<p align="center"><strong>χ ≡ A(I∞ | L₃, …)</strong></p>
+<p align="center"><strong>χ ≡ A(I∞ | L₃)</strong></p>
 
-The ellipsis is deliberate: it prevents the notation from asserting, before proof, that L₃ alone is sufficient to determine the actualizable domain.
+The compact identity states TRT's three-co-primitive ontology. It does not assert the stronger modal claim that L₃-coherence alone is sufficient for membership in the actualizable domain D; that burden belongs to the typed R → D → X architecture above.
 
 **Status:** candidate foundational ontology and research programme. The hard core is argued, not presented as a completed physical theory. Physics-facing models and predictions remain in the protective belt and severe-test tiers with explicit confidence and failure conditions.
 
