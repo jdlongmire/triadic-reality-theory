@@ -1,20 +1,23 @@
 id: ONT-001
-name: Central Identity χ ≡ A(I∞ | L₃)
+name: Canonical R-D-X Architecture
 statement: |
-  Actual reality χ is infinite informational potential constrained by finite
-  logic through actualizing action: χ ≡ A(I∞ | L₃).
+  Determinate actuality is modeled by R --(L₃ necessary filter)--> D --(A)--> X/χ.
+  R is representable informational content, D is the actualizable domain, and X/χ
+  is what obtains. The compact χ = A(I∞ | L₃, ...) is schematic and does not assert
+  that L₃ alone exhausts actualizability.
 tier: 1
 role: primitive
 proof_status: prose_only
 epistemic_status: argued
 formal_artifacts:
   lean:
-    - file: TrtFormalization/Core/Primitives.lean
-      symbol: Chi
-      status: axiom
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Chi, status: definition }
+depends_on:
+  - { claim_id: ONT-002, dependency_type: logical }
+  - { claim_id: ONT-003, dependency_type: formal }
 source_documents:
-  - { doc: TRT-v0.9, section: "4, 5" }
+  - { doc: TRT-v0.10, section: "3.4" }
 risk_if_false: |
-  The central identity is the programme's hard core. Its failure is not a belt
-  adjustment but abandonment of TRT as such.
-notes: Stated narratively in the paper; encoded as the carrier Chi in the Lean core.
+  If the typed R-D-X architecture fails, TRT's canonical relation among
+  representability, actualizability, action, and actuality requires revision.
+notes: Normalized by WP-TRT-CORE-0001 on 2026-09-29.
