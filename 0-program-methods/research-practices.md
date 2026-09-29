@@ -36,12 +36,17 @@ The [appraisal log](../3-prediction/appraisal.md) records, standingly, whether t
 
 ## 9. GitHub-safe LaTeX
 
-Math must render on the publishing surface (GitHub) and in strict KaTeX viewers, not only in a local engine. Rules:
+GitHub Markdown is a mathematical publishing surface. GitHub officially supports LaTeX-formatted mathematics in Markdown and renders it with MathJax. The repository therefore preserves proper mathematical source rather than degrading equations to Unicode to accommodate a client-specific rendering limitation.
 
-- **Operator names:** use `\mathrm{Name}`, not `\operatorname{Name}` — the latter is rejected by GitHub/strict-KaTeX math ("macros are not allowed: operatorname"); `\mathrm` renders identically and is universal. (See [issue #7](https://github.com/jdlongmire/triadic-reality-theory/issues/7).)
-- **Display math:** use GitHub fenced `math` blocks, never `$...$`. The fenced form renders reliably in GitHub web and mobile. This is the repository-wide canonical display-math syntax.
-- **Absolute values / norms in inline math inside tables:** use `\lvert … \rvert`, not bare `|` — kramdown reads `|` as a table delimiter. Inside fenced `math` blocks, ordinary LaTeX ket/conditional notation is safe.
-- **No definition macros** (`\def`, `\newcommand`, `\gdef`, `\let`), `\href`, `\label`, or `\tag` in committed math — GitHub's renderer blocks them.
-- **Historical artifacts are not exempt from rendering safety:** preservation concerns semantic content, not broken Markdown delimiters. Technical display equations in retained historical documents use fenced `math`; high-visibility historical navigation surfaces may use Unicode.
-- Sanity checks: `grep -rn '\\operatorname' --include="*.md" .` and `grep -rn '\$\
- --include="*.md" .` should return no active math violations.
+Rules:
+
+- **Inline math:** use standard GitHub inline delimiters, for example `$x\in D$`. Where Markdown characters conflict with the expression, GitHub's backtick-delimited math form may be used.
+- **Display math:** prefer the documented `$$...$$` block syntax for papers, README equations, derivations, and other mathematical surfaces. A fenced `math` block is also valid GitHub syntax and may be retained where useful.
+- **GitHub mobile limitation:** some native-client views may fail to invoke GitHub's MathJax renderer even when the Markdown is valid. That is a presentation-client limitation and must not drive the canonical mathematical source.
+- **Pages:** render canonical LaTeX through the site's controlled MathJax/KaTeX pipeline and test equations in desktop and mobile browsers.
+- **Operator names:** prefer portable MathJax/KaTeX forms supported by the publishing pipeline. Existing CI restrictions apply only where a construct is demonstrated to fail on a supported publication target.
+- **Tables:** protect Markdown table delimiters in inline mathematics when necessary, for example with `\lvert\cdot\rvert` rather than ambiguous bare pipes.
+- **No repository-local definition macros** such as `\def`, `\newcommand`, `\gdef`, or `\let` unless the publication pipeline explicitly owns and tests them.
+- **Semantic invariant:** changing rendering syntax must never change the mathematical statement.
+
+The authoritative GitHub syntax reference is GitHub Docs, “Writing mathematical expressions.”
