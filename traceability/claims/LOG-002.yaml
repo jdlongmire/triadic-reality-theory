@@ -10,7 +10,7 @@ epistemic_status: argued
 depends_on:
   - { claim_id: LOG-001, dependency_type: logical }
 source_documents:
-  - { doc: TRT-v0.9, section: "7.1" }
+  - { doc: TRT-v0.10, section: "7.1" }
 external_citations: ["Aristotle, Metaphysics Γ"]
 risk_if_false: |
   This is what makes TRT's hard core stronger than an orthodox Lakatosian core.
