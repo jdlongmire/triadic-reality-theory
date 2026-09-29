@@ -1,5 +1,5 @@
 graph TD
-  ACT-001["ACT-001<br/>bridge/verified"]
+  ACT-001["ACT-001<br/>bridge/partial"]
   EXT-001["EXT-001<br/>imported/imported"]
   EXT-002["EXT-002<br/>imported/imported"]
   LOG-001["LOG-001<br/>primitive/axiomatized"]
@@ -25,8 +25,9 @@ graph TD
   EXT-001 --> LOG-001
   LOG-001 --> ONT-003
   LOG-002 --> LOG-001
-  ONT-002 --> ONT-001
-  ONT-003 --> ONT-001
+  ONT-001 --> ONT-002
+  ONT-001 --> ONT-003
+  ONT-003 --> LOG-001
   ONT-004 --> ONT-002
   OPN-001 --> ONT-002
   OPN-002 --> OPN-001
