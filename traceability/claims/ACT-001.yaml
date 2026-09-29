@@ -6,7 +6,7 @@ statement: |
   actualizable domain, and every actualizable state satisfies the necessary L₃ filter.
 tier: 1
 role: bridge
-proof_status: partial
+proof_status: axiomatized
 epistemic_status: argued
 formal_artifacts:
   lean:
