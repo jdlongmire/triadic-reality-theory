@@ -1,49 +1,66 @@
 # Triadic Reality Theory (TRT)
 
-A foundational-ontology research program proposing that physical reality is **constrained information in action**: the convergence of finite logical constraint (*L₃*), infinite informational potential (*I∞*), and actualizing action (*A*), yielding actualized reality (*χ*).
+Triadic Reality Theory is a foundational-ontology research programme built around three **irreducible co-primitives necessary for determinate actuality**:
 
-$$\chi \equiv \mathsf{A}\!\left(I_{\infty}\mid L_{3}\right), \qquad \delta \mathcal{S}[\chi] = 0$$
+- **L₃, ontological logical constraint:** Identity, Non-Contradiction, and Excluded Middle.
+- **I∞, unbounded informational representability:** the domain of representable distinctions, relations, states, and configurations. Representability does not entail coherence, actualizability, or actuality.
+- **A, fundamental action:** primitive state transition/change, defined without presupposing physical time, motion, force, energy, or actuality.
 
-**Status: TRT v0.9 — a coherent position paper, not yet a formalized theory.** It is genuinely open to falsification. Its discipline is the maintenance of honest confidence labels and stated failure conditions; that discipline is the asset.
+The compact architecture is:
 
----
+$$R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi)$$
 
-## How this repository is structured
+Here **R** is the representable domain, **D** is the actualizable domain, and **X/χ** is actualized reality. TRT does **not** presently identify D with every L₃-coherent member of R. L₃ is necessary for actualizability; whether it exhausts the constraints on actualizability remains an open proof obligation.
 
-The layout is a **[Lakatosian research programme](0-program-methods/METHODOLOGY.md)** governed by a **Popperian** standard. The tiers form a *falsifiability gradient* — each more exposed to refutation than the one above — and the programme's work is to push claims *down* the ladder toward falsifiability.
+A useful schematic remains:
+
+$$\chi \equiv \mathsf{A}(I_{\infty}\mid L_3,\ldots)$$
+
+The ellipsis is deliberate: it prevents the notation from asserting, before proof, that L₃ alone is sufficient to determine the actualizable domain.
+
+**Status:** candidate foundational ontology and research programme. The hard core is argued, not presented as a completed physical theory. Physics-facing models and predictions remain in the protective belt and severe-test tiers with explicit confidence and failure conditions.
+
+## Canonical framing
+
+The three primitives are jointly necessary and irreducible.
+
+**L₃ cannot supply informational content or transition.** It constrains what may determinately obtain.
+
+**I∞ cannot supply its own admissibility or transition.** It supplies representable differentiation. A contradiction may be representable without being actualizable.
+
+**A cannot supply the distinctions upon which it operates or the constraints under which a transition is admissible.** It supplies fundamental state transition. Ordered A-relations may ground derivative temporal succession; physical time is not built into the primitive.
+
+The repository therefore distinguishes:
+
+**representable → coherent/logically admissible → actualizable → actual**
+
+The intermediate relations are typed research claims, not assumed equivalences.
+
+## Repository structure
+
+The layout is a [Lakatosian research programme](0-program-methods/METHODOLOGY.md) governed by a Popperian standard.
 
 | Tier | Role | Contents |
 |---|---|---|
-| **[0-program-methods/](0-program-methods/)** | How the programme is run (governs the ladder) | [VSOK](0-program-methods/vsok.md) · [METHODOLOGY](0-program-methods/METHODOLOGY.md) (Popper/Lakatos) · [ROADMAP](0-program-methods/ROADMAP.md) (positive heuristic) · [GitHub workflow](0-program-methods/github-workflow.md) (agile-devops) · [research practices](0-program-methods/research-practices.md) |
-| **[1-hypothesis/](1-hypothesis/)** | **Hard core** — immune by necessity | [hard-core.md](1-hypothesis/hard-core.md) · [the position paper](1-hypothesis/paper/TRT-v0.9.md) |
-| **[2-theory/](2-theory/)** | **Protective belt** — formalization work | co-admissibility · Born rule · gravity reduction · [open problems](2-theory/open-problems.md) |
-| **[3-prediction/](3-prediction/)** | **Severe tests** — falsifiable claims | [co-admissibility conjecture](3-prediction/co-admissibility-conjecture.md) · [gravity test](3-prediction/gravity-linearity-test.md) · [appraisal](3-prediction/appraisal.md) |
+| **[0-program-methods/](0-program-methods/)** | Programme governance | [METHODOLOGY](0-program-methods/METHODOLOGY.md) · [ROADMAP](0-program-methods/ROADMAP.md) · [VSOK](0-program-methods/vsok.md) |
+| **[1-hypothesis/](1-hypothesis/)** | Hard core | [hard core](1-hypothesis/hard-core.md) · [TRT v0.10](1-hypothesis/paper/TRT-v0.10.md) |
+| **[2-theory/](2-theory/)** | Protective belt | foundational models · variational work · gravity · cosmology · [open problems](2-theory/open-problems.md) |
+| **[3-prediction/](3-prediction/)** | Severe tests | falsification ledger · conjectures · appraisal |
+| **[formalization/](formalization/)** | Formal artifacts | TRT Lean core · imported LRT formal core |
+| **[traceability/](traceability/)** | Claim governance | claim registry · dependencies · risks · generated reports |
+| **[05-work-packages/](05-work-packages/)** | Governed research work | bounded work packages and dispositions |
 
-Supporting: **[formalization/](formalization/)** (Lean 4 + Mathlib, with the [LRT formal core](formalization/lrt/) as a sub-project), **[traceability/](traceability/)** (claim ↔ proof ↔ prose audit), **[references/](references/)**, **[reviews/](reviews/)**.
+## Current normalization
 
-## The central thesis
-
-Physical reality is neither brute material substance, nor abstract law, nor information alone. The finite laws of logic provide the conditions of coherent admissibility; infinite informational potential provides the domain of possible distinction; actualizing action brings logically admissible possibility into determinate actuality. Their convergence is reality.
-
-## What is and is not claimed
-
-TRT is a candidate foundational ontology and research program, not a completed physical theory. It has two physics-facing conjectures (co-admissibility in decoherence; gravity as global co-admissibility), both currently **LOW/UNCERTAIN**. It offers one **MEDIUM**-confidence retrodiction (the effectiveness of mathematics). The variational and gravitational machinery are targets, not derivations. See the paper's §12–§13 and the [ROADMAP](0-program-methods/ROADMAP.md).
-
-## Current frontier
-
-The gravity conjecture has been reduced to a single sharp question about the nature of actualizing action *A*: does it resolve unsatisfiable relational structure by direct **obstruction-registration** (→ General Relativity) or by **best-fit projection** (→ modified gravity)? The same question appears to govern quantum measurement resolution. See [`2-theory/00-foundational/actualization-resolution.md`](2-theory/00-foundational/actualization-resolution.md).
-
-## Traceability
-
-Full claim-to-proof traceability is a first-class goal. Every claim is tracked with its role, proof status, epistemic status, dependency graph, failure condition, and (for predictions) its Popperian refutation condition. See [`traceability/`](traceability/).
+[WP-TRT-CORE-0001](05-work-packages/WP-TRT-CORE-0001-co-primitive-normalization/package.yaml) governs the 2026-09-29 normalization around the irreducible L-I-A framing. Its reconciliation matrix and adversarial review record canonical and superseded usages.
 
 ## Relation to Logic Realism Theory (LRT)
 
-TRT is the broader ontology within which LRT is situated: **TRT → LRT → LRM → predictions**. LRT formalizes TRT's *L₃* constituent. Its verified Lean formal core is imported here as a sub-project at [`formalization/lrt/`](formalization/lrt/).
+TRT is the broader ontology within which LRT is situated. LRT develops the logical constituent and its consequences. Its formal core is imported at [formalization/lrt/](formalization/lrt/).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff).
+See [CITATION.cff](CITATION.cff).
 
 ## License
 
