@@ -8,13 +8,13 @@ Triadic Reality Theory is a foundational-ontology research programme built aroun
 
 The compact architecture is:
 
-$\displaystyle R \xrightarrow{\;L_3\;\mathrm{necessary\ filter}\;} D \xrightarrow{\;A\;} X\,(\chi)$
+$$\displaystyle R \xrightarrow{\;L_3\;\mathrm{necessary\ filter}\;} D \xrightarrow{\;A\;} X\,(\chi)$$
 
 Here **R** is the representable domain, **D** is the actualizable domain, and **X/χ** is actualized reality. TRT does **not** presently identify D with every L₃-coherent member of R. L₃ is necessary for actualizability; whether it exhausts the constraints on actualizability remains an open proof obligation.
 
 A useful schematic remains:
 
-$\boxed{\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)}$
+$$\boxed{\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)}$$
 
 The compact identity states TRT's three-co-primitive ontology. It does not assert the stronger modal claim that L₃-coherence alone is sufficient for membership in the actualizable domain D; that burden belongs to the typed R → D → X architecture above.
 
