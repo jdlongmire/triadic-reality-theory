@@ -414,9 +414,9 @@ TRT proposes three co-primitives because fewer than three appear insufficient to
 
 Throughout, the object of analysis is *χ*, actualized reality. TRT does not here argue that an actual world exists necessarily. It analyzes what any actually real thing necessarily involves. The necessity at issue is the necessity of the constituents given actuality, not the necessity of actuality itself.
 
-### 9.1 The Triad and Its Co-Requirement
+### 9.1 The Triad and Its Joint Necessity
 
-The three co-primitives are jointly necessary. Logical constraint without informational content constrains nothing. Informational potential without logical admissibility supplies no criterion of coherent actuality. Actualizing action without logically admissible information has no determinate object to actualize. None of the three yields actualized reality in isolation. Their joint presence yields *χ*.
+The three co-primitives are jointly necessary. Logical constraint without informational content constrains nothing. Informational potential without logical admissibility supplies no criterion of coherent actuality. Fundamental action without informationally distinguishable states has no determinate relata across which transition can be specified. None of the three yields actualized reality in isolation. Their joint presence yields *χ*.
 
 This joint necessity is a substantive claim about the structure of the actual. It is not a claim that the three cannot be characterized apart from one another. The distinction is essential to the next subsection. Each primitive can be characterized on its own terms. The laws of logic can be stated as pure form, without reference to information or action. Informational potential can be characterized as the bare possibility of distinction, without reference to logic or action. Fundamental action can be characterized independently as state transition/change, without first defining logic or information or presupposing physical time. That each can be characterized alone, while none obtains alone, is the signature of correlative constituents rather than circular definitions.
 
@@ -428,7 +428,7 @@ The objection conflates two relations that must be kept distinct.
 
 The first is *definitional dependence*. Term *X* depends definitionally on *Y* when one cannot say what *X* is without a prior definition of *Y*. A set of terms each of which depends definitionally on the others is viciously circular, because no term can be specified first and the whole set fails to acquire content. This is a genuine defect.
 
-The second is *metaphysical joint necessity*. *X* and *Y* co-require when neither obtains without the other, while each remains characterizable on its own terms. This relation is common in respectable metaphysics and carries no circularity. There is no convex surface without a concave one, yet convexity is characterizable without invoking concavity in its definition. Up does not obtain without down, determinables do not obtain without determinates, yet neither pair is defined circularly. Aristotle treated such correlatives, *ta pros ti*, as a standard category. Correlatives co-require in being while remaining independently specifiable in definition.
+The second is *metaphysical joint necessity*. *X* and *Y* are jointly necessary constituents when the target actuality cannot obtain without both, while each remains characterizable on its own terms. This relation is common in respectable metaphysics and carries no circularity. There is no convex surface without a concave one, yet convexity is characterizable without invoking concavity in its definition. Up does not obtain without down, determinables do not obtain without determinates, yet neither pair is defined circularly. Aristotle treated such correlatives, *ta pros ti*, as a standard category. Correlatives may be jointly implicated in being while remaining independently specifiable in definition.
 
 TRT's primitives stand in the second relation, not the first. The check is direct. Trace the definitional dependency graph: each primitive is characterized in its own terms, as set out in §9.1, so the graph carries no definitional edges among the three. Audit for definitional self-reference: none is present, since no primitive appears in its own definiens or in the definiens of another. The only dependency edge in the theory runs from the triad to its output, *χ*. That graph is acyclic.
 
@@ -657,7 +657,7 @@ The central claims of TRT are as follows.
 
 Triadic Reality Theory proposes that physical reality is neither brute material substance nor abstract law nor information alone. Physical reality is constrained information in action.
 
-The finite laws of logic provide the conditions of coherent admissibility. Infinite informational potential provides the domain of possible distinction, relation, and structure. Actualizing action brings logically admissible possibility into determinate actuality. Their convergence is reality:
+L₃ supplies necessary ontological constraint. I∞ supplies unbounded representable differentiation. A supplies fundamental state transition/change. Actualizability remains a stronger typed condition than L₃-coherence. Their irreducible conjunction is the proposed foundation of determinate actuality:
 
 $$\chi \equiv \mathsf{A}(I_\infty \mid L_3)$$
 
