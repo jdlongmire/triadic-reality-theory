@@ -1,18 +1,19 @@
 id: ONT-002
-name: Three Co-Requiring Primitives
+name: Three Irreducible Co-Primitives
 statement: |
-  L₃ (finite logical constraint), I∞ (infinite informational potential), and A
-  (actualizing action) are mutually co-requiring constituents of actualized
-  reality; each is characterizable on its own terms, none obtains in isolation.
+  L₃ (ontological logical constraint), I∞ (unbounded informational
+  representability/differentiation), and A (fundamental state transition/change)
+  are jointly necessary and irreducible co-primitives for determinate actuality.
+  L₃ cannot supply content or transition; I∞ cannot supply its own admissibility
+  or transition; A cannot supply its relata or admissibility constraints.
 tier: 1
 role: primitive
 proof_status: prose_only
 epistemic_status: argued
-depends_on:
-  - { claim_id: ONT-001, dependency_type: logical }
+depends_on: []
 source_documents:
-  - { doc: TRT-v0.9, section: "3, 9.1, 9.2" }
+  - { doc: TRT-v0.10, section: "3, 9" }
 risk_if_false: |
-  If the three reduce to fewer (or the co-requirement is definitional, hence
-  circular), the economy claim and the synthetic-necessity argument collapse.
-notes: Co-requirement is metaphysical, not definitional — dependency graph acyclic (paper §9.2).
+  A successful reduction of any primitive to the other two, without explanatory
+  loss or smuggling, defeats the irreducibility claim and requires hard-core revision.
+notes: Canonical normalization under WP-TRT-CORE-0001.
