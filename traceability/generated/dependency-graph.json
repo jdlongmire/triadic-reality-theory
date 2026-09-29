@@ -39,11 +39,6 @@
       "type": "formal"
     },
     {
-      "from": "LOG-001",
-      "to": "ONT-003",
-      "type": "formal"
-    },
-    {
       "from": "LOG-002",
       "to": "LOG-001",
       "type": "logical"
