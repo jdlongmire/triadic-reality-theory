@@ -14,7 +14,7 @@
 | A | Fundamental state transition/change, non-temporal at primitive level | “actualizing action” defined as making possibility actual | Normalize active surfaces to remove definitional circularity |
 | X / χ | What obtains / actualized reality | Sometimes conflated with A itself | Keep output/status distinct from primitive transition |
 | Time | Candidate derivative ordering of A-relations | Temporal change used in definitions of A | Remove temporal presupposition from primitive |
-| Central schematic | R → D → X/χ, with L₃ a necessary filter and A the transition primitive | χ = A(I∞ conditioned only by L₃) read as exhaustive sufficiency | Retain compact identity only with explicit qualification |
+| Compact identity vs typed architecture | χ ≡ A(I∞ | L₃) states the three-co-primitive ontology; R → D → X/χ states the typed actualizability architecture | Reading the compact identity as D = I∞ conditioned only by L₃ | Preserve the compact identity without ellipsis; keep L₃-sufficiency for D explicitly open |
 
 ## Dependency rule
 
