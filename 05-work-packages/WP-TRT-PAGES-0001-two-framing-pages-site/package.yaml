@@ -1,0 +1,86 @@
+id: WP-TRT-PAGES-0001
+title: Build the TRT GitHub Pages presentation in accessible and technical framings
+status: proposed
+commitment: stretch
+scope: >
+  Design and implement a GitHub Pages site for Triadic Reality Theory that introduces one
+  canonical TRT ontology through two coordinated presentation paths: (1) layman-accessible and
+  (2) technical-systematic. Both paths must derive from the normalized canonical corpus governed
+  by WP-TRT-CORE-0001 and must never become independent theories or drift semantically.
+
+  The accessible path should explain concrete distinctions before abstractions, using disciplined
+  analogies and minimal notation. The technical-systematic path should expose definitions,
+  formal architecture, arguments for necessity and irreducibility, representable versus
+  actualizable distinctions, formalization status, traceability, open proof obligations,
+  falsification programme, and links into the research corpus.
+dependency: >
+  Content normalization depends on WP-TRT-CORE-0001. Site scaffolding, information architecture,
+  design system, and build pipeline may proceed in parallel, but canonical explanatory copy must
+  be reconciled against the completed normalization before release.
+authority_boundary: >
+  This package authorizes site architecture, Pages configuration, navigation, responsive design,
+  diagrams, explanatory prose, corpus links, accessibility work, and build/deployment automation
+  within the TRT repository. It does not authorize changing the hard core merely to simplify
+  exposition, presenting hypotheses as established results, concealing open burdens, or
+  publishing a materially different lay ontology from the technical account.
+audiences:
+  layman_accessible: >
+    Readers without formal training in logic, information theory, metaphysics, or mathematical
+    physics. Begin with determinate things, distinctions, and change; introduce L, I, and A using
+    concrete examples; explain representable versus actualizable; then show why the three are
+    proposed as irreducible.
+  technical_systematic: >
+    Researchers and technically literate readers. Present typed definitions, R/D/X architecture,
+    L3, I_infinity, primitive A, irreducibility and necessity arguments, formal status,
+    dependencies, rival models, physics contact points, open problems, traceability, and
+    falsification criteria.
+information_architecture:
+  shared:
+    - Home: one-sentence TRT claim, triad visual, status, and two audience entrances
+    - Research status: what is established, argued, axiomatized, conjectural, and open
+    - Corpus: papers, formalization, work packages, reviews, traceability, citation
+  accessible:
+    - Why three things are required
+    - Logic: what reality cannot violate
+    - Information: what can be represented versus what can actually be
+    - Action: fundamental state change
+    - Putting L-I-A together
+    - What TRT does and does not claim
+    - Questions and objections
+  technical:
+    - Definitions and notation
+    - Ontological architecture R -> D -> X/chi
+    - Necessity and irreducibility
+    - Representability, coherence, admissibility, realizability, actuality
+    - Non-temporal action and emergence of ordered succession/time
+    - Formalization and claim traceability
+    - Physics-facing models and predictions
+    - Open proof obligations and falsification programme
+actions:
+  - Select a low-maintenance static Pages implementation appropriate to the repository and record
+    the architecture decision before adding framework dependencies.
+  - Build a mobile-first responsive site with persistent audience-path navigation and shared
+    canonical terminology.
+  - Create a single-source content strategy so repeated definitions are generated/reused or
+    mechanically checked rather than independently paraphrased into semantic drift.
+  - Build an L-I-A overview graphic and R-to-D-to-X architecture graphic that work on mobile and
+    desktop and have text alternatives.
+  - Add visible epistemic/status labels to technical claims and plain-language equivalents where
+    useful in the accessible path.
+  - Link technical claims directly to canonical paper sections, Lean artifacts, traceability
+    records, work packages, reviews, and open problems.
+  - Add a side-by-side terminology concordance mapping accessible wording to canonical technical
+    terms without redefining them.
+  - Add citation, ORCID/author, license, repository, version/date, and research-status surfaces.
+  - Configure GitHub Pages deployment and automated link/build checks.
+  - Conduct separate accessibility, mobile, technical-accuracy, and lay-comprehension reviews.
+verification: >
+  Done requires a deployed Pages site whose two paths express the same canonical ontology at
+  different levels of abstraction; all canonical definitions reconcile with WP-TRT-CORE-0001;
+  equations render correctly; internal corpus links resolve; mobile layouts are usable; diagrams
+  have accessible alternatives; research-status labels expose uncertainty; build and link checks
+  pass; and an adversarial semantic-drift review finds no substantive contradiction between the
+  accessible and technical paths.
+disposition: >
+  OPEN. Principal approved a two-framing TRT presentation site on 2026-09-29: layman-accessible
+  and technical-systematic, governed by one canonical normalized corpus.
