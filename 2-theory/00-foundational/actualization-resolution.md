@@ -4,7 +4,7 @@
 
 ## Why this is the keystone
 
-The relational-graph computation ([`../03-gravity/relational-graph-test.md`](../03-gravity/relational-graph-test.md)) reduced the gravity fork to a single question about the primitive *A*: when a relational structure is not jointly *L₃*-satisfiable, how does actualizing action resolve it?
+The relational-graph computation ([`../03-gravity/relational-graph-test.md`](../03-gravity/relational-graph-test.md)) reduced the gravity fork to a single question about the primitive *A*: when a relational structure is not jointly *L₃*-satisfiable, how does fundamental action *A*, understood as state transition/change, resolve the candidate transition?
 
 - If *A* registers the obstruction directly (the raw holonomy deficit), the measure is **linear**, and the gravity sector yields General Relativity (via Regge / Lovelock).
 - If *A* resolves by best-fit projection (minimizing a squared residual), the measure is **quadratic**, and the gravity sector yields a modified, higher-curvature gravity (Bianconi-class).
