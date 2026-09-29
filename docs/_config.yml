@@ -1,0 +1,8 @@
+title: Triadic Reality Theory
+description: Logic, Information, and Action as irreducible co-primitives of determinate actuality
+baseurl: "/triadic-reality-theory"
+url: "https://jdlongmire.github.io"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
