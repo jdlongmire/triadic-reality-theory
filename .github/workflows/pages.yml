@@ -79,6 +79,45 @@ jobs:
               print("\n".join(errors)); sys.exit(1)
           print("SEO contract OK")
           PY
+      - name: Verify internal links
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlparse, unquote
+          import sys
+
+          root = Path("_site").resolve()
+          errors = []
+          class Links(HTMLParser):
+              def __init__(self): super().__init__(); self.links=[]
+              def handle_starttag(self, tag, attrs):
+                  if tag == "a":
+                      href = dict(attrs).get("href")
+                      if href: self.links.append(href)
+
+          for page in root.rglob("*.html"):
+              p = Links(); p.feed(page.read_text(encoding="utf-8"))
+              for href in p.links:
+                  u = urlparse(href)
+                  if u.scheme or href.startswith("//") or href.startswith("mailto:"): continue
+                  path = unquote(u.path)
+                  if not path or path.startswith("#"): continue
+                  if path.startswith("/triadic-reality-theory/"):
+                      rel = path[len("/triadic-reality-theory/"):]
+                      target = root / rel
+                  elif path.startswith("/"):
+                      continue
+                  else:
+                      target = page.parent / path
+                  if target.is_dir(): target = target / "index.html"
+                  elif not target.suffix: target = target / "index.html"
+                  if not target.exists():
+                      errors.append(f"{page.relative_to(root)} -> {href}")
+          if errors:
+              print("Broken internal links:\n" + "\n".join(errors)); sys.exit(1)
+          print("Internal link contract OK")
+          PY
       - uses: actions/configure-pages@v5
         with:
           enablement: true
