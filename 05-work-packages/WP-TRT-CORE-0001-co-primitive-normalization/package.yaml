@@ -1,6 +1,6 @@
 id: WP-TRT-CORE-0001
 title: Normalize TRT around the irreducible L-I-A co-primitives
-status: in_progress
+status: complete
 commitment: stretch
 scope: >
   Refactor the entire TRT repository around one canonical hard-core framing: any determinate
@@ -79,5 +79,13 @@ verification: >
   reductions must be explicit. Repository traceability/build/lint checks and Lean checks must pass,
   generated reports must be fresh, and an adversarial review with dispositions must be committed.
 disposition: >
-  OPEN. Principal approved the normalization framing on 2026-09-29. This package governs the
-  repository-wide refactor before further canonical promotion of TRT.
+  COMPLETE 2026-09-29. The repository has been normalized around L3, I_infinity,
+  and A as three irreducible co-primitives necessary for determinate actuality.
+  Canonical surfaces now distinguish representability, L3-admissibility,
+  actualizability, and actuality; primitive A is fundamental non-temporal state
+  transition/change; L3 sufficiency for D is explicitly open. TRT v0.10, the Lean
+  core, traceability claims/reports, methodology, roadmap, and affected active
+  belt/prediction artifacts were reconciled. Historical records were preserved.
+  Adversarial review records the remaining proof obligations. CI at commit
+  73d7145259c66265cb2a5081364b2f27e682dd26 passed traceability validation/freshness,
+  Lean core typecheck, and GitHub-safe math lint.
