@@ -81,5 +81,27 @@ verification: >
   have accessible alternatives; research-status labels expose uncertainty; build and link checks
   pass; and an adversarial semantic-drift review finds no substantive contradiction between the
   accessible and technical paths.
+verification_evidence:
+  review_date: 2026-09-29
+  deployment: PASS
+  pages_workflow: "PASS - GitHub Actions Pages run 15 completed successfully."
+  mathjax_source_contract: "PASS - shared layout configures MathJax v3 tex-svg with inline and display delimiters."
+  semantic_drift: "PASS - accessible and technical paths preserve the same compact identity, R/D/X typing, L3 necessity, and open sufficiency boundary."
+  responsive_source_review: "PASS - viewport metadata, fluid type sizing, overflow-safe math, and <=720px single-column grid/path rules present."
+  status_disclosure: "PASS - dedicated research-status surface distinguishes argued, axiomatized, verified-where-proved, proposed, and open claims."
+  corpus_traceability: "PASS - technical/corpus surfaces link hard core, v0.10, Lean core, claim registry, open problems, methodology, roadmap, research practices, and work packages."
+  terminology_concordance: "PASS - accessible wording is mapped to canonical technical terms with semantic constraints."
+  remaining_gates:
+    - "LIVE VISUAL QA: confirm MathJax output and responsive behavior in an actual browser. Source/build evidence is strong but is not a substitute for rendered visual inspection."
+    - "ACCESSIBILITY QA: complete rendered keyboard/focus, contrast, heading/table, and assistive-technology review."
+    - "GRAPHICS: WP explicitly requires L-I-A and R-to-D-to-X graphics with text alternatives; current implementation uses HTML cards and rendered equations rather than the required graphics."
+    - "LAY COMPREHENSION: complete a reader-oriented comprehension review independent of the technical semantic-drift audit."
+    - "LINK CHECKING: Pages workflow verifies route/build/SEO contracts but does not yet perform a comprehensive internal/external link crawl."
+
 disposition: >
-  IN PROGRESS 2026-09-29. Jekyll /docs implementation, controlled MathJax rendering, accessible and technical paths, status/corpus/terminology surfaces, responsive design, and Pages deployment workflow are committed. Deployment and semantic/accessibility verification remain.
+  IN PROGRESS 2026-09-29. Deployment is verified and the source-level semantic-drift,
+  responsive-design, MathJax-configuration, status-disclosure, terminology, and corpus-traceability
+  reviews pass. The accessible and technical paths express the same canonical ontology and preserve
+  the distinction between L3-admissibility and actualizability. Closure is withheld pending rendered
+  browser QA, accessibility and lay-comprehension review, the two WP-required accessible graphics,
+  and comprehensive link checking. Do not close solely on successful deployment.
