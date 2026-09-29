@@ -369,7 +369,7 @@ A precision is required here, because the claim is easily overstated. *L₃* gov
 
 Positioning LRT as the formalization of the *L₃* constituent settles two questions that a reader carries from the earlier sections.
 
-It settles what TRT adds beyond LRT. LRT formalizes one constituent. TRT adds *I∞* and *A* as irreducible co-primitives alongside *L₃*, together with the actualization relation that yields *χ*. TRT is broader because logical constraint, however foundational, governs the admissible without supplying either its content or its actuality. The added constituents are not downstream of logic. They are co-required with it.
+It settles what TRT adds beyond LRT. LRT formalizes one constituent. TRT adds *I∞* and *A* as irreducible co-primitives alongside *L₃*, together with the actualization relation that yields *χ*. TRT is broader because logical constraint, however foundational, governs the admissible without supplying either its content or its actuality. The added primitives are not downstream of logic. They are jointly necessary with it for determinate actuality.
 
 It settles the relation between the logical commitment and the physics. LRT is the program through which the inviolable logical constraint is given physical formalization, the layer at which *L₃*'s governance is developed into a model of admissible physical states. LRM then operates within that program to model measurement as resolution. The single chain, TRT to LRT to LRM to predictions, carries the development from ontology through constraint to measurement to test, with no redundant layer between them.
 
