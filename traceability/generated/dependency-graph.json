@@ -49,13 +49,18 @@
       "type": "logical"
     },
     {
-      "from": "ONT-002",
-      "to": "ONT-001",
+      "from": "ONT-001",
+      "to": "ONT-002",
       "type": "logical"
     },
     {
+      "from": "ONT-001",
+      "to": "ONT-003",
+      "type": "formal"
+    },
+    {
       "from": "ONT-003",
-      "to": "ONT-001",
+      "to": "LOG-001",
       "type": "logical"
     },
     {
