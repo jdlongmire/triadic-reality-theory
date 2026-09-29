@@ -2,7 +2,7 @@
 
 Written back after the position paper is **published** to Zenodo (per `0-program-methods/ops/zenodo-publishing.md`). Empty until first deposit.
 
-- **Title:** Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality
+- **Title:** Triadic Reality Theory: Logic, Information, and Action as Irreducible Co-Primitives of Determinate Actuality
 - **DOI:** _pending (e.g. 10.5281/zenodo.XXXXXXX)_
 - **Concept DOI (all versions):** _pending_
 - **Record URL:** _pending (https://zenodo.org/records/XXXXXXX)_
