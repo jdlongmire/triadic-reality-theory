@@ -6,15 +6,11 @@
 
 Any determinate actuality necessarily exhibits **logical constraint, informational differentiation, and action**. TRT identifies these as three irreducible co-primitives:
 
-```math
-\mathrm{TRT}=\langle L_3,I_{\infty},A\rangle
-```
+$$\mathrm{TRT}=\langle L_3,I_{\infty},A\rangle$$
 
 ### L₃: ontological logical constraint
 
-```math
-L_3=\{\mathrm{Identity},\mathrm{NonContradiction},\mathrm{ExcludedMiddle}\}
-```
+$$L_3=\{\mathrm{Identity},\mathrm{NonContradiction},\mathrm{ExcludedMiddle}\}$$
 
 L₃ constrains what may determinately obtain. It supplies neither informational content nor transition. Denial of Identity or Non-Contradiction is argued by elenchus to depend upon the logical resources it attempts to deny. The physical reach of Excluded Middle remains exposed through the programme's FLL work.
 
@@ -33,21 +29,15 @@ Contradiction-encoding content may therefore be representable without being cohe
 
 TRT currently warrants:
 
-```math
-D\subseteq R
-```
+$$D\subseteq R$$
 
 and
 
-```math
-x\in D\Rightarrow \mathrm{Adm}_{L_3}(x)
-```
+$$x\in D\Rightarrow \mathrm{Adm}_{L_3}(x)$$
 
 It does not currently warrant the converse:
 
-```math
-\mathrm{Adm}_{L_3}(x)\nRightarrow x\in D
-```
+$$\mathrm{Adm}_{L_3}(x)\nRightarrow x\in D$$
 
 until any additional metaphysical constraints on actualizability are identified or ruled out.
 
@@ -57,9 +47,7 @@ A is primitive **state transition/change**. Its definition does not presuppose p
 
 Schematically:
 
-```math
-A:s_i\rightarrow s_j
-```
+$$A:s_i\rightarrow s_j$$
 
 where the relation marks ontological transition between informationally distinguishable states. Physical dynamics are downstream specifications of this primitive. Ordered A-relations may ground derivative temporal succession.
 
@@ -67,17 +55,13 @@ Actualization is a role of A in the passage from an actualizable domain to what 
 
 ## Canonical architecture
 
-```math
-R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi)
-```
+$$R \xrightarrow{\;L_3\;\text{necessary filter}\;} D \xrightarrow{\;A\;} X\;(\chi)$$
 
 The first arrow is deliberately marked **necessary filter**, not equivalence. L₃-coherence is necessary for D; its sufficiency is an open burden.
 
 The familiar compact expression may be used only with this qualification:
 
-```math
-\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)
-```
+$$\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)$$
 
 The compact identity expresses the conjunction of TRT's three irreducible co-primitives. It is distinct from the stronger claim that L₃ alone exhausts the conditions for membership in D. The latter remains an open proof obligation in the typed R → D → X architecture.
 
