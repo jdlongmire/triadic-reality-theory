@@ -42,6 +42,6 @@ Math must render on the publishing surface (GitHub) and in strict KaTeX viewers,
 - **Display math:** use GitHub fenced `math` blocks, never `$...$`. The fenced form renders reliably in GitHub web and mobile. This is the repository-wide canonical display-math syntax.
 - **Absolute values / norms in inline math inside tables:** use `\lvert … \rvert`, not bare `|` — kramdown reads `|` as a table delimiter. Inside fenced `math` blocks, ordinary LaTeX ket/conditional notation is safe.
 - **No definition macros** (`\def`, `\newcommand`, `\gdef`, `\let`), `\href`, `\label`, or `\tag` in committed math — GitHub's renderer blocks them.
-- **Historical artifacts are not exempt from rendering safety:** preservation concerns semantic content, not broken Markdown delimiters. Display equations in retained historical documents also use fenced `math`.
+- **Historical artifacts are not exempt from rendering safety:** preservation concerns semantic content, not broken Markdown delimiters. Technical display equations in retained historical documents use fenced `math`; high-visibility historical navigation surfaces may use Unicode.
 - Sanity checks: `grep -rn '\\operatorname' --include="*.md" .` and `grep -rn '\$\
  --include="*.md" .` should return no active math violations.
