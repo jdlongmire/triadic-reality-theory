@@ -104,7 +104,7 @@ Three gaps remain, and the computation has made them sharper than they were.
 **Gap A — minimization may be intrinsic to actualization.**
 The quadratic measure came from *minimizing over best-fit assignments*. But actualization (A) might *be* a best-fit process: when a structure is not jointly satisfiable, A may resolve it by selecting the closest satisfiable assignment, which is exactly the least-squares projection, which is quadratic. If actualization resolves inconsistency by best-fit, the quadratic measure is the physically correct one, and TRT gives modified gravity. If actualization instead simply *registers* the obstruction without best-fitting, the linear measure holds, and TRT gives GR.
 
-*So the fork reduces to a precise question about the nature of A:* **does actualizing action resolve unsatisfiable relational structure by best-fit projection (→ quadratic → modified gravity) or by direct obstruction-registration (→ linear → GR)?** This is the sharpest form the gravity question has reached.
+*So the fork reduces to a precise question about the nature of A:* **does fundamental action resolve unsatisfiable relational structure by best-fit projection (→ quadratic → modified gravity) or by direct obstruction-registration (→ linear → GR)?** This is the sharpest form the gravity question has reached.
 
 **Gap B — the deficit angle still needs the frame geometry.**
 Getting from the abstract group deficit to the Regge *deficit angle* (and hence the Ricci scalar) requires the holonomy group to be the frame-rotation group of a metric geometry. This is the shared discrete-gravity assumption (Gap 2 of the prior document), tied to making §6.3 of the paper precise. Not special to TRT.
@@ -130,7 +130,7 @@ Stated honestly.
 
 **Sharpened to a recognizable dichotomy (EARNED).** The linear-versus-quadratic fork is now exhibited concretely: for a single triangle of deficit *δ*, the raw obstruction is *|δ|* (linear, → GR via Regge) and the best-fit residual is *δ²/3* (quadratic, → modified gravity via Yang-Mills-type action). Both are computed explicitly and correctly. The fork is the well-known mathematical distinction between a cohomological obstruction and a least-squares residual.
 
-**Reduced to a question about A (the genuine advance).** Whether TRT gives GR or modified gravity reduces to whether actualizing action resolves unsatisfiable relational structure by direct obstruction-registration (linear, GR) or by best-fit projection (quadratic, modified gravity). This is a sharp, structural question about the primitive A, and it plausibly coincides with the measurement-resolution question in the quantum sector.
+**Reduced to a question about A (the genuine advance).** Whether TRT gives GR or modified gravity reduces to whether fundamental action is modeled as resolving unsatisfiable relational structure by direct obstruction-registration (linear, GR) or by best-fit projection (quadratic, modified gravity). This is a sharp, structural question about the primitive A, and it plausibly coincides with the measurement-resolution question in the quantum sector.
 
 **Argument leans GR (HEURISTIC).** The obstruction measure uses only the relational/group structure that *L₃* supplies, while the residual measure requires an inner product on the value space and a minimization that *L₃* does not supply. On structure-minimality grounds, the *L₃*-faithful measure is the linear obstruction, hence GR. This is a real argument and it leans toward GR, but it rests on the value space carrying no imposed metric, which is precisely Gap C and is not settled.
 
@@ -143,7 +143,7 @@ Stated honestly.
 
 ## 9. Next Step
 
-The question is now well-posed and singular: **characterize how actualizing action A resolves unsatisfiable relational structure.** Two sub-routes:
+The question is now well-posed and singular: **characterize how fundamental action A is modeled as resolving unsatisfiable relational structure.** Two sub-routes:
 
 1. *Formal.* Define A's resolution operation precisely. If it is a projection (minimizing a norm), determine what norm, and whether the norm is forced by the structure or imposed. This connects directly to Task 2.2 (Born rule) and the LRM, since the measurement-resolution operation is the same A.
 
