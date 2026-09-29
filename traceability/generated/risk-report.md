@@ -14,15 +14,15 @@
 
 | ID | Tier | Risk if false |
 |---|---|---|
-| ACT-001 | 1 | If A could actualize inadmissible structure, the gate fails and L₃ would not govern χ. |
+| ACT-001 | 1 | If transition can be eliminated without explanatory loss, A is not irreducible. If actual states need not satisfy L₃, the canonical gate fails. |
 | EXT-001 | 1 | If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable. |
 | EXT-002 | 2 | If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson sprinkling proves inconsistent with Lorentz invariance or with continuum recovery), ADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival loses its fluctuation magnitude; the comparison in adce.md §11 becomes moot. |
 | LOG-001 | 1 | If L₃ is merely conventional, the hard core loses its transcendental warrant. |
 | LOG-002 | 1 | This is what makes TRT's hard core stronger than an orthodox Lakatosian core. If the transcendental argument fails, immunity falls back to mere convention. |
-| ONT-001 | 1 | The central identity is the programme's hard core. Its failure is not a belt adjustment but abandonment of TRT as such. |
-| ONT-002 | 1 | If the three reduce to fewer (or the co-requirement is definitional, hence circular), the economy claim and the synthetic-necessity argument collapse. |
-| ONT-003 | 1 | The four-tier distinction is the load-bearing engine (dialetheism, superposition, PBR, measurement, black holes). Without it those treatments fail jointly. |
-| ONT-004 | 1 | If the necessity is merely analytic (true by definition of "actualized reality"), the economy claim is stipulation, not a substantive feature of the actual. |
+| ONT-001 | 1 | If the typed R-D-X architecture fails, TRT's canonical relation among representability, actualizability, action, and actuality requires revision. |
+| ONT-002 | 1 | A successful reduction of any primitive to the other two, without explanatory loss or smuggling, defeats the irreducibility claim and requires hard-core revision. |
+| ONT-003 | 1 | Collapsing representability into actualizability reintroduces modal smuggling; proving L₃ sufficient for actualizability would permit a future controlled simplification but is not assumed. |
+| ONT-004 | 1 | If the necessity follows only from stipulated definitions, or a constituent can be removed without loss, the hard-core necessity claim fails. |
 | OPN-001 | 2 | The gating task. If no formalization avoids a free measure, or every one reduces to the einselection optimization, BOTH physics conjectures (PRD-001, PRD-002) lose discriminating content and the programme collapses to re-description. |
 | OPN-002 | 2 | Shared root of the Born-rule (2.2) and gravity (3.1) forks. If A is best-fit with an imposed norm, the linear/GR route closes. |
 | OPN-003 | 2 | If no known physics is recovered in any limit, TRT remains ontology, not physics. |
