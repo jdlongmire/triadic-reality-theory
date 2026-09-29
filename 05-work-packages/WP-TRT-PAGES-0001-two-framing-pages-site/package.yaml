@@ -1,6 +1,6 @@
 id: WP-TRT-PAGES-0001
 title: Build the TRT GitHub Pages presentation in accessible and technical framings
-status: proposed
+status: in_progress
 commitment: stretch
 scope: >
   Design and implement a GitHub Pages site for Triadic Reality Theory that introduces one
@@ -82,5 +82,4 @@ verification: >
   pass; and an adversarial semantic-drift review finds no substantive contradiction between the
   accessible and technical paths.
 disposition: >
-  OPEN. Principal approved a two-framing TRT presentation site on 2026-09-29: layman-accessible
-  and technical-systematic, governed by one canonical normalized corpus.
+  IN PROGRESS 2026-09-29. Jekyll /docs implementation, controlled MathJax rendering, accessible and technical paths, status/corpus/terminology surfaces, responsive design, and Pages deployment workflow are committed. Deployment and semantic/accessibility verification remain.
