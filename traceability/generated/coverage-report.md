@@ -23,28 +23,28 @@
 - **axiomatized**: 2
 - **imported**: 2
 - **open**: 8
+- **partial**: 1
 - **prose_only**: 8
-- **verified**: 1
 
 ## By epistemic status
 
-- **argued**: 6
+- **argued**: 8
 - **conjectured**: 2
-- **established**: 4
+- **established**: 2
 - **open**: 9
 
 ## All claims
 
 | ID | Tier | Role | Proof | Epistemic | Name |
 |---|---|---|---|---|---|
-| ACT-001 | 1 | bridge | verified | established | Actualization Preserves Admissibility |
+| ACT-001 | 1 | bridge | partial | argued | Primitive Action and Admissibility Preservation |
 | EXT-001 | 1 | imported | imported | established | LRT Formal Core (imported) |
 | EXT-002 | 2 | imported | imported | argued | CST Number-Volume Kinematic Substrate (imported) |
 | LOG-001 | 1 | primitive | axiomatized | established | L₃ as Admissibility Constraint |
 | LOG-002 | 1 | primitive | prose_only | argued | Denial of L₃ is Self-Refuting |
-| ONT-001 | 1 | primitive | prose_only | argued | Central Identity χ ≡ A(I∞ \| L₃) |
-| ONT-002 | 1 | primitive | prose_only | argued | Three Co-Requiring Primitives |
-| ONT-003 | 1 | primitive | axiomatized | established | Four-Tier Engine |
+| ONT-001 | 1 | primitive | prose_only | argued | Canonical R-D-X Architecture |
+| ONT-002 | 1 | primitive | prose_only | argued | Three Irreducible Co-Primitives |
+| ONT-003 | 1 | primitive | axiomatized | argued | Representability-Actualizability Distinction |
 | ONT-004 | 1 | primitive | prose_only | argued | Synthetic Necessity of the Triad |
 | OPN-001 | 2 | open | prose_only | open | Formalize Co-Admissibility (Task 0.1) |
 | OPN-002 | 2 | open | open | open | Actualization-Resolution Keystone |
