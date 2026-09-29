@@ -183,7 +183,7 @@
         "section": "3.4"
       }
     ],
-    "statement": "Determinate actuality is modeled by R --(L\u2083 necessary filter)--> D --(A)--> X/\u03c7.\nR is representable informational content, D is the actualizable domain, and X/\u03c7\nis what obtains. The compact \u03c7 = A(I\u221e | L\u2083, ...) is schematic and does not assert\nthat L\u2083 alone exhausts actualizability.\n",
+    "statement": "Determinate actuality is modeled by R --(L\u2083 necessary filter)--> D --(A)--> X/\u03c7.\nR is representable informational content, D is the actualizable domain, and X/\u03c7\nis what obtains. The compact \u03c7 = A(I\u221e | L\u2083) states the three-co-primitive ontology. It is distinct from\nthe stronger and unproved claim that L\u2083-admissibility alone exhausts D.\n",
     "tier": 1
   },
   "ONT-002": {
