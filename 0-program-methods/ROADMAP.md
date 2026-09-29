@@ -1,5 +1,7 @@
 # Triadic Reality Theory: Research Program and Repository Plan
 
+> **Canonical semantic invariant (2026-09-29):** WP-TRT-CORE-0001 governs active TRT terminology. L₃, I∞, and A are the three irreducible co-primitives. L₃ is necessary ontological constraint; I∞ is unbounded representability/informational differentiation; A is fundamental non-temporal state transition/change. Representability, L₃-admissibility, actualizability, and actuality must remain typed distinctions. No protective-belt result may silently assume that L₃-coherence is sufficient for actualizability or redefine A as “actuality by definition.”
+
 **Companion to** *Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality* (v0.9)
 
 **JD Longmire**
