@@ -1,23 +1,25 @@
 id: ONT-003
-name: Four-Tier Engine
+name: Representability-Actualizability Distinction
 statement: |
-  Informational structure is stratified: representable (well-formed, incl.
-  contradiction) ⊃ admissible (survives L₃) ⊃ actual (A-realized) with
-  outcome-actual reserved for determinate measurement results.
+  Representability, L₃-admissibility/coherence, actualizability, and actuality are
+  typed distinctions. Every actualizable state must satisfy L₃, but TRT does not
+  presently claim that every L₃-admissible representable state is actualizable.
 tier: 1
 role: primitive
 proof_status: axiomatized
-epistemic_status: established
+epistemic_status: argued
 formal_artifacts:
   lean:
     - { file: TrtFormalization/Core/Primitives.lean, symbol: Representable, status: axiom }
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: Admissible, status: axiom }
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: Actual, status: axiom }
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: OutcomeActual, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: L3Admissible, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: Actualizable, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actualizable_is_l3_admissible, status: axiom }
 depends_on:
-  - { claim_id: ONT-001, dependency_type: logical }
+  - { claim_id: LOG-001, dependency_type: logical }
 source_documents:
-  - { doc: TRT-v0.9, section: "3.4, 6.5" }
+  - { doc: TRT-v0.10, section: "Terminological Note, 3.4" }
 risk_if_false: |
-  The four-tier distinction is the load-bearing engine (dialetheism, superposition,
-  PBR, measurement, black holes). Without it those treatments fail jointly.
+  Collapsing representability into actualizability reintroduces modal smuggling;
+  proving L₃ sufficient for actualizability would permit a future controlled
+  simplification but is not assumed.
+notes: Supersedes the simple four-tier sufficiency reading of TRT v0.9.
