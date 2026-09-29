@@ -8,7 +8,9 @@ Give *L(χ, ∂χ, L₃)* a definite form, replacing the schematic expression of
 
 At present (paper §5 caveat) the variational apparatus is a **desideratum, not a derivation**: the Lagrangian density *L* has no specified form, *∂χ* and the measure *dΩ* are undefined, and no equations of motion are generated.
 
-$$\mathcal{S}[\chi] = \int_\Omega \mathcal{L}(\chi, \partial\chi, L_3)\, d\Omega, \qquad \delta\mathcal{S}[\chi] = 0$$
+```math
+\mathcal{S}[\chi] = \int_\Omega \mathcal{L}(\chi, \partial\chi, L_3)\, d\Omega, \qquad \delta\mathcal{S}[\chi] = 0
+```
 
 ## Prerequisite
 
