@@ -39,6 +39,9 @@ The [appraisal log](../3-prediction/appraisal.md) records, standingly, whether t
 Math must render on the publishing surface (GitHub) and in strict KaTeX viewers, not only in a local engine. Rules:
 
 - **Operator names:** use `\mathrm{Name}`, not `\operatorname{Name}` — the latter is rejected by GitHub/strict-KaTeX math ("macros are not allowed: operatorname"); `\mathrm` renders identically and is universal. (See [issue #7](https://github.com/jdlongmire/triadic-reality-theory/issues/7).)
-- **Absolute values / norms in inline math inside tables:** use `\lvert … \rvert`, not bare `|` — kramdown reads `|` as a table delimiter. (Bare `|` is fine in `$$` display blocks, e.g. kets `|\psi\rangle`.)
+- **Display math:** use GitHub fenced `math` blocks, never `$...$`. The fenced form renders reliably in GitHub web and mobile. This is the repository-wide canonical display-math syntax.
+- **Absolute values / norms in inline math inside tables:** use `\lvert … \rvert`, not bare `|` — kramdown reads `|` as a table delimiter. Inside fenced `math` blocks, ordinary LaTeX ket/conditional notation is safe.
 - **No definition macros** (`\def`, `\newcommand`, `\gdef`, `\let`), `\href`, `\label`, or `\tag` in committed math — GitHub's renderer blocks them.
-- Sanity check: `grep -rn '\\operatorname' --include="*.md" .` should return nothing.
+- **Historical artifacts are not exempt from rendering safety:** preservation concerns semantic content, not broken Markdown delimiters. Display equations in retained historical documents also use fenced `math`.
+- Sanity checks: `grep -rn '\\operatorname' --include="*.md" .` and `grep -rn '\$\
+ --include="*.md" .` should return no active math violations.
