@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Corpus
+title: TRT Research Corpus and Sources
+description: "Canonical Triadic Reality Theory research sources: hard core, TRT v0.10 paper, Lean formalization, traceability, open problems, methodology, and work packages."
 ---
 <p class="eyebrow">Research corpus</p>
 
-# Follow the argument into the source
+These links connect the explanatory Pages site to the authoritative TRT research repository, formalization, traceability system, and programme governance.
+
+# Triadic Reality Theory research corpus and canonical sources
 
 The Pages site is explanatory. The repository remains authoritative.
 
