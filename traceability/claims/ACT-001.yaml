@@ -1,21 +1,26 @@
 id: ACT-001
-name: Actualization Preserves Admissibility
+name: Primitive Action and Admissibility Preservation
 statement: |
-  Actualizing action A maps admissible structure to actual structure; every
-  actual structure is L₃-admissible (the gate between representable and actual is L₃).
+  A is fundamental state transition/change, defined without presupposing physical
+  time, motion, force, energy, or actuality. Actual states belong to the
+  actualizable domain, and every actualizable state satisfies the necessary L₃ filter.
 tier: 1
 role: bridge
-proof_status: verified
-epistemic_status: established
+proof_status: partial
+epistemic_status: argued
 formal_artifacts:
   lean:
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_admissible, status: proven }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: A, status: axiom }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_actualizable, status: proven }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_l3_admissible, status: proven }
 depends_on:
   - { claim_id: ONT-003, dependency_type: formal }
   - { claim_id: LOG-001, dependency_type: formal }
 source_documents:
-  - { doc: TRT-v0.9, section: "3.3, 3.4" }
-risk_if_false: "If A could actualize inadmissible structure, the gate fails and L₃ would not govern χ."
+  - { doc: TRT-v0.10, section: "3.3, 3.4" }
+risk_if_false: |
+  If transition can be eliminated without explanatory loss, A is not irreducible.
+  If actual states need not satisfy L₃, the canonical gate fails.
 notes: |
-  First verified theorem in the TRT Lean core. Holds by construction in the present
-  model; deriving it from a dynamics is belt work.
+  WP-TRT-CORE-0001 separates primitive A from the predicate that a state obtains,
+  avoiding the former circular definition of A as "actualizing action."
