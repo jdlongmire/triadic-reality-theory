@@ -64,8 +64,8 @@ jobs:
           HITS=$(grep -rn '\$\
  --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true)
           if [ -n "$HITS" ]; then
-            echo "::error::Dollar-delimited display math found — use fenced math blocks (see 0-program-methods/research-practices.md)"
+            echo "::error::Dollar-delimited display math found — use Unicode on high-visibility surfaces or fenced math in technical documents (see 0-program-methods/research-practices.md)"
             echo "$HITS"
             exit 1
           fi
-          echo "OK — display math uses fenced math blocks"
+          echo "OK — no dollar-delimited display math"
