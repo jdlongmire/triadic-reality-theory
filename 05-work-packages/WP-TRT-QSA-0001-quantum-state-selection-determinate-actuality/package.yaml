@@ -1,115 +1,170 @@
 id: WP-TRT-QSA-0001
-title: Type state-instantiation, selection, and determinate actuality
+title: Type action roles, specification, and determinate actuality
 status: open
 commitment: stretch
 scope: >
-  Determine whether TRT requires an explicit distinction among physically instantiated
-  representational states, selection/specification of a predicate or observable, and determinate
-  fact actuality. Audit and reconcile the current uses of I_infinity, L3, A, X, chi, actuality,
-  actualization, selection, resolution, and quantum measurement language. Quantum mechanics is a
-  stress case for the ontology, not the source of the ontology.
+  Determine whether TRT should type downstream specification and determinate settling as derived
+  roles/results of the single primitive Action rather than introducing additional ontological
+  operators. Audit and reconcile I_infinity, L3, A/action, X, chi, actuality, actualization,
+  selection, specification, settling, resolution, and quantum measurement language. Quantum
+  mechanics is a stress case for the ontology, not the source of the ontology.
 
 authority_boundary: >
   This package may propose typed notation and revisions to active canonical TRT artifacts after
-  repository-wide semantic audit. It must not silently rewrite completed historical work packages,
-  assert a preferred interpretation of quantum mechanics, treat superposition as simultaneous
-  contradictory classical facts, equate representability with physical instantiation, or infer
-  physical infinity from unbounded representability. Any change to the hard core, Lean primitives,
-  or canonical meaning of chi requires an explicit reconciliation record and adversarial review.
+  repository-wide semantic audit. It must preserve the completed CORE-0001 commitment to one
+  primitive Action role unless an explicit later argument defeats it. It must not promote
+  selection/specification, decoherence, measurement, or determinate actualization to co-primitives;
+  silently rewrite completed historical work packages; assert a preferred interpretation of
+  quantum mechanics; treat superposition as simultaneous contradictory classical facts; equate
+  representability with physical instantiation; or infer physical infinity from unbounded
+  representability. Any change to the hard core, Lean primitives, or canonical meaning of chi
+  requires an explicit reconciliation record and adversarial review.
 
 problem_statement: >
-  Current canonical TRT uses R --(L3 necessary filter)--> D --(A)--> X/chi, with chi glossed as
-  what obtains. Existing ontology artifacts also use chi for the total actual domain/result, while
-  quantum-sector artifacts speak of A resolving an unresolved superposition into a determinate
-  outcome. A physically instantiated quantum state can itself be actual without every represented
-  alternative being actualized as a definite value. The ontology therefore risks equivocating
-  among state actuality, domain actuality, and determinate value/fact actuality.
+  Current canonical TRT uses L3, I_infinity, and A as irreducible co-primitives, with A defined as
+  fundamental non-temporal state transition/change and chi/X glossed as what obtains. Existing
+  ontology and quantum-sector artifacts also use actualization, resolution, selection, and chi in
+  overlapping senses. A physically instantiated quantum state can itself be actual without every
+  represented alternative becoming a determinate fact. The ontology therefore needs typed
+  downstream roles of primitive Action without multiplying coequal operators or equivocating among
+  state-instantiation, specification of a respect, and determinate fact actuality.
 
-candidate_distinctions:
-  I_infinity: >
-    Unbounded domain of representable informational differentiation. Membership or representation
-    does not entail coherence, actualizability, physical instantiation, or actuality. Particular
-    informational states represented within the domain may be physically instantiated without all
-    represented alternatives becoming determinate facts.
-  S: >
-    Downstream selection/specification of the respect under which an already available or
-    instantiated informational state is evaluated for a determinate claim. S is not a co-primitive,
-    does not mediate I_infinity into actualizability at the hard-core level, and does not supply
-    representability, coherence, or actuality. It fixes the subject/predicate/observable/context
-    question for downstream resolution or fact-statement and does not by itself select or entail
-    an answer. S must not be defined as conscious choice.
-  L3: >
-    Identity, Non-Contradiction, and Excluded Middle as necessary constraints on determinate facts
-    under fixed subject, predicate, time/condition, and respect. Investigate whether and how L3
-    constrains pre-value quantum state descriptions without assuming classical definite-value
-    realism.
-  A: >
-    Preserve the canonical primitive as fundamental non-temporal state transition/change. Determine
-    how actualization/resolution roles should be typed relative to state-instantiation and
-    determinate value actuality without redefining A circularly.
-  chi: >
-    Candidate typed use: determinate actuality, a settled fact under a fixed specification. Do not
-    adopt this meaning until reconciling current chi-as-what-obtains and chi-as-total-actual-domain
-    usages. Consider chi_fact, chi_state, or separate X-domain notation rather than overloading chi.
+canonical_constraint:
+  primitive_action: >
+    Keep one fundamental occurrence-type: Action. Use alpha as a candidate occurrence variable
+    ranging over Act when useful in formal development. Alpha is not a fourth primitive; it denotes
+    an occurrence/instance of primitive Action.
+  no_selection_primitive: >
+    Selection/specification is not an ontological primitive and does not sit beside L3, I_infinity,
+    or Action. It is a partial derived role acquired by some actions when they bound a respect.
+  no_actualization_primitive: >
+    Determinate actualization/settling is likewise a derived role/result of Action, not a second
+    action-like co-primitive. Preserve the distinction between primitive Action and the determinate
+    fact produced when an action settles a specified respect.
+
+candidate_formalization:
+  action_occurrence: >
+    alpha : Act.
+  specification_role: >
+    Candidate: Spec(alpha, sigma) iff there exists q in Q such that alpha makes q the respect in
+    force for sigma. When defined, S(alpha,sigma) := q. S is therefore a partial derived operation,
+    not an ontological kind. Many actions need not specify any q.
+  bounded_question: >
+    Candidate q = <x, P, c, r>, where x is subject/system, P the predicate/observable, c the
+    relevant condition/time/context, and r the respect. The exact tuple and typing remain to be
+    audited.
+  settling_role: >
+    Candidate: Settled(alpha,q) iff the action occurrence alpha settles q as a determinate fact
+    chi_q under L3. Do not reuse A(q) for this role unless the notation audit shows no collision
+    with canonical primitive A.
+  determinate_fact: >
+    chi_q is candidate notation for the determinate settled fact under q. Do not yet replace all
+    existing chi usages; reconcile chi-as-what-obtains and chi-as-total-domain first.
+  instantiation: >
+    Inst(sigma) denotes candidate physical instantiation of an informational state sigma. A
+    physically instantiated state is not thereby identical to a settled determinate fact chi_q.
+
+action_grades:
+  non_specifying: >
+    An action occurrence may change what is instantiated without fixing a bounded predicate or
+    observable q. No determinate claim under q is thereby in force.
+  specifying: >
+    An action occurrence may additionally fix q = <x,P,c,r>. This establishes the respect in which
+    a determinate answer would count; it does not by itself settle the value.
+  settling: >
+    An action occurrence may settle an already specified q as chi_q. Settling is a further derived
+    role/result, not a new primitive.
+
+candidate_pipeline: >
+  alpha -> [Spec(alpha,sigma) implies q] -> [Settled(alpha,q) implies chi_q under L3].
+  This is a typed role/result pipeline, not a temporal sequence by definition and not a chain of
+  co-primitives.
+
+type_separations:
+  - alpha != q != chi_q.
+  - Inst(sigma) != chi_q in general.
+  - A physically instantiated representational state may contain alternatives that are not each
+    settled as determinate facts.
+  - Specification of q does not entail settlement of q.
+  - Settlement of q must not retroactively redefine q, its subject, predicate, condition, or respect.
+
+L3_typing: >
+  Investigate the strongest defensible typing of L3. Current candidate: L3 constrains determinate
+  settled facts chi_q under fixed q. Do not infer from this that L3 is irrelevant to the coherence
+  or admissibility of actions, states, or representations elsewhere in TRT; reconcile with
+  CORE-0001 before narrowing any canonical L3 claim.
+
+quantum_stress_case:
+  state_instantiation: >
+    A prepared superposition psi may be physically instantiated as a quantum state. This is an
+    actual state claim and must not be reduced to mere bookkeeping.
+  represented_alternatives: >
+    Alternatives represented relative to a basis are not thereby simultaneously settled classical
+    facts.
+  specification: >
+    An action may acquire a specification role by fixing an observable/basis/pointer respect.
+    Decoherence is a candidate downstream species of specifying action where environmental coupling
+    selects/stabilizes a pointer structure; this must be stated interpretation-neutrally and checked
+    against the physics literature before canonization.
+  settlement: >
+    A determinate record/outcome chi_q is a further typed result. TRT must not prescribe collapse,
+    Everettian branching, Bohmian dynamics, relational accounts, or another interpretation merely
+    by introducing this distinction.
 
 working_principles:
+  - Ordinal/fundamental Action is the only action primitive.
+  - Selection is what an action is doing when it specifies a respect.
+  - Determinate actualization is what an action has done when that specified respect is settled as
+    chi_q under the relevant logical constraints.
+  - Question-selection and value/outcome settlement remain distinct.
   - A representational state may itself be physically instantiated without every alternative
-    represented within that state being actualized as a definite fact.
-  - Physical instantiation and determinate value actualization are distinct candidate ontological
-    categories.
-  - Selection is downstream of the L3-I_infinity-A hard core and must not be promoted into the
-    primitive architecture.
-  - Question-selection and value/outcome-selection must remain distinct downstream operations.
-  - The respect relevant to L3 is fixed before evaluation and may not be redefined after a proposed
-    counterexample.
-  - Superposition must not be paraphrased as P and not-P being simultaneously true as definite
-    classical facts.
+    represented within that state being settled as a determinate fact.
   - Unbounded representability does not entail an actually completed physical infinity.
-  - Do not use 'later selection' canonically where temporal sequencing or a collapse interpretation
-    is not established.
+  - Do not use 'later selection' canonically where temporal sequencing is not established.
 
-candidate_public_shorthand: >
-  A state can be physically real without every alternative represented within it being a settled
-  fact. Downstream selection fixes the respect in which a determinate claim is evaluated;
-  actualization/resolution settles the fact under that specification; logic constrains the
-  determinate fact.
+governing_sentence: >
+  Ordinal action is fundamental. Selection is what an action is doing when it specifies a respect.
+  Determinate actualization is what an action has done when that respect is settled under L3.
 
 actions:
-  - Inventory repository-wide uses of chi, X, actuality, actualization, A, selection, resolution,
-    measurement, superposition, I_infinity, and L3.
+  - Inventory repository-wide uses of chi, X, actuality, actualization, A, alpha, selection,
+    specification, settling, resolution, measurement, superposition, I_infinity, and L3.
   - Produce a semantic collision matrix separating historical, canonical, ambiguous, and proposed
     usages.
-  - Test at least three notation strategies: typed chi variants; X as actual domain with chi_fact
-    as determinate fact; and explicit predicates for state-instantiated versus value-actualized.
+  - Test notation strategies that preserve primitive A while using alpha for action occurrences and
+    distinct predicates/relations for Spec and Settled.
+  - Test at least three chi strategies: chi_q for determinate fact with X for actual domain; typed
+    chi variants; and explicit actuality predicates without redefining chi.
   - Reconcile this package with WP-TRT-CORE-0001 rather than undoing its completed normalization.
   - Reconcile actuality-actualization-disambiguation.md, canonical-category-backbone.md,
-    representability-coherence-realizability-actualization.md, state-transition-and-actualization-framework.md,
-    actualization-resolution.md, actualization-measure.md, and the Lean primitive layer.
-  - Build a quantum stress case using a prepared superposition while remaining interpretation-neutral
-    about collapse, Everettian branching, Bohmian dynamics, relational accounts, and other live
-    interpretations.
-  - Type S explicitly as downstream. Determine whether it is a specification relation over an
-    instantiated/available informational state, a downstream role associated with A, or semantic
-    bookkeeping at the fact-resolution layer. Do not treat S as a fourth primitive or as an
-    upstream condition of representability/actualizability.
+    representability-coherence-realizability-actualization.md,
+    state-transition-and-actualization-framework.md, actualization-resolution.md,
+    actualization-measure.md, and the Lean primitive layer.
+  - Build a quantum stress case using prepared superposition, incompatible observables,
+    decoherence/pointer structure, and determinate records while remaining interpretation-neutral.
+  - Determine whether Spec and Settled are predicates on action occurrences, relations among action,
+    state, and q, or derived partial functions. Prefer the weakest typing that carries the needed
+    distinctions.
   - Test the relation between L3, bivalence, definite-value realism, contextuality, and determinate
     recorded outcomes. Do not claim quantum mechanics proves classical bivalence for all
     pre-measurement observables.
   - Determine whether 'determinate actuality' should name all actuality or only predicate-bounded
     fact actuality.
   - Produce an adversarial review covering type errors, modal collapse, observer smuggling,
-    temporal smuggling, interpretation dependence, infinity equivocation, and post-hoc elasticity
-    of 'same respect'.
+    temporal smuggling, interpretation dependence, infinity equivocation, post-hoc elasticity of
+    respect, and accidental multiplication of primitives.
   - If warranted, issue a controlled canonical refactor with supersession notes and update the
     public L-I-A storyline separately.
 
 verification: >
   Completion requires a repository-wide collision inventory, an explicit notation decision,
-  preservation or justified revision of the CORE-0001 hard core, an interpretation-neutral quantum
-  stress test, adversarial review, and passing repository math/rendering and Lean checks for any
-  modified canonical/formal artifacts. No completed historical artifact may be silently rewritten.
+  preservation or justified revision of the CORE-0001 hard core, exactly one fundamental Action
+  primitive unless a separate irreducibility argument warrants otherwise, an interpretation-neutral
+  quantum stress test, adversarial review, and passing repository math/rendering and Lean checks for
+  any modified canonical/formal artifacts. No completed historical artifact may be silently
+  rewritten.
 
 disposition: >
-  OPEN. Triggered by the distinction between physically instantiated quantum state information and
-  determinate fact/value actuality. No canonical symbol redefinition is authorized until the audit
-  and notation decision are complete.
+  OPEN. Revised to treat specification/selection and determinate settling as downstream derived
+  roles/results of primitive Action. No selection co-primitive is proposed. No canonical symbol
+  redefinition is authorized until the audit and notation decision are complete.
