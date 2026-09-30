@@ -111,7 +111,7 @@ A specific model may warrant Settled only when the additional record criteria ar
 
 ## 6. Non-quantum structural analogue
 
-The required analogue is a classical dynamical system whose physical state is actual while a bounded future/event predicate remains unsettled.
+The required analogue is a classical dynamical system whose physical state is determinate under its state specification while a different bounded future/event predicate remains unsettled.
 
 ### Example: chaotic coin/die dynamics before outcome registration
 
