@@ -1,147 +1,174 @@
-# L3 Typed to Determinate Actuality
+# L3 Typed by Specification
 
 **WP:** WP-TRT-QSA-0001  
 **Date:** 2026-09-30  
-**Status:** candidate hard-core correction; requires reconciliation with WP-TRT-CORE-0001
+**Status:** revised candidate hard-core reconciliation v2  
+**Supersedes within QSA:** the v1 claim that L3 governs χ_q but not ψ as such.
 
 ## Thesis
 
-QSA proposes the stronger type discipline:
+The correct type discipline is specification-relative:
 
-$$\boxed{L_3\text{ governs }\chi_q,\text{ not }\psi\text{ as such}.}$$
+> **L3 governs any determinate categorized actuality under its fixed specification. A physically instantiated quantum state ψ can therefore already be determinate actuality as a state while remaining under-determinate relative to a different observable/value claim.**
 
-Here L3 is:
+L3 does not operate on “amplitudes as already settled outcomes.” It constrains the determinate claim actually in force.
 
-$$L_3=\{\mathrm{Identity},\mathrm{NonContradiction},\mathrm{ExcludedMiddle}\}.$$
+## 1. State specification
 
-L3 is typed to **categorized determinate actuality under fixed q**.
+Let:
 
-It is not imposed as a bivalent value-assignment rule over raw representable information I, amplitudes, superpositions, or an unasked/unbounded observable question.
+$$q_\psi := \text{“this system is in state }\psi\text{.”}$$
 
-## 1. Why the type boundary matters
+If ψ is physically instantiated, then the state-level fact is:
 
-A physically instantiated superposition may be real:
+$$\chi_{q_\psi}.$$
 
-$$\operatorname{Inst}(\psi).$$
+L3 applies to that determinate state claim.
 
-That does not imply that each basis alternative is already a determinate fact χ_q.
+### Identity
 
-If L3 is imposed too early as though every representable or instantiated quantum structure must already be a definite P/not-P fact, then ψ is easily misread as simultaneous contradictory actuality or forced into premature classical value assignment.
+$$\psi=\psi.$$
 
-If L3 is discarded at the determinate-fact layer, then a settled q could be both P and not-P, neither P nor not-P, or fail identity while still being called a determinate fact.
+The instantiated state is that state.
 
-The candidate type rule closes both errors:
+### Non-Contradiction
 
-> **Superposition is permitted in physically instantiated informational structure. Contradictory determinate actuality is not.**
+The same system is not both in ψ and not in ψ under the same state specification, conditions, and respect.
 
-## 2. L3 is not an amplitude rule
+Equivalently, where ψ-perp denotes an incompatible/orthogonal state only in the relevant formal context, do not infer co-instantiation as the same state-claim.
 
-Identity, Non-Contradiction, and Excluded Middle are not proposed as algebraic rules for amplitudes.
+### Excluded Middle
 
-QSA does not infer:
+Under fixed q_ψ:
 
-- every amplitude is true or false;
-- every represented alternative already has a definite value;
-- every observable possesses a pre-existing bivalent value;
-- ψ must be reduced to one classical alternative merely to be physically real.
+> the system is in ψ, or it is not in ψ.
 
-Instead:
+Thus a superposition can be fully determinate as a quantum state.
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)\Rightarrow L_3(\chi_q).$$
+## 2. Observable/value specification
 
-For the fixed q, determinate χ_q is self-identical, does not instantiate P and not-P as the same settled fact, and is not neither P nor not-P once P is the bounded predicate in force.
+Let q be a different bounded claim, for example:
 
-## 3. Categorized reality
+> “the system has z-spin up under the specified measurement context.”
 
-“Categorized” means that q has fixed the subject, predicate/observable, relevant conditions, and respect, and settlement has yielded χ_q.
+The same instantiated ψ may be under-determinate relative to q even while χ_{q_ψ} is settled.
 
-Thus:
+Therefore:
 
-$$q=\langle x,P,c,r\rangle$$
+$$\chi_{q_\psi}\not\Rightarrow \chi_q.$$
 
-followed by:
+State actuality does not promote every represented alternative/value to a determinate fact.
 
-$$\operatorname{Settled}(\alpha,q,\chi_q).$$
+## 3. No contradiction between the two statuses
 
-Only at this determinate-fact type does QSA require the full L3 truth constraint on P.
+A single physical system may satisfy:
 
-This does not imply that q or settlement is observer-created. Both may be fixed by physical interaction.
+$$\operatorname{Settled}(\alpha_\psi,q_\psi,\chi_{q_\psi})$$
 
-## 4. Compact equation
+while also satisfying:
 
-The canonical equation remains:
+$$U_{\mathrm{inst}}(\psi,q).$$
 
-$$\boxed{\chi\equiv\mathcal A(I\mid L).}$$
+This means:
 
-QSA reads the bar as constraint on the determinate result of Action upon informational content, not as a demand that every member or structure of I already be a categorized fact.
+- determinate as the state ψ;
+- under-determinate relative to q.
 
-Level 0:
+There is no global “determinate/indeterminate” status independent of specification.
 
-> Logic constrains. Information is representable content. Action actualizes. χ is the determinate result.
+## 4. L3 does not distribute through representation as outcome actuality
 
-Level 1:
+From:
 
-> I may contain or describe physically instantiated under-determinate structure. Action may specify q and settle χ_q. L3 governs χ_q as categorized determinate actuality.
+$$L_3(\chi_{q_\psi})$$
 
-## 5. Consequences for quantum mechanics
+it does not follow that represented alternatives inside ψ are each determinate outcome facts.
 
-### Superposition
+In particular:
 
-A superposition may satisfy Inst(ψ) without being a conjunction of contradictory χ_q facts.
+$$L_3(\chi_{q_\psi})\nRightarrow
+\chi_q(P)\land\chi_q(\neg P).$$
 
-### Unasked question
+Nor does L3 require that one of those q-level outcomes was already settled merely because ψ itself is a determinate instantiated state.
 
-If q is not in force, QSA does not assign a third truth value to q. There is no q-level determinate fact yet being asserted.
+## 5. Double relevance
 
-### Specified but unsettled question
+L3 has the same logical content under different specifications.
 
-If Spec holds while Settled does not, q is bounded but no χ_q is yet claimed. QSA does not infer a definite value merely from specification.
+### State level
 
-### Settled question
+For q_ψ:
 
-Once χ_q obtains, L3 applies to the determinate fact.
+- the state is itself;
+- it is not both that state and not that state in the same respect;
+- it obtains or does not obtain under the bounded state claim.
 
-## 6. Conflict with current CORE-0001 architecture
+### Observable/value level
 
-This candidate correction is **not identical** to the current normalized hard-core architecture:
+For q:
+
+- the determinate value/fact is itself;
+- it is not both P and not-P in the same respect;
+- once q is a determinate settled claim, P or not-P obtains.
+
+Same L3. Different q.
+
+## 6. Corrected relation between Inst and χ
+
+The earlier generic statement:
+
+$$\operatorname{Inst}(\sigma)\not\equiv\chi_q$$
+
+remains true only when q is some claim distinct from the state-instantiation claim.
+
+For the state claim q_σ:
+
+$$\operatorname{Inst}(\sigma)\Rightarrow\chi_{q_\sigma}$$
+
+when the operational warrant for physical instantiation is met.
+
+Therefore physical state-instantiation is already determinate actuality under the state specification.
+
+What remains false is:
+
+$$\operatorname{Inst}(\psi)\Rightarrow\chi_q$$
+
+for arbitrary observable/value q.
+
+## 7. Reconciliation with CORE-0001
+
+This revision substantially reduces the apparent conflict with:
 
 $$R\xrightarrow{L_3\;\mathrm{necessary\ filter}}D\xrightarrow{A}X.$$
 
-CORE-0001 presently states that every actualizable state must be L3-admissible before actuality.
+L3 can constrain state-level actuality without imposing definite values for every representable observable.
 
-QSA now proposes a narrower typed claim:
+The remaining reconciliation question is how “L3-admissible” should be typed at R/D:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)\Rightarrow L_3(\chi_q),$$
+- it must exclude genuine logical incoherence;
+- it must not be interpreted as global noncontextual bivalent valuation of every observable;
+- it must permit a coherent quantum state ψ to be actualizable/actual as ψ while some q-level value claims remain unsettled.
 
-without imposing full L3 bivalent fact structure on raw I or on physically instantiated ψ as such.
+Thus QSA no longer proposes that L3 is relevant “exactly and only” at outcome χ_q. It proposes that L3 is always applied **relative to the bounded claim being made**.
 
-These claims may be reconcilable only if “L3-admissible at D” is defined weakly enough to mean “does not preclude a later determinate L3-consistent χ_q,” rather than “already carries a definite P/not-P valuation for every relevant proposition.”
+## 8. Revised governing statement
 
-If that reconciliation cannot be made without equivocation, the R→L3→D architecture must be superseded.
+> **L3 governs ψ as categorized reality-as-state. It does not recategorize ψ as simultaneous determinate outcomes. A quantum state may be determinate under q_ψ and under-determinate under q. The same three logical laws govern both claims; the specifications differ.**
 
-## 7. Reconciliation tests
+## 9. Consequence for the physics split
 
-Before changing the hard core, test:
+Replace any global binary split:
 
-1. **Weak-admissibility reading:** Can L3-admissible mean only absence of impossible determinate contradiction, without bivalent value assignment to raw I?
-2. **LEM typing:** Does Excluded Middle apply to a proposition only once q supplies a bounded predicate, while Identity/Non-Contradiction retain broader structural roles?
-3. **Mixed typing possibility:** Are the three members of L3 genuinely coextensive in type, or has QSA exposed that Identity/NC and LEM require different domains?
-4. **Actualizability:** Can D be defined without presupposing that every actualizable quantum state is already a determinate fact?
-5. **Formalization:** Does the current Lean predicate L3Admissible encode more than QSA can justify?
+> ψ = under-determinate; χ = determinate
 
-## 8. Failure conditions
+with the indexed split:
 
-Reject or revise this candidate if:
+> ψ may be χ_{q_ψ} and simultaneously U_inst(ψ,q) for another q.
 
-- a coherent account of physically instantiated ψ requires L3 at exactly the same typed level as χ_q;
-- L3 cannot be restricted to determinate fact actuality without making identity or non-contradiction unavailable for state-level reasoning;
-- the proposal merely relocates the measurement problem by defining “categorized” circularly;
-- q-relative typing permits post-hoc evasion of genuine contradiction.
+Therefore:
 
-## 9. Governing statement
-
-> **L3 does not forbid superposition. It forbids contradictory determinate actuality. It does not assign a truth value to every representable alternative. When a bounded claim is physically specified and settled as χ_q, the determinate fact is constrained by Identity, Non-Contradiction, and Excluded Middle.**
+**determinacy is specification-relative, while actuality is not reduced to observer-relative knowledge.**
 
 ## Disposition
 
-**CANDIDATE HARD-CORE CORRECTION.** Do not yet edit CORE-0001, the hard core, or Lean. The next task is an adversarial reconciliation of this typed-L3 thesis against the existing R→L3→D architecture. If the two cannot be reconciled without equivocation, QSA must propose an explicit supersession rather than preserve contradictory canonical claims.
+**REVISED CANDIDATE.** The earlier QSA v1 restriction of L3 to outcome χ_q is withdrawn. Proceed by updating the QSA notation/physics artifacts to specification-relative determinacy, then re-run the CORE-0001 reconciliation.
