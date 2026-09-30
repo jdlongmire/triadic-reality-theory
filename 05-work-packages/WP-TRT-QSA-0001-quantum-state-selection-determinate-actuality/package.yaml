@@ -1,0 +1,108 @@
+id: WP-TRT-QSA-0001
+title: Type state-instantiation, selection, and determinate actuality
+status: open
+commitment: stretch
+scope: >
+  Determine whether TRT requires an explicit distinction among physically instantiated
+  representational states, selection/specification of a predicate or observable, and determinate
+  fact actuality. Audit and reconcile the current uses of I_infinity, L3, A, X, chi, actuality,
+  actualization, selection, resolution, and quantum measurement language. Quantum mechanics is a
+  stress case for the ontology, not the source of the ontology.
+
+authority_boundary: >
+  This package may propose typed notation and revisions to active canonical TRT artifacts after
+  repository-wide semantic audit. It must not silently rewrite completed historical work packages,
+  assert a preferred interpretation of quantum mechanics, treat superposition as simultaneous
+  contradictory classical facts, equate representability with physical instantiation, or infer
+  physical infinity from unbounded representability. Any change to the hard core, Lean primitives,
+  or canonical meaning of chi requires an explicit reconciliation record and adversarial review.
+
+problem_statement: >
+  Current canonical TRT uses R --(L3 necessary filter)--> D --(A)--> X/chi, with chi glossed as
+  what obtains. Existing ontology artifacts also use chi for the total actual domain/result, while
+  quantum-sector artifacts speak of A resolving an unresolved superposition into a determinate
+  outcome. A physically instantiated quantum state can itself be actual without every represented
+  alternative being actualized as a definite value. The ontology therefore risks equivocating
+  among state actuality, domain actuality, and determinate value/fact actuality.
+
+candidate_distinctions:
+  I_infinity: >
+    Unbounded domain of representable informational differentiation. Membership or representation
+    does not entail coherence, actualizability, physical instantiation, or actuality. Particular
+    informational states represented within the domain may be physically instantiated without all
+    represented alternatives becoming determinate facts.
+  S: >
+    Selection/specification of the respect under which a determinate claim is evaluated. S fixes
+    the subject/predicate/observable/context question and does not by itself select or entail an
+    answer. S must not be defined as conscious choice.
+  L3: >
+    Identity, Non-Contradiction, and Excluded Middle as necessary constraints on determinate facts
+    under fixed subject, predicate, time/condition, and respect. Investigate whether and how L3
+    constrains pre-value quantum state descriptions without assuming classical definite-value
+    realism.
+  A: >
+    Preserve the canonical primitive as fundamental non-temporal state transition/change. Determine
+    how actualization/resolution roles should be typed relative to state-instantiation and
+    determinate value actuality without redefining A circularly.
+  chi: >
+    Candidate typed use: determinate actuality, a settled fact under a fixed specification. Do not
+    adopt this meaning until reconciling current chi-as-what-obtains and chi-as-total-actual-domain
+    usages. Consider chi_fact, chi_state, or separate X-domain notation rather than overloading chi.
+
+working_principles:
+  - A representational state may itself be physically instantiated without every alternative
+    represented within that state being actualized as a definite fact.
+  - Physical instantiation and determinate value actualization are distinct candidate ontological
+    categories.
+  - Question-selection and value/outcome-selection must remain distinct.
+  - The respect relevant to L3 is fixed before evaluation and may not be redefined after a proposed
+    counterexample.
+  - Superposition must not be paraphrased as P and not-P being simultaneously true as definite
+    classical facts.
+  - Unbounded representability does not entail an actually completed physical infinity.
+  - Do not use 'later selection' canonically where temporal sequencing or a collapse interpretation
+    is not established.
+
+candidate_public_shorthand: >
+  A state can be physically real without every alternative represented within it being a settled
+  fact. Selection fixes the question; actualization settles a determinate fact; logic constrains
+  the fact under that fixed specification.
+
+actions:
+  - Inventory repository-wide uses of chi, X, actuality, actualization, A, selection, resolution,
+    measurement, superposition, I_infinity, and L3.
+  - Produce a semantic collision matrix separating historical, canonical, ambiguous, and proposed
+    usages.
+  - Test at least three notation strategies: typed chi variants; X as actual domain with chi_fact
+    as determinate fact; and explicit predicates for state-instantiated versus value-actualized.
+  - Reconcile this package with WP-TRT-CORE-0001 rather than undoing its completed normalization.
+  - Reconcile actuality-actualization-disambiguation.md, canonical-category-backbone.md,
+    representability-coherence-realizability-actualization.md, state-transition-and-actualization-framework.md,
+    actualization-resolution.md, actualization-measure.md, and the Lean primitive layer.
+  - Build a quantum stress case using a prepared superposition while remaining interpretation-neutral
+    about collapse, Everettian branching, Bohmian dynamics, relational accounts, and other live
+    interpretations.
+  - Test whether the proposed S operation is ontologically primitive, a typed specification
+    relation within I, a role of A, or merely semantic bookkeeping. Do not promote S to a fourth
+    primitive without an irreducibility argument.
+  - Test the relation between L3, bivalence, definite-value realism, contextuality, and determinate
+    recorded outcomes. Do not claim quantum mechanics proves classical bivalence for all
+    pre-measurement observables.
+  - Determine whether 'determinate actuality' should name all actuality or only predicate-bounded
+    fact actuality.
+  - Produce an adversarial review covering type errors, modal collapse, observer smuggling,
+    temporal smuggling, interpretation dependence, infinity equivocation, and post-hoc elasticity
+    of 'same respect'.
+  - If warranted, issue a controlled canonical refactor with supersession notes and update the
+    public L-I-A storyline separately.
+
+verification: >
+  Completion requires a repository-wide collision inventory, an explicit notation decision,
+  preservation or justified revision of the CORE-0001 hard core, an interpretation-neutral quantum
+  stress test, adversarial review, and passing repository math/rendering and Lean checks for any
+  modified canonical/formal artifacts. No completed historical artifact may be silently rewritten.
+
+disposition: >
+  OPEN. Triggered by the distinction between physically instantiated quantum state information and
+  determinate fact/value actuality. No canonical symbol redefinition is authorized until the audit
+  and notation decision are complete.
