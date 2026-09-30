@@ -13,7 +13,7 @@ $$\boxed{\chi \equiv \mathcal{A}(I\mid L)}$$
 
 The split does not create two physical theories. It distinguishes two statuses within the same compact ontology.
 
-- **Under-determinate physics relative to q:** physically relevant or physically instantiated informational structure for which bounded claim q is not settled.
+- **Under-determinate physics relative to q:** physically relevant or physically instantiated informational structure for which bounded claim q is not settled. The same state may already be determinate actuality under its own state specification q_σ.
 - **Determinate physics relative to q:** a settled determinate fact χ_q under fixed q.
 
 “Under-determinate” is always indexed, explicitly or implicitly, to a bounded claim q. It does not mean vague, unreal, nonphysical, merely epistemic, or mathematically unspecified.
