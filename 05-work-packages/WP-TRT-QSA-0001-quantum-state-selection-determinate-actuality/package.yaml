@@ -32,9 +32,12 @@ candidate_distinctions:
     informational states represented within the domain may be physically instantiated without all
     represented alternatives becoming determinate facts.
   S: >
-    Selection/specification of the respect under which a determinate claim is evaluated. S fixes
-    the subject/predicate/observable/context question and does not by itself select or entail an
-    answer. S must not be defined as conscious choice.
+    Downstream selection/specification of the respect under which an already available or
+    instantiated informational state is evaluated for a determinate claim. S is not a co-primitive,
+    does not mediate I_infinity into actualizability at the hard-core level, and does not supply
+    representability, coherence, or actuality. It fixes the subject/predicate/observable/context
+    question for downstream resolution or fact-statement and does not by itself select or entail
+    an answer. S must not be defined as conscious choice.
   L3: >
     Identity, Non-Contradiction, and Excluded Middle as necessary constraints on determinate facts
     under fixed subject, predicate, time/condition, and respect. Investigate whether and how L3
@@ -54,7 +57,9 @@ working_principles:
     represented within that state being actualized as a definite fact.
   - Physical instantiation and determinate value actualization are distinct candidate ontological
     categories.
-  - Question-selection and value/outcome-selection must remain distinct.
+  - Selection is downstream of the L3-I_infinity-A hard core and must not be promoted into the
+    primitive architecture.
+  - Question-selection and value/outcome-selection must remain distinct downstream operations.
   - The respect relevant to L3 is fixed before evaluation and may not be redefined after a proposed
     counterexample.
   - Superposition must not be paraphrased as P and not-P being simultaneously true as definite
@@ -65,8 +70,9 @@ working_principles:
 
 candidate_public_shorthand: >
   A state can be physically real without every alternative represented within it being a settled
-  fact. Selection fixes the question; actualization settles a determinate fact; logic constrains
-  the fact under that fixed specification.
+  fact. Downstream selection fixes the respect in which a determinate claim is evaluated;
+  actualization/resolution settles the fact under that specification; logic constrains the
+  determinate fact.
 
 actions:
   - Inventory repository-wide uses of chi, X, actuality, actualization, A, selection, resolution,
@@ -82,9 +88,10 @@ actions:
   - Build a quantum stress case using a prepared superposition while remaining interpretation-neutral
     about collapse, Everettian branching, Bohmian dynamics, relational accounts, and other live
     interpretations.
-  - Test whether the proposed S operation is ontologically primitive, a typed specification
-    relation within I, a role of A, or merely semantic bookkeeping. Do not promote S to a fourth
-    primitive without an irreducibility argument.
+  - Type S explicitly as downstream. Determine whether it is a specification relation over an
+    instantiated/available informational state, a downstream role associated with A, or semantic
+    bookkeeping at the fact-resolution layer. Do not treat S as a fourth primitive or as an
+    upstream condition of representability/actualizability.
   - Test the relation between L3, bivalence, definite-value realism, contextuality, and determinate
     recorded outcomes. Do not claim quantum mechanics proves classical bivalence for all
     pre-measurement observables.
