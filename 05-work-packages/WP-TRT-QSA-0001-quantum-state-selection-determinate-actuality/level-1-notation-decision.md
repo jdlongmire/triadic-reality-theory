@@ -42,7 +42,7 @@ $$\operatorname{Inst}(\sigma)$$
 
 to mean that σ is physically instantiated as a state. This is a predicate, not an independent instantiation engine.
 
-A physically instantiated state is actual as a state. It need not be a determinate value/fact under every representable predicate.
+A physically instantiated state is determinate actuality under its state specification q_σ. It need not be a determinate value/fact under a different observable specification q.
 
 ## 4. Bounded claim / respect
 
@@ -84,11 +84,7 @@ $$\chi_q$$
 
 for determinate actuality under fixed q.
 
-χ_q is narrower than bare Level 0 χ. At Level 1:
-
-$$\operatorname{Inst}(\sigma)\not\equiv\chi_q.$$
-
-A physically instantiated state may exist without every represented alternative being settled as a determinate fact.
+χ_q is narrower than bare Level 0 χ. At Level 1, for the state claim q_σ, warranted physical instantiation supports χ_{q_σ}. For a distinct observable/value claim q, Inst(σ) does not entail χ_q. A physically instantiated state may therefore be determinate as state while under-determinate relative to another q.
 
 ## 8. Actual domain
 
