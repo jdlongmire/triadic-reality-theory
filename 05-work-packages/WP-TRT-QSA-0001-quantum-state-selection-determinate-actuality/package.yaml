@@ -29,6 +29,70 @@ problem_statement: >
   downstream roles of primitive Action without multiplying coequal operators or equivocating among
   state-instantiation, specification of a respect, and determinate fact actuality.
 
+
+compact_canon:
+  status: locked
+  expression: "chi ≡ A(I | L)"
+  level: "Level 0 — compact TRT/LIA"
+  reading: >
+    Logic constrains. Information is the representable content. Action actualizes. Chi is the
+    determinate result. The compact expression is retained as canonical shorthand and is not
+    superseded by the typed expansion.
+  bar_semantics: >
+    The bar in A(I | L) denotes constraint, not chronology and not a transition from unreal
+    information to real information. Read: Action acts on I as constrained by L.
+  obligation: >
+    Every use of the compact equation licenses the Level 0 reading. Whenever chi, actuality,
+    measurement, quantum state-instantiation, determinate outcomes, or MWI is materially at stake,
+    the Level 1 typed architecture must be used to prevent category collapse.
+
+typed_expansion:
+  level: "Level 1 — typed architecture"
+  candidate_result: >
+    chi_q = Settled(alpha,q,L3), subject to final notation audit. This expands the compact equation;
+    it does not replace it.
+  primitive: >
+    alpha : Act is an occurrence of the single primitive Action role.
+  information_domain: >
+    I contains/unfolds to unbounded representable differentiation I_infinity and particular
+    structures sigma in I_infinity. Particular sigma may be physically instantiated.
+  instantiation: >
+    Inst(sigma) denotes physical instantiation where applicable. Inst(sigma) is not thereby chi_q.
+  specification: >
+    When Spec(alpha,sigma) holds, the action occurrence acquires the derived specification role and
+    fixes q = S(alpha,sigma). S is partial and derived, never a co-primitive.
+  settlement: >
+    When Settled(alpha,q) holds, the specified claim is settled as determinate actuality chi_q.
+    Settlement is a derived role/result of primitive Action.
+  logic: >
+    L is the compact constraint structure. At the determinate-fact layer, L3 is the explicit
+    Identity/Non-Contradiction/Excluded-Middle constraint on chi_q. This package does not yet claim
+    that L3 has no constraint role elsewhere; broader L/L3 typing remains subject to CORE-0001
+    reconciliation.
+  chi_type_lock: >
+    In the typed expansion, chi_q denotes determinate actuality under a specification. Do not use
+    chi_q for actuality simpliciter or merely physically instantiated state information.
+
+original_compressions:
+  action_overload: >
+    The compact A had been asked to carry primitive state-change, derived specification, and
+    determinate settling. Level 1 separates these as primitive occurrence plus derived roles while
+    preserving A at Level 0.
+  chi_overload: >
+    Chi had been used for actuality simpliciter, physically instantiated state, total actual
+    domain/result, and determinate fact. Level 1 locks chi_q to determinate actuality under q while
+    the audit determines how historical/domain-level chi usages should be annotated.
+
+mapping:
+  L: "constraint structure; explicitly L3 at the determinate-fact layer"
+  I: "representable/differentiated content; I_infinity with particular sigma that may be instantiated"
+  A: "primitive Action; an occurrence alpha may acquire specification and settling roles"
+  chi: "determinate actuality/result under a specified claim in the typed expansion"
+
+refined_proverb: >
+  Logic constrains. Information is representable, and sometimes instantiated. Action actualizes.
+  Specification is what action is doing when it bounds a respect. Chi is the determinate result.
+
 canonical_constraint:
   primitive_action: >
     Keep one fundamental occurrence-type: Action. Use alpha as a candidate occurrence variable
@@ -165,6 +229,10 @@ verification: >
   rewritten.
 
 disposition: >
-  OPEN. Revised to treat specification/selection and determinate settling as downstream derived
-  roles/results of primitive Action. No selection co-primitive is proposed. No canonical symbol
-  redefinition is authorized until the audit and notation decision are complete.
+  OPEN. The original compact equation chi ≡ A(I | L) is LOCKED as Level 0 canonical TRT/LIA
+  shorthand. This package refines rather than abandons it. Level 1 types unpack the compression:
+  one primitive Action occurrence alpha; unbounded representable I_infinity with optional physical
+  instantiation of particular sigma; downstream derived specification fixing q; downstream
+  settlement yielding determinate chi_q; and L3 explicitly constraining the determinate fact.
+  No canonical symbol redefinition outside this typed expansion is authorized until the collision
+  audit and notation decision are complete.
