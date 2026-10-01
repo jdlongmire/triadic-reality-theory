@@ -1,0 +1,54 @@
+id: WP-TRT-IIA-AI-0001
+title: Test IIA information-to-truth transitions using engineered AI receivers
+status: in_progress
+commitment: stretch
+parent: WP-TRT-IIA-0001
+scope: >
+  Establish an empirical research programme using contemporary AI systems as
+  engineered receivers to test distinctions among statistical recoverability,
+  representation, grounding, truth tracking, verification, and warranted output.
+  The programme operationalizes the IIA typing discipline I_S != C != T != K
+  without assuming that IIA's rational-ground hypothesis is true.
+
+  The primary experimental question is which controlled interventions improve
+  external truth tracking while holding as much model capability and task content
+  constant as practical. Candidate interventions include retrieval grounding,
+  source citation, structured verification, independent verifier passes,
+  tool-mediated observation, and abstention/calibration mechanisms.
+
+  Hallucination is treated as an observable boundary condition in which statistical
+  or linguistic coherence can diverge from external correctness.
+
+  Out of scope: treating LLM output as proof of consciousness or understanding;
+  claiming that machines possess human-like intentionality; using AI performance
+  to prove theism; claiming that statistical information entails semantics;
+  benchmarking proprietary systems without reproducible records; external
+  publication without separate approval.
+authority_boundary: >
+  Work may proceed without re-asking for protocol design, benchmark selection,
+  metric definition, test-fixture construction, synthetic control data, experiment
+  scripts, internal runs on available models/tools, analysis, red-team review, and
+  internal documentation. Any paid external API expenditure, human-subject study,
+  publication, or public originality claim requires separate approval.
+actions:
+  - Define operational proxies for I_S, representation quality, grounding, truth tracking, calibration, abstention, and warranted output.
+  - Construct paired tasks where fluent statistical completion can be separated from externally verifiable correctness.
+  - Establish a no-grounding baseline.
+  - Add retrieval grounding while preserving the underlying question set.
+  - Add source-constrained answering and citation entailment checks.
+  - Add independent verification and correction passes.
+  - Add tool-mediated observation for tasks with machine-checkable external state.
+  - Measure factual accuracy, unsupported-claim rate, citation entailment, calibration, abstention quality, and correction gain.
+  - Test whether improvements in statistical confidence correlate with or diverge from improvements in truth.
+  - Document failure modes where greater fluency/coherence does not improve external correctness.
+  - Determine which IIA layer distinctions receive operational support and which remain philosophical rather than experimentally discriminated.
+verification: >
+  Completion requires a preregistered protocol, fixed task sets or reproducible
+  generators, intervention definitions, metrics, run manifests, raw results,
+  analysis scripts, and a final report separating empirical findings from
+  metaphysical interpretation. At least one negative-control condition must show
+  whether superficial coherence can improve without improved truth tracking.
+disposition: >
+  OPEN 2026-10-01. This package follows IIA v1.0 and the AI engineering-instantiation
+  note. It is designed to test typed distinctions in engineered receivers, not to
+  confirm the rational-ground hypothesis.
