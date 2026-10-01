@@ -23,6 +23,14 @@ jobs:
       - run: pip install pyyaml
       - name: Validate claims + check dependency graph is acyclic
         run: python3 traceability/scripts/build.py
+      - name: Protocol 001 deterministic pilot tests
+        working-directory: 05-work-packages/WP-TRT-IIA-AI-0001-engineered-receiver-protocol/pilot
+        run: python3 test_pilot.py
+      - name: Protocol 001 model-runner adapter smoke test
+        working-directory: 05-work-packages/WP-TRT-IIA-AI-0001-engineered-receiver-protocol/model-pilot
+        run: |
+          python3 model_runner.py --tasks ../pilot/tasks.json --receiver python3 receiver_adapter_example.py --model-id noop --out /tmp/iia-model-smoke
+          test "$(($(wc -l < /tmp/iia-model-smoke/runs.csv)-1))" -eq 48
       - name: Generated reports must be fresh (no stale commits)
         run: |
           if ! git diff --quiet traceability/generated; then
