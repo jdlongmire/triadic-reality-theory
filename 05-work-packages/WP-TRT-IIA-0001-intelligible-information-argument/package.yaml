@@ -1,0 +1,66 @@
+id: WP-TRT-IIA-0001
+title: Formalize and adversarially evaluate the Intelligible Information Argument
+status: in_progress
+commitment: stretch
+scope: >
+  Develop the Intelligible Information Argument (IIA) as a standalone abductive
+  argument concerning the correspondence among mind-independent intelligible
+  structure, recoverable information, and rational receivers capable of acquiring
+  truth-bearing knowledge. Determine whether the proposed source/channel/receiver
+  framing contributes a genuinely distinct argument or is principally a reformulation
+  of established arguments from cosmic intelligibility, the unreasonable effectiveness
+  of mathematics, semantic information, or philosophy of mind.
+
+  The package must sharply distinguish Shannon information from semantic information,
+  and must not claim that Shannon theory itself entails semantics, a conscious
+  transmitter, or God. TX/RX language is heuristic unless and until a formal mapping
+  is justified. The target explanandum is the joint correspondence: reality exhibits
+  recoverable rational structure and finite minds can apprehend that structure as
+  meaningful, truth-apt knowledge.
+
+  IIA may interface with TRT and LRT, but it must remain independently assessable.
+  TRT/LRT primitives may not be imported as premises merely to secure the conclusion.
+  Theistic conclusions must be graded according to actual inferential reach:
+  prior rational ground, prior mind, necessary mind, and specifically Christian
+  theism are separate claims requiring separate bridges.
+
+  Out of scope: claiming originality before a documented priority search; treating
+  complexity or emergence as self-explanatory; treating correlation as semantics;
+  presenting a design inference as deductive proof; publication or external
+  submission without separate approval.
+authority_boundary: >
+  Work may proceed without re-asking for literature discovery, primary-source
+  retrieval, argument reconstruction, formal premise/conclusion development,
+  comparison with adjacent arguments, red-team objections, defeater analysis,
+  terminology refinement, internal research notes, and proposed corpus placement.
+  This approval does not authorize external publication, priority/originality claims,
+  DOI registration, or promotion of the argument beyond the confidence supported by
+  the completed audit.
+actions:
+  - Establish a primary-source priority ledger covering Shannon, Weaver, Wigner, Polkinghorne, Plantinga, Floridi, Dretske, Bar-Hillel/Carnap, and relevant contemporary philosophy-of-information literature.
+  - Search explicitly for prior arguments combining source structure, recoverability, semantic truth, receiver adequacy, and theological inference.
+  - Define IIA terms: intelligibility, information, Shannon information, semantic information, source/TX, channel, receiver/RX, truth-aptness, intentionality, rational normativity, and causal/explanatory adequacy.
+  - Formalize a minimal abductive IIA without presupposing TRT, LRT, physicalism, idealism, or theism.
+  - Separate empirical premises, metaphysical premises, bridge principles, and abductive criteria.
+  - Specify exactly where Shannon's mathematical theory applies and where the argument crosses into semantics and epistemology.
+  - Compare IIA against Wigner's mathematical-effectiveness problem and Polkinghorne's reason-within/reason-without argument; identify overlap and residual novelty.
+  - Compare IIA against Plantinga-style evolutionary epistemology and arguments from reason without conflating reliability with semantic recoverability.
+  - Test naturalistic alternatives including structural realism, evolutionary reliabilism, teleosemantics, emergentism, computational functionalism, and brute-fact accounts.
+  - Red-team the TX/RX analogy for illicit sender assumptions, equivocation on information, anthropomorphism, selection effects, circularity, and God-of-the-gaps reasoning.
+  - Determine the strongest warranted conclusion and explicitly document conclusions not established.
+  - Produce a disposition: DISTINCT_ARGUMENT, DISTINCT_SYNTHESIS, REFORMULATION, or FAILS.
+verification: >
+  Completion requires a cited priority ledger, terminology specification, formal
+  argument map, Shannon/semantic boundary analysis, comparison matrix against the
+  nearest antecedents, at least one serious naturalistic steelman per major premise,
+  a defeater ledger, and a final novelty/inferential-scope disposition. Primary
+  sources must be preferred; secondary sources may orient discovery but cannot alone
+  establish priority where primary material is accessible.
+disposition: >
+  OPEN 2026-10-01. Initial search finds strong antecedents for mathematical
+  intelligibility and the fit between human reason and external rational order,
+  especially Wigner and Polkinghorne, plus a mature literature distinguishing
+  Shannon/syntactic information from semantic information. No located source in the
+  initial search has yet been shown to formulate the exact IIA synthesis as a
+  source/recoverability/semantic-truth/receiver-adequacy abductive argument.
+  Originality is therefore UNESTABLISHED pending the priority audit.
