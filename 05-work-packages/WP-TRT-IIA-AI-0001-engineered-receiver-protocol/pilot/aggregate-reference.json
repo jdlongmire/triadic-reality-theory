@@ -1,0 +1,8 @@
+{
+  "C0":{"n":8,"factual_accuracy":0.6666666666666666,"overall_correctness":0.75,"abstention_recall":1.0,"citation_entailment_rate":null,"contradicted_claims":0},
+  "C1":{"n":8,"factual_accuracy":1.0,"overall_correctness":1.0,"abstention_recall":1.0,"citation_entailment_rate":1.0,"contradicted_claims":0},
+  "C2":{"n":8,"factual_accuracy":1.0,"overall_correctness":1.0,"abstention_recall":1.0,"citation_entailment_rate":1.0,"contradicted_claims":0},
+  "C3":{"n":8,"factual_accuracy":1.0,"overall_correctness":1.0,"abstention_recall":1.0,"citation_entailment_rate":1.0,"contradicted_claims":0},
+  "C4":{"n":8,"factual_accuracy":1.0,"overall_correctness":1.0,"abstention_recall":1.0,"citation_entailment_rate":1.0,"contradicted_claims":0},
+  "C5":{"n":8,"factual_accuracy":0.6666666666666666,"overall_correctness":0.75,"abstention_recall":1.0,"citation_entailment_rate":null,"contradicted_claims":0}
+}
