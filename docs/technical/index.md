@@ -58,6 +58,10 @@ without encoding the converse. Primitive `A` is separately typed from `Obtains`.
 - Formalize non-temporal transition ordering sufficiently for any emergence-of-time claim.
 - Continue empirical FLL work without converting transcendental warrant into empirical confirmation by stipulation.
 
+## Worked modal discriminator
+
+[Gödel, general relativity, and the gap between possibility and actuality]({{ '/technical/godel-modal-discriminator/' | relative_url }}) uses Gödel's 1949 exact GR solution to distinguish theory-relative admissibility from TRT actualizability and actuality. The governing result is $\mathrm{Adm}_T(x)\nRightarrow\mathrm{Obtains}(x)$ absent an additional bridge principle.
+
 ## Physics-facing programme
 
 Measurement, variational, gravity, cosmology, and FLL work belongs downstream of the ontology and may fail without redefining the co-primitives.
