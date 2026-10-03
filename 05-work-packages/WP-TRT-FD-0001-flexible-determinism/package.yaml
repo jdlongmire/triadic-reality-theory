@@ -135,3 +135,27 @@ initial_assessment: >
 disposition: >
   OPEN. Treat as a candidate TRT thesis, not a canonical result. First gate: definitions,
   Bell/Born primary-source reconstruction, and the non-redundancy test for Action.
+
+
+gate_01_04_result:
+  date: 2026-10-03
+  definitions: >
+    RENAME recommended at canonicalization: retain flexible determinism as the originating
+    heuristic but use constrained actualization as the technically preferred thesis unless a
+    defensible nonstandard definition of determinism is established.
+  bell_born: >
+    PASS WITH QUALIFICATION. Bell-type results constrain local hidden-variable/local-realist
+    completions under their assumptions. Probabilistic prediction does not alone establish
+    unrestricted ontological randomness.
+  interpretation_stress_test: >
+    QUALIFY. Bohmian mechanics blocks an inference from Bell to unrestricted indeterminism;
+    Everett challenges unique-outcome actualization; objective-collapse models are the nearest
+    structural competitor to primitive stochastic actualization.
+  action_nonredundancy: >
+    PASS PROVISIONALLY. Eliminating A tends to relocate actuality into I, add an unexplained
+    entailment-to-existence bridge to L, or assign the actualizing role to physical dynamics
+    under another name. The remaining burden is to establish that adequate dynamics
+    presupposes instantiation/obtaining rather than reducing it.
+  next_gate: >
+    Formalize and adversarially test an Actuality Gap Argument centered on the proposition
+    that complete representability/admissibility is not identical to obtaining.
