@@ -159,3 +159,31 @@ gate_01_04_result:
   next_gate: >
     Formalize and adversarially test an Actuality Gap Argument centered on the proposition
     that complete representability/admissibility is not identical to obtaining.
+
+
+actuality_gap_gate:
+  date: 2026-10-03
+  disposition: QUALIFIED_PROMOTION_RECOMMENDED
+  principle: >
+    For any representationally complete specification R of a state s, representational
+    completeness alone does not entail that s obtains. Likewise, admissibility under L is not
+    identical to actuality.
+  result: >
+    Adversarial tests against Humean best-system ontology, dispositional essentialism,
+    necessitarianism, primitive governing laws/dynamics, block ontology, Bohmian dynamics,
+    Everettian unitary evolution, and reductive physicalism did not eliminate the
+    actuality/instantiation role. Several rivals relocate that role into primitive facts,
+    governing law, manifestation, dynamics, or an instantiated universal history.
+  correction: >
+    The result supports A as an irreducible ontological role/category. It does not yet support
+    A as a numerically distinct substance, field, force, or event.
+  quantum_correction: >
+    Remove the unique-outcome clause from the TRT hard core. A must remain neutral between
+    deterministic and stochastic physics and between single-outcome and Everett-type
+    interpretations.
+  terminology: >
+    RENAME flexible determinism. Preferred research term: constrained actualization.
+  next_gate: >
+    Formalize pairwise role irreducibility for L, I, and A and test whether any two canonical
+    roles can define the third without importing a bridge premise that performs the allegedly
+    reduced role.
