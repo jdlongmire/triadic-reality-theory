@@ -187,3 +187,31 @@ actuality_gap_gate:
     Formalize pairwise role irreducibility for L, I, and A and test whether any two canonical
     roles can define the third without importing a bridge premise that performs the allegedly
     reduced role.
+
+
+pairwise_irreducibility_gate:
+  date: 2026-10-03
+  disposition: QUALIFIED_PASS
+  thesis_name: LIA Role-Irreducibility Thesis (LIA-RIT)
+  compact_result: >
+    Constraint plus specification is not definitionally sufficient for instantiation;
+    constraint plus instantiation is not definitionally sufficient for determinate
+    specification; specification plus instantiation is not definitionally sufficient for
+    constraint/consequence.
+  bridge_lemma: >
+    If a proposed reduction requires a bridge premise that performs the canonical role of the
+    allegedly reduced primitive, the reduction relocates the role rather than eliminates it.
+  proof_status: >
+    Structured philosophical argument, not yet a theorem in a formal calculus. Do not label
+    LIA-RIT a proved theorem until canonical roles and reduction are formalized.
+  confidence: >
+    Provisional-high for A and L role irreducibility; provisional-medium for I because rich
+    structuralist individuation remains a serious pressure point.
+  strongest_objection: >
+    Role carving: the triad may appear irreducible because its canonical definitions were
+    stipulated to partition explanatory work. Independent adequacy and alternative-basis tests
+    are required.
+  next_gate: >
+    Run an anti-gerrymandering and alternative-basis test to determine whether L-I-A is a
+    minimal, non-arbitrary ontological basis rather than merely an irreducible decomposition
+    under its own definitions.
