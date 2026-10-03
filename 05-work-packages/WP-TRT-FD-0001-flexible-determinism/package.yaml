@@ -1,0 +1,137 @@
+id: WP-TRT-FD-0001
+title: Flexible Determinism and Constrained Actualization
+status: proposed
+commitment: core-research
+
+scope: >
+  Formalize and pressure-test "flexible determinism" as a candidate TRT account of
+  probabilistic physical actualization. The thesis is that the admissible possibility space
+  and its probability structure may be lawfully determined even where the immediately prior
+  physical state does not uniquely specify the realized outcome. The package must distinguish
+  deterministic constraint, stochastic prediction, ontological indeterminacy, epistemic
+  uncertainty, and primitive actualization.
+
+candidate_thesis: >
+  Reality may be determinate with respect to admissibility and lawful probability without
+  requiring unique state-to-state physical determinism. Given Logic L, representable
+  Information I, and primitive Action A, multiple outcomes may be admissible while exactly one
+  becomes actual. "Flexible determinism" names this constrained-actualization thesis. It does
+  not mean that quantum outcomes have been shown to possess hidden local causes.
+
+candidate_formalization: |
+  Let S be a physical preparation state and M a measurement context.
+
+  Adm_L(S,M) = {I_1, I_2, ..., I_n}
+
+  with probability measure mu_L,S,M over Adm_L(S,M), where
+
+      sum_k mu(I_k) = 1.
+
+  Actualization is:
+
+      chi_k = A(I_k | L, S, M)
+
+  for exactly one admissible I_k per realized event.
+
+  Flexible determinism therefore requires:
+
+      (1) constrained possibility:
+          chi notin Adm_L(S,M) => P(chi | S,M,L) = 0
+
+      (2) lawful distribution:
+          P(chi_k | S,M,L) = mu_L,S,M(I_k)
+
+      (3) determinate actuality:
+          after actualization, exactly one chi_k is actual
+
+      (4) non-collapse of Action:
+          L + I + prior physical state need not entail a unique chi_k
+
+  For vertical polarization measured at 45 degrees:
+
+      P(pass) = cos^2(45 degrees) = 1/2
+      P(block) = 1/2
+
+  The 1/2 distribution is a lawful constraint. It is not, by itself, a proof that the
+  individual actualization is metaphysically causeless or ontologically brute.
+
+critical_distinctions:
+  - "Probabilistic prediction does not by itself establish metaphysical randomness."
+  - "Bell-type results constrain local hidden-variable models; they do not prove the unrestricted proposition that no hidden variables exist."
+  - "Bohmian mechanics remains a counterexample to the unrestricted no-hidden-variables claim because it is deterministic and explicitly nonlocal."
+  - "Flexible determinism must not be presented as an empirical refutation of standard quantum mechanics."
+  - "Representability is not actuality; admissibility is not actualization."
+  - "A probability measure constrains outcome frequencies without itself explaining why this event actualizes as this outcome."
+
+trt_relevance:
+  - >
+    Preserve the normalized TRT hard core: Logic, Information, and Action are irreducible
+    co-primitives; chi is an actualized result rather than a fourth primitive.
+  - >
+    Test whether flexible determinism gives Action non-redundant ontological work. If L plus I
+    mechanically entails one unique successor state, determine whether A becomes eliminable or
+    whether it retains an independent role.
+  - >
+    Preserve the existing guardrail that logical coherence is necessary but insufficient for
+    physical actualizability.
+  - >
+    Interface with WP-TRT-ICS-0001: invariant constraint structure may illuminate admissibility
+    on the L/I side while leaving the representation-to-actuality bridge open.
+
+research_questions:
+  - "What minimum definition of determinism is required for the adjective flexible to remain coherent rather than equivocal?"
+  - "Can constrained actualization be stated without covertly importing libertarian agency, divine intervention, collapse ontology, or hidden variables?"
+  - "Does the thesis differ substantively from stochastic-law realism, modal interpretations, propensity accounts, or ordinary indeterministic dynamics?"
+  - "Can TRT recover or accommodate the Born rule without treating the rule as an explanation of individual actualization?"
+  - "Does Bell nonlocality constrain the candidate thesis, or only particular causal completions of it?"
+  - "Would Bohmian mechanics, Everettian quantum mechanics, objective-collapse models, and operational/Copenhagen approaches all remain compatible with the minimal TRT thesis?"
+  - "What observation could discriminate flexible determinism from a mere relabeling of standard quantum probability?"
+
+actions:
+  - "Reconstruct Bell 1964 from the primary paper and distinguish locality, realism/hidden-variable assumptions, statistical independence, and empirical consequences."
+  - "Review primary Bell-test literature sufficient to state what experiments exclude without claiming an unrestricted no-hidden-variables theorem."
+  - "Reconstruct the Born-rule role from primary quantum formalism and separate ensemble prediction from metaphysical interpretation."
+  - "Build an interpretation matrix covering Bohmian, Everettian, objective-collapse, operational/Copenhagen, and TRT flexible determinism."
+  - "Run a no-smuggling audit on every use of cause, determine, random, probability, possibility, admissible, and actual."
+  - "Test the non-redundancy argument for A: attempt to construct a complete L+I account in which A can be eliminated."
+  - "Define at least one prospective discriminator or explicitly conclude that flexible determinism is presently metaphysical interpretation rather than novel physics."
+  - "If the thesis survives, produce a foundational research note and integrate only the minimal defensible formulation into canonical TRT theory surfaces."
+
+falsification_and_failure_conditions:
+  - >
+    Reject or rename flexible determinism if determinism is defined such that unique evolution
+    from a complete prior state is constitutive and the proposed view therefore becomes a
+    contradiction in terms.
+  - >
+    Downgrade the thesis to interpretive vocabulary if it yields no content beyond ordinary
+    stochastic-law realism or modal constraint.
+  - >
+    Reject any claim that Bell experiments prove TRT, prove primitive Action, or prove that
+    individual quantum events are non-random.
+  - >
+    Reject the non-redundancy argument for A if a complete L+I formalization performs the same
+    explanatory role without loss.
+  - >
+    Do not claim derivation of the Born rule unless a formal derivation is actually supplied
+    and independently checked.
+
+verification: >
+  Done requires a primary-source ledger; a definitions note; Bell/Born reconstruction; a
+  quantum-interpretation comparison matrix; an adversarial no-smuggling audit; a formal
+  non-redundancy test for A; explicit falsifiers; and a disposition of PROMOTE, QUALIFY,
+  RENAME, or REJECT. Any promoted claim must pass the repository traceability and formal
+  checks before merge.
+
+initial_assessment: >
+  Flexible determinism is promising as a TRT research label because it preserves lawful,
+  determinate constraint while refusing to infer metaphysical randomness merely from
+  probabilistic prediction. Its main risk is terminological: standard philosophical usage
+  often reserves determinism for unique evolution from a complete prior state. The research
+  package therefore treats the name itself as falsifiable. The substantive candidate thesis
+  is constrained actualization: multiple outcomes may be lawfully admissible, a probability
+  measure may govern them, and Action accounts for the transition from admissibility to one
+  determinate actuality.
+
+disposition: >
+  OPEN. Treat as a candidate TRT thesis, not a canonical result. First gate: definitions,
+  Bell/Born primary-source reconstruction, and the non-redundancy test for Action.
