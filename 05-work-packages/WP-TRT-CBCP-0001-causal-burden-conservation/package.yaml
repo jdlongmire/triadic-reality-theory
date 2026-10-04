@@ -1,0 +1,92 @@
+id: WP-TRT-CBCP-0001
+title: Causal Burden Conservation and Historical Causal Inference
+status: active
+commitment: stretch
+scope: >
+  Develop Causal Burden Conservation Principle (CBCP) as a general methodological interface
+  between TRT's ontology of action/actualization and historical causal inference. Every material
+  causal transition asserted by an explanatory model carries its own evidential burden. Evidence
+  for adjacent transitions, elapsed time, labels such as emergence or design, or deficiencies in
+  competing explanations cannot by themselves discharge that burden. The framework is to remain
+  methodologically general: intelligent design, abiogenesis, cosmology, DFM, archaeology,
+  forensics, and other historical sciences are applications and adversarial test cases, not
+  premises of CBCP.
+authority_boundary: >
+  This package may develop methodological definitions, causal-graph notation, burden-discharge
+  criteria, Bayesian comparison rules, adversarial examples, and a paper draft. It may relate CBCP
+  to TRT's L3/I_infinity/A and R/D/X architecture. It may not claim that CBCP proves intelligent
+  design, naturalism, DFM, or any particular historical attribution; manufacture numerical priors
+  or likelihoods; treat absence of a known mechanism as positive evidence for a competitor; or
+  collapse generative capacity into historical attribution.
+canonical_principles:
+  causal_burden_conservation: >
+    Every material causal transition asserted by an explanatory model carries its own evidential
+    burden. Evidence establishing one transition cannot automatically be borrowed to establish
+    another.
+  causal_adequacy: >
+    A proposed historical explanation must show that its specified causal resources can generate
+    the explanandum under independently warranted initial and boundary conditions. Possibility of
+    component steps is weaker than causal adequacy of an integrated pathway.
+  generative_pathway: >
+    Independently observed generative capacity establishes a causal category as a legitimate
+    candidate where the explanandum belongs to the relevant class of effects. Mind is one observed
+    generative pathway for specified functional outcomes, but generative capacity alone does not
+    establish historical agency.
+  no_gap_substitution: >
+    God, time, chance, emergence, evolution, self-organization, design, or initialization may not
+    substitute as labels for an unresolved causal transition. Naming the gap is not crossing it.
+  attribution: >
+    Causal adequacy is not causal attribution. Historical attribution requires evidence that
+    discriminates among causally adequate candidate pathways.
+  operational_provenance: >
+    Evidence that a lawful system generates an outcome establishes an operational causal relation.
+    It does not without further argument establish the provenance of the laws, initial conditions,
+    boundary conditions, or generative architecture presupposed by that relation.
+formal_seed: >
+  Represent an explanatory history as a directed causal graph G=(V,E), where vertices are
+  evidentially relevant states and each material edge e=(v_i,v_j) asserts a causal transition.
+  CBCP assigns a burden B(e) to each asserted material edge. Support for e_k does not discharge
+  B(e_j) for j != k unless an explicit dependency or derivation warrants that transfer.
+  For sequential exposition: chi_0 --A_1--> chi_1 --A_2--> ... --A_n--> chi_n.
+  Evidence for A_k does not by itself establish A_j.
+burden_discharge_criteria:
+  - Specify the causal resources or agent proposed for the transition.
+  - Specify relevant initial and boundary conditions independently where possible.
+  - Define the reachable state space and show the explanandum is reachable.
+  - Identify mechanism or agency rather than substituting a category label.
+  - State rates, transition probabilities, or opportunity structure where applicable.
+  - Identify viable intermediates where the pathway requires them.
+  - Separate investigator-supplied constraints from those independently evidenced in the target environment.
+  - Distinguish accommodation from independent derivation and prediction.
+  - Identify discriminators among causally adequate alternatives.
+  - Record auxiliary cost, fitting, and post-hoc flexibility.
+  - Preserve unknown likelihoods as unknown rather than inventing numerical precision.
+bayesian_interface: >
+  CBCP constrains Bayesian comparison by requiring the hypotheses to expose the material causal
+  transitions on which their likelihoods depend. P(E|H) may not silently inherit causal adequacy
+  for an unmodeled edge. Dependency structure, auxiliary assumptions, initialization conditions,
+  and post-hoc fitting must be represented before multiplying evidential contributions. Where
+  defensible likelihoods do not exist, use ordinal comparative appraisal and sensitivity analysis
+  rather than false precision.
+adversarial_cases:
+  - Hoyle/Fowler carbon-12 resonance: missing causal adequacy converted into a specific, testable prediction.
+  - Oklo natural reactors: organized functional outcome as a test against naive complexity-to-design attribution.
+  - Abiogenesis experiments: distinguish demonstrated chemistry from investigator-supplied pathway constraints.
+  - Emergent physical systems: distinguish operational emergence from provenance of the lawful generative regime.
+  - Archaeology and forensics: test positive mind-cause attribution and discriminating evidence.
+  - DFM initialization: require DFM to expose its own causal and initialization burdens under the same standard.
+  - Conventional historical reconstruction: prevent elapsed time or consensus status from substituting for a material causal arrow.
+actions:
+  - Formalize CBCP definitions and directed-graph notation.
+  - Map CBCP to TRT's action primitive A without claiming that epistemic burden is itself an ontological primitive.
+  - Build a burden-discharge audit protocol usable across historical sciences.
+  - Develop the Bayesian interface with dependency-aware likelihood accounting.
+  - Run the framework adversarially against both design and non-design explanations.
+  - Draft the paper Causal Burden Conservation: A Symmetric Framework for Historical Causal Inference.
+  - Identify which claims belong in TRT canon versus application-specific repositories.
+  - Cross-reference DFM's Causal Adequacy Burden, Generative Pathway Principle, and No Gap Substitution Principle after the TRT formulation stabilizes.
+verification: >
+  Done requires a coherent formal statement of CBCP, an explicit distinction between ontological
+  action and epistemic warrant, a reusable burden-audit protocol, Bayesian integration without
+  false precision, adversarial application to cases favorable and unfavorable to design inference,
+  and a paper draft whose central argument does not depend on DFM, ID, or theological premises.
