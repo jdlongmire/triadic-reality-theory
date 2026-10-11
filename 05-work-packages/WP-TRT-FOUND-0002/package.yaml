@@ -1,0 +1,36 @@
+id: WP-TRT-FOUND-0002
+title: Ontological necessity, dynamic stability, and quantum reconstruction audit
+status: proposed
+scope: >
+  Evaluate the uploaded Triadic Reality Theory manuscript against canonical TRT v0.10;
+  develop L3 necessity and bivalence, irreducibility of L3/I_infinity/A, and the
+  Dynamic Stability Principle as a candidate refinement. Audit claimed derivations
+  of the action principle, propagator, Schrodinger equation, Born rule, and measurement.
+authority_boundary: >
+  Research-only protective-belt work. Do not revise canonical hard core, assert
+  proofs, alter Lean core, or promote hypotheses to established status without
+  explicit reviewed justification. Preserve historical manuscript provenance.
+canonical_dependencies:
+  - 05-work-packages/WP-TRT-CORE-0001-co-primitive-normalization/package.yaml
+  - 0-program-methods/METHODOLOGY.md
+  - 1-hypothesis/hard-core.md
+research_questions:
+  - Can necessity of each co-primitive be argued without circularity or modal smuggling?
+  - What does ontological bivalence assert without presupposing definite values for all observables?
+  - Can ongoing Action sustain stable configurations while preserving primitive non-temporal transition semantics?
+  - Which mathematical assumptions are imported rather than derived?
+  - What distinguishes a measurement interpretation from a physical collapse theory?
+deliverables:
+  - notebooks/01-necessity-and-irreducibility.md
+  - notebooks/02-L3-bivalence-and-quantum-states.md
+  - notebooks/03-action-and-dynamic-stability.md
+  - notebooks/04-quantum-reconstruction-audit.md
+  - notebooks/05-measurement-and-severe-tests.md
+  - review/adversarial-disposition.md
+acceptance_criteria:
+  - Each claim classified as axiom, theorem, conjecture, interpretation, or open problem
+  - Necessity and sufficiency never conflated
+  - No claimed Born-rule or Schrodinger derivation without complete proof
+  - Canonical Action definition preserved until an approved semantic change
+  - Explicit falsification or failure conditions and traceability links
+  - Repository checks and independent adversarial review before promotion
