@@ -48,3 +48,74 @@ TRT offers a compact candidate ontology for determinate physical reality. Its im
 
 ## Source and verification note
 This is an initial corpus-grounded draft. The accompanying source register contains **unverified primary-source candidates**. Formal external citations, exact quotations and page references are intentionally deferred pending primary-text inspection. The canonical source is TRT v0.10 and the repository hard core. This draft does not assert new physical derivations.
+
+
+## 9. A sharper necessity test: functional roles and ontological commitments
+
+The core challenge can be expressed in modal terms. Let W be the class of metaphysically possible worlds, and let Det(w) mean that w contains determinate actuality. The strong TRT thesis proposes that for every w in W, Det(w) implies the joint obtaining of L3, I∞ and A. A representation theorem showing that every physical model can be redescribed by three formal roles would be weaker: it would show the existence of a mapping from models to a triadic vocabulary, without showing that the mapped roles are irreducible constituents of the worlds described.
+
+The distinction matters because a logical description of a world does not automatically confer ontological status on the logical apparatus. An observer may assign a unique symbol to each object without thereby establishing that the world's objects depend causally upon the symbol system. Likewise, constraints may be indispensable to scientific description while their metaphysical interpretation remains disputed. TRT must therefore defend a bridge premise: the conditions of determinate predication track necessary features of determinate being. The bridge is a metaphysical argument, not a formal consequence of the existence of predication.
+
+### 9.1 Candidate argument for logical constraint
+
+Suppose an actual object a is determinately identifiable. Its identity must remain sufficiently stable for reference to distinguish a from alternatives under the relevant respect. A proposition asserting that a has property P cannot, in the same respect and at the same index of evaluation, both determinately obtain and determinately fail to obtain under classical semantics. This motivates the logical constituent. The objection is immediate: a semantic rule governing our assertions may describe the logic of our representation rather than a metaphysical ingredient of a. The paper's strongest defensible conclusion at this stage is that determinate actuality is *amenable* to identity and non-contradictory predication. The further assertion of ontological L3 is argued, not proven.
+
+Excluded middle requires an additional distinction. The schema P or not-P is not equivalent to the claim that an observer can know which disjunct obtains, or that a quantum measurement has a pre-existing definite value for every conceivable observable. The formal structure of quantum propositions and contextuality debates can therefore challenge simplistic inferences from logical bivalence to pre-measurement value definiteness. A physically motivated L3 thesis must specify its domain of propositions, truth bearers and evaluation conditions.
+
+### 9.2 Candidate argument for informational differentiation
+
+The existence of more than one distinguishable state entails differences, but the existence of one determinate state also entails that it is specifiable as itself. TRT calls this differentiation informational. The terminology must avoid conflating Shannon information, semantic content, thermodynamic entropy, and ontological structure. The information of I∞ is not assumed to be measured in bits, transmitted through a channel, or embodied in a finite memory register. Those are downstream notions.
+
+The step from differentiability to *unbounded* representability is not yet entailed. A world with finitely many states may still be perfectly determinate. TRT can respond that I∞ characterizes the space of *possible representations*, not the cardinality of states physically realized. But a critic may argue that unbounded representation is an attribute of our mathematical language. An independent modal argument is therefore required to show that I∞, rather than some minimal differentiability relation, is necessary to physical actuality.
+
+### 9.3 The block-world countermodel to primitive action
+
+Consider a structure W = (E, ≺, Q), where E is a nonempty set of determinate events, ≺ is an ordering relation, and Q assigns properties to events. Assume the entire structure obtains without a privileged becoming relation or a process that brings one event into existence after another. The world contains distinguishable events and coherent propositions about them. Observers inside it may describe trajectories and transitions, but the ontology may take the whole ordered structure as primitive. Such a model is a direct counterexample candidate to the claim that actuality *requires* fundamental ontic transition.
+
+TRT has three possible responses. It can deny that a block world is metaphysically possible and supply independent reasons. It can show that the ordered relation ≺ itself entails A, although that risks redefining action as any relation between differentiated states. Or it can narrow the thesis: A is necessary for genuinely dynamic actuality, while static actuality requires only L3 and informational differentiation. The third option preserves a significant result but weakens the universal three-co-primitive necessity thesis. None of these choices can be resolved by definition alone.
+
+## 10. Classical and quantum instantiation: an explicit comparison
+
+| Dimension | Classical example | Quantum example | TRT interpretation | Missing bridge |
+|---|---|---|---|---|
+| State | Phase-space point (q,p) | Density operator ρ on Hilbert space | Informational differentiation | Why these state spaces? |
+| Constraints | Boundary conditions, conservation laws | Operator algebra, symmetries, positivity and normalization | Admissibility conditions | Which constraints follow from L3? |
+| Evolution | Hamiltonian flow | Unitary dynamics for closed systems | Downstream action/transition | Derive equations from A |
+| Probabilities | Statistical ensembles, optional stochastic dynamics | Born probabilities for measurement outcomes | Distribution over possible records | Derive quantum measure |
+| Classical records | Stable macroscopic configurations | Environmentally decohered pointer correlations | Outcome-actuality question | Derive unique outcomes and robust records |
+
+The comparison establishes that a shared conceptual decomposition is possible. Its explanatory content remains limited unless it rules out a rival description or recovers a nontrivial result. In particular, classical mechanics does not follow from L3 merely because its propositions are consistent; quantum mechanics does not follow from I∞ merely because its state space contains superpositions.
+
+## 11. Relation to reconstruction programmes and the burden of novelty
+
+Operational reconstructions provide an especially demanding benchmark. Chiribella, D'Ariano and Perinotti (2011) articulate operational principles that lead to quantum theory under specified mathematical assumptions. Their project begins from experimentally meaningful information-processing constraints and derives mathematical structure. TRT starts at a different level, asking what makes such constrained processes metaphysically possible. A bridge theorem would have to connect TRT's primitives to the reconstruction axioms without simply adopting the desired conclusion as a premise.
+
+There are at least three outcomes. TRT might prove a constraint that excludes an otherwise coherent generalized probabilistic theory. It might motivate operational axioms but leave them independent. Or it might remain compatible with many theories, in which case its contribution is ontological interpretation rather than a unique physical reconstruction. The third outcome must be reported as such.
+
+Bell's 1964 argument is a useful negative control. It sharply restricts local hidden-variable completions under its assumptions. It does not, by itself, establish that logic is physically violated or that every measurement outcome is pre-existing. A TRT paper that cites Bell must state which locality, statistical and measurement assumptions are in view before drawing metaphysical conclusions.
+
+## 12. Decoherence, records and actuality
+
+An open quantum system S interacting with an environment E may become entangled with E. When the environment is not observed, the reduced state of S is obtained by tracing over environmental degrees of freedom. In suitable regimes, off-diagonal terms in a preferred basis become strongly suppressed. Zurek's work develops environment-induced superselection and pointer states; Schlosshauer's review situates decoherence within the measurement problem. These primary works justify taking decoherence seriously while leaving the interpretation of definite outcomes contested.
+
+The ontological question is whether a reduced density matrix that is approximately diagonal represents one actual result, an improper mixture, multiple branches, or another physical situation. TRT's vocabulary can label a stable record as outcome-actual. Such labeling alone does not solve the measurement problem. A viable account must specify when and how the outcome obtains, what probabilities apply, and why interference is absent at the relevant observational scale.
+
+The classical limit likewise requires more than a transition from contradiction to consistency. Quantum states are already mathematically well-defined. The limit concerns dynamical stability, coarse graining, suppression of interference, localization, and the applicability of classical equations in a suitable regime. The details vary by system. Any TRT account must specify these physical approximations rather than infer them from a general ontological filter.
+
+## 13. Appraisal and research status
+
+TRT's metaphysical hard core can be argued through transcendental and explanatory reasoning. Its physics-facing auxiliaries face stronger tests. A derivation must identify premises, mathematical rules and the target theorem; a prediction must specify observables, competing expectations and possible refutation. Merely recognizing a known physical structure in triadic terminology counts as interpretation. The current paper therefore does not claim to have derived the Born rule, a quantum measurement dynamics, Hamilton's equations or Einstein's equations.
+
+The highest-risk philosophical obligation is the necessity of A for all actuality. The strongest empirical opportunity is a precise protective-belt model that discriminates between physical outcomes while retaining a traceable connection to the hard core. Both routes may fail. Recording failure is preferable to preserving a universal claim through definitional expansion.
+
+## References: primary-source records inspected at abstract or bibliographic level
+
+Bell, J. S. (1964) 'On the Einstein Podolsky Rosen paradox', *Physics Physique Fizika*, 1, 195–200. https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195.
+
+Chiribella, G., D'Ariano, G. M. and Perinotti, P. (2011) 'Informational derivation of quantum theory', *Physical Review A*, 84, 012311. https://doi.org/10.1103/PhysRevA.84.012311.
+
+Schlosshauer, M. (2005) 'Decoherence, the measurement problem, and interpretations of quantum mechanics', *Reviews of Modern Physics*, 76, 1267–1305. https://doi.org/10.1103/RevModPhys.76.1267.
+
+Zurek, W. H. (2003) 'Decoherence, einselection, and the quantum origins of the classical', *Reviews of Modern Physics*, 75, 715–775. https://doi.org/10.1103/RevModPhys.75.715.
+
+**Provenance:** Direct primary-source publisher/author records and abstracts were consulted. Full-text, page-specific audits remain pending; the references do not imply that such audits have been completed.
