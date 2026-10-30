@@ -1,34 +1,61 @@
-# CM-01: Static actuality countermodel
+# CM-01: Static actuality and the block-universe objection
 
-Status: analytical countermodel, 2026-10-30. Target: WP-TRT-PAPER-0001.
+Status: revised adversarial analysis, 2026-10-30. Target: WP-TRT-PAPER-0001.
 
-## Formal construction
+## Scope correction
 
-Let E = {e0, e1}, P = {e0}, and Q = {e1}. Define M = (E, P, Q). Interpret membership and identity using classical two-valued semantics. The structure is determinate: its elements are identifiable, P and Q distinguish them, and membership claims have definite truth values. Treat M as obtaining as a complete, static structure. No primitive transition or becoming relation is postulated.
+The earlier version presented a two-element static structure as a countermodel to the inference from determinacy to primitive action. That construction remains a legitimate logical independence illustration, **but it is not an adequate model of a physical block universe**. A mathematical structure with no transition predicate cannot establish that a complete physical history has no action. Omission from a chosen signature is not ontological elimination.
 
-The universal TRT necessity thesis has the form: for every possible world w, determinate actuality in w entails L3, I-infinity, and primitive A. M provides a counterexample to the *logical inference* from determinate identity and differentiation to primitive transition, provided static structures are allowed as possible worlds.
+The user objection is therefore sustained in this precise respect: a block universe's lack of privileged temporal becoming does not show that any of TRT's three co-primitives is absent.
 
-## Result and limitation
+## Distinguish four concepts
 
-Within the specified model class, determinacy does not entail primitive transition. The absence of an action symbol from the model does not establish that action is absent in physical reality. Nor does model-theoretic consistency prove metaphysical possibility. A defense of universal necessity therefore needs an independent reason to exclude static actuality.
+- **Becoming:** a privileged metaphysical process in which events come into existence.
+- **Ordered physical history:** a spacetime structure with physically distinct events, relations and trajectories.
+- **Dynamics:** lawful relations among physical states, expressible through field equations, evolution equations, or boundary-value constraints.
+- **TRT A:** fundamental ontological state transition/change, defined without presupposing physical time, force, motion, energy or actuality.
 
-Adding an immutable order e0 precedes e1 does not automatically create ontic becoming. A directed relation can describe ordered differences without being a process of actualization.
+A block universe can reject becoming while retaining an ordered physical history and dynamics. The further identification of those physical structures with irreducible A requires an argument.
 
-## Response options
+## Three-co-primitive assessment
 
-1. Argue independently that static actuality is metaphysically impossible.
-2. Show that ordered differentiation necessarily constitutes primitive action, without collapsing A into informational relations.
-3. Restrict the necessity thesis to genuinely dynamic actuality.
-4. Reinterpret A as grounding the obtaining of a complete structure, which would require an authorized change to its current transition-based definition.
+**L3.** A determinate block admits identity and non-contradictory predication under specified respects. This supports logical intelligibility. The physical scope of excluded middle remains a separate burden.
 
-No option is adopted in this work package.
+**I∞.** A block has distinguishable events, configurations and relations. This supports informational differentiation. It does not independently prove that *unbounded* representability is an ontic primitive.
 
-## Further implication
+**A.** A physical block may include dynamical histories and state differences even when all events are equally real. Its absence of becoming is insufficient to exclude A. Nevertheless, an eternalist may construe those dynamics as relations within a complete static structure rather than an ontologically primitive transition. TRT must explain why a merely relational account fails to exhaust the relevant phenomenon.
 
-The finite model has determinate distinctions without an infinite *actual* state space. This does not directly refute I-infinity as unbounded representability. It requires TRT to explain why indefinite representability is a primitive feature of reality rather than of a mathematical metalanguage.
+## Revised logical test
 
-## Temporal circularity test
+Let M = (E, P, Q) with E = {e0, e1}, P = {e0}, Q = {e1}, classical valuations, and no transition predicate. Then M is a counterexample to the **formal entailment** of a primitive transition predicate from the predicates of identity and differentiation in that sparse signature. It is *not* a counterexample to the metaphysical proposition that every physically actual block requires A. The latter would demand a sufficiently complete physical ontology and a demonstrated elimination of action, rather than an omitted predicate.
 
-Primitive directed transition may encode order without encoding physical duration. Distinguish directed relation, causal order, metric time, and experienced succession. Deriving physical time from an already directed A is potentially defensible; claiming that A contains no ordering whatsoever would require another argument.
+## Stronger rival-ontology burden
 
-Disposition: Logical stress test completed. Metaphysical necessity of A remains OPEN. No change to the canonical hard core.
+A genuine counterexample must:
+1. Define a coherent, physically interpretable world with determinate actuality and physically relevant history or relations.
+2. Specify an independently motivated account of those relations without fundamental A.
+3. Demonstrate that the account is not simply renaming action or smuggling it into its primitives.
+4. Address the ontological status of dynamical laws, constraints and actual physical histories.
+5. Show metaphysical possibility, or at least identify the premises under which the rival is possible.
+
+The same discipline applies to TRT: redescribing physical dynamics as A does not prove irreducibility. Both the elimination argument and the necessity argument bear proof obligations.
+
+## Proposed argument pathway
+
+**P1.** A physically complete block contains determinate, differentiated physical structure.
+
+**P2.** If it contains nontrivial physical histories, it also contains lawful state-to-state relations, whether expressed as evolution or as globally constrained histories.
+
+**P3.** These relations instantiate a distinct ontological transition/change role that cannot be reduced to static structural differentiation alone. **OPEN and contested.**
+
+**C.** Therefore, even an eternalist block requires A. This conclusion is conditional on P3; P1 and P2 alone do not establish it.
+
+P3 is the precise point for subsequent formalization. A productive test is to compare a static relational ontology and an action-primitive ontology for explanatory independence, empirical equivalence, and metaphysical commitments.
+
+## Disposition
+
+- Earlier claim that CM-01 is an adequate *block-universe* countermodel: **WITHDRAWN as overstrong**.
+- CM-01 as a sparse-signature logical independence illustration: **RETAINED, limited**.
+- User's objection that eternalism does not entail absence of A: **ACCEPTED**.
+- Ontological necessity and irreducibility of A in a physical block: **OPEN**.
+- Canonical TRT hard core: **UNCHANGED**.
