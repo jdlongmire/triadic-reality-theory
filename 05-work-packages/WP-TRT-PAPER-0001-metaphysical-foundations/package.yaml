@@ -1,0 +1,84 @@
+id: WP-TRT-PAPER-0001
+title: Triadic Reality Theory as a Metaphysical Foundation for Quantum and Classical Physics
+status: proposed
+commitment: stretch
+created: 2026-10-30
+owner: James D. Longmire
+scope: >
+  Develop an 8,000-12,000 word scholarly philosophy-of-physics paper arguing that
+  L3, I_infinity, and A are candidate necessary metaphysical conditions of
+  determinate physical actuality, and investigate how classical and quantum
+  descriptions instantiate the same ontology. Treat a derivation of the
+  specific mathematical structure of physics as a downstream research horizon.
+canonical_baseline:
+  - README.md
+  - 1-hypothesis/hard-core.md
+  - 1-hypothesis/paper/TRT-v0.10.md
+  - 0-program-methods/METHODOLOGY.md
+  - 2-theory/open-problems.md
+  - traceability/claims/
+related_corpus:
+  - jdlongmire/logic-realism-theory (downstream reconstruction; reconcile historical claims)
+thesis: >
+  Any determinate physical actuality requires ontological logical constraint
+  (L3), informational differentiation (I_infinity), and fundamental
+  non-temporal action (A). This is a candidate necessary-conditions thesis,
+  not a demonstrated derivation of quantum mechanics or classical dynamics.
+research_questions:
+  - What justifies the move from conditions of intelligible representation to ontological necessity?
+  - Can irreducibility of the three co-primitives be defended without circularity?
+  - How do classical state spaces and dynamics instantiate the triad?
+  - How do quantum state spaces, interference, entanglement and measurements instantiate it?
+  - What is the status of decoherence, definite records and the classical limit?
+  - Which additional assumptions would be required to derive Born probabilities or specific dynamics?
+  - What would count against the ontology or its physics-facing auxiliary models?
+constraints:
+  - Preserve typed representable, L3-admissible, actualizable and actual domains.
+  - L3 coherence is necessary for D; sufficiency remains unproved.
+  - Define A as primitive state transition/change without presupposing physical time.
+  - Do not identify primitive A with physical action integrals or assume equivalence.
+  - Distinguish compatibility, interpretation, formal derivation, and empirical prediction.
+  - Do not claim classical outcomes are explained merely by non-contradiction.
+  - Do not infer ontological necessity solely from descriptive success of a formalism.
+  - Never fabricate references, proofs, experiments, or confidence levels.
+deliverables:
+  - A source-to-claim matrix with primary literature and exact provenance.
+  - An argument map of necessity, irreducibility, objections and responses.
+  - An 8,000-12,000 word Markdown manuscript with abstract, definitions, formal propositions and references.
+  - Quantum and classical case studies plus a quantum-to-classical transition analysis.
+  - A claims/proof-obligations appendix cross-referenced to existing OPN identifiers.
+  - An adversarial review and disposition ledger.
+outline:
+  - Ontological problem and scope
+  - Three co-primitives and typed modal architecture
+  - Arguments for necessity and irreducibility
+  - Classical mechanics as a triadic instantiation
+  - Quantum mechanics as a triadic instantiation
+  - Decoherence, measurement and the classical limit
+  - Competing ontologies and explanatory comparison
+  - Limits, falsifiability and future reconstruction
+actions:
+  - Inventory canonical TRT claims and compare earlier TRM/LRT material for supersession.
+  - Retrieve primary references on quantum reconstruction, classical mechanics, decoherence and foundations.
+  - Develop argument and objection matrices before drafting.
+  - Draft with explicit epistemic labels for established, argued, conjectured and open claims.
+  - Review formal consistency, philosophical objections, scientific fidelity and citation provenance.
+  - Reconcile comments, record negative results, and prepare publication-ready manuscript.
+authority_boundary: >
+  Authorizes preparation and review of this proposed WP and subsequent manuscript
+  only upon normal repository governance. Does not authorize changing the TRT hard
+  core, rewriting historical research, promoting open claims to proofs, publishing
+  externally, or merging without review.
+verification:
+  - Canonical vocabulary matches current TRT hard core and v0.10.
+  - Every physics claim distinguishes interpretation from derivation.
+  - All cited works verified against accessible primary sources, with access limitations noted.
+  - All propositions carry proof status and counterarguments.
+  - No unsupported assertion of L3 sufficiency for D or of a complete physics derivation.
+  - Adversarial review completed and open obligations registered.
+  - Repository-required lint, traceability and applicable CI checks pass.
+acceptance: >
+  A coherent, defensible paper presenting TRT as a candidate metaphysical
+  foundation with explicit limits, traceable arguments and a disciplined research
+  horizon; a negative result or narrowed thesis is acceptable if evidenced.
+disposition: Pending execution and review.
