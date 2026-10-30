@@ -25,3 +25,7 @@ Date: 2026-10-30. Status: internal first-pass review; no external peer review.
 3. Separate finite observed information from unbounded *representability*; test whether the latter is necessary.
 4. Give a typed formal semantics for L3-admissibility, D and X without assuming plenitude.
 5. Map quantum reconstructions to required supplementary principles; identify where TRT has no derivation.
+
+## Reassessment 2026-10-30: block-universe objection
+
+ADV-02 revised: CM-01's sparse static structure does not adequately model a physical block universe. The inference from 'no becoming' to 'no A' is invalid. The logical independence illustration remains, but its use as a decisive metaphysical countermodel is withdrawn. **OPEN:** establish or refute the independent premise that physical history relations instantiate irreducible action rather than only static differentiation. ADV-05 and ADV-11 remain OPEN. See `countermodel-CM-01.md` and manuscript section 17. No hard-core change is authorized or made.
