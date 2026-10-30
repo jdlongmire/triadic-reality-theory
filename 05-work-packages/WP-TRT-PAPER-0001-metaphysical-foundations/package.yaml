@@ -1,6 +1,6 @@
 id: WP-TRT-PAPER-0001
 title: Triadic Reality Theory as a Metaphysical Foundation for Quantum and Classical Physics
-status: proposed
+status: in_progress
 commitment: stretch
 created: 2026-10-30
 owner: James D. Longmire
@@ -81,4 +81,9 @@ acceptance: >
   A coherent, defensible paper presenting TRT as a candidate metaphysical
   foundation with explicit limits, traceable arguments and a disciplined research
   horizon; a negative result or narrowed thesis is acceptable if evidenced.
-disposition: Pending execution and review.
+disposition: >
+  IN PROGRESS 2026-10-30. Research plan, initial manuscript (approximately 2,800 words),
+  primary-source verification ledger and adversarial review 01 committed and read-back
+  verified on draft PR #19. The review records unresolved critical necessity arguments.
+  Remaining: full 8,000-12,000-word manuscript, full primary-text audit, formal
+  countermodel evaluation, citations, applicable CI checks and peer review.
