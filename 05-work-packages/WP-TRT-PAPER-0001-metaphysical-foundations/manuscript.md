@@ -119,3 +119,25 @@ Schlosshauer, M. (2005) 'Decoherence, the measurement problem, and interpretatio
 Zurek, W. H. (2003) 'Decoherence, einselection, and the quantum origins of the classical', *Reviews of Modern Physics*, 75, 715–775. https://doi.org/10.1103/RevModPhys.75.715.
 
 **Provenance:** Direct primary-source publisher/author records and abstracts were consulted. Full-text, page-specific audits remain pending; the references do not imply that such audits have been completed.
+
+## 14. The static-world challenge to the necessity of action
+
+The claim that action is necessary for every determinate actuality can be assessed by constructing a static model with two identifiable elements and distinct predicates. Every membership statement receives a definite truth value, and the structure is stipulated to obtain as a whole. There is no transition or becoming relation in the model. Such a model shows that the inference from determinate differentiation to ontic transition is not logically valid under a semantics that admits static actuality.
+
+The result is limited. A coherent mathematical model is not automatically a metaphysically possible world, and omitting an action symbol does not prove that no action exists. Nevertheless, the universal necessity thesis cannot be established solely by pointing to distinguishable states and consistent propositions. TRT must supply an independent reason to exclude static actuality, or else narrow its claim to dynamic worlds.
+
+A static model can also contain an ordering relation. An order relation does not by itself imply a process of becoming. Consequently, the canonical primitive A, described as non-temporal state transition, must distinguish primitive directed order from measured physical time without claiming to have derived the former from nothing. This is the temporal-circularity problem in a precise form.
+
+The countermodel is documented in the accompanying CM-01 research record. It does not revise the canonical hard core. It identifies a live philosophical burden and specifies the alternatives: defend the impossibility of static actuality, prove that ordering necessarily constitutes ontic action, narrow the necessity claim, or revise the meaning of A through separate governance.
+
+## 15. The finite-world challenge to unbounded representability
+
+A finite determinate world need not contain infinitely many actual states. TRT expressly defines I∞ as unbounded representability, so finite physical state counts are not direct counterexamples. The burden instead concerns the relation between representational possibility and ontological dependence. A finite world may be described by an indefinitely extensible mathematical language, yet the extensibility of that language does not establish an infinite ontological constituent of the world.
+
+The argument for I∞ therefore requires a modal bridge: either the world necessarily possesses unbounded informational potential, or determinate actuality depends upon an unbounded domain of possible differentiation. Both claims go beyond the observation that the world can be represented. A formal proof should state its modal system, quantify over relevant possible worlds, and identify the premise that rules out a finite ontology with an extensible metalanguage.
+
+## 16. Revised assessment of the central proposition
+
+The triadic proposal presently supports a conditional structural claim: a physical description of determinate dynamics can distinguish logical constraints, informationally differentiated states, and transitions. The ontological necessity of three independent primitives remains a contested thesis. The distinction is decisive for publication. A reader should be able to reject the metaphysical inference while still recognizing the utility of the typed R, C, D and X distinctions.
+
+The next formal milestone is a non-question-begging argument that the transition role cannot be reduced to relational structure or omitted from a possible static world. The next physics milestone is a mathematical bridge from the primitives to a specified dynamical or probabilistic principle. Until either is achieved, TRT remains a candidate metaphysical foundation with a disciplined programme of unresolved proof obligations.
