@@ -13,7 +13,7 @@ $$q_\psi := \text{“the system is in state }\psi\text{.”}$$
 
 Then QSA permits:
 
-$$\operatorname{Inst}(\psi)\Rightarrow\chi_{q_\psi}.$$
+$$\mathrm{Inst}(\psi)\Rightarrow\chi_{q_\psi}.$$
 
 For a distinct observable/value claim q, the same state may satisfy:
 
@@ -29,7 +29,7 @@ Before outcome settlement, ψ may be determinate under q_ψ while an observable 
 
 A measurement/collapse model may then warrant:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q).$$
+$$\mathrm{Settled}(\alpha,q,\chi_q).$$
 
 Nothing requires ψ itself to have been unreal or logically indeterminate.
 
@@ -41,7 +41,7 @@ A decohering interaction can transform the physically instantiated state while t
 
 Where warranted, the interaction may also establish:
 
-$$\operatorname{Spec}(\alpha,\psi,q).$$
+$$\mathrm{Spec}(\alpha,\psi,q).$$
 
 But decoherence alone does not definitionally imply a unique:
 

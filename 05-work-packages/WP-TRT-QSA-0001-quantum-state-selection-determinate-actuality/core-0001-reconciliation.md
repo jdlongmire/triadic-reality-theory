@@ -21,7 +21,7 @@ The CORE-0001 architecture survives with a typing clarification.
 
 For any represented candidate x at the specification under which x is being proposed:
 
-$$x\in D\Rightarrow \operatorname{Adm}_{L_3}(x).$$
+$$x\in D\Rightarrow \mathrm{Adm}_{L_3}(x).$$
 
 This means an actualizable candidate cannot require a genuine logical contradiction in the claim that constitutes that candidate.
 
@@ -59,7 +59,7 @@ Contradiction-encoding informational content may be representable in R without b
 
 Therefore the CORE-0001 distinction remains meaningful:
 
-$$R\supsetneq \operatorname{Adm}_{L_3}.$$
+$$R\supsetneq \mathrm{Adm}_{L_3}.$$
 
 QSA does not collapse R into D or X.
 
@@ -67,7 +67,7 @@ QSA does not collapse R into D or X.
 
 CORE-0001 already refuses:
 
-$$\operatorname{Adm}_{L_3}(x)\Rightarrow x\in D.$$
+$$\mathrm{Adm}_{L_3}(x)\Rightarrow x\in D.$$
 
 QSA preserves that refusal.
 
