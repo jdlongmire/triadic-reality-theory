@@ -189,8 +189,7 @@ It must be read through the typed architecture:
 **Equation (6)**
 
 $$
-R\xrightarrow{ L_3 \text{necessary filter} }D
-\xrightarrow{ A }X (\chi).
+R \longrightarrow D \longrightarrow X(\chi)
 $$
 
 In Equation (6), the first arrow denotes application of $L_3$ as a **necessary filter**, and the second denotes the role of $A$ in transition. Here $R$ is representable content, $D$ the actualizable domain, and $X$ what obtains. TRT asserts $D\subseteq R$ and $x\in D\Rightarrow\mathrm{Adm}_{L_3}(x)$. It does **not** assert that logical coherence alone is sufficient for actualizability.
