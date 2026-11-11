@@ -43,7 +43,7 @@ That condition is named **Capacity**, described as the irreducible condition fro
 **Equation (1)**
 
 $$
-\mathrm{Capacity}\;\vdash\;\mathrm{Distinction}\;\vdash\;\mathrm{Binding}\;\vdash\;\mathrm{Propagation}\;\vdash\;\mathrm{Relation}
+\mathrm{Capacity} \vdash \mathrm{Distinction} \vdash \mathrm{Binding} \vdash \mathrm{Propagation} \vdash \mathrm{Relation}
 $$
 
 The article explicitly labels this sequence *expository*, not the formal kernel (Research Section 06). It defines ontological closure as accounting for all independent conditions necessary for configurational realizability and admissible transformation in one deductively connected structure (Research Section 05). Domain mapping then supplies measured entities, constraints, and evidence; runtime qualification separates a proposed candidate from permission to execute and from a subsequently observed outcome (Research Sections 07–11).
@@ -189,11 +189,11 @@ It must be read through the typed architecture:
 **Equation (6)**
 
 $$
-R\xrightarrow{\;L_3\;\text{necessary filter}\;}D
-\xrightarrow{\;A\;}X\;(\chi).
+R\xrightarrow{ L_3 \text{necessary filter} }D
+\xrightarrow{ A }X (\chi).
 $$
 
-Here $R$ is representable content, $D$ the actualizable domain, and $X$ what obtains. TRT asserts $D\subseteq R$ and $x\in D\Rightarrow\operatorname{Adm}_{L_3}(x)$. It does **not** assert that logical coherence alone is sufficient for actualizability.
+In Equation (6), the first arrow denotes application of $L_3$ as a **necessary filter**, and the second denotes the role of $A$ in transition. Here $R$ is representable content, $D$ the actualizable domain, and $X$ what obtains. TRT asserts $D\subseteq R$ and $x\in D\Rightarrow\mathrm{Adm}_{L_3}(x)$. It does **not** assert that logical coherence alone is sufficient for actualizability.
 
 The two programmes converge in their concern for distinction, admissibility, actuality, and the inadequacy of treating mathematical representation as physical existence. They diverge at the point of foundational reduction. Strüver seeks a single sufficient Capacity; TRT argues that constraints, informational differentiation, and transition are mutually necessary and irreducible.
 
