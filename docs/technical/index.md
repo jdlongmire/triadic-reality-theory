@@ -66,6 +66,10 @@ without encoding the converse. Primitive `A` is separately typed from `Obtains`.
 
 Measurement, variational, gravity, cosmology, and FLL work belongs downstream of the ontology and may fail without redefining the co-primitives.
 
+## Critical research and external reviews
+
+[Capacity, Action, and the Limits of Ontological Closure: A Critical Examination of Strüver's *Science of Stability*]({{ '/research/struever-capacity-action-ontological-closure/' | relative_url }}) is a formal review of monoprimitive Capacity, the transition-entailment problem, and claims of ontological closure. It includes an adversarial comparison with TRT and links to the source and findings register.
+
 ## Canonical sources
 
 [Hard core](https://github.com/jdlongmire/triadic-reality-theory/blob/main/1-hypothesis/hard-core.md) · [TRT v0.10](https://github.com/jdlongmire/triadic-reality-theory/blob/main/1-hypothesis/paper/TRT-v0.10.md) · [Lean core](https://github.com/jdlongmire/triadic-reality-theory/blob/main/formalization/TrtFormalization/Core/Primitives.lean) · [Traceability](https://github.com/jdlongmire/triadic-reality-theory/tree/main/traceability)
