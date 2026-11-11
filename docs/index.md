@@ -37,6 +37,10 @@ Here $R$ is representable content, $D$ is the actualizable domain, and $X/\chi$ 
 
 <div class="paths"><a class="path" href="{{ '/accessible/' | relative_url }}"><strong>Accessible</strong>Concrete distinctions, constraint, and change. Minimal notation.</a><a class="path" href="{{ '/technical/' | relative_url }}"><strong>Technical & systematic</strong>Definitions, typed architecture, irreducibility, formalization, traceability, physics-facing work, and open burdens.</a></div>
 
+## Featured critical research
+
+[Capacity, Action, and the Limits of Ontological Closure]({{ '/research/struever-capacity-action-ontological-closure/' | relative_url }}) is a formal scholarly examination of Strüver's monoprimitive ontology, its transition-entailment problem, and the evidential requirements for ontological closure.
+
 ## Research status
 
 <span class="status">Candidate foundational ontology</span>
