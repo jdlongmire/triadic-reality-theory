@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Gödel, General Relativity, and the Gap Between Possibility and Actuality"
+permalink: /technical/godel-modal-discriminator/
 description: "A TRT worked case using Gödel's 1949 rotating universe to distinguish representability, logical admissibility, theory-relative admissibility, actualizability, and actuality."
 ---
 <p class="eyebrow">TRT technical worked case · Gödel 1949</p>
