@@ -12,3 +12,11 @@ New reviewers: start at [`REVIEWER-ENTRY-POINT.md`](REVIEWER-ENTRY-POINT.md) —
 |---|---|---|---|
 | 2026-06 | GPT (ChatGPT), external AI | Confirming; no label change; 4 actions (3 done, 1 tracked) | [`2026-06-gpt/`](2026-06-gpt/) |
 | 2026-06 | Grok (xAI), external AI | Categorical recast **declined** as a program; one graft extracted (sheaf-cohomology probe of OPN-002); no label change | [`2026-06-grok/`](2026-06-grok/) |
+
+## Outbound review targets
+
+Works by others, filed as targets for adversarial review from the TRT side (the archive above holds reviews of TRT; a target folder holds the filed text, with the review to follow in the same folder).
+
+| Date | Target | Status | Folder |
+|---|---|---|---|
+| 2026-11 | Strüver, *Science of Stability and Ontological Closure* | Target filed; adversarial review planned | [`2026-11-struever/`](2026-11-struever/) |
