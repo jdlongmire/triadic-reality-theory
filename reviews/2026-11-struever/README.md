@@ -13,8 +13,15 @@
 - It claims a completed **Ontological Closure Condition**: all conditions necessary for configurational realizability in one deductively connected structure, with ontology as a finished task and domain mapping as the open-ended remainder.
 - Stated limit, in the author's own words: the article does **not** reproduce the mathematical closure expression or its full derivation ("protected mathematical kernel"). The derivation claim is therefore not examinable from this text; the methodology and the claimed structure are.
 
+## Publications and review artifacts
+
+- [Formal review paper](formal-review-paper.md): *Capacity, Action, and the Limits of Ontological Closure: A Critical Examination of Strüver's Science of Stability*, J.D. Longmire, 11 November 2026, v1.0. Public research manuscript, open to author response.
+- [Line-by-line review](review.md): audit of all 273 lines of the filed source.
+- [Findings register](findings.md): prioritized objections, evidence requirements, and positive assessments.
+- [Source transcription](paper.md): filed primary-source text.
+
 ## Status
 
-Target filed. No review written yet; no TRT claim, label, or document changes as a result of this filing. No citation is entered in `references/bibliography.bib`: the paper is a review target, not a source the programme builds on.
+Formal research manuscript and review artifacts filed on a review branch for publication through repository pull request. The article's protected derivation is unavailable; conclusions are limited to publicly disclosed claims. No canonical TRT thesis, claim label, or proof status was changed. This external review target is not treated as a source establishing TRT's hard core.
 
 Human-Curated, AI-Enabled (HCAE)
