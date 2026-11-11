@@ -54,19 +54,19 @@ This reconstruction preserves a charitable distinction in Strüver's position: h
 
 ### 4.1 The conditional argument
 
-Let \(P\) and \(Q\) denote candidate primitives and \(R(P,Q)\) a necessary relation. Strüver's reasoning may be schematized as:
+Let $P$ and $Q$ denote candidate primitives and $R(P,Q)$ a necessary relation. Strüver's reasoning may be schematized as:
 
 1. A complete foundation must explain every necessary relation without an independent unexplained premise.
-2. Connected \(P\) and \(Q\) require \(R(P,Q)\).
-3. If \(R\) is an independent premise, the pair is incomplete.
-4. If \(R\) is derived, the independence of \(P\) and \(Q\) requires reassessment.
+2. Connected $P$ and $Q$ require $R(P,Q)$.
+3. If $R$ is an independent premise, the pair is incomplete.
+4. If $R$ is derived, the independence of $P$ and $Q$ requires reassessment.
 5. Therefore a complete foundation must have exactly one primitive.
 
-The conclusion is stronger than the premises. Premise 4 requires *reassessment*, not elimination, of the primitive status of \(P\) and \(Q\). Moreover, premise 1 adopts a particular account of explanatory completeness. It does not demonstrate that a primitive relation is impossible or that ontological primitiveness is measured solely by the number of starting terms.
+The conclusion is stronger than the premises. Premise 4 requires *reassessment*, not elimination, of the primitive status of $P$ and $Q$. Moreover, premise 1 adopts a particular account of explanatory completeness. It does not demonstrate that a primitive relation is impossible or that ontological primitiveness is measured solely by the number of starting terms.
 
 ### 4.2 Relational counterexample
 
-Consider a theory with primitive kinds \(P\) and \(Q\) and a necessary structural law \(R(P,Q)\). This theory can be internally coherent, connected, and explanatorily finite. Whether \(R\) counts as an additional primitive is a substantive ontological question; it does not follow from the mere existence of the relation that the system is contradictory. If Strüver rejects such a model because \(R\) is irreducible, he has imposed a stricter *definition of closure*. He must then justify why that definition captures the necessities of reality rather than a preferred research economy.
+Consider a theory with primitive kinds $P$ and $Q$ and a necessary structural law $R(P,Q)$. This theory can be internally coherent, connected, and explanatorily finite. Whether $R$ counts as an additional primitive is a substantive ontological question; it does not follow from the mere existence of the relation that the system is contradictory. If Strüver rejects such a model because $R$ is irreducible, he has imposed a stricter *definition of closure*. He must then justify why that definition captures the necessities of reality rather than a preferred research economy.
 
 The objection does not establish that two primitives are preferable, nor does it establish that the relational model is sufficient for actuality. It establishes that the published conditional argument does not **uniquely force** one primitive.
 
@@ -78,7 +78,7 @@ The objection does not establish that two primitives are preferable, nor does it
 
 Strüver's definition of Capacity concerns the *possibility* and *limitation* of configurations (2026, Research Section 04). His descriptions of distinction, binding, and propagation specify roles these notions would play in an ontology of structured change. Describing a role, however, differs from deducing that its occupant exists or acts.
 
-Let \(C\) be the stipulated capacity condition and \(T\) the proposition that an actual transition occurs. The weak modal claim is:
+Let $C$ be the stipulated capacity condition and $T$ the proposition that an actual transition occurs. The weak modal claim is:
 
 **Equation (2)**
 
@@ -94,7 +94,7 @@ $$
 C\Rightarrow T.
 $$
 
-Formula (2) does not entail formula (3). In ordinary modal semantics there can be a world \(w_0\) in which \(C\) holds, \(T\) is false, and \(T\) holds in an accessible world \(w_1\). This model satisfies the availability of a transition while withholding its occurrence at \(w_0\). The same distinction holds between *permission* and *execution* in the author's engineering architecture.
+Formula (2) does not entail formula (3). In ordinary modal semantics there can be a world $w_0$ in which $C$ holds, $T$ is false, and $T$ holds in an accessible world $w_1$. This model satisfies the availability of a transition while withholding its occurrence at $w_0$. The same distinction holds between *permission* and *execution* in the author's engineering architecture.
 
 This is an **illustrative logical countermodel**, not a proof that Strüver's full unpublished axioms permit such a world. The decisive request is to identify the additional published axiom or theorem that rules it out.
 
@@ -174,7 +174,7 @@ $$
 \mathrm{TRT}=\langle L_3,I_{\infty},A\rangle,
 $$
 
-where \(L_3\) denotes ontological logical constraint, \(I_{\infty}\) denotes unbounded informational representability, and \(A\) denotes primitive state transition or change, defined without presupposing physical time, force, energy, work, or actualization.
+where $L_3$ denotes ontological logical constraint, $I_{\infty}$ denotes unbounded informational representability, and $A$ denotes primitive state transition or change, defined without presupposing physical time, force, energy, work, or actualization.
 
 The compact identity is:
 
@@ -193,7 +193,7 @@ R\xrightarrow{\;L_3\;\text{necessary filter}\;}D
 \xrightarrow{\;A\;}X\;(\chi).
 $$
 
-Here \(R\) is representable content, \(D\) the actualizable domain, and \(X\) what obtains. TRT asserts \(D\subseteq R\) and \(x\in D\Rightarrow\operatorname{Adm}_{L_3}(x)\). It does **not** assert that logical coherence alone is sufficient for actualizability.
+Here $R$ is representable content, $D$ the actualizable domain, and $X$ what obtains. TRT asserts $D\subseteq R$ and $x\in D\Rightarrow\operatorname{Adm}_{L_3}(x)$. It does **not** assert that logical coherence alone is sufficient for actualizability.
 
 The two programmes converge in their concern for distinction, admissibility, actuality, and the inadequacy of treating mathematical representation as physical existence. They diverge at the point of foundational reduction. Strüver seeks a single sufficient Capacity; TRT argues that constraints, informational differentiation, and transition are mutually necessary and irreducible.
 
@@ -205,7 +205,7 @@ TRT explicitly refuses the inference from representable possibility to occurring
 
 Naming Action as primitive does not by itself demonstrate that Action is ontologically irreducible. TRT must defend its co-requirement argument against Strüver's demand for a connected foundation, explain the status of relations among the three primitives, and identify whether additional constraints on actualizability exist. Its formal and physics-facing derivations remain open research tasks (Longmire, 2026a; 2026b).
 
-There is also a subtle limit to the slogan *capacity without action is inert*: an ontology of a changeless but determinate actual state would challenge any formulation claiming that **all** determinate actuality requires a nontrivial transition. TRT must explain whether its necessity argument is about the grounding of obtaining actuality, the existence of change, or both. Its canonical definition of \(A\) as transition cannot be replaced by “actuality” merely to evade this objection. This is a genuine test of TRT's own precision.
+There is also a subtle limit to the slogan *capacity without action is inert*: an ontology of a changeless but determinate actual state would challenge any formulation claiming that **all** determinate actuality requires a nontrivial transition. TRT must explain whether its necessity argument is about the grounding of obtaining actuality, the existence of change, or both. Its canonical definition of $A$ as transition cannot be replaced by “actuality” merely to evade this objection. This is a genuine test of TRT's own precision.
 
 **Finding 5 (MEDIUM comparative judgment):** TRT makes the modal-to-dynamical distinction explicit, but neither programme's full foundational sufficiency has been established by the materials reviewed.
 
