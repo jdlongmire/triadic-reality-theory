@@ -40,11 +40,11 @@ Strüver states a three-part methodological completeness criterion: irreducibili
 
 That condition is named **Capacity**, described as the irreducible condition from which the possibility and limitation of configuration can be derived (Research Section 04). The publicly displayed dependency sequence is:
 
-\[
-\text{Capacity}\;\vdash\;\text{Distinction}\;\vdash\;\text{Binding}
-\;\vdash\;\text{Propagation}\;\vdash\;\text{Relation}.
-\tag{1}
-\]
+**Equation (1)**
+
+$$
+\mathrm{Capacity}\;\vdash\;\mathrm{Distinction}\;\vdash\;\mathrm{Binding}\;\vdash\;\mathrm{Propagation}\;\vdash\;\mathrm{Relation}
+$$
 
 The article explicitly labels this sequence *expository*, not the formal kernel (Research Section 06). It defines ontological closure as accounting for all independent conditions necessary for configurational realizability and admissible transformation in one deductively connected structure (Research Section 05). Domain mapping then supplies measured entities, constraints, and evidence; runtime qualification separates a proposed candidate from permission to execute and from a subsequently observed outcome (Research Sections 07–11).
 
@@ -80,17 +80,19 @@ Strüver's definition of Capacity concerns the *possibility* and *limitation* of
 
 Let \(C\) be the stipulated capacity condition and \(T\) the proposition that an actual transition occurs. The weak modal claim is:
 
-\[
+**Equation (2)**
+
+$$
 C\Rightarrow \Diamond T.
-\tag{2}
-\]
+$$
 
 The stronger conclusion required to establish an actual occurrence is:
 
-\[
+**Equation (3)**
+
+$$
 C\Rightarrow T.
-\tag{3}
-\]
+$$
 
 Formula (2) does not entail formula (3). In ordinary modal semantics there can be a world \(w_0\) in which \(C\) holds, \(T\) is false, and \(T\) holds in an accessible world \(w_1\). This model satisfies the availability of a transition while withholding its occurrence at \(w_0\). The same distinction holds between *permission* and *execution* in the author's engineering architecture.
 
@@ -166,27 +168,30 @@ Strüver's four verification layers (Research Section 13) are useful for separat
 
 TRT's canonical hard core identifies three irreducible co-primitives (Longmire, 2026a):
 
-\[
+**Equation (4)**
+
+$$
 \mathrm{TRT}=\langle L_3,I_{\infty},A\rangle,
-\tag{4}
-\]
+$$
 
 where \(L_3\) denotes ontological logical constraint, \(I_{\infty}\) denotes unbounded informational representability, and \(A\) denotes primitive state transition or change, defined without presupposing physical time, force, energy, work, or actualization.
 
 The compact identity is:
 
-\[
+**Equation (5)**
+
+$$
 \chi\equiv\mathsf{A}(I_{\infty}\mid L_3).
-\tag{5}
-\]
+$$
 
 It must be read through the typed architecture:
 
-\[
+**Equation (6)**
+
+$$
 R\xrightarrow{\;L_3\;\text{necessary filter}\;}D
 \xrightarrow{\;A\;}X\;(\chi).
-\tag{6}
-\]
+$$
 
 Here \(R\) is representable content, \(D\) the actualizable domain, and \(X\) what obtains. TRT asserts \(D\subseteq R\) and \(x\in D\Rightarrow\operatorname{Adm}_{L_3}(x)\). It does **not** assert that logical coherence alone is sufficient for actualizability.
 
