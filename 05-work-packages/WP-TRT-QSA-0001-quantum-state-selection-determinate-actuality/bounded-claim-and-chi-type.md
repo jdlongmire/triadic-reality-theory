@@ -68,11 +68,11 @@ This separation prevents semantic equivocation from being hidden inside “conte
 
 For an informational/physical state σ define a state claim:
 
-$$q_\sigma=\langle x,\operatorname{InState}(\sigma),\kappa,\rho_{\mathrm{state}}\rangle.$$
+$$q_\sigma=\langle x,\mathrm{InState}(\sigma),\kappa,\rho_{\mathrm{state}}\rangle.$$
 
 Where physical instantiation is warranted:
 
-$$\operatorname{Inst}(\sigma)\Rightarrow\chi_{q_\sigma}.$$
+$$\mathrm{Inst}(\sigma)\Rightarrow\chi_{q_\sigma}.$$
 
 This is determinate actuality of the state under the state specification.
 
@@ -136,7 +136,7 @@ Define χ_q as a witness that bounded claim q obtains as determinate actuality.
 
 At the formal level:
 
-$$\chi_q : \operatorname{Obtains}(q).$$
+$$\chi_q : \mathrm{Obtains}(q).$$
 
 This is intentionally dependent/indexed: the type of χ_q carries q.
 
@@ -146,11 +146,11 @@ A different q yields a different actuality-witness type.
 
 Use:
 
-$$\operatorname{Obtains}(q):\mathbf{Prop}$$
+$$\mathrm{Obtains}(q):\mathbf{Prop}$$
 
 and:
 
-$$\chi_q : \operatorname{Obtains}(q).$$
+$$\chi_q : \mathrm{Obtains}(q).$$
 
 In a proof assistant, χ_q is therefore evidence/witness that q obtains, not a global object containing all reality.
 
@@ -170,11 +170,11 @@ $$\neg q=\langle x,\neg P,\kappa,\rho\rangle.$$
 
 A same-q contradiction would require witnesses for both:
 
-$$\chi_q:\operatorname{Obtains}(q)$$
+$$\chi_q:\mathrm{Obtains}(q)$$
 
 and
 
-$$\chi_{\neg q}:\operatorname{Obtains}(\neg q)$$
+$$\chi_{\neg q}:\mathrm{Obtains}(\neg q)$$
 
 under the same x, κ, and ρ.
 
@@ -184,7 +184,7 @@ L3 excludes this as determinate actuality.
 
 For a properly bounded q:
 
-$$\operatorname{Obtains}(q)\lor\neg\operatorname{Obtains}(q).$$
+$$\mathrm{Obtains}(q)\lor\neg\mathrm{Obtains}(q).$$
 
 This is not a claim that every possible q is already physically specified or measured.
 
@@ -200,7 +200,7 @@ QSA must continue to distinguish:
 
 Retain:
 
-$$\operatorname{Spec}(\alpha,\sigma,q).$$
+$$\mathrm{Spec}(\alpha,\sigma,q).$$
 
 The relation fixes q. It does not prove Obtains(q).
 
@@ -208,11 +208,11 @@ The relation fixes q. It does not prove Obtains(q).
 
 Refine settlement as:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)$$
+$$\mathrm{Settled}(\alpha,q,\chi_q)$$
 
 where:
 
-$$\chi_q:\operatorname{Obtains}(q).$$
+$$\chi_q:\mathrm{Obtains}(q).$$
 
 Settlement therefore relates an action occurrence, bounded claim, and actuality witness.
 
@@ -303,7 +303,7 @@ Changing any field after the result is known invalidates the test.
 
 q is frozen as a four-field bounded claim with extensible context κ. χ_q is best typed as an indexed actuality witness/state-of-affairs:
 
-$$\chi_q:\operatorname{Obtains}(q).$$
+$$\chi_q:\mathrm{Obtains}(q).$$
 
 This is weaker than defining χ_q as a physical state and stronger than treating it as a mere proposition or truth value.
 

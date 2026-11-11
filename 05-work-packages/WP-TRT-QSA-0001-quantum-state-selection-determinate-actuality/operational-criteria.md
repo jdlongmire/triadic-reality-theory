@@ -19,7 +19,7 @@ The criteria below are sufficient-warrant candidates, not definitions of the und
 
 Warrant:
 
-$$\operatorname{Inst}(\sigma)$$
+$$\mathrm{Inst}(\sigma)$$
 
 when all of the following hold:
 
@@ -38,7 +38,7 @@ A coherently prepared superposition can satisfy Inst(ψ) because relative phase 
 
 Do not infer:
 
-$$\sigma\in I_\infty\Rightarrow\operatorname{Inst}(\sigma).$$
+$$\sigma\in I_\infty\Rightarrow\mathrm{Inst}(\sigma).$$
 
 Representability alone never establishes physical instantiation.
 
@@ -48,7 +48,7 @@ Representability alone never establishes physical instantiation.
 
 Warrant:
 
-$$\operatorname{Spec}(\alpha,\sigma,q)$$
+$$\mathrm{Spec}(\alpha,\sigma,q)$$
 
 when an action/interaction α produces a physically privileged, reproducible coupling or stability relation that fixes which bounded variable/predicate q is operationally discriminated, independent of a later observer's arbitrary relabeling.
 
@@ -67,8 +67,8 @@ A human need not inspect the apparatus. The physical coupling can fix q by its i
 
 Specification does not imply a unique value has settled:
 
-$$\operatorname{Spec}(\alpha,\sigma,q)\nRightarrow
-\exists\chi_q\;\operatorname{Settled}(\alpha,q,\chi_q).$$
+$$\mathrm{Spec}(\alpha,\sigma,q)\nRightarrow
+\exists\chi_q\;\mathrm{Settled}(\alpha,q,\chi_q).$$
 
 ## 4. Settled(α,q,χ_q): determinate physical record
 
@@ -76,7 +76,7 @@ $$\operatorname{Spec}(\alpha,\sigma,q)\nRightarrow
 
 Warrant:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)$$
+$$\mathrm{Settled}(\alpha,q,\chi_q)$$
 
 when the interaction yields a q-indexed physical record that is:
 
