@@ -18,7 +18,7 @@ $$\boxed{\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)}$$
 </div>
 
 <figure class="ontology-figure" aria-labelledby="lia-caption">
-<div class="grid lia-diagram" role="group" aria-label="Logic, Information, and Action are three co-primitives"><div class="card"><h3>L₃ · Logic</h3><p>Identity, Non-Contradiction, and Excluded Middle function as ontological constraints on determinate actuality.</p></div><div class="card"><h3>I∞ · Information</h3><p>The unbounded domain of representable distinctions, relations, states, and configurations. Representation does not entail actuality.</p></div><div class="card"><h3>A · Action</h3><p>Fundamental state transition or change, defined without presupposing physical time, motion, force, or energy.</p></div></div>
+<div class="grid lia-diagram" role="group" aria-label="Logic, Information, and Action are three co-primitives"><div class="card"><h3>L₃ · Logic</h3><p>Identity, Non-Contradiction, and Excluded Middle function as ontological constraints on determinate actuality, with Excluded Middle binding over propositions over actualized states.</p></div><div class="card"><h3>I∞ · Information</h3><p>The unbounded domain of representable distinctions, relations, states, and configurations. Representation does not entail actuality.</p></div><div class="card"><h3>A · Action</h3><p>Fundamental state transition or change, defined without presupposing physical time, motion, force, or energy.</p></div></div>
 <figcaption id="lia-caption"><strong>L-I-A overview.</strong> Logic constrains, Information differentiates, and Action transitions. TRT proposes all three as irreducible co-primitives of determinate actuality.</figcaption>
 </figure>
 
