@@ -12,6 +12,7 @@ New reviewers: start at [`REVIEWER-ENTRY-POINT.md`](REVIEWER-ENTRY-POINT.md) —
 |---|---|---|---|
 | 2026-06 | GPT (ChatGPT), external AI | Confirming; no label change; 4 actions (3 done, 1 tracked) | [`2026-06-gpt/`](2026-06-gpt/) |
 | 2026-06 | Grok (xAI), external AI | Categorical recast **declined** as a program; one graft extracted (sheaf-cohomology probe of OPN-002); no label change | [`2026-06-grok/`](2026-06-grok/) |
+| 2026-11 | External reviewer (unattributed) | Critical path accepted as the programme's own; response drafted, pending approval; no label change | [`2026-11-external-critical-review/`](2026-11-external-critical-review/) |
 
 ## Outbound review targets
 
