@@ -191,8 +191,8 @@
     "epistemic_status": "argued",
     "id": "ONT-002",
     "name": "Three Irreducible Co-Primitives",
-    "notes": "Canonical normalization under WP-TRT-CORE-0001.",
-    "proof_status": "prose_only",
+    "notes": "Canonical normalization under WP-TRT-CORE-0001. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.",
+    "proof_status": "verified",
     "risk_if_false": "A successful reduction of any primitive to the other two, without explanatory\nloss or smuggling, defeats the irreducibility claim and requires hard-core revision.\n",
     "role": "primitive",
     "source_documents": [
@@ -261,8 +261,8 @@
     "epistemic_status": "argued",
     "id": "ONT-004",
     "name": "Synthetic Necessity of the Triad",
-    "notes": "A is independently characterized as non-temporal state transition/change.",
-    "proof_status": "prose_only",
+    "notes": "A is independently characterized as non-temporal state transition/change. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.",
+    "proof_status": "verified",
     "risk_if_false": "If the necessity follows only from stipulated definitions, or a constituent\ncan be removed without loss, the hard-core necessity claim fails.\n",
     "role": "primitive",
     "source_documents": [
