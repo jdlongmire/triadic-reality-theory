@@ -55,3 +55,14 @@ Weakening of claims follows the escalation criteria: logical impossibility prove
 ## Status
 
 Programme objective; not yet demonstrated.
+
+---
+
+## Amendment record (2026-11-12): reconciliation with the hard core
+
+Two wording divergences between the Definitions above and the hard core as normalized by WP-TRT-CORE-0001 (canonical semantic invariant, 2026-09-29) are reconciled by the owner's ruling of 2026-11-12. This record changes no commitment, obligation, or failure condition in this charter; it fixes how two definitions are to be read.
+
+1. **Definition of A.** The governing definition is the invariant's: A is fundamental non-temporal state transition/change, and A is not defined as actualization. The Definitions entry above ("the primitive transition from admissible to actual") states A's architectural role in the passage R --L3--> D --A--> X and is to be read as such, not as the definition of A. Actualization is a role of A; a state's obtaining is a distinct notion from A itself.
+2. **Scope of Excluded Middle.** The Definitions entry above scopes Excluded Middle to propositions over actualized states. That scoping is the governing, precise statement: Excluded Middle binds over propositions over actualized states. The hard core stated L3 without the scope; a conforming note recording the scoping has been added to the hard core (1-hypothesis/hard-core.md).
+
+Full record: 0-program-methods/sessions/2026-11-12-charter-hardcore-reconciliation.md.

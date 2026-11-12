@@ -44,3 +44,14 @@ Programme objective; not yet demonstrated.
 - Page, D.N. & Wootters, W.K. (1983) 'Evolution without evolution: dynamics described by stationary observables', *Physical Review D*, 27, pp. 2885–2892.
 - Tumulka, R. (2006) 'A relativistic version of the Ghirardi–Rimini–Weber model', *Journal of Statistical Physics*, 125, pp. 821–840.
 - Malament, D.B. (1977) *Journal of Mathematical Physics*, 18, p. 1399. [Seen only as cited in Surya (2019) and Henson (2012); verify against primary.]
+
+---
+
+## Amendment note (2026-11-12)
+
+The Definitions above are subject to the reconciliation recorded in the amendment record appended to TRT-charter.md (2026-11-12):
+
+1. A is defined as fundamental non-temporal state transition/change and is not defined as actualization. "The primitive transition from admissible to actual" states A's architectural role (D --A--> X), not its definition.
+2. Excluded Middle is scoped to propositions over actualized states. That scoping is the governing, precise statement and has been recorded in the hard core (1-hypothesis/hard-core.md) as well.
+
+Full record: 0-program-methods/sessions/2026-11-12-charter-hardcore-reconciliation.md.
