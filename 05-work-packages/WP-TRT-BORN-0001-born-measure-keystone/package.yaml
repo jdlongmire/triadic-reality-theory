@@ -1,0 +1,124 @@
+id: WP-TRT-BORN-0001
+title: Derive the Born measure from constraints on A, or record precisely why it must be postulated
+status: proposed
+commitment: stretch
+gate: >
+  This package opens on the keystone disposition of WP-TRT-GRAV-0001 (draft): the
+  characterization of how A resolves unresolved admissible structure (OPN-002), and in
+  particular the answer, or the sharpest obtainable form, of the stage-2 question
+  recorded in OPN-002's notes: is projective Born selection fundamental to A, or is it
+  a stage-2 overlay on an obstruction-registering A? Filing this package does not open
+  it; the gate is the programme lead's ruling that the keystone disposition is in hand.
+governing_objective: >
+  Produce the first non-trivial recovery result in the programme, or the precise
+  recorded reason none is available on this route: either derive the Born measure's
+  form from constraints on actualizing action A across the admissible-to-actual
+  boundary, or state exactly which additional postulate is required and what it costs.
+scope: >
+  ROADMAP Tier 2.2 and claim OPN-004. The position paper concedes the present position
+  plainly: the Born measure is assumed, not derived (paper section 6.6.2, section 12),
+  and TRT claims only to have relocated the measurement problem precisely. The external
+  critical review filed 2026-11-12 (move 3) names this as one of the three recoveries
+  that would convert "QM relies on the primitives" into "the primitives generate (part
+  of) QM", and accepts the alternative the ROADMAP already states: a precise reason
+  why the measure must be postulated is itself a strengthening result.
+
+  The package has two stages matching the fork in OPN-002. Stage one takes the
+  keystone disposition as input and fixes the derivation target accordingly: if A is
+  obstruction-registering and Born is an overlay, the target is to derive the overlay's
+  form from the overlay's own stated principles (and to identify those principles as
+  postulates if they are not derivable); if projective selection is fundamental to A,
+  the target is to derive the measure from A's resolution structure directly, in
+  which case this package and the gravity arm share one mechanism and the package
+  must reconcile its result with the linearity disposition. Stage two runs the
+  derivation attempt against the strongest existing derivation programmes (Gleason-type
+  results, envariance, decision-theoretic derivations) as adversarial benchmarks: a
+  TRT derivation counts only if it uses strictly the triad's constraints plus stated
+  premises, and reaches the measure's form (squared amplitude) rather than a generic
+  probability assignment. The hard residue named in OPN-004 must be addressed, not
+  bypassed: why one admissible branch actualizes rather than another on a given
+  occasion.
+
+  Relation to WP-TRT-QSA-0001 (open): that package types specification and settlement
+  as derived roles of primitive A. Its Level 1 notation is the vocabulary this package
+  must use for the admissible-to-actual boundary; this package does not redo the
+  typing work and must flag any place where the derivation needs a distinction the
+  typing does not supply.
+authority_boundary: >
+  Internal derivation work, literature benchmarking from primary sources, and
+  adversarial review are authorized once the gate opens. This package does not
+  authorize changing the hard core, any claim (including OPN-004's status), or any
+  confidence label on its own findings; status moves follow from its disposition only
+  through the programme lead's ruling. No external communication or publication is
+  authorized.
+dependencies:
+  - WP-TRT-GRAV-0001 (draft; gate input: OPN-002 keystone disposition)
+  - OPN-002 (fork), OPN-001 (root)
+  - WP-TRT-QSA-0001 (typed vocabulary for specification and settlement)
+traceability:
+  claims: [OPN-004, OPN-002, OPN-003]
+  roadmap: [Tier 2.2, Tier 4.1 (partial)]
+actions:
+  - >
+    On opening, record the keystone input verbatim (the GRAV-0001 disposition on
+    OPN-002 and on the stage-2 question) and fix the derivation target and the
+    premise budget: the exact list of premises beyond the triad's constitutive
+    conditions that the attempt is allowed, each labelled as derived, assumed, or to
+    be discharged.
+  - >
+    Reconstruct the strongest existing Born derivations from primary sources and
+    extract, for each, the premise that does the work (non-contextuality, envariance
+    symmetry, decision-theoretic rationality, typicality), stated in a form
+    comparable with the premise budget.
+  - >
+    Run the derivation attempt: from the triad's constraints on A at the
+    admissible-to-actual boundary, attempt to force the squared-amplitude form.
+    Where the attempt needs a premise not in the budget, stop at that step and
+    record the gap exactly; do not bridge it by prose.
+  - >
+    Address the hard residue: state what the framework says, and what it does not
+    say, about single-case branch selection. A derivation of the measure that is
+    silent on the residue is a partial result and must be labelled as such.
+  - >
+    Benchmark: compare the attempt premise-by-premise with the existing derivations.
+    If TRT's route uses a subset of a known derivation's premises, say which and
+    what was purchased. If it uses a superset, the derivation is a redescription of
+    that route and must be recorded as such.
+  - >
+    Red-team: the strongest case that any apparent derivation has assumed the measure
+    in the choice of value space, inner product, or symmetry group; and the strongest
+    case that the recorded postulate, if that is the outcome, is not minimal (a
+    weaker postulate would do).
+  - >
+    Record a disposition in one of three forms: derivation (with premise budget fully
+    discharged or its residue named), postulate (the precise minimal postulate, its
+    cost to the programme stated, and OPN-004's reframing proposed), or redescription
+    (the attempt collapses to a known route, recorded as a negative).
+verification: >
+  Done requires a committed disposition containing the keystone input, the premise
+  budget, the benchmark reconstructions, the derivation attempt with its stopping
+  point, the residue treatment, and the red-team pass. Any derivation must be
+  checkable line by line from stated premises; any postulate must be stated in one
+  sentence that could be added to the hard core verbatim. Traceability updates are
+  proposed in the disposition and effected only on the programme lead's ruling.
+  Repository checks must pass.
+failure_conditions:
+  - >
+    The derivation claim fails if the measure must be assumed: then, per the
+    ROADMAP's own failure condition for Tier 2.2, TRT inherits the measurement
+    problem's hard core unchanged, and the disposition's obligation is to record the
+    precise postulate and its cost rather than to soften the concession.
+  - >
+    The package fails as research if it presents a known derivation (Gleason,
+    envariance, decision-theoretic) in TRT vocabulary as a TRT derivation; the
+    benchmark action exists to catch exactly this, and its verdict stands even if it
+    is unwelcome.
+  - >
+    The package fails if it derives a probability assignment but not the Born form:
+    generic probability over branches is not the target, and reporting it as the
+    target met would inflate the result.
+disposition: >
+  PROPOSED 2026-11-12, gated on WP-TRT-GRAV-0001's keystone disposition. First
+  recovery-tier package; the Einstein-Hilbert recovery item is deliberately not
+  packaged until the linearity disposition exists, since its shape depends on the
+  horn.
