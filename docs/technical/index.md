@@ -13,7 +13,7 @@ $$\mathrm{TRT}=\langle L_3,I_{\infty},A\rangle$$
 
 | Symbol | Canonical meaning | Status |
 |---|---|---|
-| $L_3$ | Ontological logical constraint: Identity, Non-Contradiction, Excluded Middle | hard-core claim |
+| $L_3$ | Ontological logical constraint: Identity, Non-Contradiction, Excluded Middle (binding over propositions over actualized states) | hard-core claim |
 | $I_\infty$ | Unbounded informational representability/differentiation | hard-core claim |
 | $A$ | Fundamental state transition/change, non-temporal in primitive definition | hard-core claim |
 | $R$ | Representable domain | typed category |
