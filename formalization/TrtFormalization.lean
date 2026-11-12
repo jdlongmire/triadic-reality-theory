@@ -1,1 +1,2 @@
 import TrtFormalization.Core.Primitives
+import TrtFormalization.Core.Irreducibility
