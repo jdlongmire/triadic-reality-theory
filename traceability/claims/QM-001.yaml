@@ -1,0 +1,33 @@
+id: QM-001
+name: Tsirelson Obligation (strong positivity from the triad)
+statement: |
+  Charter obligation (d): the Tsirelson bound is to be derived via strong
+  positivity of the quantal measure on histories, where strong positivity is
+  itself argued from the triad. The dependency order is fixed: triad, then an
+  independent argument for strong positivity, then Hilbert structure and the
+  Tsirelson bound. The reverse route (Hilbert structure assumed as contingent
+  specification in D, strong positivity inherited from it) is barred: it is the
+  second horn of charter failure condition 3. No argument from the triad to
+  strong positivity exists yet; this is the point at which the programme
+  objective is decided.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - { claim_id: LOG-001, dependency_type: logical }
+  - { claim_id: ACT-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-charter.md, section: "Obligation (d); failure condition 3" }
+  - { doc: reconciliation-map.md, section: "6.1, 8, 9.3" }
+external_citations: ["Craig, Dowker, Henson, Major, Rideout & Sorkin (2007), arXiv:quant-ph/0605008"]
+risk_if_false: |
+  If strong positivity cannot be argued from the triad, failure condition 3
+  obtains: quantum structure is contingent specification and the derivational
+  ambition reduces to constraint.
+notes: |
+  Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions.
+  Craig et al. (2007) tie strong positivity to an associated Hilbert space;
+  that tie is what makes the dependency order a circularity hazard (map
+  section 8). Definitions under obligation (e) must not be tuned to produce
+  strong positivity.

@@ -1,0 +1,30 @@
+id: ACT-003
+name: Redundancy Selection (working channel for the selection rule)
+statement: |
+  Charter obligation (b)'s working channel: a distinction is a candidate for
+  actualization if it is recorded in at least two disjoint, causally independent
+  regions of D; A actualizes one branch of the resulting decomposition. The
+  unrefined rule (actualize at redundancy two, with no threshold in the record)
+  is refuted by existing three-photon GHZ data (Erven et al. 2014): the records
+  were spacelike separated and coherence between branches persisted. A threshold
+  in the record itself (its size, count, or irrecoverability) is therefore
+  mandatory; with a declared threshold the rule is a collapse-type model and is
+  exposed to collapse-model bounds. The threshold form is PRD-004.
+tier: 2
+role: bridge
+proof_status: open
+epistemic_status: conjectured
+depends_on:
+  - { claim_id: ACT-002, dependency_type: formal }
+  - { claim_id: OPN-002, dependency_type: logical }
+source_documents:
+  - { doc: TRT-charter.md, section: "Obligation (b), working channel" }
+  - { doc: reconciliation-map.md, section: "5, 6.2, 9.1" }
+external_citations: ["Erven et al. (2014), arXiv:1309.1379", "Riedel, Zurek & Zwolak (2016), arXiv:1312.0331"]
+risk_if_false: |
+  If no record threshold survives the existing bounds, obligation (b) fails on
+  its current channel and the selection rule must be re-founded.
+notes: |
+  Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions.
+  Redundancy here is the quantum Darwinism notion (Riedel, Zurek & Zwolak 2016),
+  imported and stated as such.

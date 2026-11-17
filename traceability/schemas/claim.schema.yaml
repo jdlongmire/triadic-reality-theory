@@ -42,8 +42,8 @@ properties:
 
   epistemic_status:
     type: string
-    enum: [established, argued, conjectured, open]
-    description: "Confidence (maps to HIGH/MEDIUM/LOW/UNCERTAIN in prose)"
+    enum: [established, argued, conjectured, open, refuted_by_redescription]
+    description: "Confidence (maps to HIGH/MEDIUM/LOW/UNCERTAIN in prose). refuted_by_redescription added 2026-11-16 (JD ruling on PRD-001): the recorded negative for a claim whose tested forms reproduce only what the background theory already predicts."
 
   depends_on:
     type: array

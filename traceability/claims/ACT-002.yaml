@@ -1,0 +1,30 @@
+id: ACT-002
+name: Condition of Actualization (EPA and TC; order selection)
+statement: |
+  For an A-event e, Cond(e) is the set of A-events whose obtaining is required for
+  e to obtain; f precedes e when f is in Cond(e). Two axioms are adopted toward
+  charter obligation (e): EPA (exclusion of prior actuality: e is never in Cond(e))
+  and TC (transitivity of conditioning). Given EPA and TC the precedence relation
+  is a strict partial order, hence acyclic. An A-event is a pair (d, d') with
+  A(d, d') and Obtains(d'); X is the set of A-events, ordered by this relation
+  (accepted typing, reconciliation map section 4). Under the occurrent reading
+  adopted 2026-11-16, Obtains(d') is definable as being the target of an A-event,
+  together with an initial condition; A's definition is unchanged.
+tier: 1
+role: bridge
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - { claim_id: ACT-001, dependency_type: formal }
+  - { claim_id: LOG-001, dependency_type: logical }
+source_documents:
+  - { doc: TRT-charter.md, section: "Obligation (e)" }
+  - { doc: reconciliation-map.md, section: "4, 7.2" }
+risk_if_false: |
+  If conditioning is not transitive, the acyclicity result fails and the order
+  on X is not established; obligation (e) reopens and (d') loses its premise.
+notes: |
+  Entered 2026-11-16 under rulings 4, 5, and 11 of the reconciliation map
+  dispositions. EPA and TC are axioms, not derivations; TC is the operative
+  premise. EPA is the event-level form of the charter's exclusion of prior
+  actuality and is where Non-Contradiction enters.

@@ -1,0 +1,30 @@
+id: INT-001
+name: Source Commitment (the triad's common ground)
+statement: |
+  The three co-primitives have a common source: the Great Selector, whose
+  will-relation grounds each actualization and in which continuous grounding
+  (the Dynamic Stability Principle's option 3) resides. The source is ground,
+  not a constituent of the triad and not a fourth principle; the grounding
+  modes are distinct, and the source's will-relation is not an instance of A.
+  Secular presentations state the triad as primitive with the specification of
+  D as boundary data. This is a hard-core adjacent programme commitment; the
+  technical name for its secular form is "constrained actualization"
+  (FD-0001 Gate 1, adopted 2026-11-16).
+tier: 1
+role: bridge
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - { claim_id: ONT-002, dependency_type: logical }
+  - { claim_id: ONT-004, dependency_type: logical }
+source_documents:
+  - { doc: TRT-charter.md, section: "Source commitment" }
+  - { doc: reconciliation-map.md, section: "5, A.4" }
+risk_if_false: |
+  If the triad requires a fourth constituent principle, obligation 1 fails.
+  If the source is treated as a constituent, the irreducibility claims
+  (ONT-002, ONT-004) are compromised.
+notes: |
+  Entered 2026-11-16 under rulings 8 and 13 of the reconciliation map
+  dispositions. Placement per map section 5 and A.4: programme commitment
+  adjacent to the hard core, with no empirical content of its own.

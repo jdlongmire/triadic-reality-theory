@@ -15,6 +15,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-007 | 2 | open | Theology / Metaphysics Boundary Discipline | ONT-004 |
 | OPN-008 | 2 | open | ADCE — Dark Energy from Mean Causal Growth | ONT-001, ACT-001, EXT-002 |
 | OPN-009 | 2 | open | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis | ONT-003, OPN-004 |
+| QM-001 | 2 | open | Tsirelson Obligation (strong positivity from the triad) | LOG-001, ACT-001 |
 
 ## Statements & failure conditions
 
@@ -71,6 +72,12 @@ Determine whether the mean growth rate of realized causal structure (Ṅ), on th
 Govern the empirical investigation of TRT's physical hypothesis chi = A(I \| L), presently an ontological schema in which L is the global physical admissibility constraint, not yet a dynamical or operational law. The model predicts that every physical informational actualization satisfies Identity, Non-Contradiction, and Excluded Middle, with operational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for the same proposition, context, time, and respect falsifies the model's exclusion rule that non-bivalent information is absent from the physically actualizable state space. The derived Global Bivalent Closure witness, rival-model constructions, and the empirical falsification ledger are subordinate instruments for exposing the model to failure rather than substitutes for it. Law status is intended but not earned. Purpose-built negative tests add implementation-relative corroboration in proportion to their power to expose B or N; adjacent quantum-foundational results merely constrain nearby rivals unless they had that power.
 
 *Risk if false:* If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.
+
+### QM-001 — Tsirelson Obligation (strong positivity from the triad)
+
+Charter obligation (d): the Tsirelson bound is to be derived via strong positivity of the quantal measure on histories, where strong positivity is itself argued from the triad. The dependency order is fixed: triad, then an independent argument for strong positivity, then Hilbert structure and the Tsirelson bound. The reverse route (Hilbert structure assumed as contingent specification in D, strong positivity inherited from it) is barred: it is the second horn of charter failure condition 3. No argument from the triad to strong positivity exists yet; this is the point at which the programme objective is decided.
+
+*Risk if false:* If strong positivity cannot be argued from the triad, failure condition 3 obtains: quantum structure is contingent specification and the derivational ambition reduces to constraint.
 
 ---
 

@@ -94,3 +94,12 @@ TRT is the ontology. LRT develops the logical constituent. Physics-facing models
 The hard core does not include a proof that L₃ exhausts metaphysical actualizability, a particular co-admissibility measure, a Lagrangian, a Born-rule derivation, a gravity reduction, a measurement interpretation, or a specific cosmological dynamics. Those remain revisable research claims.
 
 Historical documents that use **actualizing action**, **I_adm = I∞ | L₃**, or a simple nested four-tier engine must be read through the normalization record in WP-TRT-CORE-0001 unless they have been explicitly updated.
+
+---
+
+## Conforming note (2026-11-16): levels, and Obtains in the actualized algebra
+
+Two points from the owner's rulings of 2026-11-16 on the reconciliation map (record: 0-program-methods/sessions/2026-11-16-reconciliation-rulings.md) are noted here so this file is read correctly. Neither changes the canonical thesis or any definition above.
+
+1. **Neutrality confirmed.** This hard core stays neutral between single-outcome and Everett-type readings of A, and on temporal becoming. Single-outcome actualization and sequential growth are commitments of the programme charter (0-program-methods/TRT-charter.md), at charter level, with their own failure exposure. The irreducibility arguments above neither supply nor presuppose them.
+2. **Obtains in the actualized algebra.** A state's obtaining remains a distinct notion from A itself, as stated above. Under the occurrent reading adopted 2026-11-16, in the actualized algebra Obtains(d') is definable as being the target of an A-event (a pair (d, d') with A(d, d')), together with an initial condition. This definability is a statement about the actualized algebra; it does not redefine A, whose definition above is unchanged.

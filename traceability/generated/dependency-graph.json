@@ -1,10 +1,14 @@
 {
   "nodes": [
     "ACT-001",
+    "ACT-002",
+    "ACT-003",
     "EXT-001",
     "EXT-002",
+    "INT-001",
     "LOG-001",
     "LOG-002",
+    "LOG-003",
     "ONT-001",
     "ONT-002",
     "ONT-003",
@@ -18,9 +22,13 @@
     "OPN-007",
     "OPN-008",
     "OPN-009",
+    "PHY-001",
     "PRD-001",
     "PRD-002",
-    "PRD-003"
+    "PRD-003",
+    "PRD-004",
+    "QM-001",
+    "QM-002"
   ],
   "edges": [
     {
@@ -34,13 +42,53 @@
       "type": "formal"
     },
     {
+      "from": "ACT-002",
+      "to": "ACT-001",
+      "type": "formal"
+    },
+    {
+      "from": "ACT-002",
+      "to": "LOG-001",
+      "type": "logical"
+    },
+    {
+      "from": "ACT-003",
+      "to": "ACT-002",
+      "type": "formal"
+    },
+    {
+      "from": "ACT-003",
+      "to": "OPN-002",
+      "type": "logical"
+    },
+    {
       "from": "EXT-001",
       "to": "LOG-001",
       "type": "formal"
     },
     {
+      "from": "INT-001",
+      "to": "ONT-002",
+      "type": "logical"
+    },
+    {
+      "from": "INT-001",
+      "to": "ONT-004",
+      "type": "logical"
+    },
+    {
       "from": "LOG-002",
       "to": "LOG-001",
+      "type": "logical"
+    },
+    {
+      "from": "LOG-003",
+      "to": "LOG-001",
+      "type": "logical"
+    },
+    {
+      "from": "LOG-003",
+      "to": "ACT-001",
       "type": "logical"
     },
     {
@@ -124,6 +172,16 @@
       "type": "logical"
     },
     {
+      "from": "PHY-001",
+      "to": "ONT-001",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-001",
+      "to": "EXT-002",
+      "type": "formal"
+    },
+    {
       "from": "PRD-001",
       "to": "OPN-001",
       "type": "formal"
@@ -142,6 +200,36 @@
       "from": "PRD-003",
       "to": "ONT-002",
       "type": "logical"
+    },
+    {
+      "from": "PRD-004",
+      "to": "OPN-002",
+      "type": "formal"
+    },
+    {
+      "from": "PRD-004",
+      "to": "OPN-009",
+      "type": "empirical"
+    },
+    {
+      "from": "QM-001",
+      "to": "LOG-001",
+      "type": "logical"
+    },
+    {
+      "from": "QM-001",
+      "to": "ACT-001",
+      "type": "logical"
+    },
+    {
+      "from": "QM-002",
+      "to": "LOG-003",
+      "type": "formal"
+    },
+    {
+      "from": "QM-002",
+      "to": "ACT-002",
+      "type": "formal"
     }
   ]
 }
