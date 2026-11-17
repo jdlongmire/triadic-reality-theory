@@ -77,4 +77,3 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 12.
 - CMP-005: registered computation serves no claim (no owning claim is recorded for this witness; to be assigned when its notebook is opened).
 - CMP-006: registered computation serves no claim (the charter's order-difference falsification (former working-notes section 4.5), cited by the charter).
 - NB-20261117-d-only-classification-dilemma: open.
-- NB-20261116-order-difference-reconstruction: red-team pass requested 2026-11-17, not yet recorded.

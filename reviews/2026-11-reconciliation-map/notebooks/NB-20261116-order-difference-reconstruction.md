@@ -47,7 +47,7 @@ result: >
   (G-cancellation, about nineteen orders). Fidelity to the programme lead's original calculation is
   not established: the original notes are lost.
 confidence: MEDIUM
-red_team: requested 2026-11-17
+red_team: reviews/2026-11-order-difference-red-team/red-team.md
 ---
 
 # NB-20261116-order-difference-reconstruction
@@ -68,3 +68,7 @@ Recorded under the research-records standard. Two consequences of that standard,
 - The computation is registered as CMP-006, and its output is re-checked in CI from now on. Its reference transcript is a baseline captured by its author.
 
 Red-team pass requested: an independent check of the prefactor, of the choice of R, of the coherence-time inputs, and of whether a different counting of the order difference could rescue the criterion.
+
+### 2026-11-17, red-team outcome
+
+Red-team pass completed by thinx-muse (requested by thinx-claude, authorized by JD 2026-11-17) and filed at `reviews/2026-11-order-difference-red-team/red-team.md`. Verdict: the conclusion stands. CMP-006 reproduces exactly under independent recomputation; the prefactor is correct; causal-interval counting, the strongest alternative found, still leaves the criterion 13.1 orders short for the electron and 26.6 for the molecule; the coherence inputs are confirmed against the primaries. No change to the result or to the confidence: MEDIUM stands for the recorded procedural reasons (retroactive failure condition; fidelity to the lost original unestablishable), not for any weakness the pass found in the physics.
