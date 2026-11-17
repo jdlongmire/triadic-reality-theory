@@ -1,0 +1,10 @@
+[
+  {"task_id":"A001","task_family":"arithmetic","question":"What is 17 * 23?","ground_truth":"391","answerable":true},
+  {"task_id":"A002","task_family":"arithmetic","question":"What is (144 / 12) + 7?","ground_truth":"19","answerable":true},
+  {"task_id":"L001","task_family":"logic","question":"Premises: All ravens are birds. No birds are mammals. Is 'No ravens are mammals' entailed? Answer YES or NO.","ground_truth":"YES","answerable":true},
+  {"task_id":"L002","task_family":"logic","question":"Premises: Some A are B. All B are C. Is 'All A are C' entailed? Answer YES or NO.","ground_truth":"NO","answerable":true},
+  {"task_id":"C001","task_family":"closed_corpus","corpus":"The observatory opened in 1998. Its primary mirror is 4.2 meters in diameter.","question":"In what year did the observatory open?","ground_truth":"1998","answerable":true},
+  {"task_id":"C002","task_family":"closed_corpus","corpus":"The observatory opened in 1998. Its primary mirror is 4.2 meters in diameter.","question":"What is the primary mirror diameter?","ground_truth":"4.2 meters","answerable":true},
+  {"task_id":"U001","task_family":"unanswerable_closed_corpus","corpus":"The archive states that Project Kestrel began in March and ended in July.","question":"Who was the project manager?","ground_truth":"ABSTAIN","answerable":false},
+  {"task_id":"U002","task_family":"unanswerable_closed_corpus","corpus":"The sample contains quartz and feldspar. No mass measurement is reported.","question":"What is the sample mass?","ground_truth":"ABSTAIN","answerable":false}
+]

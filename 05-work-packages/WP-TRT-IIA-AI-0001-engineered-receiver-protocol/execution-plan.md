@@ -47,3 +47,16 @@ Do not scale until:
 - condition prompts differ only by declared intervention;
 - data schema is complete;
 - pilot failures can be traced from aggregate result to raw output.
+
+
+## Phase A status — 2026-10-01
+
+Deterministic pilot implemented and validation suite passed.
+
+Artifacts: `pilot/tasks.json`, `pilot/pilot.py`, `pilot/test_pilot.py`,
+`pilot/aggregate-reference.json`, and `pilot/pilot-report.md`.
+
+Gate result: harness/schema/condition-isolation checks PASS. The next execution gate
+is a model-dependent pilot using the same frozen condition definitions. Free-form
+claim decomposition and calibration remain unvalidated and must be exercised before
+Phase B is considered complete.
