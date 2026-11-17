@@ -10,6 +10,15 @@ tier: 1
 role: primitive
 proof_status: verified
 epistemic_status: argued
+formal_artifacts:
+  lean:
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: lemma1_LI_without_A, status: proven, axioms: [propext, Quot.sound] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: lemma2_LA_without_I, status: proven, axioms: [propext, Quot.sound] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: lemma3_IA_without_L, status: proven, axioms: [propext, Quot.sound] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: cpit_pair_failure, status: proven, axioms: [propext, Quot.sound] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: lawful_modelNoA, status: proven, axioms: [propext] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: lawful_modelNoI, status: proven, axioms: [] }
+    - { file: TrtFormalization/Core/Irreducibility.lean, symbol: not_lawful_modelNoL, status: proven, axioms: [propext] }
 depends_on: []
 source_documents:
   - { doc: TRT-v0.10, section: "3, 9" }

@@ -12,7 +12,8 @@ This document says what the programme records, where, and in what form, so that 
 | Research notebook | One per research attempt: preregistered hypothesis and failure condition, method, sources, result, confidence, review | `notebooks/` beside the work it serves | `research_records.py` |
 | Computation registry | Every computation a claim or notebook relies on, with its reference output | `0-program-methods/records/computations.yaml` | `reproduce.py` in CI |
 | Lean verification log | Receipts for full Lean builds | `0-program-methods/records/lean-verification-log.md` | `research_records.py` in CI |
-| Claim registry | Claims, dependencies, statuses, failure conditions | `traceability/claims/` | `traceability/scripts/build.py` in CI |
+| Claim registry | Claims, dependencies, statuses, failure conditions, linked Lean theorems with their axioms | `traceability/claims/` | `traceability/scripts/build.py` in CI |
+| Programme baseline | Every claim with its status, proof basis, computations, notebooks, and the gaps the records show; generated, never hand-edited | `traceability/generated/baseline.md` | `build.py` freshness check in CI |
 | Source verification | Verification state of every reference | `references/verification-status.md` | review |
 | Reviews | Adversarial and external reviews with responses | `reviews/` | review |
 | Appraisal log | Whether the programme is progressive or degenerating | `3-prediction/appraisal.md` | review |
@@ -82,6 +83,11 @@ Lean verification is performed by **thinx-muse**, which holds the pinned toolcha
 - A full `lake build`, with `#print axioms` for every theorem that a claim marks `proven`, is recorded as a receipt in the [Lean verification log](records/lean-verification-log.md).
 - A pull request that changes `formalization/` cannot merge without a PASS receipt for the tree it would merge. Request one from thinx-muse through the bridge, naming the pull request.
 - A claim's `proof_status: verified` rests on a receipt. The current tree's receipt status is reported on every CI run.
+- A Lean theorem a claim marks `proven` carries `axioms`: the list `#print axioms` reports, copied from the receipt, `[]` if none. The build derives its **proof basis**: Lean standard axioms only (`propext`, `Classical.choice`, `Quot.sound`), or resting on project axioms. The basis concerns axioms only; what the theorem does and does not establish is stated in the claim's statement and notes. Receipts name each audited theorem in full, and CI warns when a `proven` theorem is not named in a PASS receipt for the current tree.
+
+## 5a. Programme baseline
+
+`traceability/generated/baseline.md` is the standing claim-by-claim baseline, generated from the claim registry, the computation registry, and the notebooks. It changes only when those records change, so it cannot drift from them; CI fails if it is stale. After changing a claim, the computation registry, or a notebook, run `python3 traceability/scripts/build.py` and commit the regenerated reports. Its last section lists the gaps the records show: verified claims with no linked evidence, theorems resting on project axioms, axioms stated in prose only, predictions with no registered computation, computations that serve no claim, open notebooks, and red-team passes not yet recorded.
 
 ## 6. Running the checks
 
