@@ -236,7 +236,7 @@ def lean_receipts(root: Path = ROOT) -> tuple[list[dict], list[str]]:
             err.append(f"{LEAN_LOG}:{n}: a PASS receipt must record 0 sorry")
         if blank(verifier) or blank(toolchain) or blank(command) or blank(axioms):
             err.append(f"{LEAN_LOG}:{n}: toolchain, command, axioms, and verifier are required")
-        rows.append({"tree": tree, "result": result, "line": n})
+        rows.append({"tree": tree, "result": result, "line": n, "text": f"{command} {axioms}"})
     return rows, err
 
 
@@ -259,6 +259,23 @@ def check_lean_receipt(pr_base: str | None, rows: list[dict], root: Path = ROOT)
     if tree and tree not in passed:
         warn.append(f"no PASS Lean receipt for the current formalization tree {tree}")
     return err, warn
+
+
+def check_receipt_coverage(rows: list[dict], root: Path = ROOT) -> list[str]:
+    """Each Lean theorem a claim marks proven should be named, in full, in a PASS receipt
+    for the current formalization tree. Reported as a warning: receipts are free text."""
+    import yaml
+    tree = formalization_tree("HEAD", root)
+    texts = [r["text"] for r in rows if r["result"] == "PASS" and r["tree"] == tree]
+    warn = []
+    for p in sorted((root / "traceability/claims").glob("*.yaml")):
+        c = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        for a in (c.get("formal_artifacts") or {}).get("lean", []):
+            sym = a.get("symbol", "")
+            if a.get("status") == "proven" and not any(re.search(rf"(?<![\w.]){re.escape(sym)}(?!\w)", t) for t in texts):
+                warn.append(f"{p.stem}: proven theorem `{sym}` is not named in full in a PASS receipt for the current "
+                            f"formalization tree ({LEAN_LOG})")
+    return warn
 
 
 def check_sessions(root: Path = ROOT) -> list[str]:
@@ -289,6 +306,8 @@ def run(pr_base: str | None = None, root: Path = ROOT) -> tuple[list[str], list[
     e, w = check_lean_receipt(pr_base, rows, root)
     err += e
     warn += w
+    if tree_receipted := any(r["result"] == "PASS" and r["tree"] == formalization_tree("HEAD", root) for r in rows):
+        warn += check_receipt_coverage(rows, root)
     err += check_sessions(root)
     run.summary = (f"research records: {len(notebooks)} notebook(s), {len(cmp_ids)} registered computation(s), "
                    f"{len(rows)} Lean receipt(s)")

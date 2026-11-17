@@ -19,11 +19,15 @@
           "symbol": "A"
         },
         {
+          "axioms": [],
           "file": "TrtFormalization/Core/Primitives.lean",
           "status": "proven",
           "symbol": "actual_is_actualizable"
         },
         {
+          "axioms": [
+            "Trt.Core.actualizable_is_l3_admissible"
+          ],
           "file": "TrtFormalization/Core/Primitives.lean",
           "status": "proven",
           "symbol": "actual_is_l3_admissible"
@@ -317,6 +321,68 @@
   "ONT-002": {
     "depends_on": [],
     "epistemic_status": "argued",
+    "formal_artifacts": {
+      "lean": [
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma1_LI_without_A"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma2_LA_without_I"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma3_IA_without_L"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "cpit_pair_failure"
+        },
+        {
+          "axioms": [
+            "propext"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lawful_modelNoA"
+        },
+        {
+          "axioms": [],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lawful_modelNoI"
+        },
+        {
+          "axioms": [
+            "propext"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "not_lawful_modelNoL"
+        }
+      ]
+    },
     "id": "ONT-002",
     "name": "Three Irreducible Co-Primitives",
     "notes": "Canonical normalization under WP-TRT-CORE-0001. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.",
@@ -387,6 +453,46 @@
       }
     ],
     "epistemic_status": "argued",
+    "formal_artifacts": {
+      "lean": [
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma1_LI_without_A"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma2_LA_without_I"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "lemma3_IA_without_L"
+        },
+        {
+          "axioms": [
+            "propext",
+            "Quot.sound"
+          ],
+          "file": "TrtFormalization/Core/Irreducibility.lean",
+          "status": "proven",
+          "symbol": "cpit_pair_failure"
+        }
+      ]
+    },
     "id": "ONT-004",
     "name": "Synthetic Necessity of the Triad",
     "notes": "A is independently characterized as non-temporal state transition/change. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.",

@@ -199,6 +199,24 @@ def test_lean_receipt_gate():
     assert err == [] and not any("no PASS Lean receipt" in w for w in warn), (err, warn)
 
 
+def test_receipt_names_each_proven_theorem():
+    r = Repo()
+    r.write("formalization/A.lean", "theorem my_theorem : True := by trivial\n")
+    r.write("traceability/claims/ABC-001.yaml", "id: ABC-001\nformal_artifacts:\n  lean:\n"
+            "    - { file: A.lean, symbol: my_theorem, status: proven, axioms: [] }\n")
+    r.commit("claim and proof")
+    tree = r.git("rev-parse", "HEAD:formalization")
+    head = r.git("rev-parse", "HEAD")[:7]
+    log = (r.root / rr.LEAN_LOG).read_text()
+    r.write(rr.LEAN_LOG, log + f"| 2026-11-20 | {tree} | {head} | lean4:v4.28.0 | lake build | 0 | none (abbrev: my) | PASS | thinx-muse | ci |\n")
+    r.commit("receipt without the name")
+    assert any("`my_theorem` is not named in full" in w for w in r.check()[1])
+    log = (r.root / rr.LEAN_LOG).read_text()
+    r.write(rr.LEAN_LOG, log + f"| 2026-11-20 | {tree} | {head} | lean4:v4.28.0 | #print axioms my_theorem | 0 | none (my_theorem) | PASS | thinx-muse | ci |\n")
+    r.commit("receipt naming it")
+    assert not any("not named in full" in w for w in r.check()[1])
+
+
 def test_lean_log_rows_validated():
     r = Repo()
     log = (r.root / rr.LEAN_LOG).read_text()

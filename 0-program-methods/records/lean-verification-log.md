@@ -11,7 +11,7 @@ Receipts for full Lean builds of `formalization/`. Rules: [research-records.md](
 1. Update the pull request branch from `main`, so the branch tree is the tree that will merge.
 2. Compute the tree hash: `git rev-parse HEAD:formalization`. It changes only when `formalization/` changes, so adding a row to this file outside that directory leaves it intact.
 3. Run the full build, `lake build` from `formalization/`, and `#print axioms` for every theorem a claim's `formal_artifacts` marks `proven`.
-4. Append one row. A PASS row records 0 `sorry`. List the axioms reported, or `none`. Evidence is a link to the build log, CI run, or bridge message.
+4. Append one row. A PASS row records 0 `sorry`. Name each audited theorem in full, with the axioms reported for it, or `none`. Evidence is a link to the build log, CI run, or bridge message.
 5. Commit the row to the same pull request.
 
 A FAIL row is kept: it is the record that a build was attempted and failed.
