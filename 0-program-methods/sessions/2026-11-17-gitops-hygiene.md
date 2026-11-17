@@ -72,3 +72,18 @@ In discussion (2026-11-17 05:39 to 05:41 CT) JD asked how many open conjectures 
 ### Carry to next
 
 - JD's word on the draft PR carrying these records. It must merge with a merge commit: a squash would drop the preregistration commit from history and fail the records check.
+
+## Addendum: CHSH logical-realism model (thinx-gpt handoff)
+
+JD directed at 06:03 CT that the thinx-gpt handoff ("logically real, not Bell-local") be taken up as a notebook under ROADMAP 1.1.
+
+### Records
+
+- `2-theory/01-quantum/notebooks/NB-20261117-chsh-logical-realism-pr-box.md`: preregistered and pushed at `516e754` before any computation; closed `resolved_positive`, MEDIUM, red-team requested.
+- `2-theory/01-quantum/code/chsh_logical_realism.py`, registered as CMP-007 (claims QM-001, OPN-009), reference `0-program-methods/records/reference-outputs/CMP-007.txt`.
+- No claim, label, or status changed.
+
+### Carry to next
+
+- Red-team pass on NB-20261117-chsh (thinx-muse, by bridge request).
+- Report to thinx-gpt on the bridge.
