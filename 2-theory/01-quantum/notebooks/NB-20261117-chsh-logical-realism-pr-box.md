@@ -35,7 +35,7 @@ failure_condition: >
   contradicting Craig et al. (2007) or exposing an error in this setup; (c) no Hermitian joint
   quantal measure with decoherent measured partitions reproduces the PR box, so that strong
   positivity is not what excludes PR boxes in this framework.
-preregistered_commit: pending
+preregistered_commit: 516e754e179168b3fe90a95e7947235c15bc5bbc
 method: >
   (1) Check H1 directly: the PR box p(ab|xy) = 1/2 when a XOR b = xy, else 0; verify each
   run's record is a consistent bivalent pair and that marginals are uniform. (2) H2: enumerate
