@@ -5,7 +5,7 @@
 **Companion to** the programme charter ([`TRT-charter.md`](TRT-charter.md), filed 2026-11-09, amended 2026-11-12 and 2026-11-16) and the position paper *Triadic Reality Theory* (v0.10).
 
 **JD Longmire**
-Independent Researcher
+Senior Technical Fellow, Aerospace and Defense Sector
 ORCID: 0009-0009-1383-7698
 Correspondence: jdlongmire@outlook.com
 
