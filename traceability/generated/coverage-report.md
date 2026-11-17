@@ -23,7 +23,8 @@
 - **axiomatized**: 3
 - **imported**: 2
 - **open**: 8
-- **prose_only**: 8
+- **prose_only**: 6
+- **verified**: 2
 
 ## By epistemic status
 
@@ -42,9 +43,9 @@
 | LOG-001 | 1 | primitive | axiomatized | established | L₃ as Ontological Admissibility Constraint |
 | LOG-002 | 1 | primitive | prose_only | argued | Denial of L₃ is Self-Refuting |
 | ONT-001 | 1 | primitive | prose_only | argued | Canonical R-D-X Architecture |
-| ONT-002 | 1 | primitive | prose_only | argued | Three Irreducible Co-Primitives |
+| ONT-002 | 1 | primitive | verified | argued | Three Irreducible Co-Primitives |
 | ONT-003 | 1 | primitive | axiomatized | argued | Representability-Actualizability Distinction |
-| ONT-004 | 1 | primitive | prose_only | argued | Synthetic Necessity of the Triad |
+| ONT-004 | 1 | primitive | verified | argued | Synthetic Necessity of the Triad |
 | OPN-001 | 2 | open | prose_only | open | Formalize Co-Admissibility (Task 0.1) |
 | OPN-002 | 2 | open | open | open | Actualization-Resolution Keystone |
 | OPN-003 | 2 | open | open | open | Derivation / Recovery of Known Physics |

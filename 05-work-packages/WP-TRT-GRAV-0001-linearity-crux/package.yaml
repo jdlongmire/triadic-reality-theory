@@ -1,0 +1,127 @@
+id: WP-TRT-GRAV-0001
+title: Resolve the linearity crux for the co-admissibility measure on a finite relational graph
+status: proposed
+commitment: stretch
+governing_objective: >
+  Determine, from the structure of L3 rather than by imposition, whether the natural
+  measure of co-admissibility / cycle-closure failure on a finite relational structure
+  is linear in the holonomy deficit (raw obstruction) or quadratic (best-fit residual),
+  and record the consequence for the gravity conjecture either way.
+scope: >
+  ROADMAP Task 3.1, the gravity descendant of Task 0.1. The reduction chain is already
+  established in the corpus (ROADMAP Tier 3; 2-theory/03-gravity/): Lovelock reduces
+  deriving GR to showing the co-admissibility measure D[chi] localizes to a second-order,
+  metric-only, local, 4D object; holonomy identification puts the geometry in
+  loop-consistency of relational transport; Regge calculus is the existence proof that
+  a measure linear in the deficit gives exactly Einstein-Hilbert. The whole gravity
+  question therefore reduces to one decidable combinatorial question: define joint
+  L3-satisfiability on a finite relational graph with explicit group-valued edge
+  transformations, define the measure of cycle-closure failure that the structure of
+  L3 itself supplies, and determine its order in the deficit.
+
+  Registry position: OPN-002 (Actualization-Resolution Keystone) carries the fork,
+  including the measurement-side coupling (obstruction-registering pairs with
+  projective-measurement-free actualization; best-fit projective pairs with projective
+  measurement) and the 2026-06-26 cross-sector conditional. OPN-001 records that the
+  decoherence instantiation of Task 0.1 resolved to re-description across four attempts
+  and that the root's surviving discriminating value rests on this gravity side, with
+  the shared free-measure hazard lowering its prior. This package is the gravity-side
+  remainder of Task 0.1: the measure definition attempted here is the same object the
+  decoherence arm failed to supply without a witness, and the package must say plainly
+  if the same hazard decides this arm too.
+
+  Existing inputs, not to be redone: the derivation skeleton, the D[chi] attempt, the
+  linearity-crux and relational-graph-test documents (2-theory/03-gravity/), the
+  gravity red-team (reviews/2026-06-redteam-gravity/), and the re-scoped sheaf probe
+  (2-theory/00-foundational/actualization-resolution-sheaf-probe.md), whose red-team
+  established that the possibilistic layer cannot separate the horns because the fork
+  is about the deficit's magnitude functional. The probe is admissible only under its
+  re-scoped success criterion.
+authority_boundary: >
+  Internal mathematical construction, computation, and adversarial review are
+  authorized. This package does not authorize changing the hard core, any claim, or
+  any confidence label on its own findings; label moves (including any move on the
+  gravity conjecture, PRD-002) follow from its disposition only through the programme
+  lead's ruling. No laboratory work, external communication, or publication is
+  authorized. Continuum-limit and frame-group assumptions (ROADMAP Task 3.2) are
+  shared discrete-gravity assumptions: they may be used if named, and results must be
+  stated as conditional on them where they are used.
+dependencies:
+  - OPN-001 (root task; gravity side)
+  - OPN-002 (keystone fork)
+  - 2-theory/03-gravity working documents (existing reductions)
+traceability:
+  claims: [OPN-001, OPN-002, PRD-002]
+  roadmap: [Task 0.1 (gravity side), Task 3.1, Task 3.2 (assumptions register)]
+actions:
+  - >
+    Fix the finite setting: a finite relational graph, explicit group-valued edge
+    transformations (state the group and why it is the weakest adequate choice), and
+    a definition of joint L3-satisfiability as cycle-closure of relational transport,
+    following the relational-graph-test document. Any strengthening of the setting
+    beyond the existing documents must be flagged as new input.
+  - >
+    Derive the candidate measure of cycle-closure failure from the structure of L3:
+    L3 registers contradiction; the candidate must be built from what a raw deficit of
+    joint satisfiability is, before any norm on a configuration space is available.
+    Enumerate the candidate functionals the setting actually offers (for example raw
+    deficit magnitude, squared deficit, entropic forms), and for each state whether
+    its construction imports a metric or witness that L3 does not supply.
+  - >
+    Determine the order of the natural measure: prove or compute, on the finite
+    graph, whether the L3-supplied measure is linear or quadratic in the deficit, or
+    show that the setting underdetermines the order and name the extra input that
+    would decide it. A computation over representative finite graphs is admissible
+    evidence if the class of graphs and the robustness checks are stated.
+  - >
+    Audit for the decoherence arm's failure mode: check the surviving candidate
+    against the re-description test that closed OPN-001's decoherence instantiation.
+    If the measure discriminates only after adopting a witness (a norm, a metric, a
+    preferred decomposition), record that as the Attempt-4 pattern recurring, not as
+    a resolution.
+  - >
+    State the consequence on each horn, conditionally and without promotion: linear
+    (Einstein-Hilbert route open, subject to Task 3.2 assumptions; discriminating
+    consequence: no higher-curvature corrections from this mechanism) or quadratic
+    (Bianconi-class corrections; gravity conjecture downgraded to derivation of a
+    GR-limiting modified gravity; the ROADMAP section 4 linearity argument refuted).
+  - >
+    Answer the keystone's stage-2 framing question as far as this package's result
+    bears on it: whether projective Born selection is fundamental to A or an overlay
+    (the cross-sector conditional in OPN-002). This package need not settle it, but
+    its disposition must state what its result implies for that question, since the
+    Born package (WP-TRT-BORN-0001, draft) opens on the answer.
+  - >
+    Red-team the result: the strongest case that the linearity was imposed by the
+    setting (group choice, graph class, deficit definition) rather than derived from
+    L3, and the strongest case that the quadratic horn was reached by smuggling a
+    norm. Both attacks must be answered or conceded in the disposition.
+verification: >
+  Done requires a committed disposition that defines the finite setting and the
+  measure, proves or computes its order with stated robustness, runs the
+  re-description audit, states the conditional consequence on the gravity conjecture
+  and the implication for the stage-2 keystone question, and answers the red-team
+  pass. Derivations must include the dependency check the ROADMAP requires
+  (acyclic; no use of the continuum result inside the finite argument). Code, if any,
+  must be reproducible from committed artifacts. Traceability updates are proposed in
+  the disposition and effected only on the programme lead's ruling.
+failure_conditions:
+  - >
+    The package's motivating claim fails if the natural measure is quadratic or
+    higher with no logical motivation for linearity: then the linearity argument
+    (ROADMAP Tier 3, item 4) stands refuted, TRT's gravity route gives Bianconi-class
+    modified gravity rather than exact GR, and the disposition must record the
+    downgrade as plainly as a success would be recorded.
+  - >
+    The package fails as research if the order is decided by an imported norm or
+    witness presented as derived: that is the free-measure hazard that resolved the
+    decoherence arm to re-description, and its recurrence here must be recorded as a
+    negative for the measure programme, not dressed as a resolution.
+  - >
+    The package also fails if the finite setting is chosen so that only one horn is
+    expressible in it; a setting that cannot state the quadratic horn cannot decide
+    against it.
+disposition: >
+  PROPOSED 2026-11-12. Highest-leverage physics-facing item per the external review
+  filed 2026-11-12 (move 1). Carries observational content on either horn: presence or
+  absence of higher-curvature corrections at high curvature.

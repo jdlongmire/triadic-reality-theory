@@ -84,7 +84,7 @@ Used to scope [`WP-TRT-FLL-0002`](../05-work-packages/WP-TRT-FLL-0002-adversaria
 
 ## ⚠️ Correction required
 
-- **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 309-336** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 309-336**.
+- **Wheeler — "Information, physics, quantum: The search for links."** The paper currently cites **1989**, in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*, Addison-Wesley. The Addison-Wesley/Zurek volume was published **1990, pp. 3-28** (the 1989 date is the Tokyo *3rd International Symposium on the Foundations of Quantum Mechanics*, a different venue). **Fix applied:** bibliography.bib and the paper reference list updated to **Wheeler, J.A. (1990) … pp. 3-28**. Pagination corrected 2026-10-22: the earlier fix carried the Feynman and Computation reprint pagination; the volume table of contents gives pp. 3-28.
 
 ## Remaining (finalize before v1.0 deposit)
 

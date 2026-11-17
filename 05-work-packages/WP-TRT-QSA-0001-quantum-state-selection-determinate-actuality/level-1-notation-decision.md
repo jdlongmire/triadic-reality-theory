@@ -38,7 +38,7 @@ for a particular representable informational structure. Representability does no
 
 Use the predicate:
 
-$$\operatorname{Inst}(\sigma)$$
+$$\mathrm{Inst}(\sigma)$$
 
 to mean that σ is physically instantiated as a state. This is a predicate, not an independent instantiation engine.
 
@@ -58,7 +58,7 @@ The tuple is analytical structure, not four new primitives. A contradiction test
 
 Freeze:
 
-$$\operatorname{Spec}(\alpha,\sigma,q)$$
+$$\mathrm{Spec}(\alpha,\sigma,q)$$
 
 meaning that action occurrence α, with respect to available or instantiated σ, fixes q as the bounded claim/respect in force.
 
@@ -70,7 +70,7 @@ Specification is downstream, is a role some action occurrences acquire, does not
 
 Freeze:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)$$
+$$\mathrm{Settled}(\alpha,q,\chi_q)$$
 
 meaning that action occurrence α settles bounded claim q as determinate fact χ_q.
 
@@ -104,7 +104,7 @@ QSA makes explicit that L3 constrains determinate χ_q under fixed q. It does no
 
 Candidate direction:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q)\Rightarrow\operatorname{L3Admissible}(\chi_q).$$
+$$\mathrm{Settled}(\alpha,q,\chi_q)\Rightarrow\mathrm{L3Admissible}(\chi_q).$$
 
 The converse is not asserted.
 

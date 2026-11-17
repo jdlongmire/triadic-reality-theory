@@ -18,7 +18,7 @@ $$\boxed{\chi \equiv \mathsf{A}(I_{\infty}\mid L_3)}$$
 </div>
 
 <figure class="ontology-figure" aria-labelledby="lia-caption">
-<div class="grid lia-diagram" role="group" aria-label="Logic, Information, and Action are three co-primitives"><div class="card"><h3>L₃ · Logic</h3><p>Identity, Non-Contradiction, and Excluded Middle function as ontological constraints on determinate actuality.</p></div><div class="card"><h3>I∞ · Information</h3><p>The unbounded domain of representable distinctions, relations, states, and configurations. Representation does not entail actuality.</p></div><div class="card"><h3>A · Action</h3><p>Fundamental state transition or change, defined without presupposing physical time, motion, force, or energy.</p></div></div>
+<div class="grid lia-diagram" role="group" aria-label="Logic, Information, and Action are three co-primitives"><div class="card"><h3>L₃ · Logic</h3><p>Identity, Non-Contradiction, and Excluded Middle function as ontological constraints on determinate actuality, with Excluded Middle binding over propositions over actualized states.</p></div><div class="card"><h3>I∞ · Information</h3><p>The unbounded domain of representable distinctions, relations, states, and configurations. Representation does not entail actuality.</p></div><div class="card"><h3>A · Action</h3><p>Fundamental state transition or change, defined without presupposing physical time, motion, force, or energy.</p></div></div>
 <figcaption id="lia-caption"><strong>L-I-A overview.</strong> Logic constrains, Information differentiates, and Action transitions. TRT proposes all three as irreducible co-primitives of determinate actuality.</figcaption>
 </figure>
 
@@ -36,6 +36,10 @@ Here $R$ is representable content, $D$ is the actualizable domain, and $X/\chi$ 
 ## Choose a framing
 
 <div class="paths"><a class="path" href="{{ '/accessible/' | relative_url }}"><strong>Accessible</strong>Concrete distinctions, constraint, and change. Minimal notation.</a><a class="path" href="{{ '/technical/' | relative_url }}"><strong>Technical & systematic</strong>Definitions, typed architecture, irreducibility, formalization, traceability, physics-facing work, and open burdens.</a></div>
+
+## Featured critical research
+
+[Capacity, Action, and the Limits of Ontological Closure]({{ '/research/struever-capacity-action-ontological-closure/' | relative_url }}) is a formal scholarly examination of Strüver's monoprimitive ontology, its transition-entailment problem, and the evidential requirements for ontological closure.
 
 ## Research status
 

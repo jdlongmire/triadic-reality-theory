@@ -2,7 +2,8 @@ id: LOG-001
 name: L₃ as Ontological Admissibility Constraint
 statement: |
   Identity, Non-Contradiction, and Excluded Middle are proposed as ontological
-  constraints on determinate actuality rather than human conventions. L₃ supplies
+  constraints on determinate actuality rather than human conventions, with
+  Excluded Middle binding over propositions over actualized states. L₃ supplies
   a necessary logical filter; this claim does not assert that L₃ alone is sufficient
   for metaphysical actualizability.
 tier: 1
@@ -19,4 +20,4 @@ external_citations: ["Aristotle, Metaphysics Γ"]
 risk_if_false: |
   If L₃ is merely conventional rather than ontologically constraining, the logical
   constituent of TRT loses its transcendental warrant.
-notes: Normalized under WP-TRT-CORE-0001.
+notes: Normalized under WP-TRT-CORE-0001. Excluded Middle scope per the 2026-11-12 charter/hard-core reconciliation (0-program-methods/sessions/2026-11-12-charter-hardcore-reconciliation.md).

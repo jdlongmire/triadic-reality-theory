@@ -7,7 +7,7 @@ statement: |
   loses differentiated content, and removing A loses fundamental transition.
 tier: 1
 role: primitive
-proof_status: prose_only
+proof_status: verified
 epistemic_status: argued
 depends_on:
   - { claim_id: ONT-002, dependency_type: logical }
@@ -16,4 +16,4 @@ source_documents:
 risk_if_false: |
   If the necessity follows only from stipulated definitions, or a constituent
   can be removed without loss, the hard-core necessity claim fails.
-notes: A is independently characterized as non-temporal state transition/change.
+notes: A is independently characterized as non-temporal state transition/change. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.

@@ -63,7 +63,7 @@ State actuality does not promote every represented alternative/value to a determ
 
 A single physical system may satisfy:
 
-$$\operatorname{Settled}(\alpha_\psi,q_\psi,\chi_{q_\psi})$$
+$$\mathrm{Settled}(\alpha_\psi,q_\psi,\chi_{q_\psi})$$
 
 while also satisfying:
 
@@ -117,13 +117,13 @@ Same L3. Different q.
 
 The earlier generic statement:
 
-$$\operatorname{Inst}(\sigma)\not\equiv\chi_q$$
+$$\mathrm{Inst}(\sigma)\not\equiv\chi_q$$
 
 remains true only when q is some claim distinct from the state-instantiation claim.
 
 For the state claim q_σ:
 
-$$\operatorname{Inst}(\sigma)\Rightarrow\chi_{q_\sigma}$$
+$$\mathrm{Inst}(\sigma)\Rightarrow\chi_{q_\sigma}$$
 
 when the operational warrant for physical instantiation is met.
 
@@ -131,7 +131,7 @@ Therefore physical state-instantiation is already determinate actuality under th
 
 What remains false is:
 
-$$\operatorname{Inst}(\psi)\Rightarrow\chi_q$$
+$$\mathrm{Inst}(\psi)\Rightarrow\chi_q$$
 
 for arbitrary observable/value q.
 

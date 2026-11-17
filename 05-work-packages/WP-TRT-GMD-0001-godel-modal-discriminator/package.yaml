@@ -1,0 +1,33 @@
+id: WP-TRT-GMD-0001
+title: Gödel modal discriminator for representability, admissibility, actualizability, and actuality
+status: complete
+commitment: stretch
+scope: >
+  Use Gödel's 1949 rotating cosmological solution as a disciplined worked case for TRT's
+  typed R-to-D-to-X architecture. Distinguish representability, L3 logical admissibility,
+  theory-relative admissibility under general relativity, metaphysical/physical actualizability,
+  and actuality without promoting theory-relative solutionhood into a new hard-core ontological tier.
+authority_boundary: >
+  This package may add a foundational research note, public technical exposition, bibliography
+  entry, and navigation. It may clarify canonical terminology. It may not assert that L3 is
+  sufficient for D, that every exact GR solution is physically actualizable, that Gödel's
+  cosmology describes our universe, or that closed timelike curves are empirically realized.
+actions:
+  - Verify Gödel 1949 from the primary publication record.
+  - Map the Gödel solution through TRT's typed modal distinctions.
+  - Test the proposed R0-R1-R2a-R2b-R3 ladder against the canonical R-D-X architecture.
+  - Preserve theory-relative admissibility as a predicate within representable/model space rather
+    than silently promoting it to an ontological tier.
+  - State the constraint-instantiation distinction and its bearing on primitive A.
+  - Publish a technical site treatment and link it from the technical framework.
+  - Add the primary source to the repository bibliography.
+verification: >
+  Complete when the primary citation is verified, the research note and public technical page are
+  committed, the technical index links the result, and no artifact equates GR-admissibility with
+  actualizability or actuality.
+disposition: >
+  COMPLETE 2026-10-02. Gödel's 1949 solution is adopted as a worked modal discriminator.
+  The proposed R2a/R2b split is not promoted into the hard-core ontology. Theory-relative
+  admissibility is represented as an additional predicate on members of R. The case supports the
+  constraint-instantiation distinction: satisfaction of a formal or physical theory's constraints
+  does not by itself entail membership in D or obtainment in X/chi.
