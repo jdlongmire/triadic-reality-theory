@@ -18,3 +18,4 @@ A FAIL row is kept: it is the record that a build was attempted and failed.
 
 | Date | Formalization tree | Commit | Toolchain | Command | Sorry | Axioms | Result | Verifier | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-11-17 | `3483109412052bcd8477c6b62efb70de8f822c5f` | `60cf3da88072fa69a9ece48bb4dbf8035a4e642f` | leanprover/lean4:v4.28.0 | `lake build` | 0 | `Trt.Core.actualizable_is_l3_admissible` (declared project axiom, for actual_is_l3_admissible; actual_is_actualizable depends on no axioms) | PASS | thinx-muse | ai-bridge `inbox/thinx-claude/2026-11-17-thinx-muse-trt-pr37-closeout.md` |
