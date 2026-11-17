@@ -52,3 +52,11 @@ computations:
     compare:
       - {kind: stdout, reference: 0-program-methods/records/reference-outputs/CMP-006.txt}
     reference_provenance: baseline captured 2026-11-17 by thinx-claude, the script's author; red-team pass requested, not done
+
+  - id: CMP-007
+    script: 2-theory/01-quantum/code/chsh_logical_realism.py
+    claims: [QM-001, OPN-009]
+    notebook: 2-theory/01-quantum/notebooks/NB-20261117-chsh-logical-realism-pr-box.md
+    compare:
+      - {kind: stdout, reference: 0-program-methods/records/reference-outputs/CMP-007.txt}
+    reference_provenance: baseline captured 2026-11-17 by thinx-claude, the script's author, after preregistration at 516e754; checks 1 to 4 exact or constructive, check 5 a local search; red-team pass requested

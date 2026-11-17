@@ -1,0 +1,16 @@
+1. PR box under per-run logical realism (LR1-LR3) and no-signaling
+   each run yields one definite bivalent record pair: True; normalized: True
+   no-signaling violation: 0.000000
+   S = 4.000000  (Bell-local 2, Tsirelson 2.828427, no-signaling max 4)
+2. Global counterfactual definiteness (one assignment to all four settings per run)
+   maximum S over the 16 deterministic assignments = 2.000000; mixtures cannot exceed it
+3. A decoherence functional reproducing the PR box (real symmetric D, decoherent partitions)
+   constraints 40, unknowns 136, constraint rank 29; solution residual 0.000000
+   reproduces the PR box: S = 4.000000; decoherence residual 0.000000
+   minimum eigenvalue of the minimum-norm solution = -0.062500 (negative: not strongly positive)
+4. Strongly positive joint quantal measure from a Bell state (explicit construction)
+   D = Tr(C_alpha rho C_beta^T): symmetry error 0.000000, minimum eigenvalue 0.000000 (non-negative: strongly positive)
+   decoherence residual 0.000000; S = 2.828427 = 2 sqrt(2)
+5. Strongly positive joint quantal measures: constrained search for S above 2 sqrt(2)
+   D = G G^T (positive semidefinite by construction), 8 seeds, SLSQP
+   largest feasible S found = 2.8284 (Tsirelson 2.8284); exceeds Tsirelson + 1e-6: False

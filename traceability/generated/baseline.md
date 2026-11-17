@@ -6,7 +6,7 @@ This is the standing claim-by-claim baseline. It changes only when the records c
 
 **Proof basis** records which axioms a proven Lean theorem uses, from its `#print axioms` audit. It says nothing about whether the theorem establishes its claim; each claim's statement and notes say what is and is not shown.
 
-**Claims: 30. Registered computations: 6. Notebooks: 2.**
+**Claims: 30. Registered computations: 7. Notebooks: 3.**
 
 By epistemic status: established 2; argued 13; conjectured 4; open 10; refuted_by_redescription 1.
 By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 12.
@@ -38,8 +38,8 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 12.
 | OPN-006 | 2 | open | open | open | none | none | none | Avoid Equivocation (define terms before use) |
 | OPN-007 | 2 | open | open | open | none | none | none | Theology / Metaphysics Boundary Discipline |
 | OPN-008 | 2 | open | open | prose_only | none | CMP-004 | none | ADCE — Dark Energy from Mean Causal Growth |
-| OPN-009 | 2 | open | open | prose_only | none | none | none | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis |
-| QM-001 | 2 | open | open | open | none | none | none | Tsirelson Obligation (strong positivity from the triad) |
+| OPN-009 | 2 | open | open | prose_only | none | CMP-007 | NB-20261117-chsh-logical-realism-pr-box (resolved_positive) | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis |
+| QM-001 | 2 | open | open | open | none | CMP-007 | NB-20261117-chsh-logical-realism-pr-box (resolved_positive) | Tsirelson Obligation (strong positivity from the triad) |
 | QM-002 | 2 | bridge | argued | prose_only | none | none | none | Persistence of Zero (obligation (d')) |
 | PRD-001 | 3 | prediction | refuted_by_redescription | open | none | CMP-003 | NB-20261117-d-only-classification-dilemma (open) | Co-Admissibility Conjecture (incompatible channels) |
 | PRD-002 | 3 | prediction | conjectured | open | none | none | none | Gravity Linearity Test (GR vs modified gravity) |
@@ -76,4 +76,5 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 12.
 - PRD-004: prediction with no registered computation.
 - CMP-005: registered computation serves no claim (no owning claim is recorded for this witness; to be assigned when its notebook is opened).
 - CMP-006: registered computation serves no claim (the charter's order-difference falsification (former working-notes section 4.5), cited by the charter).
+- NB-20261117-chsh-logical-realism-pr-box: red-team pass requested 2026-11-17, not yet recorded.
 - NB-20261117-d-only-classification-dilemma: open.
