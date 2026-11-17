@@ -1,0 +1,109 @@
+id: WP-TRT-FORM-0001
+title: Make every proposed bridge in the formalization either a theorem or a marked open assumption
+status: proposed
+commitment: stretch
+governing_objective: >
+  Extend the Lean formalization's existing discipline (it encodes the admissibility
+  direction and refuses to encode L3-sufficiency) into a complete, machine-checked
+  ledger: every proposed bridge between the hard core and physics-facing results is
+  either proved in the formalization or present in it as an explicitly named,
+  status-carrying open assumption, so that no protective-belt result can silently
+  assume sufficiency or redefine the hard core.
+scope: >
+  This is the executable form of move 4 of the external critical review filed
+  2026-11-12, and of the standing discipline the programme response reaffirmed: the
+  Lean core encodes actualizable implies L3-admissible as an axiom and deliberately
+  does not encode the converse (formalization/TrtFormalization/Core/Primitives.lean);
+  WP-TRT-CORE-0001's verification forbids stating that L3 is sufficient for D without
+  a proof; and the CPIT formalization (2026-11-12) showed the working standard: three
+  countermodels, an axiom audit printed verbatim, and a results note that records
+  exactly what was not proved.
+
+  The package has three parts. (1) A bridge inventory: enumerate every proposed bridge
+  the belt currently leans on or has named, including the co-admissibility measure
+  (Task 0.1 / OPN-001), the covariant actualization-rate scalar (Task 0.2 / OPN-005),
+  the sufficiency question for D (are conditions beyond L3 required for
+  actualizability; CORE-0001's modal-smuggling residual burden, to be answered without
+  circular modal vocabulary), the A-to-obtaining connection (CORE-0001's circularity
+  residual burden), and non-temporal transition ordering (CORE-0001's temporal
+  residual burden). (2) A Lean encoding pass: for each bridge, either prove it, or
+  introduce it as a named assumption in a dedicated assumptions module, with its
+  statement kept separate from the hard-core primitives so the dependency of every
+  theorem on every assumption is visible to the axiom audit. (3) An audit pass: for
+  every theorem in the formalization, print its axiom and assumption dependencies and
+  record them in the results note, so the formalization's total exposure is a
+  published list, not an impression.
+
+  Out of scope: proving the physics-facing bridges themselves. Where a bridge is a
+  physics task (the measure, the rate scalar), this package marks it and states what
+  a proof would have to deliver; the proving belongs to the owning packages
+  (WP-TRT-GRAV-0001 for the gravity-side measure; the recovery packages for the rest).
+authority_boundary: >
+  Internal formalization work and documentation are authorized. This package does not
+  authorize changing the hard core's claims, weakening any existing refusal (the
+  sufficiency direction stays unencoded as a theorem under all circumstances; it may
+  appear only as a named open assumption), or promoting any assumption to a result.
+  Assumption statements must be reviewed against the hard core before encoding, since
+  a badly stated assumption can smuggle the conclusion more quietly than a proof can.
+dependencies:
+  - formalization/TrtFormalization (Lean core, incl. Core/Irreducibility.lean)
+  - WP-TRT-CORE-0001 (complete; residual burdens are this package's inventory seed)
+  - WP-TRT-CORE-0002 (draft; the elimination test's terms should match this ledger)
+traceability:
+  claims: [ONT-002, ONT-003, OPN-001, OPN-005]
+  roadmap: [Task 0.1 (formal status), Task 0.2 (formal status)]
+actions:
+  - >
+    Build the bridge inventory from the corpus: every place a belt or theory document
+    uses a result the formalization does not have (search terms include sufficiency,
+    measure, rate, scalar, bridge, ordering), each entry with its source document,
+    its current status (prose only, axiomatized, assumed silently, proved), and its
+    owning task or package.
+  - >
+    Review each candidate assumption statement against the hard core and the
+    2026-11-12 reconciliation (A is fundamental non-temporal state transition, not
+    defined as actualization; Excluded Middle scoped to propositions over actualized
+    states), and record the review. An assumption that cannot be stated without
+    violating the reconciliation is itself a finding and goes in the results note.
+  - >
+    Encode: create the assumptions module; state each unproved bridge there as a
+    named assumption with a status comment; prove what is provable at the formal
+    level (type-level and definitional consequences only, honestly labelled); wire
+    the module so downstream theorems declare their dependence explicitly.
+  - >
+    Audit: run the axiom audit across the formalization, including the CPIT module,
+    and publish the dependency table in the results note. Any theorem found to depend
+    on an unmarked assumption is a defect to be fixed in this package, and its
+    discovery is reported, not quietly repaired.
+  - >
+    Write the sufficiency register: a short document stating, for D, exactly which
+    conditions are known necessary, which are merely assumed, and which are open,
+    in canonical vocabulary, suitable for citation by other packages.
+verification: >
+  Done requires the committed inventory, the assumptions module building clean under
+  the repository's Lean checks with zero sorry outside explicitly marked assumption
+  declarations, the published dependency table, and the sufficiency register. The
+  formalization must still refuse the sufficiency direction as a theorem. Repository
+  checks (Lean, traceability build, math lint) must pass; the results note must
+  record the audit output verbatim, following the CPIT results note as the format
+  precedent.
+failure_conditions:
+  - >
+    The package fails if any bridge survives it still silently assumed: an inventory
+    that misses a load-bearing assumption is worse than none, because it certifies a
+    completeness it does not have. The inventory method (search plus dependency
+    tracing from the belt documents) must therefore be stated and its limits
+    conceded in the results note.
+  - >
+    The package fails if marking is cosmetic: an assumption encoded in a form
+    stronger than the prose claim it marks (for example, an assumption that quietly
+    includes the sufficiency direction) reproduces the original defect inside the
+    ledger. Assumption statements weaker than or equal to their prose sources, and
+    the review that checked them, are the deliverable's substance.
+  - >
+    The package fails if it promotes: no assumption marked under this package may be
+    cited downstream as established. A downstream citation of a marked assumption as
+    a result is a defect this package's register exists to expose.
+disposition: >
+  PROPOSED 2026-11-12. Supports WP-TRT-CORE-0002 and WP-TRT-GRAV-0001 by giving both a
+  machine-checkable ledger to answer to; gates nothing.
