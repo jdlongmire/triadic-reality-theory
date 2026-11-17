@@ -1,315 +1,174 @@
-# Triadic Reality Theory: Research Program and Repository Plan
+# Triadic Reality Theory: Research Programme Roadmap
 
 > **Canonical semantic invariant (2026-09-29):** WP-TRT-CORE-0001 governs active TRT terminology. L₃, I∞, and A are the three irreducible co-primitives. L₃ is necessary ontological constraint; I∞ is unbounded representability/informational differentiation; A is fundamental non-temporal state transition/change. Representability, L₃-admissibility, actualizability, and actuality must remain typed distinctions. No protective-belt result may silently assume that L₃-coherence is sufficient for actualizability or redefine A as “actuality by definition.”
 
-**Companion to** *Triadic Reality Theory: Finite Logic, Infinite Information, and Actualizing Action as the Foundation of Physical Reality* (v0.9)
+**Companion to** the programme charter ([`TRT-charter.md`](TRT-charter.md), filed 2026-11-09, amended 2026-11-12 and 2026-11-16) and the position paper *Triadic Reality Theory* (v0.10).
 
 **JD Longmire**
 Independent Researcher
 ORCID: 0009-0009-1383-7698
 Correspondence: jdlongmire@outlook.com
 
-**Document status:** Living planning document. Version 0.2.
+**Document status:** Living planning document. Version 0.3 (2026-11-17), rebased on the charter.
 
 ---
 
 ## Purpose
 
-The position paper establishes Triadic Reality Theory as a coherent foundational ontology with two physics-facing conjectures. It does not establish TRT as a formal theory. The paper itself names this gap repeatedly and treats it as the defining feature of the work ahead.
+This document orders the programme's work. It governs nothing. Where it and a governing text differ, the governing text stands:
 
-This document converts that gap into a structured program. It states what would have to be true for TRT to advance from ontology to formalized theory, orders the work by tractability and dependency, specifies the repository that will hold it, and sets the terms on which others can contribute. It is deliberately honest about what is conjecture, what is open, and what would count as failure, because the credibility of the program depends on those distinctions being maintained rather than blurred as the work proceeds.
+- the hard core, [`1-hypothesis/hard-core.md`](../1-hypothesis/hard-core.md);
+- the charter and objective, [`TRT-charter.md`](TRT-charter.md) and [`TRT-objective.md`](TRT-objective.md), with their amendment records;
+- the rulings records under [`sessions/`](sessions/), most recently [`2026-11-16-reconciliation-rulings.md`](sessions/2026-11-16-reconciliation-rulings.md);
+- the methodology, [`METHODOLOGY.md`](METHODOLOGY.md) and [`research-practices.md`](research-practices.md).
 
-The programme's governing empirical objective is the
-[TRT Fundamental Laws of Logic Physical Hypothesis](TRT-FLL-PHYSICAL-MODEL.md): physical
-informational actualization is bivalent, and one reproducible irreducible $B$ or $N$ actualization
-would falsify the model's physical exclusion rule. Co-admissibility, gravity, variational work,
-rival models, and historical
-surveys are subordinate research paths; none may displace or silently strengthen that hypothesis.
+The measure of progress is unchanged from v0.2: a named conjecture becomes a theorem, a testable result, or a recorded failure. A recorded failure is progress, and is written down as plainly as a success.
 
-Within those paths, conceptual elaboration is no longer the bottleneck. Three independent reviews
-of the position paper converged on the same conclusion: additional philosophical exposition adds
-weight without rigor. The priority is operationalization and formalization, and the measure of
-progress is whether a named conjecture becomes either a testable result, a theorem, or a recorded
-failure. The immediate FLL-facing instrument is the
-[Empirical Falsification Ledger](../3-prediction/fll-empirical-falsification-ledger.md).
-Its adversarial source map begins with
-[`Non-Bivalent Physics`](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md).
-The next operational increment is
-[`WP-TRT-FLL-0002`](../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml),
-which must produce one contrastive protocol or an explicit negative disposition before any law
-status is reconsidered.
+Version 0.2 was a companion to paper v0.9. It made the formalization of co-admissibility the root of the programme and the FLL hypothesis its governing empirical objective. The charter supersedes both. The tested forms of co-admissibility returned a recorded negative in June 2026, the charter now governs over the FLL objective and carries its falsifier as failure condition 4, and spacetime is now recovered from the order of A-events. Section 4 records where each v0.2 task went.
 
 ---
 
-## 1. Current Status
+## 1. Current status
 
-TRT v0.9 is a position paper. Its load-bearing assets are the following.
+The standing claim-by-claim status is the generated [programme baseline](../traceability/generated/baseline.md), built from the claim registry, the computation registry, and the research notebooks. This section summarises it at 2026-11-17 and is not maintained between versions; the baseline is.
 
-The four-tier distinction (representable, admissible, actual, outcome-actual) is the central engine. It carries the treatment of dialetheism, quantum superposition, the Pusey-Barrett-Rudolph theorem, measurement, black holes, and mathematical foundations. It is conceptually stable and does real work.
+**Machine-checked.** The pair-failure half of the Co-Primitive Irreducibility Theorem is proved in Lean (`Core/Irreducibility.lean`), relative to its stated constitutive conditions, using Lean's standard axioms only (ONT-002, ONT-004). In the core, `actual_is_l3_admissible` is proved only from the project axiom `actualizable_is_l3_admissible`, which restates the hard core's necessity direction (ACT-001). Every registered computation reproduces in CI.
 
-Two physics-facing conjectures exist, both honestly labeled as unproven:
+**Recorded negatives.**
 
-- The **co-admissibility conjecture** (paper §13.1), concerning pointer-state selection under incompatible decoherence channels. Confidence LOW; one component UNCERTAIN pending formalization.
-- The **gravity co-admissibility conjecture** (paper §13.4, developed in §10.1), concerning whether global co-admissibility forces the constraint structure of general relativity. Confidence LOW; UNCERTAIN pending formalization.
+- The decoherence form of the Co-Admissibility Conjecture re-describes einselection (PRD-001, `refuted_by_redescription` for the tested forms). OPN-001 stays open at the root.
+- The gravitational order-difference channel cannot leave interference intact. It predicts collapse of electron superpositions about twenty orders of magnitude too fast, with G cancelling exactly. Recorded at MEDIUM confidence because its failure condition was fixed after the result; an independent red-team pass confirms it (review record in PR #40).
 
-One retrodiction is offered at moderate confidence: the effectiveness of mathematics (paper §9.5), with a weaker companion retrodiction concerning the discipline of foundational mathematics (§3.4.2, MEDIUM).
+**Axiomatized in prose only.** The condition of actualization (ACT-002), the source commitment (INT-001), the logical closure of preclusion (LOG-003), and discreteness and local finiteness of the A-order (PHY-001) are stated as axioms without Lean declarations.
 
-The variational apparatus (paper §5) is explicitly a desideratum, not a derivation. No Lagrangian form, no equations of motion.
+**Not yet attempted or open.** Strong positivity from the triad (QM-001), the selection rule's record threshold (ACT-003, PRD-004), the gravity measure on the A-order (PRD-002), the Born measure (OPN-004), recovery of known physics (OPN-003), and cosmological dynamics (OPN-008).
 
-What TRT does not yet have: a single formalized criterion that computes a definite result, a recovered piece of known physics, or a discriminating prediction that has survived contact with data. The program below is organized around producing the first of these, because the second and third depend on it.
-
----
-
-## 2. Research Roadmap
-
-The roadmap is ordered by dependency and tractability. Earlier items gate later ones. Each item states its target, its prerequisite, its failure condition, and its current confidence. The discipline of stating failure conditions is carried over from the paper and is not optional: an item without a failure condition is not a research task but a hope.
-
-### Tier 0: Foundational Formalization (prerequisite for everything downstream)
-
-**0.1 Formalize co-admissibility.**
-The single highest-leverage task. Define co-admissibility as a criterion that takes a collection of physical constraints (channel structure, conserved quantities, coupling data) and computes a definite set of admissible structures, with no free entanglement measure.
-- *Target:* a criterion *C(constraints) → admissible set* that is well-defined, computable, and measure-independent.
-- *Prerequisite:* none. This is the root.
-- *Failure condition:* if no formalization can avoid reintroducing a free measure, or if every formalization reduces to the existing einselection optimization, the co-admissibility program collapses to re-description and both physics conjectures lose their discriminating content.
-- *Confidence that a formalization exists:* UNCERTAIN. This is the make-or-break task.
-
-**0.2 Define a covariant measure of actualization rate or density.**
-Required by the dynamic leg of the gravity treatment (paper §10.1.3) and by the energy-as-action-rate identification (§6.2).
-- *Target:* a covariant scalar quantifying actualization rate or density across relational structure.
-- *Prerequisite:* none, but informed by 0.1.
-- *Failure condition:* if no covariant measure can be defined, the curvature-as-actualization-gradient claim remains permanently schematic and the gravity dynamic leg cannot be developed.
-- *Confidence:* LOW.
-
-### Tier 1: First Discriminating Result (depends on 0.1)
-
-**1.1 Compute co-admissibility for the incompatible-channel case.**
-Apply the formalized criterion from 0.1 to the cavity-field system with two incompatible decoherence channels (number-basis and coherent-state-basis), the Feller-Coeuret Cauquil-Roussel (2020) setup.
-- *Target:* a definite predicted pointer set, comparable against the analytically known critical coupling at which Fock-state optimality ends.
-- *Prerequisite:* 0.1.
-- *Failure condition:* if the prediction contradicts the known critical coupling, the criterion is falsified. If it merely reproduces the einselection optimization, the criterion is not discriminating.
-- *Confidence:* gated entirely by 0.1.
-
-This is the first point at which TRT could produce a result that is either a confirmation or a falsification rather than an interpretation. It is the program's first genuine physics milestone.
-
-### Tier 2: Variational Structure (depends on 0.1, 0.2)
-
-**2.1 Specify the Lagrangian density over χ.**
-Give *L(χ, ∂χ, L₃)* a definite form, replacing the schematic expression of paper §5.
-- *Target:* a Lagrangian from which equations of motion follow.
-- *Prerequisite:* 0.1, 0.2.
-- *Failure condition:* if no form recovers any known equation of motion in any limit, the variational claim is empty.
-- *Confidence:* LOW.
-
-**2.2 Derive or recover the Born rule.**
-Attempt to derive the Born measure from constraints on actualizing action across the admissible-to-actual boundary, rather than assuming it (paper §6.6.2, §12).
-- *Target:* the Born measure as a consequence, not a postulate.
-- *Prerequisite:* 0.1, 2.1.
-- *Failure condition:* if the measure cannot be derived and must be assumed, TRT inherits the measurement problem's hard core unchanged, as the paper already concedes.
-- *Confidence:* LOW. This is a problem on which many programs have stalled; TRT claims only to have relocated it precisely, not to have a solution in hand.
-
-### Tier 3: Gravity (depends on 0.1, 0.2, 2.1)
-
-The gravity conjecture (paper §13.4) has been substantially refined through three working documents (`03-gravity/`): the derivation skeleton, the D[χ] attempt, and the linearity crux. The conjecture is no longer a single open question. It has been reduced through a chain of sharpenings to one combinatorial problem. The chain is recorded here because each link is a genuine narrowing and the final link is decidable.
-
-**The reduction chain (established in the working documents):**
-
-1. *Lovelock reduction.* By Lovelock's theorem (1971), in 4D any symmetric, divergence-free, second-order metric tensor is the Einstein tensor plus a cosmological term. Divergence-free comes free from general covariance via the Noether identity. So deriving GR reduces to showing the co-admissibility measure D[χ] localizes to a second-order (L1), metric-only (L2), local (L4), 4D (L5) object. L1 is the crux.
-
-2. *Holonomy identification.* Local *L₃* carries no derivatives; geometry enters only through consistency of relational transport around closed loops, which is curvature holonomy, automatically second-order via area-scaling. (HEURISTIC: that joint satisfiability reduces to loop consistency is motivated by minimality, not proven.)
-
-3. *Linearity crux.* Loop holonomy is the full Riemann tensor; a measure built from it generically gives higher-curvature modified gravity (the Bianconi 2025 outcome), not GR. Regge calculus is the existence proof that a measure *linear in the holonomy deficit* gives exactly the Einstein-Hilbert action and hence GR. The unique scalar linear in curvature is the Ricci scalar, so linearity automatically selects Einstein-Hilbert. The entire gravity question reduces to: **is the co-admissibility measure linear or quadratic in the holonomy deficit?**
-
-4. *The argument for linearity.* Quadratic measures (relative entropy, Fisher information) carry an imposed metric on configuration space. *L₃* supplies no such metric, only a raw deficit registering the magnitude of contradiction. Raw deficits are linear. So TRT's own commitments favor the linear measure, hence GR. (HEURISTIC, and the prime remaining debt.)
-
-**3.1 Resolve the linearity crux on a finite relational graph.**
-- *Target:* define joint *L₃*-satisfiability on a finite relational graph with explicit group-valued edge transformations, and determine whether the natural measure of cycle-closure failure is linear or quadratic in the deficit.
-- *Prerequisite:* 0.1 (the measure definition is part of formalizing co-admissibility).
-- *Success condition:* the natural measure is linear, with linearity following from the structure of *L₃* rather than imposed. Then (with the shared discrete-gravity assumptions on group structure and continuum limit) TRT has a credible route to deriving GR exactly, and the conjecture moves from LOW to defensible MEDIUM.
-- *Failure condition:* the natural measure is quadratic or higher with no logical motivation for linearity. Then TRT gives Bianconi-class modified gravity, not GR; the conjecture is downgraded to "derivation of a GR-limiting modified gravity"; and the §4 linearity argument is refuted. To be recorded as plainly as a success.
-- *Confidence:* that TRT *can* recover GR exactly, conditional on linearity, is now MEDIUM (Regge is a rigorous existence proof). That linearity actually holds is UNCERTAIN but framed as a decidable combinatorial question.
-
-**3.2 Discharge the shared discrete-gravity assumptions.** That the relational holonomy carries the appropriate frame-group structure (so its deficit is gravitational curvature), and that the continuum limit is 4D Lorentzian. These are shared with all discrete-gravity programs and are not special TRT burdens.
-
-**Discriminating consequence (feeds Tier 4).** Linear co-admissibility predicts exact GR with no higher-curvature corrections from this mechanism; quadratic predicts Bianconi-class corrections at high curvature. These differ observationally near black holes and in the early universe. The linearity crux therefore carries observational content, not merely formal content.
-
-### Tier 4: Recovery and Prediction (depends on all above)
-
-**4.1 Recover known physics in limits.** Hilbert space, probability, gauge structure, relativistic spacetime, conservation laws, as the paper's §12 second challenge requires.
-
-**4.2 Produce a novel discriminating prediction.** The final bar for the program to count as physics rather than foundational ontology. The linearity crux (3.1) already points at one candidate discriminating prediction: presence or absence of higher-curvature corrections to GR, tied to whether co-admissibility is linear or quadratic. Until an item here is reached, TRT remains, by its own standard, a research program.
+TRT does not yet have a discriminating prediction that has met data, or a recovered piece of known physics. The roadmap below is organised around the three points at which the charter's objective is decided.
 
 ---
 
-## 3. Dependency Graph
+## 2. Research roadmap
 
-```
-0.1 Formalize co-admissibility ──┬──> 1.1 Incompatible-channel test ──> (first physics milestone)
+Items are ordered by dependency. Each states its target, prerequisites, failure condition, and current confidence, and names the charter obligation and registry claims it serves. An item without a failure condition is a hope, not a task.
+
+### Tier 0: Formal foundations of the A-order
+
+**0.1 Condition of actualization (charter obligation (e); ACT-002).**
+- *Target:* declare EPA (no A-event is among the conditions of its own obtaining) and TC (conditioning is transitive) in Lean over typed A-events, and prove that the condition-of-actualization relation is a strict partial order.
+- *Prerequisites:* the A-event typing of the 2026-11-16 rulings (an A-event is a pair (d, d′) with A(d, d′) and Obtains(d′)).
+- *Failure condition:* TC cannot be motivated independently of an order already assumed, so the order is primitive and the acyclicity "derivation" is a restatement. To be recorded as such.
+- *Confidence:* that the proof goes through given EPA and TC, HIGH (it is short). That TC is independently motivated, MEDIUM.
+
+**0.2 Persistence of Zero from L₃ and A (obligation (d′); QM-002, LOG-003).**
+- *Target:* state Persistence of Zero in the form used in quantum measure theory, verified against its primary source, and derive it from L₃, the A-order, and the logical closure of preclusion.
+- *Prerequisites:* 0.1; full-text verification of the Persistence of Zero statement (Sorkin, 2019 talk, and any written form).
+- *Failure condition:* the primary statement is stronger than what LCP yields, or LCP itself admits a counterexample within quantum measure theory.
+- *Confidence:* that (d′) reduces to LCP, MEDIUM. That LCP is defensible as a TRT principle, LOW to MEDIUM.
+
+**0.3 Local finiteness (PHY-001).**
+- *Target:* either an argument for local finiteness from the co-primitives, or a ruling that it is an accepted posit with its own failure condition (for example, evidence of Lorentz-violating discreteness effects the causal-set substrate excludes).
+- *Prerequisites:* none.
+- *Failure condition:* the posit carries the physics recovery while resting on nothing the programme states. That is the present state, and it is the place a critic presses first.
+- *Confidence:* that it can be derived, LOW.
+
+### Tier 1: Decision point 1, strong positivity from the triad (obligations (a), (d); QM-001; failure condition 3)
+
+**1.1 An independent argument for strong positivity.**
+This is where the charter's distinctive claim is decided. If strong positivity follows from the triad by an argument that does not pass through Hilbert-space structure, TRT derives what the histories programme postulates, and the Tsirelson bound follows by the known route.
+- *Target:* an argument from L₃, I∞, the A-order, and LCP to strong positivity of the quantal measure.
+- *Prerequisites:* 0.1, 0.2.
+- *Circularity constraint:* the dependency must run triad → strong positivity → Hilbert structure and Tsirelson, never Hilbert structure → strong positivity → Tsirelson. The definitions in 0.1 are fixed before this item begins and may not be tuned toward strong positivity; strong positivity is known in advance to deliver Tsirelson, so a definition tuned to produce it is fitted to its outcome.
+- *Failure condition:* no independent argument exists. Then obligation (a) is discharged only by identifying Hilbert structure as contingent specification carried by D, the Tsirelson bound is inherited from that specification, and failure condition 3 applies: a fourth principle is needed, or the derivational ambition reduces to constraint.
+- *Confidence:* UNCERTAIN. This is the programme's make-or-break item.
+
+### Tier 2: Decision point 2, the selection rule (obligation (b); ACT-003, PRD-004, OPN-009; failure conditions 1, 2, 4)
+
+**2.1 The record threshold.**
+The working channel actualizes a distinction once it is redundantly recorded. Redundancy at threshold two is already excluded by spacelike-separated GHZ experiments, so the threshold must sit in the record itself.
+- *Target:* derive, or bound from the co-primitives, a record scale N* above which redundantly recorded distinctions cannot be recohered.
+- *Prerequisites:* none formally; informed by Tier 1.
+- *Failure condition:* N* cannot be derived or bounded, so it is a fitted parameter; or every N* consistent with GHZ and interferometry data is excluded by collapse-model bounds.
+- *Confidence:* that the conjecture is well posed, MEDIUM. That it is true, UNCERTAIN.
+
+**2.2 The discriminating test (PRD-004 with the FLL frontier of WP-TRT-FLL-0002).**
+- *Target:* a preregistered extended Wigner's-friend protocol in which TRT predicts Local Friendliness violations below N* and their absence above it, with the rival readings stated.
+- *Prerequisites:* 2.1 for the value of N*; the protocol can be specified in parametric form before it.
+- *Failure condition:* a friend above a declared N* is recohered (failure condition 1), or a reproducible irreducibly non-bivalent actualization is observed (failure condition 4).
+- *Confidence:* that such a protocol can be stated, MEDIUM.
+
+### Tier 3: Decision point 3, gravity on the A-order (obligation (c); PRD-002)
+
+**3.1 The L₃-natural measure on the A-order.**
+The A-order is the substrate of record. The question v0.2 posed on a finite relational graph is reposed on it.
+- *Target:* define the natural measure of L₃-consistency on a causal set and determine whether its continuum limit is the Benincasa-Dowker action (Einstein-Hilbert plus boundary terms) or carries higher-curvature terms.
+- *Prerequisites:* 0.1, 0.3. Full-text verification of the Benincasa-Dowker construction and its continuum-limit results.
+- *Failure condition:* the natural measure is quadratic or higher in curvature with no L₃ motivation for the linear form, so TRT gives a modified gravity; or no measure is natural, so the choice is imposed.
+- *Confidence:* LOW to MEDIUM.
+
+**3.2 Bridge or retire the finite-graph computation (WP-TRT-GRAV-0001).**
+- *Target:* state how GRAV-0001's group-valued graph relates to the A-order, or label it a toy model.
+- *Failure condition:* none; this is bookkeeping owed by the 2026-11-16 rulings.
+
+### Tier 4: Measure, recovery, and cosmology (depend on the tiers above)
+
+**4.1 The Born measure (OPN-004).** Reposed as the quantal measure on histories, with the variational desideratum carried by amplitudes in D. Depends on 1.1. *Failure condition:* the measure must be assumed, and TRT inherits the measurement problem's hard core unchanged.
+
+**4.2 Recovery of known physics (OPN-003).** Hilbert space and probability from Tier 1; spacetime from the A-order (obligation (c)); gauge structure and conservation laws are not yet scoped.
+
+**4.3 Cosmological dynamics (OPN-008, ADCE).** A justified growth law with a quantitative scale, discriminated against existing causal-set and dark-energy models. Depends on 0.3 and 3.1.
+
+### Cross-cutting work
+
+- **Formal proof audit.** Every proven theorem carries its axiom audit and proof basis (done 2026-11-17). Next: Lean declarations for the axioms stated in prose only (ACT-002, INT-001, LOG-003, PHY-001), so that what is assumed is machine-visible.
+- **Records.** Every attempt from 2026-11-17 is a notebook under [`research-records.md`](research-records.md), with its hypothesis and failure condition committed before its result.
+- **Reference verification.** Full-text verification of the external results the charter now depends on: the causal-set and quantum-measure-theory literature (Rideout and Sorkin 2000; Brightwell et al. 2003; Sorkin 1997; Craig et al. 2007; Benincasa and Dowker 2010), and the experimental inputs (Erven et al. 2014; Bong et al. 2020; Donadi et al. 2021). State is tracked in [`references/verification-status.md`](../references/verification-status.md).
+- **Publication readiness.** Conform paper v0.10 sections 6.5, 6.6, 7, and 9 to the 2026-09-29 normalization and the charter (they still carry the v0.9 sufficiency reading of `I_L3` and cite sections that no longer exist), then pursue the first DOI-bearing artifact (issue #3).
+
+---
+
+## 3. Dependency graph
+
+```text
+0.1 Condition of actualization ──┬──> 0.2 Persistence of Zero ──┐
+                                 │                               v
+                                 │                    1.1 Strong positivity ──> 4.1 Born measure
+                                 │                    (decision point 1)    ──> 4.2 Recovery
                                  │
-                                 ├──> 2.1 Lagrangian form ──> 2.2 Born rule derivation
-                                 │
-                                 ├──> 3.1 Linearity crux (finite graph) ──> linear?  ──> GR (Regge+Lovelock)
-                                 │         │                                quadratic? ─> modified gravity
-0.2 Actualization measure ───────┴────────┴──> 3.2 Frame-group + continuum ──┐
-                                                                             v
-                                                            4.1 Recover known physics
-                                                            4.2 Novel prediction
-                                                            (incl. GR vs modified-gravity test
-                                                             from the linearity crux)
+0.3 Local finiteness ────────────┴──> 3.1 Measure on the A-order ──> 4.3 Cosmology
+                                      (decision point 3)
+                                      3.2 GRAV-0001 bridge
+
+2.1 Record threshold N* ──> 2.2 Wigner's-friend test (decision point 2)
 ```
 
-Note that the gravity path now branches at 3.1 rather than running through a single undifferentiated node. The linearity crux is reachable directly from 0.1 (it is part of defining the measure) and does not strictly require 2.1, which is why it is among the nearer-term tractable problems despite gravity being conceptually the most ambitious tier.
-
-The graph is acyclic, consistent with the circularity discipline of the paper. Node 0.1 is the root: nothing discriminating is reachable without it. This is why the formalization of co-admissibility is the program's first and gating task.
+The graph is acyclic. Tier 2 does not formally depend on Tier 1 and can proceed in parallel; a result in 1.1 informs which record structures the measure permits.
 
 ---
 
-## 4. Repository Structure
+## 4. Where the v0.2 tasks went
 
-Proposed layout for the GitHub repository. The structure separates the stable position paper from the volatile research work, and keeps formal artifacts (code, proofs) apart from prose.
+| v0.2 task | Disposition |
+|---|---|
+| 0.1 Formalize co-admissibility (root) | Tested forms returned a recorded negative, 2026-06-26 (PRD-001). OPN-001 open at the root. No longer the root: discriminating content moved to the selection rule (Tier 2). |
+| 0.2 Covariant actualization measure | Reposed as the measure on the A-order (3.1). |
+| 1.1 Incompatible-channel test | Executed; the result is PRD-001's recorded negative. |
+| 2.1 Lagrangian over χ | The variational desideratum is reposed as amplitudes in D carried to X by the quantal measure (4.1). |
+| 2.2 Born rule | 4.1, now dependent on strong positivity (1.1). |
+| 3.1 Linearity crux on a finite graph | Reposed on the A-order (3.1); the graph computation is a toy model owing a bridge (3.2). The Lovelock and Regge reduction chain of v0.2 remains the motivation for asking about linearity. |
+| 3.2 Frame group and continuum limit | Absorbed into 3.1 and obligation (c). |
+| 4.1, 4.2 Recovery and prediction | 4.2 and Tier 2. |
+| FLL as governing empirical objective | The charter governs; the FLL falsifier is charter failure condition 4 (2.2). |
 
-```
-triadic-reality-theory/
-├── README.md                      # Overview, status, how to navigate, citation
-├── LICENSE                        # See §6 below
-├── CITATION.cff                   # Machine-readable citation metadata
-├── CONTRIBUTING.md                # Contribution terms (see §5)
-├── ROADMAP.md                     # This document's §2, kept live
-│
-├── paper/
-│   ├── TRT-v0.9.md                # The position paper, master of record
-│   ├── TRT-v0.9.pdf               # Rendered version (generated)
-│   └── changelog.md               # Version history, what changed between versions
-│
-├── program/
-│   ├── 00-foundational/
-│   │   ├── co-admissibility-formalization.md   # Task 0.1 working notes
-│   │   └── actualization-measure.md            # Task 0.2 working notes
-│   ├── 01-decoherence/
-│   │   ├── incompatible-channel-test.md        # Task 1.1 plan and results
-│   │   └── code/                               # Computational work for 1.1
-│   ├── 02-variational/
-│   │   ├── lagrangian.md                        # Task 2.1
-│   │   └── born-rule.md                         # Task 2.2
-│   ├── 03-gravity/
-│   │   ├── derivation-skeleton.md              # Path A: five Lovelock conditions
-│   │   ├── Dchi-attempt.md                     # Path B: trace vs full-tensor fork
-│   │   ├── linearity-crux.md                   # Path B: linear vs quadratic, the crux
-│   │   └── relational-graph-test.md            # Task 3.1: the combinatorial computation
-│   └── open-problems.md                         # Consolidated, mirrors paper §12
-│
-├── formal/
-│   ├── lean/                       # Formal verification, if pursued (see note)
-│   └── notebooks/                  # Computational experiments, Jupyter/Python
-│
-├── reviews/
-│   └── ...                         # Critical reviews received, with responses
-│
-└── references/
-    ├── bibliography.bib            # Master BibTeX
-    └── verification-status.md      # Which references are primary-verified (see §7)
-```
-
-Notes on the structure:
-
-The `paper/` directory holds the settled artifact and changes rarely. The `program/` directory holds the volatile work and changes constantly. This separation is deliberate: readers must be able to find the stable claim without wading through speculative working notes, and contributors must be able to work on open problems without destabilizing the paper.
-
-The `formal/lean/` directory anticipates possible Lean 4 formalization of the logical core, consistent with prior work in the author's broader research program. Whether the co-admissibility criterion is amenable to Lean formalization is itself an open question (it may be more naturally a numerical/computational object than a proof object); the directory is provisional.
-
-The `references/verification-status.md` file is not optional. The paper carries references not yet checked against primaries. The repository must track verification status explicitly so that no downstream work builds on an unverified citation.
+The repository plan, contribution terms, licensing, and reference list in v0.2 sections 4 to 7 were founding-era proposals and are now carried by the repository itself: the [README](../README.md) for layout, [CONTRIBUTING.md](../CONTRIBUTING.md) and [github-workflow.md](github-workflow.md) for contribution and branch rules, the two licence files at the repository root, and `references/verification-status.md` for references.
 
 ---
 
-## 5. Contribution Guide (CONTRIBUTING.md content)
+## 5. Immediate next actions
 
-The program welcomes contribution under terms that preserve its intellectual discipline. The following is the proposed substance of CONTRIBUTING.md.
+1. **0.1 in Lean.** Declare EPA and TC and prove the strict partial order. Open a notebook first, with the failure condition above committed before the attempt. Lean verification by thinx-muse.
+2. **1.1 opened as a notebook.** State what an independent argument for strong positivity would have to show, and the circularity constraint, before any attempt.
+3. **Verify the primaries** the charter depends on, beginning with the Persistence of Zero statement and Craig et al. (2007).
+4. **Re-scope the open-problem issues.** Issues #5 (co-admissibility formalization) and #6 (linearity crux on a finite graph) track v0.2 tasks; re-scope them to 1.1 and 3.1 or close them with a pointer to this section.
+5. **Conform paper v0.10** sections 6.5, 6.6, 7, and 9 ahead of the DOI artifact.
 
-### What this project is
-
-TRT is a foundational-ontology research program with a defined path toward physics-level results. It is led by an independent researcher and is genuinely open to falsification. The project's credibility rests on maintaining honest confidence labels and stated failure conditions. Contributions are evaluated first against whether they preserve that discipline.
-
-### How to contribute
-
-Contributions are most valuable in the following forms, roughly in order of current need:
-
-1. **Formalization of co-admissibility (Task 0.1).** The gating problem. Mathematical contributions that make the criterion definite and computable are the highest priority. A contribution that demonstrates co-admissibility *cannot* be formalized without a free measure is equally valuable, because it would settle the matter in the negative and is a recorded result, not a failure of the project.
-
-2. **Computational tests (Task 1.1).** Once 0.1 exists, code that computes the prediction for the incompatible-channel case and compares it against the known critical coupling.
-
-3. **Critical review.** Adversarial reading that finds errors, circularities, or overclaims. Reviews are archived in `reviews/` with responses. A review that forces a confidence label downward or a claim to be retracted is a successful contribution.
-
-4. **Reference verification.** Checking cited references against primaries and updating `verification-status.md`.
-
-5. **Recovery proofs (Tier 4).** Demonstrations that TRT structures recover known physics in appropriate limits.
-
-### Standards every contribution must meet
-
-- **State confidence.** Every claim carries a confidence label (HIGH, MEDIUM, LOW, UNCERTAIN) matching the paper's conventions.
-- **State failure conditions.** Every proposed result specifies what would falsify it.
-- **No circularity.** Derivations and proofs include a dependency-graph check; the graph must be acyclic. Parametric, definitional, and validation circularity are all disqualifying (see paper §3.4, §9.2 for the standard).
-- **Primary sources.** Cite primaries, not secondary characterizations. Use "as cited in" when primary access is unavailable, and flag for verification.
-- **Distinguish interpretation from derivation.** A re-description of known physics in TRT's terms is interpretation, not result. Contributions must not present the former as the latter.
-
-### What will be declined
-
-Contributions that inflate confidence, remove failure conditions, present interpretation as derivation, or treat the metaphysical commitments as established physics will be declined regardless of technical quality. The discipline is the asset.
-
----
-
-## 6. Licensing
-
-Two separate concerns, two separate choices.
-
-**The paper and prose** (`paper/`, `program/` notes, `ROADMAP.md`): a Creative Commons license is appropriate. CC BY 4.0 permits sharing and adaptation with attribution, which suits an open research program. If the author wishes to prevent commercial enclosure of the writing, CC BY-NC 4.0 is the alternative, at the cost of some reuse friction.
-
-**Code and formal artifacts** (`formal/`, `program/*/code/`): a permissive software license, MIT or Apache 2.0. Apache 2.0 is preferable if patent considerations ever arise, since it includes an explicit patent grant; MIT is simpler if they do not.
-
-The recommendation is CC BY 4.0 for prose and Apache 2.0 for code, stated clearly in `LICENSE` and `README.md`. The author should confirm, since licensing is a commitment that is awkward to reverse.
-
----
-
-## 7. Reference Verification Status
-
-The following must be resolved before any circulation draft. This list seeds `references/verification-status.md`.
-
-**Verified this session (primary or authoritative source consulted):**
-- Pusey, Barrett & Rudolph (2012), *Nature Physics* 8(6), 475-478.
-- Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851.
-- Bianconi (2025), *Physical Review D* 111(6), 066001.
-- Zurek (2003), *Reviews of Modern Physics* 75(3), 715-775.
-
-**Asserted from standard knowledge, not yet primary-verified:**
-- Jacobson (1995), *Physical Review Letters* 75(7), 1260-1263. (Content confirmed by review; page numbers to verify.)
-- Ryu & Takayanagi (2006), *Physical Review Letters* 96(18), 181602. (Content confirmed; article number to verify.)
-- Bekenstein (1973), *Physical Review D* 7(8), 2333-2346. (Standard; verify.)
-- Wigner (1960), *Communications on Pure and Applied Mathematics* 13(1), 1-14. (Standard; verify.)
-- Aristotle, *Metaphysics* Book Γ. (Edition/translation citation to finalize.)
-- Russell (1908), *American Journal of Mathematics* 30(3), 222-262. (Verify.)
-
-**Carried forward from the original draft, not verified this session:**
-- Deutsch & Marletto (2015), *Proceedings of the Royal Society A* 471(2174), 20140540.
-- Feynman (1948), *Reviews of Modern Physics* 20(2), 367-387.
-- Shannon (1948), *The Bell System Technical Journal* 27, 379-423, 623-656.
-- Wheeler (1989), in Zurek (ed.), *Complexity, Entropy, and the Physics of Information*.
-
-The carried-forward four are the priority, since they have had the least scrutiny.
-
----
-
-## 8. Immediate Next Actions
-
-In order, the concrete steps to stand up the program:
-
-1. Create the repository with the structure of §4.
-2. Place TRT v0.9 in `paper/`, strip the working-draft status note from a public-facing copy while retaining it in the working master, and render the PDF.
-3. Seed `ROADMAP.md` from §2 of this document and `verification-status.md` from §7.
-4. Verify the four carried-forward references first, then the standard-knowledge ones.
-5. Open Task 0.1 (co-admissibility formalization) as the first working file and the first issue. This is where the real research begins.
-
-The program now has **two** tractable near-term research targets, both reachable from Task 0.1, and both well-posed:
-
-- **Task 1.1**, the incompatible-channel pointer-state test, the program's first potential physics milestone.
-- **Task 3.1**, the linearity crux on a finite relational graph, a self-contained combinatorial question whose answer determines whether TRT's gravity is exact GR or a GR-limiting modified gravity, and which carries observational content either way.
-
-Both depend on formalizing the co-admissibility measure (Task 0.1), which remains the honest center of the work. The notable outcome of the gravity working sessions is that the most ambitious tier of the program (gravity) has been reduced to a combinatorial question that is, in principle, decidable now, rather than remaining an open-ended aspiration. That reduction is itself the kind of progress the program should aim for: not premature claims of derivation, but the conversion of large vague questions into small sharp ones with stated success and failure conditions.
-
-**Document version: 0.2** (updated to fold in the gravity reduction chain: Lovelock reduction, holonomy identification, linearity crux, and the relational-graph test as Task 3.1).
+**Document version: 0.3** (2026-11-17: rebased on the charter of 2026-11-09 and the rulings of 2026-11-16; organised around the three decision points of the reconciliation map; v0.2 dispositions recorded in section 4).
