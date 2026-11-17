@@ -1,0 +1,4 @@
+mode=conditional_independence_reference
+B_GBC=2e-06
+observed_rate=1e-06
+one_sided_p_value=0.864664987434

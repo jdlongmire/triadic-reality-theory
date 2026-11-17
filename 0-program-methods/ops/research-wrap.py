@@ -84,17 +84,38 @@ def main():
     else:
         add("PASS", "generated reports fresh")
 
+    # 3b. Research records and reproducibility (research-records.md)
+    rc, out, err = run([sys.executable, "0-program-methods/ops/research_records.py"])
+    lines = [l for l in out.splitlines() if l.startswith(("ERROR", "WARN"))]
+    if rc == 0:
+        add("PASS", "research records valid", (out.splitlines() or [""])[0])
+        warns = [l[6:] for l in lines if l.startswith("WARN")]
+        if warns:
+            add("WARN", "research records", "\n    " + "\n    ".join(warns[:10]))
+    else:
+        add("FAIL", "research records invalid", "\n    " + "\n    ".join(l for l in lines if l.startswith("ERROR"))[:2000])
+    rc, out, err = run([sys.executable, "0-program-methods/ops/reproduce.py"])
+    if rc == 0:
+        add("PASS", "registered computations reproduce", (out.strip().splitlines() or [""])[-1])
+    elif "ModuleNotFoundError" in (out + err):
+        add("WARN", "reproducibility", "numpy/scipy unavailable here; CI re-runs the registry")
+    else:
+        add("FAIL", "a registered computation does not reproduce",
+            "\n    " + "\n    ".join(l for l in out.splitlines() if l.startswith(("FAIL", "     ")))[:2000])
+
     # 4. Lean core typecheck (Mathlib-free)
     rc, out, err = run(". ~/.elan/env 2>/dev/null; lean formalization/TrtFormalization/Core/Primitives.lean", shell=True)
     if rc == 0:
         add("PASS", "Lean core typechecks", "Core/Primitives.lean, 0 errors")
     else:
         tail = (err or out).splitlines()[-3:]
-        add("FAIL" if "lean: not found" not in err else "WARN", "Lean core typecheck",
-            "lean unavailable" if "not found" in err else "errors:\n    " + "\n    ".join(tail))
+        unavailable = "not found" in err
+        add("WARN" if unavailable else "FAIL", "Lean core typecheck",
+            "lean unavailable here; CI typechecks the core, and full builds are verified by thinx-muse "
+            "(records/lean-verification-log.md)" if unavailable else "errors:\n    " + "\n    ".join(tail))
 
     # 5. GitHub-safe LaTeX (math-lint)
-    rc, hits, _ = run(r"grep -rn '\operatorname' --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true", shell=True)
+    rc, hits, _ = run(r"grep -rnF '\operatorname' --include='*.md' . | grep -v '/lrt/' | grep -v '`' || true", shell=True)
     if hits.strip():
         add("FAIL", "math-lint (\\operatorname)", "use \\mathrm:\n    " + "\n    ".join(hits.splitlines()[:10]))
     else:

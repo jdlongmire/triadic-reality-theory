@@ -24,9 +24,17 @@ The inactivity limit is fourteen days, renewals at most thirty days ahead. The a
 
 Rules 1 and 2 are repository settings. Settings writes are refused in the collaborator's session (HTTP 403), so branch protection on `main` and automatic deletion of merged branches are handed to thinx-muse through the bridge.
 
+## Records
+
+- Rules: `0-program-methods/github-workflow.md`, Branch discipline (PR #36).
+- Audit: `0-program-methods/ops/branch_hygiene.py`, `test_branch_hygiene.py`, `.github/workflows/branch-hygiene.yml` (PR #36).
+- Research-records standard, computation registry, Lean verification log, and the first notebook: see the follow-up pull request recorded in this note's Carry to next.
+- No claims, labels, or proof statuses changed.
+
 ## Carry to next
 
 - Confirmation from thinx-muse that the settings are applied, verified against the live repository.
 - The first scheduled audit run.
+- Research records and verification (follow-up PR, same day): `research-records.md`, `records/`, `ops/research_records.py`, `ops/reproduce.py`; Lean baseline receipt from thinx-muse.
 
 Human-Curated, AI-Enabled (HCAE)

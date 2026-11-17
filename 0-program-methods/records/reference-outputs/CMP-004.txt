@@ -1,0 +1,36 @@
+cell                   conv   rA/rm@z5     q0  z_acc  z_peak  z_cross   w(0)  w(0.5)  w0fit  wafit  DESI?
+---------------------------------------------------------------------------------------------------------
+S1xB1                  True   4.35e-02   0.39   1.48    2.11     2.11  -0.11   -0.23  -0.06  -0.58  False
+S1xB2                  True   1.59e-04  -0.62   0.71    none     none  -1.09   -1.24  -1.03  -0.73  False
+S1xB3                  True   4.72e+00   1.43   2.30    none     none   0.90    0.85   0.94  -0.33  False
+S2xB1                  True   2.07e-01   0.09   none    none     none  -0.40   -0.42  -0.40  -0.07  False
+S2xB2                  True   8.37e-04  -0.88   0.62    none     none  -1.33   -1.44  -1.34  -0.31  False
+S2xB3                  True   2.23e+00   0.50   none    none     none   0.00    0.00  -0.00   0.00  False
+S3xB1                  True   2.23e+00   0.50   none    none     none  -0.00   -0.00  -0.00  -0.00  False
+S3xB2                  True   1.03e-02  -0.53   0.64    none     none  -1.00   -1.00  -1.00  -0.00  False
+S3xB3                  True   4.81e+02   1.54   none    none     none   1.00    1.00   1.00   0.00  False
+S4(lam=1H0)xB1         True   1.11e+00   0.16   none    none     none  -0.33   -0.20  -0.33   0.40  False
+S4(lam=2H0)xB1         True   4.79e-01  -0.19   0.23    none     none  -0.67   -0.45  -0.68   0.72  False
+S4(lam=3H0)xB1         True   1.80e-01  -0.53   0.47    none     none  -1.00   -0.74  -1.05   0.97  False
+S4(lam=4H0)xB1         True   6.25e-02  -0.88   0.53    none     0.60  -1.33   -1.06  -1.43   1.20  False
+S4(lam=1H0)xB2         True   4.15e-03  -0.88   0.59    none     none  -1.33   -1.27  -1.36   0.28  False
+S4(lam=2H0)xB2         True   1.57e-03  -1.22   0.53    none     none  -1.67   -1.57  -1.74   0.56  False
+S4(lam=3H0)xB2         True   5.72e-04  -1.57   0.48    none     none  -2.00   -1.89  -2.14   0.86  False
+S4(lam=4H0)xB2         True   2.02e-04  -1.91   0.43    none     none  -2.33   -2.23  -2.57   1.20  False
+S4(lam=1H0)xB3         True   1.11e+00   0.16   none    none     none  -0.33   -0.20  -0.33   0.40  False
+S4(lam=2H0)xB3         True   4.79e-01  -0.19   0.23    none     none  -0.67   -0.45  -0.68   0.72  False
+S4(lam=3H0)xB3         True   1.80e-01  -0.53   0.47    none     none  -1.00   -0.74  -1.05   0.97  False
+S4(lam=4H0)xB3         True   6.25e-02  -0.88   0.53    none     0.60  -1.33   -1.06  -1.43   1.20  False
+S5(horizon)xB1         True   3.21e-02  -0.11   0.53   15.49     none  -0.59   -0.66  -0.58  -0.28
+
+[inverse problem, B1] sigma_req(z) peaks at z = 0.00; sigma_req(0)/sigma_req(peak) = 1.00
+  sigma_req >= 0 everywhere (no record destruction needed)
+  shape sigma_req vs SFH (both normalized at z=1):
+    z=0.0: sigma_req=   2.800   SFH= 0.173
+    z=0.5: sigma_req=   1.739   SFH= 0.504
+    z=1.0: sigma_req=   1.000   SFH= 1.000
+    z=2.0: sigma_req=   0.405   SFH= 1.521
+    z=4.0: sigma_req=   0.110   SFH= 0.603
+  required dlnN_R/dlna today (w0=-0.752): 2.26
+
+[DESI DR2 ref] rho_DE peak z = 0.41; w=-1 crossing z = 0.41 (analytic)

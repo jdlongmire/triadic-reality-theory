@@ -1,0 +1,54 @@
+# Registry of computations whose results the programme relies on.
+# Re-run in CI by 0-program-methods/ops/reproduce.py on every push and pull request.
+# Rules: 0-program-methods/research-records.md, section 4.
+#
+# reference_provenance says who produced the reference output and how far it has
+# been independently checked. A reference captured from a fresh run is a baseline:
+# it proves the computation is stable from then on, and nothing about whether it is
+# correct.
+
+computations:
+  - id: CMP-001
+    script: 3-prediction/co-admissibility-conjecture/code/coadmissibility_commutant.py
+    claims: [OPN-001]
+    compare:
+      - {kind: json, produced: results.json, reference: 3-prediction/co-admissibility-conjecture/code/results.json}
+    reference_provenance: committed with the computation by its author (2026-06); reproduced to floating-point noise 2026-11-17
+
+  - id: CMP-002
+    script: 3-prediction/co-admissibility-conjecture/code/coadmissibility_ratedep.py
+    claims: [OPN-001]
+    compare:
+      - {kind: json, produced: results_ratedep.json, reference: 3-prediction/co-admissibility-conjecture/code/results_ratedep.json}
+    reference_provenance: committed with the computation by its author (2026-06); reproduced 2026-11-17
+
+  - id: CMP-003
+    script: 3-prediction/co-admissibility-conjecture/code/coadmissibility_redescription.py
+    claims: [OPN-001, PRD-001]
+    compare:
+      - {kind: json, produced: results_redescription.json, reference: 3-prediction/co-admissibility-conjecture/code/results_redescription.json}
+    reference_provenance: committed with the computation by its author (2026-06-26); reproduced to floating-point noise 2026-11-17
+
+  - id: CMP-004
+    script: 2-theory/04-cosmology/code/adce_bridge_scan.py
+    claims: [OPN-008]
+    compare:
+      - {kind: stdout, reference: 0-program-methods/records/reference-outputs/CMP-004.txt}
+    reference_provenance: baseline captured 2026-11-17 from main 3c471f8 by thinx-claude; deterministic across runs; not independently verified
+
+  - id: CMP-005
+    script: 2-theory/02-variational/global-bivalent-closure-witness-under-fll/code/gbc_witness.py
+    claims: []
+    context: no owning claim is recorded for this witness; to be assigned when its notebook is opened
+    compare:
+      - {kind: stdout, reference: 0-program-methods/records/reference-outputs/CMP-005.txt}
+    reference_provenance: baseline captured 2026-11-17 from main 3c471f8 by thinx-claude, default arguments; deterministic across runs; not independently verified
+
+  - id: CMP-006
+    script: reviews/2026-11-reconciliation-map/code/order_difference_reconstruction.py
+    claims: []
+    context: the charter's order-difference falsification (former working-notes section 4.5), cited by the charter
+    notebook: reviews/2026-11-reconciliation-map/notebooks/NB-20261116-order-difference-reconstruction.md
+    compare:
+      - {kind: stdout, reference: 0-program-methods/records/reference-outputs/CMP-006.txt}
+    reference_provenance: baseline captured 2026-11-17 by thinx-claude, the script's author; red-team pass requested, not done
