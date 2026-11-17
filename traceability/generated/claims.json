@@ -45,6 +45,72 @@
     "statement": "A is fundamental state transition/change, defined without presupposing physical\ntime, motion, force, energy, or actuality. Actual states belong to the\nactualizable domain, and every actualizable state satisfies the necessary L\u2083 filter.\n",
     "tier": 1
   },
+  "ACT-002": {
+    "depends_on": [
+      {
+        "claim_id": "ACT-001",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "ACT-002",
+    "name": "Condition of Actualization (EPA and TC; order selection)",
+    "notes": "Entered 2026-11-16 under rulings 4, 5, and 11 of the reconciliation map\ndispositions. EPA and TC are axioms, not derivations; TC is the operative\npremise. EPA is the event-level form of the charter's exclusion of prior\nactuality and is where Non-Contradiction enters.\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "If conditioning is not transitive, the acyclicity result fails and the order\non X is not established; obligation (e) reopens and (d') loses its premise.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Obligation (e)"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "4, 7.2"
+      }
+    ],
+    "statement": "For an A-event e, Cond(e) is the set of A-events whose obtaining is required for\ne to obtain; f precedes e when f is in Cond(e). Two axioms are adopted toward\ncharter obligation (e): EPA (exclusion of prior actuality: e is never in Cond(e))\nand TC (transitivity of conditioning). Given EPA and TC the precedence relation\nis a strict partial order, hence acyclic. An A-event is a pair (d, d') with\nA(d, d') and Obtains(d'); X is the set of A-events, ordered by this relation\n(accepted typing, reconciliation map section 4). Under the occurrent reading\nadopted 2026-11-16, Obtains(d') is definable as being the target of an A-event,\ntogether with an initial condition; A's definition is unchanged.\n",
+    "tier": 1
+  },
+  "ACT-003": {
+    "depends_on": [
+      {
+        "claim_id": "ACT-002",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Erven et al. (2014), arXiv:1309.1379",
+      "Riedel, Zurek & Zwolak (2016), arXiv:1312.0331"
+    ],
+    "id": "ACT-003",
+    "name": "Redundancy Selection (working channel for the selection rule)",
+    "notes": "Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions.\nRedundancy here is the quantum Darwinism notion (Riedel, Zurek & Zwolak 2016),\nimported and stated as such.\n",
+    "proof_status": "open",
+    "risk_if_false": "If no record threshold survives the existing bounds, obligation (b) fails on\nits current channel and the selection rule must be re-founded.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Obligation (b), working channel"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "5, 6.2, 9.1"
+      }
+    ],
+    "statement": "Charter obligation (b)'s working channel: a distinction is a candidate for\nactualization if it is recorded in at least two disjoint, causally independent\nregions of D; A actualizes one branch of the resulting decomposition. The\nunrefined rule (actualize at redundancy two, with no threshold in the record)\nis refuted by existing three-photon GHZ data (Erven et al. 2014): the records\nwere spacelike separated and coherence between branches persisted. A threshold\nin the record itself (its size, count, or irrecoverability) is therefore\nmandatory; with a declared threshold the rule is a collapse-type model and is\nexposed to collapse-model bounds. The threshold form is PRD-004.\n",
+    "tier": 2
+  },
   "EXT-001": {
     "depends_on": [
       {
@@ -94,6 +160,37 @@
     ],
     "statement": "Causal set theory's founding kinematic dictionary: spacetime 4-volume corresponds\nto causal-element count at Planckian density (\"Order + Number = Geometry\"),\nimplemented by Poisson sprinkling, whose random form is forced by Lorentz\ninvariance (element count in 4-volume V\u2084: \u27e8N\u27e9 = \u03c1_c V\u2084, \u03b4N ~ \u221aN).\n",
     "tier": 2
+  },
+  "INT-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "ONT-004",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "INT-001",
+    "name": "Source Commitment (the triad's common ground)",
+    "notes": "Entered 2026-11-16 under rulings 8 and 13 of the reconciliation map\ndispositions. Placement per map section 5 and A.4: programme commitment\nadjacent to the hard core, with no empirical content of its own.\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "If the triad requires a fourth constituent principle, obligation 1 fails.\nIf the source is treated as a constituent, the irreducibility claims\n(ONT-002, ONT-004) are compromised.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Source commitment"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "5, A.4"
+      }
+    ],
+    "statement": "The three co-primitives have a common source: the Great Selector, whose\nwill-relation grounds each actualization and in which continuous grounding\n(the Dynamic Stability Principle's option 3) resides. The source is ground,\nnot a constituent of the triad and not a fourth principle; the grounding\nmodes are distinct, and the source's will-relation is not an instance of A.\nSecular presentations state the triad as primitive with the specification of\nD as boundary data. This is a hard-core adjacent programme commitment; the\ntechnical name for its secular form is \"constrained actualization\"\n(FD-0001 Gate 1, adopted 2026-11-16).\n",
+    "tier": 1
   },
   "LOG-001": {
     "depends_on": [],
@@ -148,6 +245,37 @@
       }
     ],
     "statement": "L\u2083 is immune by necessity, not convention: its denial deploys identity and\nnon-contradiction to be stated at all (demonstration by refutation, not derivation).\n",
+    "tier": 1
+  },
+  "LOG-003": {
+    "depends_on": [
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "ACT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "LOG-003",
+    "name": "Logical Closure of Preclusion (LCP)",
+    "notes": "Entered 2026-11-16 under ruling 6 of the reconciliation map dispositions.\nConfidence in the reduction (PoZ follows given LCP): MEDIUM. LCP is motivated\nindependently of any quantum bound, which is what the charter's derivational\ndiscipline requires of a bridge premise.\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "If preclusion is not closed under L3 consequence, obligation (d') is\nundischarged and Persistence of Zero must be postulated or abandoned.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "reconciliation-map.md",
+        "section": "7.3"
+      },
+      {
+        "doc": "TRT-charter.md",
+        "section": "Obligation (d')"
+      }
+    ],
+    "statement": "If the preclusion of an event E entails, by L3 alone, the preclusion of an\nevent F, then F has measure zero. LCP is the bridge principle under which\nPersistence of Zero (QM-002, charter obligation (d')) follows: preclusion is\nclosed under logical consequence, so the measure is the complete law of what\ncannot occur. LCP is a new premise, adopted as such; Persistence of Zero is\nrecorded as reducing to LCP, not as following from L3 and A alone.\n",
     "tier": 1
   },
   "ONT-001": {
@@ -537,7 +665,7 @@
     ],
     "id": "OPN-009",
     "name": "Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis",
-    "notes": "The first-pass WP disposition rejected the submitted null-event classifier and overreached by inferring that no positive discriminator could exist. JD's challenge about the global effect of the three FLL corrected that inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim until a physical implementation and contrastive rival likelihood exist. The minimal four-valued quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the inequality/polytope method but must not be conflated with FLL failure inside one context. The governing objective remains the search for any irreducibly non-bivalent physical informational actualization; model representation is subordinate to that falsification programme.\n",
+    "notes": "The first-pass WP disposition rejected the submitted null-event classifier and overreached by inferring that no positive discriminator could exist. JD's challenge about the global effect of the three FLL corrected that inference. The candidate witness uses actual meta-records of gaps/gluts; it is not a PRD claim until a physical implementation and contrastive rival likelihood exist. The minimal four-valued quantum-instrument attempt did not supply one: normalized gap/glut branches are expanded actual outcomes, while refusing completion removes a laboratory likelihood. Contextuality provides the inequality/polytope method but must not be conflated with FLL failure inside one context. The governing objective remains the search for any irreducibly non-bivalent physical informational actualization; model representation is subordinate to that falsification programme. 2026-11-16 (RULING, JD): precedence settled. The charter (2026-11-09) governs over this model's governing objective (2026-08-29), and the FLL falsifier stated in TRT-FLL-PHYSICAL-MODEL.md section 5 is added to the charter's failure conditions as condition 4. Record: charter amendment record (2026-11-16) and 0-program-methods/sessions/2026-11-16-reconciliation-rulings.md, ruling 3.\n",
     "proof_status": "prose_only",
     "risk_if_false": "If no instrument can implement proposition-dual independent records, or every apparent violation is observationally equivalent to a calibrated common-mode failure, the global bivalent-closure bridge under FLL remains empirically inaccessible. If a sound implementation violates the bound after all auxiliary assumptions survive, the claim that completed actual contexts are globally bivalent is refuted and TRT's L3-to-outcome-actual bridge requires revision.\n",
     "role": "open",
@@ -578,6 +706,37 @@
     "statement": "Govern the empirical investigation of TRT's physical hypothesis chi = A(I | L), presently an\nontological schema in which L is the global physical admissibility constraint, not yet a\ndynamical or operational law. The model predicts that every physical informational\nactualization satisfies Identity, Non-Contradiction, and Excluded Middle, with\noperational consequence V(P_chi) in {T,F}. One reproducible, irreducible B or N actualization for\nthe same proposition, context, time, and respect falsifies the model's exclusion rule that\nnon-bivalent information is absent from the physically actualizable state space. The derived\nGlobal Bivalent Closure witness, rival-model constructions, and the empirical falsification\nledger are subordinate instruments for exposing the model to failure rather than substitutes\nfor it. Law status is intended but not earned. Purpose-built negative tests add\nimplementation-relative corroboration in proportion to their power to expose B or N; adjacent\nquantum-foundational results merely constrain nearby rivals unless they had that power.\n",
     "tier": 2
   },
+  "PHY-001": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-002",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "PHY-001",
+    "name": "Discreteness and Local Finiteness of the A-Order",
+    "notes": "Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions\n(0-program-methods/sessions/2026-11-16-reconciliation-rulings.md): the charter\ncommitments listed in map section 5 as unregistered are entered in the registry.\nThe map's audit stands: local finiteness is not derived by EPA and TC (ACT-002).\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "If the A-order is not locally finite, the causal-set recovery of spacetime\nfails and the charter's geometric programme needs a different substrate.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Definitions; obligations"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "5, 7.2"
+      }
+    ],
+    "statement": "The actualized order (X, the set of A-events under the condition-of-actualization\nrelation) is discrete and locally finite: every order interval contains finitely\nmany A-events. Geometry is recovered from the order and number of A-events on\nthis substrate (the causal-set route, EXT-002). Local finiteness is a posit of\nthe charter, not a derived result; the whole causal-set recovery depends on it.\n",
+    "tier": 1
+  },
   "PRD-001": {
     "depends_on": [
       {
@@ -585,14 +744,14 @@
         "dependency_type": "formal"
       }
     ],
-    "epistemic_status": "conjectured",
+    "epistemic_status": "refuted_by_redescription",
     "external_citations": [
       "Feller, Coeuret Cauquil & Roussel (2020), arXiv:2001.10851"
     ],
     "falsifies": "Refuted if the formalized criterion (a) reproduces the witness-dependence it was\nmeant to eliminate, (b) contradicts the analytic critical coupling at which\nFock-state optimality ends in the cavity-field case, or (c) yields no definite\nprediction (showing interpretation, not physics). SHARPER ANTECEDENT HANDLE\n(2026-06-26): (d) if the commutant {L_n,L_\u03b1,L_n^dag,L_\u03b1^dag,H}' is trivial across\nthe critical coupling, the measure-free kernel criterion degenerates to a unique\nsteady state and a witness is forced \u2014 refuting (a) without the full optimization;\nand if the commutant is nontrivial but the einselected pointer states lie in its\northogonal (decohering) complement rather than inside it, the measure-free object\nis disjoint from the predicted structure \u2014 also refuting.\n",
     "id": "PRD-001",
     "name": "Co-Admissibility Conjecture (incompatible channels)",
-    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) COMPUTED for the\nrate-INDEPENDENT objects \u2014 commutant {a,a\u2020,N,H}' trivial (no DFS) AND pointer states in\nits complement; pairwise-commuting set = whole space. Those objects are non-discriminating.\n2026-06-26 (computation, OPN-001 Attempt 3; SUPERSEDES the over-read of Attempt 2): an\nindependent Red-Team refuted a first-pass \"no measure-free criterion discriminates\"\nconclusion. Corrected picture is a DICHOTOMY: witness-free objects are non-discriminating,\nbut the purity-rate gamma_dot (via Feller's energy-shell Fock-stability criterion)\nREPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) to <0.2% \u2014 by adopting\nthe purity witness. So the live falsifier is (a) RE-DESCRIPTION (\"reproduces the witness-\ndependence it was meant to eliminate / predicts nothing new\"), NOT (b)/(c): the criterion\ndoes make a definite, correct prediction, but only by re-describing standard einselection.\nepistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).\nDecisive next test: does gamma_dot differ from einselection where einselection is itself\nwitness-dependent? See co-admissibility-formalization.md Attempt 3.\n2026-06-26 (Attempt 4, the re-description test \u2014 the door CLOSES): gamma_dot lives at the\nshort-time level where ALL Renyi witnesses agree (witness-independent, proven: d/dt tr\nrho^a|0 = (a/2) gamma_dot) and there it reproduces the analytic standard-einselection g*\nto <0.06%; the witness-dependence lives at finite time where gamma_dot (the exact T->0\nboundary limit) is silent. So gamma_dot predicts NOTHING NEW. Falsifier (a) FIRES via its\n'predicts nothing new' limb (NOT the 'reproduces witness-dependence' limb \u2014 gamma_dot is\nwitness-INDEPENDENT). RECOMMENDATION (JD's call): epistemic_status -> refuted-by-re-\ndescription (the enum [established,argued,conjectured,open] has no such value \u2014 needs a\nschema addition or an explicit annotation; held 'conjectured' pending JD). The decoherence\ndescendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),\nwhich is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node\nred-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.\n",
+    "notes": "Becomes a prediction only once OPN-001 lands. Confidence LOW; one component UNCERTAIN.\nDecisive test = the two-part commutant + pointer-location computation (see OPN-001\nAttempt 1).\n2026-06-26 (computation, OPN-001 Attempt 2): falsifier handle (d) COMPUTED for the\nrate-INDEPENDENT objects \u2014 commutant {a,a\u2020,N,H}' trivial (no DFS) AND pointer states in\nits complement; pairwise-commuting set = whole space. Those objects are non-discriminating.\n2026-06-26 (computation, OPN-001 Attempt 3; SUPERSEDES the over-read of Attempt 2): an\nindependent Red-Team refuted a first-pass \"no measure-free criterion discriminates\"\nconclusion. Corrected picture is a DICHOTOMY: witness-free objects are non-discriminating,\nbut the purity-rate gamma_dot (via Feller's energy-shell Fock-stability criterion)\nREPRODUCES the analytic critical coupling g*=n0+1/2+sqrt(n0(n0+1)) to <0.2% \u2014 by adopting\nthe purity witness. So the live falsifier is (a) RE-DESCRIPTION (\"reproduces the witness-\ndependence it was meant to eliminate / predicts nothing new\"), NOT (b)/(c): the criterion\ndoes make a definite, correct prediction, but only by re-describing standard einselection.\nepistemic_status held 'conjectured'; refuted DECLINED (re-description horn not yet closed).\nDecisive next test: does gamma_dot differ from einselection where einselection is itself\nwitness-dependent? See co-admissibility-formalization.md Attempt 3.\n2026-06-26 (Attempt 4, the re-description test \u2014 the door CLOSES): gamma_dot lives at the\nshort-time level where ALL Renyi witnesses agree (witness-independent, proven: d/dt tr\nrho^a|0 = (a/2) gamma_dot) and there it reproduces the analytic standard-einselection g*\nto <0.06%; the witness-dependence lives at finite time where gamma_dot (the exact T->0\nboundary limit) is silent. So gamma_dot predicts NOTHING NEW. Falsifier (a) FIRES via its\n'predicts nothing new' limb (NOT the 'reproduces witness-dependence' limb \u2014 gamma_dot is\nwitness-INDEPENDENT). RECOMMENDATION (JD's call): epistemic_status -> refuted-by-re-\ndescription (the enum [established,argued,conjectured,open] has no such value \u2014 needs a\nschema addition or an explicit annotation; held 'conjectured' pending JD). The decoherence\ndescendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),\nwhich is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node\nred-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.\n2026-11-16 (RULING, JD): the Attempt 4 recommendation is ADOPTED. This claim's\nstatus is the recorded negative for tested forms: epistemic_status is set to\nrefuted_by_redescription, the schema value added this date for this status\n(traceability/schemas/claim.schema.yaml; build ordering extended in step).\nCharter failure condition 1 no longer points at this claim; as amended\n2026-11-16 it points at PRD-004 (Record-Threshold Conjecture). Record:\n0-program-methods/sessions/2026-11-16-reconciliation-rulings.md, ruling 1.\n",
     "proof_status": "open",
     "risk_if_false": "If false, TRT's measurement account is re-description of decoherence, not new physics.",
     "role": "prediction",
@@ -664,5 +823,110 @@
     ],
     "statement": "The (Wigner) effectiveness of mathematics in physics is a structural expectation\nof TRT, not an anomaly: mathematics is what L\u2083 operating on I\u221e generates.\n",
     "tier": 3
+  },
+  "PRD-004": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-002",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-009",
+        "dependency_type": "empirical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Bong et al. (2020), arXiv:1907.05607",
+      "Erven et al. (2014), arXiv:1309.1379",
+      "Donadi et al. (2021)"
+    ],
+    "falsifies": "Refuted if (a) N* cannot be derived or bounded; (b) every N* consistent with\nGHZ and interferometry data is excluded by collapse-model bounds; or (c) a\nfriend above a declared N* is recohered. Confidence that the conjecture is\nwell posed: MEDIUM. Confidence that it is true: UNCERTAIN.\n",
+    "id": "PRD-004",
+    "name": "Record-Threshold Conjecture",
+    "notes": "Entered 2026-11-16 under ruling 2 of the reconciliation map dispositions;\ncharter failure condition 1 now points here. This is the exposed falsifier\nthe map's section 3 requires at D to X, replacing continued reliance on the\nD-only PRD-001 test, whose recorded result is a negative (see PRD-001).\n",
+    "proof_status": "open",
+    "risk_if_false": "If false, obligation (b) fails on its current channel (ACT-003) and TRT's selection rule has no discriminating empirical content.",
+    "role": "prediction",
+    "source_documents": [
+      {
+        "doc": "reconciliation-map.md",
+        "section": "9.2"
+      },
+      {
+        "doc": "TRT-charter.md",
+        "section": "Failure condition 1 (as amended 2026-11-16)"
+      }
+    ],
+    "statement": "There is a record scale N* such that distinctions redundantly recorded above\nN* cannot be recohered, while below N* unitary predictions hold exactly. In\nan extended Wigner's-friend experiment, Local Friendliness violations persist\nfor friends below N* and cease above it. TRT keeps absoluteness of actualized\nevents, surrenders locality at A's selection, and additionally denies\ncontrollability above N*: a claim unitary quantum theory does not make, and\none decoherence alone cannot re-describe. N* is underived; the threshold\nsits in the record itself (size, count, or irrecoverability), not in a\nminimum separation scale, which existing GHZ data exclude.\n",
+    "tier": 3
+  },
+  "QM-001": {
+    "depends_on": [
+      {
+        "claim_id": "LOG-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "ACT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "external_citations": [
+      "Craig, Dowker, Henson, Major, Rideout & Sorkin (2007), arXiv:quant-ph/0605008"
+    ],
+    "id": "QM-001",
+    "name": "Tsirelson Obligation (strong positivity from the triad)",
+    "notes": "Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions.\nCraig et al. (2007) tie strong positivity to an associated Hilbert space;\nthat tie is what makes the dependency order a circularity hazard (map\nsection 8). Definitions under obligation (e) must not be tuned to produce\nstrong positivity.\n",
+    "proof_status": "open",
+    "risk_if_false": "If strong positivity cannot be argued from the triad, failure condition 3\nobtains: quantum structure is contingent specification and the derivational\nambition reduces to constraint.\n",
+    "role": "open",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Obligation (d); failure condition 3"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "6.1, 8, 9.3"
+      }
+    ],
+    "statement": "Charter obligation (d): the Tsirelson bound is to be derived via strong\npositivity of the quantal measure on histories, where strong positivity is\nitself argued from the triad. The dependency order is fixed: triad, then an\nindependent argument for strong positivity, then Hilbert structure and the\nTsirelson bound. The reverse route (Hilbert structure assumed as contingent\nspecification in D, strong positivity inherited from it) is barred: it is the\nsecond horn of charter failure condition 3. No argument from the triad to\nstrong positivity exists yet; this is the point at which the programme\nobjective is decided.\n",
+    "tier": 2
+  },
+  "QM-002": {
+    "depends_on": [
+      {
+        "claim_id": "LOG-003",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "ACT-002",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Sorkin (2019), PIRSA:19110093 (precise statement requires verification before publication)"
+    ],
+    "id": "QM-002",
+    "name": "Persistence of Zero (obligation (d'))",
+    "notes": "Entered 2026-11-16 under rulings 6 and 8 of the reconciliation map\ndispositions. Sorkin's 2019 proposal is imported; its precise statement was\nverified at title and abstract level only.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If Persistence of Zero fails, the charter's replacement for Bell causality\nin obligation (c) fails with it, and the growth dynamics lose their stated\ncausality condition.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "TRT-charter.md",
+        "section": "Obligation (d')"
+      },
+      {
+        "doc": "reconciliation-map.md",
+        "section": "7.3"
+      }
+    ],
+    "statement": "If an event E has quantal measure zero, then E intersected with any event B\nto its future has measure zero. Charter obligation (d') asks for this to be\nderived from L3 and A. As of the 2026-11-16 rulings the honest statement is a\nreduction: Persistence of Zero follows given Logical Closure of Preclusion\n(LOG-003) together with the preclusion rule, scoped Excluded Middle, and the\nacyclicity of the condition relation (ACT-002). It is not claimed to follow\nfrom L3 and A alone.\n",
+    "tier": 2
   }
 }

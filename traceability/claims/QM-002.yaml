@@ -1,0 +1,29 @@
+id: QM-002
+name: Persistence of Zero (obligation (d'))
+statement: |
+  If an event E has quantal measure zero, then E intersected with any event B
+  to its future has measure zero. Charter obligation (d') asks for this to be
+  derived from L3 and A. As of the 2026-11-16 rulings the honest statement is a
+  reduction: Persistence of Zero follows given Logical Closure of Preclusion
+  (LOG-003) together with the preclusion rule, scoped Excluded Middle, and the
+  acyclicity of the condition relation (ACT-002). It is not claimed to follow
+  from L3 and A alone.
+tier: 2
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - { claim_id: LOG-003, dependency_type: formal }
+  - { claim_id: ACT-002, dependency_type: formal }
+source_documents:
+  - { doc: TRT-charter.md, section: "Obligation (d')" }
+  - { doc: reconciliation-map.md, section: "7.3" }
+external_citations: ["Sorkin (2019), PIRSA:19110093 (precise statement requires verification before publication)"]
+risk_if_false: |
+  If Persistence of Zero fails, the charter's replacement for Bell causality
+  in obligation (c) fails with it, and the growth dynamics lose their stated
+  causality condition.
+notes: |
+  Entered 2026-11-16 under rulings 6 and 8 of the reconciliation map
+  dispositions. Sorkin's 2019 proposal is imported; its precise statement was
+  verified at title and abstract level only.

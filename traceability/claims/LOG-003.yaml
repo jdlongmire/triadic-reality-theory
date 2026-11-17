@@ -1,0 +1,27 @@
+id: LOG-003
+name: Logical Closure of Preclusion (LCP)
+statement: |
+  If the preclusion of an event E entails, by L3 alone, the preclusion of an
+  event F, then F has measure zero. LCP is the bridge principle under which
+  Persistence of Zero (QM-002, charter obligation (d')) follows: preclusion is
+  closed under logical consequence, so the measure is the complete law of what
+  cannot occur. LCP is a new premise, adopted as such; Persistence of Zero is
+  recorded as reducing to LCP, not as following from L3 and A alone.
+tier: 1
+role: bridge
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - { claim_id: LOG-001, dependency_type: logical }
+  - { claim_id: ACT-001, dependency_type: logical }
+source_documents:
+  - { doc: reconciliation-map.md, section: "7.3" }
+  - { doc: TRT-charter.md, section: "Obligation (d')" }
+risk_if_false: |
+  If preclusion is not closed under L3 consequence, obligation (d') is
+  undischarged and Persistence of Zero must be postulated or abandoned.
+notes: |
+  Entered 2026-11-16 under ruling 6 of the reconciliation map dispositions.
+  Confidence in the reduction (PoZ follows given LCP): MEDIUM. LCP is motivated
+  independently of any quantum bound, which is what the charter's derivational
+  discipline requires of a bridge premise.

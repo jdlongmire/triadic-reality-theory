@@ -24,7 +24,7 @@ FORMAL_DIR = ROOT / "formalization"
 ID_PREFIXES = {"ONT", "LOG", "ACT", "QM", "PHY", "INT", "PRD", "OPN", "EXT"}
 REQUIRED = ["id", "name", "statement", "tier", "role", "proof_status", "epistemic_status"]
 PROOF_ORDER = ["verified", "imported", "axiomatized", "prose_only", "open"]
-EPI_ORDER = ["established", "argued", "conjectured", "open"]
+EPI_ORDER = ["established", "argued", "conjectured", "open", "refuted_by_redescription"]
 TIER_NAME = {0: "strategy", 1: "hypothesis (hard core)", 2: "theory (belt)", 3: "prediction"}
 
 

@@ -1,0 +1,34 @@
+id: PRD-004
+name: Record-Threshold Conjecture
+statement: |
+  There is a record scale N* such that distinctions redundantly recorded above
+  N* cannot be recohered, while below N* unitary predictions hold exactly. In
+  an extended Wigner's-friend experiment, Local Friendliness violations persist
+  for friends below N* and cease above it. TRT keeps absoluteness of actualized
+  events, surrenders locality at A's selection, and additionally denies
+  controllability above N*: a claim unitary quantum theory does not make, and
+  one decoherence alone cannot re-describe. N* is underived; the threshold
+  sits in the record itself (size, count, or irrecoverability), not in a
+  minimum separation scale, which existing GHZ data exclude.
+tier: 3
+role: prediction
+proof_status: open
+epistemic_status: conjectured
+depends_on:
+  - { claim_id: OPN-002, dependency_type: formal }
+  - { claim_id: OPN-009, dependency_type: empirical }
+source_documents:
+  - { doc: reconciliation-map.md, section: "9.2" }
+  - { doc: TRT-charter.md, section: "Failure condition 1 (as amended 2026-11-16)" }
+external_citations: ["Bong et al. (2020), arXiv:1907.05607", "Erven et al. (2014), arXiv:1309.1379", "Donadi et al. (2021)"]
+risk_if_false: "If false, obligation (b) fails on its current channel (ACT-003) and TRT's selection rule has no discriminating empirical content."
+falsifies: |
+  Refuted if (a) N* cannot be derived or bounded; (b) every N* consistent with
+  GHZ and interferometry data is excluded by collapse-model bounds; or (c) a
+  friend above a declared N* is recohered. Confidence that the conjecture is
+  well posed: MEDIUM. Confidence that it is true: UNCERTAIN.
+notes: |
+  Entered 2026-11-16 under ruling 2 of the reconciliation map dispositions;
+  charter failure condition 1 now points here. This is the exposed falsifier
+  the map's section 3 requires at D to X, replacing continued reliance on the
+  D-only PRD-001 test, whose recorded result is a negative (see PRD-001).

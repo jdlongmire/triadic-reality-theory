@@ -1,9 +1,13 @@
 graph TD
   ACT-001["ACT-001<br/>bridge/axiomatized"]
+  ACT-002["ACT-002<br/>bridge/axiomatized"]
+  ACT-003["ACT-003<br/>bridge/open"]
   EXT-001["EXT-001<br/>imported/imported"]
   EXT-002["EXT-002<br/>imported/imported"]
+  INT-001["INT-001<br/>bridge/axiomatized"]
   LOG-001["LOG-001<br/>primitive/axiomatized"]
   LOG-002["LOG-002<br/>primitive/prose_only"]
+  LOG-003["LOG-003<br/>bridge/axiomatized"]
   ONT-001["ONT-001<br/>primitive/prose_only"]
   ONT-002["ONT-002<br/>primitive/verified"]
   ONT-003["ONT-003<br/>primitive/axiomatized"]
@@ -17,13 +21,25 @@ graph TD
   OPN-007["OPN-007<br/>open/open"]
   OPN-008["OPN-008<br/>open/prose_only"]
   OPN-009["OPN-009<br/>open/prose_only"]
+  PHY-001["PHY-001<br/>bridge/axiomatized"]
   PRD-001["PRD-001<br/>prediction/open"]
   PRD-002["PRD-002<br/>prediction/open"]
   PRD-003["PRD-003<br/>prediction/prose_only"]
+  PRD-004["PRD-004<br/>prediction/open"]
+  QM-001["QM-001<br/>open/open"]
+  QM-002["QM-002<br/>bridge/prose_only"]
   ACT-001 --> ONT-003
   ACT-001 --> LOG-001
+  ACT-002 --> ACT-001
+  ACT-002 --> LOG-001
+  ACT-003 --> ACT-002
+  ACT-003 --> OPN-002
   EXT-001 --> LOG-001
+  INT-001 --> ONT-002
+  INT-001 --> ONT-004
   LOG-002 --> LOG-001
+  LOG-003 --> LOG-001
+  LOG-003 --> ACT-001
   ONT-001 --> ONT-002
   ONT-001 --> ONT-003
   ONT-003 --> LOG-001
@@ -40,7 +56,15 @@ graph TD
   OPN-008 --> EXT-002
   OPN-009 --> ONT-003
   OPN-009 --> OPN-004
+  PHY-001 --> ONT-001
+  PHY-001 --> EXT-002
   PRD-001 --> OPN-001
   PRD-002 --> OPN-001
   PRD-002 --> OPN-002
   PRD-003 --> ONT-002
+  PRD-004 --> OPN-002
+  PRD-004 --> OPN-009
+  QM-001 --> LOG-001
+  QM-001 --> ACT-001
+  QM-002 --> LOG-003
+  QM-002 --> ACT-002

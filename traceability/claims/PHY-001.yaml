@@ -1,0 +1,26 @@
+id: PHY-001
+name: Discreteness and Local Finiteness of the A-Order
+statement: |
+  The actualized order (X, the set of A-events under the condition-of-actualization
+  relation) is discrete and locally finite: every order interval contains finitely
+  many A-events. Geometry is recovered from the order and number of A-events on
+  this substrate (the causal-set route, EXT-002). Local finiteness is a posit of
+  the charter, not a derived result; the whole causal-set recovery depends on it.
+tier: 1
+role: bridge
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - { claim_id: ONT-001, dependency_type: logical }
+  - { claim_id: EXT-002, dependency_type: formal }
+source_documents:
+  - { doc: TRT-charter.md, section: "Definitions; obligations" }
+  - { doc: reconciliation-map.md, section: "5, 7.2" }
+risk_if_false: |
+  If the A-order is not locally finite, the causal-set recovery of spacetime
+  fails and the charter's geometric programme needs a different substrate.
+notes: |
+  Entered 2026-11-16 under ruling 8 of the reconciliation map dispositions
+  (0-program-methods/sessions/2026-11-16-reconciliation-rulings.md): the charter
+  commitments listed in map section 5 as unregistered are entered in the registry.
+  The map's audit stands: local finiteness is not derived by EPA and TC (ACT-002).

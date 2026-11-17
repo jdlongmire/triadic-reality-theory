@@ -7,7 +7,7 @@ statement: |
 tier: 3
 role: prediction
 proof_status: open
-epistemic_status: conjectured
+epistemic_status: refuted_by_redescription
 depends_on:
   - { claim_id: OPN-001, dependency_type: formal }
 source_documents:
@@ -55,3 +55,10 @@ notes: |
   descendant is the recorded NEGATIVE; discriminating hope now rests on PRD-002 (gravity),
   which is NOT insulated (shares OPN-001 + free-measure hazard -> prior lowered). Root-node
   red-team verified correctness HIGH. See co-admissibility-formalization.md Attempt 4.
+  2026-11-16 (RULING, JD): the Attempt 4 recommendation is ADOPTED. This claim's
+  status is the recorded negative for tested forms: epistemic_status is set to
+  refuted_by_redescription, the schema value added this date for this status
+  (traceability/schemas/claim.schema.yaml; build ordering extended in step).
+  Charter failure condition 1 no longer points at this claim; as amended
+  2026-11-16 it points at PRD-004 (Record-Threshold Conjecture). Record:
+  0-program-methods/sessions/2026-11-16-reconciliation-rulings.md, ruling 1.
