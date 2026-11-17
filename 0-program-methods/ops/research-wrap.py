@@ -3,8 +3,9 @@
 
 Mirrors thinx's session-wrap: a pass/fail gate run at the session transition.
 Don't claim a session done if any check FAILs. Checks repo housekeeping and the
-programme's specific hygiene (traceability acyclic + fresh, Lean core green,
-GitHub-safe LaTeX, no stray build artifacts), and surfaces residuals.
+programme's specific hygiene (branch discipline, traceability acyclic + fresh,
+Lean core green, GitHub-safe LaTeX, no stray build artifacts), and surfaces residuals.
+The branch check fails the wrap if any branch lacks an open PR or survives its merge.
 
 Usage:  python3 0-program-methods/ops/research-wrap.py
 Exit code is nonzero if any gate check FAILs.
@@ -49,6 +50,25 @@ def main():
         add("WARN", "unpushed commits", f"{ahead} commit(s) ahead of origin/main — push if intended")
     else:
         add("PASS", "synced with origin/main")
+
+    # 2b. Branch hygiene (rules in github-workflow.md, "Branch discipline")
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import datetime as dt
+        import branch_hygiene as bh
+        repo = bh.detect_repo()
+        findings = bh.evaluate(bh.collect(repo), dt.datetime.now(dt.timezone.utc))
+        blocking = [f for f in findings if f["rule"] in ("NO_PR", "MERGED")]
+        other = [f for f in findings if f["rule"] not in ("NO_PR", "MERGED")]
+        fmt = lambda fs: "\n    " + "\n    ".join(f"{f['rule']}: {f['subject']}, {f['remedy']}" for f in fs)
+        if blocking:
+            add("FAIL", "branches without a PR, or merged and not deleted", fmt(blocking))
+        if other:
+            add("WARN", "branch hygiene findings", fmt(other))
+        if not findings:
+            add("PASS", "branch hygiene", "every branch has an open PR; nothing stale, misnamed, or parked")
+    except Exception as e:  # noqa: BLE001
+        add("WARN", "branch hygiene", f"audit unavailable ({str(e).splitlines()[0][:120]}); run branch_hygiene.py")
 
     # 3. Traceability: build passes + generated fresh
     rc, out, err = run(["python3", "traceability/scripts/build.py"])

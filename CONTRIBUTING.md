@@ -24,6 +24,10 @@ In rough order of current need:
 - **Distinguish interpretation from derivation.** A re-description of known physics in TRT's terms is *interpretation*, not result. Do not present the former as the latter — that is the canonical degenerating move.
 - **Traceability.** New claims get a `traceability/claims/` entry conforming to the [schema](traceability/schemas/claim.schema.yaml).
 
+## Branches and pull requests
+
+Every change reaches `main` through a pull request opened at the branch's first push, on a branch named `<type>/<topic>`. Branches idle for 14 days are merged, archived, or renewed with a dated reason, and branches that predate a change to the governing texts are conformed before merge. The full rules and their enforcement are in [`0-program-methods/github-workflow.md`](0-program-methods/github-workflow.md#branch-discipline).
+
 ## AI-aide profiles
 
 If you work with an AI assistant, load the matching role brief from [`0-program-methods/agents/`](0-program-methods/agents/) — **QA-Agent** (repo/code hygiene) for code and build work, **Peer-Review-Agent** (adversarial content review) for evaluating claims. They are harness-agnostic and bound to this repo's methodology.

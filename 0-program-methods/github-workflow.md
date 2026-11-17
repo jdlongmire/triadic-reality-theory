@@ -49,13 +49,48 @@ Reconciliation is convention now (the `Tracks:` line); a `build.py` issue↔clai
 
 ## Branch discipline
 
-`main` is always green. Belt work happens on `feat/<task>` branches → PR → review against the methodology → merge. Paper edits on `paper/<topic>`. No force-push to `main`.
+Adopted 2026-11-17, after the 2026-11-16 consolidation found branches up to five months old, branches with no pull request, a pull request used as a parking marker, merged branches left standing, and pre-charter branches drifting from the governing texts. Each rule below answers one of those failures.
+
+### Rules
+
+1. **Main is protected.** Changes reach `main` only through a pull request whose required checks pass (traceability, Lean core typecheck, math lint) and whose branch is up to date with `main`. No force push to `main`, and `main` cannot be deleted.
+2. **Merged branches are deleted.** The repository deletes head branches automatically on merge.
+3. **One branch, one pull request, opened at first push.** A draft is fine. A branch without a pull request is a finding.
+4. **Fourteen days without a commit ends a branch's free run.** It is then merged, closed with an archive tag (rule 8), or renewed by a line in the pull request body: `Renewed until: YYYY-MM-DD; reason: ...`, at most 30 days ahead. A renewal can be repeated; each one needs a fresh date and reason.
+5. **Parked ideas live in issues.** Record a parked idea as an issue labelled `parked`. An open pull request is never a parking marker.
+6. **Names follow `<type>/<topic>`.** The topic is lowercase letters, digits, `.`, `_`, `-`. Allowed types:
+
+   | Type | Use |
+   |---|---|
+   | `feat` | belt work, formalization, computation |
+   | `fix` | corrections to existing material |
+   | `paper` | position-paper and manuscript edits |
+   | `wp` | filing or updating work packages |
+   | `review` | reviews and audits |
+   | `rulings` | executing the programme lead's rulings |
+   | `traceability` | claim registry changes |
+   | `formal` | Lean-only changes |
+   | `docs` | the Pages site and other documentation |
+   | `ops` | operations scripts and repository process |
+   | `ci` | workflow changes |
+
+7. **Branches conform before merge.** When the hard core, charter, objective, methodology, FLL model, claim schema, Lean primitives, or a rulings or reconciliation record changes on `main`, every open branch based before that change is updated from `main` and conformed, or carries a reconciliation note, before it merges.
+8. **Unmerged work is tagged before deletion.** To retire a branch whose commits are not on `main`: create the tag `archive/<branch>` at its tip, comment on its pull request with the tag and the reason, close the pull request, then delete the branch. Nothing unmerged is deleted without its tag.
+
+### Enforcement
+
+- **Repository settings** carry rules 1 and 2. They are set by the repository owner or the operations collaborator.
+- **The branch hygiene audit** ([`ops/branch_hygiene.py`](ops/branch_hygiene.py), workflow [`branch-hygiene.yml`](../.github/workflows/branch-hygiene.yml)) checks rules 3 to 7 every Monday and on demand. It maintains one rolling issue labelled `branch-hygiene`, opened or updated while findings exist and closed when the audit is clean. It reports and never fails CI, so a stale branch cannot block unrelated work on `main`.
+- **The session wrap** (`research-wrap.py`) fails while any branch lacks an open pull request or survives its merge, and warns on the other findings.
+- **The pull request template** ([`.github/pull_request_template.md`](../.github/pull_request_template.md)) asks for owner, next action, the methodology checks, and the conformance check.
+
+Run the audit locally with `python3 0-program-methods/ops/branch_hygiene.py`. Its rule tests run offline with `python3 0-program-methods/ops/test_branch_hygiene.py`.
 
 ## Session lifecycle
 
 A research session is bracketed by two scripts (mirrors thinx's session-start/wrap), so transitions carry repo housekeeping and hygiene rather than leaving loose ends:
 
 - **`python3 0-program-methods/ops/research-start.py`** — read-only orientation briefing: VCS state, CI status, traceability health (claims / verified / acyclic), the active PI and its open issues, the open-problem registry + active subset, the appraisal verdict, figure/reference residuals, and the last session journal's carry-forward. Run it first thing.
-- **`python3 0-program-methods/ops/research-wrap.py`** — end-of-session **gate** (nonzero exit on any FAIL): working tree clean, traceability passes + generated reports fresh, Lean core typechecks, GitHub-safe LaTeX (no `\operatorname`), no build artifacts tracked; surfaces figure/reference residuals and reminds to append a session journal. **Don't claim a session done while it FAILs.**
+- **`python3 0-program-methods/ops/research-wrap.py`** — end-of-session **gate** (nonzero exit on any FAIL): working tree clean, every branch has an open PR and no merged branch survives, traceability passes + generated reports fresh, Lean core typechecks, GitHub-safe LaTeX (no `\operatorname`), no build artifacts tracked; surfaces figure/reference residuals and reminds to append a session journal. **Don't claim a session done while it FAILs.**
 
 After a green wrap: append a [session journal](sessions/) entry and update memory / the [appraisal](../3-prediction/appraisal.md) as needed.
