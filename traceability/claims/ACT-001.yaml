@@ -11,8 +11,8 @@ epistemic_status: argued
 formal_artifacts:
   lean:
     - { file: TrtFormalization/Core/Primitives.lean, symbol: A, status: axiom }
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_actualizable, status: proven }
-    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_l3_admissible, status: proven }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_actualizable, status: proven, axioms: [] }
+    - { file: TrtFormalization/Core/Primitives.lean, symbol: actual_is_l3_admissible, status: proven, axioms: [Trt.Core.actualizable_is_l3_admissible] }
 depends_on:
   - { claim_id: ONT-003, dependency_type: formal }
   - { claim_id: LOG-001, dependency_type: formal }

@@ -1,5 +1,5 @@
 # TRT Claim Schema
-# Version: 1.0.0
+# Version: 1.1.0 (2026-11-17: `axioms` on proven Lean artifacts; proof basis)
 # Purpose: structure for every claim file. Adapted from the LRT traceability schema,
 # with a `tier` binding to the falsifiability ladder and a `computation` artifact type
 # (TRT predictions are partly numerical, not only proof-theoretic).
@@ -67,6 +67,16 @@ properties:
             file: { type: string, description: "Path relative to formalization/" }
             symbol: { type: string }
             status: { type: string, enum: [proven, axiom, sorry] }
+            axioms:
+              type: array
+              items: { type: string }
+              description: |
+                Required when status is proven: every axiom `#print axioms` reports for the
+                symbol, as recorded in a PASS receipt in
+                0-program-methods/records/lean-verification-log.md; [] if none. The build
+                derives the proof basis from it: Lean standard axioms only (propext,
+                Classical.choice, Quot.sound), or resting on project axioms. The basis concerns
+                axioms only; whether the theorem establishes the claim is stated in the claim.
       computation:
         type: array
         items:
