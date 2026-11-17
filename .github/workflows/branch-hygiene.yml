@@ -1,0 +1,46 @@
+name: Branch hygiene
+
+# Audits branches and pull requests against the branch rules in
+# 0-program-methods/github-workflow.md ("Branch discipline").
+# Scheduled and manual runs maintain one rolling issue labelled `branch-hygiene`.
+# Pull-request runs (only when the audit itself changes) are a dry run: report, no issue.
+# The audit never fails CI for a finding; it fails only if the script or its tests break.
+
+on:
+  schedule:
+    - cron: "23 14 * * 1"   # Mondays 14:23 UTC
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "0-program-methods/ops/branch_hygiene.py"
+      - "0-program-methods/ops/test_branch_hygiene.py"
+      - ".github/workflows/branch-hygiene.yml"
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: write
+
+concurrency:
+  group: branch-hygiene
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Branch hygiene audit
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rule tests (offline)
+        run: python3 0-program-methods/ops/test_branch_hygiene.py
+      - name: Audit (dry run on pull requests)
+        if: github.event_name == 'pull_request'
+        run: python3 0-program-methods/ops/branch_hygiene.py | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Audit and sync the rolling issue
+        if: github.event_name != 'pull_request'
+        run: python3 0-program-methods/ops/branch_hygiene.py --issue | tee -a "$GITHUB_STEP_SUMMARY"
