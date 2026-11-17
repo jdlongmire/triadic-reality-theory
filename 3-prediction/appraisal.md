@@ -2,11 +2,24 @@
 
 > The Lakatosian self-audit. A research programme is **progressive** if it predicts novel facts and some corroborate; **degenerating** if it only accommodates facts post hoc with ad hoc adjustments. This file is the standing answer to: *which is TRT, right now?*
 
-## Current verdict (TRT v0.9)
+## Current verdict (as of 2026-11-17)
 
 **Unappraised.** TRT is a research programme in the literal Lakatosian sense — an articulated hard core, an articulated positive heuristic (the [ROADMAP](../0-program-methods/ROADMAP.md)), and *named* potential novel facts — but **no corroborated novel fact yet.** By the programme's own standard it is not yet doing physics; it is positioned to.
 
 This is not a deficiency to hide. It is the honest status, and naming it correctly is the discipline that the [methodology](../0-program-methods/METHODOLOGY.md) exists to protect.
+
+## Problemshifts pending grading
+
+A problemshift is graded progressive or degenerating by what follows it. The grading condition is stated here when the shift is made, before the outcome is known, so that the grade cannot be chosen afterwards.
+
+### S1 (2026-11-16): discriminating content moved from criteria over D to the selection rule at D -> X
+
+The charter's first failure condition moved from the Co-Admissibility Conjecture (PRD-001, recorded negative for its tested forms) to the Record-Threshold Conjecture (PRD-004), which tests the rule by which A fixes the actualized event algebra. The same move is what a progressive programme makes after a well-located failure, and what a degenerating one makes to escape it. Candidate ACT-004 states why the evidence may force it; if ACT-004 fails, the move was a choice.
+
+- **Theoretically progressive** if, before PRD-004 is first tested: N* is derived or bounded from the co-primitives and not fitted to data; PRD-004 has a preregistered protocol with an outcome that would refute it; and the derived window for N* is not already excluded by existing data (spacelike GHZ correlations, matter-wave interferometry, collapse-model bounds).
+- **Empirically progressive** if a PRD-004 prediction is then corroborated.
+- **Degenerating** if N* is set by fitting to existing data; if N* is revised after a test outcome to preserve the conjecture; or if PRD-004's failure condition is weakened.
+- **Review.** The grade is reviewed at every change to PRD-004 or ACT-004, and when ROADMAP item 2.1 (the record threshold) closes. Until then S1 stands **ungraded**.
 
 ## What would move the needle to *progressive*
 
@@ -14,8 +27,11 @@ A corroborated novel fact from one of the discriminating descendants:
 
 | Candidate novel fact | Source | Gate |
 |---|---|---|
-| Measure-independent pointer selection matching the cavity-field critical coupling | [co-admissibility conjecture](co-admissibility-conjecture.md) | Task 0.1 formalization |
-| Presence/absence of higher-curvature corrections, tied to linear-vs-quadratic | [gravity linearity test](gravity-linearity-test.md) | Task 0.1 + keystone |
+| Recoherence of a redundantly recorded distinction fails above a derived record scale N*; Local Friendliness violations below it, none above | Record-Threshold Conjecture (PRD-004) | ROADMAP 2.1 (derive or bound N*), 2.2 (protocol) |
+| Presence or absence of higher-curvature corrections, from the L₃-natural measure on the A-order | [gravity linearity test](gravity-linearity-test.md) (PRD-002) | ROADMAP 3.1 |
+| *Superseded:* measure-independent pointer selection matching the cavity-field critical coupling | [co-admissibility conjecture](co-admissibility-conjecture.md) (PRD-001) | Recorded negative for the tested forms, 2026-06-26 |
+
+A derivation of strong positivity from the triad (ROADMAP 1.1, QM-001) would be a theoretically progressive step with no new fact of its own: it would derive what the histories programme postulates.
 
 A *theoretically* progressive step (a formalized criterion that predicts a novel fact) precedes an *empirically* progressive one (the fact corroborates). The retrodiction of the [effectiveness of mathematics](effectiveness-of-mathematics.md) is supporting weight, not a novel-fact corroboration.
 
@@ -44,3 +60,6 @@ A *theoretically* progressive step (a formalized criterion that predicts a novel
 | 2026-08-29 | **TRT-FLL physical model frozen as governing objective** ([governing model](../0-program-methods/TRT-FLL-PHYSICAL-MODEL.md); [empirical ledger](fll-empirical-falsification-ledger.md)). $L$ is a primitive global physical admissibility constraint in $\chi\equiv\mathcal A(I\mid L)$, not an abstract logical doctrine later applied to physics. The model excludes $I_{\mathrm{non\text{-}bivalent}}$ from $\Omega_{\mathrm{actualizable}}$; one reproducible irreducible $B$ or $N$ actualization falsifies that exclusion rule. Stronger classical assumptions remain explicitly excluded. | Freezes the physical-model framing and corrects programme-order drift without changing evidence or confidence. The empirical hypothesis is **open and falsifiable**; no historical ledger verdict is prejudged. TRT remains **Unappraised**. |
 | 2026-08-29 | **Non-bivalent physics installed as adversarial background** ([context statement](../2-theory/00-foundational/non-bivalent-physics-adversarial-background.md)). Primary-source review distinguishes non-Boolean quantum logic, failure of global noncontextual valuation, many-valued future propositions, three-valued indeterminacy, and paraconsistent potentiality. The strongest direct adversaries are placed into the ledger without translating their formal claims into unobserved $B/N$ actualizations. | Substantive adversarial scoping with no evidential promotion: the historical pressure is accepted at full strength, while case-specific verdicts remain open. TRT remains **Unappraised**. |
 | 2026-08-29 | **TRT-FLL status corrected after operational critique** ([governing hypothesis](../0-program-methods/TRT-FLL-PHYSICAL-MODEL.md#3-physical-ontology-operationalization-and-law-criterion); [`WP-TRT-FLL-0002`](../05-work-packages/WP-TRT-FLL-0002-adversarial-operational-protocol/package.yaml)). “Proposed physical law” was an over-promotion: $\chi\equiv\mathcal A(I\mid L)$ is presently an ontological schema, and $P_\chi$ lacks an apparatus-complete identity/event definition. Current status is **physical hypothesis / proposed physical principle**. Law status requires a contrastive protocol and survived severe tests. Local Friendliness is the leading candidate frontier, not a decided implementation. | Self-correction with no evidential promotion. Nearby foundational results constrain rivals but do not corroborate TRT-FLL unless they could expose $B/N$. The next increment is operational physics; TRT remains **Unappraised**. |
+| 2026-11-09 | **Charter and objective filed** ([charter](../0-program-methods/TRT-charter.md); [objective](../0-program-methods/TRT-objective.md)). Discrete A-events forming a causal set; spacetime recovered from their order; order and redundancy selection; Tsirelson and Persistence of Zero obligations; three failure conditions. | Reframing with new obligations and no new evidence. **Unappraised** |
+| 2026-11-16 | **Reconciliation rulings** ([record](../0-program-methods/sessions/2026-11-16-reconciliation-rulings.md); [map](../reviews/2026-11-reconciliation-map/reconciliation-map.md)). PRD-001 recorded `refuted_by_redescription` for its tested forms; failure condition 1 moved to the Record-Threshold Conjecture (PRD-004); FLL falsifier made failure condition 4; gravity reposed on the A-order. Order-difference channel recorded negative (NB-20261116, MEDIUM, retroactive; red-team confirming). | Problemshift **S1** opened, **ungraded**; its grading condition is stated above. Still **Unappraised** |
+| 2026-11-17 | **Candidate ACT-004 registered** (classification dilemma for criteria over D; conjectured, proof open; notebook NB-20261117 preregistered). Would explain the re-description pattern recorded on 2026-06-26 and twice on 2026-06-29. | No change. If proved, supports S1's premise; if refuted, S1's move was unforced |

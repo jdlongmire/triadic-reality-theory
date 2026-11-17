@@ -58,3 +58,17 @@ JD approved both proposals from the discussion of thinx-gpt's status review (202
 
 - ROADMAP v0.3 rebased on the charter (draft PR, for JD's word).
 - A Lean receipt row naming `lemma1_LI_without_A`, `lemma2_LA_without_I`, `lemma3_IA_without_L` in full, at the next build.
+
+## Addendum: reading the June negative
+
+In discussion (2026-11-17 05:39 to 05:41 CT) JD asked how many open conjectures the programme can carry and how to read the June 2026 negative on PRD-001, and approved drafting two records for his word.
+
+### Records
+
+- `traceability/claims/ACT-004.yaml`: candidate classification dilemma for criteria over D (conjectured, proof open). The unrestricted no-go first proposed in discussion is false and is excluded in the claim's notes.
+- `3-prediction/co-admissibility-conjecture/notebooks/NB-20261117-d-only-classification-dilemma.md`: preregistered at `33321893dcec23bdebaa661030418767a14719e5`.
+- `3-prediction/appraisal.md`: problemshift S1 recorded ungraded with its grading condition; log entries 2026-11-09, 2026-11-16, 2026-11-17; candidates table updated.
+
+### Carry to next
+
+- JD's word on the draft PR carrying these records. It must merge with a merge commit: a squash would drop the preregistration commit from history and fail the records check.

@@ -3,6 +3,7 @@
     "ACT-001",
     "ACT-002",
     "ACT-003",
+    "ACT-004",
     "EXT-001",
     "EXT-002",
     "INT-001",
@@ -59,6 +60,11 @@
     {
       "from": "ACT-003",
       "to": "OPN-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACT-004",
+      "to": "ONT-001",
       "type": "logical"
     },
     {
