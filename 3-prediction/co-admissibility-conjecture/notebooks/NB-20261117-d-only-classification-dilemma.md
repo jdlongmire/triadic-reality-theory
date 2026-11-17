@@ -23,7 +23,7 @@ failure_condition: >
   system, while leaving the dynamics and the Born statistics unmodified. Or the
   dilemma can be proved only with a premise beyond the charter's placement of unitary
   evolution in D, in which case it is recorded as conditional on that premise.
-preregistered_commit: pending
+preregistered_commit: 33321893dcec23bdebaa661030418767a14719e5
 method: >
   Formalize "classification criterion over D" as a map from D-data to a distinguished
   set of structures whose output does not enter the dynamics or the measure. Show that
