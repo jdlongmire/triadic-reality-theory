@@ -58,9 +58,54 @@ jobs:
           done
           test -x "$HOME/.elan/bin/lean" || { echo "::error::elan toolchain install failed after 3 attempts"; exit 1; }
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
-      - name: Typecheck Core/Primitives.lean (no Mathlib, must have 0 sorry)
+      - name: Typecheck Core/Primitives.lean (no Mathlib)
         working-directory: formalization
         run: lean TrtFormalization/Core/Primitives.lean
+      - name: Typecheck Core/Irreducibility.lean (no Mathlib; backs ONT-002 and ONT-004)
+        working-directory: formalization
+        run: lean TrtFormalization/Core/Irreducibility.lean
+      - name: No sorry or admit in TrtFormalization
+        working-directory: formalization
+        run: |
+          # lean only warns on sorry, so the typecheck alone does not enforce this.
+          HITS=$(grep -rnwE 'sorry|admit' --include='*.lean' TrtFormalization || true)
+          if [ -n "$HITS" ]; then
+            echo "::error::sorry or admit found in TrtFormalization"
+            echo "$HITS"
+            exit 1
+          fi
+          echo "OK: no sorry or admit in TrtFormalization"
+
+  reproducibility:
+    name: Reproducibility (registered computations)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      # Pinned so a library release cannot silently move a reference result.
+      - run: pip install numpy==2.5.3 scipy==1.18.1 pyyaml
+      - name: Re-run every computation in 0-program-methods/records/computations.yaml
+        run: python3 0-program-methods/ops/reproduce.py
+
+  research-records:
+    name: Research records (notebooks, registry, Lean receipts)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # preregistration and the Lean receipt gate are proved from history
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Records tests (offline)
+        run: python3 0-program-methods/ops/test_research_records.py
+      - name: Validate notebooks, registry, Lean log, sessions; Lean receipt gate on pull requests
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+        run: python3 0-program-methods/ops/research_records.py ${PR_BASE:+--pr-base "$PR_BASE"}
 
   math-lint:
     name: GitHub MathJax / LaTeX safety

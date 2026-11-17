@@ -1,0 +1,12 @@
+Planck length 1.61625502392855e-35
+G=6.674e-11  SNR(electron,R=1um,T=1e-8s)=1.376510e+10
+G=6.674e-06  SNR(electron,R=1um,T=1e-8s)=1.376510e+10
+G=6.674e-16  SNR(electron,R=1um,T=1e-8s)=1.376510e+10
+closed-form coefficient check: 3.069980123839465 vs sqrt(3pi)= 3.0699801238394655
+electron, R=1 um, coherence 1e-8 s: T_collapse=5.28e-29 s, observed/predicted=1.89e+20, orders=20.3
+electron, R=100 um, coherence 1e-8 s: T_collapse=5.28e-31 s, observed/predicted=1.89e+22, orders=22.3
+electron, R=10 nm, coherence 1e-8 s: T_collapse=5.28e-27 s, observed/predicted=1.89e+18, orders=18.3
+molecule 25 kDa, R=266 nm, coherence 7.5e-3 s: T_collapse=9.55e-44 s, observed/predicted=7.85e+40, orders=40.9
+molecule 25 kDa, R=10 nm, coherence 7.5e-3 s: T_collapse=2.54e-42 s, observed/predicted=2.95e+39, orders=39.5
+electron Diosi-Penrose-type tau ~ 1.90e+30 s
+25 kDa Diosi-Penrose-type tau ~ 2.44e+14 s
