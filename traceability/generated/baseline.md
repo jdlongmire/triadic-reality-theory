@@ -6,10 +6,10 @@ This is the standing claim-by-claim baseline. It changes only when the records c
 
 **Proof basis** records which axioms a proven Lean theorem uses, from its `#print axioms` audit. It says nothing about whether the theorem establishes its claim; each claim's statement and notes say what is and is not shown.
 
-**Claims: 29. Registered computations: 6. Notebooks: 1.**
+**Claims: 30. Registered computations: 6. Notebooks: 2.**
 
-By epistemic status: established 2; argued 13; conjectured 3; open 10; refuted_by_redescription 1.
-By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 11.
+By epistemic status: established 2; argued 13; conjectured 4; open 10; refuted_by_redescription 1.
+By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 12.
 
 ## Claims
 
@@ -28,8 +28,9 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 11.
 | ONT-004 | 1 | primitive | argued | verified | 4 proven (standard axioms only) | none | none | Synthetic Necessity of the Triad |
 | PHY-001 | 1 | bridge | argued | axiomatized | none | none | none | Discreteness and Local Finiteness of the A-Order |
 | ACT-003 | 2 | bridge | conjectured | open | none | none | none | Redundancy Selection (working channel for the selection rule) |
+| ACT-004 | 2 | derived | conjectured | open | none | none | NB-20261117-d-only-classification-dilemma (open) | Classification Dilemma for Criteria over D |
 | EXT-002 | 2 | imported | argued | imported | none | none | none | CST Number-Volume Kinematic Substrate (imported) |
-| OPN-001 | 2 | open | open | prose_only | none | CMP-001, CMP-002, CMP-003 | none | Formalize Co-Admissibility (Task 0.1) |
+| OPN-001 | 2 | open | open | prose_only | none | CMP-001, CMP-002, CMP-003 | NB-20261117-d-only-classification-dilemma (open) | Formalize Co-Admissibility (Task 0.1) |
 | OPN-002 | 2 | open | open | open | none | none | none | Actualization-Resolution Keystone |
 | OPN-003 | 2 | open | open | open | none | none | none | Derivation / Recovery of Known Physics |
 | OPN-004 | 2 | open | open | open | none | none | none | Derivation of the Born Measure |
@@ -40,7 +41,7 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 11.
 | OPN-009 | 2 | open | open | prose_only | none | none | none | Operationalize and Attempt to Falsify the TRT-FLL Physical Hypothesis |
 | QM-001 | 2 | open | open | open | none | none | none | Tsirelson Obligation (strong positivity from the triad) |
 | QM-002 | 2 | bridge | argued | prose_only | none | none | none | Persistence of Zero (obligation (d')) |
-| PRD-001 | 3 | prediction | refuted_by_redescription | open | none | CMP-003 | none | Co-Admissibility Conjecture (incompatible channels) |
+| PRD-001 | 3 | prediction | refuted_by_redescription | open | none | CMP-003 | NB-20261117-d-only-classification-dilemma (open) | Co-Admissibility Conjecture (incompatible channels) |
 | PRD-002 | 3 | prediction | conjectured | open | none | none | none | Gravity Linearity Test (GR vs modified gravity) |
 | PRD-003 | 3 | prediction | argued | prose_only | none | none | none | Effectiveness of Mathematics (retrodiction) |
 | PRD-004 | 3 | prediction | conjectured | open | none | none | none | Record-Threshold Conjecture |
@@ -75,3 +76,4 @@ By proof status: verified 2; imported 2; axiomatized 7; prose_only 7; open 11.
 - PRD-004: prediction with no registered computation.
 - CMP-005: registered computation serves no claim (no owning claim is recorded for this witness; to be assigned when its notebook is opened).
 - CMP-006: registered computation serves no claim (the charter's order-difference falsification (former working-notes section 4.5), cited by the charter).
+- NB-20261117-d-only-classification-dilemma: open.

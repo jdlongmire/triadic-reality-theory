@@ -1,0 +1,42 @@
+id: ACT-004
+name: Classification Dilemma for Criteria over D
+statement: |
+  Let a classification criterion over D be any rule whose inputs are data intrinsic
+  to D (the state, the Hamiltonian, the system-environment decomposition and its
+  couplings) and which leaves D's unitary dynamics and the Born statistics
+  unmodified. Any such criterion either (i) selects what unitary dynamics with
+  einselection already selects, and so predicts nothing new, or (ii) selects
+  otherwise and is contradicted by the dynamics it leaves in place. Discriminating
+  content therefore requires a rule acting at D -> X.
+tier: 2
+role: derived
+proof_status: open
+epistemic_status: conjectured
+depends_on:
+  - { claim_id: ONT-001, dependency_type: logical }
+source_documents:
+  - { doc: NB-20261117-d-only-classification-dilemma, section: "front matter" }
+  - { doc: 3-prediction/appraisal.md, section: "Log, 2026-06-26 to 2026-06-29" }
+risk_if_false: |
+  A classification criterion over D with discriminating content exists. Then
+  D-only routes, including OPN-001 as posed, remain live, and the move of the
+  charter's first failure condition from PRD-001 to the D -> X selection rule
+  (PRD-004) was a choice the evidence did not force.
+notes: |
+  Proposed by thinx-claude on 2026-11-17, at JD's direction, in discussing how to
+  read the June 2026 negative on PRD-001. The pattern it would explain is recorded
+  three times in the appraisal log: the purity-rate sieve re-describes einselection
+  (2026-06-26); the categorical recast's idempotent-monad decoherence is the same
+  re-description route (2026-06-29); the sheaf probe's discriminating layer is the
+  probabilistic one, horn (b), by definition (2026-06-29).
+  Scope. The unrestricted form, "no criterion over D discriminates", is false:
+  dynamical rules built from D-data do discriminate (Diosi-Penrose collapse; the
+  order-difference channel, recorded negative in NB-20261116). In TRT's terms such
+  rules act at D -> X and fall outside the dilemma. The restriction to
+  classification criteria, which leave dynamics and statistics untouched, is the
+  claim.
+  Weight. Once the charter's placement of unitary evolution inside D is granted,
+  the dilemma may be close to immediate. Its value would be its consequence: if it
+  holds, OPN-001 as posed cannot yield discriminating content and is to be reposed
+  onto D -> X or closed, by JD's ruling. The charter statement it relies on
+  ("Unitary evolution is internal structure of D") is not yet a registered claim.

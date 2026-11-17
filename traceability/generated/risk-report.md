@@ -18,6 +18,7 @@
 | ACT-001 | 1 | If transition can be eliminated without explanatory loss, A is not irreducible. If actual states need not satisfy L₃, the canonical gate fails. |
 | ACT-002 | 1 | If conditioning is not transitive, the acyclicity result fails and the order on X is not established; obligation (e) reopens and (d') loses its premise. |
 | ACT-003 | 2 | If no record threshold survives the existing bounds, obligation (b) fails on its current channel and the selection rule must be re-founded. |
+| ACT-004 | 2 | A classification criterion over D with discriminating content exists. Then D-only routes, including OPN-001 as posed, remain live, and the move of the charter's first failure condition from PRD-001 to the D -> X selection rule (PRD-004) was a choice the evidence did not force. |
 | EXT-001 | 1 | If the imported proofs do not build under the matched toolchain, the L₃ formal backbone is unavailable. |
 | EXT-002 | 2 | If the number-volume correspondence fails as a kinematic substrate (e.g. Poisson sprinkling proves inconsistent with Lorentz invariance or with continuum recovery), ADCE (OPN-008) loses its kinematic dictionary entirely and the everpresent-Λ rival loses its fluctuation magnitude; the comparison in adce.md §11 becomes moot. |
 | INT-001 | 1 | If the triad requires a fourth constituent principle, obligation 1 fails. If the source is treated as a constituent, the irreducibility claims (ONT-002, ONT-004) are compromised. |

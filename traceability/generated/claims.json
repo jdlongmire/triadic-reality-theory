@@ -115,6 +115,33 @@
     "statement": "Charter obligation (b)'s working channel: a distinction is a candidate for\nactualization if it is recorded in at least two disjoint, causally independent\nregions of D; A actualizes one branch of the resulting decomposition. The\nunrefined rule (actualize at redundancy two, with no threshold in the record)\nis refuted by existing three-photon GHZ data (Erven et al. 2014): the records\nwere spacelike separated and coherence between branches persisted. A threshold\nin the record itself (its size, count, or irrecoverability) is therefore\nmandatory; with a declared threshold the rule is a collapse-type model and is\nexposed to collapse-model bounds. The threshold form is PRD-004.\n",
     "tier": 2
   },
+  "ACT-004": {
+    "depends_on": [
+      {
+        "claim_id": "ONT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "id": "ACT-004",
+    "name": "Classification Dilemma for Criteria over D",
+    "notes": "Proposed by thinx-claude on 2026-11-17, at JD's direction, in discussing how to\nread the June 2026 negative on PRD-001. The pattern it would explain is recorded\nthree times in the appraisal log: the purity-rate sieve re-describes einselection\n(2026-06-26); the categorical recast's idempotent-monad decoherence is the same\nre-description route (2026-06-29); the sheaf probe's discriminating layer is the\nprobabilistic one, horn (b), by definition (2026-06-29).\nScope. The unrestricted form, \"no criterion over D discriminates\", is false:\ndynamical rules built from D-data do discriminate (Diosi-Penrose collapse; the\norder-difference channel, recorded negative in NB-20261116). In TRT's terms such\nrules act at D -> X and fall outside the dilemma. The restriction to\nclassification criteria, which leave dynamics and statistics untouched, is the\nclaim.\nWeight. Once the charter's placement of unitary evolution inside D is granted,\nthe dilemma may be close to immediate. Its value would be its consequence: if it\nholds, OPN-001 as posed cannot yield discriminating content and is to be reposed\nonto D -> X or closed, by JD's ruling. The charter statement it relies on\n(\"Unitary evolution is internal structure of D\") is not yet a registered claim.\n",
+    "proof_status": "open",
+    "risk_if_false": "A classification criterion over D with discriminating content exists. Then\nD-only routes, including OPN-001 as posed, remain live, and the move of the\ncharter's first failure condition from PRD-001 to the D -> X selection rule\n(PRD-004) was a choice the evidence did not force.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "NB-20261117-d-only-classification-dilemma",
+        "section": "front matter"
+      },
+      {
+        "doc": "3-prediction/appraisal.md",
+        "section": "Log, 2026-06-26 to 2026-06-29"
+      }
+    ],
+    "statement": "Let a classification criterion over D be any rule whose inputs are data intrinsic\nto D (the state, the Hamiltonian, the system-environment decomposition and its\ncouplings) and which leaves D's unitary dynamics and the Born statistics\nunmodified. Any such criterion either (i) selects what unitary dynamics with\neinselection already selects, and so predicts nothing new, or (ii) selects\notherwise and is contradicted by the dynamics it leaves in place. Discriminating\ncontent therefore requires a rule acting at D -> X.\n",
+    "tier": 2
+  },
   "EXT-001": {
     "depends_on": [
       {
