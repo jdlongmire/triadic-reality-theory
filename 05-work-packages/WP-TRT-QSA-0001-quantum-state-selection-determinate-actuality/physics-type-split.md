@@ -52,15 +52,15 @@ This prevents state determinacy from being confused with value determinacy.
 
 Use a q-relative predicate rather than treating the whole informational domain as globally indeterminate:
 
-$$U(\sigma,q) \iff \sigma\in I \land \neg\exists\alpha,\chi_q\;\operatorname{Settled}(\alpha,q,\chi_q).$$
+$$U(\sigma,q) \iff \sigma\in I \land \neg\exists\alpha,\chi_q\;\mathrm{Settled}(\alpha,q,\chi_q).$$
 
 Where physical instantiation matters:
 
 $$U_{\mathrm{inst}}(\sigma,q)
 \iff
-\operatorname{Inst}(\sigma)
+\mathrm{Inst}(\sigma)
 \land
-\neg\exists\alpha,\chi_q\;\operatorname{Settled}(\alpha,q,\chi_q).$$
+\neg\exists\alpha,\chi_q\;\mathrm{Settled}(\alpha,q,\chi_q).$$
 
 This is the principal quantum-mechanical class: real as state, unsettled as a determinate fact under q.
 
@@ -70,7 +70,7 @@ $$U_{\mathrm{rep}}(\sigma)
 \iff
 \sigma\in I
 \land
-\neg\operatorname{Inst}(\sigma).$$
+\neg\mathrm{Inst}(\sigma).$$
 
 Do not conflate U_rep and U_inst.
 
@@ -81,9 +81,9 @@ Use:
 $$D_q(\chi_q)
 \iff
 \exists\alpha\;
-\operatorname{Settled}(\alpha,q,\chi_q)
+\mathrm{Settled}(\alpha,q,\chi_q)
 \land
-\operatorname{L3Admissible}(\chi_q).$$
+\mathrm{L3Admissible}(\chi_q).$$
 
 This symbol D_q is local to QSA analysis and must not be confused with canonical D, the metaphysical actualizable domain.
 
@@ -103,7 +103,7 @@ This is under-determinate physics relative to any q not yet bounded/settled.
 
 If:
 
-$$\operatorname{Spec}(\alpha,\sigma,q),$$
+$$\mathrm{Spec}(\alpha,\sigma,q),$$
 
 then q is in force. The question is bounded; its determinate value need not be settled.
 
@@ -113,7 +113,7 @@ This is **specified under-determinate physics** relative to q.
 
 If:
 
-$$\operatorname{Settled}(\alpha,q,\chi_q),$$
+$$\mathrm{Settled}(\alpha,q,\chi_q),$$
 
 then the action occurrence has the derived settling role and χ_q is determinate physics relative to q.
 
@@ -149,7 +149,7 @@ $$\mathrm{Decoherence}\;\not\equiv\;\mathrm{Settled}.$$
 
 And only where independently warranted:
 
-$$\mathrm{Decoherence\ interaction}\Rightarrow\operatorname{Spec}(\alpha,\sigma,q).$$
+$$\mathrm{Decoherence\ interaction}\Rightarrow\mathrm{Spec}(\alpha,\sigma,q).$$
 
 ## 7. Everett / MWI test
 

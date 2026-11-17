@@ -1,0 +1,97 @@
+id: WP-TRT-TXRX-0001
+title: Information Reception, Transmission, and the Living-System Signature
+status: proposed
+commitment: exploratory
+scope: >
+  Develop and critically test a Tx/Rx model of informational agency across living systems,
+  from minimal biological responsiveness through animal cognition to human rational agency.
+  The package asks whether reception, discrimination, integration, state-dependent action,
+  and transmission constitute a characteristic signature of life, while explicitly avoiding
+  premature use of Tx/Rx as a definition of life. It also examines whether human informational
+  agency is merely quantitatively greater than nonhuman animal agency or includes qualitative
+  capacities such as open-ended symbolic reference, propositional truth assessment, recursive
+  representation, abstraction, intentional specification, and durable externalization of
+  information.
+authority_boundary: >
+  This package is protective-belt/exploratory work. It does not modify TRT's L3-I_infinity-A
+  hard core, define life by fiat, infer consciousness from stimulus-response behavior, equate
+  Shannon information with semantic information, or claim that observed biological Tx/Rx
+  establishes divine transmission. The theological/Logos interpretation is to be kept
+  distinguishable from the empirical classification and philosophical inference.
+working_hypotheses:
+  life_signature: >
+    A characteristic signature of living systems is capacity to receive environmentally
+    relevant information, discriminate among states, integrate that information with internal
+    state, and actualize a state-dependent response. Transmission may emerge at richer levels
+    and need not be required in every individual organism or state.
+  animal_agency: >
+    Nonhuman animals instantiate progressively richer Rx/Tx informational agency including
+    perception, integration, learning, signaling, representation, planning, social cognition,
+    and in some taxa limited symbolic, compositional, or metacognitive capacities.
+  human_discontinuity: >
+    Human rational agency may include categorical as well as quantitative distinctions:
+    open-ended language, abstraction, recursive thought, propositional truth/falsity,
+    normative logic, counterfactual reasoning, intentional specification, cumulative symbolic
+    culture, and durable external information systems.
+  generative_pathway: >
+    Mind is an observed generative pathway by which represented or specified information can
+    be intentionally actualized into physical artifacts and communications that are recoverable
+    by other minds.
+candidate_hierarchy:
+  - "Level 0 - information-bearing physical states: structure may carry recoverable information; no cognition inferred."
+  - "Level 1 - biological Rx/response: detection, discrimination, integration with internal state, state-dependent action."
+  - "Level 2 - animal Rx/Tx: perception, learning, representation where warranted, signaling and intentional communication where demonstrated."
+  - "Level 3 - higher animal informational agency: flexible signaling, planning, social cognition, learned symbolic association, limited compositionality/metacognition where demonstrated."
+  - "Level 4 - human rational Tx/Rx agency: open-ended symbolic language, abstraction, recursive reasoning, truth assessment, intentional specification, cumulative culture, and durable externalized information."
+formal_schemata:
+  minimal_life: "Rx -> discriminate -> integrate -> act"
+  animal: "Rx -> represent? -> integrate -> select -> act/Tx"
+  human: "Rx -> represent -> abstract -> reason -> specify -> actualize/Tx"
+  human_recursive: "Rx -> model information -> model source -> model self as receiver -> model another receiver -> intentionally construct message -> Tx"
+  mind_artifact_mind: "Mind -> specification -> encoded information -> artifact -> recoverable information -> Mind"
+key_distinctions:
+  - information-bearing versus information-sensitive
+  - information-sensitive versus information-responsive
+  - information-responsive versus information-representing
+  - information-representing versus information-generating
+  - Shannon/syntactic information versus semantic content
+  - causal covariance versus representation
+  - signaling versus intentional communication
+  - quantitative capacity differences versus qualitative/categorical capacities
+  - empirical Tx/Rx classification versus theological interpretation
+research_questions:
+  - Is there any known living system that completely lacks information reception, discrimination, and state-dependent response?
+  - Which Tx/Rx properties are necessary, common, or contingent across accepted living systems?
+  - How should dormant organisms, spores, seeds, viruses, viroids, prions, organelles, colonies, and obligate parasites be classified?
+  - Which nonliving physical, chemical, computational, or AI systems satisfy superficially similar Rx/response criteria, and what prevents category collapse?
+  - What is the strongest evidence for semantic, compositional, recursive, counterfactual, metacognitive, or intentionally specified communication in nonhuman animals?
+  - Are human capacities adequately modeled as scale increases along continuous animal dimensions, or do one or more empirically defensible discontinuities remain?
+  - How does the Tx/Rx model map onto TRT without reducing I to Shannon information or treating A as biological agency?
+  - How does the model interface with the Intelligible Information Argument while keeping its empirical and metaphysical burdens explicit?
+severe_tests:
+  - Find accepted living systems for which reception/discrimination/state-dependent response is absent in principle rather than merely suspended by dormancy.
+  - Find nonliving systems satisfying the proposed minimal signature strongly enough that the signature loses discriminatory value.
+  - Seek strongest counterexamples to claimed human uniqueness from apes, cetaceans, corvids, parrots, elephants, cephalopods, and social insects.
+  - Test each proposed human discontinuity independently; retire or weaken any criterion demonstrated robustly in nonhuman systems.
+  - Distinguish externally assigned semantics from intrinsic biological use/function without assuming the conclusion.
+  - Test whether Tx is genuinely required for the life-signature thesis or belongs only to higher-order agency.
+actions:
+  - Build a terminology note defining Rx, Tx, signal, information, representation, semantics, agency, response, communication, and specification.
+  - Produce a literature-backed comparative matrix spanning microbes, plants, fungi, simple animals, selected high-cognition taxa, and humans.
+  - Create an edge-case ledger for viruses, dormancy, collective organisms, artificial life, autonomous machines, and AI.
+  - Create a human-discontinuity evidence table with strongest affirmative evidence and strongest counterexample for each proposed capacity.
+  - Map the resulting hierarchy to TRT L3/I_infinity/A using typed relations and explicit non-equivalences.
+  - Map interfaces to IIA/Tx-Rx work without treating the analogy as proof of divine communication.
+  - Produce a falsification/disconfirmation ledger and confidence grades for each surviving claim.
+  - Determine whether results warrant a standalone paper, a TRT protective-belt note, and/or a handoff to a biological research programme.
+verification: >
+  Done requires explicit definitions, a comparative evidence matrix, edge-case analysis, strongest
+  nonhuman counterexamples, a falsification ledger, and a typed TRT/IIA interface. No conclusion
+  may depend on defining life, mind, representation, semantics, or agency in a way that assumes
+  the result. Claims of human categorical discontinuity must be criterion-specific and survive
+  deliberate testing against the strongest known animal cases.
+disposition: >
+  OPEN. Initial framing captured 2026-10-04. Tx/Rx informational agency is being investigated as
+  a characteristic signature of living systems and as a graded hierarchy of creaturely agency.
+  The current formulation intentionally leaves open whether the human-animal distinction is
+  wholly quantitative, partly categorical, or criterion-dependent.

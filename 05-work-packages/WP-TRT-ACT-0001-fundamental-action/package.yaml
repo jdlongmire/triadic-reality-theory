@@ -1,0 +1,26 @@
+id: WP-TRT-ACT-0001
+title: Fundamental Action, ontic difference and constitutive actuality
+status: in_progress
+commitment: stretch
+scope: >
+  TRT-owned foundational research on A as irreducible non-identity change,
+  ontic distinction, and the noncircular constitution of actuality.
+  Preserve typed representability, coherence, actualizability and actuality.
+authority_boundary: >
+  Research and provenance only. No canonical hard-core, Lean, traceability claim,
+  physics prediction, or published theory changes without separate review and approval.
+dependencies:
+  - WP-TRT-CORE-0001
+  - LRT:WP-LRT-ACT-0001
+actions:
+  - Maintain source provenance for transferred LRT research.
+  - Test A-NIC against existing TRT fundamental Action definition.
+  - Resolve whether internal difference and constitutive grounding can be noncircular.
+  - Distinguish foundational results from LRT physical consequences.
+verification:
+  - Preserve original LRT research artifacts and PR references.
+  - Identify countermodels, assumptions, failure conditions, and confidence.
+  - Do not claim Lean proof without execution.
+disposition: >
+  TRT is authoritative for foundational Action semantics. LRT retains
+  downstream physical-reconstruction work and immutable research provenance.

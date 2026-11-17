@@ -13,7 +13,7 @@ This introduction presents the same Logic-Information-Action ontology used in th
 
 ## Logic constrains
 
-The coin is the coin. It cannot be both heads-up and not-heads-up at the same time and in the same respect. TRT calls the relevant constraint $L_3$: Identity, Non-Contradiction, and Excluded Middle.
+The coin is the coin. It cannot be both heads-up and not-heads-up at the same time and in the same respect. TRT calls the relevant constraint $L_3$: Identity, Non-Contradiction, and Excluded Middle, with Excluded Middle binding over propositions over actualized states.
 
 ## Information differentiates
 

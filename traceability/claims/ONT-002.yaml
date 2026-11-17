@@ -8,7 +8,7 @@ statement: |
   or transition; A cannot supply its relata or admissibility constraints.
 tier: 1
 role: primitive
-proof_status: prose_only
+proof_status: verified
 epistemic_status: argued
 depends_on: []
 source_documents:
@@ -16,4 +16,4 @@ source_documents:
 risk_if_false: |
   A successful reduction of any primitive to the other two, without explanatory
   loss or smuggling, defeats the irreducibility claim and requires hard-core revision.
-notes: Canonical normalization under WP-TRT-CORE-0001.
+notes: Canonical normalization under WP-TRT-CORE-0001. Pair-failure formalized in Lean (formalization/TrtFormalization/Core/Irreducibility.lean, merged 2026-11-12 at 73fa11d1; results note at 05-work-packages/WP-TRT-LRT-ONTO-0001-ultimate-actuality-maximal-perfection/cpit-formalization-results.md), proved relative to the constitutive conditions stated there. General non-definability is not claimed, and the WP-TRT-CORE-0001 A-reduction challenge remains open.

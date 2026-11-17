@@ -27,8 +27,8 @@ $$V_0=\{L,I,A,\chi\}.$$
 
 Let the Level 1 vocabulary be:
 
-$$V_1=\{L_3,I_\infty,\sigma,\operatorname{Inst},\alpha,q,\operatorname{Spec},
-\operatorname{Settled},X,\chi_q\}.$$
+$$V_1=\{L_3,I_\infty,\sigma,\mathrm{Inst},\alpha,q,\mathrm{Spec},
+\mathrm{Settled},X,\chi_q\}.$$
 
 QSA is a conservative typed refinement only if every member of V1 is reducible to a type, instance, status, or relation grounded in V0.
 
@@ -96,7 +96,7 @@ Thus Inst is a status predicate relating I-level structure to the actual domain 
 
 Schematic:
 
-$$\operatorname{Inst}(\sigma)\Rightarrow \exists x\in X\;\operatorname{Structure}(x)=\sigma.$$
+$$\mathrm{Inst}(\sigma)\Rightarrow \exists x\in X\;\mathrm{Structure}(x)=\sigma.$$
 
 The equality is schematic and must not be promoted to a formal identity without a carrier/type model.
 
@@ -122,7 +122,7 @@ is an occurrence/token of primitive Action.
 
 Mapping:
 
-$$\alpha\in\operatorname{Occ}(A).$$
+$$\alpha\in\mathrm{Occ}(A).$$
 
 No new primitive is introduced. The type/token distinction merely prevents A from being overloaded as both primitive category and individual occurrence.
 
@@ -166,7 +166,7 @@ Therefore Spec is a derived relation among A- and I-typed terms under constraint
 
 Schematic expansion:
 
-$$\operatorname{Spec}\subseteq \mathbf{Act}\times I\times I.$$
+$$\mathrm{Spec}\subseteq \mathbf{Act}\times I\times I.$$
 
 The exact admissibility conditions remain open.
 
@@ -243,7 +243,7 @@ $$\chi_q\rightsquigarrow \chi\;\text{under fixed }q.$$
 
 The QSA physics split uses U(σ,q) only as a status predicate:
 
-$$U(\sigma,q)\iff \sigma\in I\land\neg\exists\alpha,\chi_q\;\operatorname{Settled}(\alpha,q,\chi_q).$$
+$$U(\sigma,q)\iff \sigma\in I\land\neg\exists\alpha,\chi_q\;\mathrm{Settled}(\alpha,q,\chi_q).$$
 
 U therefore introduces no ontological object. It abbreviates absence of a settlement relation for q.
 

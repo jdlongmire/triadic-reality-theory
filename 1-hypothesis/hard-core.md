@@ -14,6 +14,8 @@ $$L_3=\{\mathrm{Identity},\mathrm{NonContradiction},\mathrm{ExcludedMiddle}\}$$
 
 L₃ constrains what may determinately obtain. It supplies neither informational content nor transition. Denial of Identity or Non-Contradiction is argued by elenchus to depend upon the logical resources it attempts to deny. The physical reach of Excluded Middle remains exposed through the programme's FLL work.
 
+**Scope of Excluded Middle (adopted 2026-11-12).** Excluded Middle binds over propositions over actualized states. The scoping is stated in the programme charter's definition of L3 (0-program-methods/TRT-charter.md) and is adopted here as the precise statement; the set statement above is to be read with this scope. Reconciliation record: 0-program-methods/sessions/2026-11-12-charter-hardcore-reconciliation.md.
+
 ### I∞: unbounded informational representability
 
 I∞ is the unbounded domain of representable informational differentiation: distinctions, relations, states, configurations, and structures.

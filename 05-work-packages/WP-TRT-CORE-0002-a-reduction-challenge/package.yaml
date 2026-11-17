@@ -1,0 +1,109 @@
+id: WP-TRT-CORE-0002
+title: Test whether primitive A can be eliminated without explanatory loss
+status: proposed
+commitment: stretch
+governing_objective: >
+  Close, one way or the other, the open challenge recorded in WP-TRT-CORE-0001's
+  adversarial review (2026-09-29): make the representation/efficacy distinction rigorous
+  and test whether A can be eliminated without explanatory loss.
+scope: >
+  WP-TRT-CORE-0001 (complete) normalized the corpus around L3, I-infinity, and A as
+  irreducible co-primitives, and its adversarial review rejected the L3 and I-infinity
+  reductions provisionally but left the A reduction an open challenge: given a complete
+  state space and laws, a transition rule represents a relation, and TRT claims that
+  representation and constraint do not themselves entail that a transition obtains.
+  The CPIT pair-failure formalization (WP-TRT-LRT-ONTO-0001, merged 2026-11-12)
+  sharpened the question without closing it: representation is exactly the rep/adm
+  data of a structure, efficacy is exactly its trans data, and Lemma 1 exhibits the gap
+  between a complete representation and any obtaining. The reductionist's live move is
+  untouched: propose that trans is derivable from representation plus laws, in which
+  case the minus-A countermodel is refused not as false but as incomplete.
+
+  This package runs the elimination test properly. It must (1) state the
+  representation/efficacy distinction in a form a reductionist accepts as fair,
+  (2) construct the strongest available elimination of A (a derivation of transition
+  from state space plus laws, in the strongest form the literature offers), and
+  (3) determine what, if anything, the elimination loses: an obtaining, a distinction,
+  a norm, or nothing. Both outcomes are successes for the programme if honestly
+  recorded: a failed elimination with the loss located exactly is the rigorous form of
+  the irreducibility claim for A; a successful elimination is a recorded reduction that
+  forces revision of ONT-002 and the hard core, and must not be resisted by
+  definitional repair.
+authority_boundary: >
+  Internal analysis, formalization experiments, and adversarial review are authorized.
+  This package does not authorize changing the hard core, any traceability claim, or
+  any confidence label on its own findings; claim and hard-core changes follow from its
+  disposition only through the programme lead's ruling. It does not authorize external
+  publication or communication. Work drawing on WP-TRT-ACT-0001's Action research must
+  preserve that package's provenance.
+dependencies:
+  - WP-TRT-CORE-0001 (complete; source of the challenge and its terms)
+  - WP-TRT-LRT-ONTO-0001 (CPIT and its Lean formalization, PR #31, 2026-11-12)
+  - WP-TRT-ACT-0001 (in progress; A semantics research, to be drawn on, not duplicated)
+traceability:
+  claims: [ONT-002, ONT-004]
+  roadmap: [Charter obligation 1]
+actions:
+  - >
+    Restate the challenge in canonical vocabulary, quoting the CORE-0001 residual
+    burden verbatim, and fix what counts as elimination, derivation, and explanatory
+    loss before any argument is run.
+  - >
+    Formalize the representation/efficacy distinction beyond the CPIT module's
+    framework use: define, for an arbitrary structure, which of its content is
+    representational (state space, admissibility, lawlike constraint) and which is
+    efficacious (that a transition obtains), in terms the strongest reductionist
+    positions (dynamical laws as complete; block-universe readings; Humean
+    supervenience of transition on pattern) would accept as a fair statement of their
+    own view.
+  - >
+    Construct the strongest elimination: take the best case that transition is
+    derivable from representation plus laws, and run it against the three CPIT
+    countermodels and against the hard core's typed distinctions. Record where the
+    derivation succeeds, where it stipulates, and where it changes the subject.
+  - >
+    Run the loss audit: if trans is derived, check whether the derivation (a) smuggles
+    an obtaining (a law stated as holding, a solution singled out as realized),
+    (b) loses the distinction between a represented transition and an obtaining one,
+    or (c) loses nothing. Each candidate loss must be exhibited concretely, not
+    asserted.
+  - >
+    Answer the question the CPIT results note leaves open, in so many words: does a
+    stipulated or derived transition relation count as A, or as a redescription of A?
+    The answer must follow from the fixed definitions of action 1, not from the
+    desired conclusion.
+  - >
+    Red-team the package's own result from the reductionist side before disposition:
+    the strongest reading under which the located loss is no loss, or under which the
+    surviving irreducibility is verbal.
+  - >
+    Record a disposition: elimination succeeds (with the required claim and hard-core
+    revisions specified), elimination fails (with the loss located and the
+    representation/efficacy distinction stated in its rigorous form), or the question
+    is shown to be ill-posed as stated (with the corrected question recorded).
+verification: >
+  Done requires a committed disposition document that states the fixed definitions,
+  the strongest elimination attempt in full, the loss audit with concrete exhibits,
+  the red-team pass, and the disposition. Any resulting change to ONT-002, ONT-004, or
+  the hard core is proposed in the disposition and effected only on the programme
+  lead's ruling, in a separate change with traceability regenerated. Repository
+  checks (traceability build, math lint, Lean checks where touched) must pass.
+failure_conditions:
+  - >
+    The package fails as research if it protects A by definition: if the
+    representation/efficacy distinction is drawn so that any derivation of transition
+    counts as redescription by construction, the test was rigged and the result must
+    be recorded as no result.
+  - >
+    The package fails if it answers a weaker question than the challenge: showing
+    that transition is not definable from L3 and I-infinity vocabulary alone, without
+    engaging laws and state space as the reductionist deploys them, does not close the
+    challenge.
+  - >
+    If the elimination succeeds and the package's disposition does not say so plainly,
+    the package has failed the programme's first discipline; a successful elimination
+    is a finding, not a threat.
+disposition: >
+  PROPOSED 2026-11-12 as the successor to WP-TRT-CORE-0001's open challenge and the
+  immediate continuation of the CPIT formalization arc. Gates any epistemic upgrade of
+  ONT-002 and ONT-004 beyond argued.

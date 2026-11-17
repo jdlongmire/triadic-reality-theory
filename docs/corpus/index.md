@@ -25,6 +25,10 @@ The Pages site is explanatory. The repository remains authoritative.
 
 ## Programme governance
 
+The programme charter and objective, filed 2026-11-09, are the governing documents: they state the objective, the open obligations, and the failure conditions.
+
+- [Programme charter](https://github.com/jdlongmire/triadic-reality-theory/blob/main/0-program-methods/TRT-charter.md)
+- [Programme objective](https://github.com/jdlongmire/triadic-reality-theory/blob/main/0-program-methods/TRT-objective.md)
 - [Methodology](https://github.com/jdlongmire/triadic-reality-theory/blob/main/0-program-methods/METHODOLOGY.md)
 - [Roadmap](https://github.com/jdlongmire/triadic-reality-theory/blob/main/0-program-methods/ROADMAP.md)
 - [Research practices](https://github.com/jdlongmire/triadic-reality-theory/blob/main/0-program-methods/research-practices.md)
